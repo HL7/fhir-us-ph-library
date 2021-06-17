@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImplementationGuide
+    xmlns="http://hl7.org/fhir">
+    <id value="hl7-fhir-us-ph-library"/>
+    <meta>
+        <versionId value="9"/>
+        <lastUpdated value="2021-06-17T01:20:53.659+00:00"/>
+        <source value="#0qkGC27fT2zuMCpR"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
+    <version value="0.0.1"/>
+    <name value="USPublicHealthProfilesLibrary"/>
+    <title value="US Public Health Profiles Library"/>
+    <status value="draft"/>
+    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <contact>
+        <name value="HL7 International - Public Health"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
+    <description value="The US Public Health Profiles Library is a collection of reusable architecture and content profiles representing common public health concepts and patterns. It is intended as a complement to US Core that is used to ease implementation burden of healthcare organizations, electronic health record companies, public health agencies, and others involved in the US public health endeavor.&#xA;&#xA;The US Public Health Profiles Library will be instituted in close conjunction with US Core and have an analogous process for implementation, moderation, review, and approval. The intent is to re-use US Core profiles wherever possible and only add profiles that are needed for common public health needs. The library will evolve over time and may be supported by an adjunct profiles registry that includes developing and informational profiles for public health use.&#xA;&#xA;After evaluation and harmonization analysis of two large multi-condition and multi-use case public health projects – eCR and MedMorph, it was determined that there are many common elements between the two IGs. The short-term scope of this library  includes elements common to the above-mentioned FHIR IGs and will define a US Realm specific framework that defines common elements for the implementation guides. The longer-term scope of this will include analysis and inclusion of data elements from Vital Records Death Reporting, Vital Records Birth and Fetal Death Reporting, and other Public Health use cases.&#xA;&#xA;To avoid defining the same profiles multiple times, we have created a US Public Health Profiles Library for use by Public Health and other FHIR standards development efforts to define appropriate FHIR profiles, value sets, etc., once and allow them to be referenced by each of the specific implementation guides. This USPHPL will provide a starting point and framework for inclusion in multiple use case specific implementation guides focused on the exchange of Public Health information to support interoperability among public health systems and reduce provider and implementer burden.&#xA;"/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+            <display value="United States of America"/>
+        </coding>
+        <text value="United States of America"/>
+    </jurisdiction>
+    <packageId value="hl7.fhir.us.ph-library"/>
+    <fhirVersion value="4.0.1"/>
+    <dependsOn id="hl7fhiruscore">
+        <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
+        <packageId value="hl7.fhir.us.core"/>
+        <version value="3.2.0"/>
+    </dependsOn>
+    <definition>
+        <grouping id="content-profiles-group">
+            <name value="Content Profiles"/>
+        </grouping>
+        <grouping id="architecture-profiles-group">
+            <name value="Architecture Profiles"/>
+        </grouping>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-emergency-outbreak-information"/>
+                <display value="US Public Health Emergency Outbreak Information"/>
+            </reference>
+            <name value="US Public Health Emergency Outbreak Information"/>
+            <description value="This profile represents information that is required during a public health emergency/outbreak. This information can be highly variable, so a generic structure has been chosen to represent it."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-group"/>
+        </resource>
+        <page>
+            <nameUrl value="index.html"/>
+            <title value="Home Page"/>
+            <generation value="markdown"/>
+        </page>
+        <parameter>
+            <code value="copyrightyear"/>
+            <value value="2020+"/>
+        </parameter>
+        <parameter>
+            <code value="releaselabel"/>
+            <value value="CI Build"/>
+        </parameter>
+    </definition>
+</ImplementationGuide>
