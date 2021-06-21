@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="33"/>
-        <lastUpdated value="2021-06-21T05:01:02.881+00:00"/>
-        <source value="#6cpdEEcN5d8fbOXt"/>
+        <versionId value="51"/>
+        <lastUpdated value="2021-06-21T08:17:23.807+00:00"/>
+        <source value="#aWTbMZQ3dZxWtQBe"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="0.0.1"/>
@@ -45,6 +45,9 @@
         </grouping>
         <grouping id="content-profiles-clinical">
             <name value="Content Profiles: Clinical"/>
+        </grouping>
+        <grouping id="extensions">
+            <name value="Extensions"/>
         </grouping>
         <resource>
             <reference>
@@ -204,6 +207,126 @@
             <description value="This Organization profile represents an organization involved in public health."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-entities"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-tribal-affiliation-extension"/>
+                <display value="US Public Health Tribal Affiliation Extension"/>
+            </reference>
+            <name value="US Public Health Tribal Affiliation Extension"/>
+            <description value="This Extension profile represents an affiliated tribe name and whether or not the patient is an enrolled member"/>
+            <exampleBoolean value="false"/>
+            <groupingId value="extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-endpoint"/>
+                <display value="USbPublic Health Endpoint"/>
+            </reference>
+            <name value="US Public Health Endpoint"/>
+            <description value="This is the Endpoint Resource profile for the IG used to specify receivers addresses"/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-location"/>
+                <display value="US Public Health Location"/>
+            </reference>
+            <name value="US Public Health Location"/>
+            <description value="This Location profile represents the location/facility in which care was provided."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-entities"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-date-determined-extension"/>
+                <display value="US Public Health Date Determined Extension"/>
+            </reference>
+            <name value="US Public Health Date Determined Extension"/>
+            <description value="The date a status or observation was determined (date of determination)."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-date-recorded-extension"/>
+                <display value="US Public Health Date Recorded Extension"/>
+            </reference>
+            <name value="US Public Health Date Recorded Extension"/>
+            <description value="The date a status or observation was recorded (recorded date)."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-plandefinition"/>
+                <display value="US Public Health PlanDefinition"/>
+            </reference>
+            <name value="US Public Health PlanDefinition"/>
+            <description value="This profile describes the US Public Health PlanDefinition."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-practitionerrole"/>
+                <display value="US Public Health PractitionerRole"/>
+            </reference>
+            <name value="US Public Health PractitionerRole"/>
+            <description value="This PractitionerRole profile represents the roles and organizations a practitioner involved in public health is associated with."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-entities"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-determination-of-reportability-rule-extension"/>
+                <display value="US Public Health Determination of Reportability Rule Extension"/>
+            </reference>
+            <name value="US Public Health Determination of Reportability Rule Extension"/>
+            <description value="This Extension profile represents a rule that led to the determination of reportability."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-rr-determination-of-reportability-extension"/>
+                <display value="US Public Health Determination of Reportability Extension"/>
+            </reference>
+            <name value="US Public Health Determination of Reportability Extension"/>
+            <description value="This Extension profile represents the determination of reportability."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-rr-determination-of-reportability-reason-extension"/>
+                <display value="US Public Health Determination of Reportability Reason Extension"/>
+            </reference>
+            <name value="US Public Health Determination of Reportability Reason Extension"/>
+            <description value="This Extension profile represents the reason for the determination of reportability."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-travel-history"/>
+                <display value="US Public Health Travel History"/>
+            </reference>
+            <name value="US Public Health Travel History"/>
+            <description value="This Observation profile represents a patient's travel history."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-address-extension"/>
+                <display value="US Public Health Address Extension"/>
+            </reference>
+            <name value="US Public Health Address Extension"/>
+            <description value="This Extension profile represents where the patient traveled to or visited as an address e.g.: country, state, city, street address (if applicable)."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="extensions"/>
         </resource>
         <page>
             <nameUrl value="index.html"/>
