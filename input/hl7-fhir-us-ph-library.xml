@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="57"/>
-        <lastUpdated value="2021-06-21T08:42:27.281+00:00"/>
-        <source value="#VmsdXNWigu8mZGpX"/>
+        <versionId value="63"/>
+        <lastUpdated value="2021-06-21T08:52:12.134+00:00"/>
+        <source value="#pXazrdmwXR9aH2aj"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="0.0.1"/>
@@ -336,7 +336,7 @@
             <name value="US Public Health Alternative Expression Extension"/>
             <description value="This extension represents an US Public Health Alternative Expression"/>
             <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
+            <groupingId value="extensions"/>
         </resource>
         <resource>
             <reference>
@@ -386,6 +386,16 @@
             <description value="Defines the library containing the US Public Health triggering value sets."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-namedEventType"/>
+                <display value="US Public Health Named Event Type Extension"/>
+            </reference>
+            <name value="US Public Health Named Event Type Extension"/>
+            <description value="Indicates the types of named events to subscribe to from the EHR."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="extensions"/>
         </resource>
         <page>
             <nameUrl value="index.html"/>
