@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="11"/>
-        <lastUpdated value="2021-06-17T03:35:04.330+00:00"/>
-        <source value="#kzHsjF7inzTUv9iB"/>
+        <versionId value="33"/>
+        <lastUpdated value="2021-06-21T05:01:02.881+00:00"/>
+        <source value="#6cpdEEcN5d8fbOXt"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="0.0.1"/>
@@ -40,14 +40,11 @@
         <grouping id="architecture-profiles-group">
             <name value="Architecture Profiles"/>
         </grouping>
-        <grouping id="content-profiles-individuals">
-            <name value="Content Profiles: Individuals"/>
-        </grouping>
         <grouping id="content-profiles-entities">
             <name value="Content Profiles: Entities"/>
         </grouping>
-        <grouping id="content-profiles-observations">
-            <name value="Content Profiles: Observations"/>
+        <grouping id="content-profiles-clinical">
+            <name value="Content Profiles: Clinical"/>
         </grouping>
         <resource>
             <reference>
@@ -57,7 +54,7 @@
             <name value="US Public Health Emergency Outbreak Information"/>
             <description value="This profile represents information that is required during a public health emergency/outbreak. This information can be highly variable, so a generic structure has been chosen to represent it."/>
             <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-individuals"/>
+            <groupingId value="content-profiles-clinical"/>
         </resource>
         <resource>
             <reference>
@@ -67,7 +64,146 @@
             <name value="US Public Health Patient"/>
             <description value="This Patient profile represents a US Public Health Patient."/>
             <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-observations"/>
+            <groupingId value="content-profiles-entities"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-content-bundle"/>
+                <display value="USPH Content Bundle"/>
+            </reference>
+            <name value="USPH Content Bundle"/>
+            <description value="Bundle Resource profile for exchanging public health messages, knowledge artifacts or content."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-reporting-bundle"/>
+                <display value="US Public Health Reporting Bundle"/>
+            </reference>
+            <name value="US Public Health Reporting Bundle"/>
+            <description value="Bundle Resource profile for exchanging one of public health messages, knowledge artifacts or content."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-composition"/>
+                <display value="US Public Health Composition"/>
+            </reference>
+            <name value="US Public Health Composition"/>
+            <description value="This Composition profile represents a public health composition."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-condition"/>
+                <display value="US Public Health Condition"/>
+            </reference>
+            <name value="US Public Health Condition"/>
+            <description value="This Condition profile represents the signs, symptoms, and diagnoses related to an public health event."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-encounter"/>
+                <display value="US Public Health Encounter"/>
+            </reference>
+            <name value="US Public Health Encounter"/>
+            <description value="This Encounter profile represents the encounter related to the event."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-survey-practitioner-group"/>
+                <display value="US Public Health Survey Practitioner Group"/>
+            </reference>
+            <name value="US Public Health Survey Practitioner Group"/>
+            <description value="Group Resource profile for specifying survey participant groups, research groups."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-entities"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-characteristics-of-home-environment"/>
+                <display value="US Public Health Characteristics of Home Environment"/>
+            </reference>
+            <name value="US Public Health Characteristics of Home Environment"/>
+            <description value="This Observation profile represents characteristics of the patient's home environment."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-disability-status"/>
+                <display value="US Public Health Disability Status"/>
+            </reference>
+            <name value="US Public Health Disability Status"/>
+            <description value="This profile represents the Disability Element defined here: https://aspe.hhs.gov/basic-report/hhs-implementation-guidance-data-collection-standards-race-ethnicity-sex-primary-language-and-disability-status"/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-postpartum-status"/>
+                <display value="US Public Health Postpartum Status"/>
+            </reference>
+            <name value="US Public Health Postpartum Status"/>
+            <description value="This profile represents the postpartum status of a patient."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-pregnancy-outcome-observation"/>
+                <display value="US Public Health Pregnancy Outcome Observation"/>
+            </reference>
+            <name value="US Public Health Pregnancy Outcome Observation"/>
+            <description value="This profile represents a result of the pregnancy such as live birth, still birth, miscarriage, etc."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-pregnancy-status-observation"/>
+                <display value="US Public Health Pregnancy Status Observation"/>
+            </reference>
+            <name value="US Public Health Pregnancy Status Observation"/>
+            <description value="This profile represents current and/or prior pregnancy statuses and their date ranges, enabling investigators to determine if a patient was pregnant, possibly pregnant, not pregnant or whether the pregnancy status was unknown during a particular date range."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-exposure-contact-information"/>
+                <display value="US Public Health Exposure Contact Information"/>
+            </reference>
+            <name value="US Public Health Exposure Contact Information"/>
+            <description value="This Observation profile represents potential patient exposure and contact information."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-transportation-details"/>
+                <display value="US Public Health Transportation Details"/>
+            </reference>
+            <name value="US Public Health Transportation Details"/>
+            <description value="This Observation profile represents transportation details such as the type of transport (plane, train, ship, etc.) along with any associated information (e.g. name of cruise ship, flight number, airport, seat number, cabin number, etc.)."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-organization"/>
+                <display value="US Public Health Organization"/>
+            </reference>
+            <name value="US Public Health Organization"/>
+            <description value="This Organization profile represents an organization involved in public health."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-entities"/>
         </resource>
         <page>
             <nameUrl value="index.html"/>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition
+    xmlns="http://hl7.org/fhir">
+    <id value="lib-copy-us-ph-organization"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-06-21T04:59:37.538+00:00"/>
+        <source value="#whrYAZsNGcq79BCG"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-organization"/>
+    <version value="1.0.0"/>
+    <name value="USPublicHealthOrganization"/>
+    <title value="US Public Health Organization"/>
+    <status value="active"/>
+    <experimental value="false"/>
+    <publisher value="HL7 Public Health Work Group"/>
+    <description value="This Organization profile represents an organization involved in public health."/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+            <display value="United States of America"/>
+        </coding>
+        <text value="United States of America"/>
+    </jurisdiction>
+    <fhirVersion value="4.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Organization"/>
+    <baseDefinition value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Organization">
+            <path value="Organization"/>
+            <short value="US Public Health Organization"/>
+            <definition value="The Public Health Reporting Organization profile is based on the **US Core-Organization** profile and establishes the core elements, extensions, vocabularies and value sets for representing organizations for public health:&#xA;&#xA;- Report source provider facility/office name&#xA;- Report source facility&#xA;- Response recipients&#xA;- Response responsible agency  &#xA;- Response routing entity&#xA;- Response rules authoring agency"/>
+            <min value="0"/>
+            <max value="*"/>
+            <base>
+                <path value="us-core-organization"/>
+                <min value="0"/>
+                <max value="*"/>
+            </base>
+            <mustSupport value="true"/>
+            <isModifier value="false"/>
+        </element>
+        <element id="Organization.type">
+            <path value="Organization.type"/>
+            <mustSupport value="true"/>
+            <isModifier value="false"/>
+            <binding>
+                <strength value="extensible"/>
+                <description value="The type of Organization"/>
+                <valueSet value="http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType"/>
+            </binding>
+        </element>
+        <element id="Organization.name">
+            <path value="Organization.name"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Organization.contact">
+            <path value="Organization.contact"/>
+            <mustSupport value="true"/>
+            <isModifier value="false"/>
+        </element>
+    </differential>
+</StructureDefinition>

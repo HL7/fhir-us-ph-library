@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-emergency-outbreak-information"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2021-06-17T02:45:10.122+00:00"/>
-        <source value="#WzQxUoA4kbAiGJ2l"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-06-21T04:44:33.799+00:00"/>
+        <source value="#PjCNZwApDXcX7FN4"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-emergency-outbreak-information"/>
     <version value="1.0.0"/>
@@ -32,7 +32,7 @@
     <differential>
         <element id="Observation">
             <path value="Observation"/>
-            <short value="Information that is required during a public health emergency/outbreak."/>
+            <short value="US Public Health Outbreak Information"/>
             <definition value="This profile represents information that is required during a public health emergency/outbreak. This information will be recorded using a question/answer pattern with questions specific to the public health emergency/outbreak."/>
         </element>
         <element id="Observation.code">
