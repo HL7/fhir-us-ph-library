@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2021-06-17T01:20:53.659+00:00"/>
-        <source value="#0qkGC27fT2zuMCpR"/>
+        <versionId value="11"/>
+        <lastUpdated value="2021-06-17T03:35:04.330+00:00"/>
+        <source value="#kzHsjF7inzTUv9iB"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="0.0.1"/>
@@ -37,11 +37,17 @@
         <version value="3.2.0"/>
     </dependsOn>
     <definition>
-        <grouping id="content-profiles-group">
-            <name value="Content Profiles"/>
-        </grouping>
         <grouping id="architecture-profiles-group">
             <name value="Architecture Profiles"/>
+        </grouping>
+        <grouping id="content-profiles-individuals">
+            <name value="Content Profiles: Individuals"/>
+        </grouping>
+        <grouping id="content-profiles-entities">
+            <name value="Content Profiles: Entities"/>
+        </grouping>
+        <grouping id="content-profiles-observations">
+            <name value="Content Profiles: Observations"/>
         </grouping>
         <resource>
             <reference>
@@ -51,7 +57,17 @@
             <name value="US Public Health Emergency Outbreak Information"/>
             <description value="This profile represents information that is required during a public health emergency/outbreak. This information can be highly variable, so a generic structure has been chosen to represent it."/>
             <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-group"/>
+            <groupingId value="content-profiles-individuals"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-patient"/>
+                <display value="US Public Health Patient"/>
+            </reference>
+            <name value="US Public Health Patient"/>
+            <description value="This Patient profile represents a US Public Health Patient."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-observations"/>
         </resource>
         <page>
             <nameUrl value="index.html"/>
