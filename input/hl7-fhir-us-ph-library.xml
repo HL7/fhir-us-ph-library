@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="88"/>
-        <lastUpdated value="2021-06-23T00:17:00.529+00:00"/>
-        <source value="#PO6dWD5517rWft5B"/>
+        <versionId value="90"/>
+        <lastUpdated value="2021-06-23T00:32:08.521+00:00"/>
+        <source value="#R6nzG7OzYEbpiE8E"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="0.0.1"/>
@@ -542,6 +542,16 @@
             <name value="US Public Health Pregnancy Status"/>
             <description value="This value set contains codes representing pregnancy statuses."/>
             <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-messageheader"/>
+                <display value="US Public Health MessageHeader"/>
+            </reference>
+            <name value="US Public Health MessageHeader"/>
+            <description value="This is the MessageHeader Resource profile for the IG."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
         </resource>
         <page>
             <nameUrl value="index.html"/>
