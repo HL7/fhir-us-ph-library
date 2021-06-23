@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="87"/>
-        <lastUpdated value="2021-06-22T23:09:09.187+00:00"/>
-        <source value="#gOhyJMztQRj1tsWm"/>
+        <versionId value="88"/>
+        <lastUpdated value="2021-06-23T00:17:00.529+00:00"/>
+        <source value="#PO6dWD5517rWft5B"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="0.0.1"/>
@@ -512,6 +512,7 @@
             <name value="US Public Health CodeSystem"/>
             <description value="This profile describes the US Public Health CodeSystem."/>
             <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
         </resource>
         <resource>
             <reference>
