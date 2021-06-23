@@ -55,11 +55,10 @@
             <path value="ValueSet.useContext.code"/>
             <min value="1"/>
             <max value="1"/>
-            <fixedCoding>
+            <patternCoding>
                 <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/lib-copy-us-ph-usage-context-type"/>
                 <code value="reporting"/>
-                <display value="Reporting"/>
-            </fixedCoding>
+            </patternCoding>
         </element>
         <element id="ValueSet.useContext:reportingContext.value[x]">
             <path value="ValueSet.useContext.value[x]"/>
@@ -70,13 +69,12 @@
             <type>
                 <code value="CodeableConcept"/>
             </type>
-            <fixedCodeableConcept>
+            <patternCodeableConcept>
                 <coding>
                     <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/lib-copy-us-ph-usage-context"/>
                     <code value="triggering"/>
-                    <display value="Triggering"/>
                 </coding>
-            </fixedCodeableConcept>
+            </patternCodeableConcept>
         </element>
     </differential>
 </StructureDefinition>
