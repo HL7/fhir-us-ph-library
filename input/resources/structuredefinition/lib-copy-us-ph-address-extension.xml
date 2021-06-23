@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-address-extension"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-06-21T08:11:50.920+00:00"/>
-        <source value="#iBF2Eu8T2hFxLLkV"/>
+        <versionId value="2"/>
+        <lastUpdated value="2021-06-21T08:57:08.136+00:00"/>
+        <source value="#zt8jnwKwXXiAjRVS"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-address-extension"/>
     <version value="1.0.0"/>
@@ -46,7 +46,7 @@
         </element>
         <element id="Extension.url">
             <path value="Extension.url"/>
-            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-phaddress-extension"/>
+            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-address-extension"/>
         </element>
         <element id="Extension.value[x]">
             <path value="Extension.value[x]"/>

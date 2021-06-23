@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-triggerdefinition-namedevent"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-06-21T08:29:50.304+00:00"/>
-        <source value="#qCJFnRNJ4ME8LM9i"/>
+        <versionId value="2"/>
+        <lastUpdated value="2021-06-22T00:41:09.205+00:00"/>
+        <source value="#p6n85bzqWF16Yx75"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ValueSet/lib-copy-us-ph-triggerdefinition-namedevent"/>
     <version value="0.1.0"/>
@@ -31,7 +31,7 @@
     </jurisdiction>
     <compose>
         <include>
-            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-triggerdefinition-namedevents"/>
+            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/lib-copy-us-ph-triggerdefinition-namedevents"/>
         </include>
     </compose>
 </ValueSet>

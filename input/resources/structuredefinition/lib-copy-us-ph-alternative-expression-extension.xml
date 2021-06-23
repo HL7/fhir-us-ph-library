@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
-    <id value="lib-copy-us-ph-alternativeExpression"/>
+    <id value="lib-copy-us-ph-alternative-expression-extension"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2021-06-21T08:23:01.255+00:00"/>
-        <source value="#wJICswkSg97W7yUa"/>
+        <lastUpdated value="2021-06-22T00:45:21.378+00:00"/>
+        <source value="#ThruSt0YfuVvZs82"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-alternativeExpression"/>
+    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-alternative-expression-extension"/>
     <version value="1.0.0"/>
     <name value="USPublicHealthAlternativeExpressionExtension"/>
     <title value="US Public Health Alternative Expression Extension"/>
@@ -36,13 +36,13 @@
     <differential>
         <element id="Extension">
             <path value="Extension"/>
-            <short value="US Public Health Alternative Expression"/>
+            <short value="US Public Health Alternative Expression Extension"/>
             <definition value="This extension represents a US Public Health Alternative Expression"/>
             <isModifier value="false"/>
         </element>
         <element id="Extension.url">
             <path value="Extension.url"/>
-            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-alternativeExpression"/>
+            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-alternative-expression-extension"/>
         </element>
         <element id="Extension.valueExpression">
             <path value="Extension.valueExpression"/>

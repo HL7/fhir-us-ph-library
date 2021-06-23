@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="63"/>
-        <lastUpdated value="2021-06-21T08:52:12.134+00:00"/>
-        <source value="#pXazrdmwXR9aH2aj"/>
+        <versionId value="87"/>
+        <lastUpdated value="2021-06-22T23:09:09.187+00:00"/>
+        <source value="#gOhyJMztQRj1tsWm"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="0.0.1"/>
@@ -290,26 +290,6 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/lib-copy-rr-determination-of-reportability-extension"/>
-                <display value="US Public Health Determination of Reportability Extension"/>
-            </reference>
-            <name value="US Public Health Determination of Reportability Extension"/>
-            <description value="This Extension profile represents the determination of reportability."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="extensions"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/lib-copy-rr-determination-of-reportability-reason-extension"/>
-                <display value="US Public Health Determination of Reportability Reason Extension"/>
-            </reference>
-            <name value="US Public Health Determination of Reportability Reason Extension"/>
-            <description value="This Extension profile represents the reason for the determination of reportability."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="extensions"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="StructureDefinition/lib-copy-us-ph-travel-history"/>
                 <display value="US Public Health Travel History"/>
             </reference>
@@ -330,42 +310,12 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/lib-copy-us-ph-alternativeExpression"/>
-                <display value="US Public Health Alternative Expression Extension"/>
-            </reference>
-            <name value="US Public Health Alternative Expression Extension"/>
-            <description value="This extension represents an US Public Health Alternative Expression"/>
-            <exampleBoolean value="false"/>
-            <groupingId value="extensions"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="ValueSet/lib-copy-us-ph-triggerdefinition-namedevent"/>
                 <display value="US Public Health TriggerDefinition NamedEvent"/>
             </reference>
             <name value="US Public Health TriggerDefinition NamedEvent"/>
             <description value="The US Public Health TriggerDefinition NamedEvent Value Set is a 'starter set' of codes for identifying named events uniquely in TriggerDefinition instances contained within a PlanDefinition."/>
             <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/lib-copy-us-ph-computablelibrary"/>
-                <display value="US Public Health Computable Library"/>
-            </reference>
-            <name value="US Public Health Computable Library"/>
-            <description value="The computable library profile sets the minimum expectations for a computable CQL library."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/lib-copy-us-ph-executablelibrary"/>
-                <display value="US Public Health Executable Library"/>
-            </reference>
-            <name value="US Public Health Executable Library"/>
-            <description value="This profile sets the minimum expectations for an executable CQL library. Specifically, the profile requires that the library contain one of ELM XML or JSON content, the compiled representation of the CQL logic."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
         </resource>
         <resource>
             <reference>
@@ -389,13 +339,208 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/lib-copy-us-ph-namedEventType"/>
+                <reference value="StructureDefinition/lib-copy-us-ph-determination-of-reportability-extension"/>
+                <display value="US Public Health Determination of Reportability Extension"/>
+            </reference>
+            <name value="US Public Health Determination of Reportability Extension"/>
+            <description value="This Extension profile represents the determination of reportability."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-determination-of-reportability-reason-extension"/>
+                <display value="US Public Health Determination of Reportability Reason Extension"/>
+            </reference>
+            <name value="US Public Health Determination of Reportability Reason Extension"/>
+            <description value="This Extension profile represents the reason for the determination of reportability."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/lib-copy-us-ph-usage-context-type"/>
+                <display value="US Public Health Usage Context Type"/>
+            </reference>
+            <name value="US Public Health Usage Context Type"/>
+            <description value="This code system contains codes that identify the use context type of a valueset."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/lib-copy-us-ph-usage-context"/>
+                <display value="US Public Health Usage Context"/>
+            </reference>
+            <name value="US Public Health Usage Context"/>
+            <description value="This code system contains codes that identify the use context of a valueset."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/lib-copy-us-ph-triggerdefinition-namedevents"/>
+                <display value="US Public Health TriggerDefinition NamedEvents"/>
+            </reference>
+            <name value="US Public Health TriggerDefinition NamedEvents"/>
+            <description value="The US Public Health TriggerDefinition NamedEvents CodeSystem is a 'starter set' of codes supported for identifying named events to subscribe to in clinical workflows."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-executable-valueset"/>
+                <display value="US Public Health Executable ValueSet"/>
+            </reference>
+            <name value="US Public Health Executable ValueSet"/>
+            <description value="Defines an executable value set as one that SHALL have an expansion included, as well as a usage warning indicating the expansion is a point-in-time snapshot and must be maintained over time for production usage."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-computable-valueset"/>
+                <display value="US Public Health Computable ValueSet"/>
+            </reference>
+            <name value="US Public Health Computable ValueSet"/>
+            <description value="Defines a computable value set as one that SHALL have an expression-based definition (i.e. a value set defined intensionally using expressions of the code systems involved) and MAY have an expansion included. The expression-based definition SHALL be represented in only one of three ways; using the compose element, using the expression extension, or using the rules-text extension to provide a step-by-step process for expanding the value set definition"/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-triggering-valueset"/>
+                <display value="US Public Health Triggering ValueSet"/>
+            </reference>
+            <name value="US Public Health Triggering ValueSet"/>
+            <description value="This profile describes the US Public Health Triggering value set."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-supplemental-valueset"/>
+                <display value="US Public Health Supplemental ValueSet"/>
+            </reference>
+            <name value="US Public Health Supplemental ValueSet"/>
+            <description value="This profile describes the US Public Health Supplemental value set."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-valueset"/>
+                <display value="US Public Health ValueSet"/>
+            </reference>
+            <name value="US Public Health ValueSet"/>
+            <description value="This profile describes US Public Health value sets."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-executable-library"/>
+                <display value="US Public Health Executable Library"/>
+            </reference>
+            <name value="US Public Health Executable Library"/>
+            <description value="This profile sets the minimum expectations for an executable CQL library. Specifically, the profile requires that the library contain one of ELM XML or JSON content, the compiled representation of the CQL logic."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-computable-library"/>
+                <display value="US Public Health Computable Library"/>
+            </reference>
+            <name value="US Public Health Computable Library"/>
+            <description value="The computable library profile sets the minimum expectations for a computable CQL library."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-alternative-expression-extension"/>
+                <display value="US Public Health Alternative Expression Extension"/>
+            </reference>
+            <name value="US Public Health Alternative Expression Extension"/>
+            <description value="This extension represents an US Public Health Alternative Expression"/>
+            <exampleBoolean value="false"/>
+            <groupingId value="extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-named-eventtype-extension"/>
                 <display value="US Public Health Named Event Type Extension"/>
             </reference>
             <name value="US Public Health Named Event Type Extension"/>
             <description value="Indicates the types of named events to subscribe to from the EHR."/>
             <exampleBoolean value="false"/>
             <groupingId value="extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-valueset-library"/>
+                <display value="US Public Health ValueSet Library"/>
+            </reference>
+            <name value="US Public Health ValueSet Library"/>
+            <description value="Defines the library containing US Public Health value sets."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-specification-bundle"/>
+                <display value="US Public Health Specification Bundle"/>
+            </reference>
+            <name value="US Public Health Specification Bundle"/>
+            <description value="This Bundle profile represents a US Public Health Specification Bundle."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-supplemental-bundle"/>
+                <display value="US Public Health Supplemental Bundle"/>
+            </reference>
+            <name value="US Public Health Supplemental Bundle"/>
+            <description value="This Bundle profile represents a US Public Health Supplemental Bundle."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-codesystem"/>
+                <display value="US Public Health CodeSystem"/>
+            </reference>
+            <name value="US Public Health CodeSystem"/>
+            <description value="This profile describes the US Public Health CodeSystem."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-usagewarning-extension"/>
+                <display value="US Public Health Usage Warning Extension"/>
+            </reference>
+            <name value="US Public Health Usage Warning Extension"/>
+            <description value="An extra warning about the correct use of the value set."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-codesystem-property-binding-extension"/>
+                <display value="US Public Health CodeSystem Property Binding Extension"/>
+            </reference>
+            <name value="US Public Health CodeSystem Property Binding Extension"/>
+            <description value="This extension represents an US Public Health CodeSystem Property Binding"/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/lib-copy-us-ph-pregnancy-status"/>
+                <display value="US Public Health Pregnancy Status"/>
+            </reference>
+            <name value="US Public Health Pregnancy Status"/>
+            <description value="This value set contains codes representing pregnancy statuses."/>
+            <exampleBoolean value="false"/>
         </resource>
         <page>
             <nameUrl value="index.html"/>

@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-patient"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2021-06-21T04:49:53.761+00:00"/>
-        <source value="#V9gz3RHQVO6CGRe2"/>
+        <versionId value="10"/>
+        <lastUpdated value="2021-06-22T23:01:07.361+00:00"/>
+        <source value="#xxdjdc3U8N9y3GK3"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-patient"/>
     <version value="1.0.0"/>
@@ -67,7 +67,7 @@
             <max value="1"/>
             <type>
                 <code value="Extension"/>
-                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-public-health-tribal-affiliation-extension"/>
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-tribal-affiliation-extension"/>
             </type>
             <mustSupport value="true"/>
             <isModifier value="false"/>
@@ -288,11 +288,6 @@
             </type>
             <mustSupport value="true"/>
         </element>
-        <element id="Patient.address.district">
-            <path value="Patient.address.district"/>
-            <short value="County"/>
-            <mustSupport value="true"/>
-        </element>
         <element id="Patient.address.extension:extensionDataAbsentReason.url">
             <path value="Patient.address.extension.url"/>
             <fixedUri value="http://hl7.org/fhir/StructureDefinition/data-absent-reason"/>
@@ -305,6 +300,11 @@
                 <code value="code"/>
             </type>
             <patternCode value="masked"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Patient.address.district">
+            <path value="Patient.address.district"/>
+            <short value="County"/>
             <mustSupport value="true"/>
         </element>
         <element id="Patient.contact">

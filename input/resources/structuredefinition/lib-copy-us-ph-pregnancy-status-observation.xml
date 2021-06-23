@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-pregnancy-status-observation"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2021-06-21T04:51:32.621+00:00"/>
-        <source value="#lFVm6pCBQ8q3TxrW"/>
+        <versionId value="4"/>
+        <lastUpdated value="2021-06-22T23:09:33.021+00:00"/>
+        <source value="#VQQobz395jn8rBeZ"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-pregnancy-status-observation"/>
     <version value="1.0.0"/>
@@ -107,7 +107,7 @@
             <binding>
                 <strength value="extensible"/>
                 <description value="Defines the status of pregnancy."/>
-                <valueSet value="http://hl7.org/fhir/us/ecr/ValueSet/pregnancy-status"/>
+                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/lib-copy-us-ph-pregnancy-status"/>
             </binding>
         </element>
         <element id="Observation.method">
@@ -145,7 +145,7 @@
             <max value="1"/>
             <type>
                 <code value="Extension"/>
-                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-date-determined-extension"/>
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-date-determined-extension"/>
             </type>
             <mustSupport value="true"/>
         </element>
@@ -189,7 +189,7 @@
             <max value="1"/>
             <type>
                 <code value="Extension"/>
-                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-date-determined-extension"/>
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-date-determined-extension"/>
             </type>
             <mustSupport value="true"/>
         </element>

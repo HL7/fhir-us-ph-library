@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
-    <id value="lib-copy-rr-determination-of-reportability-reason-extension"/>
+    <id value="lib-copy-us-ph-determination-of-reportability-reason-extension"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2021-06-21T07:40:33.349+00:00"/>
-        <source value="#j6kZQN4fhAq9rDWu"/>
+        <versionId value="1"/>
+        <lastUpdated value="2021-06-21T08:55:15.147+00:00"/>
+        <source value="#muidcfWxFHl3pICC"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-determination-of-reportability-reason-extension"/>
     <version value="1.0.0"/>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
-    <id value="lib-copy-us-ph-namedEventType"/>
+    <id value="lib-copy-us-ph-named-eventtype-extension"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2021-06-21T08:52:03.258+00:00"/>
-        <source value="#01YV70Giv0jYQays"/>
+        <versionId value="1"/>
+        <lastUpdated value="2021-06-22T00:48:36.622+00:00"/>
+        <source value="#zNEHOzeagfjyWztU"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-namedEventType-extension"/>
+    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-named-eventtype-extension"/>
     <version value="0.1.0"/>
     <name value="USPublicHealthNamedEventTypeExtension"/>
     <title value="US Public Health Named Event Type Extension"/>
@@ -25,11 +25,6 @@
         <text value="United States of America"/>
     </jurisdiction>
     <fhirVersion value="4.0.1"/>
-    <mapping>
-        <identity value="rim"/>
-        <uri value="http://hl7.org/v3"/>
-        <name value="RIM Mapping"/>
-    </mapping>
     <kind value="complex-type"/>
     <abstract value="false"/>
     <context>
@@ -52,7 +47,7 @@
             <type>
                 <code value="uri"/>
             </type>
-            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-namedEventType-extension"/>
+            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-named-eventtype-extension"/>
         </element>
         <element id="Extension.value[x]">
             <path value="Extension.value[x]"/>
@@ -62,7 +57,7 @@
             <binding>
                 <strength value="extensible"/>
                 <description value="The set of named events that can be used for subscriptions"/>
-                <valueSet value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-triggerdefinition-namedevent"/>
+                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/lib-copy-us-ph-triggerdefinition-namedevent"/>
             </binding>
         </element>
     </differential>
