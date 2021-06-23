@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-travel-history"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-06-21T08:09:55.035+00:00"/>
-        <source value="#07RpDm4lm0bXkC1P"/>
+        <versionId value="2"/>
+        <lastUpdated value="2021-06-23T20:27:25.833+00:00"/>
+        <source value="#64O0uP6Ey3OUJtu6"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-travel-history"/>
     <version value="1.0.0"/>
@@ -53,12 +53,13 @@
                     <text value="Travel History"/>
                 </valueCodeableConcept>
             </example>
-            <mustSupport value="false"/>
+            <mustSupport value="true"/>
             <isModifier value="false"/>
         </element>
         <element id="Observation.subject">
             <path value="Observation.subject"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Observation.effective[x]">
             <path value="Observation.effective[x]"/>
@@ -70,8 +71,18 @@
             <path value="Observation.hasMember"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-transportation-details"/>
-                <targetProfile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-exposure-contact-information"/>
+                <targetProfile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-transportation-details">
+                    <extension
+                        url="http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support">
+                        <valueBoolean value="true"/>
+                    </extension>
+                </targetProfile>
+                <targetProfile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-exposure-contact-information">
+                    <extension
+                        url="http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support">
+                        <valueBoolean value="true"/>
+                    </extension>
+                </targetProfile>
             </type>
             <mustSupport value="true"/>
         </element>
@@ -85,7 +96,7 @@
                 <rules value="open"/>
             </slicing>
             <min value="1"/>
-            <mustSupport value="false"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Observation.component:travelLocation">
             <path value="Observation.component"/>
@@ -94,7 +105,7 @@
             <definition value="Location of travel"/>
             <min value="1"/>
             <max value="*"/>
-            <mustSupport value="false"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Observation.component:travelLocation.extension">
             <path value="Observation.component.extension"/>
@@ -117,6 +128,7 @@
                 <code value="Extension"/>
                 <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-address-extension"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Observation.component:travelLocation.code">
             <path value="Observation.component.code"/>
@@ -134,6 +146,7 @@
             <type>
                 <code value="CodeableConcept"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Observation.component:travelLocation.value[x].coding">
             <path value="Observation.component.value[x].coding"/>
@@ -175,6 +188,7 @@
                     <code value="280147009"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Observation.component:travelPurpose.value[x]">
             <path value="Observation.component.value[x]"/>
