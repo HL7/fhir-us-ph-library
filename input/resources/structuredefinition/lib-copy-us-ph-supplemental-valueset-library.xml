@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-supplemental-valueset-library"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-06-21T08:40:52.964+00:00"/>
-        <source value="#aSCpQBchDPhkQpvS"/>
+        <versionId value="2"/>
+        <lastUpdated value="2021-06-23T01:04:50.575+00:00"/>
+        <source value="#B5URa735RBTGxn67"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-supplemental-valueset-library"/>
     <version value="1.0.0"/>
@@ -31,7 +31,7 @@
     <kind value="resource"/>
     <abstract value="false"/>
     <type value="Library"/>
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Library"/>
+    <baseDefinition value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-valueset-library"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Library">
@@ -68,23 +68,14 @@
         <element id="Library.type">
             <path value="Library.type"/>
             <short value="asset-collection"/>
-            <definition value="Identifies the type of library. Fixed to Asset-Collection. "/>
+            <definition value="Identifies the type of library. Constrained to a pattern that includes asset-collection."/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://terminology.hl7.org/CodeSystem/library-type"/>
+                    <code value="asset-collection"/>
+                </coding>
+            </patternCodeableConcept>
             <mustSupport value="true"/>
-        </element>
-        <element id="Library.type.coding">
-            <path value="Library.type.coding"/>
-            <min value="1"/>
-            <max value="1"/>
-        </element>
-        <element id="Library.type.coding.system">
-            <path value="Library.type.coding.system"/>
-            <min value="1"/>
-            <fixedUri value="http://terminology.hl7.org/CodeSystem/library-type"/>
-        </element>
-        <element id="Library.type.coding.code">
-            <path value="Library.type.coding.code"/>
-            <min value="1"/>
-            <fixedCode value="asset-collection"/>
         </element>
         <element id="Library.description">
             <path value="Library.description"/>
