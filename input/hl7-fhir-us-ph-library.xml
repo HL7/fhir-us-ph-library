@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="94"/>
-        <lastUpdated value="2021-06-24T02:34:51.979+00:00"/>
-        <source value="#jY4F3Qytv2Ipy7re"/>
+        <versionId value="95"/>
+        <lastUpdated value="2021-06-24T02:49:05.713+00:00"/>
+        <source value="#p2BAAur6ASjdmmVu"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="0.0.1"/>
@@ -577,6 +577,16 @@
             <nameUrl value="index.html"/>
             <title value="Home Page"/>
             <generation value="markdown"/>
+            <page>
+                <nameUrl value="instructions_for_use.html"/>
+                <title value="Instructions for Use"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="downloads.html"/>
+                <title value="Downloads"/>
+                <generation value="markdown"/>
+            </page>
         </page>
         <parameter>
             <code value="copyrightyear"/>
