@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="92"/>
-        <lastUpdated value="2021-06-24T02:22:37.941+00:00"/>
-        <source value="#1ZEtAfnRggYh4RT2"/>
+        <versionId value="94"/>
+        <lastUpdated value="2021-06-24T02:34:51.979+00:00"/>
+        <source value="#jY4F3Qytv2Ipy7re"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="0.0.1"/>
@@ -562,6 +562,16 @@
             <description value="This Bundle profile represents an eICR Document Bundle. It contains a US Public Health Composition."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-initiation-reason-extension"/>
+                <display value="US Public Health Initiation Reason Extension"/>
+            </reference>
+            <name value="US Public Health Initiation Reason Extension"/>
+            <description value="This extension contains an explanation for the manual or alternate initiation of the public health report."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
         </resource>
         <page>
             <nameUrl value="index.html"/>
