@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="90"/>
-        <lastUpdated value="2021-06-23T00:32:08.521+00:00"/>
-        <source value="#R6nzG7OzYEbpiE8E"/>
+        <versionId value="92"/>
+        <lastUpdated value="2021-06-24T02:22:37.941+00:00"/>
+        <source value="#1ZEtAfnRggYh4RT2"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="0.0.1"/>
@@ -550,6 +550,16 @@
             </reference>
             <name value="US Public Health MessageHeader"/>
             <description value="This is the MessageHeader Resource profile for the IG."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-document-bundle"/>
+                <display value="US Public Health Document Bundle"/>
+            </reference>
+            <name value="US Public Health Document Bundle"/>
+            <description value="This Bundle profile represents an eICR Document Bundle. It contains a US Public Health Composition."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-group"/>
         </resource>

@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-exposure-contact-information"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2021-06-21T04:57:48.168+00:00"/>
-        <source value="#8QLTxeW0PwLDOKiC"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-06-23T20:48:51.229+00:00"/>
+        <source value="#wS6B6D6LOEaKB1o2"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-exposure-contact-information"/>
     <version value="1.0.0"/>
@@ -43,6 +43,7 @@
                 <code value="Extension"/>
                 <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-address-extension"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Observation.category">
             <path value="Observation.category"/>
@@ -70,6 +71,7 @@
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-patient"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Observation.focus">
             <path value="Observation.focus"/>
