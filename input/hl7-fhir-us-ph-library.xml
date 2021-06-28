@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="95"/>
-        <lastUpdated value="2021-06-24T02:49:05.713+00:00"/>
-        <source value="#p2BAAur6ASjdmmVu"/>
+        <versionId value="98"/>
+        <lastUpdated value="2021-06-28T04:20:18.623+00:00"/>
+        <source value="#LNWx2QYtdO1tRgkE"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="0.0.1"/>
@@ -36,6 +36,16 @@
         <packageId value="hl7.fhir.us.core"/>
         <version value="3.2.0"/>
     </dependsOn>
+    <dependsOn id="uscdcphinvads">
+        <uri value="http://fhir.org/packages/us.cdc.phinvads/ImplementationGuide/us.cdc.phinvads"/>
+        <packageId value="us.cdc.phinvads"/>
+        <version value="0.7.0"/>
+    </dependsOn>
+    <dependsOn id="usnlmvsac">
+        <uri value="http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac"/>
+        <packageId value="us.nlm.vsac"/>
+        <version value="0.4.0"/>
+    </dependsOn>
     <definition>
         <grouping id="architecture-profiles-group">
             <name value="Architecture Profiles"/>
@@ -65,7 +75,7 @@
                 <display value="US Public Health Patient"/>
             </reference>
             <name value="US Public Health Patient"/>
-            <description value="This Patient profile represents a US Public Health Patient."/>
+            <description value="This Patient profile represents a US Public Health Patient.&#xA;&#xA;It is based on the **US Core Patient** profile with further restrictions to allow masking of some data elements and the addition of the patient-genderIdentity extension.&#xA;&#xA;For ONC’s USCDI requirements, it adds Must Support constraints to the following:&#xA;&#xA;*     contact detail (e.g. a telephone number or an email address)&#xA;*     a communication language&#xA;*     a race&#xA;*     an ethnicity&#xA;*     a birth sex"/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-entities"/>
         </resource>
@@ -154,7 +164,7 @@
                 <display value="US Public Health Postpartum Status"/>
             </reference>
             <name value="US Public Health Postpartum Status"/>
-            <description value="This profile represents the postpartum status of a patient."/>
+            <description value="This profile represents the postpartum status of a patient.&#xA;&#xA;If the profile is present, the patient is in the postpartum period and further information about the postpartum status is communicated by the code chosen.&#xA;The postpartum period, also known as the puerperium, refers to the time after delivery when maternal physiological changes related to pregnancy return to the nonpregnant state. There is consensus that the postpartum period begins upon delivery of the infant. The end is less well defined but is often considered the six to eight weeks after delivery because the effects of pregnancy on many systems have largely returned to the pre-pregnancy state."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
@@ -164,7 +174,7 @@
                 <display value="US Public Health Pregnancy Outcome Observation"/>
             </reference>
             <name value="US Public Health Pregnancy Outcome Observation"/>
-            <description value="This profile represents a result of the pregnancy such as live birth, still birth, miscarriage, etc."/>
+            <description value="This profile represents a result of the pregnancy such as live birth, still birth, miscarriage, etc.&#xA;&#xA;The order born in the delivery, live born or fetal death (1st, 2nd, 3rd, 4th, 5th, 6th, 7th, etc.) is contained in Observation.component. All live births and fetal losses are included. If the pregnancy plurality is 1 then this value will also be 1."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
@@ -174,7 +184,7 @@
                 <display value="US Public Health Pregnancy Status Observation"/>
             </reference>
             <name value="US Public Health Pregnancy Status Observation"/>
-            <description value="This profile represents current and/or prior pregnancy statuses and their date ranges, enabling investigators to determine if a patient was pregnant, possibly pregnant, not pregnant or whether the pregnancy status was unknown during a particular date range."/>
+            <description value="This profile represents current and/or prior pregnancy statuses and their date ranges, enabling investigators to determine if a patient was pregnant, possibly pregnant, not pregnant or whether the pregnancy status was unknown during a particular date range.&#xA;&#xA;This profile includes the determination method, determination date, and recorded date of the pregnancy status.&#xA;&#xA;Use the effectivePeriod to indicate the date range over which the patient was pregnant/possibly pregnant/not pregnant/unknown. To record the date that the pregnancy status was recorded, use the date-recorded-extension and to record the date on which the pregnancy status determination was made, use the date-determined-extension. If the effectivePeriod.end is not present it is assumed that the date range over which the pregnancy status is asserted is from effectivePeriod.start to the date in the date-recorded-extension. For example, if the effectivePeriod.start has been recorded as two months prior to the date contained in the date-recorded-extension, and there is no effectivePeriod.end recorded, no assumptions can be made about the pregnancy status after the date contained in the date-recorded-extension."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
@@ -530,7 +540,7 @@
                 <display value="US Public Health CodeSystem Property Binding Extension"/>
             </reference>
             <name value="US Public Health CodeSystem Property Binding Extension"/>
-            <description value="This extension represents an US Public Health CodeSystem Property Binding"/>
+            <description value="A reference to a CodeSystem or ValueSet that establishes the allowable values for a code system property"/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-group"/>
         </resource>

@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-patient"/>
     <meta>
-        <versionId value="10"/>
-        <lastUpdated value="2021-06-22T23:01:07.361+00:00"/>
-        <source value="#xxdjdc3U8N9y3GK3"/>
+        <versionId value="16"/>
+        <lastUpdated value="2021-06-28T04:38:07.374+00:00"/>
+        <source value="#NDVQ0xZGqwjqzDO1"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-patient"/>
     <version value="1.0.0"/>
@@ -14,7 +14,7 @@
     <status value="active"/>
     <experimental value="false"/>
     <publisher value="HL7 Public Health Work Group"/>
-    <description value="This Patient profile represents a US Public Health Patient."/>
+    <description value="This Patient profile represents a US Public Health Patient.&#xA;&#xA;It is based on the **US Core Patient** profile with further restrictions to allow masking of some data elements and the addition of the patient-genderIdentity extension.&#xA;&#xA;For ONC’s USCDI requirements, it adds Must Support constraints to the following:&#xA;&#xA;*     contact detail (e.g. a telephone number or an email address)&#xA;*     a communication language&#xA;*     a race&#xA;*     an ethnicity&#xA;*     a birth sex"/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -47,6 +47,21 @@
             <mustSupport value="true"/>
             <isModifier value="false"/>
         </element>
+        <element id="Patient.extension:race">
+            <path value="Patient.extension"/>
+            <sliceName value="race"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Patient.extension:ethnicity">
+            <path value="Patient.extension"/>
+            <sliceName value="ethnicity"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Patient.extension:birthsex">
+            <path value="Patient.extension"/>
+            <sliceName value="birthsex"/>
+            <mustSupport value="true"/>
+        </element>
         <element id="Patient.extension:genderIdentity">
             <path value="Patient.extension"/>
             <sliceName value="genderIdentity"/>
@@ -59,12 +74,12 @@
             <mustSupport value="true"/>
             <isModifier value="false"/>
         </element>
-        <element id="Patient.extension:TribalAffiliation">
+        <element id="Patient.extension:tribalAffiliation">
             <path value="Patient.extension"/>
-            <sliceName value="TribalAffiliation"/>
+            <sliceName value="tribalAffiliation"/>
             <short value="Tribal affiliation and membership of the patient"/>
             <min value="0"/>
-            <max value="1"/>
+            <max value="*"/>
             <type>
                 <code value="Extension"/>
                 <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-tribal-affiliation-extension"/>
@@ -175,6 +190,7 @@
         <element id="Patient.telecom:email">
             <path value="Patient.telecom"/>
             <sliceName value="email"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Patient.telecom:email.system">
             <path value="Patient.telecom.system"/>
