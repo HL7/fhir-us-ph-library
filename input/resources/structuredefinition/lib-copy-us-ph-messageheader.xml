@@ -48,7 +48,7 @@
             <max value="1"/>
             <type>
                 <code value="Extension"/>
-                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-data-encrypted-extension"/>
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-data-encrypted-extension"/>
             </type>
             <mustSupport value="true"/>
         </element>
@@ -59,7 +59,7 @@
             <max value="1"/>
             <type>
                 <code value="Extension"/>
-                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-message-processing-category-extension"/>
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-message-processing-category-extension"/>
             </type>
             <mustSupport value="true"/>
         </element>
@@ -74,7 +74,7 @@
             <binding>
                 <strength value="extensible"/>
                 <description value="Types of messages being sent between systems"/>
-                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-message-types"/>
+                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/lib-copy-us-ph-message-types"/>
             </binding>
         </element>
         <element id="MessageHeader.destination">
@@ -122,7 +122,7 @@
             <binding>
                 <strength value="extensible"/>
                 <description value="The named event that gave rise to the message"/>
-                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-triggerdefinition-namedevent"/>
+                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/lib-copy-us-ph-triggerdefinition-namedevent"/>
             </binding>
         </element>
         <element id="MessageHeader.response">
