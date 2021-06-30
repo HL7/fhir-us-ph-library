@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-plandefinition"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-06-21T07:23:52.747+00:00"/>
-        <source value="#4TNvWpsxCsQ5rTJb"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-06-30T04:34:46.916+00:00"/>
+        <source value="#jnMJgeWaM2BGe1c1"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-plandefinition"/>
     <version value="1.0.0"/>
@@ -60,6 +60,7 @@
             <path value="PlanDefinition.type"/>
             <short value="Type of this PlanDefinition"/>
             <definition value="Type of this PlanDefinition"/>
+            <min value="1"/>
             <fixedCodeableConcept>
                 <coding>
                     <system value="http://terminology.hl7.org/CodeSystem/plan-definition-type"/>
@@ -80,6 +81,7 @@
             <path value="PlanDefinition.publisher"/>
             <short value="Name of the agency that published this PlanDefinition"/>
             <definition value="Name of the agency that published this PlanDefinition"/>
+            <mustSupport value="true"/>
         </element>
         <element id="PlanDefinition.effectivePeriod">
             <path value="PlanDefinition.effectivePeriod"/>

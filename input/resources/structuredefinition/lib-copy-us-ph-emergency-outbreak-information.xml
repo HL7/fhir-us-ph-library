@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-emergency-outbreak-information"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2021-06-21T04:44:33.799+00:00"/>
-        <source value="#PjCNZwApDXcX7FN4"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-06-30T04:30:16.362+00:00"/>
+        <source value="#qMgiOqqivT73d7ZI"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-emergency-outbreak-information"/>
     <version value="1.0.0"/>
@@ -14,7 +14,7 @@
     <status value="active"/>
     <experimental value="false"/>
     <publisher value="HL7 Public Health Work Group"/>
-    <description value="This profile represents information that is required during a public health emergency/outbreak. This information can be highly variable, so a generic structure has been chosen to represent it."/>
+    <description value="This profile represents information that is required during a public health emergency/outbreak. This information can be highly variable, so a generic structure has been chosen to represent it.&#xA;&#xA;This information will be recorded using a question/answer pattern with questions specific to the public health emergency/outbreak."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -39,6 +39,16 @@
             <path value="Observation.code"/>
             <min value="1"/>
             <max value="1"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Observation.subject">
+            <path value="Observation.subject"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-patient"/>
+            </type>
             <mustSupport value="true"/>
         </element>
         <element id="Observation.value[x]">

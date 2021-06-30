@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="98"/>
-        <lastUpdated value="2021-06-28T04:20:18.623+00:00"/>
-        <source value="#LNWx2QYtdO1tRgkE"/>
+        <versionId value="106"/>
+        <lastUpdated value="2021-06-30T08:44:45.040+00:00"/>
+        <source value="#iaOGOuzKZcTlUcOK"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="0.0.1"/>
@@ -65,7 +65,7 @@
                 <display value="US Public Health Emergency Outbreak Information"/>
             </reference>
             <name value="US Public Health Emergency Outbreak Information"/>
-            <description value="This profile represents information that is required during a public health emergency/outbreak. This information can be highly variable, so a generic structure has been chosen to represent it."/>
+            <description value="This profile represents information that is required during a public health emergency/outbreak. This information can be highly variable, so a generic structure has been chosen to represent it.&#xA;&#xA;This information will be recorded using a question/answer pattern with questions specific to the public health emergency/outbreak."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
@@ -75,7 +75,7 @@
                 <display value="US Public Health Patient"/>
             </reference>
             <name value="US Public Health Patient"/>
-            <description value="This Patient profile represents a US Public Health Patient.&#xA;&#xA;It is based on the **US Core Patient** profile with further restrictions to allow masking of some data elements and the addition of the patient-genderIdentity extension.&#xA;&#xA;For ONC’s USCDI requirements, it adds Must Support constraints to the following:&#xA;&#xA;*     contact detail (e.g. a telephone number or an email address)&#xA;*     a communication language&#xA;*     a race&#xA;*     an ethnicity&#xA;*     a birth sex"/>
+            <description value="This Patient profile represents a US Public Health Patient.&#xA;&#xA;It is based on the **US Core Patient** profile with further restrictions to allow masking of some data elements and the addition of the patient-genderIdentity extension.&#xA;&#xA;For ONC’s USCDI requirements, it adds Must Support constraints to the following:&#xA;&#xA;* contact detail (e.g. a telephone number or an email address)&#xA;* a communication language&#xA;* a race&#xA;* an ethnicity&#xA;* a birth sex"/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-entities"/>
         </resource>
@@ -115,7 +115,7 @@
                 <display value="US Public Health Condition"/>
             </reference>
             <name value="US Public Health Condition"/>
-            <description value="This Condition profile represents the signs, symptoms, and diagnoses related to an public health event."/>
+            <description value="This Condition profile represents the signs, symptoms, and diagnoses related to a public health event.&#xA;&#xA;It is based on the **US Core Condition** profile with further restriction of a *Must Support* constraint on the **onset\[x]** and verificationStatus data elements.&#xA;&#xA;In the case of a condition being mistakenly entered into the system and later corrected:&#xA;* verificationStatus of 'entered-in-error' must be set"/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
@@ -144,7 +144,7 @@
                 <display value="US Public Health Characteristics of Home Environment"/>
             </reference>
             <name value="US Public Health Characteristics of Home Environment"/>
-            <description value="This Observation profile represents characteristics of the patient's home environment."/>
+            <description value="This Observation profile represents characteristics of the patient's home environment.&#xA;&#xA;Such characteristics include, but are not limited to, type of residence (trailer, single family home, assisted living), living arrangement (e.g., alone, with parents), and housing status (e.g., evicted, homeless, home owner). Congregate living situations would be represented in this profile - such shared housing includes a broad range of settings, such as apartments, condominiums, student or faculty housing, national and state park staff housing, transitional housing, and domestic violence and abuse shelters."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
@@ -154,7 +154,7 @@
                 <display value="US Public Health Disability Status"/>
             </reference>
             <name value="US Public Health Disability Status"/>
-            <description value="This profile represents the Disability Element defined here: https://aspe.hhs.gov/basic-report/hhs-implementation-guidance-data-collection-standards-race-ethnicity-sex-primary-language-and-disability-status"/>
+            <description value="This profile represents the Disability Element defined here: https://aspe.hhs.gov/basic-report/hhs-implementation-guidance-data-collection-standards-race-ethnicity-sex-primary-language-and-disability-status.&#xA;&#xA;The six item set of questions used on ACS and other major surveys to gauge disability is the data standard for survey questions on disability. Note the age thresholds for survey participants for the different disability questions.&#xA;&#xA;#### Data Standard for Disability Status&#xA;&#xA;1.     Are you deaf or do you have serious difficulty hearing?&#xA;2.     Are you blind or do you have serious difficulty seeing, even when wearing glasses?&#xA;3.     Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions? (5 years old or older)&#xA;4.     Do you have serious difficulty walking or climbing stairs? (5 years old or older)&#xA;5.     Do you have difficulty dressing or bathing? (5 years old or older)&#xA;6.     Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor’s office or shopping? (15 years old or older)&#xA;"/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
@@ -164,7 +164,7 @@
                 <display value="US Public Health Postpartum Status"/>
             </reference>
             <name value="US Public Health Postpartum Status"/>
-            <description value="This profile represents the postpartum status of a patient.&#xA;&#xA;If the profile is present, the patient is in the postpartum period and further information about the postpartum status is communicated by the code chosen.&#xA;The postpartum period, also known as the puerperium, refers to the time after delivery when maternal physiological changes related to pregnancy return to the nonpregnant state. There is consensus that the postpartum period begins upon delivery of the infant. The end is less well defined but is often considered the six to eight weeks after delivery because the effects of pregnancy on many systems have largely returned to the pre-pregnancy state."/>
+            <description value="This profile represents the postpartum status of a patient.&#xA;&#xA;If the profile is present, the patient is in the postpartum period and further information about the postpartum status is communicated by the code chosen.&#xA;&#xA;The postpartum period, also known as the puerperium, refers to the time after delivery when maternal physiological changes related to pregnancy return to the nonpregnant state. There is consensus that the postpartum period begins upon delivery of the infant. The end is less well defined but is often considered the six to eight weeks after delivery because the effects of pregnancy on many systems have largely returned to the pre-pregnancy state."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
@@ -174,7 +174,7 @@
                 <display value="US Public Health Pregnancy Outcome Observation"/>
             </reference>
             <name value="US Public Health Pregnancy Outcome Observation"/>
-            <description value="This profile represents a result of the pregnancy such as live birth, still birth, miscarriage, etc.&#xA;&#xA;The order born in the delivery, live born or fetal death (1st, 2nd, 3rd, 4th, 5th, 6th, 7th, etc.) is contained in Observation.component. All live births and fetal losses are included. If the pregnancy plurality is 1 then this value will also be 1."/>
+            <description value="This profile represents a result of the pregnancy such as live birth, still birth, miscarriage, etc.&#xA;&#xA;The subject of this profile is the mother. The focus of this profile is the related Pregnancy Status Observation. &#xA;&#xA;The order born in the delivery, live born or fetal death (1st, 2nd, 3rd, 4th, 5th, 6th, 7th, etc.) is contained in Observation.component. All live births and fetal losses are included. If the pregnancy plurality is 1 then this value will also be 1.&#xA;&#xA;There will be one Pregnancy Outcome Observation for each fetus delivered live or dead at any time in the pregnancy, regardless of gestational age or if the fetuses were delivered at different dates in the pregnancy. All live births and fetal losses are included. The order born in the delivery, live born or fetal death is contained in Observation.component."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
@@ -184,7 +184,7 @@
                 <display value="US Public Health Pregnancy Status Observation"/>
             </reference>
             <name value="US Public Health Pregnancy Status Observation"/>
-            <description value="This profile represents current and/or prior pregnancy statuses and their date ranges, enabling investigators to determine if a patient was pregnant, possibly pregnant, not pregnant or whether the pregnancy status was unknown during a particular date range.&#xA;&#xA;This profile includes the determination method, determination date, and recorded date of the pregnancy status.&#xA;&#xA;Use the effectivePeriod to indicate the date range over which the patient was pregnant/possibly pregnant/not pregnant/unknown. To record the date that the pregnancy status was recorded, use the date-recorded-extension and to record the date on which the pregnancy status determination was made, use the date-determined-extension. If the effectivePeriod.end is not present it is assumed that the date range over which the pregnancy status is asserted is from effectivePeriod.start to the date in the date-recorded-extension. For example, if the effectivePeriod.start has been recorded as two months prior to the date contained in the date-recorded-extension, and there is no effectivePeriod.end recorded, no assumptions can be made about the pregnancy status after the date contained in the date-recorded-extension."/>
+            <description value="This profile represents current and/or prior pregnancy statuses and their date ranges, enabling investigators to determine if a patient was pregnant, possibly pregnant, not pregnant or whether the pregnancy status was unknown during a particular date range.&#xA;&#xA;The subject of this profile is the mother.&#xA;&#xA;This profile includes the determination method, determination date, and recorded date of the pregnancy status.&#xA;&#xA;Use the effectivePeriod to indicate the date range over which the patient was pregnant/possibly pregnant/not pregnant/unknown. To record the date that the pregnancy status was recorded, use the date-recorded-extension and to record the date on which the pregnancy status determination was made, use the date-determined-extension. If the effectivePeriod.end is not present it is assumed that the date range over which the pregnancy status is asserted is from effectivePeriod.start to the date in the date-recorded-extension. For example, if the effectivePeriod.start has been recorded as two months prior to the date contained in the date-recorded-extension, and there is no effectivePeriod.end recorded, no assumptions can be made about the pregnancy status after the date contained in the date-recorded-extension."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
@@ -194,7 +194,7 @@
                 <display value="US Public Health Exposure Contact Information"/>
             </reference>
             <name value="US Public Health Exposure Contact Information"/>
-            <description value="This Observation profile represents potential patient exposure and contact information."/>
+            <description value="This Observation profile represents potential patient exposure and contact information.&#xA;&#xA;The type of exposure/contact is contained in Observation.code (environmental, activity, event, location, person, animal, etc.). If the exposure/contact is an entity (person, animal, location) then it is represented in Observation.focus which is a reference to a Patient, RelatedPerson, Location, Group, etc.. (An animal would be represented by a RelatedPerson that contains the Extension Practitioner Animal Species. Free text information about the exposure/contact can be recorded in Observation.valueString and the date or period of exposure is held in Observation.effective[x]. If an address where the exposure/contact took place is known then it can be contained in the address-extension.&#xA;&#xA;The following are some exposures that might be captured in this profile:&#xA;&#xA;* Environmental exposures&#xA;    * Living facilities&#xA;    * Work facilities&#xA;    * School facilities&#xA;* Contact exposures&#xA;    * Person&#xA;    * Animal&#xA;* Event Exposures&#xA;    * Sporting event&#xA;    * Rally&#xA;    * Wedding&#xA;    * Activity"/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
@@ -214,7 +214,7 @@
                 <display value="US Public Health Organization"/>
             </reference>
             <name value="US Public Health Organization"/>
-            <description value="This Organization profile represents an organization involved in public health."/>
+            <description value="This Organization profile represents an organization involved in public health. It is based on the **US Core Organization** profile and establishes the core elements, extensions, vocabularies and value sets for representing organizations for public health."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-entities"/>
         </resource>
@@ -284,7 +284,7 @@
                 <display value="US Public Health PractitionerRole"/>
             </reference>
             <name value="US Public Health PractitionerRole"/>
-            <description value="This PractitionerRole profile represents the roles and organizations a practitioner involved in public health is associated with."/>
+            <description value="This PractitionerRole profile represents the roles and organizations of the practitioner.&#xA;&#xA;It is based on the **US Core PractitionerRole** profile with a further restriction of a mandatory **identifier** data element."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-entities"/>
         </resource>
@@ -304,7 +304,7 @@
                 <display value="US Public Health Travel History"/>
             </reference>
             <name value="US Public Health Travel History"/>
-            <description value="This Observation profile represents a patient's travel history."/>
+            <description value="This Observation profile represents a patient's travel history.&#xA;&#xA;The following data for a patient can be recorded:&#xA;&#xA;* travel history as a string, an address, or a coded location&#xA;* the date or period of time spent in the location (Observation.effectiveTime)&#xA;    * it is important to accurately capture the most accurate dates possible&#xA;    * the focus should be on date of arrival and date of departure&#xA;    * the concepts of dates as related to travel are especially useful for determining need for Federal Public Health Notifications (FPHNs) and these dates are used to alert foreign ministries of health about their residents who may have been contacts of cases, or if a flight that was outbound from the USA had an infectious traveler on it&#xA;* most uses will involve a single location (Observation.component), however, it is possible to specify multiple locations (but there is only a single effectiveTime)&#xA;    * this allows for cases where a patient cannot remember exact dates of travel (e.g. I traveled to London, Paris, and Berlin in July and August 2016)&#xA;* free text describing the travel history details and location (Observation.component.valueCodeableConcept.text element)&#xA;* use Observation.component.codeableConcept to record a coded location&#xA;* use Observationcomponent.extension to record a specific address&#xA;* where a more granular address than state is known (e.g. city, street) it is appropriate to use the extension to record an address rather than using the coded location"/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
@@ -314,7 +314,7 @@
                 <display value="US Public Health Address Extension"/>
             </reference>
             <name value="US Public Health Address Extension"/>
-            <description value="This Extension profile represents where the patient traveled to or visited as an address e.g.: country, state, city, street address (if applicable)."/>
+            <description value="This Extension profile represents where the patient traveled to or visited as an address e.g.: country, state, city, street address (if applicable).&#xA;&#xA;At the least, address must contain the country. State is required if the country is US. If country is something other than US, the state **MAY** be present but **MAY** be bound to different vocabularies."/>
             <exampleBoolean value="false"/>
             <groupingId value="extensions"/>
         </resource>
@@ -353,7 +353,7 @@
                 <display value="US Public Health Determination of Reportability Extension"/>
             </reference>
             <name value="US Public Health Determination of Reportability Extension"/>
-            <description value="This Extension profile represents the determination of reportability."/>
+            <description value="This Extension profile represents the determination of reportability.&#xA;&#xA;Reportability is &quot;the quality or state of being reportable or not&quot;. Reportability does not equate to the patient having a condition or meeting a case definition (definitively being a case).&#xA;&#xA;For each condition included in the report and the relevant public health agency(s), this element indicates the determination of whether the condition is reportable to public health. &#xA;&#xA;The values that can be used for the Determination of Reportability are described below.&#xA;&#xA;A possible condition is:&#xA;&#xA;* Reportable - The information provided meets reporting criteria for an associated PHA.&#xA;&#xA;A possible condition:&#xA;&#xA;* May be Reportable - The information provided may meet reporting criteria if additional information is provided. The Reportability Response will also be able to share the information needed to definitively determine reportability.&#xA;&#xA;A possible condition is:&#xA;&#xA;* Not Reportable - The information provided conclusively does not meet reporting criteria.&#xA;&#xA;Some decision support systems may not be able to fully differentiate between possible conditions that are Not Reportable and those that May be Reportable if additional information is provided. In these circumstances there may only be a reportability determination of:&#xA;&#xA;* No Reporting Rule Met - The information provided does not meet reporting criteria or may meet reporting criteria if additional information is provided.&#xA;&#xA;The determination of No Reporting Rule Met may be provided for a possible condition or for all conditions in the report."/>
             <exampleBoolean value="false"/>
             <groupingId value="extensions"/>
         </resource>
@@ -579,9 +579,38 @@
                 <display value="US Public Health Initiation Reason Extension"/>
             </reference>
             <name value="US Public Health Initiation Reason Extension"/>
-            <description value="This extension contains an explanation for the manual or alternate initiation of the public health report."/>
+            <description value="This extension contains an explanation for the manual or alternate initiation of the public health report.&#xA;&#xA;If there are multiple distinct reasons for manual or alternate initiation then each reason should be contained in a separate US Public Health Initiation Reason Extension. &#xA;&#xA;The reason may be entered either as:&#xA;* free text (string) &#xA;* coded value (valueCodeableConcept) (not necessarily initiated by a provider of care but might be &quot;programmed-in&quot; by the EHR implementer for some purpose)"/>
             <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-clinical"/>
+            <groupingId value="extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-data-encrypted-extension"/>
+                <display value="US Public Health Data Encrypted Extension"/>
+            </reference>
+            <name value="US Public Health Data Encrypted Extension"/>
+            <description value="Indicates whether the data in the content bundle is encrypted or not."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-message-processing-category-extension"/>
+                <display value="US Public Health Message Processing Category Extension"/>
+            </reference>
+            <name value="US Public Health Message Processing Category Extension"/>
+            <description value="Indicates how systems have to deal with messages in terms of duplicates, lack of responses."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/lib-copy-us-ph-message-significance-category"/>
+                <display value="MessageSignificanceCategory"/>
+            </reference>
+            <name value="MessageSignificanceCategory"/>
+            <description value="The impact of the content of a message."/>
+            <exampleBoolean value="false"/>
         </resource>
         <page>
             <nameUrl value="index.html"/>

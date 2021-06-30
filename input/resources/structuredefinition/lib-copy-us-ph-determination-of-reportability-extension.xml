@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-determination-of-reportability-extension"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-06-21T08:55:15.135+00:00"/>
-        <source value="#chcuKqja6c3Uz8LH"/>
+        <versionId value="2"/>
+        <lastUpdated value="2021-06-30T05:00:18.389+00:00"/>
+        <source value="#XFLOsjZR0FELgYM2"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-determination-of-reportability-extension"/>
     <version value="1.0.0"/>
@@ -14,7 +14,7 @@
     <status value="active"/>
     <experimental value="false"/>
     <publisher value="HL7 Public Health Work Group"/>
-    <description value="This Extension profile represents the determination of reportability."/>
+    <description value="This Extension profile represents the determination of reportability.&#xA;&#xA;Reportability is &quot;the quality or state of being reportable or not&quot;. Reportability does not equate to the patient having a condition or meeting a case definition (definitively being a case).&#xA;&#xA;For each condition included in the report and the relevant public health agency(s), this element indicates the determination of whether the condition is reportable to public health. &#xA;&#xA;The values that can be used for the Determination of Reportability are described below.&#xA;&#xA;A possible condition is:&#xA;&#xA;* Reportable - The information provided meets reporting criteria for an associated PHA.&#xA;&#xA;A possible condition:&#xA;&#xA;* May be Reportable - The information provided may meet reporting criteria if additional information is provided. The Reportability Response will also be able to share the information needed to definitively determine reportability.&#xA;&#xA;A possible condition is:&#xA;&#xA;* Not Reportable - The information provided conclusively does not meet reporting criteria.&#xA;&#xA;Some decision support systems may not be able to fully differentiate between possible conditions that are Not Reportable and those that May be Reportable if additional information is provided. In these circumstances there may only be a reportability determination of:&#xA;&#xA;* No Reporting Rule Met - The information provided does not meet reporting criteria or may meet reporting criteria if additional information is provided.&#xA;&#xA;The determination of No Reporting Rule Met may be provided for a possible condition or for all conditions in the report."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

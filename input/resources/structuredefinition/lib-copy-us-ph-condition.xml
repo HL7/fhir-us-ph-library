@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-condition"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2021-06-21T04:49:10.721+00:00"/>
-        <source value="#afVjxJND7SdNm0EQ"/>
+        <versionId value="6"/>
+        <lastUpdated value="2021-06-30T04:58:04.139+00:00"/>
+        <source value="#s40nVwYfhG1vj6Hp"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-condition"/>
     <version value="1.0.0"/>
@@ -14,7 +14,7 @@
     <status value="active"/>
     <experimental value="false"/>
     <publisher value="HL7 Public Health Work Group"/>
-    <description value="This Condition profile represents the signs, symptoms, and diagnoses related to an public health event."/>
+    <description value="This Condition profile represents the signs, symptoms, and diagnoses related to a public health event.&#xA;&#xA;It is based on the **US Core Condition** profile with further restriction of a *Must Support* constraint on the **onset\[x]** and verificationStatus data elements.&#xA;&#xA;In the case of a condition being mistakenly entered into the system and later corrected:&#xA;* verificationStatus of 'entered-in-error' must be set"/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -54,14 +54,13 @@
             </type>
             <mustSupport value="true"/>
         </element>
-        <element id="Condition.verificationStatus">
-            <path value="Condition.verificationStatus"/>
-            <short value="Verification status of 'entered-in-error' to be used for a mistakenly reported condition."/>
-            <definition value="In the case of a condition being mistakenly entered into the system and later corrected, a verificationStatus of 'entered-in-error' must be set."/>
+        <element id="Condition.subject">
+            <path value="Condition.subject"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-patient"/>
+            </type>
             <mustSupport value="true"/>
-        </element>
-        <element id="Condition.code">
-            <path value="Condition.code"/>
         </element>
         <element id="Condition.onset[x]">
             <path value="Condition.onset[x]"/>
