@@ -57,7 +57,7 @@
             <min value="1"/>
             <max value="1"/>
             <fixedCoding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type"/>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/lib-copy-usage-context-type"/>
                 <code value="reporting"/>
                 <display value="Reporting"/>
             </fixedCoding>
@@ -74,7 +74,7 @@
             </type>
             <fixedCodeableConcept>
                 <coding>
-                    <system value="http://hl7.org/fhir/us/ph-library/us-ph-usage-context"/>
+                    <system value="http://hl7.org/fhir/us/ph-library/lib-copy-usage-context"/>
                     <code value="triggering"/>
                     <display value="Triggering"/>
                 </coding>
