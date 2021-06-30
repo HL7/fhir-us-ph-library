@@ -58,7 +58,6 @@
         <element id="Encounter.class">
             <path value="Encounter.class"/>
             <short value="Class of encounter"/>
-            <definition value="Where a trigger occurs outside of an encounter use code=&quot;PHC2237&quot; | system=&quot;https://phinvads.cdc.gov/vads/ViewCodeSystem.action?id=2.16.840.1.114222.4.5.274&quot; | display=&quot;External Encounter&quot;."/>
             <mustSupport value="true"/>
         </element>
         <element id="Encounter.type">
