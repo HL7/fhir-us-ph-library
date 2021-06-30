@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-encounter"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2021-06-21T04:51:32.622+00:00"/>
-        <source value="#wdTjhNk2MmjUrB1J"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-06-30T03:39:03.810+00:00"/>
+        <source value="#jN5nHthuoDk6oYVY"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-encounter"/>
     <version value="1.0.0"/>

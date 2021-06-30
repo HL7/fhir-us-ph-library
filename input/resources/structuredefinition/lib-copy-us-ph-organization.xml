@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-organization"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-06-21T04:59:37.538+00:00"/>
-        <source value="#whrYAZsNGcq79BCG"/>
+        <versionId value="6"/>
+        <lastUpdated value="2021-06-30T04:03:42.011+00:00"/>
+        <source value="#Pt15pFMsU9kISj8v"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-organization"/>
     <version value="1.0.0"/>
@@ -34,34 +34,17 @@
             <path value="Organization"/>
             <short value="US Public Health Organization"/>
             <definition value="The Public Health Reporting Organization profile is based on the **US Core-Organization** profile and establishes the core elements, extensions, vocabularies and value sets for representing organizations for public health:&#xA;&#xA;- Report source provider facility/office name&#xA;- Report source facility&#xA;- Response recipients&#xA;- Response responsible agency  &#xA;- Response routing entity&#xA;- Response rules authoring agency"/>
-            <min value="0"/>
-            <max value="*"/>
-            <base>
-                <path value="us-core-organization"/>
-                <min value="0"/>
-                <max value="*"/>
-            </base>
-            <mustSupport value="true"/>
-            <isModifier value="false"/>
         </element>
-        <element id="Organization.type">
-            <path value="Organization.type"/>
-            <mustSupport value="true"/>
-            <isModifier value="false"/>
-            <binding>
-                <strength value="extensible"/>
-                <description value="The type of Organization"/>
-                <valueSet value="http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType"/>
-            </binding>
-        </element>
-        <element id="Organization.name">
-            <path value="Organization.name"/>
+        <element id="Organization.telecom">
+            <path value="Organization.telecom"/>
+            <min value="1"/>
             <mustSupport value="true"/>
         </element>
-        <element id="Organization.contact">
-            <path value="Organization.contact"/>
+        <element id="Organization.address">
+            <path value="Organization.address"/>
+            <min value="1"/>
+            <max value="1"/>
             <mustSupport value="true"/>
-            <isModifier value="false"/>
         </element>
     </differential>
 </StructureDefinition>

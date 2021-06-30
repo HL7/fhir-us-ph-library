@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-patient"/>
     <meta>
-        <versionId value="16"/>
-        <lastUpdated value="2021-06-28T04:38:07.374+00:00"/>
-        <source value="#NDVQ0xZGqwjqzDO1"/>
+        <versionId value="17"/>
+        <lastUpdated value="2021-06-28T22:41:01.605+00:00"/>
+        <source value="#bMeHhC9S6HOmrPLF"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-patient"/>
     <version value="1.0.0"/>
@@ -62,7 +62,6 @@
             <mustSupport value="true"/>
             <isModifier value="false"/>
         </element>
-        
         <element id="Patient.extension:genderIdentity">
             <path value="Patient.extension"/>
             <sliceName value="genderIdentity"/>
