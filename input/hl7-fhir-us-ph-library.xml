@@ -125,7 +125,7 @@
                 <display value="US Public Health Encounter"/>
             </reference>
             <name value="US Public Health Encounter"/>
-            <description value="This Encounter profile represents the encounter related to the event."/>
+            <description value="This Encounter profile represents the encounter related to the event. It is based on the US Core Encounter."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
