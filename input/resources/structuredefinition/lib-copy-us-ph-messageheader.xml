@@ -74,7 +74,7 @@
             <binding>
                 <strength value="extensible"/>
                 <description value="Types of messages being sent between systems"/>
-                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/lib-copy-us-ph-message-types"/>
+                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/lib-copy-us-ph-message-types-valueset"/>
             </binding>
         </element>
         <element id="MessageHeader.destination">
