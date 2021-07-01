@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="106"/>
-        <lastUpdated value="2021-06-30T08:44:45.040+00:00"/>
-        <source value="#iaOGOuzKZcTlUcOK"/>
+        <versionId value="108"/>
+        <lastUpdated value="2021-07-01T00:07:39.225+00:00"/>
+        <source value="#Aic0OjMHgtm0nxJJ"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="0.0.1"/>
@@ -608,8 +608,26 @@
                 <reference value="ValueSet/lib-copy-us-ph-message-significance-category"/>
                 <display value="MessageSignificanceCategory"/>
             </reference>
-            <name value="MessageSignificanceCategory"/>
+            <name value="US Public Health Message Significance Category"/>
             <description value="The impact of the content of a message."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/lib-copy-us-ph-message-types-valueset"/>
+                <display value="US Public Health Message Types ValueSet"/>
+            </reference>
+            <name value="US Public Health Message Types ValueSet"/>
+            <description value="The US Public Health Message Types Value Set is a 'starter set' of codes for uniquely identifying messages in MessageHeader instances contained within a reporting bundle."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/lib-copy-us-ph-message-types-codesystem"/>
+                <display value="US Public Health Message Types CodeSystem"/>
+            </reference>
+            <name value="US Public Health Message Types CodeSystem"/>
+            <description value="The US Public Health Message Types CodeSystem is a 'starter set' of codes supported for identifying types of messages being exchanged."/>
             <exampleBoolean value="false"/>
         </resource>
         <page>
