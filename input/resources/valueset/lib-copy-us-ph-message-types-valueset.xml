@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-message-types-valueset"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-07-01T00:04:52.389+00:00"/>
-        <source value="#h26WRfhyK4H0thJQ"/>
+        <versionId value="2"/>
+        <lastUpdated value="2021-07-01T02:17:28.346+00:00"/>
+        <source value="#NZta0UgcyCwUSHZt"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ValueSet/lib-copy-us-ph-message-types-valueset"/>
     <version value="0.1.0"/>
