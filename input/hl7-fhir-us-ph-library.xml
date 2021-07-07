@@ -406,6 +406,16 @@
         </resource>
         <resource>
             <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-expansion-parameters-extension"/>
+                <display value="US Public Health Expansion Parameters Extension"/>
+            </reference>
+            <name value="US Public Health Expansion Parameters Extension"/>
+            <description value="This Extension supports the definition of expansion parameters for the ValueSet."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="extensions"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="StructureDefinition/lib-copy-us-ph-computable-valueset"/>
                 <display value="US Public Health Computable ValueSet"/>
             </reference>
