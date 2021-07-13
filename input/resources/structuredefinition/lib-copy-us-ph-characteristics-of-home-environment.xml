@@ -76,6 +76,7 @@
             <mustSupport value="true"/>
             <binding>
                 <strength value="extensible"/>
+                <description value="Residence and Accommodation Type"/>
                 <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.49"/>
             </binding>
         </element>

@@ -47,6 +47,7 @@
         </element>
         <element id="Extension.value[x]:valueCodeableConcept">
             <path value="Extension.valueCodeableConcept"/>
+            <short value="Value representing whether a condition is reportable or not."/>
             <sliceName value="valueCodeableConcept"/>
             <min value="1"/>
             <type>
@@ -54,7 +55,7 @@
             </type>
             <binding>
                 <strength value="extensible"/>
-                <description value="This value set contains codes that specify whether a condition is reportable or not."/>
+                <description value="Determination of Reportability"/>
                 <valueSet value="http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.3"/>
             </binding>
         </element>

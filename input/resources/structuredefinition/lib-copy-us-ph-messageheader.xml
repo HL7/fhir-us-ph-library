@@ -65,6 +65,7 @@
         </element>
         <element id="MessageHeader.event[x]">
             <path value="MessageHeader.event[x]"/>
+            <short value="Types of messages being sent between systems"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -73,7 +74,7 @@
             <mustSupport value="true"/>
             <binding>
                 <strength value="extensible"/>
-                <description value="Types of messages being sent between systems"/>
+                <description value="US Public Health Message Types ValueSet"/>
                 <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/lib-copy-us-ph-message-types-valueset"/>
             </binding>
         </element>
@@ -113,6 +114,7 @@
         </element>
         <element id="MessageHeader.reason">
             <path value="MessageHeader.reason"/>
+            <short value="The named event that gave rise to the message"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -121,7 +123,7 @@
             <mustSupport value="true"/>
             <binding>
                 <strength value="extensible"/>
-                <description value="The named event that gave rise to the message"/>
+                <description value="US Public Health TriggerDefinition NamedEvents"/>
                 <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/lib-copy-us-ph-triggerdefinition-namedevent"/>
             </binding>
         </element>

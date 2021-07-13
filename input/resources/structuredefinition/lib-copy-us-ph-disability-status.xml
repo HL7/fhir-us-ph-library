@@ -36,12 +36,13 @@
         </element>
         <element id="Observation.code">
             <path value="Observation.code"/>
+            <short value="Disability status"/>
             <min value="1"/>
             <max value="1"/>
             <mustSupport value="true"/>
             <binding>
                 <strength value="required"/>
-                <description value="All disability status questions in the Race, ethnicity, sex, primary language, disability - Health and Human Services (HHS) panel [HHS.ACA Section 4302]."/>
+                <description value="Disability Status"/>
                 <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.49"/>
             </binding>
         </element>
