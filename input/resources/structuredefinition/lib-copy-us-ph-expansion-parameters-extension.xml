@@ -2,6 +2,11 @@
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-expansion-parameters-extension"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-07-07T01:12:07.574+00:00"/>
+        <source value="#wuvCwq59Po77tMpk"/>
+    </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-expansion-parameters-extension"/>
     <version value="0.1.0"/>
     <name value="USPublicHealthExpansionParametersExtension"/>

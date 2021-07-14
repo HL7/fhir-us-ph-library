@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-message-processing-category-extension"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-06-30T08:40:25.516+00:00"/>
-        <source value="#HID7kjf2sJ1jRcEv"/>
+        <versionId value="2"/>
+        <lastUpdated value="2021-07-13T23:32:30.697+00:00"/>
+        <source value="#kOjJcysF0nDFGNEK"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-message-processing-category-extension"/>
     <version value="0.1.0"/>

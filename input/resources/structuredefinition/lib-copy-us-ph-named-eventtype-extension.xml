@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-named-eventtype-extension"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-06-22T00:48:36.622+00:00"/>
-        <source value="#zNEHOzeagfjyWztU"/>
+        <versionId value="2"/>
+        <lastUpdated value="2021-07-13T23:33:05.806+00:00"/>
+        <source value="#R6RtQpDimna0o2HI"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-named-eventtype-extension"/>
     <version value="0.1.0"/>

@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-pregnancy-status-observation"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2021-06-30T07:52:31.707+00:00"/>
-        <source value="#yKdG3T9MDBXplyz0"/>
+        <versionId value="9"/>
+        <lastUpdated value="2021-07-13T23:33:05.809+00:00"/>
+        <source value="#5viB2apeoDcanN1H"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-pregnancy-status-observation"/>
     <version value="1.0.0"/>

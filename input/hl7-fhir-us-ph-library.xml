@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="111"/>
-        <lastUpdated value="2021-07-01T04:56:13.004+00:00"/>
-        <source value="#3l9oaDjYQuKOGpXa"/>
+        <versionId value="116"/>
+        <lastUpdated value="2021-07-14T04:04:19.054+00:00"/>
+        <source value="#sUAaQQEzUkKW121V"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="0.0.1"/>
@@ -406,16 +406,6 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/lib-copy-us-ph-expansion-parameters-extension"/>
-                <display value="US Public Health Expansion Parameters Extension"/>
-            </reference>
-            <name value="US Public Health Expansion Parameters Extension"/>
-            <description value="This Extension supports the definition of expansion parameters for the ValueSet."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="extensions"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="StructureDefinition/lib-copy-us-ph-computable-valueset"/>
                 <display value="US Public Health Computable ValueSet"/>
             </reference>
@@ -639,6 +629,26 @@
             <name value="US Public Health Message Types CodeSystem"/>
             <description value="The US Public Health Message Types CodeSystem is a 'starter set' of codes supported for identifying types of messages being exchanged."/>
             <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-expansion-parameters-extension"/>
+                <display value="US Public Health Expansion Parameters Extension"/>
+            </reference>
+            <name value="US Public Health Expansion Parameters Extension"/>
+            <description value="Supports the definition of expansion parameters for the ValueSet."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-information-recipient-extension"/>
+                <display value="US Public Health Information Recipient Extension"/>
+            </reference>
+            <name value="US Public Health Information Recipient Extension"/>
+            <description value="This extension represents a US Public Health Information Recipient"/>
+            <exampleBoolean value="false"/>
+            <groupingId value="extensions"/>
         </resource>
         <page>
             <nameUrl value="index.html"/>

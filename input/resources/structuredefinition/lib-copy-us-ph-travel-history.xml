@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-travel-history"/>
     <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2021-06-30T08:09:33.743+00:00"/>
-        <source value="#DBaAapqMUPTh4KDA"/>
+        <versionId value="8"/>
+        <lastUpdated value="2021-07-13T23:33:27.320+00:00"/>
+        <source value="#NZ7QEXvX0irxVJcE"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-travel-history"/>
     <version value="1.0.0"/>
