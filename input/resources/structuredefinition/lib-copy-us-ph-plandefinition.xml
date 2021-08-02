@@ -151,7 +151,7 @@
             <max value="1"/>
             <type>
                 <code value="Extension"/>
-                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/ext-us-ph-namedEventType"/>
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-named-eventtype-extension"/>
             </type>
             <mustSupport value="true"/>
             <binding>
