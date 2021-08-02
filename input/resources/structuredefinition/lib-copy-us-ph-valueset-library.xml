@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-valueset-library"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2021-06-23T01:04:50.575+00:00"/>
-        <source value="#JlBOxW0uQn4qX0DY"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-07-29T20:36:01.889+00:00"/>
+        <source value="#sh0ZvoP8jwtRNeVY"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-valueset-library"/>
     <version value="1.0.0"/>
@@ -35,44 +35,44 @@
             <short value="US Public Health ValueSet Library"/>
         </element>
         <element id="Library.extension">
-          <path value="Library.extension"/>
-          <slicing>
-            <discriminator>
-              <type value="value"/>
-              <path value="url"/>
-            </discriminator>
-            <ordered value="false"/>
-            <rules value="open"/>
-          </slicing>
-          <base>
-            <path value="DomainResource.extension"/>
-            <min value="0"/>
-            <max value="*"/>
-          </base>
-          <type>
-            <code value="Extension"/>
-          </type>
-          <isModifier value="false"/>
-          <isSummary value="false"/>
+            <path value="Library.extension"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="url"/>
+                </discriminator>
+                <ordered value="false"/>
+                <rules value="open"/>
+            </slicing>
+            <base>
+                <path value="DomainResource.extension"/>
+                <min value="0"/>
+                <max value="*"/>
+            </base>
+            <type>
+                <code value="Extension"/>
+            </type>
+            <isModifier value="false"/>
+            <isSummary value="false"/>
         </element>
         <element id="Library.extension:expansionParameters">
-          <path value="Library.extension"/>
-          <sliceName value="expansionParameters"/>
-          <short value="Expansion Parameters for the ValueSet."/>
-          <definition value="Supports the definition of expansion parameters for the ValueSet."/>
-          <min value="0"/>
-          <max value="1"/>
-          <base>
-            <path value="DomainResource.extension"/>
+            <path value="Library.extension"/>
+            <sliceName value="expansionParameters"/>
+            <short value="Expansion Parameters for the ValueSet."/>
+            <definition value="Supports the definition of expansion parameters for the ValueSet."/>
             <min value="0"/>
-            <max value="*"/>
-          </base>
-          <type>
-            <code value="Extension"/>
-            <profile value="http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-expansion-parameters-extension"/>
-          </type>
-          <mustSupport value="true"/>
-          <isModifier value="false"/>
+            <max value="1"/>
+            <base>
+                <path value="DomainResource.extension"/>
+                <min value="0"/>
+                <max value="*"/>
+            </base>
+            <type>
+                <code value="Extension"/>
+                <profile value="http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-expansion-parameters-extension"/>
+            </type>
+            <mustSupport value="true"/>
+            <isModifier value="false"/>
         </element>
         <element id="Library.identifier">
             <path value="Library.identifier"/>

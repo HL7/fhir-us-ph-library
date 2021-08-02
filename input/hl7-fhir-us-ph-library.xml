@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="116"/>
-        <lastUpdated value="2021-07-14T04:04:19.054+00:00"/>
-        <source value="#sUAaQQEzUkKW121V"/>
+        <versionId value="122"/>
+        <lastUpdated value="2021-08-02T07:13:07.809+00:00"/>
+        <source value="#46B60IpHrnQzgC1y"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="0.0.1"/>
@@ -647,6 +647,16 @@
             </reference>
             <name value="US Public Health Information Recipient Extension"/>
             <description value="This extension represents a US Public Health Information Recipient"/>
+            <exampleBoolean value="false"/>
+            <groupingId value="extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/lib-copy-us-ph-receiver-address-extension"/>
+                <display value="US Public Health Receiver Address Extension"/>
+            </reference>
+            <name value="US Public Health Receiver Address Extension"/>
+            <description value="Indicates the endpoint address where the report has to be sent."/>
             <exampleBoolean value="false"/>
             <groupingId value="extensions"/>
         </resource>
