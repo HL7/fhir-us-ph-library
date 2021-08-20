@@ -135,5 +135,53 @@
             </type>
             <mustSupport value="true"/>
         </element>
+        <element id="Composition.relatesTo">
+            <path value="Composition.relatesTo" />
+            <slicing>
+                <discriminator>
+                    <type value="value" />
+                    <path value="code" />
+                </discriminator>
+                <rules value="open" />
+            </slicing>
+            <mustSupport value="true" />
+        </element>
+        <element id="Composition.relatesTo:sliceTransformed">
+            <path value="Composition.relatesTo" />
+            <sliceName value="sliceTransformed" />
+            <short value="Document or Composition that this Composition is transformed from" />
+            <definition value="Document of Composition that this Composition is transformed from" />
+            <min value="0" />
+            <max value="1" />
+        </element>
+        <element id="Composition.relatesTo:sliceTransformed.code">
+            <path value="Composition.relatesTo.code" />
+            <fixedCode value="transforms" />
+        </element>
+        <element id="Composition.relatesTo:sliceTransformed.target[x]">
+            <path value="Composition.relatesTo.target[x]" />
+            <short value="Identifier of the Document or Composition transformed" />
+            <definition value="Identifier of the Document or Composition transformed" />
+            <type>
+                <code value="Identifier" />
+            </type>
+        </element>
+        <element id="Composition.relatesTo:sliceReplaced">
+            <path value="Composition.relatesTo" />
+            <sliceName value="sliceReplaced" />
+            <short value="Document or Composition that this Composition replaces" />
+            <definition value="Document or Composition that this Composition replaces" />
+            <min value="0" />
+            <max value="1" />
+        </element>
+        <element id="Composition.relatesTo:sliceReplaced.code">
+            <path value="Composition.relatesTo.code" />
+            <fixedCode value="replaces" />
+        </element>
+        <element id="Composition.relatesTo:sliceReplaced.target[x]">
+            <path value="Composition.relatesTo.target[x]" />
+            <short value="Identifier/Reference to the Document or Composition transformed" />
+            <definition value="Identifier/Reference to the Document or Composition transformed" />
+        </element>
     </differential>
 </StructureDefinition>
