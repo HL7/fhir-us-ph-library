@@ -69,7 +69,7 @@
             </base>
             <type>
                 <code value="Extension"/>
-                <profile value="http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-expansion-parameters-extension"/>
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-expansion-parameters-extension"/>
             </type>
             <mustSupport value="true"/>
             <isModifier value="false"/>
