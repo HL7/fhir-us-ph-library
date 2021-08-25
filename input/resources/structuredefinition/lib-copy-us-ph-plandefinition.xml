@@ -135,7 +135,7 @@
             <binding>
                 <strength value="extensible"/>
                 <description value="The set of actions that can be used to create plan definition"/>
-                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-plandefinition-action"/>
+                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/lib-copy-us-ph-plandefinition-action"/>
             </binding>
         </element>
         <element id="PlanDefinition.action.trigger">
@@ -157,7 +157,7 @@
             <binding>
                 <strength value="extensible"/>
                 <description value="The set of named events that can be used for subscriptions"/>
-                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-triggerdefinition-namedevent"/>
+                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/lib-copy-us-ph-triggerdefinition-namedevent"/>
             </binding>
         </element>
         <element id="PlanDefinition.action.trigger.type">
