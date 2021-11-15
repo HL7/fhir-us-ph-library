@@ -51,6 +51,11 @@
             <definition value="Evaluate condition to determine reportability."/>
         </concept>
         <concept>
+            <code value="evaluate-measure"/>
+            <display value="Evaluate measure to determine reportability"/>
+            <definition value="Evaluate measure to determine reportability."/>
+        </concept>
+        <concept>
             <code value="check-participant-registration"/>
             <display value="Evaluate participants in encounter for reportability"/>
             <definition value="Evaluate encounter participants such as patient, practitioner, organization on whether they have been selected for reportability."/>
@@ -100,11 +105,6 @@
             <display value="Extract data from an EHR for one or more patients."/>
             <definition value="Extract data from an EHR for one or more patients for research purposes."/>
         </concept>
-        <concept>
-            <code value="execute-research-query"/>
-            <display value="Execute a research query on the data mart."/>
-            <definition value="Execute a research query on the data mart based on the PlanDefinition and create a result to be submitted."/>
-        </concept>
     </concept>
     <concept>
         <code value="terminate-reporting-workflow"/>
@@ -118,7 +118,7 @@
     </concept>
     <concept>
         <code value="report-chronic-disease-surveillance"/>
-        <display value="Report Chronic Disease Surveillance"/>
+        <display value="Report Chronic Disease Surveillance report"/>
         <definition value="This action represents the reporting of a Chronic Disease Surveillance report."/>
     </concept>
 </CodeSystem>
