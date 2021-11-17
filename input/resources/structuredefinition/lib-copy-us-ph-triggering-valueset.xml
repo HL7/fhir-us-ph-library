@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="lib-copy-us-ph-triggering-valueset"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2021-06-23T02:19:38.970+00:00"/>
-        <source value="#vTEWuopADwIA6M6h"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-06-23T02:20:34.295+00:00"/>
+        <source value="#l05xqgorFAo4ehsZ"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-triggering-valueset"/>
     <version value="1.0.0"/>
@@ -40,10 +40,10 @@
                     <type value="pattern"/>
                     <path value="code"/>
                 </discriminator>
-                <rules value="closed"/>
+                <rules value="open"/>
             </slicing>
             <min value="1"/>
-            <max value="1"/>
+            <max value="*"/>
         </element>
         <element id="ValueSet.useContext:reportingContext">
             <path value="ValueSet.useContext"/>
