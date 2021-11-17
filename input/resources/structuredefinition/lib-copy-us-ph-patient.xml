@@ -77,7 +77,7 @@
             <max value="*"/>
             <type>
                 <code value="Extension"/>
-                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-tribal-affiliation-extension"/>
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph--tribal-affiliation-extension"/>
             </type>
             <mustSupport value="true"/>
             <isModifier value="false"/>
