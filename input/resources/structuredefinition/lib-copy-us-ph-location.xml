@@ -32,8 +32,7 @@
     <differential>
         <element id="Location">
             <path value="Location"/>
-            <short value="eICR Location"/>
-            <definition value="The location/facility in which care was provided when the case was triggered."/>
+            <short value="US Public Health Location"/>
         </element>
         <element id="Location.identifier">
             <path value="Location.identifier"/>
