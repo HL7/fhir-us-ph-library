@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition
   xmlns="http://hl7.org/fhir">
-  <id value="us-ph-medicationadministration"/>
-  <url value="http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-medicationadministration"/>
+  <id value="lib-copy-us-ph-medicationadministration"/>
+  <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-medicationadministration"/>
   <version value="0.1.0"/>
   <name value="USPublicHealthMedicationAdministration"/>
   <title value="US Public Health MedicationAdministration"/>
@@ -51,7 +51,7 @@
       <path value="MedicationAdministration.subject"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-patient"/>
+        <targetProfile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/lib-copy-us-ph-patient"/>
       </type>
       <mustSupport value="true"/>
     </element>
