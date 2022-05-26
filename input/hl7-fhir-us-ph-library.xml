@@ -706,6 +706,15 @@
             <description value="Defines the asset-collection library containing the US Public Health specification assets."/>
             <exampleBoolean value="false"/>
         </resource>
+      <resource>
+        <reference>
+          <reference value="StructureDefinition/lib-copy-us-ph-medicationadministration"/>
+          <display value="US Public Health MedicationAdministration"/>
+        </reference>
+        <name value="US Public Health MedicationAdministration"/>
+        <exampleBoolean value="false"/>
+        <groupingId value="content-profiles-clinical"/>
+      </resource>
         <page>
             <nameUrl value="index.html"/>
             <title value="Home Page"/>
