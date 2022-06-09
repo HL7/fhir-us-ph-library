@@ -2,7 +2,7 @@
 	"list": [
 		{
 			"version": "current",
-			"path": "https://build.fhir.org/ig/HL7/fhir-us-phpl",
+			"path": "https://build.fhir.org/ig/HL7/fhir-us-ph-library",
 			"desc": "Continuous Integration Build (latest in version control)",
 			"fhirversion": "4.1.1",
 			"date": "",
@@ -11,8 +11,8 @@
 			"current": true
 		}
 	],
-	"package-id": "hl7.fhir.us.phpl",
+	"package-id": "hl7.fhir.us.ph-library",
 	"title": "US Public Health Profiles Library",
-	"canonical": "http://hl7.org/fhir/us/phpl",
+	"canonical": "http://hl7.org/fhir/us/ph-library",
 	"category": "Public Health"
 }
