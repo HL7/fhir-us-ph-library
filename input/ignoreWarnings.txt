@@ -10,12 +10,16 @@ This element does not match any known slice defined in the profile http://hl7.or
 This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset
 This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-composition
 This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-library
+This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle
 
 # External value sets/code systems
 [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type because the value set or a code system it depends on is not known to the validator, Code System URI 'http://www.ama-assn.org/go/cpt' is unknown so the code cannot be validated]
 Code System URI 'http://www.ama-assn.org/go/cpt' is unknown so the code cannot be validated
 Code System URI 'http://terminology.hl7.org/CodeSystem/umls' is unknown so the code cannot be validated
 Code System URI 'urn:oid:1.0.3166.1' is unknown so the code cannot be validated
+[Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.3 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated
+Code System URI 'urn:oid:2.16.840.1.114222.4.5.232' is unknown so the code cannot be validated
 
 # Suppressed information messages
 The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)

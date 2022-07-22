@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-determination-of-reportability-reason-extension"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2022-07-12T02:02:26.724+00:00"/>
-        <source value="#hK8EDES0XuQvKVnl"/>
+        <versionId value="4"/>
+        <lastUpdated value="2022-07-22T20:33:35.514+00:00"/>
+        <source value="#rn0xg88MpZyBEuAK"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-determination-of-reportability-reason-extension"/>
     <version value="1.0.0"/>
@@ -28,7 +28,7 @@
     <abstract value="false"/>
     <context>
         <type value="element"/>
-        <expression value="PlanDefinition"/>
+        <expression value="Observation"/>
     </context>
     <type value="Extension"/>
     <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
