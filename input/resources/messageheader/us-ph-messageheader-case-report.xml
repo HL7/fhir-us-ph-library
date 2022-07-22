@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-messageheader-case-report"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2022-07-21T22:00:27.632+00:00"/>
-        <source value="#eTgn7FnIEft6p9Pw"/>
+        <versionId value="3"/>
+        <lastUpdated value="2022-07-22T19:58:50.237+00:00"/>
+        <source value="#un4cM3WjIQ50i2xQ"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-messageheader"/>
     </meta>
     <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-data-encrypted-extension">
@@ -47,6 +47,6 @@
         </coding>
     </reason>
     <focus>
-        <reference value="Bundle/bundle-eicr-document-zika"/>
+        <reference value="Bundle/us-ph-document-bundle-example"/>
     </focus>
 </MessageHeader>
