@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation
+    xmlns="http://hl7.org/fhir">
+    <id value="us-ph-emergency-outbreak-info-eve-everywoman"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2022-07-21T05:29:08.621+00:00"/>
+        <source value="#7fsasPat8xd0GBmD"/>
+        <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-emergency-outbreak-information"/>
+    </meta>
+    <status value="final"/>
+    <code>
+        <text value="Employee desk distance from mail sorter"/>
+    </code>
+    <subject>
+        <reference value="Patient/us-ph-patient-eve-everywoman"/>
+        <display value="Eve Everywoman"/>
+    </subject>
+    <effectiveDateTime value="2020-11-18T22:33:22Z"/>
+    <valueQuantity>
+        <value value="2"/>
+        <unit value="m"/>
+    </valueQuantity>
+</Observation>

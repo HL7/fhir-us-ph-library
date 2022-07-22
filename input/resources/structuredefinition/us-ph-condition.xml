@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-condition"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2021-06-30T04:58:04.139+00:00"/>
-        <source value="#s40nVwYfhG1vj6Hp"/>
+        <versionId value="3"/>
+        <lastUpdated value="2022-07-12T02:02:14.175+00:00"/>
+        <source value="#efxrYYHQWxVZ1Hqo"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition"/>
     <version value="1.0.0"/>

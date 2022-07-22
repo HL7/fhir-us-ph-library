@@ -1,1 +1,19 @@
 == Suppressed Messages ==
+# APPROVED by HL7 Cross Group Projects WG: Profiles do not derive from one of the base US profiles because they do not align with any of the US Core Observations (Minutes: https://confluence.hl7.org/pages/viewpage.action?pageId=97453270)
+US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+
+# This profile derives from the US Core Condition in the version of US Core this IG is dependent on (4.0.0)
+US FHIR Usage rules require that all profiles on Condition derive from one of the base US profiles
+
+# Examples have optional slices that are not defined in the profile - not matching is expected behaviour
+This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-organization
+This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset
+
+# External value sets/code systems
+[Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type because the value set or a code system it depends on is not known to the validator, Code System URI 'http://www.ama-assn.org/go/cpt' is unknown so the code cannot be validated]
+Code System URI 'http://www.ama-assn.org/go/cpt' is unknown so the code cannot be validated
+Code System URI 'http://terminology.hl7.org/CodeSystem/umls' is unknown so the code cannot be validated
+Code System URI 'urn:oid:1.0.3166.1' is unknown so the code cannot be validated
+
+# Suppressed information messages
+The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)

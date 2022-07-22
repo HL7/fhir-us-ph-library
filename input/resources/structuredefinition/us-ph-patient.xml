@@ -2,6 +2,11 @@
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-patient"/>
+    <meta>
+        <versionId value="21"/>
+        <lastUpdated value="2022-07-22T00:00:06.397+00:00"/>
+        <source value="#ZSlxWJTEq0F11ZAc"/>
+    </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
     <version value="1.0.0"/>
     <name value="USPublicHealthPatient"/>
@@ -64,7 +69,7 @@
             <max value="*"/>
             <type>
                 <code value="Extension"/>
-                <profile value="http://hl7.org/fhir/StructureDefinition/patient-genderIdentity"/>
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-genderidentity-extension"/>
             </type>
             <mustSupport value="true"/>
             <isModifier value="false"/>

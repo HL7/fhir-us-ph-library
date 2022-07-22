@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Endpoint
+    xmlns="http://hl7.org/fhir">
+    <id value="us-ph-endpoint-ymca"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2022-07-21T05:31:17.999+00:00"/>
+        <source value="#DB6NmJY7dUD8FA6Q"/>
+        <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-endpoint"/>
+    </meta>
+    <status value="active"/>
+    <connectionType>
+        <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
+        <code value="hl7-fhir-rest"/>
+    </connectionType>
+    <payloadType>
+        <text value="Reportability Response"/>
+    </payloadType>
+    <address value="http://example.org/ymca/fhir"/>
+</Endpoint>

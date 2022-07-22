@@ -4,8 +4,8 @@
     <id value="us-ph-pregnancy-outcome-observation"/>
     <meta>
         <versionId value="6"/>
-        <lastUpdated value="2021-07-13T23:33:05.810+00:00"/>
-        <source value="#hM9lhDLcgQBR3jCM"/>
+        <lastUpdated value="2022-07-12T02:03:21.910+00:00"/>
+        <source value="#eJVtYaRMFWMpmoep"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-pregnancy-outcome-observation"/>
     <version value="1.0.0"/>

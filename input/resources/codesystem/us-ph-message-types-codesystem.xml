@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-message-types-codesystem"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2021-08-13T00:56:55.023+00:00"/>
-        <source value="#ikA8da9BjzW7UVwt"/>
+        <versionId value="4"/>
+        <lastUpdated value="2022-07-12T01:59:13.540+00:00"/>
+        <source value="#qHY1d39XSSm88qoI"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-message-types-codesystem"/>
     <version value="0.1.0"/>

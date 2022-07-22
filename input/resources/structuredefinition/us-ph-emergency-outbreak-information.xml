@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-emergency-outbreak-information"/>
     <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2021-07-15T01:29:08.454+00:00"/>
-        <source value="#I9BNcgXKHBHpuHNY"/>
+        <versionId value="16"/>
+        <lastUpdated value="2022-07-12T02:02:45.712+00:00"/>
+        <source value="#5n4yjL5D0tj8aKHh"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-emergency-outbreak-information"/>
     <version value="1.0.0"/>

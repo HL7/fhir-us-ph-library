@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-practitionerrole"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2021-06-30T05:01:31.388+00:00"/>
-        <source value="#SsrpgwpRCDuEhK6G"/>
+        <versionId value="9"/>
+        <lastUpdated value="2022-07-12T02:03:21.889+00:00"/>
+        <source value="#PBiWu1BCm1ugkLyG"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-practitionerrole"/>
     <version value="1.0.0"/>

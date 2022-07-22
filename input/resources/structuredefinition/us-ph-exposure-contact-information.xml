@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-exposure-contact-information"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2021-07-01T02:25:42.838+00:00"/>
-        <source value="#Yqroje07QcbMes58"/>
+        <versionId value="30"/>
+        <lastUpdated value="2022-07-12T02:02:58.161+00:00"/>
+        <source value="#lgAdcD8sYMSQgzRC"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-exposure-contact-information"/>
     <version value="1.0.0"/>

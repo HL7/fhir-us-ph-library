@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Library
+    xmlns="http://hl7.org/fhir">
+    <id value="us-ph-specification-library-example"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2022-07-22T06:05:41.652+00:00"/>
+        <source value="#TzGY0wAIhKJ0RH8i"/>
+        <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-specification-library"/>
+    </meta>
+    <url value="http://example.org/fhir/Library/us-ph-specification-library-example"/>
+    <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:2.16.840.1.114222.4.11.11111"/>
+    </identifier>
+    <version value="2020-11-01"/>
+    <name value="USPublicHealthSpecificationLibraryExample"/>
+    <title value="US Public Health Specification Library Example"/>
+    <status value="active"/>
+    <experimental value="true"/>
+    <type>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/library-type"/>
+            <code value="asset-collection"/>
+        </coding>
+    </type>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
+    <description value="Description of library"/>
+    <useContext>
+        <code>
+            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type"/>
+            <code value="reporting"/>
+            <display value="Reporting"/>
+        </code>
+        <valueCodeableConcept>
+            <coding>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context"/>
+                <code value="triggering"/>
+                <display value="Triggering"/>
+            </coding>
+        </valueCodeableConcept>
+    </useContext>
+    <useContext>
+        <code>
+            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type"/>
+            <code value="specification-type"/>
+            <display value="Specification Type"/>
+        </code>
+        <valueCodeableConcept>
+            <coding>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context"/>
+                <code value="program"/>
+                <display value="Program"/>
+            </coding>
+        </valueCodeableConcept>
+    </useContext>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+            <display value="United States of America"/>
+        </coding>
+        <text value="United States of America"/>
+    </jurisdiction>
+    <purpose value="Purpose of library"/>
+    <effectivePeriod>
+        <start value="2020-11-01"/>
+    </effectivePeriod>
+    <relatedArtifact>
+        <type value="composed-of"/>
+        <resource value="http://example.org/fhir/PlanDefinition/us-ph-plandefinition-example"/>
+    </relatedArtifact>
+    <relatedArtifact>
+        <type value="composed-of"/>
+        <resource value="http://example.org/fhir/Library/us-ph-triggering-valueset-library-example"/>
+    </relatedArtifact>
+</Library>

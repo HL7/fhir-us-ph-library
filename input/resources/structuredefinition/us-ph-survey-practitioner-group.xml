@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-survey-practitioner-group"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2021-06-21T04:46:45.537+00:00"/>
-        <source value="#JJXMOlpCukQNPBC0"/>
+        <versionId value="1"/>
+        <lastUpdated value="2022-07-12T02:03:49.192+00:00"/>
+        <source value="#eME9oQU9KkQyHIg7"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-survey-practitioner-group"/>
     <version value="0.1.0"/>

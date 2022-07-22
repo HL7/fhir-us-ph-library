@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-encounter"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2021-07-01T02:38:47.048+00:00"/>
-        <source value="#LUyOxr8asydXR8W0"/>
+        <versionId value="22"/>
+        <lastUpdated value="2022-07-12T02:02:45.711+00:00"/>
+        <source value="#RO6LsJqSMXkIHXPC"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-encounter"/>
     <version value="1.0.0"/>
