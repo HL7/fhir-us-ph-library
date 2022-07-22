@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="222"/>
-        <lastUpdated value="2022-07-22T06:23:44.490+00:00"/>
-        <source value="#LD7DujmQbjJeBXzA"/>
+        <versionId value="224"/>
+        <lastUpdated value="2022-07-22T07:20:04.790+00:00"/>
+        <source value="#VwQYFlBAwBH4H3hA"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="0.0.1"/>
@@ -1133,6 +1133,24 @@
             <description value="An example logic library for eRSD - Chlamydia example."/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-library"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/us-ph-jurisdiction-types-example"/>
+                <display value="US Public Health Jurisdiction Types Example"/>
+            </reference>
+            <name value="US Public Health Jurisdiction Types Example"/>
+            <description value="This example code system describes the possible types of jurisdictions that require public health reporting."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Composition/us-ph-composition-example"/>
+                <display value="US Public Health Composition Example"/>
+            </reference>
+            <name value="US Public Health Composition Example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-composition"/>
         </resource>
         <page>
             <nameUrl value="index.html"/>

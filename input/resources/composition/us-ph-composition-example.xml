@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Composition
+    xmlns="http://hl7.org/fhir">
+    <id value="us-ph-composition-example"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2022-07-22T07:20:04.668+00:00"/>
+        <source value="#c2UZnH7KyClv5nQp"/>
+        <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-composition"/>
+    </meta>
+    <extension url="http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber">
+        <valueString value="1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-information-recipient-extension">
+        <valueReference>
+            <reference value="PractitionerRole/us-ph-practitionerrole-henry-seven"/>
+        </valueReference>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-initiation-reason-extension">
+        <valueString value="Suspicion of Zika"/>
+    </extension>
+    <identifier>
+        <value value="c03eab8c-11e8-4d0c-ad2a-b385395e27db"/>
+    </identifier>
+    <status value="final"/>
+    <type>
+        <coding>
+            <system value="http://loinc.org"/>
+            <code value="55751-2"/>
+            <display value="Public Health Case Report"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/us-ph-patient-eve-everywoman"/>
+        <display value="Eve Everywoman"/>
+    </subject>
+    <encounter>
+        <reference value="Encounter/us-ph-encounter-eve-everywoman-outpatient"/>
+        <display value="Ambulatory Office Visit"/>
+    </encounter>
+    <date value="2018-01-02T22:13:23Z"/>
+    <author>
+        <reference value="PractitionerRole/us-ph-practitionerrole-henry-seven"/>
+        <display value="Henry Seven, MD"/>
+    </author>
+    <title value="US Public Health Composition Example"/>
+    <custodian>
+        <reference value="Organization/us-ph-organization-salem-medical-center"/>
+        <display value="Salem Medical Center"/>
+    </custodian>
+    <section>
+        <title value="History of Present Illness Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="10164-2"/>
+                <display value="History of Present illness Narrative"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <table>
+                    <tr>
+                        <td style="font-weight: bold">title</td>
+                        <td>
+                            <div title="title">History of Present Illness Section</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">code</td>
+                        <td>
+                            <ul style="list-style:none; padding-left:0; margin:0 0;">
+                                <li>
+                                    <ul style="list-style:none; padding-left:0; margin:0 0;">
+                                        <li>
+                                            <div title="display">History of Present illness Narrative</div> ( 
+                                            <div title="code">10164-2</div> ) 
+                                        </li>
+                                        <li>
+                                            <div title="system">
+                                                <a href="http://loinc.org">http://loinc.org</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" lang="en-US" class="text-no-entries"> Persistent Cough REPORTED starting on 2018/03/05 
+                            <br/> Whooping Respiration not reported 
+                            <br/> Paroxysms Of Coughing REPORTED starting on 2018/03/06 
+                            <br/> Post-tussive vomiting not reported 
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </text>
+    </section>
+    <section>
+        <title value="Reason for Visit Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="29299-5"/>
+                <display value="Reason for visit Narrative"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <table>
+                    <tr>
+                        <td style="font-weight: bold">title</td>
+                        <td>
+                            <div title="title">Reason for Visit Section</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">code</td>
+                        <td>
+                            <ul style="list-style:none; padding-left:0; margin:0 0;">
+                                <li>
+                                    <ul style="list-style:none; padding-left:0; margin:0 0;">
+                                        <li>
+                                            <div title="display">Reason for visit Narrative</div> ( 
+                                            <div title="code">29299-5</div> ) 
+                                        </li>
+                                        <li>
+                                            <div title="system">
+                                                <a href="http://loinc.org">http://loinc.org</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" lang="en-US" class="text-no-entries">
+                            <p>Reason for Visit: Bad cough</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </text>
+    </section>
+    <section>
+        <title value="Chief Complaint"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="10154-3"/>
+                <display value="Chief complaint Narrative - Reported"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <table>
+                    <tr>
+                        <td style="font-weight: bold">title</td>
+                        <td>
+                            <div title="title">Chief complaint Narrative - Reported</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">code</td>
+                        <td>
+                            <ul style="list-style:none; padding-left:0; margin:0 0;">
+                                <li>
+                                    <ul style="list-style:none; padding-left:0; margin:0 0;">
+                                        <li>
+                                            <div title="display">Chief complaint Narrative - Reported</div> ( 
+                                            <div title="code">10154-3</div> ) 
+                                        </li>
+                                        <li>
+                                            <div title="system">
+                                                <a href="http://loinc.org">http://loinc.org</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" lang="en-US" class="text-no-entries">
+                            <p>Chief Complaint: Bad cough</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </text>
+    </section>
+</Composition>
