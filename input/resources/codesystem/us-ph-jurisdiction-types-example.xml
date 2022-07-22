@@ -6,7 +6,7 @@
     <lastUpdated value="2021-06-29T21:51:57.757+00:00" />
     <source value="#q3FdX0gkYIGU2bDB" />
   </meta>
-  <url value="http://hl7.org/fhir/us/ecr/CodeSystem/us-ph-jurisdiction-types-example" />
+  <url value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-jurisdiction-types-example" />
   <version value="0.1.0" />
   <name value="USPublicHealthJurisdictionTypesExample" />
   <title value="US Public Health Jurisdiction Types Example" />
