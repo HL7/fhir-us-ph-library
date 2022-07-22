@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-supplemental-library-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2022-07-22T21:08:32.464+00:00"/>
-        <source value="#ycEz4unFiOJRPyjM"/>
+        <versionId value="2"/>
+        <lastUpdated value="2022-07-22T21:54:11.506+00:00"/>
+        <source value="#bUrrH6QkwaNyEgWe"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-library"/>
     </meta>
     <url value="http://example.org/fhir/Library/us-ph-supplemental-library-example"/>
@@ -28,13 +28,13 @@
     <description value="Description of library"/>
     <useContext>
         <code>
-            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context-type"/>
+            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type"/>
             <code value="reporting"/>
             <display value="Reporting"/>
         </code>
         <valueCodeableConcept>
             <coding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context"/>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context"/>
                 <code value="supplemental"/>
                 <display value="Supplemental"/>
             </coding>
@@ -42,13 +42,13 @@
     </useContext>
     <useContext>
         <code>
-            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context-type"/>
+            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type"/>
             <code value="specification-type"/>
             <display value="Specification Type"/>
         </code>
         <valueCodeableConcept>
             <coding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context"/>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context"/>
                 <code value="program"/>
                 <display value="Program"/>
             </coding>
