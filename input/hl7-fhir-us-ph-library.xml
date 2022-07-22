@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="237"/>
-        <lastUpdated value="2022-07-22T21:08:58.119+00:00"/>
-        <source value="#jkWq7iVBSztSFzvP"/>
+        <versionId value="241"/>
+        <lastUpdated value="2022-07-22T22:23:11.758+00:00"/>
+        <source value="#zlkBgE9YUkdXxBb8"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="0.0.1"/>
@@ -1177,6 +1177,14 @@
             <description value="US Public Health Supplemental Library: example"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-library"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Bundle/us-ph-supplemental-bundle-example"/></reference>
+            <name value="US Public Health Supplemental Bundle Example"/>
+            <description value="US Public Health Supplemental Bundle: example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-bundle"/>
         </resource>
         <page>
             <nameUrl value="index.html"/>
