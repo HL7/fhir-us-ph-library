@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-reporting-bundle"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2022-07-12T02:03:32.883+00:00"/>
-        <source value="#iVcd8yMn7g5jX8Qx"/>
+        <versionId value="6"/>
+        <lastUpdated value="2022-07-25T00:58:28.816+00:00"/>
+        <source value="#inZZTVOIy9mX9Mxo"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-reporting-bundle"/>
     <version value="0.1.0"/>
@@ -79,6 +79,20 @@
             <type>
                 <code value="Resource"/>
                 <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-messageheader"/>
+            </type>
+        </element>
+        <element id="Bundle.entry:contentBundle">
+            <path value="Bundle.entry"/>
+            <sliceName value="contentBundle"/>
+            <min value="1"/>
+            <max value="1"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Bundle.entry:contentBundle.resource">
+            <path value="Bundle.entry.resource"/>
+            <type>
+                <code value="Resource"/>
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-content-bundle"/>
             </type>
         </element>
     </differential>

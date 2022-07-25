@@ -3,19 +3,19 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-supplemental-valueset-example"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2022-07-22T06:25:05.487+00:00"/>
-        <source value="#6K9AycNFb5RCSPxh"/>
+        <versionId value="5"/>
+        <lastUpdated value="2022-07-25T02:10:37.917+00:00"/>
+        <source value="#TO5eOH3RC3PsrJr0"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-valueset"/>
     </meta>
     <extension url="http://hl7.org/fhir/StructureDefinition/valueset-steward">
         <valueContactDetail>
-            <name value="CSTE Steward"/>
+            <name value="Example Steward"/>
         </valueContactDetail>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/valueset-author">
         <valueContactDetail>
-            <name value="CSTE Author"/>
+            <name value="Example Author"/>
         </valueContactDetail>
     </extension>
     <url value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-supplemental-valueset-example"/>

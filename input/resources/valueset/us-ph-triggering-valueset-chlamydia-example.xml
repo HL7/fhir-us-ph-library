@@ -3,19 +3,19 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-triggering-valueset-chlamydia-example"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2022-07-21T23:46:15.526+00:00"/>
-        <source value="#fb7MDgsLDIqmphNQ"/>
+        <versionId value="4"/>
+        <lastUpdated value="2022-07-25T02:10:37.921+00:00"/>
+        <source value="#ftQtwXYS2oNs3mf8"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset"/>
     </meta>
     <extension url="http://hl7.org/fhir/StructureDefinition/valueset-steward">
         <valueContactDetail>
-            <name value="CSTE Steward"/>
+            <name value="Example Steward"/>
         </valueContactDetail>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/valueset-author">
         <valueContactDetail>
-            <name value="CSTE Author"/>
+            <name value="Example Author"/>
         </valueContactDetail>
     </extension>
     <url value="http://example.org/fhir/ValueSet/us-ph-triggering-valueset-chlamydia-example"/>

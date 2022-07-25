@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PlanDefinition
     xmlns="http://hl7.org/fhir">
-    <id value="us-plandefinition-namedEvent-example"/>
+    <id value="us-ph-plandefinition-namedEvent-example"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2022-07-22T00:54:58.083+00:00"/>
-        <source value="#gQt1uW3C7cq3Jp5s"/>
+        <lastUpdated value="2022-07-25T02:19:57.916+00:00"/>
+        <source value="#FbARN5mwZbLifR3S"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-plandefinition"/>
     </meta>
-    <url value="http://example.org/fhir/PlanDefinition/us-plandefinition-namedEvent-example"/>
+    <url value="http://example.org/fhir/PlanDefinition/us-ph-plandefinition-namedEvent-example"/>
     <version value="0.1"/>
     <name value="USPublicHealthPlanDefinitionNamedEventExample"/>
     <title value="US Public Health PlanDefinition NamedEvent Example"/>
