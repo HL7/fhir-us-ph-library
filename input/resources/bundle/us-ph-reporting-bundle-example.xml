@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-reporting-bundle-example"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2022-07-25T01:59:45.291+00:00"/>
-        <source value="#l73O8dXZk3wqUiEb"/>
+        <versionId value="4"/>
+        <lastUpdated value="2022-07-25T03:49:17.665+00:00"/>
+        <source value="#O4g0rUVE5MjzOOqC"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-reporting-bundle"/>
     </meta>
     <type value="message"/>
@@ -16,9 +16,12 @@
             <MessageHeader>
                 <id value="us-ph-messageheader-case-report"/>
                 <meta>
+                    <versionId value="3"/>
+                    <lastUpdated value="2022-07-22T19:58:50.237+00:00"/>
+                    <source value="#un4cM3WjIQ50i2xQ"/>
                     <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-messageheader"/>
                 </meta>
-                <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/ext-dataEncrypted">
+                <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-data-encrypted-extension">
                     <valueBoolean value="false"/>
                 </extension>
                 <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-message-processing-category-extension">
@@ -26,39 +29,44 @@
                 </extension>
                 <eventCoding>
                     <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-message-types-codesystem"/>
-                    <code value="cancer-report-message"/>
+                    <code value="eicr-case-report-message"/>
+                    <display value="Indicates a message containing electronic case report healthcare data sent from clinical care."/>
                 </eventCoding>
                 <destination>
-                    <name value="PHA endpoint"/>
-                    <endpoint value="http://example.pha.org/fhir"/>
+                    <name value="YMCA Acme Message Gateway"/>
+                    <target>
+                        <reference value="Device/device-software-ymca"/>
+                    </target>
+                    <endpoint value="http://example.org/ymca/fhir"/>
                 </destination>
                 <sender>
                     <reference value="Organization/us-ph-organization-salem-medical-center"/>
                 </sender>
                 <source>
-                    <name value="Healthcare Organization"/>
-                    <software value="Backend Service App"/>
+                    <name value="Acme Central Patient Registry"/>
+                    <software value="FooBar Patient Manager"/>
                     <version value="3.1.45.AABB"/>
                     <contact>
                         <system value="phone"/>
-                        <value value="+1 (917) 123 4567"/>
+                        <value value="+1 (555) 123 4567"/>
                     </contact>
-                    <endpoint value="http://example.healthcare.org/fhir"/>
+                    <endpoint value="http://example.org/salem-medical-center/fhir"/>
                 </source>
                 <reason>
                     <coding>
                         <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-triggerdefinition-namedevents"/>
                         <code value="encounter-close"/>
+                        <display value="Indicates the close of an encounter"/>
                     </coding>
                 </reason>
                 <focus>
-                    <reference value="Bundle/us-ph-content-bundle-example"/>
+                    <reference value="Bundle/us-ph-document-bundle-example"/>
                 </focus>
             </MessageHeader>
         </resource>
     </entry>
     <entry>
-        <fullUrl value="http://example.org/fhir/Bundle/content-bundle-example"/>
+        <fullUrl value="http://example.org/fhir/Bundle/us-ph-document-bundle-example"/>
         <resource>
             <Bundle>
                 <id value="us-ph-content-bundle-example"/>

@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-computable-valueset-example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2022-07-25T02:14:10.986+00:00"/>
-        <source value="#vN75tQaOlPBfrLzJ"/>
+        <versionId value="3"/>
+        <lastUpdated value="2022-07-25T03:41:17.080+00:00"/>
+        <source value="#pj6mNGZCQJ6nZZZd"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-valueset"/>
     </meta>
     <extension url="http://hl7.org/fhir/StructureDefinition/valueset-steward">
@@ -24,17 +24,9 @@
     <url value="http://example.org/fhir/ValueSet/us-ph-computable-valueset-example"/>
     <name value="USPublicHealthComputableValueSetExample"/>
     <title value="US Public Health Computable ValueSet Example"/>
+    <status value="draft"/>
+    <experimental value="true"/>
     <date value="2022-07-01"/>
     <publisher value="{site.data.fhir.ig.publisher}"/>
     <description value="ACME Codes for Cholesterol: Plasma only"/>
-    <compose>
-        <include>
-            <system value="http://example.org/fhir/ValueSet/CodeSystem/example"/>
-            <filter>
-                <property value="acme-plasma"/>
-                <op value="="/>
-                <value value="true"/>
-            </filter>
-        </include>
-    </compose>
 </ValueSet>

@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="259"/>
-        <lastUpdated value="2022-07-25T03:17:15.687+00:00"/>
-        <source value="#mqoQLGnm8Ph2VWrd"/>
+        <versionId value="261"/>
+        <lastUpdated value="2022-07-25T03:43:01.579+00:00"/>
+        <source value="#NDZUCVRX0daBjU9U"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="0.0.1"/>
@@ -1202,6 +1202,15 @@
             <description value="US Public Health ValueSet Library: Expansion Parameters example"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset-library"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-relateddata-extension"/>
+                <display value="US Public Health Related Data Extension"/>
+            </reference>
+            <name value="US Public Health Related Data Extension"/>
+            <description value="The relatedData extension allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action."/>
+            <exampleBoolean value="false"/>
         </resource>
         <page>
             <nameUrl value="index.html"/>

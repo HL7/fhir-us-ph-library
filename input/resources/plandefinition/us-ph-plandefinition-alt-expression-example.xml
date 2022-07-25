@@ -3,17 +3,10 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-plandefinition-alt-expression-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2022-07-25T02:30:42.812+00:00"/>
-        <source value="#v58U3KJIXNYsDvw4"/>
+        <versionId value="2"/>
+        <lastUpdated value="2022-07-25T03:24:15.383+00:00"/>
+        <source value="#7fgE3zdPadJWZv8T"/>
     </meta>
-    <extension url="http://hl7.org/fhir/StructureDefinition/variable">
-        <valueExpression>
-            <name value="normalReportingDuration"/>
-            <language value="text/fhirpath"/>
-            <expression value="14"/>
-        </valueExpression>
-    </extension>
     <url value="http://example.org/fhir/PlanDefinition/us-ph-plandefinition-alt-expression-example"/>
     <version value="0.1"/>
     <name value="USPublicHealthPlanDefinitionAlternativeExpressionExample"/>

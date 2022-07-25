@@ -21,6 +21,7 @@ Code System URI 'urn:oid:1.0.3166.1' is unknown so the code cannot be validated
 [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.3 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
 Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated
 Code System URI 'urn:oid:2.16.840.1.114222.4.5.232' is unknown so the code cannot be validated
+ValueSet http://www.rfc-editor.org/bcp/bcp13.txt not found by validator
 
 # Suppressed information messages
 The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
