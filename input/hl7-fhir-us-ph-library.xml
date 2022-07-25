@@ -8,7 +8,7 @@
         <source value="#NDZUCVRX0daBjU9U"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
-    <version value="0.0.1"/>
+    <version value="1.0.0-ballot1"/>
     <name value="USPublicHealthProfilesLibrary"/>
     <title value="US Public Health Profiles Library"/>
     <status value="draft"/>
