@@ -39,9 +39,9 @@
             <definition value="Indicates the start of an encounter, where in encounter.period.low is populated with the start time."/>
         </concept>
         <concept>
-            <code value="encounter-close"/>
-            <display value="Indicates the close of an encounter"/>
-            <definition value="Indicates the closure of an encounter, where in encounter.period.high is populated with the end time."/>
+            <code value="encounter-end"/>
+            <display value="Indicates the end of an encounter"/>
+            <definition value="Indicates the end of an encounter, where in encounter.period.high is populated with the end time or the encounter.status='finished'."/>
         </concept>
         <concept>
             <code value="encounter-modified"/>
