@@ -68,7 +68,7 @@
     </effectivePeriod>
     <relatedArtifact>
         <type value="composed-of"/>
-      <resource value="http://hl7.org/fhir/us/ph-library/PlanDefinition/plandefinition-us-public-health-example"/>
+      <resource value="http://hl7.org/fhir/us/ph-library/PlanDefinition/us-ph-plandefinition-example"/>
     </relatedArtifact>
     <relatedArtifact>
         <type value="composed-of"/>
