@@ -39,6 +39,6 @@
   </effectivePeriod>
   <relatedArtifact>
     <type value="composed-of" />
-    <resource value="http://hl7.org/fhir/us/ph-library/fhir/ValueSet/us-ph-valueset-chlamydia-example" />
+    <resource value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-chlamydia-example" />
   </relatedArtifact>
 </Library>
