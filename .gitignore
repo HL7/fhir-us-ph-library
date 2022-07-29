@@ -6,3 +6,12 @@
 /20220721input/resources/structuredefinition
 /20220721input/resources/organization
 /20220721input
+/input-cache/schemas/R4
+/org.hl7.fhir.publisher.jar
+/input-cache
+/output
+/publisher.bat
+/publisher.sh
+/template
+/temp/pages
+/temp/qa
