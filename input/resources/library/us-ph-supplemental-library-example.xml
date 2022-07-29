@@ -68,10 +68,10 @@
     </effectivePeriod>
     <relatedArtifact>
         <type value="composed-of"/>
-        <resource value="http://example.org/fhir/Library/us-ph-executable-library-rule-filters"/>
+      <resource value="http://hl7.org/fhir/us/ph-library/Library/us-ph-executable-library-rule-filters"/>
     </relatedArtifact>
     <relatedArtifact>
         <type value="composed-of"/>
-        <resource value="http://example.org/fhir/Library/us-ph-supplemental-valueset-library-example"/>
+      <resource value="http://hl7.org/fhir/us/ph-library/Library/us-ph-supplemental-valueset-library-example"/>
     </relatedArtifact>
 </Library>

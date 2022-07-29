@@ -26,7 +26,7 @@
             <reference value="#expansion-parameters-ph-library"/>
         </valueReference>
     </extension>
-    <url value="http://example.org/fhir/Library/library-us-ph-valueset-library-expansion-parameters-example"/>
+  <url value="http://hl7.org/fhir/us/ph-library/fhir/Library/library-us-ph-valueset-library-expansion-parameters-example"/>
     <identifier>
         <system value="urn:ietf:rfc:3986"/>
         <value value="urn:oid:2.16.840.1.114222.4.11.11111"/>
@@ -58,6 +58,6 @@
     </effectivePeriod>
     <relatedArtifact>
         <type value="composed-of"/>
-        <resource value="http://example.org/fhir/ValueSet/us-ph-valueset-chlamydia-example"/>
+      <resource value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-chlamydia-example"/>
     </relatedArtifact>
 </Library>

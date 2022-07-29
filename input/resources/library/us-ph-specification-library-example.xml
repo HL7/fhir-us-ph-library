@@ -68,10 +68,10 @@
     </effectivePeriod>
     <relatedArtifact>
         <type value="composed-of"/>
-        <resource value="http://example.org/fhir/PlanDefinition/us-ph-plandefinition-example"/>
+      <resource value="http://hl7.org/fhir/us/ph-library/PlanDefinition/plandefinition-us-public-health-example"/>
     </relatedArtifact>
     <relatedArtifact>
         <type value="composed-of"/>
-        <resource value="http://example.org/fhir/Library/us-ph-triggering-valueset-library-example"/>
+      <resource value="http://hl7.org/fhir/us/ph-library/Library/us-ph-triggering-valueset-library-example"/>
     </relatedArtifact>
 </Library>
