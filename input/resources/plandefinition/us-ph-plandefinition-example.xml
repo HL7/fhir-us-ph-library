@@ -13,7 +13,7 @@
             <reference value="Endpoint/us-ph-endpoint-ymca"/>
         </valueReference>
     </extension>
-    <url value="http://hl7.org/fhir/us/ph-library/PlanDefinition/plandefinition-us-public-health-example"/>
+    <url value="http://hl7.org/fhir/us/ph-library/PlanDefinition/us-ph-plandefinition-example"/>
     <version value="0.1"/>
     <name value="PlanDefinitionUSPublicHealthExample"/>
     <title value="PlanDefinition US Public Health Example"/>
