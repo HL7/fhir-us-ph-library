@@ -69,7 +69,7 @@
         <element id="Patient.extension:ethnicity.extension:dataAbsentReason">
             <path value="Patient.extension.extension"/>
             <sliceName value="dataAbsentReason"/>
-            <short value="For masking purposes, use the data-absent-reason extension and set the required us-core-race extension text to &quot;masked&quot;"/>
+            <short value="For masking purposes, use the data-absent-reason extension and set the required us-core-ethnicity extension text to &quot;masked&quot;"/>
             <max value="1"/>
             <type>
                 <code value="Extension"/>
