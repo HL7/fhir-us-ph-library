@@ -1,88 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ValueSet xmlns="http://hl7.org/fhir">
-  <id value="us-ph-supplemental-valueset-example" />
-  <meta>
-    <versionId value="5" />
-    <lastUpdated value="2022-07-25T02:10:37.917+00:00" />
-    <source value="#TO5eOH3RC3PsrJr0" />
-    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-valueset" />
-  </meta>
-  <extension url="http://hl7.org/fhir/StructureDefinition/valueset-steward">
-    <valueContactDetail>
-      <name value="Example Steward" />
-    </valueContactDetail>
-  </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/valueset-author">
-    <valueContactDetail>
-      <name value="Example Author" />
-    </valueContactDetail>
-  </extension>
-  <url value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-supplemental-valueset-example" />
-  <version value="1.0.0" />
-  <name value="USPublicHealthSupplementalValueSetExample" />
-  <title value="US Public Health Supplemental Valueset Example" />
-  <status value="active" />
-  <experimental value="false" />
-  <date value="2022-06-02T00:00:00+10:00" />
-  <publisher value="{site.data.fhir.ig.publisher}" />
-  <description value="This valueset is a valueset created for the purposes of demonstrating, by example, the US Public Health Supplemental ValueSet profile." />
-  <useContext>
-    <code>
-      <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type" />
-      <code value="reporting" />
-      <display value="Reporting" />
-    </code>
-    <valueCodeableConcept>
-      <coding>
-        <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context" />
-        <code value="supplemental" />
-        <display value="Supplemental" />
-      </coding>
-    </valueCodeableConcept>
-  </useContext>
-  <useContext>
-    <code>
-      <system value="http://terminology.hl7.org/CodeSystem/usage-context-type" />
-      <code value="focus" />
-      <display value="Clinical Focus" />
-    </code>
-    <valueCodeableConcept>
-      <coding>
-        <system value="http://snomed.info/sct" />
-        <code value="240589008" />
-        <display value="Chlamydia trachomatis infection" />
-      </coding>
-    </valueCodeableConcept>
-  </useContext>
-  <useContext>
-    <code>
-      <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type" />
-      <code value="priority" />
-      <display value="Priority" />
-    </code>
-    <valueCodeableConcept>
-      <coding>
-        <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context" />
-        <code value="routine" />
-        <display value="Routine" />
-      </coding>
-    </valueCodeableConcept>
-  </useContext>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166" />
-      <code value="US" />
-      <display value="United States of America" />
-    </coding>
-    <text value="United States of America" />
-  </jurisdiction>
-  <purpose value="Define the set of supported endpoint connection types." />
-  <compose>
-    <include>
-      <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type" />
-    </include>
-    <include>
-      <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-endpoint-connection-type-example" />
-    </include>
-  </compose>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="us-ph-supplemental-valueset-example"/>
+    <meta>
+        <versionId value="7"/>
+        <lastUpdated value="2022-08-02T23:54:38.998+00:00"/>
+        <source value="#dT0KXVOAb8myg0g1"/>
+        <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-valueset"/>
+    </meta>
+    <extension url="http://hl7.org/fhir/StructureDefinition/valueset-steward">
+        <valueContactDetail>
+            <name value="Example Steward"/>
+        </valueContactDetail>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/valueset-author">
+        <valueContactDetail>
+            <name value="Example Author"/>
+        </valueContactDetail>
+    </extension>
+    <url value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-supplemental-valueset-example"/>
+    <version value="1.0.0"/>
+    <name value="USPublicHealthSupplementalValueSetExample"/>
+    <title value="US Public Health Supplemental Valueset Example"/>
+    <status value="active"/>
+    <experimental value="false"/>
+    <date value="2022-06-02T00:00:00+10:00"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
+    <description value="This valueset is a valueset created for the purposes of demonstrating, by example, the US Public Health Supplemental ValueSet profile."/>
+    <useContext>
+        <code>
+            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type"/>
+            <code value="reporting"/>
+            <display value="Reporting"/>
+        </code>
+        <valueCodeableConcept>
+            <coding>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context"/>
+                <code value="supplemental"/>
+                <display value="Supplemental"/>
+            </coding>
+        </valueCodeableConcept>
+    </useContext>
+    <useContext>
+        <code>
+            <system value="http://terminology.hl7.org/CodeSystem/usage-context-type"/>
+            <code value="focus"/>
+            <display value="Clinical Focus"/>
+        </code>
+        <valueCodeableConcept>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="240589008"/>
+                <display value="Chlamydia trachomatis infection"/>
+            </coding>
+        </valueCodeableConcept>
+    </useContext>
+    <useContext>
+        <code>
+            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type"/>
+            <code value="priority"/>
+            <display value="Priority"/>
+        </code>
+        <valueCodeableConcept>
+            <coding>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context"/>
+                <code value="routine"/>
+                <display value="Routine"/>
+            </coding>
+        </valueCodeableConcept>
+    </useContext>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+            <display value="United States of America"/>
+        </coding>
+        <text value="United States of America"/>
+    </jurisdiction>
+    <purpose value="Define the set of supported endpoint connection types."/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
+        </include>
+        <include>
+            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-endpoint-connection-type-example"/>
+        </include>
+    </compose>
 </ValueSet>

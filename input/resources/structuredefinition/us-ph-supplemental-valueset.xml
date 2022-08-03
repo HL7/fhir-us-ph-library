@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-supplemental-valueset"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2022-07-22T06:01:21.327+00:00"/>
-        <source value="#kPI7I31GhanekKeB"/>
+        <versionId value="8"/>
+        <lastUpdated value="2022-08-02T23:52:17.345+00:00"/>
+        <source value="#5HnbXI3iS3FCHUgt"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-valueset"/>
     <version value="1.0.0"/>
@@ -44,12 +44,14 @@
             </slicing>
             <min value="2"/>
             <max value="*"/>
+            <mustSupport value="true"/>
         </element>
         <element id="ValueSet.useContext:reportingContext">
             <path value="ValueSet.useContext"/>
             <sliceName value="reportingContext"/>
             <min value="1"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="ValueSet.useContext:reportingContext.code">
             <path value="ValueSet.useContext.code"/>

@@ -1,618 +1,634 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Bundle xmlns="http://hl7.org/fhir">
-  <id value="us-ph-document-bundle-example" />
-  <meta>
-    <versionId value="1" />
-    <lastUpdated value="2022-07-22T19:57:35.699+00:00" />
-    <source value="#XtxszLrs5duHckxk" />
-    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle" />
-  </meta>
-  <identifier>
-    <system value="urn:ietf:rfc:3986" />
-    <value value="urn:uuid:2be4b4e4-6df1-4cb2-a947-c70fa0eda53b" />
-  </identifier>
-  <type value="document" />
-  <timestamp value="2022-06-02T22:13:23Z" />
-  <entry>
-    <fullUrl value="http://example.org/fhir/Composition/us-ph-composition-example" />
-    <resource>
-      <Composition>
-        <id value="us-ph-composition-example" />
-        <meta>
-          <versionId value="1" />
-          <lastUpdated value="2022-07-22T07:20:04.668+00:00" />
-          <source value="#c2UZnH7KyClv5nQp" />
-          <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-composition" />
-        </meta>
-        <extension url="http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber">
-          <valueString value="1" />
-        </extension>
-        <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-information-recipient-extension">
-          <valueReference>
-            <reference value="PractitionerRole/us-ph-practitionerrole-henry-seven" />
-          </valueReference>
-        </extension>
-        <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-initiation-reason-extension">
-          <valueString value="Suspicion of Zika" />
-        </extension>
-        <identifier>
-          <value value="c03eab8c-11e8-4d0c-ad2a-b385395e27db" />
-        </identifier>
-        <status value="final" />
-        <type>
-          <coding>
-            <system value="http://loinc.org" />
-            <code value="55751-2" />
-            <display value="Public Health Case Report" />
-          </coding>
-        </type>
-        <subject>
-          <reference value="Patient/us-ph-patient-eve-everywoman" />
-          <display value="Eve Everywoman" />
-        </subject>
-        <encounter>
-          <reference value="Encounter/us-ph-encounter-eve-everywoman-outpatient" />
-          <display value="Ambulatory Office Visit" />
-        </encounter>
-        <date value="2018-01-02T22:13:23Z" />
-        <author>
-          <reference value="PractitionerRole/us-ph-practitionerrole-henry-seven" />
-          <display value="Henry Seven, MD" />
-        </author>
-        <title value="US Public Health Composition Example" />
-        <custodian>
-          <reference value="Organization/us-ph-organization-salem-medical-center" />
-          <display value="Salem Medical Center" />
-        </custodian>
-        <section>
-          <title value="History of Present Illness Section" />
-          <code>
-            <coding>
-              <system value="http://loinc.org" />
-              <code value="10164-2" />
-              <display value="History of Present illness Narrative" />
-            </coding>
-          </code>
-          <text>
-            <status value="generated" />
-            <div xmlns="http://www.w3.org/1999/xhtml">
-              <table>
-                <tr>
-                  <td style="font-weight: bold">title</td>
-                  <td>
-                    <div title="title">History of Present Illness Section</div>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="font-weight: bold">code</td>
-                  <td>
-                    <ul style="list-style:none; padding-left:0; margin:0 0;">
-                      <li>
-                        <ul style="list-style:none; padding-left:0; margin:0 0;">
-                          <li>
-                            <div title="display">History of Present illness Narrative</div> ( <div title="code">10164-2</div> ) </li>
-                          <li>
-                            <div title="system">
-                              <a href="http://loinc.org">http://loinc.org</a>
-                            </div>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="2" lang="en-US" class="text-no-entries"> Persistent Cough REPORTED starting on 2018/03/05 <br /> Whooping Respiration not reported <br /> Paroxysms Of Coughing REPORTED starting on 2018/03/06 <br /> Post-tussive vomiting not reported </td>
-                </tr>
-              </table>
-            </div>
-          </text>
-        </section>
-        <section>
-          <title value="Reason for Visit Section" />
-          <code>
-            <coding>
-              <system value="http://loinc.org" />
-              <code value="29299-5" />
-              <display value="Reason for visit Narrative" />
-            </coding>
-          </code>
-          <text>
-            <status value="generated" />
-            <div xmlns="http://www.w3.org/1999/xhtml">
-              <table>
-                <tr>
-                  <td style="font-weight: bold">title</td>
-                  <td>
-                    <div title="title">Reason for Visit Section</div>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="font-weight: bold">code</td>
-                  <td>
-                    <ul style="list-style:none; padding-left:0; margin:0 0;">
-                      <li>
-                        <ul style="list-style:none; padding-left:0; margin:0 0;">
-                          <li>
-                            <div title="display">Reason for visit Narrative</div> ( <div title="code">29299-5</div> ) </li>
-                          <li>
-                            <div title="system">
-                              <a href="http://loinc.org">http://loinc.org</a>
-                            </div>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="2" lang="en-US" class="text-no-entries">
-                    <p>Reason for Visit: Bad cough</p>
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </text>
-        </section>
-        <section>
-          <title value="Chief Complaint" />
-          <code>
-            <coding>
-              <system value="http://loinc.org" />
-              <code value="10154-3" />
-              <display value="Chief complaint Narrative - Reported" />
-            </coding>
-          </code>
-          <text>
-            <status value="generated" />
-            <div xmlns="http://www.w3.org/1999/xhtml">
-              <table>
-                <tr>
-                  <td style="font-weight: bold">title</td>
-                  <td>
-                    <div title="title">Chief complaint Narrative - Reported</div>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="font-weight: bold">code</td>
-                  <td>
-                    <ul style="list-style:none; padding-left:0; margin:0 0;">
-                      <li>
-                        <ul style="list-style:none; padding-left:0; margin:0 0;">
-                          <li>
-                            <div title="display">Chief complaint Narrative - Reported</div> ( <div title="code">10154-3</div> ) </li>
-                          <li>
-                            <div title="system">
-                              <a href="http://loinc.org">http://loinc.org</a>
-                            </div>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="2" lang="en-US" class="text-no-entries">
-                    <p>Chief Complaint: Bad cough</p>
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </text>
-        </section>
-      </Composition>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://example.org/fhir/Encounter/us-ph-encounter-eve-everywoman-outpatient" />
-    <resource>
-      <Encounter>
-        <id value="us-ph-encounter-eve-everywoman-outpatient" />
-        <meta>
-          <versionId value="2" />
-          <lastUpdated value="2022-07-21T20:27:26.107+00:00" />
-          <source value="#zSQSJ1jlVDTb627T" />
-          <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-encounter" />
-        </meta>
-        <identifier>
-          <system value="http://hospital.smarthealthit.org" />
-          <value value="9937012" />
-        </identifier>
-        <status value="finished" />
-        <class>
-          <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
-          <code value="AMB" />
-          <display value="ambulatory" />
-        </class>
-        <type>
-          <coding>
-            <system value="http://www.ama-assn.org/go/cpt" />
-            <code value="99201" />
-          </coding>
-          <text value="Office Visit" />
-        </type>
-        <subject>
-          <reference value="Patient/us-ph-patient-eve-everywoman" />
-          <display value="Eve Everywoman" />
-        </subject>
-        <participant>
-          <type>
-            <coding>
-              <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType" />
-              <code value="ATND" />
-              <display value="attender" />
-            </coding>
-          </type>
-          <individual>
-            <reference value="PractitionerRole/us-ph-practitionerrole-henry-seven" />
-            <display value="Henry Seven, MD" />
-          </individual>
-        </participant>
-        <period>
-          <start value="2018-04-01T10:00:00-05:00" />
-          <end value="2018-04-02T10:15:00-05:00" />
-        </period>
-        <diagnosis>
-          <condition>
-            <reference value="Condition/us-ph-condition-eve-everywoman-diabetes" />
-          </condition>
-        </diagnosis>
-        <location>
-          <location>
-            <reference value="Location/us-ph-location-salem-medical-center" />
-            <display value="Clinic Bldg A, Salem Medical Center, 4646 Brown Rd, Salem, MA 02368" />
-          </location>
-        </location>
-        <serviceProvider>
-          <reference value="Organization/us-ph-organization-salem-medical-center" />
-          <display value="Salem Medical Center, 22222 Health Authority Drive, Ann Arbor MI, 99999" />
-        </serviceProvider>
-      </Encounter>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://example.org/fhir/PractitionerRole/us-ph-practitionerrole-henry-seven" />
-    <resource>
-      <PractitionerRole>
-        <id value="us-ph-practitionerrole-henry-seven" />
-        <meta>
-          <versionId value="1" />
-          <lastUpdated value="2022-07-21T22:09:12.608+00:00" />
-          <source value="#44W69ow6bSfgKWQf" />
-          <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-practitionerrole" />
-        </meta>
-        <identifier>
-          <system value="http://hl7.org/fhir/sid/us-npi" />
-          <value value="9941339108" />
-        </identifier>
-        <practitioner>
-          <reference value="Practitioner/us-core-practitioner-henry-seven" />
-          <display value="Henry Seven, MD" />
-        </practitioner>
-        <organization>
-          <reference value="Organization/us-ph-organization-salem-medical-center" />
-          <display value="Salem Medical Center" />
-        </organization>
-        <code>
-          <coding>
-            <system value="http://nucc.org/provider-taxonomy" />
-            <code value="261QP2300X" />
-            <display value="Primary Care Clinic/Center" />
-          </coding>
-        </code>
-        <specialty>
-          <coding>
-            <system value="http://snomed.info/sct" />
-            <code value="419772000" />
-            <display value="Family practice" />
-          </coding>
-        </specialty>
-        <location>
-          <reference value="Location/us-ph-location-salem-medical-center" />
-          <display value="Salem Medical Center" />
-        </location>
-        <telecom>
-          <system value="email" />
-          <value value="henry.seven@example.com" />
-        </telecom>
-      </PractitionerRole>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://example.org/fhir/Patient/us-ph-patient-eve-everywoman" />
-    <resource>
-      <Patient>
-        <id value="us-ph-patient-eve-everywoman" />
-        <meta>
-          <versionId value="1" />
-          <lastUpdated value="2022-07-21T05:30:14.826+00:00" />
-          <source value="#AW0TSMc7z5FaiAIX" />
-          <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient" />
-        </meta>
-        <text>
-          <status value="generated" />
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <div class="hapiHeaderText">Eve L <b>EVERYWOMAN </b>
-            </div>
-            <table class="hapiPropertyTable">
-              <tbody>
-                <tr>
-                  <td>Identifier</td>
-                  <td>1032702</td>
-                </tr>
-                <tr>
-                  <td>Address</td>
-                  <td>
-                    <span>5101 Peachtree St NE </span>
-                    <br />
-                    <span>Atlanta </span>
-                    <span>GA </span>
-                    <span>US </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Date of birth</td>
-                  <td>
-                    <span>24 November 1974</span>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </text>
-        <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
-          <extension url="ombCategory">
-            <valueCoding>
-              <system value="urn:oid:2.16.840.1.113883.6.238" />
-              <code value="2106-3" />
-              <display value="White" />
-            </valueCoding>
-          </extension>
-          <extension url="text">
-            <valueString value="White" />
-          </extension>
-        </extension>
-        <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity">
-          <extension url="ombCategory">
-            <valueCoding>
-              <system value="urn:oid:2.16.840.1.113883.6.238" />
-              <code value="2186-5" />
-              <display value="Not Hispanic or Latino" />
-            </valueCoding>
-          </extension>
-          <extension url="text">
-            <valueString value="Not Hispanic or Latino" />
-          </extension>
-        </extension>
-        <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
-          <valueCode value="F" />
-        </extension>
-        <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-genderidentity-extension">
-          <extension url="value">
-            <valueCodeableConcept>
-              <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor" />
-                <code value="ASKU" />
-                <display value="asked but unknown" />
-              </coding>
-              <text value="asked but unknown" />
-            </valueCodeableConcept>
-          </extension>
-        </extension>
-        <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-tribal-affiliation-extension">
-          <extension url="TribeName">
-            <valueCoding>
-              <system value="http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS" />
-              <code value="91" />
-              <display value="Fort Mojave Indian Tribe of Arizona, California" />
-            </valueCoding>
-          </extension>
-          <extension url="EnrolledTribeMember">
-            <valueBoolean value="true" />
-          </extension>
-        </extension>
-        <identifier>
-          <use value="usual" />
-          <type>
-            <coding>
-              <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
-              <code value="MR" />
-              <display value="Medical Record Number" />
-            </coding>
-          </type>
-          <system value="http://hospital.smarthealthit.org" />
-          <value value="1032702" />
-        </identifier>
-        <active value="true" />
-        <name>
-          <family value="Everywoman" />
-          <given value="Eve" />
-          <given value="L" />
-        </name>
-        <telecom>
-          <system value="phone" />
-          <value value="1-(404)555-1212" />
-          <use value="home" />
-        </telecom>
-        <telecom>
-          <system value="email" />
-          <value value="eve.everywoman@example.com" />
-        </telecom>
-        <gender value="female" />
-        <birthDate value="1974-11-24" />
-        <deceasedBoolean value="false" />
-        <address>
-          <line value="5101 Peachtree St NE" />
-          <city value="Atlanta" />
-          <state value="GA" />
-          <postalCode value="30302" />
-          <country value="US" />
-        </address>
-        <communication>
-          <language>
-            <coding>
-              <system value="urn:ietf:bcp:47" />
-              <code value="en" />
-              <display value="English" />
-            </coding>
-          </language>
-        </communication>
-      </Patient>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://example.org/fhir/Location/us-ph-location-salem-medical-center" />
-    <resource>
-      <Location>
-        <id value="us-ph-location-salem-medical-center" />
-        <meta>
-          <versionId value="1" />
-          <lastUpdated value="2022-07-21T05:31:48.050+00:00" />
-          <source value="#OYMJHBNVVi6huTUM" />
-          <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-location" />
-        </meta>
-        <identifier>
-          <system value="http://hl7.org.fhir/sid/us-npi" />
-          <value value="1144221995" />
-        </identifier>
-        <status value="active" />
-        <name value="Clinic Bldg A, Salem Medical Center" />
-        <type>
-          <coding>
-            <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode" />
-            <code value="HOSP" />
-            <display value="Hospital" />
-          </coding>
-        </type>
-        <telecom>
-          <system value="phone" />
-          <value value="(+1) (555)555-3001" />
-        </telecom>
-        <telecom>
-          <system value="fax" />
-          <value value="(+1) (555)555-3002" />
-        </telecom>
-        <telecom>
-          <system value="email" />
-          <value value="mail@smc.org" />
-        </telecom>
-        <address>
-          <line value="Clinic Bldg A" />
-          <line value="4444 Healthcare Drive" />
-          <city value="Ann Arbor" />
-          <state value="MI" />
-          <postalCode value="99999" />
-        </address>
-        <managingOrganization>
-          <reference value="Organization/us-ph-organization-salem-medical-center" />
-        </managingOrganization>
-      </Location>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://example.org/fhir/Practitioner/us-core-practitioner-henry-seven" />
-    <resource>
-      <Practitioner>
-        <id value="us-core-practitioner-henry-seven" />
-        <meta>
-          <versionId value="1" />
-          <lastUpdated value="2022-07-21T05:30:27.155+00:00" />
-          <source value="#gM676jWmSLAl87ym" />
-          <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner" />
-        </meta>
-        <identifier>
-          <system value="http://hl7.org/fhir/sid/us-npi" />
-          <value value="9941339108" />
-        </identifier>
-        <name>
-          <family value="Henry" />
-          <given value="Seven" />
-          <suffix value="M.D." />
-        </name>
-        <telecom>
-          <system value="email" />
-          <value value="henry.seven@example.com" />
-        </telecom>
-        <address>
-          <line value="BMass Doctors" />
-          <line value="2100 North Ave" />
-          <city value="Burlington" />
-          <state value="MA" />
-          <postalCode value="02368" />
-          <country value="US" />
-        </address>
-      </Practitioner>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://example.org/fhir/Condition/us-ph-condition-eve-everywoman-diabetes" />
-    <resource>
-      <Condition>
-        <id value="us-ph-condition-eve-everywoman-diabetes" />
-        <meta>
-          <versionId value="1" />
-          <lastUpdated value="2022-07-21T05:30:58.342+00:00" />
-          <source value="#7xC7qz28JWzGbonC" />
-          <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition" />
-        </meta>
-        <category>
-          <coding>
-            <system value="http://terminology.hl7.org/CodeSystem/condition-category" />
-            <code value="encounter-diagnosis" />
-            <display value="Encounter Diagnosis" />
-          </coding>
-        </category>
-        <code>
-          <coding>
-            <system value="http://snomed.info/sct" />
-            <code value="73211009" />
-            <display value="Diabetes mellitus (disorder)" />
-          </coding>
-        </code>
-        <subject>
-          <reference value="Patient/us-ph-patient-eve-everywoman" />
-          <display value="Eve Everywoman" />
-        </subject>
-        <onsetDateTime value="2017-08-23" />
-        <asserter>
-          <reference value="Practitioner/us-core-practitioner-henry-seven" />
-          <display value="Henry Seven, MD" />
-        </asserter>
-      </Condition>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://example.org/fhir/Organization/us-ph-organization-salem-medical-center" />
-    <resource>
-      <Organization>
-        <id value="us-ph-organization-salem-medical-center" />
-        <meta>
-          <versionId value="1" />
-          <lastUpdated value="2022-07-21T05:32:37.495+00:00" />
-          <source value="#8vwurqsw71JKEt7S" />
-          <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-organization" />
-        </meta>
-        <identifier>
-          <system value="http://hl7.org.fhir/sid/us-npi" />
-          <value value="55555555" />
-        </identifier>
-        <active value="true" />
-        <name value="Salem Medical Center" />
-        <telecom>
-          <system value="phone" />
-          <value value="+1-555-555-1111" />
-        </telecom>
-        <telecom>
-          <system value="email" />
-          <value value="mail@salemmedicalcenter.com" />
-        </telecom>
-        <address>
-          <line value="22222 Health Authority Drive" />
-          <city value="Ann Arbor" />
-          <state value="MI" />
-          <postalCode value="99999" />
-        </address>
-      </Organization>
-    </resource>
-  </entry>
+<Bundle
+    xmlns="http://hl7.org/fhir">
+    <id value="us-ph-document-bundle-example"/>
+    <meta>
+        <versionId value="3"/>
+        <lastUpdated value="2022-08-02T23:38:25.597+00:00"/>
+        <source value="#fZLzOKWNWHwp1mxr"/>
+        <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle"/>
+    </meta>
+    <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:uuid:2be4b4e4-6df1-4cb2-a947-c70fa0eda53b"/>
+    </identifier>
+    <type value="document"/>
+    <timestamp value="2022-06-02T22:13:23Z"/>
+    <entry>
+        <fullUrl value="http://example.org/fhir/Composition/us-ph-composition-example"/>
+        <resource>
+            <Composition>
+                <id value="us-ph-composition-example"/>
+                <meta>
+                    <versionId value="1"/>
+                    <lastUpdated value="2022-07-22T07:20:04.668+00:00"/>
+                    <source value="#c2UZnH7KyClv5nQp"/>
+                    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-composition"/>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber">
+                    <valueString value="1"/>
+                </extension>
+                <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-information-recipient-extension">
+                    <valueReference>
+                        <reference value="PractitionerRole/us-ph-practitionerrole-henry-seven"/>
+                    </valueReference>
+                </extension>
+                <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-initiation-reason-extension">
+                    <valueString value="Suspicion of Zika"/>
+                </extension>
+                <identifier>
+                    <value value="c03eab8c-11e8-4d0c-ad2a-b385395e27db"/>
+                </identifier>
+                <status value="final"/>
+                <type>
+                    <coding>
+                        <system value="http://loinc.org"/>
+                        <code value="55751-2"/>
+                        <display value="Public Health Case Report"/>
+                    </coding>
+                </type>
+                <subject>
+                    <reference value="Patient/us-ph-patient-eve-everywoman"/>
+                    <display value="Eve Everywoman"/>
+                </subject>
+                <encounter>
+                    <reference value="Encounter/us-ph-encounter-eve-everywoman-outpatient"/>
+                    <display value="Ambulatory Office Visit"/>
+                </encounter>
+                <date value="2018-01-02T22:13:23Z"/>
+                <author>
+                    <reference value="PractitionerRole/us-ph-practitionerrole-henry-seven"/>
+                    <display value="Henry Seven, MD"/>
+                </author>
+                <title value="US Public Health Composition Example"/>
+                <custodian>
+                    <reference value="Organization/us-ph-organization-salem-medical-center"/>
+                    <display value="Salem Medical Center"/>
+                </custodian>
+                <section>
+                    <title value="History of Present Illness Section"/>
+                    <code>
+                        <coding>
+                            <system value="http://loinc.org"/>
+                            <code value="10164-2"/>
+                            <display value="History of Present illness Narrative"/>
+                        </coding>
+                    </code>
+                    <text>
+                        <status value="generated"/>
+                        <div
+                            xmlns="http://www.w3.org/1999/xhtml">
+                            <table>
+                                <tr>
+                                    <td style="font-weight: bold">title</td>
+                                    <td>
+                                        <div title="title">History of Present Illness Section</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold">code</td>
+                                    <td>
+                                        <ul style="list-style:none; padding-left:0; margin:0 0;">
+                                            <li>
+                                                <ul style="list-style:none; padding-left:0; margin:0 0;">
+                                                    <li>
+                                                        <div title="display">History of Present illness Narrative</div> ( 
+                                                        <div title="code">10164-2</div> ) 
+                                                    </li>
+                                                    <li>
+                                                        <div title="system">
+                                                            <a href="http://loinc.org">http://loinc.org</a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" lang="en-US" class="text-no-entries"> Persistent Cough REPORTED starting on 2018/03/05 
+                                        <br/> Whooping Respiration not reported 
+                                        <br/> Paroxysms Of Coughing REPORTED starting on 2018/03/06 
+                                        <br/> Post-tussive vomiting not reported 
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </text>
+                </section>
+                <section>
+                    <title value="Reason for Visit Section"/>
+                    <code>
+                        <coding>
+                            <system value="http://loinc.org"/>
+                            <code value="29299-5"/>
+                            <display value="Reason for visit Narrative"/>
+                        </coding>
+                    </code>
+                    <text>
+                        <status value="generated"/>
+                        <div
+                            xmlns="http://www.w3.org/1999/xhtml">
+                            <table>
+                                <tr>
+                                    <td style="font-weight: bold">title</td>
+                                    <td>
+                                        <div title="title">Reason for Visit Section</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold">code</td>
+                                    <td>
+                                        <ul style="list-style:none; padding-left:0; margin:0 0;">
+                                            <li>
+                                                <ul style="list-style:none; padding-left:0; margin:0 0;">
+                                                    <li>
+                                                        <div title="display">Reason for visit Narrative</div> ( 
+                                                        <div title="code">29299-5</div> ) 
+                                                    </li>
+                                                    <li>
+                                                        <div title="system">
+                                                            <a href="http://loinc.org">http://loinc.org</a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" lang="en-US" class="text-no-entries">
+                                        <p>Reason for Visit: Bad cough</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </text>
+                </section>
+                <section>
+                    <title value="Chief Complaint"/>
+                    <code>
+                        <coding>
+                            <system value="http://loinc.org"/>
+                            <code value="10154-3"/>
+                            <display value="Chief complaint Narrative - Reported"/>
+                        </coding>
+                    </code>
+                    <text>
+                        <status value="generated"/>
+                        <div
+                            xmlns="http://www.w3.org/1999/xhtml">
+                            <table>
+                                <tr>
+                                    <td style="font-weight: bold">title</td>
+                                    <td>
+                                        <div title="title">Chief complaint Narrative - Reported</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold">code</td>
+                                    <td>
+                                        <ul style="list-style:none; padding-left:0; margin:0 0;">
+                                            <li>
+                                                <ul style="list-style:none; padding-left:0; margin:0 0;">
+                                                    <li>
+                                                        <div title="display">Chief complaint Narrative - Reported</div> ( 
+                                                        <div title="code">10154-3</div> ) 
+                                                    </li>
+                                                    <li>
+                                                        <div title="system">
+                                                            <a href="http://loinc.org">http://loinc.org</a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" lang="en-US" class="text-no-entries">
+                                        <p>Chief Complaint: Bad cough</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </text>
+                </section>
+            </Composition>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://example.org/fhir/Encounter/us-ph-encounter-eve-everywoman-outpatient"/>
+        <resource>
+            <Encounter>
+                <id value="us-ph-encounter-eve-everywoman-outpatient"/>
+                <meta>
+                    <versionId value="2"/>
+                    <lastUpdated value="2022-07-21T20:27:26.107+00:00"/>
+                    <source value="#zSQSJ1jlVDTb627T"/>
+                    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-encounter"/>
+                </meta>
+                <identifier>
+                    <system value="http://hospital.smarthealthit.org"/>
+                    <value value="9937012"/>
+                </identifier>
+                <status value="finished"/>
+                <class>
+                    <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+                    <code value="AMB"/>
+                    <display value="ambulatory"/>
+                </class>
+                <type>
+                    <coding>
+                        <system value="http://www.ama-assn.org/go/cpt"/>
+                        <code value="99201"/>
+                    </coding>
+                    <text value="Office Visit"/>
+                </type>
+                <subject>
+                    <reference value="Patient/us-ph-patient-eve-everywoman"/>
+                    <display value="Eve Everywoman"/>
+                </subject>
+                <participant>
+                    <type>
+                        <coding>
+                            <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+                            <code value="ATND"/>
+                            <display value="attender"/>
+                        </coding>
+                    </type>
+                    <individual>
+                        <reference value="PractitionerRole/us-ph-practitionerrole-henry-seven"/>
+                        <display value="Henry Seven, MD"/>
+                    </individual>
+                </participant>
+                <period>
+                    <start value="2018-04-01T10:00:00-05:00"/>
+                    <end value="2018-04-02T10:15:00-05:00"/>
+                </period>
+                <diagnosis>
+                    <condition>
+                        <reference value="Condition/us-ph-condition-eve-everywoman-diabetes"/>
+                    </condition>
+                </diagnosis>
+                <location>
+                    <location>
+                        <reference value="Location/us-ph-location-salem-medical-center"/>
+                        <display value="Clinic Bldg A, Salem Medical Center, 4646 Brown Rd, Salem, MA 02368"/>
+                    </location>
+                </location>
+                <serviceProvider>
+                    <reference value="Organization/us-ph-organization-salem-medical-center"/>
+                    <display value="Salem Medical Center, 22222 Health Authority Drive, Ann Arbor MI, 99999"/>
+                </serviceProvider>
+            </Encounter>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://example.org/fhir/PractitionerRole/us-ph-practitionerrole-henry-seven"/>
+        <resource>
+            <PractitionerRole>
+                <id value="us-ph-practitionerrole-henry-seven"/>
+                <meta>
+                    <versionId value="1"/>
+                    <lastUpdated value="2022-07-21T22:09:12.608+00:00"/>
+                    <source value="#44W69ow6bSfgKWQf"/>
+                    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-practitionerrole"/>
+                </meta>
+                <identifier>
+                    <system value="http://hl7.org/fhir/sid/us-npi"/>
+                    <value value="9941339108"/>
+                </identifier>
+                <practitioner>
+                    <reference value="Practitioner/us-core-practitioner-henry-seven"/>
+                    <display value="Henry Seven, MD"/>
+                </practitioner>
+                <organization>
+                    <reference value="Organization/us-ph-organization-salem-medical-center"/>
+                    <display value="Salem Medical Center"/>
+                </organization>
+                <code>
+                    <coding>
+                        <system value="http://nucc.org/provider-taxonomy"/>
+                        <code value="261QP2300X"/>
+                        <display value="Primary Care Clinic/Center"/>
+                    </coding>
+                </code>
+                <specialty>
+                    <coding>
+                        <system value="http://snomed.info/sct"/>
+                        <code value="419772000"/>
+                        <display value="Family practice"/>
+                    </coding>
+                </specialty>
+                <location>
+                    <reference value="Location/us-ph-location-salem-medical-center"/>
+                    <display value="Salem Medical Center"/>
+                </location>
+                <telecom>
+                    <system value="email"/>
+                    <value value="henry.seven@example.com"/>
+                </telecom>
+            </PractitionerRole>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://example.org/fhir/Patient/us-ph-patient-eve-everywoman"/>
+        <resource>
+            <Patient>
+                <id value="us-ph-patient-eve-everywoman"/>
+                <meta>
+                    <versionId value="1"/>
+                    <lastUpdated value="2022-07-21T05:30:14.826+00:00"/>
+                    <source value="#AW0TSMc7z5FaiAIX"/>
+                    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
+                </meta>
+                <text>
+                    <status value="generated"/>
+                    <div
+                        xmlns="http://www.w3.org/1999/xhtml">
+                        <div class="hapiHeaderText">Eve L 
+                            <b>EVERYWOMAN </b>
+                        </div>
+                        <table class="hapiPropertyTable">
+                            <tbody>
+                                <tr>
+                                    <td>Identifier</td>
+                                    <td>1032702</td>
+                                </tr>
+                                <tr>
+                                    <td>Address</td>
+                                    <td>
+                                        <span>5101 Peachtree St NE </span>
+                                        <br/>
+                                        <span>Atlanta </span>
+                                        <span>GA </span>
+                                        <span>US </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Date of birth</td>
+                                    <td>
+                                        <span>24 November 1974</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </text>
+                <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
+                    <extension url="ombCategory">
+                        <valueCoding>
+                            <system value="urn:oid:2.16.840.1.113883.6.238"/>
+                            <code value="2106-3"/>
+                            <display value="White"/>
+                        </valueCoding>
+                    </extension>
+                    <extension url="text">
+                        <valueString value="White"/>
+                    </extension>
+                </extension>
+                <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity">
+                    <extension url="ombCategory">
+                        <valueCoding>
+                            <system value="urn:oid:2.16.840.1.113883.6.238"/>
+                            <code value="2186-5"/>
+                            <display value="Not Hispanic or Latino"/>
+                        </valueCoding>
+                    </extension>
+                    <extension url="text">
+                        <valueString value="Not Hispanic or Latino"/>
+                    </extension>
+                </extension>
+                <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
+                    <valueCode value="F"/>
+                </extension>
+                <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-genderidentity-extension">
+                    <extension url="value">
+                        <valueCodeableConcept>
+                            <coding>
+                                <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+                                <code value="ASKU"/>
+                                <display value="asked but unknown"/>
+                            </coding>
+                            <text value="asked but unknown"/>
+                        </valueCodeableConcept>
+                    </extension>
+                </extension>
+                <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-tribal-affiliation-extension">
+                    <extension url="TribeName">
+                        <valueCoding>
+                            <system value="http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS"/>
+                            <code value="91"/>
+                            <display value="Fort Mojave Indian Tribe of Arizona, California"/>
+                        </valueCoding>
+                    </extension>
+                    <extension url="EnrolledTribeMember">
+                        <valueBoolean value="true"/>
+                    </extension>
+                </extension>
+                <identifier>
+                    <use value="usual"/>
+                    <type>
+                        <coding>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                            <code value="MR"/>
+                            <display value="Medical Record Number"/>
+                        </coding>
+                    </type>
+                    <system value="http://hospital.smarthealthit.org"/>
+                    <value value="1032702"/>
+                </identifier>
+                <active value="true"/>
+                <name>
+                    <family value="Everywoman"/>
+                    <given value="Eve"/>
+                    <given value="L"/>
+                </name>
+                <telecom>
+                    <system value="phone"/>
+                    <value value="1-(404)555-1212"/>
+                    <use value="home"/>
+                </telecom>
+                <telecom>
+                    <system value="email"/>
+                    <value value="eve.everywoman@example.com"/>
+                </telecom>
+                <gender value="female"/>
+                <birthDate value="1974-11-24"/>
+                <deceasedBoolean value="false"/>
+                <address>
+                    <line value="5101 Peachtree St NE"/>
+                    <city value="Atlanta"/>
+                    <state value="GA"/>
+                    <postalCode value="30302"/>
+                    <country value="US"/>
+                </address>
+                <communication>
+                    <language>
+                        <coding>
+                            <system value="urn:ietf:bcp:47"/>
+                            <code value="en"/>
+                            <display value="English"/>
+                        </coding>
+                    </language>
+                </communication>
+            </Patient>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://example.org/fhir/Location/us-ph-location-salem-medical-center"/>
+        <resource>
+            <Location>
+                <id value="us-ph-location-salem-medical-center"/>
+                <meta>
+                    <versionId value="1"/>
+                    <lastUpdated value="2022-07-21T05:31:48.050+00:00"/>
+                    <source value="#OYMJHBNVVi6huTUM"/>
+                    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-location"/>
+                </meta>
+                <identifier>
+                    <system value="http://hl7.org.fhir/sid/us-npi"/>
+                    <value value="1144221995"/>
+                </identifier>
+                <status value="active"/>
+                <name value="Clinic Bldg A, Salem Medical Center"/>
+                <type>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+                        <code value="HOSP"/>
+                        <display value="Hospital"/>
+                    </coding>
+                </type>
+                <telecom>
+                    <system value="phone"/>
+                    <value value="(+1) (555)555-3001"/>
+                </telecom>
+                <telecom>
+                    <system value="fax"/>
+                    <value value="(+1) (555)555-3002"/>
+                </telecom>
+                <telecom>
+                    <system value="email"/>
+                    <value value="mail@smc.org"/>
+                </telecom>
+                <address>
+                    <line value="Clinic Bldg A"/>
+                    <line value="4444 Healthcare Drive"/>
+                    <city value="Ann Arbor"/>
+                    <state value="MI"/>
+                    <postalCode value="99999"/>
+                </address>
+                <managingOrganization>
+                    <reference value="Organization/us-ph-organization-salem-medical-center"/>
+                </managingOrganization>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://example.org/fhir/Practitioner/us-core-practitioner-henry-seven"/>
+        <resource>
+            <Practitioner>
+                <id value="us-core-practitioner-henry-seven"/>
+                <meta>
+                    <versionId value="1"/>
+                    <lastUpdated value="2022-07-21T05:30:27.155+00:00"/>
+                    <source value="#gM676jWmSLAl87ym"/>
+                    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+                </meta>
+                <identifier>
+                    <system value="http://hl7.org/fhir/sid/us-npi"/>
+                    <value value="9941339108"/>
+                </identifier>
+                <name>
+                    <family value="Henry"/>
+                    <given value="Seven"/>
+                    <suffix value="M.D."/>
+                </name>
+                <telecom>
+                    <system value="email"/>
+                    <value value="henry.seven@example.com"/>
+                </telecom>
+                <address>
+                    <line value="BMass Doctors"/>
+                    <line value="2100 North Ave"/>
+                    <city value="Burlington"/>
+                    <state value="MA"/>
+                    <postalCode value="02368"/>
+                    <country value="US"/>
+                </address>
+            </Practitioner>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://example.org/fhir/Condition/us-ph-condition-eve-everywoman-diabetes"/>
+        <resource>
+            <Condition>
+                <id value="us-ph-condition-eve-everywoman-diabetes"/>
+                <meta>
+                    <versionId value="1"/>
+                    <lastUpdated value="2022-07-21T05:30:58.342+00:00"/>
+                    <source value="#7xC7qz28JWzGbonC"/>
+                    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition"/>
+                </meta>
+                <category>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+                        <code value="encounter-diagnosis"/>
+                        <display value="Encounter Diagnosis"/>
+                    </coding>
+                </category>
+                <code>
+                    <coding>
+                        <system value="http://snomed.info/sct"/>
+                        <code value="73211009"/>
+                        <display value="Diabetes mellitus (disorder)"/>
+                    </coding>
+                </code>
+                <subject>
+                    <reference value="Patient/us-ph-patient-eve-everywoman"/>
+                    <display value="Eve Everywoman"/>
+                </subject>
+                <onsetDateTime value="2017-08-23"/>
+                <asserter>
+                    <reference value="Practitioner/us-core-practitioner-henry-seven"/>
+                    <display value="Henry Seven, MD"/>
+                </asserter>
+            </Condition>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://example.org/fhir/Organization/us-ph-organization-salem-medical-center"/>
+        <resource>
+            <Organization>
+                <id value="us-ph-organization-salem-medical-center"/>
+                <meta>
+                    <versionId value="1"/>
+                    <lastUpdated value="2022-07-21T05:32:37.495+00:00"/>
+                    <source value="#8vwurqsw71JKEt7S"/>
+                    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-organization"/>
+                </meta>
+                <identifier>
+                    <system value="http://hl7.org.fhir/sid/us-npi"/>
+                    <value value="55555555"/>
+                </identifier>
+                <active value="true"/>
+                <name value="Salem Medical Center"/>
+                <telecom>
+                    <system value="phone"/>
+                    <value value="+1-555-555-1111"/>
+                </telecom>
+                <telecom>
+                    <system value="email"/>
+                    <value value="mail@salemmedicalcenter.com"/>
+                </telecom>
+                <address>
+                    <line value="22222 Health Authority Drive"/>
+                    <city value="Ann Arbor"/>
+                    <state value="MI"/>
+                    <postalCode value="99999"/>
+                </address>
+            </Organization>
+        </resource>
+    </entry>
 </Bundle>

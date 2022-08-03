@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-valueset"/>
     <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2022-08-02T22:23:19.181+00:00"/>
-        <source value="#cn1948ydB7V9UdK4"/>
+        <versionId value="10"/>
+        <lastUpdated value="2022-08-02T23:22:26.643+00:00"/>
+        <source value="#nvTeqLWC3X6b4Neh"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset"/>
     <version value="1.0.0"/>
@@ -43,6 +43,7 @@
                 <rules value="open"/>
             </slicing>
             <min value="2"/>
+            <mustSupport value="true"/>
         </element>
         <element id="ValueSet.extension:extensionValueSetSteward">
             <path value="ValueSet.extension"/>
@@ -121,12 +122,14 @@
             </slicing>
             <min value="1"/>
             <max value="*"/>
+            <mustSupport value="true"/>
         </element>
         <element id="ValueSet.useContext:priorityContext">
             <path value="ValueSet.useContext"/>
             <sliceName value="priorityContext"/>
             <min value="1"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="ValueSet.useContext:priorityContext.code">
             <path value="ValueSet.useContext.code"/>
@@ -136,6 +139,7 @@
                 <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type"/>
                 <code value="priority"/>
             </patternCoding>
+            <mustSupport value="true"/>
         </element>
         <element id="ValueSet.useContext:priorityContext.value[x]">
             <path value="ValueSet.useContext.value[x]"/>
@@ -146,6 +150,7 @@
             <type>
                 <code value="CodeableConcept"/>
             </type>
+            <mustSupport value="true"/>
             <binding>
                 <strength value="required"/>
                 <description value="US PH ValueSet Release Priority Codes."/>
@@ -164,6 +169,7 @@
                 <system value="http://terminology.hl7.org/CodeSystem/usage-context-type"/>
                 <code value="focus"/>
             </patternCoding>
+            <mustSupport value="true"/>
         </element>
         <element id="ValueSet.useContext:focusConditionContext.value[x]">
             <path value="ValueSet.useContext.value[x]"/>
@@ -172,6 +178,7 @@
             <type>
                 <code value="CodeableConcept"/>
             </type>
+            <mustSupport value="true"/>
             <binding>
                 <strength value="example"/>
                 <description value="Condition/Problem/Diagnosis Codes."/>

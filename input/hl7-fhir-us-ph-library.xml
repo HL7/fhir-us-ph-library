@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="264"/>
-        <lastUpdated value="2022-08-02T22:23:55.172+00:00"/>
-        <source value="#BOZ4ZO6Pl4Z4VwgS"/>
+        <versionId value="269"/>
+        <lastUpdated value="2022-08-03T21:49:50.055+00:00"/>
+        <source value="#geB007wtenkTuhOm"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="1.0.0-ballot"/>
@@ -78,7 +78,7 @@
                 <display value="US Public Health Patient"/>
             </reference>
             <name value="US Public Health Patient"/>
-            <description value="This Patient profile represents a US Public Health Patient.&#xA;&#xA;It is based on the **US Core Patient** profile with further restrictions to allow masking of some data elements and the addition of the US Public Health Gender Identity extension.&#xA;&#xA;For ONC’s USCDI requirements, it adds Must Support constraints to the following:&#xA;&#xA;* contact detail (e.g. a telephone number or an email address)&#xA;* a communication language&#xA;* a race&#xA;* an ethnicity&#xA;* a birth sex"/>
+            <description value="This Patient profile represents a US Public Health Patient.&#xA;&#xA;It is based on the **US Core Patient** profile with further constraints to require and/or allow masking of some data elements,  and the addition of the US Public Health Gender Identity extension.&#xA;&#xA;For ONC’s USCDI requirements, it also adds Must Support constraints to the following:&#xA;&#xA;* contact detail (e.g. a telephone number or an email address)&#xA;* a communication language&#xA;* a race&#xA;* an ethnicity&#xA;* a birth sex"/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-entities"/>
         </resource>
@@ -327,7 +327,7 @@
                 <reference value="StructureDefinition/us-ph-supplemental-valueset-library"/>
                 <display value="US Public Health Supplemental Valueset Library"/>
             </reference>
-            <name value="US Public Health Supplemental ValueSet Library"/>
+            <name value="US Public Health Supplemental ValueSet"/>
             <description value="Defines the library containing the US Public Health supplemental value sets."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-group"/>
@@ -1221,6 +1221,13 @@
             <description value="This value set contains codes representing release priority for ValueSets."/>
             <exampleBoolean value="false"/>
         </resource>
+        <resource>
+            <reference>
+                <reference value="Parameters/expansion-parameters-us-ph"/></reference>
+            <name value="Parameters - SNOMED US Version"/>
+            <description value="Parameters - SNOMED US Version"/>
+            <exampleBoolean value="false"/>
+        </resource>
         <page>
             <nameUrl value="index.html"/>
             <title value="Home Page"/>
@@ -1238,7 +1245,7 @@
         </page>
         <parameter>
             <code value="path-expansion-params"/>
-            <value value="expansion-parameters-us-ph.xml"/>
+            <value value="resources/parameters/expansion-parameters-us-ph.xml"/>
         </parameter>
         <parameter>
             <code value="copyrightyear"/>
