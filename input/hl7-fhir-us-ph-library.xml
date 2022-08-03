@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="262"/>
-        <lastUpdated value="2022-07-25T04:35:05.432+00:00"/>
-        <source value="#msfa7cWAi3rdxmlQ"/>
+        <versionId value="264"/>
+        <lastUpdated value="2022-08-02T22:23:55.172+00:00"/>
+        <source value="#BOZ4ZO6Pl4Z4VwgS"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="1.0.0-ballot"/>
@@ -248,7 +248,7 @@
                 <display value="US Public Health Location"/>
             </reference>
             <name value="US Public Health Location"/>
-            <description value="This Location profile represents the location/facility in which care was provided."/>
+            <description value="This Location profile represents the location/facility in which care was provided. It is based on the US Core Location profile."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-entities"/>
         </resource>
@@ -288,7 +288,7 @@
                 <display value="US Public Health PractitionerRole"/>
             </reference>
             <name value="US Public Health PractitionerRole"/>
-            <description value="This PractitionerRole profile represents the roles and organizations of the practitioner.&#xA;&#xA;It is based on the **US Core PractitionerRole** profile with a further restriction of a mandatory **identifier** data element."/>
+            <description value="This PractitionerRole profile represents the roles and organizations of the practitioner.&#xA;&#xA;It is based on the **US Core PractitionerRole** profile with a further restriction of mandatory **practitioner*, **identifier**, and **telecom** data elements and US Public Health Location and US Public Health Organization references."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-entities"/>
         </resource>
@@ -327,7 +327,7 @@
                 <reference value="StructureDefinition/us-ph-supplemental-valueset-library"/>
                 <display value="US Public Health Supplemental Valueset Library"/>
             </reference>
-            <name value="US Public Health Supplemental ValueSet"/>
+            <name value="US Public Health Supplemental ValueSet Library"/>
             <description value="Defines the library containing the US Public Health supplemental value sets."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-group"/>
@@ -1210,6 +1210,15 @@
             </reference>
             <name value="US Public Health Related Data Extension"/>
             <description value="The relatedData extension allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/us-ph-valueset-priority"/>
+                <display value="US Public Health ValueSet Priority"/>
+            </reference>
+            <name value="US Public Health ValueSet Priority"/>
+            <description value="This value set contains codes representing release priority for ValueSets."/>
             <exampleBoolean value="false"/>
         </resource>
         <page>

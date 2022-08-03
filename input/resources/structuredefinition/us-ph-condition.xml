@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-condition"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2022-07-12T02:02:14.175+00:00"/>
-        <source value="#efxrYYHQWxVZ1Hqo"/>
+        <versionId value="5"/>
+        <lastUpdated value="2022-08-02T00:28:26.979+00:00"/>
+        <source value="#erosSzYHlE43Xduz"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition"/>
     <version value="1.0.0"/>
@@ -66,6 +66,10 @@
             <path value="Condition.onset[x]"/>
             <mustSupport value="true"/>
             <isModifier value="false"/>
+        </element>
+        <element id="Condition.recordedDate">
+            <path value="Condition.recordedDate"/>
+            <mustSupport value="true"/>
         </element>
     </differential>
 </StructureDefinition>

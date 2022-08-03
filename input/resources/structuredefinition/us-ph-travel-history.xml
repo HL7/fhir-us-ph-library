@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-travel-history"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2022-07-12T02:03:49.170+00:00"/>
-        <source value="#VWOn9qGIuA1s6KWX"/>
+        <versionId value="4"/>
+        <lastUpdated value="2022-08-02T02:24:21.769+00:00"/>
+        <source value="#TSGx0tsXblAR76at"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-travel-history"/>
     <version value="1.0.0"/>
@@ -69,6 +69,7 @@
             <path value="Observation.effective[x]"/>
             <short value="Date or period of time spent in the location"/>
             <definition value="It is important to accurately capture the most accurate dates possible. The focus should be on date of arrival and date of departure."/>
+            <min value="1"/>
             <mustSupport value="true"/>
             <isModifier value="false"/>
         </element>

@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-patient"/>
     <meta>
-        <versionId value="22"/>
-        <lastUpdated value="2022-07-27T20:48:19.971+00:00"/>
-        <source value="#kQROEMPN7yWxwDPK"/>
+        <versionId value="28"/>
+        <lastUpdated value="2022-08-01T21:39:21.023+00:00"/>
+        <source value="#R7sgYQ9lfgH10U4P"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
     <version value="1.0.0"/>
@@ -234,6 +234,9 @@
         </element>
         <element id="Patient.deceased[x]">
             <path value="Patient.deceased[x]"/>
+            <short value="If patient is deceased, use type dateTime and set to deceased date."/>
+            <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Patient.address">
             <path value="Patient.address"/>
@@ -280,6 +283,7 @@
         </element>
         <element id="Patient.contact.name">
             <path value="Patient.contact.name"/>
+            <min value="1"/>
             <mustSupport value="true"/>
         </element>
         <element id="Patient.contact.name.extension:dataAbsentReason">
@@ -303,6 +307,7 @@
         </element>
         <element id="Patient.contact.telecom">
             <path value="Patient.contact.telecom"/>
+            <min value="1"/>
             <mustSupport value="true"/>
         </element>
         <element id="Patient.contact.telecom.extension:dataAbsentReason">
@@ -326,6 +331,7 @@
         </element>
         <element id="Patient.contact.address">
             <path value="Patient.contact.address"/>
+            <min value="1"/>
             <mustSupport value="true"/>
         </element>
         <element id="Patient.contact.address.extension:dataAbsentReason">
@@ -349,6 +355,7 @@
         </element>
         <element id="Patient.communication">
             <path value="Patient.communication"/>
+            <min value="1"/>
             <mustSupport value="true"/>
         </element>
         <element id="Patient.communication.language">

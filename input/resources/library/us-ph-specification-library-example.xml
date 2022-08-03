@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-specification-library-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2022-07-22T06:05:41.652+00:00"/>
-        <source value="#TzGY0wAIhKJ0RH8i"/>
+        <versionId value="2"/>
+        <lastUpdated value="2022-07-29T23:37:47.364+00:00"/>
+        <source value="#STZ6QHsRAST9tPXL"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-specification-library"/>
     </meta>
     <url value="http://example.org/fhir/Library/us-ph-specification-library-example"/>
@@ -68,10 +68,10 @@
     </effectivePeriod>
     <relatedArtifact>
         <type value="composed-of"/>
-      <resource value="http://hl7.org/fhir/us/ph-library/PlanDefinition/us-ph-plandefinition-example"/>
+        <resource value="http://hl7.org/fhir/us/ph-library/PlanDefinition/us-ph-plandefinition-example"/>
     </relatedArtifact>
     <relatedArtifact>
         <type value="composed-of"/>
-      <resource value="http://hl7.org/fhir/us/ph-library/Library/us-ph-triggering-valueset-library-example"/>
+        <resource value="http://hl7.org/fhir/us/ph-library/Library/us-ph-triggering-valueset-library-example"/>
     </relatedArtifact>
 </Library>

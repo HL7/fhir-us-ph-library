@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-medicationadministration"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2022-07-12T02:03:11.285+00:00"/>
-        <source value="#ne6r8isqR11k7SnE"/>
+        <versionId value="8"/>
+        <lastUpdated value="2022-08-02T03:19:09.160+00:00"/>
+        <source value="#tVJUHz7NtRdS3X9G"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-medicationadministration"/>
     <version value="0.1.0"/>
@@ -30,6 +30,18 @@
     <differential>
         <element id="MedicationAdministration">
             <path value="MedicationAdministration"/>
+        </element>
+        <element id="MedicationAdministration.extension">
+            <path value="MedicationAdministration.extension"/>
+            <type>
+                <code value="Extension"/>
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-therapeutic-medication-response-extension"/>
+            </type>
+            <mustSupport value="true"/>
+        </element>
+        <element id="MedicationAdministration.identifier">
+            <path value="MedicationAdministration.identifier"/>
+            <mustSupport value="true"/>
         </element>
         <element id="MedicationAdministration.status">
             <path value="MedicationAdministration.status"/>
@@ -66,6 +78,14 @@
         </element>
         <element id="MedicationAdministration.dosage">
             <path value="MedicationAdministration.dosage"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="MedicationAdministration.dosage.route">
+            <path value="MedicationAdministration.dosage.route"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="MedicationAdministration.dosage.dose">
+            <path value="MedicationAdministration.dosage.dose"/>
             <mustSupport value="true"/>
         </element>
     </differential>

@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-supplemental-library-example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2022-07-22T21:54:11.506+00:00"/>
-        <source value="#bUrrH6QkwaNyEgWe"/>
+        <versionId value="3"/>
+        <lastUpdated value="2022-07-29T23:37:47.379+00:00"/>
+        <source value="#LrGwSBEWGHHEhUcj"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-library"/>
     </meta>
     <url value="http://example.org/fhir/Library/us-ph-supplemental-library-example"/>
@@ -68,10 +68,10 @@
     </effectivePeriod>
     <relatedArtifact>
         <type value="composed-of"/>
-      <resource value="http://hl7.org/fhir/us/ph-library/Library/us-ph-executable-library-rule-filters"/>
+        <resource value="http://hl7.org/fhir/us/ph-library/Library/us-ph-executable-library-rule-filters"/>
     </relatedArtifact>
     <relatedArtifact>
         <type value="composed-of"/>
-      <resource value="http://hl7.org/fhir/us/ph-library/Library/us-ph-supplemental-valueset-library-example"/>
+        <resource value="http://hl7.org/fhir/us/ph-library/Library/us-ph-supplemental-valueset-library-example"/>
     </relatedArtifact>
 </Library>

@@ -42,8 +42,8 @@
                 </discriminator>
                 <rules value="closed"/>
             </slicing>
-            <min value="1"/>
-            <max value="1"/>
+            <min value="2"/>
+            <max value="*"/>
         </element>
         <element id="ValueSet.useContext:reportingContext">
             <path value="ValueSet.useContext"/>
@@ -59,6 +59,7 @@
                 <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type"/>
                 <code value="reporting"/>
             </patternCoding>
+            <mustSupport value="true"/>
         </element>
         <element id="ValueSet.useContext:reportingContext.value[x]">
             <path value="ValueSet.useContext.value[x]"/>

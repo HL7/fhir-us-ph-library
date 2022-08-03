@@ -8,7 +8,7 @@
         <source value="#FbARN5mwZbLifR3S"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-plandefinition"/>
     </meta>
-  <url value="http://hl7.org/fhir/us/ph-library/PlanDefinition/us-ph-plandefinition-namedEvent-example"/>
+    <url value="http://example.org/fhir/PlanDefinition/us-ph-plandefinition-namedEvent-example"/>
     <version value="0.1"/>
     <name value="USPublicHealthPlanDefinitionNamedEventExample"/>
     <title value="US Public Health PlanDefinition NamedEvent Example"/>

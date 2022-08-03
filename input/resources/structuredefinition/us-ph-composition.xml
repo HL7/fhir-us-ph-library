@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-composition"/>
     <meta>
-        <versionId value="11"/>
-        <lastUpdated value="2022-07-12T02:02:14.173+00:00"/>
-        <source value="#dSE02P4QJDebgdMb"/>
+        <versionId value="12"/>
+        <lastUpdated value="2022-08-01T21:18:01.855+00:00"/>
+        <source value="#50pm3LiSOSFhI0AD"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-composition"/>
     <version value="1.0.0"/>
@@ -49,7 +49,7 @@
             <path value="Composition.extension"/>
             <sliceName value="sliceExtensionVersionNumber"/>
             <short value="Public Health Composition versionNumber"/>
-            <definition value="Public Health Composition versionNumber. This is equivalent to ClinicalDocument.versionNumber in CDA. The id of the containing Bundle is equivalent to ClinicalDocument.id in CDA and Composition.identifier is equivalent to ClinicalDocument.setId in CDA. This is a version specific identifier for the composition, assigned when each version is created/updated.&#xA;&#xA;While each resource, including the composition itself, has its own version identifier, this is a formal identifier for the logical version of the composition as a whole. It would remain constant if the resources were moved to a new server, and all got new individual resource versions, for example."/>
+            <definition value="Public Health Composition versionNumber. This is equivalent to ClinicalDocument.versionNumber in CDA. The identifier of the containing Bundle is equivalent to ClinicalDocument.id in CDA and Composition.identifier is equivalent to ClinicalDocument.setId in CDA. This is a version specific identifier for the composition, assigned when each version is created/updated.&#xA;&#xA;While each resource, including the composition itself, has its own version identifier, this is a formal identifier for the logical version of the composition as a whole. It would remain constant if the resources were moved to a new server, and all got new individual resource versions, for example."/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -73,9 +73,13 @@
         <element id="Composition.identifier">
             <path value="Composition.identifier"/>
             <short value="Public Health Composition identifier"/>
-            <definition value="Public Health Composition identifier. This is equivalent to ClinicalDocument.setId in CDA. The id of the containing Bundle is equivalent to ClinicalDocument.id in CDA and Composition.sliceExtensionVersionNumber is equivalent to ClinicalDocument.versionNumber in CDA."/>
+            <definition value="Public Health Composition identifier. This is equivalent to ClinicalDocument.setId in CDA. The identifier of the containing Bundle is equivalent to ClinicalDocument.id in CDA and Composition.sliceExtensionVersionNumber is equivalent to ClinicalDocument.versionNumber in CDA."/>
             <min value="1"/>
             <max value="1"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Composition.status">
+            <path value="Composition.status"/>
             <mustSupport value="true"/>
         </element>
         <element id="Composition.type">
@@ -126,6 +130,10 @@
             </type>
             <mustSupport value="true"/>
             <isModifier value="false"/>
+        </element>
+        <element id="Composition.title">
+            <path value="Composition.title"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.custodian">
             <path value="Composition.custodian"/>
