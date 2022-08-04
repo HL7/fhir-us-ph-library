@@ -327,7 +327,7 @@
                 <reference value="StructureDefinition/us-ph-supplemental-valueset-library"/>
                 <display value="US Public Health Supplemental Valueset Library"/>
             </reference>
-            <name value="US Public Health Supplemental ValueSet"/>
+            <name value="US Public Health Supplemental ValueSet Library"/>
             <description value="Defines the library containing the US Public Health supplemental value sets."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-group"/>
