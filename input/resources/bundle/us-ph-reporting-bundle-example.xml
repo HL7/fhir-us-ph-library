@@ -60,13 +60,13 @@
                     </coding>
                 </reason>
                 <focus>
-                    <reference value="Bundle/us-ph-document-bundle-example"/>
+                  <reference value="Bundle/us-ph-content-bundle-example"/>
                 </focus>
             </MessageHeader>
         </resource>
     </entry>
     <entry>
-        <fullUrl value="http://example.org/fhir/Bundle/us-ph-document-bundle-example"/>
+      <fullUrl value="http://example.org/fhir/Bundle/us-ph-content-bundle-example"/>
         <resource>
             <Bundle>
                 <id value="us-ph-content-bundle-example"/>
