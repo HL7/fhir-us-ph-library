@@ -24,7 +24,7 @@
     <url value="http://example.org/fhir/ValueSet/us-ph-executable-valueset-chlamydia-example"/>
     <identifier>
         <system value="urn:ietf:rfc:3986"/>
-        <value value="urn:oid:2.16.840.1.113762.1.4.1146.1057"/>
+        <value value="urn:oid:2.16.840.1.113762.1.4.1146.1057.1"/>
     </identifier>
     <version value="1.0.0"/>
     <name value="USPublicHealthExecutableValueSetChlamydiaExample"/>
