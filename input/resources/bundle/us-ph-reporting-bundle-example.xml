@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-reporting-bundle-example"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2022-08-02T23:38:25.595+00:00"/>
-        <source value="#cmWalv3i7ii12e50"/>
+        <versionId value="1"/>
+        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
+        <source value="#1SC4BsSLNv4eV4E2"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-reporting-bundle"/>
     </meta>
     <type value="message"/>
@@ -60,13 +60,13 @@
                     </coding>
                 </reason>
                 <focus>
-                  <reference value="Bundle/us-ph-content-bundle-example"/>
+                    <reference value="Bundle/us-ph-content-bundle-example"/>
                 </focus>
             </MessageHeader>
         </resource>
     </entry>
     <entry>
-      <fullUrl value="http://example.org/fhir/Bundle/us-ph-content-bundle-example"/>
+        <fullUrl value="http://example.org/fhir/Bundle/us-ph-content-bundle-example"/>
         <resource>
             <Bundle>
                 <id value="us-ph-content-bundle-example"/>

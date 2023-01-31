@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-address-extension"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2022-07-12T02:01:54.688+00:00"/>
-        <source value="#j8UY7V9NrBK4smaJ"/>
+        <versionId value="1"/>
+        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
+        <source value="#1SC4BsSLNv4eV4E2"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-address-extension"/>
     <version value="1.0.0"/>

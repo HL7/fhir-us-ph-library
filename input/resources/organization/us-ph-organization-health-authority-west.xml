@@ -4,8 +4,8 @@
     <id value="us-ph-organization-health-authority-west"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2022-07-21T05:36:59.823+00:00"/>
-        <source value="#pvviOKpj3qrvflii"/>
+        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
+        <source value="#1SC4BsSLNv4eV4E2"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-organization"/>
     </meta>
     <identifier>

@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-postpartum-status"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2022-07-12T02:03:21.898+00:00"/>
-        <source value="#WuevMUtbyTTjWldQ"/>
+        <versionId value="1"/>
+        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
+        <source value="#1SC4BsSLNv4eV4E2"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-postpartum-status"/>
     <version value="1.0.0"/>

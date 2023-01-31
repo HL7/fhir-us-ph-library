@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-location"/>
     <meta>
-        <versionId value="13"/>
-        <lastUpdated value="2022-08-01T22:52:29.752+00:00"/>
-        <source value="#b59XrQTFBDwcYGfS"/>
+        <versionId value="1"/>
+        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
+        <source value="#1SC4BsSLNv4eV4E2"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-location"/>
     <version value="1.0.0"/>

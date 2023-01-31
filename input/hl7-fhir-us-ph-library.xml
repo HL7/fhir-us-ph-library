@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="270"/>
-        <lastUpdated value="2022-08-03T23:01:34.996+00:00"/>
-        <source value="#S2YGBOmJ0vfnrXgM"/>
+        <versionId value="274"/>
+        <lastUpdated value="2023-01-31T07:33:53.752+00:00"/>
+        <source value="#61DHTdO4nOvz061k"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="1.0.0-ballot"/>
@@ -712,7 +712,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Observation/us-ph-characteristics-of-home-environment-eve-everywoman"/></reference>
+                <reference value="Observation/us-ph-char-home-environment-eve-everywoman"/></reference>
             <name value="US Public Health Characteristics of Home Environment - Eve Everywoman"/>
             <description value="US Public Health Characteristics of Home Environment: Eve Everywoman example"/>
             <exampleBoolean value="false"/>
@@ -873,7 +873,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="MedicationAdministration/us-ph-medicationadministration-eve-everywoman-azithromycin"/></reference>
+                <reference value="MedicationAdministration/us-ph-medadmin-eve-everywoman-azithromycin"/></reference>
             <name value="US Public Health MedicationAdministration - Eve Everywoman - Azithromycin"/>
             <description value="US Public Health MedicationAdministration: Eve Everywoman Azithromycin example"/>
             <exampleBoolean value="false"/>
@@ -975,7 +975,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="MedicationAdministration/us-ph-medicationadministration-eve-everywoman-naloxone-response"/></reference>
+                <reference value="MedicationAdministration/us-ph-medadmin-eve-everywoman-naloxone-response"/></reference>
             <name value="US Public Health MedicationAdministration - Eve Everywoman - Naloxone"/>
             <description value="US Public Health MedicationAdministration: Eve Everywoman - Naloxone example"/>
             <exampleBoolean value="false"/>

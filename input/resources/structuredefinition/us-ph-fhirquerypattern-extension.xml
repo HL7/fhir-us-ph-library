@@ -4,8 +4,8 @@
     <id value="us-ph-fhirquerypattern-extension"/>
     <meta>
         <versionId value="2"/>
-        <lastUpdated value="2022-07-12T02:02:58.143+00:00"/>
-        <source value="#YngChiu9nzzvgigf"/>
+        <lastUpdated value="2023-01-31T03:09:17.281+00:00"/>
+        <source value="#YjGuhJNbm58Euckv"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-fhirquerypattern-extension"/>
     <version value="0.2.0"/>

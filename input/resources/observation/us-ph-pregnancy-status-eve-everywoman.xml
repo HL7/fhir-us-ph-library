@@ -4,8 +4,8 @@
     <id value="us-ph-pregnancy-status-eve-everywoman"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2022-07-21T05:29:08.619+00:00"/>
-        <source value="#VIULqEhgTN4WDL1e"/>
+        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
+        <source value="#1SC4BsSLNv4eV4E2"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-pregnancy-status-observation"/>
     </meta>
     <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-date-recorded-extension">

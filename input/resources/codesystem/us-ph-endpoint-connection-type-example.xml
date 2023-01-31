@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-endpoint-connection-type-example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2022-07-22T05:51:50.711+00:00"/>
-        <source value="#71SXCV7jqwVC1bAp"/>
+        <versionId value="1"/>
+        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
+        <source value="#1SC4BsSLNv4eV4E2"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-endpoint-connection-type-example"/>
     <name value="USPublicHealthEndpointConnectionTypeExample"/>

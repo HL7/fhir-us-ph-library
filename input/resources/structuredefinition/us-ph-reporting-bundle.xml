@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-reporting-bundle"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2022-07-25T00:58:28.816+00:00"/>
-        <source value="#inZZTVOIy9mX9Mxo"/>
+        <versionId value="2"/>
+        <lastUpdated value="2023-01-31T03:09:52.603+00:00"/>
+        <source value="#PXjlfGOosBpAgArP"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-reporting-bundle"/>
     <version value="0.1.0"/>

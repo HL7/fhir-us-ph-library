@@ -4,8 +4,8 @@
     <id value="us-ph-jurisdiction-types-example"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2022-07-22T07:02:04.881+00:00"/>
-        <source value="#g8KEFBU0sB0RDBJu"/>
+        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
+        <source value="#1SC4BsSLNv4eV4E2"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-jurisdiction-types-example"/>
     <version value="0.1.0"/>

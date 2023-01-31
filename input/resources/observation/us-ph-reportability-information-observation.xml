@@ -4,8 +4,8 @@
     <id value="us-ph-reportability-information-observation"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2022-07-22T07:26:39.590+00:00"/>
-        <source value="#TiGZBaXSnDrywxTm"/>
+        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
+        <source value="#1SC4BsSLNv4eV4E2"/>
     </meta>
     <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-determination-of-reportability-extension">
         <valueCodeableConcept>

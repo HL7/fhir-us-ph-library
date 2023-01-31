@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-tribal-affiliation-extension"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2022-07-12T02:03:49.170+00:00"/>
-        <source value="#RVqbwTkOQ9zCeu3N"/>
+        <versionId value="2"/>
+        <lastUpdated value="2023-01-31T03:10:08.794+00:00"/>
+        <source value="#oh6b4zjY0Orfj4IZ"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-tribal-affiliation-extension"/>
     <version value="1.0.0"/>

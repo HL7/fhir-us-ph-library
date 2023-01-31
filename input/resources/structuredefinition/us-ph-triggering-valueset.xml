@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-triggering-valueset"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2022-07-12T02:03:49.170+00:00"/>
-        <source value="#camu94Zh1TZUPYqZ"/>
+        <versionId value="1"/>
+        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
+        <source value="#1SC4BsSLNv4eV4E2"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset"/>
     <version value="1.0.0"/>

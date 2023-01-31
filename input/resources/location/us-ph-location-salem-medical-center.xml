@@ -4,8 +4,8 @@
     <id value="us-ph-location-salem-medical-center"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2022-07-21T05:31:48.050+00:00"/>
-        <source value="#OYMJHBNVVi6huTUM"/>
+        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
+        <source value="#1SC4BsSLNv4eV4E2"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-location"/>
     </meta>
     <identifier>

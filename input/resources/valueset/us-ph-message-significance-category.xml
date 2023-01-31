@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-message-significance-category"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2022-07-12T02:04:10.679+00:00"/>
-        <source value="#xwXu39waW6jaEERt"/>
+        <versionId value="1"/>
+        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
+        <source value="#1SC4BsSLNv4eV4E2"/>
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
     </meta>
     <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">

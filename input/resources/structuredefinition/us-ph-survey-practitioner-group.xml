@@ -4,8 +4,8 @@
     <id value="us-ph-survey-practitioner-group"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2022-07-12T02:03:49.192+00:00"/>
-        <source value="#eME9oQU9KkQyHIg7"/>
+        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
+        <source value="#1SC4BsSLNv4eV4E2"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-survey-practitioner-group"/>
     <version value="0.1.0"/>
