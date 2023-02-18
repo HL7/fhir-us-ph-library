@@ -1,11 +1,9 @@
 {
 	"package-id": "hl7.fhir.us.ph-library",
-	"title": "US Public Health Profiles Library",
-	"category": "Public Health",
 	"version": "1.0.0",
 	"milestone": true,
 	"desc": "Continuous Integration Build (latest in version control)",
-	"path": "https://build.fhir.org/ig/HL7/fhir-us-ph-common-library-ig",
+	"path": "http://hl7.org/fhir/us/ph-library/fhir-us-ph-common-library-ig",
 	"status": "draft",
 	"sequence": "STU 1"
 }
