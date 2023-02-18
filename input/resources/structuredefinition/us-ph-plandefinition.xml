@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-plandefinition"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="3"/>
+        <lastUpdated value="2023-02-17T07:28:50.546+00:00"/>
+        <source value="#fa8jWDYYmrIMF1Kl"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-plandefinition"/>
     <version value="1.0.0"/>
@@ -13,7 +13,14 @@
     <title value="US Public Health PlanDefinition"/>
     <status value="active"/>
     <experimental value="false"/>
-    <publisher value="HL7 Public Health Work Group"/>
+    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <contact>
+        <name value="HL7 Public Health Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
     <description value="This profile describes the US Public Health PlanDefinition."/>
     <jurisdiction>
         <coding>

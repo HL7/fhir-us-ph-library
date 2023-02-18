@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-tribal-affiliation-extension"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2023-01-31T03:10:08.794+00:00"/>
-        <source value="#oh6b4zjY0Orfj4IZ"/>
+        <versionId value="3"/>
+        <lastUpdated value="2023-02-17T07:34:50.509+00:00"/>
+        <source value="#pTQAIuM0VeNua15P"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-tribal-affiliation-extension"/>
     <version value="1.0.0"/>
@@ -13,6 +13,13 @@
     <title value="US Public Health Tribal Affiliation Extension"/>
     <status value="active"/>
     <publisher value="HL7 Public Health Work Group"/>
+    <contact>
+        <name value="HL7 Public Health Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
     <description value="This Extension profile represents an affiliated tribe name and whether or not the patient is an enrolled member"/>
     <jurisdiction>
         <coding>

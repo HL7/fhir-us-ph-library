@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-patient"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2023-01-31T03:09:37.055+00:00"/>
-        <source value="#s4LAZLdr00U1VK7A"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-02-17T07:28:48.785+00:00"/>
+        <source value="#CGYnNe15oAQ2RmVk"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
     <version value="1.0.0"/>
@@ -13,8 +13,15 @@
     <title value="US Public Health Patient"/>
     <status value="active"/>
     <experimental value="false"/>
-    <publisher value="HL7 Public Health Work Group"/>
-    <description value="This Patient profile represents a US Public Health Patient.&#xA;&#xA;It is based on the **US Core Patient** profile with further constraints to require and/or allow masking of some data elements,  and the addition of the US Public Health Gender Identity extension.&#xA;&#xA;For ONC’s USCDI requirements, it also adds Must Support constraints to the following:&#xA;&#xA;* contact detail (e.g. a telephone number or an email address)&#xA;* a communication language&#xA;* a race&#xA;* an ethnicity&#xA;* a birth sex"/>
+    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <contact>
+        <name value="HL7 Public Health Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
+    <description value="This Patient profile represents a US Public Health Patient.&#xA;&#xA;It is based on the [**US Core Patient**](http://hl7.org/fhir/us/core/STU4/StructureDefinition-us-core-patient.html) profile with further constraints to require and/or allow masking of some data elements,  and the addition of the US Public Health Gender Identity extension.&#xA;&#xA;This profile adds Must Support constraints to the following data elements from ONC's USCDI V2 Patient Demographics Data Class:&#xA;&#xA;* contact detail (e.g. a telephone number or an email address)&#xA;* a communication language&#xA;* a race&#xA;* an ethnicity&#xA;* a birth sex"/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

@@ -3,18 +3,24 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-named-eventtype-extension"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-02-17T07:28:33.520+00:00"/>
+        <source value="#LYyZ8Zz3HayfaQke"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-named-eventtype-extension"/>
-    <version value="0.1.0"/>
+    <version value="1.0.0"/>
     <name value="USPublicHealthNamedEventTypeExtension"/>
     <title value="US Public Health Named Event Type Extension"/>
-    <status value="draft"/>
+    <status value="active"/>
     <experimental value="false"/>
-    <date value="2019-09-01T00:00:00.000Z"/>
-    <publisher value="HL7 International - Public Health Work Group"/>
+    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <contact>
+        <name value="HL7 Public Health Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
     <description value="Indicates the types of named events to subscribe to from the EHR."/>
     <jurisdiction>
         <coding>

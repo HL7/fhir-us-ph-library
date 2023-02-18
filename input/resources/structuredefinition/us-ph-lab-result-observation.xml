@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-lab-result-observation"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="3"/>
+        <lastUpdated value="2023-02-17T07:28:25.907+00:00"/>
+        <source value="#sVPvEU8TQIAV4Sf9"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-lab-result-observation"/>
     <version value="1.0.0"/>
@@ -13,14 +13,21 @@
     <title value="US Public Health Laboratory Result Observation Profile"/>
     <status value="active"/>
     <experimental value="false"/>
-    <date value="2022-05-25"/>
-    <publisher value="HL7 Public Health Work Group"/>
+    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <contact>
+        <name value="HL7 Public Health Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
     <description value="Further constrains the US Core Lab Result Observation to set specimen to Must Support."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
             <code value="US"/>
         </coding>
+        <text value="United States of America"/>
     </jurisdiction>
     <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
     <fhirVersion value="4.0.1"/>

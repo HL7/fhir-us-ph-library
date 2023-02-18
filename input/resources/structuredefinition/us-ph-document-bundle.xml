@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-document-bundle"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-02-17T07:27:48.311+00:00"/>
+        <source value="#2ByjblJDTGSht7Fs"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle"/>
     <version value="1.0.0"/>
@@ -13,7 +13,14 @@
     <title value="US Public Health Document Bundle"/>
     <status value="active"/>
     <experimental value="false"/>
-    <publisher value="HL7 Public Health Work Group"/>
+    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <contact>
+        <name value="HL7 Public Health Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
     <description value="This Bundle profile represents a Public Health Document Bundle. It contains a US Public Health Composition."/>
     <jurisdiction>
         <coding>
@@ -37,7 +44,7 @@
         <element id="Bundle.identifier">
             <path value="Bundle.identifier"/>
             <short value="Document Bundle identifier (equivalent to ClinicalDocument.id in CDA)"/>
-            <definition value="Document Bundle identifier. This is equivalent to ClinicalDocument.id in CDA. The identifier of the contained Composition is equivalent to ClinicalDocument.setID in CDA and Composition.sliceExtensionVersionNumber is equivalent to ClinicalDocument.versionNumber in CDA."/>
+            <definition value="Document Bundle identifier. This is equivalent to ClinicalDocument.id in CDA. The identifier of the contained Composition is equivalent to ClinicalDocument.setID in CDA and Composition.extensionVersionNumber is equivalent to ClinicalDocument.versionNumber in CDA."/>
             <min value="1"/>
             <mustSupport value="true"/>
         </element>
@@ -57,14 +64,14 @@
             </slicing>
             <mustSupport value="true"/>
         </element>
-        <element id="Bundle.entry:sliceUSPublicHealthComposition">
+        <element id="Bundle.entry:USPublicHealthComposition">
             <path value="Bundle.entry"/>
-            <sliceName value="slicePublicHealthComposition"/>
+            <sliceName value="USPublicHealthComposition"/>
             <min value="1"/>
             <max value="1"/>
             <mustSupport value="true"/>
         </element>
-        <element id="Bundle.entry:sliceUSPublicHealthComposition.resource">
+        <element id="Bundle.entry:USPublicHealthComposition.resource">
             <path value="Bundle.entry.resource"/>
             <min value="1"/>
             <type>

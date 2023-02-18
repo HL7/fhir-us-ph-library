@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-therapeutic-medication-response-extension"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="2"/>
+        <lastUpdated value="2023-02-17T07:34:47.541+00:00"/>
+        <source value="#BTblRBtWU9pWpCDx"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-therapeutic-medication-response-extension"/>
     <version value="1.0.0"/>
@@ -15,6 +15,13 @@
     <experimental value="false"/>
     <date value="2019-08-01T00:00:00.000Z"/>
     <publisher value="HL7 Public Health Work Group"/>
+    <contact>
+        <name value="HL7 Public Health Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
     <description value="This Extension profile represents represents a therapeutic response (as opposed to an undesired reaction) to the administration of a medication."/>
     <jurisdiction>
         <coding>

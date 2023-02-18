@@ -1,0 +1,1 @@
+It is based on the **[US Core PractitionerRole](http://hl7.org/fhir/us/core/STU4/StructureDefinition-us-core-practitionerrole.html)** profile with a further restriction of mandatory **practitioner*, **identifier**, and **telecom** data elements and US Public Health Location and US Public Health Organization references.

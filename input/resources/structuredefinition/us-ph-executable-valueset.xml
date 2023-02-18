@@ -3,18 +3,24 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-executable-valueset"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-02-17T07:28:03.964+00:00"/>
+        <source value="#WSuondfbWLwHCGaI"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-valueset"/>
-    <version value="0.1.0"/>
+    <version value="1.0.0"/>
     <name value="USPublicHealthExecutableValueSet"/>
     <title value="US Public Health Executable ValueSet"/>
-    <status value="draft"/>
+    <status value="active"/>
     <experimental value="false"/>
-    <date value="2020-10-26T00:00:00.000Z"/>
-    <publisher value="HL7 Public Health Work Group"/>
+    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <contact>
+        <name value="HL7 Public Health Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
     <description value="Defines an executable value set as one that SHALL have an expansion included, as well as a usage warning indicating the expansion is a point-in-time snapshot and must be maintained over time for production usage."/>
     <jurisdiction>
         <coding>

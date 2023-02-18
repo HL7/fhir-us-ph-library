@@ -3,17 +3,23 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-specification-library"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-02-17T07:34:30.904+00:00"/>
+        <source value="#7ErWkd1KKP2zWxSF"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-specification-library"/>
     <version value="1.0.0"/>
     <name value="USPublicHealthSpecificationLibrary"/>
     <title value="US Public Health Specification Library"/>
     <status value="active"/>
-    <date value="2022-06-11T00:00:00.000Z"/>
-    <publisher value="HL7 Public Health Work Group"/>
+    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <contact>
+        <name value="HL7 Public Health Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
     <description value="Defines the asset-collection library containing the US Public Health specification assets."/>
     <jurisdiction>
         <coding>
@@ -132,22 +138,22 @@
             <min value="1"/>
             <mustSupport value="true"/>
         </element>
-        <element id="Library.relatedArtifact:slicePlanDefinition">
+        <element id="Library.relatedArtifact:planDefinition">
             <path value="Library.relatedArtifact"/>
-            <sliceName value="slicePlanDefinition"/>
+            <sliceName value="planDefinition"/>
             <short value="US Public Health PlanDefinition"/>
             <definition value="Reference to a US Public Health PlanDefinition"/>
             <min value="1"/>
             <max value="1"/>
             <mustSupport value="true"/>
         </element>
-        <element id="Library.relatedArtifact:slicePlanDefinition.type">
+        <element id="Library.relatedArtifact:planDefinition.type">
             <path value="Library.relatedArtifact.type"/>
             <short value="composed-of"/>
             <definition value="The type of relationship to the related artifact. Fixed to composed-of."/>
             <patternCode value="composed-of"/>
         </element>
-        <element id="Library.relatedArtifact:slicePlanDefinition.resource">
+        <element id="Library.relatedArtifact:planDefinition.resource">
             <path value="Library.relatedArtifact.resource"/>
             <min value="1"/>
             <type>
@@ -156,21 +162,21 @@
             </type>
             <mustSupport value="true"/>
         </element>
-        <element id="Library.relatedArtifact:sliceTriggeringValueSetLibrary">
+        <element id="Library.relatedArtifact:triggeringValueSetLibrary">
             <path value="Library.relatedArtifact"/>
-            <sliceName value="sliceTriggeringValueSetLibrary"/>
+            <sliceName value="triggeringValueSetLibrary"/>
             <short value="US Public Health Triggering ValueSet Library"/>
             <definition value="Reference to a US Public Health Triggering ValueSet Library"/>
             <min value="1"/>
             <mustSupport value="true"/>
         </element>
-        <element id="Library.relatedArtifact:sliceTriggeringValueSetLibrary.type">
+        <element id="Library.relatedArtifact:triggeringValueSetLibrary.type">
             <path value="Library.relatedArtifact.type"/>
             <short value="composed-of"/>
             <definition value="The type of relationship to the related artifact. Fixed to composed-of."/>
             <patternCode value="composed-of"/>
         </element>
-        <element id="Library.relatedArtifact:sliceTriggeringValueSetLibrary.resource">
+        <element id="Library.relatedArtifact:triggeringValueSetLibrary.resource">
             <path value="Library.relatedArtifact.resource"/>
             <min value="1"/>
             <type>

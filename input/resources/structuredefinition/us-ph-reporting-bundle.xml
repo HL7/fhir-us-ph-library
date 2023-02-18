@@ -3,30 +3,31 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-reporting-bundle"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2023-01-31T03:09:52.603+00:00"/>
-        <source value="#PXjlfGOosBpAgArP"/>
+        <versionId value="10"/>
+        <lastUpdated value="2023-02-17T07:34:28.256+00:00"/>
+        <source value="#z8Xjp7nY4EZx9H3B"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-reporting-bundle"/>
-    <version value="0.1.0"/>
+    <version value="1.0.0"/>
     <name value="USPublicHealthReportingBundle"/>
     <title value="US Public Health Reporting Bundle"/>
-    <status value="draft"/>
+    <status value="active"/>
     <experimental value="false"/>
-    <date value="2019-09-01"/>
-    <publisher value="HL7 International - Public Health Work Group"/>
+    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
     <contact>
+        <name value="HL7 Public Health Work Group"/>
         <telecom>
             <system value="url"/>
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="Bundle Resource profile for exchanging one of public health messages, knowledge artifacts or content."/>
+    <description value="Bundle Resource profile for exchanging a public health report to be submitted to a Public Health Agency."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
             <code value="US"/>
         </coding>
+        <text value="United States of America"/>
     </jurisdiction>
     <fhirVersion value="4.0.1"/>
     <kind value="resource"/>
@@ -67,14 +68,14 @@
             </slicing>
             <mustSupport value="true"/>
         </element>
-        <element id="Bundle.entry:sliceMessageHeader">
+        <element id="Bundle.entry:messageHeader">
             <path value="Bundle.entry"/>
-            <sliceName value="sliceMessageHeader"/>
+            <sliceName value="messageHeader"/>
             <min value="1"/>
             <max value="1"/>
             <mustSupport value="true"/>
         </element>
-        <element id="Bundle.entry:sliceMessageHeader.resource">
+        <element id="Bundle.entry:messageHeader.resource">
             <path value="Bundle.entry.resource"/>
             <type>
                 <code value="Resource"/>

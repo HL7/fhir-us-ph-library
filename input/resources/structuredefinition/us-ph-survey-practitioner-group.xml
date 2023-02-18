@@ -3,19 +3,19 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-survey-practitioner-group"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-02-17T07:34:44.176+00:00"/>
+        <source value="#8wjmeXfYeXi8E657"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-survey-practitioner-group"/>
-    <version value="0.1.0"/>
+    <version value="1.0.0"/>
     <name value="USPublicHealthSurveyPractitionerGroup"/>
     <title value="US Public Health Survey Practitioner Group"/>
-    <status value="draft"/>
+    <status value="active"/>
     <experimental value="false"/>
-    <date value="2019-09-01"/>
-    <publisher value="HL7 International - Public Health Work Group"/>
+    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
     <contact>
+        <name value="HL7 Public Health Work Group"/>
         <telecom>
             <system value="url"/>
             <value value="http://hl7.org/Special/committees/pher"/>
@@ -27,6 +27,7 @@
             <system value="urn:iso:std:iso:3166"/>
             <code value="US"/>
         </coding>
+        <text value="United States of America"/>
     </jurisdiction>
     <fhirVersion value="4.0.1"/>
     <kind value="resource"/>

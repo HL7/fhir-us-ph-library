@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-condition"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-02-17T07:27:21.614+00:00"/>
+        <source value="#rOhiTFSYR2pm10QC"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition"/>
     <version value="1.0.0"/>
@@ -13,7 +13,14 @@
     <title value="US Public Health Condition"/>
     <status value="active"/>
     <experimental value="false"/>
-    <publisher value="HL7 Public Health Work Group"/>
+    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <contact>
+        <name value="HL7 Public Health Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
     <description value="This Condition profile represents the signs, symptoms, and diagnoses related to a public health event.&#xA;&#xA;It is based on the **US Core Condition** profile with further restriction of a *Must Support* constraint on the **onset\[x]** and verificationStatus data elements.&#xA;&#xA;In the case of a condition being mistakenly entered into the system and later corrected:&#xA;* verificationStatus of 'entered-in-error' must be set"/>
     <jurisdiction>
         <coding>
@@ -44,9 +51,9 @@
                 <rules value="open"/>
             </slicing>
         </element>
-        <element id="Condition.extension:sliceAssertedDate">
+        <element id="Condition.extension:assertedDate">
             <path value="Condition.extension"/>
-            <sliceName value="sliceAssertedDate"/>
+            <sliceName value="assertedDate"/>
             <max value="1"/>
             <type>
                 <code value="Extension"/>

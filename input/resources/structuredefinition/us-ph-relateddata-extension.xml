@@ -3,18 +3,24 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-relateddata-extension"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-02-17T07:34:24.369+00:00"/>
+        <source value="#MNYkDZTdNsd7mhdG"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-relateddata-extension"/>
-    <version value="0.1.0"/>
+    <version value="1.0.0"/>
     <name value="USPublicHealthRelatedDataExtension"/>
     <title value="US Public Health Related Data Extension"/>
-    <status value="draft"/>
+    <status value="active"/>
     <experimental value="false"/>
-    <date value="2022-03-30T00:00:00.000Z"/>
-    <publisher value="HL7 International - Public Health Work Group"/>
+    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <contact>
+        <name value="HL7 Public Health Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
     <description value="The relatedData extension allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action."/>
     <jurisdiction>
         <coding>

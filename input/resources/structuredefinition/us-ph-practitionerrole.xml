@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-practitionerrole"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-02-17T07:28:55.193+00:00"/>
+        <source value="#sfJV5VJRZ4xu3bE6"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-practitionerrole"/>
     <version value="1.0.0"/>
@@ -13,8 +13,15 @@
     <title value="US Public Health PractitionerRole"/>
     <status value="active"/>
     <experimental value="false"/>
-    <publisher value="HL7 Public Health Work Group"/>
-    <description value="This PractitionerRole profile represents the roles and organizations of the practitioner.&#xA;&#xA;It is based on the **US Core PractitionerRole** profile with a further restriction of mandatory **practitioner*, **identifier**, and **telecom** data elements and US Public Health Location and US Public Health Organization references."/>
+    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <contact>
+        <name value="HL7 Public Health Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
+    <description value="This PractitionerRole profile represents the roles and organizations of the practitioner."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

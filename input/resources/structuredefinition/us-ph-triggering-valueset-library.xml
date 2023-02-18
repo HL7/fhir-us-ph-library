@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-triggering-valueset-library"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="3"/>
+        <lastUpdated value="2023-02-17T07:34:56.300+00:00"/>
+        <source value="#jsvNZGMKl4lib6PY"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset-library"/>
     <version value="1.0.0"/>
@@ -14,6 +14,13 @@
     <status value="active"/>
     <date value="2020-11-11T00:00:00.000Z"/>
     <publisher value="HL7 Public Health Work Group"/>
+    <contact>
+        <name value="HL7 Public Health Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
     <description value="Defines the library containing the US Public Health triggering value sets."/>
     <jurisdiction>
         <coding>
@@ -45,21 +52,21 @@
             </slicing>
             <min value="1"/>
         </element>
-        <element id="Library.relatedArtifact:sliceUSPHValueSet">
+        <element id="Library.relatedArtifact:USPHValueSet">
             <path value="Library.relatedArtifact"/>
-            <sliceName value="sliceUSPHValueSet"/>
+            <sliceName value="USPHValueSet"/>
             <short value="US Public Health Triggering Value Set"/>
             <definition value="Reference to one of the US Public Health Triggering value sets"/>
             <min value="1"/>
             <mustSupport value="true"/>
         </element>
-        <element id="Library.relatedArtifact:sliceUSPHValueSet.type">
+        <element id="Library.relatedArtifact:USPHValueSet.type">
             <path value="Library.relatedArtifact.type"/>
             <short value="composed-of"/>
             <definition value="The type of relationship to the related artifact. Fixed to composed-of."/>
             <patternCode value="composed-of"/>
         </element>
-        <element id="Library.relatedArtifact:sliceUSPHValueSet.resource">
+        <element id="Library.relatedArtifact:USPHValueSet.resource">
             <path value="Library.relatedArtifact.resource"/>
             <min value="1"/>
             <type>

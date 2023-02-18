@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-message-types-codesystem"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="3"/>
+        <lastUpdated value="2023-02-18T02:54:19.002+00:00"/>
+        <source value="#HP4VcrLL2GqUK0bF"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-message-types-codesystem"/>
     <version value="0.1.0"/>
@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="The US Public Health Message Types CodeSystem is a 'starter set' of codes supported for identifying types of messages being exchanged."/>
+    <description value="The US Public Health Message Types CodeSystem contains codes for currently identified use cases for identifying types of messages being exchanged. As further use cases are identified, codes may be added to the code system."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -34,7 +34,7 @@
     <count value="11"/>
     <concept>
         <code value="message-report"/>
-        <display value="Indicates a message containing a report exchanged between clinical care and PHA/Research Organization."/>
+        <display value="Indicates a message containing a report exchanged between clinical care and Public Health Agency (PHA)/Research Organization."/>
         <definition value="Indicates a message that contains data for a specific use case. Hep C, Cancer and Healthcare Surveys are example use cases etc."/>
         <concept>
             <code value="cancer-report-message"/>

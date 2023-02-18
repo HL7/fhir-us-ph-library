@@ -3,18 +3,24 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-computable-library"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-02-17T07:27:13.947+00:00"/>
+        <source value="#VLyCG85M7rp3HAHk"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-library"/>
     <version value="0.1.0"/>
     <name value="USPublicHealthComputableLibrary"/>
     <title value="US Public Health Computable Library"/>
-    <status value="draft"/>
+    <status value="active"/>
     <experimental value="false"/>
-    <date value="2020-10-23T00:00:00.000Z"/>
-    <publisher value="HL7 Public Health Work Group"/>
+    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <contact>
+        <name value="HL7 Public Health Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
     <description value="The computable library profile sets the minimum expectations for a computable CQL library."/>
     <jurisdiction>
         <coding>
