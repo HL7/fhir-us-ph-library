@@ -3,15 +3,15 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-endpoint-connection-type-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="2"/>
+        <lastUpdated value="2023-02-18T03:26:51.786+00:00"/>
+        <source value="#T97fyONL2vTjhbY7"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-endpoint-connection-type-example"/>
     <name value="USPublicHealthEndpointConnectionTypeExample"/>
     <title value="US Public Health Endpoint Connection Type Example"/>
     <status value="active"/>
-    <date value="2022-06-06T06:51:05+00:00"/>
+    <experimental value="false"/>
     <publisher value="HL7 Public Health Work Group"/>
     <description value="This code system contains codes that identify the HL7 FHIR File type."/>
     <jurisdiction>

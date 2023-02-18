@@ -3,17 +3,17 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-message-types-codesystem"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-02-18T02:54:19.002+00:00"/>
-        <source value="#HP4VcrLL2GqUK0bF"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-02-18T03:26:51.794+00:00"/>
+        <source value="#ywuKKIWzMd0fN8mx"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-message-types-codesystem"/>
     <version value="0.1.0"/>
     <name value="USPublicHealthMessageTypesCodeSystem"/>
     <title value="US Public Health Message Types CodeSystem"/>
     <status value="active"/>
-    <date value="2020-09-06"/>
-    <publisher value="HL7 International - Public Health Work Group"/>
+    <experimental value="false"/>
+    <publisher value="HL7 Public Health Work Group"/>
     <contact>
         <telecom>
             <system value="url"/>
