@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-patient-eve-everywoman"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="2"/>
+        <lastUpdated value="2023-04-20T02:37:44.667+00:00"/>
+        <source value="#2tdmc8AmDqrMdxp8"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
     </meta>
     <text>
@@ -13,6 +13,7 @@
         <div
             xmlns="http://www.w3.org/1999/xhtml">
             <div class="hapiHeaderText">Eve L 
+                
                 <b>EVERYWOMAN </b>
             </div>
             <table class="hapiPropertyTable">
@@ -85,7 +86,7 @@
             <valueCoding>
                 <system value="http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS"/>
                 <code value="91"/>
-                <display value="Fort Mojave Indian Tribe of Arizona, California"/>
+                <display value="Fort Mojave Indian Tribe of Arizona, California &amp; Nevada"/>
             </valueCoding>
         </extension>
         <extension url="EnrolledTribeMember">

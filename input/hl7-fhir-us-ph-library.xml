@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="299"/>
-        <lastUpdated value="2023-04-20T01:20:14.598+00:00"/>
-        <source value="#uMbqz0jOBDUot7FW"/>
+        <versionId value="306"/>
+        <lastUpdated value="2023-04-20T03:01:17.764+00:00"/>
+        <source value="#QzNC6eYPR8Uj1C8k"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="1.0.0"/>
@@ -39,7 +39,7 @@
     <dependsOn id="uscdcphinvads">
         <uri value="http://fhir.org/packages/us.cdc.phinvads/ImplementationGuide/us.cdc.phinvads"/>
         <packageId value="us.cdc.phinvads"/>
-        <version value="0.10.0"/>
+        <version value="0.12.0"/>
     </dependsOn>
     <dependsOn id="usnlmvsac">
         <uri value="http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac"/>
@@ -81,7 +81,7 @@
                 <display value="US Public Health Patient"/>
             </reference>
             <name value="US Public Health Patient"/>
-            <description value="This Patient profile represents a US Public Health Patient.&#xA;&#xA;It is based on the [**US Core Patient**](http://hl7.org/fhir/us/core/STU4/StructureDefinition-us-core-patient.html) profile with further constraints to require and/or allow masking of some data elements,  and the addition of the US Public Health Gender Identity extension.&#xA;&#xA;This profile adds Must Support constraints to the following data elements from ONC's USCDI V2 Patient Demographics Data Class:&#xA;&#xA;* contact detail (e.g. a telephone number or an email address)&#xA;* a communication language&#xA;* a race&#xA;* an ethnicity&#xA;* a birth sex"/>
+            <description value="This Patient profile represents a US Public Health Patient. It is based on the [**US Core Patient**](http://hl7.org/fhir/us/core/STU4/StructureDefinition-us-core-patient.html) profile."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-entities"/>
         </resource>
@@ -1249,6 +1249,22 @@
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
+        <resource>
+            <reference>
+                <reference value="Condition/us-ph-condition-encounter-diagnosis-diabetes"/></reference>
+            <name value="US Public Health Condition Encounter Diagnosis - Eve Everywoman - Diabetes"/>
+            <description value="US Public Health Condition Encounter Diagnosis: Eve Everywoman - Diabetes example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition-encounter-diagnosis"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Condition/us-ph-condition-problem-health-concern-hypertension"/></reference>
+            <name value="US Public Health Condition Problem Health Concern - Eve Everywoman - Hypertension"/>
+            <description value="US Public Health Condition Problem Health Concern: Eve Everywoman - Hypertension example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition-problems-health-concerns"/>
+        </resource>
         <page>
             <nameUrl value="index.html"/>
             <title value="Home Page"/>
@@ -1269,12 +1285,12 @@
             <value value="resources/parameters/expansion-parameters-us-ph.xml"/>
         </parameter>
         <parameter>
-            <code value="copyrightyear"/>
-            <value value="2020+"/>
+            <code value="releaselabel"/>
+            <value value="STU 1"/>
         </parameter>
         <parameter>
-            <code value="releaselabel"/>
-            <value value="CI Build"/>
+            <code value="copyrightyear"/>
+            <value value="2022+"/>
         </parameter>
     </definition>
 </ImplementationGuide>

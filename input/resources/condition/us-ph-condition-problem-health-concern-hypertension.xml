@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Condition
+    xmlns="http://hl7.org/fhir">
+    <id value="us-ph-condition-problem-health-concern-hypertension"/>
+    <meta>
+        <versionId value="2"/>
+        <lastUpdated value="2023-04-20T02:18:04.963+00:00"/>
+        <source value="#eDXf17IxV3P55WVT"/>
+        <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition-problems-health-concerns"/>
+    </meta>
+    <category>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+            <code value="problem-list"/>
+            <display value="Problem List"/>
+        </coding>
+    </category>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="266287006"/>
+            <display value="(Hypertensive disease) or (hypertension) (disorder)"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/us-ph-patient-eve-everywoman"/>
+        <display value="Eve Everywoman"/>
+    </subject>
+    <onsetDateTime value="2014-05-23"/>
+    <asserter>
+        <reference value="Practitioner/us-core-practitioner-henry-seven"/>
+        <display value="Henry Seven, MD"/>
+    </asserter>
+</Condition>

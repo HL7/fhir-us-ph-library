@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-plandefinition"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2023-03-09T03:58:33.670+00:00"/>
-        <source value="#wqo0Pe10DQEUSOZC"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-04-20T02:28:47.612+00:00"/>
+        <source value="#cuiI6LF5JjjwBEES"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-plandefinition"/>
     <version value="1.0.0"/>
@@ -79,13 +79,13 @@
             <short value="Type of this PlanDefinition"/>
             <definition value="Type of this PlanDefinition"/>
             <min value="1"/>
-            <fixedCodeableConcept>
+            <patternCodeableConcept>
                 <coding>
                     <system value="http://terminology.hl7.org/CodeSystem/plan-definition-type"/>
                     <code value="workflow-definition"/>
                     <display value="Workflow Definition"/>
                 </coding>
-            </fixedCodeableConcept>
+            </patternCodeableConcept>
             <mustSupport value="true"/>
         </element>
         <element id="PlanDefinition.subject[x]">

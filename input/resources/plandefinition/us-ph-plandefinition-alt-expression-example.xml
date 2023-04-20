@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-plandefinition-alt-expression-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="2"/>
+        <lastUpdated value="2023-04-20T02:36:02.181+00:00"/>
+        <source value="#OuzMBlAuWzicuXGt"/>
     </meta>
     <url value="http://example.org/fhir/PlanDefinition/us-ph-plandefinition-alt-expression-example"/>
     <version value="0.1"/>
@@ -437,7 +437,7 @@
                 <valueString value="conditions"/>
             </extension>
             <type value="Condition"/>
-            <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
+            <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"/>
         </input>
         <input id="encounterdata">
             <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-relateddata-extension">

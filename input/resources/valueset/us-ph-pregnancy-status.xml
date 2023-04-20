@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-pregnancy-status"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="2"/>
+        <lastUpdated value="2023-04-20T02:31:35.733+00:00"/>
+        <source value="#Q8yMqMZHaLUUjZpC"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-pregnancy-status"/>
     <identifier>
@@ -16,6 +16,7 @@
     <name value="USPublicHealthPregnancyStatus"/>
     <title value="US Public Health Pregnancy Status"/>
     <status value="active"/>
+    <experimental value="false"/>
     <date value="2018-08-01T00:00:00+10:00"/>
     <description value="This value set contains codes representing pregnancy statuses."/>
     <jurisdiction>

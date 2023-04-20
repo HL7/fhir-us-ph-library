@@ -3,15 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-message-types-valueset"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="2"/>
+        <lastUpdated value="2023-04-20T02:31:35.731+00:00"/>
+        <source value="#zHq7sMk4heUc0sYV"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-message-types-valueset"/>
     <version value="0.1.0"/>
     <name value="USPublicHealthMessageTypesValueSet"/>
     <title value="US Public Health Message Types ValueSet"/>
     <status value="active"/>
+    <experimental value="false"/>
     <date value="2020-09-06"/>
     <publisher value="HL7 International - Public Health Work Group"/>
     <contact>

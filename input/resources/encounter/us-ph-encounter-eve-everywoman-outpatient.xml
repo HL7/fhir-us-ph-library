@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-encounter-eve-everywoman-outpatient"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="2"/>
+        <lastUpdated value="2023-04-20T02:42:36.834+00:00"/>
+        <source value="#xghogDZ1FgQSwE0S"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-encounter"/>
     </meta>
     <identifier>
@@ -48,7 +48,7 @@
     </period>
     <diagnosis>
         <condition>
-            <reference value="Condition/us-ph-condition-eve-everywoman-diabetes"/>
+            <reference value="Condition/us-ph-condition-encounter-diagnosis-diabetes"/>
         </condition>
     </diagnosis>
     <location>

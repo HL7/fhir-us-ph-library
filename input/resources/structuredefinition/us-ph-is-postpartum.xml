@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-is-postpartum"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-03-09T04:04:45.444+00:00"/>
-        <source value="#lAczxx0kJViuTSE7"/>
+        <versionId value="8"/>
+        <lastUpdated value="2023-04-20T02:51:25.342+00:00"/>
+        <source value="#5bYSUSsdoAUxHgqn"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-is-postpartum"/>
     <version value="1.0.0"/>
@@ -82,6 +82,7 @@
             <mustSupport value="true"/>
             <binding>
                 <strength value="required"/>
+                <valueSet value="http://terminology.hl7.org/ValueSet/yes-no-unknown-not-asked"/>
             </binding>
         </element>
     </differential>

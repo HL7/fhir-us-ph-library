@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-patient"/>
     <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2023-04-20T01:02:36.320+00:00"/>
-        <source value="#aFci9EtVVwLuSAKp"/>
+        <versionId value="9"/>
+        <lastUpdated value="2023-04-20T02:03:20.709+00:00"/>
+        <source value="#ZvXKqFHaDT2g8oIi"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
     <version value="1.0.0"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Patient profile represents a US Public Health Patient.&#xA;&#xA;It is based on the [**US Core Patient**](http://hl7.org/fhir/us/core/STU4/StructureDefinition-us-core-patient.html) profile with further constraints to require and/or allow masking of some data elements,  and the addition of the US Public Health Gender Identity extension.&#xA;&#xA;This profile adds Must Support constraints to the following data elements from ONC's USCDI V2 Patient Demographics Data Class:&#xA;&#xA;* contact detail (e.g. a telephone number or an email address)&#xA;* a communication language&#xA;* a race&#xA;* an ethnicity&#xA;* a birth sex"/>
+    <description value="This Patient profile represents a US Public Health Patient. It is based on the [**US Core Patient**](http://hl7.org/fhir/us/core/STU4/StructureDefinition-us-core-patient.html) profile."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
