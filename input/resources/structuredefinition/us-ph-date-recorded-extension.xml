@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-date-recorded-extension"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-02-17T07:27:42.082+00:00"/>
-        <source value="#ZgfY2nBRxkw2UoUi"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-03-09T03:44:05.287+00:00"/>
+        <source value="#WJuTbwVPauyUXqSl"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-date-recorded-extension"/>
     <version value="1.0.0"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="The date a status or observation was recorded (recorded date)."/>
+    <description value="This Extension profile represents the date a status or observation was recorded (recorded date)."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

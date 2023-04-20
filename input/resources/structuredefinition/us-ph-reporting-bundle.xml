@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-reporting-bundle"/>
     <meta>
-        <versionId value="10"/>
-        <lastUpdated value="2023-02-17T07:34:28.256+00:00"/>
-        <source value="#z8Xjp7nY4EZx9H3B"/>
+        <versionId value="11"/>
+        <lastUpdated value="2023-03-09T04:08:13.423+00:00"/>
+        <source value="#OGq1D0euXjcOnzsH"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-reporting-bundle"/>
     <version value="1.0.0"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="Bundle Resource profile for exchanging a public health report to be submitted to a Public Health Agency."/>
+    <description value="This Bundle profile is used for exchanging a public health report to be submitted to a Public Health Agency."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

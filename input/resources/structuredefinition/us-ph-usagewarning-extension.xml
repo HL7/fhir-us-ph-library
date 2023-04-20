@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-usagewarning-extension"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2023-02-17T07:34:57.938+00:00"/>
-        <source value="#WVBd4Q0515SR2egS"/>
+        <versionId value="3"/>
+        <lastUpdated value="2023-03-09T04:11:09.117+00:00"/>
+        <source value="#S94Al1W8k7h3XjYV"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-usagewarning-extension"/>
     <version value="0.2.0"/>
@@ -22,7 +22,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="An extra warning about the correct use of the value set."/>
+    <description value="This Extension profile represents an extra warning about the correct use of the value set."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

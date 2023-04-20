@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-organization"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-02-17T07:28:36.412+00:00"/>
-        <source value="#RUqCJSWfJtWrsgSB"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-02-18T03:56:11.111+00:00"/>
+        <source value="#aGM8xdR2WkiU63n6"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-organization"/>
     <version value="1.0.0"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Organization profile represents an organization involved in public health. It is based on the **US Core Organization** profile and establishes the core elements, extensions, vocabularies and value sets for representing organizations for public health."/>
+    <description value="This Organization profile represents an organization involved in public health. It is based on the **US Core Organization** profile."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

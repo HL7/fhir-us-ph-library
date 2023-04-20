@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-survey-practitioner-group"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2023-02-17T07:34:44.176+00:00"/>
-        <source value="#8wjmeXfYeXi8E657"/>
+        <versionId value="6"/>
+        <lastUpdated value="2023-03-09T04:09:43.666+00:00"/>
+        <source value="#7bhC1iOlRcRm6t7K"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-survey-practitioner-group"/>
     <version value="1.0.0"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="Group Resource profile for specifying survey participant groups, research groups."/>
+    <description value="This Group profile represents survey participant groups, research groups, etc."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

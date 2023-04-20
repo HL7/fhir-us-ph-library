@@ -1,0 +1,1 @@
+This profile establishes the core elements, extensions, vocabularies and value sets for representing organizations for public health.

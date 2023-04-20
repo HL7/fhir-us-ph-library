@@ -1,0 +1,1 @@
+This profile is a copy of the draft FHIR individual-genderIdentity extension (http://hl7.org/fhir/StructureDefinition/individual-genderIdentity).

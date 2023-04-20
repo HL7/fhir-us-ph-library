@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-specification-library"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2023-02-17T07:34:30.904+00:00"/>
-        <source value="#7ErWkd1KKP2zWxSF"/>
+        <versionId value="6"/>
+        <lastUpdated value="2023-03-09T04:08:25.988+00:00"/>
+        <source value="#tIuIAdRHs4eJTNYb"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-specification-library"/>
     <version value="1.0.0"/>
@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="Defines the asset-collection library containing the US Public Health specification assets."/>
+    <description value="This Library profile defines the asset-collection library containing the US Public Health specification assets."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

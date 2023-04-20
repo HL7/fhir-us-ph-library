@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-content-bundle"/>
     <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2023-02-17T07:27:33.580+00:00"/>
-        <source value="#Uz9FwoJUQruHbhQK"/>
+        <versionId value="10"/>
+        <lastUpdated value="2023-03-09T03:42:01.733+00:00"/>
+        <source value="#T9uRSM5qjmVICT0B"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-content-bundle"/>
     <version value="0.1.0"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="Bundle Resource profile for organizing the content of the Public Health Message to be exchanged with a Public Health Agency."/>
+    <description value="This Bundle profile organizes the content of the Public Health Message to be exchanged with a Public Health Agency."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

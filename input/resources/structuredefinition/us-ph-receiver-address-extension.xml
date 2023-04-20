@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-receiver-address-extension"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2023-02-17T07:34:20.321+00:00"/>
-        <source value="#qeIEq8IYALUiTbsw"/>
+        <versionId value="6"/>
+        <lastUpdated value="2023-03-09T04:07:19.651+00:00"/>
+        <source value="#yUddBioenL1XcsLM"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-receiver-address-extension"/>
     <version value="1.0.0"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="Indicates the endpoint address where the report has to be sent."/>
+    <description value="This Extension profile indicates the endpoint address where the report is to be sent."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

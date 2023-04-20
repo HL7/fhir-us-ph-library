@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-fhirquerypattern-extension"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2023-02-17T07:28:08.411+00:00"/>
-        <source value="#uCFB7ed2ht89855w"/>
+        <versionId value="7"/>
+        <lastUpdated value="2023-03-09T03:49:23.891+00:00"/>
+        <source value="#vSn97P1P1ya1niuX"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-fhirquerypattern-extension"/>
     <version value="1.0.0"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="Supports communicating the FHIR query for a given data requirement. The query is server-specific, and will need to be created as informed by a CapabilityStatement. The $data-requirements operation should be extended to be able to provide an Endpoint or CapabilityStatement to provide this information. If no endpoint or capability statement is provided, the capability statement of the server performing the operation is used. This is not a resolveable URL, and that it will contain 1) No base canonical (so it's a relative query), and 2) Parameters using tokens that are denoted using double-braces and the context parameters are dependent solely on the subjectType, according to the following: Patient: context.patientId, Practitioner: context.practitionerId, Organization: context.organizationId, Location: context.locationId, Device: context.deviceId"/>
+    <description value="This Exension profile supports communicating the FHIR query for a given data requirement."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

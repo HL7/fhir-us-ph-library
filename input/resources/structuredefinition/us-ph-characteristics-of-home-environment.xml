@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-characteristics-of-home-environment"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-02-17T07:27:02.000+00:00"/>
-        <source value="#Zu539Z6ZfjttKRMz"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-03-09T03:40:25.925+00:00"/>
+        <source value="#zFktvzQLqR7yHJqM"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-characteristics-of-home-environment"/>
     <version value="1.0.0"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Observation profile represents characteristics of the patient's home environment.&#xA;&#xA;Such characteristics include, but are not limited to, type of residence (trailer, single family home, assisted living), living arrangement (e.g., alone, with parents), and housing status (e.g., evicted, homeless, home owner). Congregate living situations would be represented in this profile - such shared housing includes a broad range of settings, such as apartments, condominiums, student or faculty housing, national and state park staff housing, transitional housing, and domestic violence and abuse shelters."/>
+    <description value="This Observation profile represents characteristics of the patient's home environment."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

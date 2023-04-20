@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-initiation-reason-extension"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-02-17T07:28:20.281+00:00"/>
-        <source value="#SdnYvXYrx5L3yjI3"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-03-09T03:50:36.964+00:00"/>
+        <source value="#YXEellFXFrs0v9rQ"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-initiation-reason-extension"/>
     <version value="1.0.0"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This extension contains an explanation for the manual or alternate initiation of the public health report.&#xA;&#xA;If there are multiple distinct reasons for manual or alternate initiation then each reason should be contained in a separate US Public Health Initiation Reason Extension. &#xA;&#xA;The reason may be entered either as:&#xA;* free text (string) &#xA;* coded value (valueCodeableConcept) (not necessarily initiated by a provider of care but might be &quot;programmed-in&quot; by the EHR implementer for some purpose)"/>
+    <description value="This Extension profile contains an explanation for the manual or alternate initiation of the public health report."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

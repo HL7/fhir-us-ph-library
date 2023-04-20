@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition
+    xmlns="http://hl7.org/fhir">
+    <id value="us-ph-condition-encounter-diagnosis"/>
+    <meta>
+        <versionId value="3"/>
+        <lastUpdated value="2023-04-20T01:22:47.780+00:00"/>
+        <source value="#cO2Up6rjgsQuXLBK"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition-encounter-diagnosis"/>
+    <version value="1.0.0"/>
+    <name value="USPublicHealthConditionEncounterDiagnosis"/>
+    <title value="US Public Health Condition Encounter Diagnosis"/>
+    <status value="active"/>
+    <experimental value="false"/>
+    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <contact>
+        <name value="HL7 Public Health Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
+    <description value="This Condition Encounter Diagnosis profile represents the signs, symptoms, and diagnoses related to a public health event.&#xA;&#xA;It is based on the **US Core Condition Encounter Diagnosis Profile** with further restrictions of a US Public Health Patient as the Condition.subject and guidance that in the case of a condition being mistakenly entered into the system and later corrected verificationStatus of 'entered-in-error' must be set."/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+            <display value="United States of America"/>
+        </coding>
+        <text value="United States of America"/>
+    </jurisdiction>
+    <fhirVersion value="4.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Condition"/>
+    <baseDefinition value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Condition">
+            <path value="Condition"/>
+            <short value="US Public Health Condition"/>
+        </element>
+        <element id="Condition.verificationStatus">
+            <path value="Condition.verificationStatus"/>
+            <short value="If a condition is mistakenly entered into the system and later corrected verificationStatus of 'entered-in-error' must be set"/>
+        </element>
+        <element id="Condition.subject">
+            <path value="Condition.subject"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
+            </type>
+            <mustSupport value="true"/>
+        </element>
+    </differential>
+</StructureDefinition>

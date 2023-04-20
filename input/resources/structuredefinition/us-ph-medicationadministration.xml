@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-medicationadministration"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2023-02-17T07:28:31.272+00:00"/>
-        <source value="#oIGwKdGGiqEbOjnG"/>
+        <versionId value="7"/>
+        <lastUpdated value="2023-03-09T03:51:19.001+00:00"/>
+        <source value="#kzi3GGsBA4NQt2vI"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-medicationadministration"/>
     <version value="1.0.0"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This profile constrains the base MedicationAdministration resource. The constraints are based on the requirements laid out in USCDI Level 2 for Medication Administration."/>
+    <description value="This MedicationAdministration profile represents the event of a patient consuming or otherwise being administered a medication."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

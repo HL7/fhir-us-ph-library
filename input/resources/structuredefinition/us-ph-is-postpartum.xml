@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
-    <id value="us-ph-postpartum-status"/>
+    <id value="us-ph-is-postpartum"/>
     <meta>
         <versionId value="3"/>
-        <lastUpdated value="2023-02-17T07:28:52.154+00:00"/>
-        <source value="#sZeVDU4stOA7RNB9"/>
+        <lastUpdated value="2023-03-09T04:04:45.444+00:00"/>
+        <source value="#lAczxx0kJViuTSE7"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-postpartum-status"/>
+    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-is-postpartum"/>
     <version value="1.0.0"/>
-    <name value="USPublicHealthPostpartumStatus"/>
-    <title value="US Public Health Postpartum Status"/>
+    <name value="USPublicHealthIsPostpartum"/>
+    <title value="US Public Health Is Postpartum"/>
     <status value="active"/>
     <experimental value="false"/>
     <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This profile represents the postpartum status of a patient.&#xA;&#xA;If the profile is present, the patient is in the postpartum period and further information about the postpartum status is communicated by the code chosen.&#xA;&#xA;The postpartum period, also known as the puerperium, refers to the time after delivery when maternal physiological changes related to pregnancy return to the nonpregnant state. There is consensus that the postpartum period begins upon delivery of the infant. The end is less well defined but is often considered the six to eight weeks after delivery because the effects of pregnancy on many systems have largely returned to the pre-pregnancy state."/>
+    <description value="This Observation profile represents whether or not the patient is postpartum."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -67,6 +67,9 @@
             <path value="Observation.effective[x]"/>
             <min value="1"/>
             <max value="1"/>
+            <type>
+                <code value="dateTime"/>
+            </type>
             <mustSupport value="true"/>
         </element>
         <element id="Observation.value[x]">
@@ -78,9 +81,7 @@
             </type>
             <mustSupport value="true"/>
             <binding>
-                <strength value="extensible"/>
-                <description value="Postpartum Status"/>
-                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.87"/>
+                <strength value="required"/>
             </binding>
         </element>
     </differential>

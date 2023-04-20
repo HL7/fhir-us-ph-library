@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-computable-library"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2023-02-17T07:27:13.947+00:00"/>
-        <source value="#VLyCG85M7rp3HAHk"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-03-09T04:13:13.131+00:00"/>
+        <source value="#BJwB65OPDzdhOMDS"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-library"/>
     <version value="0.1.0"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="The computable library profile sets the minimum expectations for a computable CQL library."/>
+    <description value="This Library profile sets the minimum expectations for a computable CQL library."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

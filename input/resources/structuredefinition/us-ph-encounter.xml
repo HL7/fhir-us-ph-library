@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-encounter"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2023-02-17T07:27:51.791+00:00"/>
-        <source value="#h0MB3FazWwXMfKUP"/>
+        <versionId value="7"/>
+        <lastUpdated value="2023-03-09T04:21:29.026+00:00"/>
+        <source value="#HGLs9soQxx2vaJSX"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-encounter"/>
     <version value="1.0.0"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Encounter profile represents the encounter related to the event. It is based on the US Core Encounter."/>
+    <description value="This Encounter profile represents the encounter related to a public health event and is based on the US Core Encounter profile."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -63,15 +63,15 @@
             <definition value="The provider in charge of care and the facility in which care was provided during the encounter"/>
             <mustSupport value="true"/>
         </element>
-        <element id="Encounter.participant:sliceResponsibleProvider">
+        <element id="Encounter.participant:responsibleProvider">
             <path value="Encounter.participant"/>
-            <sliceName value="sliceResponsibleProvider"/>
+            <sliceName value="responsibleProvider"/>
             <short value="Responsible provider"/>
             <definition value="The provider in charge of care and the facility in which care was provided during the encounter"/>
             <max value="1"/>
             <mustSupport value="true"/>
         </element>
-        <element id="Encounter.participant:sliceResponsibleProvider.type">
+        <element id="Encounter.participant:responsibleProvider.type">
             <path value="Encounter.participant.type"/>
             <short value="Responsible provider"/>
             <min value="1"/>
@@ -87,7 +87,7 @@
             <path value="Encounter.participant.period"/>
             <mustSupport value="true"/>
         </element>
-        <element id="Encounter.participant:sliceResponsibleProvider.individual">
+        <element id="Encounter.participant:responsibleProvider.individual">
             <path value="Encounter.participant.individual"/>
             <short value="Responsible Provider"/>
             <definition value="The provider in charge of care and the facility in which care was provided during the encounter"/>

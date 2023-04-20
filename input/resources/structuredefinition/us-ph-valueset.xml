@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-valueset"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2023-02-17T07:34:59.271+00:00"/>
-        <source value="#pQpYe7Ag0KK4H4ku"/>
+        <versionId value="3"/>
+        <lastUpdated value="2023-03-09T04:11:18.770+00:00"/>
+        <source value="#AXcnWD1cJ8YHqCAg"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset"/>
     <version value="1.0.0"/>
@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This profile describes US Public Health value sets."/>
+    <description value="This ValueSet profile describes US Public Health value sets."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

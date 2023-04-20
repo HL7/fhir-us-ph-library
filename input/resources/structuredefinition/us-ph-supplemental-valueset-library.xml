@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-supplemental-valueset-library"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2023-02-17T07:34:39.764+00:00"/>
-        <source value="#3j4Yl0Uu9kttB2JV"/>
+        <versionId value="6"/>
+        <lastUpdated value="2023-03-09T04:09:15.846+00:00"/>
+        <source value="#GenipQNQdYhVrjUO"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-valueset-library"/>
     <version value="1.0.0"/>
@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="Defines the library containing the US Public Health supplemental value sets."/>
+    <description value="This Library profile defines the library containing the US Public Health supplemental value sets."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -55,21 +55,21 @@
             </slicing>
             <min value="1"/>
         </element>
-        <element id="Library.relatedArtifact:sliceUSPHValueSet">
+        <element id="Library.relatedArtifact:USPHValueSet">
             <path value="Library.relatedArtifact"/>
-            <sliceName value="sliceUSPHValueSet"/>
+            <sliceName value="USPHValueSet"/>
             <short value="US Public Health Supplemental Value Set"/>
             <definition value="Reference to one of the US Public Health Supplemental value sets"/>
             <min value="1"/>
             <mustSupport value="true"/>
         </element>
-        <element id="Library.relatedArtifact:sliceUSPHValueSet.type">
+        <element id="Library.relatedArtifact:USPHValueSet.type">
             <path value="Library.relatedArtifact.type"/>
             <short value="composed-of"/>
             <definition value="The type of relationship to the related artifact. Fixed to composed-of."/>
             <patternCode value="composed-of"/>
         </element>
-        <element id="Library.relatedArtifact:sliceUSPHValueSet.resource">
+        <element id="Library.relatedArtifact:USPHValueSet.resource">
             <path value="Library.relatedArtifact.resource"/>
             <min value="1"/>
             <type>

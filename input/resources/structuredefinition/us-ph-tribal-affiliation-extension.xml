@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-tribal-affiliation-extension"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-02-17T07:34:50.509+00:00"/>
-        <source value="#pTQAIuM0VeNua15P"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-03-09T04:10:27.906+00:00"/>
+        <source value="#poEQZyylyINahKw7"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-tribal-affiliation-extension"/>
     <version value="1.0.0"/>
@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Extension profile represents an affiliated tribe name and whether or not the patient is an enrolled member"/>
+    <description value="This Extension profile represents an affiliated tribe name and whether or not the patient is an enrolled member of that tribe."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -29,7 +29,6 @@
         </coding>
         <text value="United States of America"/>
     </jurisdiction>
-    <purpose value="Tribal affiliation of the patient"/>
     <fhirVersion value="4.0.1"/>
     <kind value="complex-type"/>
     <abstract value="false"/>

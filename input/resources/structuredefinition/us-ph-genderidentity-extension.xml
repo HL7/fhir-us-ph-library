@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-genderidentity-extension"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-02-17T07:28:16.307+00:00"/>
-        <source value="#LsJ0kemhf0dAjqE2"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-03-09T03:50:08.267+00:00"/>
+        <source value="#iczbUfp7JQKmRAOg"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-genderidentity-extension"/>
     <version value="1.0.0"/>
@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="An individual's personal sense of being a man, woman, boy, girl, nonbinary, or something else. This represents an individual’s identity, ascertained by asking them what that identity is. This is a copy of the draft FHIR individual-genderIdentity extension (http://hl7.org/fhir/StructureDefinition/individual-genderIdentity)."/>
+    <description value="This Extension profile represents an individual's personal sense of being a man, woman, boy, girl, nonbinary, or something else. This represents an individual’s identity, ascertained by asking them what that identity is."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

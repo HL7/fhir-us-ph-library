@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-lab-result-observation"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-02-17T07:28:25.907+00:00"/>
-        <source value="#sVPvEU8TQIAV4Sf9"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-02-18T03:55:17.600+00:00"/>
+        <source value="#riXV96KStJzyVMNQ"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-lab-result-observation"/>
     <version value="1.0.0"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="Further constrains the US Core Lab Result Observation to set specimen to Must Support."/>
+    <description value="This Observation profile represents Laboratory Result Observations related to a public health event and is based on the US Core Lab Result Observation profile."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

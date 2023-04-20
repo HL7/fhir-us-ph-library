@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-message-processing-category-extension"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2023-02-17T07:18:27.380+00:00"/>
-        <source value="#z5m3EWLv3dEQOmeD"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-03-09T03:55:07.214+00:00"/>
+        <source value="#lx9QKRhm91Vvk84k"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-message-processing-category-extension"/>
     <version value="1.0.0"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="Indicates how systems have to deal with messages in terms of duplicates, lack of responses."/>
+    <description value="This Extension profile indicates how systems have to deal with messages in terms of duplicates, lack of responses."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

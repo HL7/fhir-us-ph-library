@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-emergency-outbreak-information"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-02-17T07:27:49.455+00:00"/>
-        <source value="#DNIgct57juymW56T"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-03-09T03:45:21.730+00:00"/>
+        <source value="#UbfzRaV081bMUkea"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-emergency-outbreak-information"/>
     <version value="1.0.0"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This profile represents information that is required during a public health emergency/outbreak. This information can be highly variable, so a generic structure has been chosen to represent it.&#xA;&#xA;This information will be recorded using a question/answer pattern with questions specific to the public health emergency/outbreak."/>
+    <description value="This Observation profile represents information that is required during a public health emergency/outbreak. This information can be highly variable, so a generic structure has been chosen to represent it."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

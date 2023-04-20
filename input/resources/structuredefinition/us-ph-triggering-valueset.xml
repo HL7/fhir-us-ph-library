@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-triggering-valueset"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2023-02-17T07:34:52.720+00:00"/>
-        <source value="#XCW4HZgGyWaqgLpK"/>
+        <versionId value="3"/>
+        <lastUpdated value="2023-03-09T04:10:40.046+00:00"/>
+        <source value="#uTFTtt1K0MWWhLsP"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset"/>
     <version value="1.0.0"/>
@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This profile describes the US Public Health Triggering value set."/>
+    <description value="This ValueSet profile describes the US Public Health Triggering value set."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

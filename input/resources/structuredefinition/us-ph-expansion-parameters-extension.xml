@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-expansion-parameters-extension"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2023-02-17T07:28:05.797+00:00"/>
-        <source value="#8LjlVOTu9e5Mo9wb"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-03-09T03:46:45.242+00:00"/>
+        <source value="#5nZRMDFu33L1mO15"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-expansion-parameters-extension"/>
     <version value="1.0.0"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="Supports the definition of expansion parameters for the ValueSet."/>
+    <description value="Thes Extension profile supports the definition of expansion parameters for the ValueSet."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

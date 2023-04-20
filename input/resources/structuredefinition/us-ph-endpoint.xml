@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-endpoint"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2023-02-17T07:27:57.184+00:00"/>
-        <source value="#98xexpF9YMYK8L9x"/>
+        <versionId value="7"/>
+        <lastUpdated value="2023-03-09T03:45:59.133+00:00"/>
+        <source value="#EZRSE7TF8aEf64D8"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-endpoint"/>
     <version value="1.0.0"/>
@@ -21,7 +21,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This is the Endpoint Resource profile for the IG used to specify receivers addresses"/>
+    <description value="This Endpoint profile for the IG represents a receivers address."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

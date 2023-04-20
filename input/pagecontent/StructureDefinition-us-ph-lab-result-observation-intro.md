@@ -1,0 +1,1 @@
+Further constrains the US Core Lab Result Observation to set specimen to Must Support.
