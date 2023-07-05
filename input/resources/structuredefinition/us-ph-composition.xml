@@ -50,6 +50,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Composition.extension:extensionVersionNumber">
             <path value="Composition.extension"/>
