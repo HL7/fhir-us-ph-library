@@ -3,9 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-genderidentity-extension"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2023-03-09T03:50:08.267+00:00"/>
-        <source value="#iczbUfp7JQKmRAOg"/>
+        <versionId value="7"/>
+        <lastUpdated value="2023-04-20T22:53:35.901Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-genderidentity-extension"/>
     <version value="1.0.0"/>
@@ -20,7 +19,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Extension profile represents an individual's personal sense of being a man, woman, boy, girl, nonbinary, or something else. This represents an individual’s identity, ascertained by asking them what that identity is."/>
+    <description value="This Extension profile represents an individual’s personal sense of being a man, woman, boy, girl, nonbinary, or something else."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -93,7 +92,7 @@
                     <valueString value="GenderIdentity"/>
                 </extension>
                 <strength value="preferred"/>
-                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1021.32"/>
+                <valueSet value="http://terminology.hl7.org/ValueSet/gender-identity"/>
             </binding>
         </element>
         <element id="Extension.extension:period">

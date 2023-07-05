@@ -3,9 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-condition-encounter-diagnosis"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-04-20T01:22:47.780+00:00"/>
-        <source value="#cO2Up6rjgsQuXLBK"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-07-05T07:33:01.787Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition-encounter-diagnosis"/>
     <version value="1.0.0"/>
@@ -21,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Condition Encounter Diagnosis profile represents the signs, symptoms, and diagnoses related to a public health event.&#xA;&#xA;It is based on the **US Core Condition Encounter Diagnosis Profile** with further restrictions of a US Public Health Patient as the Condition.subject and guidance that in the case of a condition being mistakenly entered into the system and later corrected verificationStatus of 'entered-in-error' must be set."/>
+    <description value="This Condition Encounter Diagnosis profile represents the signs, symptoms, and diagnoses related to a public health event."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

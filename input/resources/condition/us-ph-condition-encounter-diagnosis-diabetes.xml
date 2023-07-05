@@ -4,8 +4,7 @@
     <id value="us-ph-condition-encounter-diagnosis-diabetes"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2023-04-20T02:15:23.356+00:00"/>
-        <source value="#3ci4uzMR8eGbUILT"/>
+        <lastUpdated value="2023-04-20T06:15:23.356Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition-encounter-diagnosis"/>
     </meta>
     <category>

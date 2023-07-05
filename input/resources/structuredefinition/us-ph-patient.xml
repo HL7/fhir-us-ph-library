@@ -3,9 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-patient"/>
     <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2023-04-20T02:03:20.709+00:00"/>
-        <source value="#ZvXKqFHaDT2g8oIi"/>
+        <versionId value="10"/>
+        <lastUpdated value="2023-07-05T07:27:59.805Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
     <version value="1.0.0"/>
@@ -21,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Patient profile represents a US Public Health Patient. It is based on the [**US Core Patient**](http://hl7.org/fhir/us/core/STU4/StructureDefinition-us-core-patient.html) profile."/>
+    <description value="This Patient profile represents a US Public Health Patient."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

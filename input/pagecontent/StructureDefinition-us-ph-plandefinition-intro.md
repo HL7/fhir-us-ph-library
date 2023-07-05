@@ -1,0 +1,1 @@
+This profile is used to represent Knowledge Artifacts in US Public Health use cases.

@@ -4,8 +4,7 @@
     <id value="us-ph-plandefinition-alt-expression-example"/>
     <meta>
         <versionId value="2"/>
-        <lastUpdated value="2023-04-20T02:36:02.181+00:00"/>
-        <source value="#OuzMBlAuWzicuXGt"/>
+        <lastUpdated value="2023-04-20T06:36:02.181Z"/>
     </meta>
     <url value="http://example.org/fhir/PlanDefinition/us-ph-plandefinition-alt-expression-example"/>
     <version value="0.1"/>

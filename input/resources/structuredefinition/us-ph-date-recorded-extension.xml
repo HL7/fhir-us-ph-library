@@ -4,8 +4,7 @@
     <id value="us-ph-date-recorded-extension"/>
     <meta>
         <versionId value="5"/>
-        <lastUpdated value="2023-03-09T03:44:05.287+00:00"/>
-        <source value="#WJuTbwVPauyUXqSl"/>
+        <lastUpdated value="2023-03-09T08:44:05.287Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-date-recorded-extension"/>
     <version value="1.0.0"/>

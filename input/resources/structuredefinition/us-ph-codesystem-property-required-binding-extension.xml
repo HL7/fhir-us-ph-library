@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
-    <id value="us-ph-codesystem-property-binding-extension"/>
+    <id value="us-ph-codesystem-property-required-binding-extension"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2023-03-09T04:12:53.348+00:00"/>
-        <source value="#yDBXkiBomBcoYYff"/>
+        <versionId value="7"/>
+        <lastUpdated value="2023-07-05T07:47:13.990Z"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem-property-binding-extension"/>
+    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem-property-required-binding-extension"/>
     <version value="1.0.0"/>
-    <name value="USPublicHealthCodeSystemPropertyBindingExtension"/>
-    <title value="US Public Health CodeSystem Property Binding Extension"/>
+    <name value="USPublicHealthCodeSystemPropertyRequiredBindingExtension"/>
+    <title value="US Public Health CodeSystem Property Required Binding Extension"/>
     <status value="active"/>
     <experimental value="false"/>
     <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
@@ -21,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Extension profile represents a reference to a CodeSystem or ValueSet that establishes the allowable values for a code system property."/>
+    <description value="This Extension profile represents a reference to a ValueSet that establishes a required binding to the allowable values for a code system property."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

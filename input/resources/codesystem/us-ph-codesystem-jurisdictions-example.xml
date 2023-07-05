@@ -3,11 +3,840 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-codesystem-jurisdictions-example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2023-02-18T03:26:52.482+00:00"/>
-        <source value="#NKitqCgRPaF4hB4Q"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-07-05T08:10:11.133Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"/>
     </meta>
+    <text>
+        <status value="generated"/>
+        <div
+            xmlns="http://www.w3.org/1999/xhtml">
+            <p>
+                <b>Properties</b>
+            </p>
+            <table class="grid">
+                <tr>
+                    <td>
+                        <b>Code</b>
+                    </td>
+                    <td>
+                        <b>Type</b>
+                    </td>
+                    <td>
+                        <b>Other Type</b>
+                    </td>
+                    <td>
+                        <b>Description</b>
+                    </td>
+                    <td>
+                        <b>Required CoodSystem Binding</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>code</td>
+                    <td>
+                        <a href="StructureDefinition-us-ph-codesystem-property-required-binding-extension.html">US Public Health CodeSystem Property Required Binding Extension</a>
+                    </td>
+                    <td>Type of public health jurisdiction.</td>
+                    <td>
+                        <a href="CodeSystem-us-ph-jurisdiction-types-example.html">US Public Health Jurisdiction Types Example</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>state</td>
+                    <td>code</td>
+                    <td>
+                        <a href="StructureDefinition-us-ph-codesystem-property-required-binding-extension.html">US Public Health CodeSystem Property Required Binding Extension</a>
+                    </td>
+                    <td>USPS Two Letter Alphabetic Codes.</td>
+                    <td>
+                        <a href="http://hl7.org/fhir/us/core/STU5/ValueSet-us-core-usps-state.html">Value Set: USPS Two Letter Alphabetic Codes</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>postalcode</td>
+                    <td>string</td>
+                    <td/>
+                    <td>Postal code within the public health jurisdiction.</td>
+                    <td/>
+                </tr>
+            </table>
+            <p>This code system http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdictions-example defines the following codes:</p>
+            <table class="codes">
+                <tr>
+                    <td style="white-space:nowrap">
+                        <b>Code</b>
+                    </td>
+                    <td>
+                        <b>Display</b>
+                    </td>
+                    <td>
+                        <b>Definition</b>
+                    </td>
+                    <td>
+                        <b>type</b>
+                    </td>
+                    <td>
+                        <b>state</b>
+                    </td>
+                    <td>
+                        <b>postalcode</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">AK
+                        <a name="us-ph-codesystem-jurisdictions-example-AK"/>
+                    </td>
+                    <td>ALASKA</td>
+                    <td>Alaska Department of Health and Social Services</td>
+                    <td>STATE</td>
+                    <td>AK</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">AL
+                        <a name="us-ph-codesystem-jurisdictions-example-AL"/>
+                    </td>
+                    <td>ALABAMA</td>
+                    <td>Alabama Department of Public Health</td>
+                    <td>STATE</td>
+                    <td>AL</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">AR
+                        <a name="us-ph-codesystem-jurisdictions-example-AR"/>
+                    </td>
+                    <td>ARKANSAS</td>
+                    <td>Arkansas Department of Health</td>
+                    <td>STATE</td>
+                    <td>AR</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">AS
+                        <a name="us-ph-codesystem-jurisdictions-example-AS"/>
+                    </td>
+                    <td>AMERICAN_SAMOA</td>
+                    <td>American Samoa</td>
+                    <td>STATE</td>
+                    <td>AS</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">AZ
+                        <a name="us-ph-codesystem-jurisdictions-example-AZ"/>
+                    </td>
+                    <td>ARIZONA</td>
+                    <td>Arizona Department of Health Services</td>
+                    <td>STATE</td>
+                    <td>AZ</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">CA
+                        <a name="us-ph-codesystem-jurisdictions-example-CA"/>
+                    </td>
+                    <td>CALIFORNIA</td>
+                    <td>California Department of Public Health</td>
+                    <td>STATE</td>
+                    <td>CA</td>
+                    <td>90041, 90042, 90221, 90630, 90706, 90712, 90713, 90716, 90723, 90731, 90744, 90755, 90802, 90803, 90804, 90805, 90806, 90807,
+                        90808, 90810, 90813, 90814, 90815, 90822, 90831, 90840, 90846, 91001, 91006, 91011, 91024, 91030, 91101, 91103, 91104, 91105,
+                        91106, 91107, 91108, 91206, 91901, 91902, 91903, 91905, 91906, 91908, 91909, 91910, 91911, 91912, 91913, 91914, 91915, 91916,
+                        91917, 91921, 91931, 91932, 91933, 91934, 91935, 91941, 91942, 91943, 91944, 91945, 91946, 91947, 91948, 91950, 91951, 91962,
+                        91963, 91976, 91977, 91978, 91979, 91980, 91987, 91990, 92003, 92004, 92007, 92008, 92009, 92010, 92011, 92013, 92014, 92018,
+                        92019, 92020, 92021, 92022, 92023, 92024, 92025, 92026, 92027, 92028, 92029, 92030, 92033, 92036, 92037, 92038, 92039, 92040,
+                        92046, 92049, 92051, 92052, 92054, 92055, 92056, 92057, 92058, 92059, 92060, 92061, 92064, 92065, 92066, 92067, 92068, 92069,
+                        92070, 92071, 92072, 92074, 92075, 92078, 92079, 92081, 92082, 92083, 92084, 92085, 92086, 92088, 92090, 92091, 92092, 92093,
+                        92096, 92101, 92102, 92103, 92104, 92105, 92106, 92107, 92108, 92109, 92110, 92111, 92112, 92113, 92114, 92115, 92116, 92117,
+                        92118, 92119, 92120, 92121, 92122, 92123, 92124, 92126, 92127, 92128, 92129, 92130, 92131, 92132, 92133, 92134, 92135, 92136,
+                        92137, 92138, 92139, 92140, 92142, 92143, 92145, 92147, 92149, 92150, 92152, 92153, 92154, 92155, 92158, 92159, 92160, 92161,
+                        92162, 92163, 92164, 92165, 92166, 92167, 92168, 92169, 92170, 92171, 92172, 92173, 92174, 92175, 92176, 92177, 92178, 92179,
+                        92182, 92184, 92186, 92187, 92190, 92191, 92192, 92193, 92194, 92195, 92196, 92197, 92198, 92199</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">CHI
+                        <a name="us-ph-codesystem-jurisdictions-example-CHI"/>
+                    </td>
+                    <td>ILLINOIS</td>
+                    <td>Chicago Department of Public Health</td>
+                    <td>CITY</td>
+                    <td>IL</td>
+                    <td>60007</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">CHR
+                        <a name="us-ph-codesystem-jurisdictions-example-CHR"/>
+                    </td>
+                    <td>VIRGIN_ISLANDS</td>
+                    <td>Christiansted (Test)</td>
+                    <td>CITY</td>
+                    <td>VI</td>
+                    <td>00820</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">CO
+                        <a name="us-ph-codesystem-jurisdictions-example-CO"/>
+                    </td>
+                    <td>COLORADO</td>
+                    <td>Colorado Department of Public Health and Environment</td>
+                    <td>STATE</td>
+                    <td>CO</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">CT
+                        <a name="us-ph-codesystem-jurisdictions-example-CT"/>
+                    </td>
+                    <td>CONNECTICUT</td>
+                    <td>Connecticut Department of Public Health</td>
+                    <td>STATE</td>
+                    <td>CT</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">DC
+                        <a name="us-ph-codesystem-jurisdictions-example-DC"/>
+                    </td>
+                    <td>DISTRICT_OF_COLUMBIA</td>
+                    <td>District of Columbia Department of Health</td>
+                    <td>STATE</td>
+                    <td>DC</td>
+                    <td>20002</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">DE
+                        <a name="us-ph-codesystem-jurisdictions-example-DE"/>
+                    </td>
+                    <td>DELAWARE</td>
+                    <td>Delaware Health and Social Services</td>
+                    <td>STATE</td>
+                    <td>DE</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">DED
+                        <a name="us-ph-codesystem-jurisdictions-example-DED"/>
+                    </td>
+                    <td>GUAM</td>
+                    <td>Dededo</td>
+                    <td>COUNTY</td>
+                    <td>GU</td>
+                    <td>96912</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">FL
+                        <a name="us-ph-codesystem-jurisdictions-example-FL"/>
+                    </td>
+                    <td>FLORIDA</td>
+                    <td>Florida Department of Health</td>
+                    <td>STATE</td>
+                    <td>FL</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">GA
+                        <a name="us-ph-codesystem-jurisdictions-example-GA"/>
+                    </td>
+                    <td>GEORGIA</td>
+                    <td>Georgia Department of Public Health</td>
+                    <td>STATE</td>
+                    <td>GA</td>
+                    <td>30062, 30066</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">GU
+                        <a name="us-ph-codesystem-jurisdictions-example-GU"/>
+                    </td>
+                    <td>GUAM</td>
+                    <td>Guam Department of Public Health and Social Services</td>
+                    <td>STATE</td>
+                    <td>GU</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">HI
+                        <a name="us-ph-codesystem-jurisdictions-example-HI"/>
+                    </td>
+                    <td>HAWAII</td>
+                    <td>Hawaii Department of Health</td>
+                    <td>STATE</td>
+                    <td>HI</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">HT
+                        <a name="us-ph-codesystem-jurisdictions-example-HT"/>
+                    </td>
+                    <td>TEXAS</td>
+                    <td>Houston Health Department</td>
+                    <td>CITY</td>
+                    <td>TX</td>
+                    <td>77001, 77002, 77003, 77004, 77005, 77006, 77007, 77008, 77009, 77010, 77011, 77012, 77013, 77014, 77015, 77016, 77017, 77018,
+                        77019, 77020, 77021, 77022, 77023, 77024, 77025, 77026, 77027, 77028, 77029, 77030, 77031, 77032, 77033, 77034, 77035, 77036,
+                        77037, 77038, 77039, 77040, 77041, 77042, 77043, 77044, 77045, 77046, 77047, 77048, 77049, 77050, 77051, 77052, 77053, 77054,
+                        77055, 77056, 77057, 77058, 77059, 77060, 77061, 77062, 77063, 77064, 77065, 77066, 77067, 77068, 77069, 77070, 77071, 77072,
+                        77073, 77074, 77075, 77076, 77077, 77078, 77079, 77080, 77081, 77082, 77083, 77084, 77085, 77086, 77087, 77088, 77089, 77090,
+                        77091, 77092, 77093, 77094, 77095, 77096, 77097, 77098, 77099, 77201, 77202, 77203, 77204, 77205, 77206, 77207, 77208, 77209,
+                        77210, 77212, 77213, 77215, 77216, 77217, 77218, 77219, 77220, 77221, 77222, 77223, 77224, 77225, 77226, 77227, 77228, 77229,
+                        77230, 77231, 77233, 77234, 77235, 77236, 77237, 77238, 77240, 77241, 77242, 77243, 77244, 77245, 77248, 77249, 77251, 77252,
+                        77253, 77254, 77255, 77256, 77257, 77258, 77259, 77261, 77262, 77263, 77265, 77266, 77267, 77268, 77269, 77270, 77271, 77272,
+                        77273, 77274, 77275, 77277, 77279, 77280, 77281, 77282, 77284, 77287, 77288, 77289, 77290, 77291, 77292, 77293, 77297, 77298,
+                        77299, 77327, 77336, 77338, 77339, 77345, 77346, 77354, 77355, 77357, 77362, 77365, 77373, 77375, 77377, 77379, 77380, 77381,
+                        77382, 77386, 77388, 77389, 77396, 77401, 77406, 77407, 77429, 77433, 77447, 77449, 77450, 77459, 77477, 77478, 77484, 77489,
+                        77493, 77494, 77498, 77502, 77503, 77504, 77505, 77506, 77507, 77520, 77521, 77523, 77530, 77532, 77535, 77536, 77545, 77546,
+                        77547, 77562, 77565, 77571, 77573, 77581, 77584, 77586, 77587, 77598</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">IA
+                        <a name="us-ph-codesystem-jurisdictions-example-IA"/>
+                    </td>
+                    <td>IOWA</td>
+                    <td>Iowa Department of Public Health</td>
+                    <td>STATE</td>
+                    <td>IA</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">ID
+                        <a name="us-ph-codesystem-jurisdictions-example-ID"/>
+                    </td>
+                    <td>IDAHO</td>
+                    <td>Idaho Department of Health and Welfare</td>
+                    <td>STATE</td>
+                    <td>ID</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">IL
+                        <a name="us-ph-codesystem-jurisdictions-example-IL"/>
+                    </td>
+                    <td>ILLINOIS</td>
+                    <td>Illinois Department of Public Health</td>
+                    <td>STATE</td>
+                    <td>IL</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">IN
+                        <a name="us-ph-codesystem-jurisdictions-example-IN"/>
+                    </td>
+                    <td>INDIANA</td>
+                    <td>Indiana State Department of Health</td>
+                    <td>STATE</td>
+                    <td>IN</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">KS
+                        <a name="us-ph-codesystem-jurisdictions-example-KS"/>
+                    </td>
+                    <td>KANSAS</td>
+                    <td>Kansas Department of Health and Environment</td>
+                    <td>STATE</td>
+                    <td>KS</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">KY
+                        <a name="us-ph-codesystem-jurisdictions-example-KY"/>
+                    </td>
+                    <td>KENTUCKY</td>
+                    <td>Kentucky Cabinet for Health and Family Services</td>
+                    <td>STATE</td>
+                    <td>KY</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">LA
+                        <a name="us-ph-codesystem-jurisdictions-example-LA"/>
+                    </td>
+                    <td>LOUISIANA</td>
+                    <td>Louisiana Department of Health and Hospitals</td>
+                    <td>STATE</td>
+                    <td>LA</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">LAC
+                        <a name="us-ph-codesystem-jurisdictions-example-LAC"/>
+                    </td>
+                    <td>CALIFORNIA</td>
+                    <td>Los Angeles County Department of Public Health</td>
+                    <td>COUNTY</td>
+                    <td>CA</td>
+                    <td>90001, 90002, 90003, 90004, 90005, 90006, 90007, 90008, 90009, 90010, 90011, 90012, 90013, 90014, 90015, 90016, 90017, 90018,
+                        90019, 90020, 90021, 90022, 90023, 90024, 90025, 90026, 90027, 90028, 90029, 90030, 90031, 90032, 90033, 90034, 90035, 90036,
+                        90037, 90038, 90039, 90040, 90041, 90042, 90043, 90044, 90045, 90046, 90047, 90048, 90049, 90050, 90051, 90052, 90053, 90054,
+                        90055, 90056, 90057, 90058, 90059, 90060, 90061, 90062, 90063, 90064, 90065, 90066, 90067, 90068, 90069, 90070, 90071, 90072,
+                        90073, 90074, 90075, 90076, 90077, 90078, 90079, 90080, 90081, 90082, 90083, 90084, 90086, 90087, 90088, 90089, 90091, 90093,
+                        90094, 90095, 90096, 90097, 90099, 90101, 90102, 90103, 90174, 90185, 90201, 90202, 90209, 90210, 90211, 90212, 90213, 90220,
+                        90221, 90222, 90223, 90224, 90230, 90231, 90232, 90233, 90239, 90240, 90241, 90242, 90245, 90247, 90248, 90249, 90250, 90251,
+                        90254, 90255, 90260, 90261, 90262, 90263, 90264, 90265, 90266, 90267, 90270, 90272, 90274, 90275, 90277, 90278, 90280, 90290,
+                        90291, 90292, 90293, 90294, 90295, 90296, 90301, 90302, 90303, 90304, 90305, 90306, 90307, 90308, 90309, 90310, 90311, 90312,
+                        90313, 90397, 90398, 90401, 90402, 90403, 90404, 90405, 90406, 90407, 90408, 90409, 90410, 90411, 90501, 90502, 90503, 90504,
+                        90505, 90506, 90507, 90508, 90509, 90510, 90601, 90602, 90603, 90604, 90605, 90606, 90607, 90608, 90609, 90610, 90612, 90637,
+                        90638, 90639, 90640, 90650, 90651, 90652, 90659, 90660, 90661, 90662, 90665, 90670, 90671, 90701, 90702, 90703, 90704, 90706,
+                        90707, 90710, 90711, 90712, 90713, 90714, 90715, 90716, 90717, 90723, 90731, 90732, 90733, 90734, 90744, 90745, 90746, 90747,
+                        90748, 90749, 90755, 90845, 90888, 91001, 91003, 91006, 91007, 91009, 91010, 91011, 91012, 91016, 91017, 91020, 91021, 91023,
+                        91024, 91025, 91030, 91031, 91040, 91041, 91042, 91043, 91046, 91050, 91051, 91066, 91077, 91108, 91118, 91131, 91175, 91186,
+                        91187, 91191, 91201, 91202, 91203, 91204, 91205, 91206, 91207, 91208, 91209, 91210, 91214, 91221, 91222, 91224, 91225, 91226,
+                        91301, 91302, 91303, 91304, 91305, 91306, 91307, 91308, 91309, 91310, 91311, 91312, 91313, 91316, 91321, 91322, 91324, 91325,
+                        91326, 91327, 91328, 91329, 91330, 91331, 91333, 91334, 91335, 91337, 91340, 91341, 91342, 91343, 91344, 91345, 91346, 91350,
+                        91351, 91352, 91353, 91354, 91355, 91356, 91357, 91363, 91364, 91365, 91367, 91371, 91372, 91376, 91380, 91381, 91382, 91383,
+                        91384, 91385, 91386, 91387, 91388, 91390, 91392, 91393, 91394, 91395, 91396, 91399, 91401, 91402, 91403, 91404, 91405, 91406,
+                        91407, 91408, 91409, 91410, 91411, 91412, 91413, 91416, 91423, 91426, 91436, 91470, 91482, 91495, 91496, 91497, 91499, 91501,
+                        91502, 91503, 91504, 91505, 91506, 91507, 91508, 91510, 91521, 91522, 91523, 91526, 91601, 91602, 91603, 91604, 91605, 91606,
+                        91607, 91608, 91609, 91610, 91611, 91612, 91614, 91615, 91616, 91617, 91618, 91702, 91706, 91711, 91714, 91715, 91716, 91722,
+                        91723, 91724, 91731, 91732, 91733, 91734, 91735, 91740, 91741, 91744, 91745, 91746, 91747, 91748, 91749, 91750, 91754, 91755,
+                        91756, 91759, 91765, 91766, 91767, 91768, 91769, 91770, 91771, 91772, 91773, 91775, 91776, 91778, 91780, 91788, 91789, 91790,
+                        91791, 91792, 91793, 91795, 91797, 91799, 91801, 91802, 91803, 91804, 91841, 91896, 91899, 93510, 93532, 93534, 93535, 93536,
+                        93539, 93543, 93544, 93550, 93551, 93552, 93553, 93563, 93584, 93586, 93590, 93591, 93599</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">MA
+                        <a name="us-ph-codesystem-jurisdictions-example-MA"/>
+                    </td>
+                    <td>MASSACHUSETTS</td>
+                    <td>Massachusetts Department of Health and Human Services</td>
+                    <td>STATE</td>
+                    <td>MA</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">MD
+                        <a name="us-ph-codesystem-jurisdictions-example-MD"/>
+                    </td>
+                    <td>MARYLAND</td>
+                    <td>Maryland Department of Health and Mental Hygiene</td>
+                    <td>STATE</td>
+                    <td>MD</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">ME
+                        <a name="us-ph-codesystem-jurisdictions-example-ME"/>
+                    </td>
+                    <td>MAINE</td>
+                    <td>Maine Department of Health and Human Services</td>
+                    <td>STATE</td>
+                    <td>ME</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">MI
+                        <a name="us-ph-codesystem-jurisdictions-example-MI"/>
+                    </td>
+                    <td>MICHIGAN</td>
+                    <td>Michigan Department of Community Health</td>
+                    <td>STATE</td>
+                    <td>MI</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">MN
+                        <a name="us-ph-codesystem-jurisdictions-example-MN"/>
+                    </td>
+                    <td>MINNESOTA</td>
+                    <td>Minnesota Department of Health</td>
+                    <td>STATE</td>
+                    <td>MN</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">MO
+                        <a name="us-ph-codesystem-jurisdictions-example-MO"/>
+                    </td>
+                    <td>MISSOURI</td>
+                    <td>Missouri State Department of Health and Senior Services</td>
+                    <td>STATE</td>
+                    <td>MO</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">MS
+                        <a name="us-ph-codesystem-jurisdictions-example-MS"/>
+                    </td>
+                    <td>MISSISSIPPI</td>
+                    <td>Mississippi State Department of Health</td>
+                    <td>STATE</td>
+                    <td>MS</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">MT
+                        <a name="us-ph-codesystem-jurisdictions-example-MT"/>
+                    </td>
+                    <td>MONTANA</td>
+                    <td>Montana Department of Public Health and Human Services</td>
+                    <td>STATE</td>
+                    <td>MT</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">NC
+                        <a name="us-ph-codesystem-jurisdictions-example-NC"/>
+                    </td>
+                    <td>NORTH_CAROLINA</td>
+                    <td>North Carolina Department of Health and Human Services</td>
+                    <td>STATE</td>
+                    <td>NC</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">ND
+                        <a name="us-ph-codesystem-jurisdictions-example-ND"/>
+                    </td>
+                    <td>NORTH_DAKOTA</td>
+                    <td>North Dakota Department of Health</td>
+                    <td>STATE</td>
+                    <td>ND</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">NE
+                        <a name="us-ph-codesystem-jurisdictions-example-NE"/>
+                    </td>
+                    <td>NEBRASKA</td>
+                    <td>Nebraska Department of Health and Human Services</td>
+                    <td>STATE</td>
+                    <td>NE</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">NH
+                        <a name="us-ph-codesystem-jurisdictions-example-NH"/>
+                    </td>
+                    <td>NEW_HAMPSHIRE</td>
+                    <td>New Hampshire Department of Health and Human Services</td>
+                    <td>STATE</td>
+                    <td>NH</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">NJ
+                        <a name="us-ph-codesystem-jurisdictions-example-NJ"/>
+                    </td>
+                    <td>NEW_JERSEY</td>
+                    <td>New Jersey Department of Health and Senior Services</td>
+                    <td>STATE</td>
+                    <td>NJ</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">NM
+                        <a name="us-ph-codesystem-jurisdictions-example-NM"/>
+                    </td>
+                    <td>NEW_MEXICO</td>
+                    <td>New Mexico Department of Health</td>
+                    <td>STATE</td>
+                    <td>NM</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">NV
+                        <a name="us-ph-codesystem-jurisdictions-example-NV"/>
+                    </td>
+                    <td>NEVADA</td>
+                    <td>Nevada State Health Division</td>
+                    <td>STATE</td>
+                    <td>NV</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">NY
+                        <a name="us-ph-codesystem-jurisdictions-example-NY"/>
+                    </td>
+                    <td>NEW_YORK</td>
+                    <td>New York State Department of Health</td>
+                    <td>STATE</td>
+                    <td>NY</td>
+                    <td>10803, 11001, 11040, 11416</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">NYC
+                        <a name="us-ph-codesystem-jurisdictions-example-NYC"/>
+                    </td>
+                    <td>NEW_YORK</td>
+                    <td>New York City Department of Health and Mental Hygiene</td>
+                    <td>CITY</td>
+                    <td>NY</td>
+                    <td>10001, 10002, 10003, 10004, 10005, 10006, 10007, 10008, 10009, 10010, 10011, 10012, 10013, 10014, 10016, 10017, 10018, 10019,
+                        10020, 10021, 10022, 10023, 10024, 10025, 10026, 10027, 10028, 10029, 10030, 10031, 10032, 10033, 10034, 10035, 10036, 10037,
+                        10038, 10039, 10040, 10041, 10043, 10044, 10045, 10055, 10060, 10065, 10069, 10075, 10080, 10081, 10087, 10090, 10101, 10102,
+                        10103, 10104, 10105, 10106, 10107, 10108, 10109, 10110, 10111, 10112, 10113, 10114, 10115, 10116, 10117, 10118, 10119, 10120,
+                        10121, 10122, 10123, 10124, 10125, 10126, 10128, 10129, 10130, 10131, 10132, 10133, 10138, 10150, 10151, 10152, 10153, 10154,
+                        10155, 10156, 10157, 10158, 10159, 10160, 10162, 10163, 10164, 10165, 10166, 10167, 10168, 10169, 10170, 10171, 10172, 10173,
+                        10174, 10175, 10176, 10177, 10178, 10179, 10185, 10199, 10203, 10211, 10212, 10213, 10242, 10249, 10256, 10258, 10259, 10260,
+                        10261, 10265, 10268, 10269, 10270, 10271, 10272, 10273, 10274, 10275, 10276, 10277, 10278, 10279, 10280, 10281, 10282, 10285,
+                        10286, 10301, 10302, 10303, 10304, 10305, 10306, 10307, 10308, 10309, 10310, 10311, 10312, 10313, 10314, 10451, 10452, 10453,
+                        10454, 10455, 10456, 10457, 10458, 10459, 10460, 10461, 10462, 10463, 10464, 10465, 10466, 10467, 10468, 10469, 10470, 10471,
+                        10472, 10473, 10474, 10475, 10803, 11001, 11004, 11005, 11040, 11101, 11102, 11103, 11104, 11105, 11106, 11109, 11120, 11201,
+                        11202, 11203, 11204, 11205, 11206, 11207, 11208, 11209, 11210, 11211, 11212, 11213, 11214, 11215, 11216, 11217, 11218, 11219,
+                        11220, 11221, 11222, 11223, 11224, 11225, 11226, 11228, 11229, 11230, 11231, 11232, 11233, 11234, 11235, 11236, 11237, 11238,
+                        11239, 11241, 11242, 11243, 11245, 11247, 11249, 11251, 11252, 11256, 11351, 11352, 11354, 11355, 11356, 11357, 11358, 11359,
+                        11360, 11361, 11362, 11363, 11364, 11365, 11366, 11367, 11368, 11369, 11370, 11371, 11372, 11373, 11374, 11375, 11377, 11378,
+                        11379, 11380, 11381, 11385, 11386, 11405, 11411, 11412, 11413, 11414, 11415, 11416, 11417, 11418, 11419, 11420, 11421, 11422,
+                        11423, 11424, 11425, 11426, 11427, 11428, 11429, 11430, 11431, 11432, 11433, 11434, 11435, 11436, 11439, 11451, 11499, 11690,
+                        11691, 11692, 11693, 11694, 11695, 11697</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">OH
+                        <a name="us-ph-codesystem-jurisdictions-example-OH"/>
+                    </td>
+                    <td>OHIO</td>
+                    <td>Ohio Department of Health</td>
+                    <td>STATE</td>
+                    <td>OH</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">OK
+                        <a name="us-ph-codesystem-jurisdictions-example-OK"/>
+                    </td>
+                    <td>OKLAHOMA</td>
+                    <td>Oklahoma State Department of Health</td>
+                    <td>STATE</td>
+                    <td>OK</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">OR
+                        <a name="us-ph-codesystem-jurisdictions-example-OR"/>
+                    </td>
+                    <td>OREGON</td>
+                    <td>Oregon Health Authority</td>
+                    <td>STATE</td>
+                    <td>OR</td>
+                    <td>97001, 97002, 97004, 97005, 97006, 97007, 97008, 97009, 97010, 97011, 97013, 97014, 97015, 97016, 97017, 97018, 97019, 97020,
+                        97021, 97022, 97023, 97024, 97026, 97027, 97028</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">PA
+                        <a name="us-ph-codesystem-jurisdictions-example-PA"/>
+                    </td>
+                    <td>PENNSYLVANIA</td>
+                    <td>Pennsylvania Department of Health</td>
+                    <td>STATE</td>
+                    <td>PA</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">PHL
+                        <a name="us-ph-codesystem-jurisdictions-example-PHL"/>
+                    </td>
+                    <td>PENNSYLVANIA</td>
+                    <td>City of Philadelphia Department of Public Health</td>
+                    <td>CITY</td>
+                    <td>PA</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">PR
+                        <a name="us-ph-codesystem-jurisdictions-example-PR"/>
+                    </td>
+                    <td>PUERTO_RICO</td>
+                    <td>Puerto Rico</td>
+                    <td>STATE</td>
+                    <td>PR</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">RI
+                        <a name="us-ph-codesystem-jurisdictions-example-RI"/>
+                    </td>
+                    <td>RHODE_ISLAND</td>
+                    <td>Rhode Island Department of Health</td>
+                    <td>STATE</td>
+                    <td>RI</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">SC
+                        <a name="us-ph-codesystem-jurisdictions-example-SC"/>
+                    </td>
+                    <td>SOUTH_CAROLINA</td>
+                    <td>South Carolina Department of Health and Environmental Control</td>
+                    <td>STATE</td>
+                    <td>SC</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">SD
+                        <a name="us-ph-codesystem-jurisdictions-example-SD"/>
+                    </td>
+                    <td>SOUTH_DAKOTA</td>
+                    <td>South Dakota Department of Health</td>
+                    <td>STATE</td>
+                    <td>SD</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">SDC
+                        <a name="us-ph-codesystem-jurisdictions-example-SDC"/>
+                    </td>
+                    <td>CALIFORNIA</td>
+                    <td>San Diego County Public Health Services</td>
+                    <td>COUNTY</td>
+                    <td>CA</td>
+                    <td>91901, 91902, 91903, 91905, 91906, 91908, 91909, 91910, 91911, 91912, 91913, 91914, 91915, 91916, 91917, 91921, 91931, 91932,
+                        91933, 91934, 91935, 91941, 91942, 91943, 91944, 91945, 91946, 91947, 91948, 91950, 91951, 91962, 91963, 91976, 91977, 91978,
+                        91979, 91980, 91987, 91990, 92003, 92004, 92007, 92008, 92009, 92010, 92011, 92013, 92014, 92018, 92019, 92020, 92021, 92022,
+                        92023, 92024, 92025, 92026, 92027, 92028, 92029, 92030, 92033, 92036, 92037, 92038, 92039, 92040, 92046, 92049, 92051, 92052,
+                        92054, 92055, 92056, 92057, 92058, 92059, 92060, 92061, 92064, 92065, 92066, 92067, 92068, 92069, 92070, 92071, 92072, 92074,
+                        92075, 92078, 92079, 92081, 92082, 92083, 92084, 92085, 92086, 92088, 92090, 92091, 92092, 92093, 92096, 92101, 92102, 92103,
+                        92104, 92105, 92106, 92107, 92108, 92109, 92110, 92111, 92112, 92113, 92114, 92115, 92116, 92117, 92118, 92119, 92120, 92121,
+                        92122, 92123, 92124, 92126, 92127, 92128, 92129, 92130, 92131, 92132, 92133, 92134, 92135, 92136, 92137, 92138, 92139, 92140,
+                        92142, 92143, 92145, 92147, 92149, 92150, 92152, 92153, 92154, 92155, 92158, 92159, 92160, 92161, 92162, 92163, 92164, 92165,
+                        92166, 92167, 92168, 92169, 92170, 92171, 92172, 92173, 92174, 92175, 92176, 92177, 92178, 92179, 92182, 92184, 92186, 92187,
+                        92190, 92191, 92192, 92193, 92194, 92195, 92196, 92197, 92198, 92199</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">SF
+                        <a name="us-ph-codesystem-jurisdictions-example-SF"/>
+                    </td>
+                    <td>CALIFORNIA</td>
+                    <td>San Francisco</td>
+                    <td>CITY</td>
+                    <td>CA</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">SN
+                        <a name="us-ph-codesystem-jurisdictions-example-SN"/>
+                    </td>
+                    <td>NEVADA</td>
+                    <td>Southern Nevada Health District (SNHD)</td>
+                    <td>DISTRICT</td>
+                    <td>NV</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">STC
+                        <a name="us-ph-codesystem-jurisdictions-example-STC"/>
+                    </td>
+                    <td>VIRGIN_ISLANDS</td>
+                    <td>Saint Croix (Test)</td>
+                    <td>COUNTY</td>
+                    <td>VI</td>
+                    <td>00850</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">STJ
+                        <a name="us-ph-codesystem-jurisdictions-example-STJ"/>
+                    </td>
+                    <td>VIRGIN_ISLANDS</td>
+                    <td>Saint John (Test)</td>
+                    <td>COUNTY</td>
+                    <td>VI</td>
+                    <td>00830</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">TN
+                        <a name="us-ph-codesystem-jurisdictions-example-TN"/>
+                    </td>
+                    <td>TENNESSEE</td>
+                    <td>Tennessee Department of Health</td>
+                    <td>STATE</td>
+                    <td>TN</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">TX
+                        <a name="us-ph-codesystem-jurisdictions-example-TX"/>
+                    </td>
+                    <td>TEXAS</td>
+                    <td>Texas Department of State Health Services</td>
+                    <td>STATE</td>
+                    <td>TX</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">UT
+                        <a name="us-ph-codesystem-jurisdictions-example-UT"/>
+                    </td>
+                    <td>UTAH</td>
+                    <td>Utah Department of Health</td>
+                    <td>STATE</td>
+                    <td>UT</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">VA
+                        <a name="us-ph-codesystem-jurisdictions-example-VA"/>
+                    </td>
+                    <td>VIRGINIA</td>
+                    <td>Virginia Department of Health</td>
+                    <td>STATE</td>
+                    <td>VA</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">VI
+                        <a name="us-ph-codesystem-jurisdictions-example-VI"/>
+                    </td>
+                    <td>VIRGIN_ISLANDS</td>
+                    <td>Virgin Islands Department of Health (Test)</td>
+                    <td>STATE</td>
+                    <td>VI</td>
+                    <td>00830</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">VT
+                        <a name="us-ph-codesystem-jurisdictions-example-VT"/>
+                    </td>
+                    <td>VERMONT</td>
+                    <td>Vermont Department of Health</td>
+                    <td>STATE</td>
+                    <td>VT</td>
+                    <td>05001, 05009, 05030, 05031, 05032, 05033, 05034, 05035, 05036, 05037, 05038, 05039, 05040, 05041, 05042, 05043, 05045, 05046,
+                        05047, 05048, 05049, 05050, 05051, 05052, 05053, 05054, 05401</td>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">WA
+                        <a name="us-ph-codesystem-jurisdictions-example-WA"/>
+                    </td>
+                    <td>WASHINGTON</td>
+                    <td>Washington State Department of Health</td>
+                    <td>STATE</td>
+                    <td>WA</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">WI
+                        <a name="us-ph-codesystem-jurisdictions-example-WI"/>
+                    </td>
+                    <td>WISCONSIN</td>
+                    <td>Wisconsin Department of Health Services</td>
+                    <td>STATE</td>
+                    <td>WI</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">WV
+                        <a name="us-ph-codesystem-jurisdictions-example-WV"/>
+                    </td>
+                    <td>WEST_VIRGINIA</td>
+                    <td>West Virginia Department of Health and Human Resources, Bureau for Public Health</td>
+                    <td>STATE</td>
+                    <td>WV</td>
+                    <td/>
+                </tr>
+                <tr>
+                    <td style="white-space:nowrap">WY
+                        <a name="us-ph-codesystem-jurisdictions-example-WY"/>
+                    </td>
+                    <td>WYOMING</td>
+                    <td>Wyoming Department of Health</td>
+                    <td>STATE</td>
+                    <td>WY</td>
+                    <td/>
+                </tr>
+            </table>
+        </div>
+    </text>
     <url value="http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdictions-example"/>
     <version value="0.1.0"/>
     <name value="USPublicHealthCodeSystemJurisdictionsExample"/>
@@ -27,7 +856,7 @@
     <caseSensitive value="false"/>
     <content value="complete"/>
     <property>
-        <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem-property-binding-extension">
+        <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem-property-required-binding-extension">
             <valueCanonical value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-jurisdiction-types-example"/>
         </extension>
         <code value="type"/>
@@ -35,7 +864,7 @@
         <type value="code"/>
     </property>
     <property>
-        <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem-property-binding-extension">
+        <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem-property-required-binding-extension">
             <valueCanonical value="http://hl7.org/fhir/us/core/ValueSet/us-core-usps-state"/>
         </extension>
         <code value="state"/>

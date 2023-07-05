@@ -4,8 +4,7 @@
     <id value="us-ph-emergency-outbreak-information"/>
     <meta>
         <versionId value="5"/>
-        <lastUpdated value="2023-03-09T03:45:21.730+00:00"/>
-        <source value="#UbfzRaV081bMUkea"/>
+        <lastUpdated value="2023-03-09T08:45:21.730Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-emergency-outbreak-information"/>
     <version value="1.0.0"/>

@@ -4,8 +4,7 @@
     <id value="us-ph-characteristics-of-home-environment"/>
     <meta>
         <versionId value="4"/>
-        <lastUpdated value="2023-03-09T03:40:25.925+00:00"/>
-        <source value="#zFktvzQLqR7yHJqM"/>
+        <lastUpdated value="2023-03-09T08:40:25.925Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-characteristics-of-home-environment"/>
     <version value="1.0.0"/>

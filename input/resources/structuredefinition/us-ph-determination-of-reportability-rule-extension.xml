@@ -4,8 +4,7 @@
     <id value="us-ph-determination-of-reportability-rule-extension"/>
     <meta>
         <versionId value="3"/>
-        <lastUpdated value="2023-02-17T07:27:45.756+00:00"/>
-        <source value="#gGFCHb4ygpmVyZ01"/>
+        <lastUpdated value="2023-02-17T12:27:45.756Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-determination-of-reportability-rule-extension"/>
     <version value="1.0.0"/>

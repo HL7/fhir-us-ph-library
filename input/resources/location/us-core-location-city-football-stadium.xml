@@ -4,8 +4,7 @@
     <id value="us-core-location-city-football-stadium"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2022-07-21T05:34:24.041+00:00"/>
-        <source value="#4oYIws3p9k2ZpWSx"/>
+        <lastUpdated value="2022-07-21T09:34:24.041Z"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"/>
     </meta>
     <status value="active"/>

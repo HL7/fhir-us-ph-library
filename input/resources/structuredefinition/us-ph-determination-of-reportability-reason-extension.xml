@@ -4,8 +4,7 @@
     <id value="us-ph-determination-of-reportability-reason-extension"/>
     <meta>
         <versionId value="3"/>
-        <lastUpdated value="2023-02-17T07:27:44.523+00:00"/>
-        <source value="#A32EkPuFwihgKDUj"/>
+        <lastUpdated value="2023-02-17T12:27:44.523Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-determination-of-reportability-reason-extension"/>
     <version value="1.0.0"/>

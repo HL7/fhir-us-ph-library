@@ -3,9 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-data-encrypted-extension"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2023-03-09T03:42:15.359+00:00"/>
-        <source value="#lOpbqWn7CJhOd6Yk"/>
+        <versionId value="7"/>
+        <lastUpdated value="2023-04-20T08:45:26.806Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-data-encrypted-extension"/>
     <version value="1.0.0"/>
@@ -21,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This exension indicates whether the data in the content bundle is encrypted or not."/>
+    <description value="This exension indicates whether or not the data in the content bundle is encrypted."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

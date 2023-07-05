@@ -3,9 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-valueset-chlamydia-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <versionId value="2"/>
+        <lastUpdated value="2023-04-20T09:03:52.843Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset"/>
     </meta>
     <extension url="http://hl7.org/fhir/StructureDefinition/valueset-steward">
@@ -30,7 +29,7 @@
     <experimental value="true"/>
     <date value="2018-08-01"/>
     <publisher value="{site.data.fhir.ig.publisher}"/>
-    <description value="This example set of values contains laboratory observations test names that represent Chlamydia tests"/>
+    <description value="This example set of values contains laboratory observations test names that represent Chlamydia tests."/>
     <useContext>
         <code>
             <system value="http://terminology.hl7.org/CodeSystem/usage-context-type"/>

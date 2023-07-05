@@ -4,8 +4,7 @@
     <id value="us-ph-usagewarning-extension"/>
     <meta>
         <versionId value="3"/>
-        <lastUpdated value="2023-03-09T04:11:09.117+00:00"/>
-        <source value="#S94Al1W8k7h3XjYV"/>
+        <lastUpdated value="2023-03-09T09:11:09.117Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-usagewarning-extension"/>
     <version value="0.2.0"/>

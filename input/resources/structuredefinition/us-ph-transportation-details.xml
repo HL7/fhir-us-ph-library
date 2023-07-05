@@ -4,8 +4,7 @@
     <id value="us-ph-transportation-details"/>
     <meta>
         <versionId value="2"/>
-        <lastUpdated value="2023-02-17T07:34:48.893+00:00"/>
-        <source value="#OOMp9QXxSXxdAgKT"/>
+        <lastUpdated value="2023-02-17T12:34:48.893Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-transportation-details"/>
     <version value="1.0.0"/>

@@ -4,8 +4,7 @@
     <id value="us-ph-tribal-affiliation-extension"/>
     <meta>
         <versionId value="4"/>
-        <lastUpdated value="2023-03-09T04:10:27.906+00:00"/>
-        <source value="#poEQZyylyINahKw7"/>
+        <lastUpdated value="2023-03-09T09:10:27.906Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-tribal-affiliation-extension"/>
     <version value="1.0.0"/>

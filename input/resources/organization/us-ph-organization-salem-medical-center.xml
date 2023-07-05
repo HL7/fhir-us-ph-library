@@ -4,8 +4,7 @@
     <id value="us-ph-organization-salem-medical-center"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
-        <source value="#1SC4BsSLNv4eV4E2"/>
+        <lastUpdated value="2023-01-31T06:05:34.608Z"/>
     </meta>
     <identifier>
         <system value="http://hl7.org.fhir/sid/us-npi"/>

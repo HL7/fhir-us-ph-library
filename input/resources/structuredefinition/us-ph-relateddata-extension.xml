@@ -4,8 +4,7 @@
     <id value="us-ph-relateddata-extension"/>
     <meta>
         <versionId value="6"/>
-        <lastUpdated value="2023-03-09T04:07:47.720+00:00"/>
-        <source value="#df6VGAPBi1WjKC4Y"/>
+        <lastUpdated value="2023-03-09T09:07:47.720Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-relateddata-extension"/>
     <version value="1.0.0"/>

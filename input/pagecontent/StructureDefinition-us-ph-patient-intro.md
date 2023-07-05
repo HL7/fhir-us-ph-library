@@ -1,4 +1,4 @@
-This profile further constraints the US Core Patient as follows:
+It is based on the [US Core Patient]({{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-patient.html) profile and further constrains it as follows: 
 * allows masking of some data elements
 * adds Must Support constraints to the following data elements from ONC's USCDI V2 Patient Demographics Data Class:
     * contact detail (e.g. a telephone number or an email address)

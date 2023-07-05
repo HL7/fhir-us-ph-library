@@ -4,8 +4,7 @@
     <id value="us-ph-travel-history"/>
     <meta>
         <versionId value="3"/>
-        <lastUpdated value="2023-03-09T04:10:10.222+00:00"/>
-        <source value="#GDsiKtqAf4wlQW0l"/>
+        <lastUpdated value="2023-03-09T09:10:10.222Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-travel-history"/>
     <version value="1.0.0"/>

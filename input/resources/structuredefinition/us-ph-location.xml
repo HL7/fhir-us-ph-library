@@ -3,9 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-location"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2023-02-18T03:55:47.563+00:00"/>
-        <source value="#B5SKG2DFydBjIOvL"/>
+        <versionId value="8"/>
+        <lastUpdated value="2023-07-05T07:33:01.705Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-location"/>
     <version value="1.0.0"/>
@@ -21,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Location profile represents the location/facility in which care was provided and is based on the US Core Location profile."/>
+    <description value="This Location profile represents the location/facility in which care was provided."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

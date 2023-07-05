@@ -3,9 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="306"/>
-        <lastUpdated value="2023-04-20T03:01:17.764+00:00"/>
-        <source value="#QzNC6eYPR8Uj1C8k"/>
+        <versionId value="325"/>
+        <lastUpdated value="2023-07-05T08:15:49.776Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="1.0.0"/>
@@ -49,12 +48,15 @@
     <definition>
         <grouping id="architecture-profiles-group">
             <name value="Architecture Profiles"/>
+            <description value="The set of Architecture Profiles is composed of profiles that are related to how the data is defined and exchanged."/>
         </grouping>
         <grouping id="content-profiles-entities">
             <name value="Content Profiles: Entities"/>
+            <description value="The set of Content Profiles: Entities is composed of profiles related to what data about entities is exchanged."/>
         </grouping>
         <grouping id="content-profiles-clinical">
             <name value="Content Profiles: Clinical"/>
+            <description value="The set of Content Profiles: Entities is composed of profiles related to what clinical data is exchanged."/>
         </grouping>
         <grouping id="architecture-extensions">
             <name value="Architecture Extensions"/>
@@ -67,41 +69,109 @@
         </grouping>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-emergency-outbreak-information"/>
-                <display value="US Public Health Emergency Outbreak Information"/>
+                <reference value="Device/device-software-ymca"/></reference>
+            <name value="Device - Software YMCA"/>
+            <description value="Device: Software YMCA example"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Parameters/expansion-parameters-us-ph"/></reference>
+            <name value="Parameters - SNOMED US Version"/>
+            <description value="Parameters - SNOMED US Version"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Library/us-ph-executable-library-rule-filters"/>
+                <display value="Rule Filters"/>
             </reference>
-            <name value="US Public Health Emergency Outbreak Information"/>
-            <description value="This Observation profile represents information that is required during a public health emergency/outbreak. This information can be highly variable, so a generic structure has been chosen to represent it."/>
+            <name value="Rule Filters"/>
+            <description value="An example logic library for eRSD - Chlamydia example."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-library"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Location/us-core-location-city-football-stadium"/>
+                <display value="City Football Stadium"/>
+            </reference>
+            <name value="US Core Location - City Football Stadium"/>
+            <description value="US Core Location: City Football Stadium example"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Practitioner/us-core-practitioner-henry-seven"/></reference>
+            <name value="US Core Practitioner - Henry Seven"/>
+            <description value="US Core Practitioner: Henry Seven example"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-address-extension"/>
+                <display value="US Public Health Address Extension"/>
+            </reference>
+            <name value="US Public Health Address Extension"/>
+            <description value="This Extension profile represents where the patient traveled to or visited as an address e.g.: country, state, city, street address (if applicable)."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-alternative-expression-extension"/>
+                <display value="US Public Health Alternative Expression Extension"/>
+            </reference>
+            <name value="US Public Health Alternative Expression Extension"/>
+            <description value="This Extension profile represents an US Public Health Alternative Expression."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-characteristics-of-home-environment"/>
+                <display value="US Public Health Characteristics of Home Environment"/>
+            </reference>
+            <name value="US Public Health Characteristics of Home Environment"/>
+            <description value="This Observation profile represents characteristics of the patient's home environment."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-patient"/>
-                <display value="US Public Health Patient"/>
-            </reference>
-            <name value="US Public Health Patient"/>
-            <description value="This Patient profile represents a US Public Health Patient. It is based on the [**US Core Patient**](http://hl7.org/fhir/us/core/STU4/StructureDefinition-us-core-patient.html) profile."/>
+                <reference value="Observation/us-ph-char-home-environment-eve-everywoman"/></reference>
+            <name value="US Public Health Characteristics of Home Environment - Eve Everywoman"/>
+            <description value="US Public Health Characteristics of Home Environment: Eve Everywoman example"/>
             <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-entities"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-characteristics-of-home-environment"/>
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-content-bundle"/>
-                <display value="USPH Content Bundle"/>
+                <reference value="StructureDefinition/us-ph-codesystem"/>
+                <display value="US Public Health CodeSystem"/>
             </reference>
-            <name value="US Public Health Content Bundle"/>
-            <description value="This Bundle profile organizes the content of the Public Health Message to be exchanged with a Public Health Agency."/>
+            <name value="US Public Health CodeSystem"/>
+            <description value="This CodeSystem profile describes the US Public Health CodeSystem."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-group"/>
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-reporting-bundle"/>
-                <display value="US Public Health Reporting Bundle"/>
+                <reference value="CodeSystem/us-ph-codesystem-jurisdictions-example"/>
+                <display value="US Public Health CodeSystem Jurisdictions Example"/>
             </reference>
-            <name value="US Public Health Reporting Bundle"/>
-            <description value="This Bundle profile is used for exchanging a public health report to be submitted to a Public Health Agency."/>
+            <name value="US Public Health CodeSystem Jurisdictions Example"/>
+            <description value="This code system describes jurisdictions."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="example-value-sets"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-codesystem-property-required-binding-extension"/>
+                <display value="US Public Health CodeSystem Property Binding Extension"/>
+            </reference>
+            <name value="US Public Health CodeSystem Property Binding Extension"/>
+            <description value="This Extension profile represents a reference to a ValueSet that establishes a required binding to the allowable values for a code system property."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-group"/>
         </resource>
@@ -117,133 +187,108 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-encounter"/>
-                <display value="US Public Health Encounter"/>
+                <reference value="Composition/us-ph-composition-example"/>
+                <display value="US Public Health Composition Example"/>
             </reference>
-            <name value="US Public Health Encounter"/>
-            <description value="This Encounter profile represents the encounter related to a public health event and is based on the US Core Encounter profile."/>
+            <name value="US Public Health Composition Example"/>
+            <description value="US Public Health Composition: example"/>
             <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-clinical"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-composition"/>
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-survey-practitioner-group"/>
-                <display value="US Public Health Survey Practitioner Group"/>
+                <reference value="StructureDefinition/us-ph-computable-library"/>
+                <display value="US Public Health Computable Library"/>
             </reference>
-            <name value="US Public Health Survey Practitioner Group"/>
-            <description value="This Group profile represents survey participant groups, research groups, etc."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-entities"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-characteristics-of-home-environment"/>
-                <display value="US Public Health Characteristics of Home Environment"/>
-            </reference>
-            <name value="US Public Health Characteristics of Home Environment"/>
-            <description value="This Observation profile represents characteristics of the patient's home environment."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-clinical"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-disability-status"/>
-                <display value="US Public Health Disability Status"/>
-            </reference>
-            <name value="US Public Health Disability Status"/>
-            <description value="This Observation profile represents the Disability Element defined in the Office of the Assistant Secretary for Planning and Evaluation (ASPE) webpage [HHS Implementation Guidance on Data Collection Standards for Race, Ethnicity, Sex, Primary Language, and Disability Status](https://aspe.hhs.gov/basic-report/hhs-implementation-guidance-data-collection-standards-race-ethnicity-sex-primary-language-and-disability-status)."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-clinical"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-is-postpartum"/>
-                <display value="US Public Health Is Postpartum"/>
-            </reference>
-            <name value="US Public Health Is Postpartum"/>
-            <description value="This Observation profile represents whether or not the patient is postpartum."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-clinical"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-pregnancy-outcome-observation"/>
-                <display value="US Public Health Pregnancy Outcome Observation"/>
-            </reference>
-            <name value="US Public Health Pregnancy Outcome Observation"/>
-            <description value="This Observation profile represents a result of the pregnancy such as live birth, still birth, miscarriage, etc."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-clinical"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-pregnancy-status-observation"/>
-                <display value="US Public Health Pregnancy Status Observation"/>
-            </reference>
-            <name value="US Public Health Pregnancy Status Observation"/>
-            <description value="This Observation profile represents current and/or prior pregnancy statuses and their date ranges, enabling investigators to determine if a patient was pregnant, possibly pregnant, not pregnant or whether the pregnancy status was unknown during a particular date range."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-clinical"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-exposure-contact-information"/>
-                <display value="US Public Health Exposure Contact Information"/>
-            </reference>
-            <name value="US Public Health Exposure Contact Information"/>
-            <description value="This Observation profile represents potential patient exposure and contact information."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-clinical"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-transportation-details"/>
-                <display value="US Public Health Transportation Details"/>
-            </reference>
-            <name value="US Public Health Transportation Details"/>
-            <description value="This Observation profile represents transportation details such as the type of transport (plane, train, ship, etc.) along with any associated information (e.g. name of cruise ship, flight number, airport, seat number, cabin number, etc.)."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-clinical"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-organization"/>
-                <display value="US Public Health Organization"/>
-            </reference>
-            <name value="US Public Health Organization"/>
-            <description value="This Organization profile represents an organization involved in public health. It is based on the **US Core Organization** profile."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-entities"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-tribal-affiliation-extension"/>
-                <display value="US Public Health Tribal Affiliation Extension"/>
-            </reference>
-            <name value="US Public Health Tribal Affiliation Extension"/>
-            <description value="This Extension profile represents an affiliated tribe name and whether or not the patient is an enrolled member of that tribe."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-extensions"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-endpoint"/>
-                <display value="USbPublic Health Endpoint"/>
-            </reference>
-            <name value="US Public Health Endpoint"/>
-            <description value="This Endpoint profile for the IG represents a receivers address."/>
+            <name value="US Public Health Computable Library"/>
+            <description value="This Library profile sets the minimum expectations for a computable CQL library."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-group"/>
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-location"/>
-                <display value="US Public Health Location"/>
+                <reference value="StructureDefinition/us-ph-computable-valueset"/>
+                <display value="US Public Health Computable ValueSet"/>
             </reference>
-            <name value="US Public Health Location"/>
-            <description value="This Location profile represents the location/facility in which care was provided and is based on the US Core Location profile."/>
+            <name value="US Public Health Computable ValueSet"/>
+            <description value="This ValueSet profile defines a computable value set as one that SHALL have an expression-based definition (i.e. a value set defined intensionally using expressions of the code systems involved) and MAY have an expansion included. The expression-based definition SHALL be represented in only one of three ways; using the compose element, using the expression extension, or using the rules-text extension to provide a step-by-step process for expanding the value set definition."/>
             <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-entities"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/us-ph-computable-valueset-example"/>
+                <display value="US Public Health Computable ValueSet Example"/>
+            </reference>
+            <name value="US Public Health Computable ValueSet Example"/>
+            <description value="US Public Health Computable ValueSet: example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-valueset"/>
+            <groupingId value="example-value-sets"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-condition-encounter-diagnosis"/>
+                <display value="US Public Health Condition Encounter Diagnosis"/>
+            </reference>
+            <name value="US Public Health Condition Encounter Diagnosis"/>
+            <description value="This Condition Encounter Diagnosis profile represents the signs, symptoms, and diagnoses related to a public health event."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Condition/us-ph-condition-encounter-diagnosis-diabetes"/></reference>
+            <name value="US Public Health Condition Encounter Diagnosis - Eve Everywoman - Diabetes"/>
+            <description value="US Public Health Condition Encounter Diagnosis: Eve Everywoman - Diabetes example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition-encounter-diagnosis"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Condition/us-ph-condition-problem-health-concern-hypertension"/></reference>
+            <name value="US Public Health Condition Problem Health Concern - Eve Everywoman - Hypertension"/>
+            <description value="US Public Health Condition Problem Health Concern: Eve Everywoman - Hypertension example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition-problems-health-concerns"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-condition-problems-health-concerns"/>
+                <display value="US Public Health Condition Problems and Health Concerns"/>
+            </reference>
+            <name value="US Public Health Condition Problems and Health Concerns"/>
+            <description value="This Condition Problems and Health Concerns profile represents the signs, symptoms, and diagnoses related to a public health event."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-content-bundle"/>
+                <display value="USPH Content Bundle"/>
+            </reference>
+            <name value="US Public Health Content Bundle"/>
+            <description value="This Bundle profile organizes the content of the Public Health Message to be exchanged with a Public Health Agency."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Bundle/us-ph-content-bundle-example"/></reference>
+            <name value="US Public Health Content Bundle Example"/>
+            <description value="US Public Health Content Bundle: example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-content-bundle"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-data-encrypted-extension"/>
+                <display value="US Public Health Data Encrypted Extension"/>
+            </reference>
+            <name value="US Public Health Data Encrypted Extension"/>
+            <description value="This exension indicates whether or not the data in the content bundle is encrypted."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-extensions"/>
         </resource>
         <resource>
             <reference>
@@ -267,76 +312,6 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-plandefinition"/>
-                <display value="US Public Health PlanDefinition"/>
-            </reference>
-            <name value="US Public Health PlanDefinition"/>
-            <description value="This PlanDefinition profile describes the US Public Health PlanDefinition."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-clinical"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-practitionerrole"/>
-                <display value="US Public Health PractitionerRole"/>
-            </reference>
-            <name value="US Public Health PractitionerRole"/>
-            <description value="This PractitionerRole profile represents the roles and organizations of the practitioner."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-entities"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-determination-of-reportability-rule-extension"/>
-                <display value="US Public Health Determination of Reportability Rule Extension"/>
-            </reference>
-            <name value="US Public Health Determination of Reportability Rule Extension"/>
-            <description value="This Extension profile represents a rule that led to the determination of reportability."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-extensions"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-travel-history"/>
-                <display value="US Public Health Travel History"/>
-            </reference>
-            <name value="US Public Health Travel History"/>
-            <description value="This Observation profile represents a patient's travel history."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-clinical"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-address-extension"/>
-                <display value="US Public Health Address Extension"/>
-            </reference>
-            <name value="US Public Health Address Extension"/>
-            <description value="This Extension profile represents where the patient traveled to or visited as an address e.g.: country, state, city, street address (if applicable)."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-extensions"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-supplemental-valueset-library"/>
-                <display value="US Public Health Supplemental Valueset Library"/>
-            </reference>
-            <name value="US Public Health Supplemental ValueSet Library"/>
-            <description value="This Library profile defines the library containing the US Public Health supplemental value sets."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-triggering-valueset-library"/>
-                <display value="US Public Health Triggering ValueSet Library"/>
-            </reference>
-            <name value="US Public Health Triggering ValueSet Library"/>
-            <description value="This Library profile defines the library containing the US Public Health triggering value sets."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="StructureDefinition/us-ph-determination-of-reportability-extension"/>
                 <display value="US Public Health Determination of Reportability Extension"/>
             </reference>
@@ -357,143 +332,31 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-executable-valueset"/>
-                <display value="US Public Health Executable ValueSet"/>
+                <reference value="StructureDefinition/us-ph-determination-of-reportability-rule-extension"/>
+                <display value="US Public Health Determination of Reportability Rule Extension"/>
             </reference>
-            <name value="US Public Health Executable ValueSet"/>
-            <description value="Defines an executable value set as one that SHALL have an expansion included, as well as a usage warning indicating the expansion is a point-in-time snapshot and must be maintained over time for production usage."/>
+            <name value="US Public Health Determination of Reportability Rule Extension"/>
+            <description value="This Extension profile represents a rule that led to the determination of reportability."/>
             <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
+            <groupingId value="content-extensions"/>
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-computable-valueset"/>
-                <display value="US Public Health Computable ValueSet"/>
+                <reference value="StructureDefinition/us-ph-disability-status"/>
+                <display value="US Public Health Disability Status"/>
             </reference>
-            <name value="US Public Health Computable ValueSet"/>
-            <description value="This ValueSet profile defines a computable value set as one that SHALL have an expression-based definition (i.e. a value set defined intensionally using expressions of the code systems involved) and MAY have an expansion included. The expression-based definition SHALL be represented in only one of three ways; using the compose element, using the expression extension, or using the rules-text extension to provide a step-by-step process for expanding the value set definition"/>
+            <name value="US Public Health Disability Status"/>
+            <description value="This Observation profile represents the Disability Element defined in the Office of the Assistant Secretary for Planning and Evaluation (ASPE) webpage [HHS Implementation Guidance on Data Collection Standards for Race, Ethnicity, Sex, Primary Language, and Disability Status](https://aspe.hhs.gov/basic-report/hhs-implementation-guidance-data-collection-standards-race-ethnicity-sex-primary-language-and-disability-status)."/>
             <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
+            <groupingId value="content-profiles-clinical"/>
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-triggering-valueset"/>
-                <display value="US Public Health Triggering ValueSet"/>
-            </reference>
-            <name value="US Public Health Triggering ValueSet"/>
-            <description value="This ValueSet profile describes the US Public Health Triggering value set."/>
+                <reference value="Observation/us-ph-disability-status-eve-everywoman"/></reference>
+            <name value="US Public Health Disability Status - Eve Everywoman"/>
+            <description value="US Public Health Disability Status: Eve Everywoman example"/>
             <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-supplemental-valueset"/>
-                <display value="US Public Health Supplemental ValueSet"/>
-            </reference>
-            <name value="US Public Health Supplemental ValueSet"/>
-            <description value="This ValueSet profile describes the US Public Health Supplemental value set."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-valueset"/>
-                <display value="US Public Health ValueSet"/>
-            </reference>
-            <name value="US Public Health ValueSet"/>
-            <description value="This ValueSet profile describes US Public Health value sets."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-executable-library"/>
-                <display value="US Public Health Executable Library"/>
-            </reference>
-            <name value="US Public Health Executable Library"/>
-            <description value="This Library profile sets the minimum expectations for an executable CQL library. Specifically, the profile requires that the library contain one of ELM XML or JSON content, the compiled representation of the CQL logic."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-computable-library"/>
-                <display value="US Public Health Computable Library"/>
-            </reference>
-            <name value="US Public Health Computable Library"/>
-            <description value="This Library profile sets the minimum expectations for a computable CQL library."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-alternative-expression-extension"/>
-                <display value="US Public Health Alternative Expression Extension"/>
-            </reference>
-            <name value="US Public Health Alternative Expression Extension"/>
-            <description value="This Extension profile represents an US Public Health Alternative Expression."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="architecture-extensions"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-named-eventtype-extension"/>
-                <display value="US Public Health Named Event Type Extension"/>
-            </reference>
-            <name value="US Public Health Named Event Type Extension"/>
-            <description value="This Extension profile indicates the types of named events to subscribe to from the EHR."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="architecture-extensions"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-valueset-library"/>
-                <display value="US Public Health ValueSet Library"/>
-            </reference>
-            <name value="US Public Health ValueSet Library"/>
-            <description value="This Library profile defines the library containing US Public Health value sets."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-codesystem"/>
-                <display value="US Public Health CodeSystem"/>
-            </reference>
-            <name value="US Public Health CodeSystem"/>
-            <description value="This CodeSystem profile describes the US Public Health CodeSystem."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-usagewarning-extension"/>
-                <display value="US Public Health Usage Warning Extension"/>
-            </reference>
-            <name value="US Public Health Usage Warning Extension"/>
-            <description value="This Extension profile represents an extra warning about the correct use of the value set."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="architecture-extensions"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-codesystem-property-binding-extension"/>
-                <display value="US Public Health CodeSystem Property Binding Extension"/>
-            </reference>
-            <name value="US Public Health CodeSystem Property Binding Extension"/>
-            <description value="This Extension profile represents a reference to a CodeSystem or ValueSet that establishes the allowable values for a code system property."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-messageheader"/>
-                <display value="US Public Health MessageHeader"/>
-            </reference>
-            <name value="US Public Health MessageHeader"/>
-            <description value="This MessageHeader profile represents the header for transmitting content using FHIR messaging."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-disability-status"/>
         </resource>
         <resource>
             <reference>
@@ -507,33 +370,114 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-initiation-reason-extension"/>
-                <display value="US Public Health Initiation Reason Extension"/>
-            </reference>
-            <name value="US Public Health Initiation Reason Extension"/>
-            <description value="This Extension profile contains an explanation for the manual or alternate initiation of the public health report."/>
+                <reference value="Bundle/us-ph-document-bundle-example"/></reference>
+            <name value="US Public Health Document Bundle Example"/>
+            <description value="US Public Health Document Bundle: example"/>
             <exampleBoolean value="false"/>
-            <groupingId value="content-extensions"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle"/>
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-data-encrypted-extension"/>
-                <display value="US Public Health Data Encrypted Extension"/>
+                <reference value="StructureDefinition/us-ph-emergency-outbreak-information"/>
+                <display value="US Public Health Emergency Outbreak Information"/>
             </reference>
-            <name value="US Public Health Data Encrypted Extension"/>
-            <description value="This exension indicates whether the data in the content bundle is encrypted or not."/>
+            <name value="US Public Health Emergency Outbreak Information"/>
+            <description value="This Observation profile represents information that is required during a public health emergency/outbreak. This information can be highly variable, so a generic structure has been chosen to represent it."/>
             <exampleBoolean value="false"/>
-            <groupingId value="architecture-extensions"/>
+            <groupingId value="content-profiles-clinical"/>
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-message-processing-category-extension"/>
-                <display value="US Public Health Message Processing Category Extension"/>
-            </reference>
-            <name value="US Public Health Message Processing Category Extension"/>
-            <description value="This Extension profile indicates how systems have to deal with messages in terms of duplicates, lack of responses."/>
+                <reference value="Observation/us-ph-emergency-outbreak-info-eve-everywoman"/></reference>
+            <name value="US Public Health Emergency Outbreak Information - Eve Everywoman"/>
+            <description value="US Public Health Emergency Outbreak Information: Eve Everywoman example"/>
             <exampleBoolean value="false"/>
-            <groupingId value="architecture-extensions"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-emergency-outbreak-information"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-encounter"/>
+                <display value="US Public Health Encounter"/>
+            </reference>
+            <name value="US Public Health Encounter"/>
+            <description value="This Encounter profile represents the encounter related to a public health event"/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Encounter/us-ph-encounter-eve-everywoman-outpatient"/></reference>
+            <name value="US Public Health Encounter - Eve Everywoman"/>
+            <description value="US Public Health Encounter: Eve Everywoman example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-encounter"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-endpoint"/>
+                <display value="USbPublic Health Endpoint"/>
+            </reference>
+            <name value="US Public Health Endpoint"/>
+            <description value="This Endpoint profile indicates where the report is to be sent."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Endpoint/us-ph-endpoint-salem-medical-center"/></reference>
+            <name value="US Public Health Endpoint - Salem Medical Center"/>
+            <description value="US Public Health Endpoint: Salem Medical Center example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-endpoint"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Endpoint/us-ph-endpoint-ymca"/></reference>
+            <name value="US Public Health Endpoint - YMCA"/>
+            <description value="US Public Health Endpoint: YMCA example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-endpoint"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/us-ph-endpoint-connection-type-example"/>
+                <display value="US Public Health Endpoint Connection Type Example"/>
+            </reference>
+            <name value="US Public Health Endpoint Connection Type Example"/>
+            <description value="This code system contains codes that identify the HL7 FHIR File type."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="example-value-sets"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-executable-library"/>
+                <display value="US Public Health Executable Library"/>
+            </reference>
+            <name value="US Public Health Executable Library"/>
+            <description value="This Library profile sets the minimum expectations for an executable CQL library. Specifically, the profile requires that the library contain one of ELM XML or JSON content, the compiled representation of the CQL logic."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-executable-valueset"/>
+                <display value="US Public Health Executable ValueSet"/>
+            </reference>
+            <name value="US Public Health Executable ValueSet"/>
+            <description value="Defines an executable value set as one that SHALL have an expansion included, as well as a usage warning indicating the expansion is a point-in-time snapshot and must be maintained over time for production usage."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/us-ph-executable-valueset-chlamydia-example"/>
+                <display value="US Public Health Executable ValueSet Chlamydia Example"/>
+            </reference>
+            <name value="US Public Health Executable ValueSet - Chlamydia Example"/>
+            <description value="US Public Health Executable ValueSet: Chlamydia example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-valueset"/>
+            <groupingId value="example-value-sets"/>
         </resource>
         <resource>
             <reference>
@@ -547,98 +491,28 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-information-recipient-extension"/>
-                <display value="US Public Health Information Recipient Extension"/>
+                <reference value="StructureDefinition/us-ph-exposure-contact-information"/>
+                <display value="US Public Health Exposure Contact Information"/>
             </reference>
-            <name value="US Public Health Information Recipient Extension"/>
-            <description value="This Extension profile represents a US Public Health Information Recipient."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-extensions"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-receiver-address-extension"/>
-                <display value="US Public Health Receiver Address Extension"/>
-            </reference>
-            <name value="US Public Health Receiver Address Extension"/>
-            <description value="This Extension profile indicates the endpoint address where the report is to be sent."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-extensions"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-supplemental-library"/>
-                <display value="US Public Health Supplemental Library"/>
-            </reference>
-            <name value="US Public Health Supplemental Library"/>
-            <description value="This Library profile defines the asset-collection library containing the US Public Health supplemental assets."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-specification-library"/>
-                <display value="US Public Health Specification Library"/>
-            </reference>
-            <name value="US Public Health Specification Library"/>
-            <description value="This Library profile defines the asset-collection library containing the US Public Health specification assets."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-medicationadministration"/>
-                <display value="US Public Health MedicationAdministration"/>
-            </reference>
-            <name value="US Public Health MedicationAdministration"/>
-            <description value="This MedicationAdministration profile represents the event of a patient consuming or otherwise being administered a medication."/>
+            <name value="US Public Health Exposure Contact Information"/>
+            <description value="This Observation profile represents potential patient exposure and contact information."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
         <resource>
             <reference>
-                <reference value="CodeSystem/us-ph-message-types-codesystem"/>
-                <display value="US Public Health Message Types CodeSystem"/>
-            </reference>
-            <name value="US Public Health Message Types CodeSystem"/>
-            <description value="The US Public Health Message Types CodeSystem contains codes for currently identified use cases for identifying types of messages being exchanged. As further use cases are identified, codes may be added to the code system."/>
+                <reference value="Observation/us-ph-exposure-contact-info-football-game"/></reference>
+            <name value="US Public Health Exposure Contact Information - Football Game"/>
+            <description value="US Public Health Exposure Contact Information: Football Game example"/>
             <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-exposure-contact-information"/>
         </resource>
         <resource>
             <reference>
-                <reference value="CodeSystem/us-ph-plandefinition-actions"/>
-                <display value="US Public Health PlanDefinition Action Codes"/>
-            </reference>
-            <name value="US Public Health PlanDefinition Action Codes"/>
-            <description value="The US Public Health PlanDefinition Actions CodeSystem is a 'starter set' of codes supported for identifying actions in PlanDefinition."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="CodeSystem/us-ph-triggerdefinition-namedevents"/>
-                <display value="US Public Health TriggerDefinition NamedEvents"/>
-            </reference>
-            <name value="US Public Health TriggerDefinition NamedEvents"/>
-            <description value="The US Public Health TriggerDefinition NamedEvents CodeSystem is a 'starter set' of codes supported for identifying named events to subscribe to in clinical workflows."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="CodeSystem/us-ph-usage-context"/>
-                <display value="US Public Health Usage Context"/>
-            </reference>
-            <name value="US Public Health Usage Context"/>
-            <description value="This code system contains codes that identify the use context of a ValueSet or Library."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="CodeSystem/us-ph-usage-context-type"/>
-                <display value="US Public Health Usage Context Type"/>
-            </reference>
-            <name value="US Public Health Usage Context Type"/>
-            <description value="This code system contains codes that identify the use context type of a ValueSet or Library."/>
-            <exampleBoolean value="false"/>
+                <reference value="Observation/us-ph-reportability-information-observation"/></reference>
+            <name value="US Public Health Extensions Example"/>
+            <description value="US Public Health Extensions: Example to demonstrate extensions"/>
+            <exampleBoolean value="true"/>
         </resource>
         <resource>
             <reference>
@@ -652,128 +526,61 @@
         </resource>
         <resource>
             <reference>
-                <reference value="ValueSet/us-ph-pregnancy-status"/>
-                <display value="US Public Health Pregnancy Status"/>
+                <reference value="StructureDefinition/us-ph-genderidentity-extension"/>
+                <display value="US Public Health Gender Identity Extension"/>
             </reference>
-            <name value="US Public Health Pregnancy Status"/>
-            <description value="This value set contains codes representing pregnancy statuses."/>
+            <name value="US Public Health Gender Identity Extension"/>
+            <description value="This Extension profile represents an individual’s personal sense of being a man, woman, boy, girl, nonbinary, or something else."/>
             <exampleBoolean value="false"/>
+            <groupingId value="content-extensions"/>
         </resource>
         <resource>
             <reference>
-                <reference value="ValueSet/us-ph-message-types-valueset"/>
-                <display value="US Public Health Message Types ValueSet"/>
+                <reference value="StructureDefinition/us-ph-information-recipient-extension"/>
+                <display value="US Public Health Information Recipient Extension"/>
             </reference>
-            <name value="US Public Health Message Types ValueSet"/>
-            <description value="The US Public Health Message Types Value Set is a 'starter set' of codes for uniquely identifying messages in MessageHeader instances contained within a reporting bundle."/>
+            <name value="US Public Health Information Recipient Extension"/>
+            <description value="This Extension profile represents a US Public Health Information Recipient."/>
             <exampleBoolean value="false"/>
+            <groupingId value="content-extensions"/>
         </resource>
         <resource>
             <reference>
-                <reference value="ValueSet/us-ph-triggerdefinition-namedevent"/>
-                <display value="US Public Health TriggerDefinition NamedEvent"/>
+                <reference value="StructureDefinition/us-ph-initiation-reason-extension"/>
+                <display value="US Public Health Initiation Reason Extension"/>
             </reference>
-            <name value="US Public Health TriggerDefinition NamedEvent"/>
-            <description value="The US Public Health TriggerDefinition NamedEvent Value Set is a 'starter set' of codes for identifying named events uniquely in TriggerDefinition instances contained within a PlanDefinition."/>
+            <name value="US Public Health Initiation Reason Extension"/>
+            <description value="This Extension profile contains an explanation for the manual or alternate initiation of the public health report."/>
             <exampleBoolean value="false"/>
+            <groupingId value="content-extensions"/>
         </resource>
         <resource>
             <reference>
-                <reference value="ValueSet/us-ph-plandefinition-action"/>
-                <display value="US Public Health PlanDefinition Action"/>
+                <reference value="StructureDefinition/us-ph-is-postpartum"/>
+                <display value="US Public Health Is Postpartum"/>
             </reference>
-            <name value="US Public Health PlanDefinition Action"/>
-            <description value="The US Public Health PlanDefinition Action Value Set is a 'starter set' of codes for uniquely identifying actions in PlanDefinition instances."/>
+            <name value="US Public Health Is Postpartum"/>
+            <description value="This Observation profile represents whether or not the patient is postpartum."/>
             <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/us-ph-message-significance-category"/>
-                <display value="US Public Health Message Significance Category"/>
-            </reference>
-            <name value="US Public Health Message Significance Category"/>
-            <description value="The impact of the content of a message."/>
-            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
         </resource>
         <resource>
             <reference>
                 <reference value="Observation/us-ph-postpartum-status-eve-everywoman"/></reference>
-            <name value="US Public Health Postpartum Status - Eve Everywoman"/>
-            <description value="US Public Health Postpartum Status: Eve Everywoman example"/>
+            <name value="US Public Health Is Postpartum - Eve Everywoman"/>
+            <description value="US Public Health Is Postpartum: Eve Everywoman example"/>
             <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-postpartum-status"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-is-postpartum"/>
         </resource>
         <resource>
             <reference>
-                <reference value="Observation/us-ph-char-home-environment-eve-everywoman"/></reference>
-            <name value="US Public Health Characteristics of Home Environment - Eve Everywoman"/>
-            <description value="US Public Health Characteristics of Home Environment: Eve Everywoman example"/>
+                <reference value="CodeSystem/us-ph-jurisdiction-types-example"/>
+                <display value="US Public Health Jurisdiction Types Example"/>
+            </reference>
+            <name value="US Public Health Jurisdiction Types Example"/>
+            <description value="This example code system describes the possible types of jurisdictions that require public health reporting."/>
             <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-characteristics-of-home-environment"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Observation/us-ph-lab-result-eve-everywoman-pertussis"/></reference>
-            <name value="US Public Health Laboratory Result - Eve Everywoman - Pertussis"/>
-            <description value="US Public Health Laboratory Result: Eve Everywoman - Pertussis example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-lab-result-observation"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Observation/us-ph-emergency-outbreak-info-eve-everywoman"/></reference>
-            <name value="US Public Health Emergency Outbreak Information - Eve Everywoman"/>
-            <description value="US Public Health Emergency Outbreak Information: Eve Everywoman example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-emergency-outbreak-information"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Observation/us-ph-disability-status-eve-everywoman"/></reference>
-            <name value="US Public Health Disability Status - Eve Everywoman"/>
-            <description value="US Public Health Disability Status: Eve Everywoman example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-disability-status"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Observation/us-ph-transportation-details-eve-everywoman"/></reference>
-            <name value="US Public Health Transportation Details - Eve Everywoman"/>
-            <description value="US Public Health Transportation Details: Eve Everywoman example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-transportation-details"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Observation/us-ph-travel-history-eve-everywoman-1999"/></reference>
-            <name value="US Public Health Travel History - Eve Everywoman 1999"/>
-            <description value="US Public Health Travel History: Eve Everywoman 1999 example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-travel-history"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Observation/us-ph-pregnancy-outcome-eve-everywoman"/></reference>
-            <name value="US Public Health Pregnancy Outcome - Eve Everywoman"/>
-            <description value="US Public Health Pregnancy Outcome: Eve Everywoman example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-pregnancy-outcome-observation"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Observation/us-ph-pregnancy-status-eve-everywoman"/></reference>
-            <name value="US Public Health Pregnancy Status - Eve Everywoman"/>
-            <description value="US Public Health Pregnancy Status: Eve Everywoman example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-pregnancy-status-observation"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Observation/us-ph-exposure-contact-info-football-game"/></reference>
-            <name value="US Public Health Exposure Contact Information - Football Game"/>
-            <description value="US Public Health Exposure Contact Information: Football Game example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-exposure-contact-information"/>
+            <groupingId value="example-value-sets"/>
         </resource>
         <resource>
             <reference>
@@ -785,74 +592,31 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Observation/us-ph-travel-history-eve-everywoman-201610"/></reference>
-            <name value="US Public Health Travel History - Eve Everywoman 201610"/>
-            <description value="US Public Health Travel History: Eve Everywoman 201610 example"/>
+                <reference value="Observation/us-ph-lab-result-eve-everywoman-pertussis"/></reference>
+            <name value="US Public Health Laboratory Result - Eve Everywoman - Pertussis"/>
+            <description value="US Public Health Laboratory Result: Eve Everywoman - Pertussis example"/>
             <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-travel-history"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-lab-result-observation"/>
         </resource>
         <resource>
             <reference>
-                <reference value="Observation/us-ph-travel-history-eve-everywoman-201801"/></reference>
-            <name value="US Public Health Travel History - Eve Everywoman 201801"/>
-            <description value="US Public Health Travel History: Eve Everywoman 201801 example"/>
+                <reference value="StructureDefinition/us-ph-lab-result-observation"/>
+                <display value="US Public Health Laboratory Result Observation Profile"/>
+            </reference>
+            <name value="US Public Health Laboratory Result Observation Profile"/>
+            <description value="This Observation profile represents Laboratory Result Observations related to a public health event."/>
             <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-travel-history"/>
+            <groupingId value="content-profiles-clinical"/>
         </resource>
         <resource>
             <reference>
-                <reference value="Patient/us-ph-patient-eve-everywoman"/></reference>
-            <name value="US Public Health Patient - Eve Everywoman"/>
-            <description value="US Public Health Patient: Eve Everywoman example"/>
+                <reference value="StructureDefinition/us-ph-location"/>
+                <display value="US Public Health Location"/>
+            </reference>
+            <name value="US Public Health Location"/>
+            <description value="This Location profile represents the location/facility in which care was provided."/>
             <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Practitioner/us-core-practitioner-henry-seven"/></reference>
-            <name value="US Core Practitioner - Henry Seven"/>
-            <description value="US Core Practitioner: Henry Seven example"/>
-            <exampleBoolean value="true"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="PractitionerRole/us-ph-practitionerrole-henry-seven"/></reference>
-            <name value="US Public Health PractitionerRole - Henry Seven"/>
-            <description value="US Public Health PractitionerRole: Henry Seven example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-practitionerrole"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Condition/us-ph-condition-eve-everywoman-diabetes"/></reference>
-            <name value="US Public Health Condition - Eve Everywoman - Diabetes"/>
-            <description value="US Public Health Condition: Eve Everywoman - Diabetes example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Encounter/us-ph-encounter-eve-everywoman-outpatient"/></reference>
-            <name value="US Public Health Encounter - Eve Everywoman"/>
-            <description value="US Public Health Encounter: Eve Everywoman example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-encounter"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Endpoint/us-ph-endpoint-ymca"/></reference>
-            <name value="US Public Health Endpoint - YMCA"/>
-            <description value="US Public Health Endpoint: YMCA example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-endpoint"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Endpoint/us-ph-endpoint-salem-medical-center"/></reference>
-            <name value="US Public Health Endpoint - Salem Medical Center"/>
-            <description value="US Public Health Endpoint: Salem Medical Center example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-endpoint"/>
+            <groupingId value="content-profiles-entities"/>
         </resource>
         <resource>
             <reference>
@@ -866,6 +630,16 @@
         </resource>
         <resource>
             <reference>
+                <reference value="StructureDefinition/us-ph-medicationadministration"/>
+                <display value="US Public Health MedicationAdministration"/>
+            </reference>
+            <name value="US Public Health MedicationAdministration"/>
+            <description value="This MedicationAdministration profile represents the event of a patient consuming or otherwise being administered a medication."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="MedicationAdministration/us-ph-medadmin-eve-everywoman-azithromycin"/></reference>
             <name value="US Public Health MedicationAdministration - Eve Everywoman - Azithromycin"/>
             <description value="US Public Health MedicationAdministration: Eve Everywoman Azithromycin example"/>
@@ -874,22 +648,86 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Organization/us-ph-organization-salem-medical-center"/>
-                <display value="Salem Medical Center"/>
-            </reference>
-            <name value="US Public Health Organization - Salem Medical Center"/>
-            <description value="US Public Health Organization: Salem Medical Center example"/>
+                <reference value="MedicationAdministration/us-ph-medadmin-eve-everywoman-naloxone-response"/></reference>
+            <name value="US Public Health MedicationAdministration - Eve Everywoman - Naloxone"/>
+            <description value="US Public Health MedicationAdministration: Eve Everywoman - Naloxone example"/>
             <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-organization"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-medicationadministration"/>
         </resource>
         <resource>
             <reference>
-                <reference value="Location/us-core-location-city-football-stadium"/>
-                <display value="City Football Stadium"/>
+                <reference value="StructureDefinition/us-ph-message-processing-category-extension"/>
+                <display value="US Public Health Message Processing Category Extension"/>
             </reference>
-            <name value="US Core Location - City Football Stadium"/>
-            <description value="US Core Location: City Football Stadium example"/>
-            <exampleBoolean value="true"/>
+            <name value="US Public Health Message Processing Category Extension"/>
+            <description value="This Extension profile indicates how systems have to deal with messages in terms of duplicates, lack of responses."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/us-ph-message-significance-category"/>
+                <display value="US Public Health Message Significance Category"/>
+            </reference>
+            <name value="US Public Health Message Significance Category"/>
+            <description value="The impact of the content of a message."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/us-ph-message-types-codesystem"/>
+                <display value="US Public Health Message Types CodeSystem"/>
+            </reference>
+            <name value="US Public Health Message Types CodeSystem"/>
+            <description value="The US Public Health Message Types CodeSystem contains codes for currently identified use cases for identifying types of messages being exchanged. As further use cases are identified, codes may be added to the code system."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/us-ph-message-types-valueset"/>
+                <display value="US Public Health Message Types ValueSet"/>
+            </reference>
+            <name value="US Public Health Message Types ValueSet"/>
+            <description value="The US Public Health Message Types Value Set contains codes for currently identified use cases for uniquely identifying messages in MessageHeader instances contained within a reporting bundle."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-messageheader"/>
+                <display value="US Public Health MessageHeader"/>
+            </reference>
+            <name value="US Public Health MessageHeader"/>
+            <description value="This MessageHeader profile represents the header for transmitting content using FHIR messaging."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="MessageHeader/us-ph-messageheader-case-report"/></reference>
+            <name value="US Public Health MessageHeader - Case Report"/>
+            <description value="US Public Health MessageHeader: Case Report example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-messageheader"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-named-eventtype-extension"/>
+                <display value="US Public Health Named Event Type Extension"/>
+            </reference>
+            <name value="US Public Health Named Event Type Extension"/>
+            <description value="This Extension profile indicates the types of named events to subscribe to from the EHR."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-organization"/>
+                <display value="US Public Health Organization"/>
+            </reference>
+            <name value="US Public Health Organization"/>
+            <description value="This Organization profile represents an organization involved in public health."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-entities"/>
         </resource>
         <resource>
             <reference>
@@ -913,6 +751,16 @@
         </resource>
         <resource>
             <reference>
+                <reference value="Organization/us-ph-organization-salem-medical-center"/>
+                <display value="Salem Medical Center"/>
+            </reference>
+            <name value="US Public Health Organization - Salem Medical Center"/>
+            <description value="US Public Health Organization: Salem Medical Center example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-organization"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="Organization/us-ph-organization-ymca-center"/>
                 <display value="YMCA"/>
             </reference>
@@ -920,6 +768,34 @@
             <description value="US Public Health Organization: YMCA example"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-organization"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-patient"/>
+                <display value="US Public Health Patient"/>
+            </reference>
+            <name value="US Public Health Patient"/>
+            <description value="This Patient profile represents a US Public Health Patient."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-entities"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/us-ph-patient-eve-everywoman"/></reference>
+            <name value="US Public Health Patient - Eve Everywoman"/>
+            <description value="US Public Health Patient: Eve Everywoman example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-plandefinition"/>
+                <display value="US Public Health PlanDefinition"/>
+            </reference>
+            <name value="US Public Health PlanDefinition"/>
+            <description value="This PlanDefinition profile describes the US Public Health PlanDefinition."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
         </resource>
         <resource>
             <reference>
@@ -933,105 +809,30 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-lab-result-observation"/>
-                <display value="US Public Health Laboratory Result Observation Profile"/>
+                <reference value="CodeSystem/us-ph-plandefinition-actions"/>
+                <display value="US Public Health PlanDefinition Action Codes"/>
             </reference>
-            <name value="US Public Health Laboratory Result Observation Profile"/>
-            <description value="This Observation profile represents Laboratory Result Observations related to a public health event and is based on the US Core Lab Result Observation profile."/>
+            <name value="US Public Health PlanDefinition Action"/>
+            <description value="The US Public Health PlanDefinition Actions CodeSystem contains codes for currently identified use cases for identifying actions in PlanDefinition."/>
             <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-clinical"/>
         </resource>
         <resource>
             <reference>
-                <reference value="MessageHeader/us-ph-messageheader-case-report"/></reference>
-            <name value="US Public Health MessageHeader - Case Report"/>
-            <description value="US Public Health MessageHeader: Case Report example"/>
+                <reference value="ValueSet/us-ph-plandefinition-action"/>
+                <display value="US Public Health PlanDefinition Action"/>
+            </reference>
+            <name value="US Public Health PlanDefinition Action"/>
+            <description value="The US Public Health PlanDefinition Action Value Set contains codes for currently identified use cases for uniquely identifying actions in PlanDefinition instances."/>
             <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-messageheader"/>
         </resource>
         <resource>
             <reference>
-                <reference value="Device/device-software-ymca"/></reference>
-            <name value="Device - Software YMCA"/>
-            <description value="Device: Software YMCA example"/>
+                <reference value="PlanDefinition/us-ph-plandefinition-alt-expression-example"/>
+                <display value="US Public Health PlanDefinition Alternative Expression Example"/>
+            </reference>
+            <name value="US Public Health PlanDefinition Alternative Expression Example"/>
+            <description value="US Public Health PlanDefinition: Alternative Expression example"/>
             <exampleBoolean value="true"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-genderidentity-extension"/>
-                <display value="US Public Health Gender Identity Extension"/>
-            </reference>
-            <name value="US Public Health Gender Identity Extension"/>
-            <description value="This Extension profile represents an individual's personal sense of being a man, woman, boy, girl, nonbinary, or something else. This represents an individual’s identity, ascertained by asking them what that identity is."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-extensions"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="MedicationAdministration/us-ph-medadmin-eve-everywoman-naloxone-response"/></reference>
-            <name value="US Public Health MedicationAdministration - Eve Everywoman - Naloxone"/>
-            <description value="US Public Health MedicationAdministration: Eve Everywoman - Naloxone example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-medicationadministration"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-therapeutic-medication-response-extension"/>
-                <display value="US Public Health Therapeutic Medication Response Extension"/>
-            </reference>
-            <name value="US Public Health Therapeutic Medication Response Extension"/>
-            <description value="This Extension profile represents a therapeutic response (as opposed to an undesired reaction) to the administration of a medication."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Library/us-ph-valueset-library-example"/>
-                <display value="US Public Health ValueSet Library Example"/>
-            </reference>
-            <name value="US Public Health ValueSet Library - Example"/>
-            <description value="US Public Health ValueSet Library: example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset-library"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/us-ph-triggering-valueset-chlamydia-example"/>
-                <display value="US Public Health Triggering ValueSet Chlamydia Example"/>
-            </reference>
-            <name value="US Public Health Triggering ValueSet - Chlamydia Example"/>
-            <description value="US Public Health Triggering ValueSet: Chlamydia Example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset"/>
-            <groupingId value="example-value-sets"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Library/us-ph-triggering-valueset-library-example"/>
-                <display value="US Public Health Triggering ValueSet Library Example"/>
-            </reference>
-            <name value="US Public Health Triggering ValueSet Library - Example"/>
-            <description value="US Public Health Triggering ValueSet Library: example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset-library"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/us-ph-executable-valueset-chlamydia-example"/>
-                <display value="US Public Health Executable ValueSet Chlamydia Example"/>
-            </reference>
-            <name value="US Public Health Executable ValueSet - Chlamydia Example"/>
-            <description value="US Public Health Executable ValueSet: Chlamydia example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-valueset"/>
-            <groupingId value="example-value-sets"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Group/us-ph-survey-practitioner-group-example"/></reference>
-            <name value="US Public Health Survey Practitioner Group - Example"/>
-            <description value="US Public Health Survey Practitioner Group: example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-survey-practitioner-group"/>
         </resource>
         <resource>
             <reference>
@@ -1045,43 +846,113 @@
         </resource>
         <resource>
             <reference>
-                <reference value="ValueSet/us-ph-supplemental-valueset-example"/>
-                <display value="US Public Health Supplemental Valueset Example"/>
+                <reference value="StructureDefinition/us-ph-practitionerrole"/>
+                <display value="US Public Health PractitionerRole"/>
             </reference>
-            <name value="US Public Health Supplemental Valueset Example"/>
-            <description value="This valueset is a valueset created for the purposes of demonstrating, by example, the US Public Health Supplemental ValueSet profile."/>
+            <name value="US Public Health PractitionerRole"/>
+            <description value="This PractitionerRole profile represents the roles and organizations of the practitioner."/>
             <exampleBoolean value="false"/>
-            <groupingId value="example-value-sets"/>
+            <groupingId value="content-profiles-entities"/>
         </resource>
         <resource>
             <reference>
-                <reference value="CodeSystem/us-ph-endpoint-connection-type-example"/>
-                <display value="US Public Health Endpoint Connection Type Example"/>
-            </reference>
-            <name value="US Public Health Endpoint Connection Type Example"/>
-            <description value="This code system contains codes that identify the HL7 FHIR File type."/>
+                <reference value="PractitionerRole/us-ph-practitionerrole-henry-seven"/></reference>
+            <name value="US Public Health PractitionerRole - Henry Seven"/>
+            <description value="US Public Health PractitionerRole: Henry Seven example"/>
             <exampleBoolean value="false"/>
-            <groupingId value="example-value-sets"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-practitionerrole"/>
         </resource>
         <resource>
             <reference>
-                <reference value="ValueSet/us-ph-valueset-chlamydia-example"/>
-                <display value="US Public Health ValueSet Chlamydia Example"/>
-            </reference>
-            <name value="US Public Health ValueSet Chlamydia Example"/>
-            <description value="This example set of values contains laboratory observations test names that represent Chlamydia tests"/>
+                <reference value="Observation/us-ph-pregnancy-outcome-eve-everywoman"/></reference>
+            <name value="US Public Health Pregnancy Outcome - Eve Everywoman"/>
+            <description value="US Public Health Pregnancy Outcome: Eve Everywoman example"/>
             <exampleBoolean value="false"/>
-            <groupingId value="example-value-sets"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-pregnancy-outcome-observation"/>
         </resource>
         <resource>
             <reference>
-                <reference value="Library/us-ph-supplemental-valueset-library-example"/>
-                <display value="US Public Health Supplemental ValueSet Library Example"/>
+                <reference value="StructureDefinition/us-ph-pregnancy-outcome-observation"/>
+                <display value="US Public Health Pregnancy Outcome Observation"/>
             </reference>
-            <name value="US Public Health Supplemental ValueSet Library Example"/>
-            <description value="Description of library"/>
+            <name value="US Public Health Pregnancy Outcome Observation"/>
+            <description value="This Observation profile represents a result of the pregnancy such as live birth, still birth, miscarriage, etc."/>
             <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-valueset-library"/>
+            <groupingId value="content-profiles-clinical"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/us-ph-pregnancy-status"/>
+                <display value="US Public Health Pregnancy Status"/>
+            </reference>
+            <name value="US Public Health Pregnancy Status"/>
+            <description value="This value set contains codes representing pregnancy statuses."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Observation/us-ph-pregnancy-status-eve-everywoman"/></reference>
+            <name value="US Public Health Pregnancy Status - Eve Everywoman"/>
+            <description value="US Public Health Pregnancy Status: Eve Everywoman example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-pregnancy-status-observation"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-pregnancy-status-observation"/>
+                <display value="US Public Health Pregnancy Status Observation"/>
+            </reference>
+            <name value="US Public Health Pregnancy Status Observation"/>
+            <description value="This Observation profile represents current and/or prior pregnancy statuses and their date ranges, enabling investigators to determine if a patient was pregnant, possibly pregnant, not pregnant or whether the pregnancy status was unknown during a particular date range."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-receiver-address-extension"/>
+                <display value="US Public Health Receiver Address Extension"/>
+            </reference>
+            <name value="US Public Health Receiver Address Extension"/>
+            <description value="This Extension profile indicates the endpoint address where the report is to be sent."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-relateddata-extension"/>
+                <display value="US Public Health Related Data Extension"/>
+            </reference>
+            <name value="US Public Health Related Data Extension"/>
+            <description value="The Extension profile allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-reporting-bundle"/>
+                <display value="US Public Health Reporting Bundle"/>
+            </reference>
+            <name value="US Public Health Reporting Bundle"/>
+            <description value="This Bundle profile is used for exchanging a public health report to be submitted to a Public Health Agency."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Bundle/us-ph-reporting-bundle-example"/></reference>
+            <name value="US Public Health Reporting Bundle Example"/>
+            <description value="US Public Health Reporting Bundle: example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-reporting-bundle"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-specification-library"/>
+                <display value="US Public Health Specification Library"/>
+            </reference>
+            <name value="US Public Health Specification Library"/>
+            <description value="This Library profile defines the asset-collection library containing the US Public Health specification assets."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
         </resource>
         <resource>
             <reference>
@@ -1095,58 +966,13 @@
         </resource>
         <resource>
             <reference>
-                <reference value="CodeSystem/us-ph-codesystem-jurisdictions-example"/>
-                <display value="US Public Health CodeSystem Jurisdictions Example"/>
+                <reference value="StructureDefinition/us-ph-supplemental-library"/>
+                <display value="US Public Health Supplemental Library"/>
             </reference>
-            <name value="US Public Health CodeSystem Jurisdictions Example"/>
-            <description value="This code system describes jurisdictions."/>
+            <name value="US Public Health Supplemental Library"/>
+            <description value="This Library profile defines the asset-collection library containing the US Public Health supplemental assets."/>
             <exampleBoolean value="false"/>
-            <groupingId value="example-value-sets"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Library/us-ph-executable-library-rule-filters"/>
-                <display value="Rule Filters"/>
-            </reference>
-            <name value="Rule Filters"/>
-            <description value="An example logic library for eRSD - Chlamydia example."/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-library"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="CodeSystem/us-ph-jurisdiction-types-example"/>
-                <display value="US Public Health Jurisdiction Types Example"/>
-            </reference>
-            <name value="US Public Health Jurisdiction Types Example"/>
-            <description value="This example code system describes the possible types of jurisdictions that require public health reporting."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="example-value-sets"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Composition/us-ph-composition-example"/>
-                <display value="US Public Health Composition Example"/>
-            </reference>
-            <name value="US Public Health Composition Example"/>
-            <description value="US Public Health Composition: example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-composition"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Observation/us-ph-reportability-information-observation"/></reference>
-            <name value="US Public Health Extensions Example"/>
-            <description value="US Public Health Extensions: Example to demonstrate extensions"/>
-            <exampleBoolean value="true"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Bundle/us-ph-document-bundle-example"/></reference>
-            <name value="US Public Health Document Bundle Example"/>
-            <description value="US Public Health Document Bundle: example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle"/>
+            <groupingId value="architecture-profiles-group"/>
         </resource>
         <resource>
             <reference>
@@ -1160,39 +986,259 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Bundle/us-ph-reporting-bundle-example"/></reference>
-            <name value="US Public Health Reporting Bundle Example"/>
-            <description value="US Public Health Reporting Bundle: example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-reporting-bundle"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Bundle/us-ph-content-bundle-example"/></reference>
-            <name value="US Public Health Content Bundle Example"/>
-            <description value="US Public Health Content Bundle: example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-content-bundle"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/us-ph-computable-valueset-example"/>
-                <display value="US Public Health Computable ValueSet Example"/>
+                <reference value="StructureDefinition/us-ph-supplemental-valueset"/>
+                <display value="US Public Health Supplemental ValueSet"/>
             </reference>
-            <name value="US Public Health Computable ValueSet Example"/>
-            <description value="US Public Health Computable ValueSet: example"/>
+            <name value="US Public Health Supplemental ValueSet"/>
+            <description value="This ValueSet profile describes the US Public Health Supplemental value set."/>
             <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-valueset"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/us-ph-supplemental-valueset-example"/>
+                <display value="US Public Health Supplemental Valueset Example"/>
+            </reference>
+            <name value="US Public Health Supplemental Valueset Example"/>
+            <description value="This valueset is a valueset created for the purposes of demonstrating, by example, the US Public Health Supplemental ValueSet profile."/>
+            <exampleBoolean value="false"/>
             <groupingId value="example-value-sets"/>
         </resource>
         <resource>
             <reference>
-                <reference value="PlanDefinition/us-ph-plandefinition-alt-expression-example"/>
-                <display value="US Public Health PlanDefinition Alternative Expression Example"/>
+                <reference value="StructureDefinition/us-ph-supplemental-valueset-library"/>
+                <display value="US Public Health Supplemental Valueset Library"/>
             </reference>
-            <name value="US Public Health PlanDefinition Alternative Expression Example"/>
-            <description value="US Public Health PlanDefinition: Alternative Expression example"/>
-            <exampleBoolean value="true"/>
+            <name value="US Public Health Supplemental ValueSet Library"/>
+            <description value="This Library profile defines the library containing the US Public Health supplemental value sets."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Library/us-ph-supplemental-valueset-library-example"/>
+                <display value="US Public Health Supplemental ValueSet Library Example"/>
+            </reference>
+            <name value="US Public Health Supplemental ValueSet Library Example"/>
+            <description value="Description of library"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-valueset-library"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-survey-practitioner-group"/>
+                <display value="US Public Health Survey Practitioner Group"/>
+            </reference>
+            <name value="US Public Health Survey Practitioner Group"/>
+            <description value="This Group profile represents survey participant groups, research groups, etc."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-entities"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Group/us-ph-survey-practitioner-group-example"/></reference>
+            <name value="US Public Health Survey Practitioner Group - Example"/>
+            <description value="US Public Health Survey Practitioner Group: example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-survey-practitioner-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-therapeutic-medication-response-extension"/>
+                <display value="US Public Health Therapeutic Medication Response Extension"/>
+            </reference>
+            <name value="US Public Health Therapeutic Medication Response Extension"/>
+            <description value="This Extension profile represents a therapeutic response (as opposed to an undesired reaction) to the administration of a medication."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-transportation-details"/>
+                <display value="US Public Health Transportation Details"/>
+            </reference>
+            <name value="US Public Health Transportation Details"/>
+            <description value="This Observation profile represents transportation details such as the type of transport (plane, train, ship, etc.) along with any associated information (e.g. name of cruise ship, flight number, airport, seat number, cabin number, etc.)."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Observation/us-ph-transportation-details-eve-everywoman"/></reference>
+            <name value="US Public Health Transportation Details - Eve Everywoman"/>
+            <description value="US Public Health Transportation Details: Eve Everywoman example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-transportation-details"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-travel-history"/>
+                <display value="US Public Health Travel History"/>
+            </reference>
+            <name value="US Public Health Travel History"/>
+            <description value="This Observation profile represents a patient's travel history."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-profiles-clinical"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Observation/us-ph-travel-history-eve-everywoman-1999"/></reference>
+            <name value="US Public Health Travel History - Eve Everywoman 1999"/>
+            <description value="US Public Health Travel History: Eve Everywoman 1999 example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-travel-history"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Observation/us-ph-travel-history-eve-everywoman-201610"/></reference>
+            <name value="US Public Health Travel History - Eve Everywoman 201610"/>
+            <description value="US Public Health Travel History: Eve Everywoman 201610 example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-travel-history"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Observation/us-ph-travel-history-eve-everywoman-201801"/></reference>
+            <name value="US Public Health Travel History - Eve Everywoman 201801"/>
+            <description value="US Public Health Travel History: Eve Everywoman 201801 example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-travel-history"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-tribal-affiliation-extension"/>
+                <display value="US Public Health Tribal Affiliation Extension"/>
+            </reference>
+            <name value="US Public Health Tribal Affiliation Extension"/>
+            <description value="This Extension profile represents an affiliated tribe name and whether or not the patient is an enrolled member of that tribe."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="content-extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/us-ph-triggerdefinition-namedevents"/>
+                <display value="US Public Health TriggerDefinition NamedEvents"/>
+            </reference>
+            <name value="US Public Health TriggerDefinition NamedEvent"/>
+            <description value="The US Public Health TriggerDefinition NamedEvents CodeSystemcontains codes for currently identified use cases for identifying named events to subscribe to in clinical workflows."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/us-ph-triggerdefinition-namedevent"/>
+                <display value="US Public Health TriggerDefinition NamedEvent"/>
+            </reference>
+            <name value="US Public Health TriggerDefinition NamedEvent"/>
+            <description value="The US Public Health TriggerDefinition NamedEvent Value Set contains codes for currently identified use cases for identifying named events uniquely in TriggerDefinition instances contained within a PlanDefinition."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-triggering-valueset"/>
+                <display value="US Public Health Triggering ValueSet"/>
+            </reference>
+            <name value="US Public Health Triggering ValueSet"/>
+            <description value="This ValueSet profile describes the US Public Health Triggering value set."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/us-ph-triggering-valueset-chlamydia-example"/>
+                <display value="US Public Health Triggering ValueSet Chlamydia Example"/>
+            </reference>
+            <name value="US Public Health Triggering ValueSet Chlamydia Example"/>
+            <description value="US Public Health Triggering ValueSet: Chlamydia Example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset"/>
+            <groupingId value="example-value-sets"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-triggering-valueset-library"/>
+                <display value="US Public Health Triggering ValueSet Library"/>
+            </reference>
+            <name value="US Public Health Triggering ValueSet Library"/>
+            <description value="This Library profile defines the library containing the US Public Health triggering value sets."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Library/us-ph-triggering-valueset-library-example"/>
+                <display value="US Public Health Triggering ValueSet Library Example"/>
+            </reference>
+            <name value="US Public Health Triggering ValueSet Library - Example"/>
+            <description value="US Public Health Triggering ValueSet Library: example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset-library"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/us-ph-usage-context"/>
+                <display value="US Public Health Usage Context"/>
+            </reference>
+            <name value="US Public Health Usage Context"/>
+            <description value="This code system contains codes that identify the use context of a ValueSet or Library."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/us-ph-usage-context-type"/>
+                <display value="US Public Health Usage Context Type"/>
+            </reference>
+            <name value="US Public Health Usage Context Type"/>
+            <description value="This code system contains codes that identify the use context type of a ValueSet or Library."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-usagewarning-extension"/>
+                <display value="US Public Health Usage Warning Extension"/>
+            </reference>
+            <name value="US Public Health Usage Warning Extension"/>
+            <description value="This Extension profile represents an extra warning about the correct use of the value set."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-extensions"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-valueset"/>
+                <display value="US Public Health ValueSet"/>
+            </reference>
+            <name value="US Public Health ValueSet"/>
+            <description value="This ValueSet profile describes US Public Health value sets."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/us-ph-valueset-chlamydia-example"/>
+                <display value="US Public Health ValueSet Chlamydia Example"/>
+            </reference>
+            <name value="US Public Health ValueSet Chlamydia Example"/>
+            <description value="This example set of values contains laboratory observations test names that represent Chlamydia tests."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="example-value-sets"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-valueset-library"/>
+                <display value="US Public Health ValueSet Library"/>
+            </reference>
+            <name value="US Public Health ValueSet Library"/>
+            <description value="This Library profile defines the library containing US Public Health value sets."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="architecture-profiles-group"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Library/us-ph-valueset-library-example"/>
+                <display value="US Public Health ValueSet Library Example"/>
+            </reference>
+            <name value="US Public Health ValueSet Library - Example"/>
+            <description value="US Public Health ValueSet Library: example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset-library"/>
         </resource>
         <resource>
             <reference>
@@ -1206,15 +1252,6 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-relateddata-extension"/>
-                <display value="US Public Health Related Data Extension"/>
-            </reference>
-            <name value="US Public Health Related Data Extension"/>
-            <description value="The Extension profile allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="ValueSet/us-ph-valueset-priority"/>
                 <display value="US Public Health ValueSet Priority"/>
             </reference>
@@ -1222,52 +1259,9 @@
             <description value="This value set contains codes representing release priority for ValueSets."/>
             <exampleBoolean value="false"/>
         </resource>
-        <resource>
-            <reference>
-                <reference value="Parameters/expansion-parameters-us-ph"/></reference>
-            <name value="Parameters - SNOMED US Version"/>
-            <description value="Parameters - SNOMED US Version"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-condition-problems-health-concerns"/>
-                <display value="US Public Health Condition Problems and Health Concerns"/>
-            </reference>
-            <name value="US Public Health Condition Problems and Health Concerns"/>
-            <description value="This Condition Problems and Health Concerns profile represents the signs, symptoms, and diagnoses related to a public health event.&#xA;&#xA;It is based on the **US Core Condition Problems and Health Concerns Profile** with further restrictions of a US Public Health Patient as the Condition.subject and guidance that in the case of a condition being mistakenly entered into the system and later corrected verificationStatus of 'entered-in-error' must be set."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-clinical"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/us-ph-condition-encounter-diagnosis"/>
-                <display value="US Public Health Condition Encounter Diagnosis"/>
-            </reference>
-            <name value="US Public Health Condition Encounter Diagnosis"/>
-            <description value="This Condition Encounter Diagnosis profile represents the signs, symptoms, and diagnoses related to a public health event.&#xA;&#xA;It is based on the **US Core Condition Encounter Diagnosis Profile** with further restrictions of a US Public Health Patient as the Condition.subject and guidance that in the case of a condition being mistakenly entered into the system and later corrected verificationStatus of 'entered-in-error' must be set."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="content-profiles-clinical"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Condition/us-ph-condition-encounter-diagnosis-diabetes"/></reference>
-            <name value="US Public Health Condition Encounter Diagnosis - Eve Everywoman - Diabetes"/>
-            <description value="US Public Health Condition Encounter Diagnosis: Eve Everywoman - Diabetes example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition-encounter-diagnosis"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Condition/us-ph-condition-problem-health-concern-hypertension"/></reference>
-            <name value="US Public Health Condition Problem Health Concern - Eve Everywoman - Hypertension"/>
-            <description value="US Public Health Condition Problem Health Concern: Eve Everywoman - Hypertension example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition-problems-health-concerns"/>
-        </resource>
         <page>
             <nameUrl value="index.html"/>
-            <title value="Home Page"/>
+            <title value="Home"/>
             <generation value="markdown"/>
             <page>
                 <nameUrl value="guidance.html"/>

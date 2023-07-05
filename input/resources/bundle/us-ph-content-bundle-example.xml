@@ -4,8 +4,7 @@
     <id value="us-ph-content-bundle-example"/>
     <meta>
         <versionId value="3"/>
-        <lastUpdated value="2023-04-20T02:45:58.477+00:00"/>
-        <source value="#chqBW0eqzb9Eyf00"/>
+        <lastUpdated value="2023-04-20T06:45:58.477Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-content-bundle"/>
     </meta>
     <type value="collection"/>

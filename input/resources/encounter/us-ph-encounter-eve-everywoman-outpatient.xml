@@ -4,8 +4,7 @@
     <id value="us-ph-encounter-eve-everywoman-outpatient"/>
     <meta>
         <versionId value="2"/>
-        <lastUpdated value="2023-04-20T02:42:36.834+00:00"/>
-        <source value="#xghogDZ1FgQSwE0S"/>
+        <lastUpdated value="2023-04-20T06:42:36.834Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-encounter"/>
     </meta>
     <identifier>

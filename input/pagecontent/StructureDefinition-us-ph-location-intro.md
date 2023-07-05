@@ -1,0 +1,1 @@
+It is based on the [US Core Location]({{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-location.html) profile.

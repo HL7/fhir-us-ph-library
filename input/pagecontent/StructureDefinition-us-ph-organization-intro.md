@@ -1,1 +1,1 @@
-This profile establishes the core elements, extensions, vocabularies and value sets for representing organizations for public health.
+It is based on the [US Core Organization]({{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-organization.html) profile and further constrains it to require telecom and address.

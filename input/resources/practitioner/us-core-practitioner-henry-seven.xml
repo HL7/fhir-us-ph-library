@@ -4,8 +4,7 @@
     <id value="us-core-practitioner-henry-seven"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2022-07-21T05:30:27.155+00:00"/>
-        <source value="#gM676jWmSLAl87ym"/>
+        <lastUpdated value="2022-07-21T09:30:27.155Z"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
     </meta>
     <identifier>

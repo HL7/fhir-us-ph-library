@@ -3,9 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-reporting-bundle"/>
     <meta>
-        <versionId value="11"/>
-        <lastUpdated value="2023-03-09T04:08:13.423+00:00"/>
-        <source value="#OGq1D0euXjcOnzsH"/>
+        <versionId value="13"/>
+        <lastUpdated value="2023-07-05T07:42:33.147Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-reporting-bundle"/>
     <version value="1.0.0"/>
@@ -85,7 +84,6 @@
         <element id="Bundle.entry:contentBundle">
             <path value="Bundle.entry"/>
             <sliceName value="contentBundle"/>
-            <min value="1"/>
             <max value="1"/>
             <mustSupport value="true"/>
         </element>

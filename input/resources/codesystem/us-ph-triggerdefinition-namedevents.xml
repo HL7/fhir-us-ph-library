@@ -3,9 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-triggerdefinition-namedevents"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-02-18T03:26:51.794+00:00"/>
-        <source value="#KJ39T6DEaFiOwYLO"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-04-20T09:02:01.075Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-triggerdefinition-namedevents"/>
@@ -15,7 +14,7 @@
     <status value="active"/>
     <experimental value="false"/>
     <publisher value="HL7 Public Health Work Group"/>
-    <description value="The US Public Health TriggerDefinition NamedEvents CodeSystem is a 'starter set' of codes supported for identifying named events to subscribe to in clinical workflows."/>
+    <description value="The US Public Health TriggerDefinition NamedEvents CodeSystemcontains codes for currently identified use cases for identifying named events to subscribe to in clinical workflows."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

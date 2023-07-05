@@ -4,8 +4,7 @@
     <id value="us-ph-document-bundle"/>
     <meta>
         <versionId value="5"/>
-        <lastUpdated value="2023-02-17T07:27:48.311+00:00"/>
-        <source value="#2ByjblJDTGSht7Fs"/>
+        <lastUpdated value="2023-02-17T12:27:48.311Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle"/>
     <version value="1.0.0"/>

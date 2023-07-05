@@ -4,8 +4,7 @@
     <id value="us-ph-alternative-expression-extension"/>
     <meta>
         <versionId value="5"/>
-        <lastUpdated value="2023-03-09T04:12:24.017+00:00"/>
-        <source value="#4ZHaUsV3J8y7Vfrf"/>
+        <lastUpdated value="2023-03-09T09:12:24.017Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-alternative-expression-extension"/>
     <version value="1.0.0"/>

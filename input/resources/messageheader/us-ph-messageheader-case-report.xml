@@ -4,8 +4,7 @@
     <id value="us-ph-messageheader-case-report"/>
     <meta>
         <versionId value="3"/>
-        <lastUpdated value="2023-04-20T02:47:05.462+00:00"/>
-        <source value="#X5N2r7zQp2q1BVA4"/>
+        <lastUpdated value="2023-04-20T06:47:05.462Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-messageheader"/>
     </meta>
     <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-data-encrypted-extension">
