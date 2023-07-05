@@ -1,8 +1,8 @@
 {
 	"package-id": "hl7.fhir.us.ph-library",
 	"version": "1.0.0",
-	"desc": "",
 	"path": "http://hl7.org/fhir/us/fhir-us-ph-common-library-ig",
 	"status": "trial-use",
-	"sequence": "STU 1"
+	"sequence": "STU 1",
+	"desc": ""
 }

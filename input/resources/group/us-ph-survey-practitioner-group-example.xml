@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Group
+    xmlns="http://hl7.org/fhir">
+    <id value="us-ph-survey-practitioner-group-example"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2023-01-31T01:05:34.608+00:00"/>
+        <source value="#1SC4BsSLNv4eV4E2"/>
+        <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-survey-practitioner-group"/>
+    </meta>
+    <text>
+        <status value="additional"/>
+        <div
+            xmlns="http://www.w3.org/1999/xhtml">
+            <p>Practitioner participating in Healthcare Survey</p>
+            <ul>
+                <li>Practitioner Henry Seven</li>
+            </ul>
+        </div>
+    </text>
+    <type value="person"/>
+    <actual value="true"/>
+    <managingEntity>
+        <reference value="Organization/us-ph-organization-health-authority-west"/>
+    </managingEntity>
+    <member>
+        <entity>
+            <reference value="Practitioner/us-core-practitioner-henry-seven"/>
+        </entity>
+        <period>
+            <start value="2022-01-10"/>
+            <end value="2022-01-10"/>
+        </period>
+    </member>
+</Group>
