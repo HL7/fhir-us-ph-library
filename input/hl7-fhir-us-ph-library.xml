@@ -34,11 +34,11 @@
         <packageId value="hl7.fhir.us.core"/>
         <version value="5.0.1"/>
     </dependsOn>
-    <!--<dependsOn id="uscdcphinvads">
+    <dependsOn id="uscdcphinvads">
         <uri value="http://fhir.org/packages/us.cdc.phinvads/ImplementationGuide/us.cdc.phinvads"/>
         <packageId value="us.cdc.phinvads"/>
         <version value="0.12.0"/>
-    </dependsOn>-->
+    </dependsOn>
     <dependsOn id="usnlmvsac">
         <uri value="http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac"/>
         <packageId value="us.nlm.vsac"/>
