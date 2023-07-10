@@ -19,7 +19,6 @@
             <value value="http://www.hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="The US Public Health Profiles Library is a collection of reusable architecture and content profiles representing common public health concepts and patterns. It is intended as a complement to the US Core Implementation Guide (US Core) that is used to ease implementation burden of healthcare organizations, electronic health record companies, public health agencies, and others involved in the US public health endeavor.&#xA;&#xA;The US Public Health Profiles Library will be instituted in close conjunction with US Core and have an analogous process for implementation, moderation, review, and approval. The intent is to re-use US Core profiles wherever possible and only add profiles that are needed for common public health needs. The library will evolve over time and may be supported by an adjunct profiles registry that includes developing and informational profiles for public health use.&#xA;&#xA;After evaluation and harmonization analysis of two large multi-condition and multi-use case public health projects – Electronic Case Reporting (eCR) and Making Electronic Data More available for Research and Public Health (MedMorph), it was determined that there are many common elements between the two implementation guides (IGs). The short-term scope of this library  includes elements common to the above-mentioned FHIR IGs and will define a US Realm specific framework that defines common elements for the implementation guides. The longer-term scope of this will include analysis and inclusion of data elements from Vital Records Death Reporting, Vital Records Birth and Fetal Death Reporting, and other Public Health use cases.&#xA;&#xA;To avoid defining the same profiles multiple times, we have created a US Public Health Profiles Library for use by Public Health and other FHIR standards development efforts to define appropriate FHIR profiles, value sets, etc., once and allow them to be referenced by each of the specific implementation guides. This USPHPL will provide a starting point and framework for inclusion in multiple use case specific implementation guides focused on the exchange of Public Health information to support interoperability among public health systems and reduce provider and implementer burden."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -35,11 +34,11 @@
         <packageId value="hl7.fhir.us.core"/>
         <version value="5.0.1"/>
     </dependsOn>
-    <dependsOn id="uscdcphinvads">
+    <!--<dependsOn id="uscdcphinvads">
         <uri value="http://fhir.org/packages/us.cdc.phinvads/ImplementationGuide/us.cdc.phinvads"/>
         <packageId value="us.cdc.phinvads"/>
         <version value="0.12.0"/>
-    </dependsOn>
+    </dependsOn>-->
     <dependsOn id="usnlmvsac">
         <uri value="http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac"/>
         <packageId value="us.nlm.vsac"/>
@@ -137,7 +136,8 @@
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
-        <resource>
+        <!-- illegal char -->
+         <resource>
             <reference>
                 <reference value="Observation/us-ph-char-home-environment-eve-everywoman"/></reference>
             <name value="US Public Health Characteristics of Home Environment - Eve Everywoman"/>
@@ -185,7 +185,8 @@
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-group"/>
         </resource>
-        <resource>
+        <!-- illegal char -->
+         <resource>
             <reference>
                 <reference value="Composition/us-ph-composition-example"/>
                 <display value="US Public Health Composition Example"/>
@@ -564,7 +565,7 @@
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
-        <resource>
+         <resource>
             <reference>
                 <reference value="Observation/us-ph-postpartum-status-eve-everywoman"/></reference>
             <name value="US Public Health Is Postpartum - Eve Everywoman"/>
@@ -779,7 +780,7 @@
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-entities"/>
         </resource>
-        <resource>
+         <resource>
             <reference>
                 <reference value="Patient/us-ph-patient-eve-everywoman"/></reference>
             <name value="US Public Health Patient - Eve Everywoman"/>
@@ -854,7 +855,7 @@
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-entities"/>
         </resource>
-        <resource>
+         <resource>
             <reference>
                 <reference value="PractitionerRole/us-ph-practitionerrole-henry-seven"/></reference>
             <name value="US Public Health PractitionerRole - Henry Seven"/>
@@ -954,7 +955,8 @@
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-group"/>
         </resource>
-        <resource>
+        <!-- BAD -->
+        <!--<resource>
             <reference>
                 <reference value="Library/us-ph-specification-library-example"/>
                 <display value="US Public Health Specification Library Example"/>
@@ -963,7 +965,7 @@
             <description value="Description of library"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-specification-library"/>
-        </resource>
+        </resource>-->
         <resource>
             <reference>
                 <reference value="StructureDefinition/us-ph-supplemental-library"/>
@@ -1014,7 +1016,8 @@
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-group"/>
         </resource>
-        <resource>
+        <!-- BAD -->
+        <!--<resource>
             <reference>
                 <reference value="Library/us-ph-supplemental-valueset-library-example"/>
                 <display value="US Public Health Supplemental ValueSet Library Example"/>
@@ -1023,7 +1026,7 @@
             <description value="Description of library"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-valueset-library"/>
-        </resource>
+        </resource>-->
         <resource>
             <reference>
                 <reference value="StructureDefinition/us-ph-survey-practitioner-group"/>
@@ -1061,7 +1064,7 @@
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
-        <resource>
+         <resource>
             <reference>
                 <reference value="Observation/us-ph-transportation-details-eve-everywoman"/></reference>
             <name value="US Public Health Transportation Details - Eve Everywoman"/>
@@ -1079,7 +1082,7 @@
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles-clinical"/>
         </resource>
-        <resource>
+         <resource>
             <reference>
                 <reference value="Observation/us-ph-travel-history-eve-everywoman-1999"/></reference>
             <name value="US Public Health Travel History - Eve Everywoman 1999"/>
