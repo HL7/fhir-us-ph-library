@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-content-bundle-example"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-04-20T06:45:58.477Z"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-07-12T09:06:13.938Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-content-bundle"/>
     </meta>
     <type value="collection"/>
@@ -81,7 +81,7 @@
                 <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
                     <valueCode value="F"/>
                 </extension>
-                <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-genderidentity-extension">
+                <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-gender-identity-extension">
                     <extension url="value">
                         <valueCodeableConcept>
                             <coding>

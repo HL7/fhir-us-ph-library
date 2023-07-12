@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-determination-of-reportability-rule-extension"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-02-17T12:27:45.756Z"/>
+        <versionId value="6"/>
+        <lastUpdated value="2023-07-12T07:41:49.254Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-determination-of-reportability-rule-extension"/>
     <version value="1.0.0"/>
@@ -12,7 +12,7 @@
     <title value="US Public Health Determination of Reportability Rule Extension"/>
     <status value="active"/>
     <experimental value="false"/>
-    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
     <contact>
         <name value="HL7 Public Health Work Group"/>
         <telecom>
@@ -49,9 +49,8 @@
             <path value="Extension.url"/>
             <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-determination-of-reportability-rule-extension"/>
         </element>
-        <element id="Extension.value[x]:valueString">
+        <element id="Extension.value[x]">
             <path value="Extension.value[x]"/>
-            <sliceName value="valueString"/>
             <min value="1"/>
             <type>
                 <code value="string"/>

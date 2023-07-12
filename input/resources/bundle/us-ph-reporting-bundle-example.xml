@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-reporting-bundle-example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2023-04-20T06:46:29.436Z"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-07-12T09:08:47.556Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-reporting-bundle"/>
     </meta>
     <type value="message"/>
@@ -27,7 +27,7 @@
                     <valueCode value="consequence"/>
                 </extension>
                 <eventCoding>
-                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-message-types-codesystem"/>
+                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-message-types"/>
                     <code value="eicr-case-report-message"/>
                     <display value="Indicates a message containing electronic case report healthcare data sent from clinical care."/>
                 </eventCoding>
@@ -53,7 +53,7 @@
                 </source>
                 <reason>
                     <coding>
-                        <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-triggerdefinition-namedevents"/>
+                        <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-triggerdefinition-namedevents"/>
                         <code value="encounter-close"/>
                         <display value="Indicates the close of an encounter"/>
                     </coding>
@@ -87,6 +87,7 @@
                                 <div
                                     xmlns="http://www.w3.org/1999/xhtml">
                                     <div class="hapiHeaderText">Eve L 
+                                        
                                         
                                         <b>EVERYWOMAN </b>
                                     </div>
@@ -143,7 +144,7 @@
                             <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
                                 <valueCode value="F"/>
                             </extension>
-                            <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-genderidentity-extension">
+                            <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-gender-identity-extension">
                                 <extension url="value">
                                     <valueCodeableConcept>
                                         <coding>

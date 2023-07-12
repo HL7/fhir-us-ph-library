@@ -3,15 +3,15 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-tribal-affiliation-extension"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2023-03-09T09:10:27.906Z"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-07-10T23:01:38.764Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-tribal-affiliation-extension"/>
     <version value="1.0.0"/>
     <name value="USPublicHealthTribalAffiliationExtension"/>
     <title value="US Public Health Tribal Affiliation Extension"/>
     <status value="active"/>
-    <publisher value="HL7 Public Health Work Group"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
     <contact>
         <name value="HL7 Public Health Work Group"/>
         <telecom>

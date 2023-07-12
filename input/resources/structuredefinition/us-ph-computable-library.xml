@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-computable-library"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2023-03-09T09:13:13.131Z"/>
+        <versionId value="6"/>
+        <lastUpdated value="2023-07-10T22:52:17.670Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-library"/>
     <version value="0.1.0"/>
@@ -12,7 +12,7 @@
     <title value="US Public Health Computable Library"/>
     <status value="active"/>
     <experimental value="false"/>
-    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
     <contact>
         <name value="HL7 Public Health Work Group"/>
         <telecom>

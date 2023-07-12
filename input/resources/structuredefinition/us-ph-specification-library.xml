@@ -3,15 +3,15 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-specification-library"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2023-03-09T09:08:25.988Z"/>
+        <versionId value="10"/>
+        <lastUpdated value="2023-07-12T09:01:54.816Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-specification-library"/>
     <version value="1.0.0"/>
     <name value="USPublicHealthSpecificationLibrary"/>
     <title value="US Public Health Specification Library"/>
     <status value="active"/>
-    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
     <contact>
         <name value="HL7 Public Health Work Group"/>
         <telecom>
@@ -74,7 +74,7 @@
             <min value="1"/>
             <max value="1"/>
             <patternCoding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type"/>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context-type"/>
                 <code value="reporting"/>
             </patternCoding>
         </element>
@@ -89,7 +89,7 @@
             </type>
             <patternCodeableConcept>
                 <coding>
-                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context"/>
+                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context"/>
                     <code value="triggering"/>
                 </coding>
             </patternCodeableConcept>
@@ -105,7 +105,7 @@
             <min value="1"/>
             <max value="1"/>
             <patternCoding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type"/>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context-type"/>
                 <code value="specification-type"/>
             </patternCoding>
         </element>
@@ -120,7 +120,7 @@
             </type>
             <patternCodeableConcept>
                 <coding>
-                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context"/>
+                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context"/>
                     <code value="program"/>
                 </coding>
             </patternCodeableConcept>

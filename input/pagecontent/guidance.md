@@ -14,7 +14,7 @@ The US Public Health Profiles Library will evolve over time and may be supported
 
 ### Work Information
 
-This implementation guide does not include profiles to implement support for Occupational Data for Health (ODH). Use the profiles defined in the [Occupational Data for Health (ODH)](http://hl7.org/fhir/us/odh/) to describe structured work information primarily designed to facilitate clinical care, including population health and value-based care. ODH also can be used to support public health reporting.
+This library does not include profiles to implement support for Occupational Data for Health (ODH). Use the profiles defined in the [Occupational Data for Health (ODH)](http://hl7.org/fhir/us/odh/) to describe structured work information primarily designed to facilitate clinical care, including population health and value-based care. ODH also can be used to support public health reporting.
 
 ### Conformance
 
@@ -32,7 +32,7 @@ The Profile elements consist of both *Mandatory* and *Must Support* elements.  *
 
 #### Profile Reuse and Determination Principles
 
-1. New profiles, that are not based on US Core, will only be included in the US Public Health Profiles Library when there is a clear public health need. As things now stand, all non-US Core profiles are approved by the Cross-Group Projects and the US Realm Steering Committee
+1. New profiles, that are not based on US Core, will only be included in the US Public Health Profiles Library when there is a clear public health need (see [Profile Inclusion Criteria](guidance.html#profile-inclusion-criteria) below). As things now stand, all non-US Core profiles are approved by the Cross-Group Projects
 2. Similarly, new public health FHIR US Realm implementation guides will not create new profiles that are not based on either the US Public Health Library or US Core without the approval of the Public Health Working Group and notification of US Realm Steering Committee
 3. The Public Health Work Group, the FHIR Management Group, and FHIR QA Tooling (TBD) will enforce the principles above and criteria below
 
@@ -41,13 +41,21 @@ The Profile elements consist of both *Mandatory* and *Must Support* elements.  *
 A Proposed Content or Architecture Profile Must Meet One or More of the Following Criteria for Inclusion in US Public Health Library
 
 1. The profile concept is live in production and operations for three or more public health conditions/use cases and has been tested in at least one Connectathon
-2. The profile concept is captured and operational in at least one EHR or public health system
+2. The profile concept is captured and is in production use in at least one EHR or public health system
 3. The profile supports a nationally accepted approach based on proposed US regulations or multiple local, tribal, territorial, and states' laws, policies, rulemaking, or well-established practices.
 
-A variance process modeled after the [US Core Variance process](https://confluence.hl7.org/display/CGP/US+Core+Variance+Request+Process) will be instituted. The process will strive for the automated identification of non-USCore, non-US Public Health Profiles Library profiles and their processing with the Public Health Work Group.
+A variance process modeled after the [US Core Variance process](https://confluence.hl7.org/display/CGP/US+Core+Variance+Request+Process) will be instituted. The process will strive for the automated identification of non-USCore, non-US Public Health Profiles Library profiles and their processing with the Public Health Work Group. The Public Health Work Group will review, discuss, and apprve/deny variance requests at regularly scheduled work group calls/meetings.
 
 #### Related Responsibilities of the Public Health Working Group
 
 * Determine initial and subsequent population of profiles in the US Public Health Profiles Library
 * Review and approve variant profiles
 * Be the steward for the library content
+
+#### Profile Use
+
+Implementation Guides may support (reuse) one or more US Public Health Profiles Library profiles to represent public health architecture and clinical information needs.
+
+The US Public Health Profile Library profiles have been developed and tested using logical FHIR ids. Therefore a reference to a US Public Health Profiles Library profile **SHOULD** include a logical id (Reference.reference), not an identifier (Reference.identifier).
+
+Implementation Guides that currently contain copies of the US Public Health Profiles are expected to replace those profiles with references to the analogous US Public Health Profiles Library profile during their next ballot/update cycle.

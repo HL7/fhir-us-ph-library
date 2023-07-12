@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
-    <id value="us-ph-genderidentity-extension"/>
+    <id value="us-ph-gender-identity-extension"/>
     <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2023-04-20T22:53:35.901Z"/>
+        <versionId value="9"/>
+        <lastUpdated value="2023-07-12T07:13:08.723Z"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-genderidentity-extension"/>
+    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-gender-identity-extension"/>
     <version value="1.0.0"/>
     <name value="USPublicHealthGenderIdentityExtension"/>
     <title value="US Public Health Gender Identity Extension"/>
     <status value="active"/>
-    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
     <contact>
         <name value="HL7 Public Health Work Group"/>
         <telecom>
@@ -155,7 +155,7 @@
         </element>
         <element id="Extension.url">
             <path value="Extension.url"/>
-            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-genderidentity-extension"/>
+            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-gender-identity-extension"/>
         </element>
         <element id="Extension.value[x]">
             <path value="Extension.value[x]"/>

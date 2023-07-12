@@ -4,6 +4,6 @@ This profile is used to represent messages that contain public health/research r
 
 **Reporting Bundle Structure**
 
-The Reporting Bundle SHALL always contain the first entry as the MessageHeader resource.
+The Reporting Bundle **SHALL** always contain the first entry as the MessageHeader resource.
 The second entry is an optional Content Bundle.
 The Content Bundle contains all the resources related to the Patient.

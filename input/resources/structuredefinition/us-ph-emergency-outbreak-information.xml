@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-emergency-outbreak-information"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2023-03-09T08:45:21.730Z"/>
+        <versionId value="6"/>
+        <lastUpdated value="2023-07-10T22:57:40.829Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-emergency-outbreak-information"/>
     <version value="1.0.0"/>
@@ -12,7 +12,7 @@
     <title value="US Public Health Emergency Outbreak Information"/>
     <status value="active"/>
     <experimental value="false"/>
-    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
     <contact>
         <name value="HL7 Public Health Work Group"/>
         <telecom>

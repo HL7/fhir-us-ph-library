@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="us-ph-codesystem-report-initiation-types"/>
+    <meta>
+        <versionId value="4"/>
+        <lastUpdated value="2023-07-12T08:05:10.684Z"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-report-initiation-types"/>
+    <version value="1.0.0"/>
+    <name value="USPublicHealthCodeSystemReportInitiationTypes"/>
+    <title value="US Public Health CodeSystem - Report Initiation Type Codes"/>
+    <status value="active"/>
+    <experimental value="false"/>
+    <date value="2022-09-06"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
+    <contact>
+        <name value="HL7 Public Health Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
+    <description value="Thsis CodeSystem contains codes for currently identified use cases for identifying how the message was initiated."/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+        </coding>
+    </jurisdiction>
+    <caseSensitive value="true"/>
+    <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-report-initiation-type"/>
+    <hierarchyMeaning value="grouped-by"/>
+    <content value="complete"/>
+    <count value="4"/>
+    <concept>
+        <code value="subscription-notification"/>
+        <display value="Indicates a report was initiation based on a Subscription Notification."/>
+        <definition value="Indicates that a report creation was initiated based on a notification to a subscription topic."/>
+    </concept>
+    <concept>
+        <code value="timer-notification"/>
+        <display value="Indicates a report was initiation based on a Subscription Notification."/>
+        <definition value="Indicates that a report creation was initiated based on a timer expiration. The timer can be absolute or a relative timer."/>
+    </concept>
+    <concept>
+        <code value="manually-initiated"/>
+        <display value="Indicates a report was initiated to a manual action by the provider."/>
+        <definition value="Indicates that a report creation was initiated manually by a provider."/>
+    </concept>
+    <concept>
+        <code value="alternately-initiated"/>
+        <display value="Indicates a report was initiated in an alternate way by the provider."/>
+        <definition value="Indicates that a report creation was initiated in an alternate way by the provider."/>
+    </concept>
+</CodeSystem>

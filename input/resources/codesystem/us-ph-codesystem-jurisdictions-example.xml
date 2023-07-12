@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-codesystem-jurisdictions-example"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2023-07-05T08:10:11.133Z"/>
+        <versionId value="9"/>
+        <lastUpdated value="2023-07-12T09:32:04.854Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"/>
     </meta>
     <text>
@@ -40,7 +40,7 @@
                     </td>
                     <td>Type of public health jurisdiction.</td>
                     <td>
-                        <a href="CodeSystem-us-ph-jurisdiction-types-example.html">US Public Health Jurisdiction Types Example</a>
+                        <a href="CodeSystem-us-ph-codesystem-jurisdiction-types-example.html">US Public Health Jurisdiction Types Example</a>
                     </td>
                 </tr>
                 <tr>
@@ -86,6 +86,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">AK
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-AK"/>
                     </td>
                     <td>ALASKA</td>
@@ -96,6 +97,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">AL
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-AL"/>
                     </td>
                     <td>ALABAMA</td>
@@ -106,6 +108,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">AR
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-AR"/>
                     </td>
                     <td>ARKANSAS</td>
@@ -116,6 +119,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">AS
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-AS"/>
                     </td>
                     <td>AMERICAN_SAMOA</td>
@@ -126,6 +130,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">AZ
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-AZ"/>
                     </td>
                     <td>ARIZONA</td>
@@ -136,6 +141,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">CA
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-CA"/>
                     </td>
                     <td>CALIFORNIA</td>
@@ -158,6 +164,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">CHI
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-CHI"/>
                     </td>
                     <td>ILLINOIS</td>
@@ -168,6 +175,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">CHR
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-CHR"/>
                     </td>
                     <td>VIRGIN_ISLANDS</td>
@@ -178,6 +186,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">CO
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-CO"/>
                     </td>
                     <td>COLORADO</td>
@@ -188,6 +197,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">CT
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-CT"/>
                     </td>
                     <td>CONNECTICUT</td>
@@ -198,6 +208,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">DC
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-DC"/>
                     </td>
                     <td>DISTRICT_OF_COLUMBIA</td>
@@ -208,6 +219,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">DE
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-DE"/>
                     </td>
                     <td>DELAWARE</td>
@@ -218,6 +230,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">DED
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-DED"/>
                     </td>
                     <td>GUAM</td>
@@ -228,6 +241,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">FL
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-FL"/>
                     </td>
                     <td>FLORIDA</td>
@@ -238,6 +252,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">GA
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-GA"/>
                     </td>
                     <td>GEORGIA</td>
@@ -248,6 +263,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">GU
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-GU"/>
                     </td>
                     <td>GUAM</td>
@@ -258,6 +274,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">HI
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-HI"/>
                     </td>
                     <td>HAWAII</td>
@@ -268,6 +285,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">HT
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-HT"/>
                     </td>
                     <td>TEXAS</td>
@@ -291,6 +309,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">IA
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-IA"/>
                     </td>
                     <td>IOWA</td>
@@ -301,6 +320,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">ID
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-ID"/>
                     </td>
                     <td>IDAHO</td>
@@ -311,6 +331,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">IL
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-IL"/>
                     </td>
                     <td>ILLINOIS</td>
@@ -321,6 +342,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">IN
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-IN"/>
                     </td>
                     <td>INDIANA</td>
@@ -331,6 +353,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">KS
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-KS"/>
                     </td>
                     <td>KANSAS</td>
@@ -341,6 +364,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">KY
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-KY"/>
                     </td>
                     <td>KENTUCKY</td>
@@ -351,6 +375,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">LA
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-LA"/>
                     </td>
                     <td>LOUISIANA</td>
@@ -361,6 +386,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">LAC
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-LAC"/>
                     </td>
                     <td>CALIFORNIA</td>
@@ -397,6 +423,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">MA
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-MA"/>
                     </td>
                     <td>MASSACHUSETTS</td>
@@ -407,6 +434,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">MD
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-MD"/>
                     </td>
                     <td>MARYLAND</td>
@@ -417,6 +445,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">ME
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-ME"/>
                     </td>
                     <td>MAINE</td>
@@ -427,6 +456,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">MI
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-MI"/>
                     </td>
                     <td>MICHIGAN</td>
@@ -437,6 +467,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">MN
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-MN"/>
                     </td>
                     <td>MINNESOTA</td>
@@ -447,6 +478,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">MO
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-MO"/>
                     </td>
                     <td>MISSOURI</td>
@@ -457,6 +489,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">MS
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-MS"/>
                     </td>
                     <td>MISSISSIPPI</td>
@@ -467,6 +500,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">MT
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-MT"/>
                     </td>
                     <td>MONTANA</td>
@@ -477,6 +511,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">NC
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-NC"/>
                     </td>
                     <td>NORTH_CAROLINA</td>
@@ -487,6 +522,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">ND
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-ND"/>
                     </td>
                     <td>NORTH_DAKOTA</td>
@@ -497,6 +533,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">NE
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-NE"/>
                     </td>
                     <td>NEBRASKA</td>
@@ -507,6 +544,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">NH
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-NH"/>
                     </td>
                     <td>NEW_HAMPSHIRE</td>
@@ -517,6 +555,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">NJ
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-NJ"/>
                     </td>
                     <td>NEW_JERSEY</td>
@@ -527,6 +566,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">NM
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-NM"/>
                     </td>
                     <td>NEW_MEXICO</td>
@@ -537,6 +577,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">NV
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-NV"/>
                     </td>
                     <td>NEVADA</td>
@@ -547,6 +588,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">NY
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-NY"/>
                     </td>
                     <td>NEW_YORK</td>
@@ -557,6 +599,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">NYC
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-NYC"/>
                     </td>
                     <td>NEW_YORK</td>
@@ -584,6 +627,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">OH
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-OH"/>
                     </td>
                     <td>OHIO</td>
@@ -594,6 +638,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">OK
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-OK"/>
                     </td>
                     <td>OKLAHOMA</td>
@@ -604,6 +649,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">OR
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-OR"/>
                     </td>
                     <td>OREGON</td>
@@ -615,6 +661,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">PA
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-PA"/>
                     </td>
                     <td>PENNSYLVANIA</td>
@@ -625,6 +672,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">PHL
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-PHL"/>
                     </td>
                     <td>PENNSYLVANIA</td>
@@ -635,6 +683,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">PR
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-PR"/>
                     </td>
                     <td>PUERTO_RICO</td>
@@ -645,6 +694,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">RI
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-RI"/>
                     </td>
                     <td>RHODE_ISLAND</td>
@@ -655,6 +705,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">SC
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-SC"/>
                     </td>
                     <td>SOUTH_CAROLINA</td>
@@ -665,6 +716,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">SD
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-SD"/>
                     </td>
                     <td>SOUTH_DAKOTA</td>
@@ -675,6 +727,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">SDC
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-SDC"/>
                     </td>
                     <td>CALIFORNIA</td>
@@ -695,6 +748,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">SF
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-SF"/>
                     </td>
                     <td>CALIFORNIA</td>
@@ -705,6 +759,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">SN
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-SN"/>
                     </td>
                     <td>NEVADA</td>
@@ -715,6 +770,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">STC
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-STC"/>
                     </td>
                     <td>VIRGIN_ISLANDS</td>
@@ -725,6 +781,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">STJ
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-STJ"/>
                     </td>
                     <td>VIRGIN_ISLANDS</td>
@@ -735,6 +792,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">TN
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-TN"/>
                     </td>
                     <td>TENNESSEE</td>
@@ -745,6 +803,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">TX
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-TX"/>
                     </td>
                     <td>TEXAS</td>
@@ -755,6 +814,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">UT
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-UT"/>
                     </td>
                     <td>UTAH</td>
@@ -765,6 +825,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">VA
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-VA"/>
                     </td>
                     <td>VIRGINIA</td>
@@ -775,6 +836,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">VI
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-VI"/>
                     </td>
                     <td>VIRGIN_ISLANDS</td>
@@ -785,6 +847,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">VT
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-VT"/>
                     </td>
                     <td>VERMONT</td>
@@ -796,6 +859,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">WA
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-WA"/>
                     </td>
                     <td>WASHINGTON</td>
@@ -806,6 +870,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">WI
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-WI"/>
                     </td>
                     <td>WISCONSIN</td>
@@ -816,6 +881,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">WV
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-WV"/>
                     </td>
                     <td>WEST_VIRGINIA</td>
@@ -826,6 +892,7 @@
                 </tr>
                 <tr>
                     <td style="white-space:nowrap">WY
+                        
                         <a name="us-ph-codesystem-jurisdictions-example-WY"/>
                     </td>
                     <td>WYOMING</td>
@@ -844,7 +911,7 @@
     <status value="active"/>
     <experimental value="false"/>
     <publisher value="HL7 Public Health Work Group"/>
-    <description value="This code system describes jurisdictions."/>
+    <description value="This code system describes example jurisdictions."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -857,7 +924,7 @@
     <content value="complete"/>
     <property>
         <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem-property-required-binding-extension">
-            <valueCanonical value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-jurisdiction-types-example"/>
+            <valueCanonical value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-jurisdiction-types-example"/>
         </extension>
         <code value="type"/>
         <description value="Type of public health jurisdiction."/>

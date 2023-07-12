@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-patient-eve-everywoman"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2023-04-20T06:37:44.667Z"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-07-12T09:08:31.640Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
     </meta>
     <text>
@@ -68,7 +68,7 @@
     <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
         <valueCode value="F"/>
     </extension>
-    <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-genderidentity-extension">
+    <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-gender-identity-extension">
         <extension url="value">
             <valueCodeableConcept>
                 <coding>

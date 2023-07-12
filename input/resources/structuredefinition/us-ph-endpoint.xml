@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-endpoint"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2023-04-20T08:46:26.979Z"/>
+        <versionId value="12"/>
+        <lastUpdated value="2023-07-12T07:08:45.794Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-endpoint"/>
     <version value="1.0.0"/>
@@ -12,7 +12,7 @@
     <title value="US Public Health Endpoint"/>
     <status value="active"/>
     <experimental value="false"/>
-    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
     <contact>
         <name value="HL7 Public Health Work Group"/>
         <telecom>

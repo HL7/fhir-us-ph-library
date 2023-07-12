@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-transportation-details"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2023-02-17T12:34:48.893Z"/>
+        <versionId value="3"/>
+        <lastUpdated value="2023-07-10T23:01:35.693Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-transportation-details"/>
     <version value="1.0.0"/>
@@ -12,7 +12,7 @@
     <title value="US Public Health Transportation Details"/>
     <status value="active"/>
     <experimental value="false"/>
-    <publisher value="HL7 Public Health Work Group"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
     <contact>
         <name value="HL7 Public Health Work Group"/>
         <telecom>

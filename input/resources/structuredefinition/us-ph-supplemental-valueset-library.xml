@@ -3,15 +3,15 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-supplemental-valueset-library"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2023-03-09T09:09:15.846Z"/>
+        <versionId value="7"/>
+        <lastUpdated value="2023-07-10T23:01:29.813Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-valueset-library"/>
     <version value="1.0.0"/>
     <name value="USPublicHealthSupplementalValuesetLibrary"/>
     <title value="US Public Health Supplemental ValueSet Library"/>
     <status value="active"/>
-    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
     <contact>
         <name value="HL7 Public Health Work Group"/>
         <telecom>

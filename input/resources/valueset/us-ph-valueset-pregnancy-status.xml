@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet
     xmlns="http://hl7.org/fhir">
-    <id value="us-ph-pregnancy-status"/>
+    <id value="us-ph-valueset-pregnancy-status"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2023-04-20T06:31:35.733Z"/>
+        <versionId value="3"/>
+        <lastUpdated value="2023-07-12T06:59:45.753Z"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-pregnancy-status"/>
+    <url value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-pregnancy-status"/>
     <identifier>
         <system value="urn:ietf:rfc:3986"/>
         <value value="urn:oid:2.16.840.1.113883.11.20.9.85"/>
     </identifier>
     <version value="0.2.0"/>
-    <name value="USPublicHealthPregnancyStatus"/>
-    <title value="US Public Health Pregnancy Status"/>
+    <name value="USPublicHealthValueSetPregnancyStatus"/>
+    <title value="US Public Health VaueSet - Pregnancy Status"/>
     <status value="active"/>
     <experimental value="false"/>
     <date value="2018-08-01T00:00:00+10:00"/>

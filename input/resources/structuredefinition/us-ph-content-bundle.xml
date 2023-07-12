@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-content-bundle"/>
     <meta>
-        <versionId value="11"/>
-        <lastUpdated value="2023-04-20T08:40:30.852Z"/>
+        <versionId value="13"/>
+        <lastUpdated value="2023-07-12T03:29:44.521Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-content-bundle"/>
     <version value="0.1.0"/>
@@ -12,7 +12,7 @@
     <title value="US Public Health Content Bundle"/>
     <status value="active"/>
     <experimental value="false"/>
-    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
     <contact>
         <name value="HL7 Public Health Work Group"/>
         <telecom>

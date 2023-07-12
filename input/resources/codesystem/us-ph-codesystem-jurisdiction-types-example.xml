@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem
     xmlns="http://hl7.org/fhir">
-    <id value="us-ph-jurisdiction-types-example"/>
+    <id value="us-ph-codesystem-jurisdiction-types-example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2023-02-18T08:26:51.786Z"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-07-12T06:50:05.123Z"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-jurisdiction-types-example"/>
+    <url value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-jurisdiction-types-example"/>
     <version value="0.1.0"/>
-    <name value="USPublicHealthJurisdictionTypesExample"/>
-    <title value="US Public Health Jurisdiction Types Example"/>
+    <name value="USPublicHealthCodeSystemJurisdictionTypesExample"/>
+    <title value="US Public Health CodeSystem - Jurisdiction Types Example"/>
     <status value="active"/>
     <experimental value="false"/>
     <publisher value="HL7 Public Health Work Group"/>

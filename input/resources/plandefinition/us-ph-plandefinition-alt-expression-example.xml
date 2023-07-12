@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-plandefinition-alt-expression-example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2023-04-20T06:36:02.181Z"/>
+        <versionId value="3"/>
+        <lastUpdated value="2023-07-12T08:45:35.026Z"/>
     </meta>
     <url value="http://example.org/fhir/PlanDefinition/us-ph-plandefinition-alt-expression-example"/>
     <version value="0.1"/>
@@ -43,7 +43,7 @@
         <textEquivalent value="Start the reporting workflow in response to an encounter-start event"/>
         <code>
             <coding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-plandefinition-actions"/>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-plandefinition-actions"/>
                 <code value="initiate-reporting-workflow"/>
                 <display value="Initiate a reporting workflow"/>
             </coding>
@@ -52,7 +52,7 @@
             <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-named-eventtype-extension">
                 <valueCodeableConcept>
                     <coding>
-                        <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-triggerdefinition-namedevents"/>
+                        <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-triggerdefinition-namedevents"/>
                         <code value="encounter-start"/>
                         <display value="Indicates the start of an encounter"/>
                     </coding>
@@ -88,7 +88,7 @@
         <textEquivalent value="Check suspected disorders for immediate reportability and setup jobs for future reportability checks."/>
         <code>
             <coding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-plandefinition-actions"/>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-plandefinition-actions"/>
                 <code value="execute-reporting-workflow"/>
             </coding>
         </code>
@@ -97,7 +97,7 @@
             <textEquivalent value="Check Trigger Codes based on Suspected Reportable Value set."/>
             <code>
                 <coding>
-                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-plandefinition-actions"/>
+                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-plandefinition-actions"/>
                     <code value="check-trigger-codes"/>
                 </coding>
             </code>
@@ -152,7 +152,7 @@
         <action id="continue-check-reportable">
             <code>
                 <coding>
-                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-plandefinition-actions"/>
+                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-plandefinition-actions"/>
                     <code value="evaluate-condition"/>
                 </coding>
             </code>
@@ -185,7 +185,7 @@
         <textEquivalent value="Check Reportability and setup jobs for future reportability checks."/>
         <code>
             <coding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-plandefinition-actions"/>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-plandefinition-actions"/>
                 <code value="execute-reporting-workflow"/>
             </coding>
         </code>
@@ -194,7 +194,7 @@
             <textEquivalent value="Check Trigger Codes based on RCTC Value sets."/>
             <code>
                 <coding>
-                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-plandefinition-actions"/>
+                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-plandefinition-actions"/>
                     <code value="check-trigger-codes"/>
                 </coding>
             </code>
@@ -349,7 +349,7 @@
         <action id="check-update-eicr">
             <code>
                 <coding>
-                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-plandefinition-actions"/>
+                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-plandefinition-actions"/>
                     <code value="evaluate-condition"/>
                 </coding>
             </code>
@@ -381,7 +381,7 @@
         <action id="is-encounter-in-progress">
             <code>
                 <coding>
-                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-plandefinition-actions"/>
+                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-plandefinition-actions"/>
                     <code value="evaluate-condition"/>
                 </coding>
             </code>
@@ -420,7 +420,7 @@
         <textEquivalent value="Create eICR"/>
         <code>
             <coding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-plandefinition-actions"/>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-plandefinition-actions"/>
                 <code value="create-report"/>
             </coding>
         </code>
@@ -508,7 +508,7 @@
         <textEquivalent value="Validate eICR"/>
         <code>
             <coding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-plandefinition-actions"/>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-plandefinition-actions"/>
                 <code value="validate-report"/>
             </coding>
         </code>
@@ -533,7 +533,7 @@
         <textEquivalent value="Route and send eICR"/>
         <code>
             <coding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-plandefinition-actions"/>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-plandefinition-actions"/>
                 <code value="submit-report"/>
             </coding>
         </code>
@@ -554,7 +554,7 @@
         <textEquivalent value="Start the reporting workflow in response to an encounter-modified event"/>
         <code>
             <coding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-plandefinition-actions"/>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-plandefinition-actions"/>
                 <code value="initiate-reporting-workflow"/>
                 <display value="Initiate a reporting workflow"/>
             </coding>
@@ -563,7 +563,7 @@
             <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-named-eventtype-extension">
                 <valueCodeableConcept>
                     <coding>
-                        <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-triggerdefinition-namedevents"/>
+                        <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-triggerdefinition-namedevents"/>
                         <code value="encounter-modified"/>
                         <display value="Indicates modifications to data elements of an encounter"/>
                     </coding>

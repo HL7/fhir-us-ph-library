@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-messageheader"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2023-03-09T08:54:09.355Z"/>
+        <versionId value="8"/>
+        <lastUpdated value="2023-07-12T08:05:13.605Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-messageheader"/>
     <version value="1.0.0"/>
@@ -12,7 +12,7 @@
     <title value="US Public Health MessageHeader"/>
     <status value="active"/>
     <experimental value="false"/>
-    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
     <contact>
         <name value="HL7 Public Health Work Group"/>
         <telecom>
@@ -75,7 +75,7 @@
             <binding>
                 <strength value="extensible"/>
                 <description value="US Public Health Message Types ValueSet"/>
-                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-message-types-valueset"/>
+                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-message-types"/>
             </binding>
         </element>
         <element id="MessageHeader.destination">
@@ -124,7 +124,7 @@
             <binding>
                 <strength value="extensible"/>
                 <description value="US Public Health TriggerDefinition NamedEvents"/>
-                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-triggerdefinition-namedevent"/>
+                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-triggerdefinition-namedevent"/>
             </binding>
         </element>
         <element id="MessageHeader.response">

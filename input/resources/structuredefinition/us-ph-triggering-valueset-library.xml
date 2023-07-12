@@ -3,16 +3,15 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-triggering-valueset-library"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2023-03-09T09:10:52.758Z"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-07-10T23:01:54.317Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset-library"/>
     <version value="1.0.0"/>
     <name value="USPublicHealthTriggeringValueSetLibrary"/>
     <title value="US Public Health Triggering ValueSet Library"/>
     <status value="active"/>
-    <date value="2020-11-11T00:00:00.000Z"/>
-    <publisher value="HL7 Public Health Work Group"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
     <contact>
         <name value="HL7 Public Health Work Group"/>
         <telecom>

@@ -1,0 +1,1 @@
+It is based on the [US Public Health ValueSet](StructureDefinition-us-ph-valueset.html) and describes an executable value set as one that **SHALL** have an expansion included, as well as a usage warning indicating the expansion is a point-in-time snapshot and must be maintained over time for production usage.

@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-triggering-valueset-library-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T06:05:34.608Z"/>
+        <versionId value="3"/>
+        <lastUpdated value="2023-07-12T09:37:15.354Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset-library"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/Library/us-ph-triggering-valueset-library-example"/>
@@ -39,6 +39,6 @@
     </effectivePeriod>
     <relatedArtifact>
         <type value="composed-of"/>
-        <resource value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-triggering-valueset-chlamydia-example"/>
+        <resource value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-triggering-chlamydia-example"/>
     </relatedArtifact>
 </Library>

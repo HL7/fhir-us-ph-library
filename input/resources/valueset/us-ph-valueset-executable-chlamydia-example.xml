@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet
     xmlns="http://hl7.org/fhir">
-    <id value="us-ph-triggering-valueset-chlamydia-example"/>
+    <id value="us-ph-valueset-executable-chlamydia-example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2023-04-20T09:03:41.660Z"/>
-        <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-07-12T10:18:51.815Z"/>
+        <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-valueset"/>
     </meta>
     <extension url="http://hl7.org/fhir/StructureDefinition/valueset-steward">
         <valueContactDetail>
@@ -17,33 +17,22 @@
             <name value="Example Author"/>
         </valueContactDetail>
     </extension>
-    <url value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-triggering-valueset-chlamydia-example"/>
+    <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-usagewarning-extension">
+        <valueString value="This value set contains a point-in-time expansion enumerating the codes that meet the value set intent. As new versions of the code systems used by the value set are released, the contents of this expansion will need to be updated to incorporate newly defined codes that meet the value set intent. Before, and periodically during production use, the value set expansion contents SHOULD be updated. The value set expansion specifies the timestamp when the expansion was produced, SHOULD contain the parameters used for the expansion, and SHALL contain the codes that are obtained by evaluating the value set definition. If this is ONLY an executable value set, a distributable definition of the value set must be obtained to compute the updated expansion."/>
+    </extension>
+    <url value="http://example.org/fhir/ValueSet/us-ph-valueset-executable-chlamydia-example"/>
     <identifier>
         <system value="urn:ietf:rfc:3986"/>
-        <value value="urn:oid:2.16.840.1.113762.1.4.1146.1057.2"/>
+        <value value="urn:oid:2.16.840.1.113762.1.4.1146.1057.1"/>
     </identifier>
     <version value="1.0.0"/>
-    <name value="USPublicHealthTriggeringValueSetChlamydiaExample"/>
-    <title value="US Public Health Triggering ValueSet Chlamydia Example"/>
+    <name value="USPublicHealthValueSetExecutableChlamydiaExample"/>
+    <title value="US Public Health ValueSet - Chlamydia Example"/>
     <status value="draft"/>
     <experimental value="true"/>
-    <date value="2018-08-01"/>
+    <date value="2022-07-01"/>
     <publisher value="{site.data.fhir.ig.publisher}"/>
-    <description value="This example set of values contains laboratory observations test names that represent that the patient may have the potentially reportable condition of Chlamydia regardless of the clinical presentation of the condition."/>
-    <useContext>
-        <code>
-            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type"/>
-            <code value="reporting"/>
-            <display value="Reporting"/>
-        </code>
-        <valueCodeableConcept>
-            <coding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context"/>
-                <code value="triggering"/>
-                <display value="Triggering"/>
-            </coding>
-        </valueCodeableConcept>
-    </useContext>
+    <description value="This example set of values contains laboratory observations test names that represent that the patient may have the potentially reportable condition of Chlamydia regardless of the clinical presentation of the condition"/>
     <useContext>
         <code>
             <system value="http://terminology.hl7.org/CodeSystem/usage-context-type"/>
@@ -66,7 +55,7 @@
         </code>
         <valueCodeableConcept>
             <coding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context"/>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context"/>
                 <code value="routine"/>
                 <display value="Routine"/>
             </coding>
@@ -98,4 +87,22 @@
             </concept>
         </include>
     </compose>
+    <expansion>
+        <timestamp value="2022-06-22T13:56:07Z"/>
+        <contains>
+            <system value="http://loinc.org"/>
+            <code value="14461-8"/>
+            <display value="Chlamydia trachomatis [Presence] in Blood by Organism specific culture"/>
+        </contains>
+        <contains>
+            <system value="http://loinc.org"/>
+            <code value="14462-6"/>
+            <display value="Chlamydia trachomatis [Presence] in Cerebral spinal fluid by Organism specific culture"/>
+        </contains>
+        <contains>
+            <system value="http://loinc.org"/>
+            <code value="14463-4"/>
+            <display value="Chlamydia trachomatis [Presence] in Cervix by Organism specific culture"/>
+        </contains>
+    </expansion>
 </ValueSet>

@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-plandefinition"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2023-04-20T08:33:20.214Z"/>
+        <versionId value="15"/>
+        <lastUpdated value="2023-07-12T10:04:52.811Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-plandefinition"/>
     <version value="1.0.0"/>
@@ -12,7 +12,7 @@
     <title value="US Public Health PlanDefinition"/>
     <status value="active"/>
     <experimental value="false"/>
-    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
     <contact>
         <name value="HL7 Public Health Work Group"/>
         <telecom>
@@ -49,6 +49,61 @@
             <type>
                 <code value="Extension"/>
                 <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-receiver-address-extension"/>
+            </type>
+            <mustSupport value="true"/>
+        </element>
+        <element id="PlanDefinition.extension:asyncIndicator">
+            <path value="PlanDefinition.extension"/>
+            <sliceName value="asyncIndicator"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Extension"/>
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-async-indicator-extension"/>
+            </type>
+            <mustSupport value="true"/>
+        </element>
+        <element id="PlanDefinition.extension:contentEncrypted">
+            <path value="PlanDefinition.extension"/>
+            <sliceName value="contentEncrypted"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Extension"/>
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-data-encrypted-extension"/>
+            </type>
+            <mustSupport value="true"/>
+        </element>
+        <element id="PlanDefinition.extension:jwksForContentEncryption">
+            <path value="PlanDefinition.extension"/>
+            <sliceName value="jwksForContentEncryption"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Extension"/>
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-receiver-jwks-url"/>
+            </type>
+            <mustSupport value="true"/>
+        </element>
+        <element id="PlanDefinition.extension:contentEncryptionAlgorithm">
+            <path value="PlanDefinition.extension"/>
+            <sliceName value="contentEncryptionAlgorithm"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Extension"/>
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-data-encryption-algorithm-extension"/>
+            </type>
+            <mustSupport value="true"/>
+        </element>
+        <element id="PlanDefinition.extension:expectedResponseDuration">
+            <path value="PlanDefinition.extension"/>
+            <sliceName value="expectedResponseDuration"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Extension"/>
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-expected-response-time-extension"/>
             </type>
             <mustSupport value="true"/>
         </element>
@@ -141,7 +196,7 @@
             <binding>
                 <strength value="extensible"/>
                 <description value="The set of actions that can be used to create plan definition"/>
-                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-plandefinition-action"/>
+                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-plandefinition-action"/>
             </binding>
         </element>
         <element id="PlanDefinition.action.trigger">
@@ -163,7 +218,7 @@
             <binding>
                 <strength value="extensible"/>
                 <description value="The set of named events that can be used for subscriptions"/>
-                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-triggerdefinition-namedevent"/>
+                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-triggerdefinition-namedevent"/>
             </binding>
         </element>
         <element id="PlanDefinition.action.trigger.type">

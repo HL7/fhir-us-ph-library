@@ -3,15 +3,15 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-triggering-valueset"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-03-09T09:10:40.046Z"/>
+        <versionId value="9"/>
+        <lastUpdated value="2023-07-12T09:05:01.989Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset"/>
     <version value="1.0.0"/>
     <name value="USPublicHealthTriggeringValueSet"/>
     <title value="US Public Health Triggering ValueSet"/>
     <status value="active"/>
-    <publisher value="HL7 Public Health Work Group"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
     <contact>
         <name value="HL7 Public Health Work Group"/>
         <telecom>
@@ -19,7 +19,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This ValueSet profile describes the US Public Health Triggering value set."/>
+    <description value="This ValueSet profile describes the requiremes for a value set which is to be used when identifying a triggering event."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -62,7 +62,7 @@
             <min value="1"/>
             <max value="1"/>
             <patternCoding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type"/>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context-type"/>
                 <code value="reporting"/>
             </patternCoding>
         </element>
@@ -77,7 +77,7 @@
             </type>
             <patternCodeableConcept>
                 <coding>
-                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context"/>
+                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context"/>
                     <code value="triggering"/>
                 </coding>
             </patternCodeableConcept>

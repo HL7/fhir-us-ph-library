@@ -3,14 +3,20 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-plandefinition-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T06:05:34.608Z"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-07-12T10:01:34.957Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-plandefinition"/>
     </meta>
     <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-receiver-address-extension">
         <valueReference>
             <reference value="Endpoint/us-ph-endpoint-ymca"/>
         </valueReference>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-receiver-jwks-url-extension">
+        <valueUrl value="http://example.org/jwks/123"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-data-encryption-algorithm-extension">
+        <valueCode value="RSA384"/>
     </extension>
     <url value="http://hl7.org/fhir/us/ph-library/PlanDefinition/us-ph-plandefinition-example"/>
     <version value="0.1"/>

@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-usagewarning-extension"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-03-09T09:11:09.117Z"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-07-10T23:01:57.387Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-usagewarning-extension"/>
     <version value="0.2.0"/>
@@ -12,8 +12,7 @@
     <title value="US Public Health Usage Warning Extension"/>
     <status value="draft"/>
     <experimental value="false"/>
-    <date value="2019-06-06T00:00:00.000Z"/>
-    <publisher value="HL7 Public Health Work Group"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
     <contact>
         <name value="HL7 Public Health Work Group"/>
         <telecom>

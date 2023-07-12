@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet
     xmlns="http://hl7.org/fhir">
-    <id value="us-ph-supplemental-valueset-example"/>
+    <id value="us-ph-valueset-supplemental-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T06:05:34.608Z"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-07-12T10:20:32.517Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-valueset"/>
     </meta>
     <extension url="http://hl7.org/fhir/StructureDefinition/valueset-steward">
@@ -17,10 +17,10 @@
             <name value="Example Author"/>
         </valueContactDetail>
     </extension>
-    <url value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-supplemental-valueset-example"/>
+    <url value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-supplemental-example"/>
     <version value="1.0.0"/>
-    <name value="USPublicHealthSupplementalValueSetExample"/>
-    <title value="US Public Health Supplemental Valueset Example"/>
+    <name value="USPublicHealthValueSetSupplementalExample"/>
+    <title value="US Public Health VaueSet - Supplemental Example"/>
     <status value="active"/>
     <experimental value="false"/>
     <date value="2022-06-02T00:00:00+10:00"/>
@@ -28,13 +28,13 @@
     <description value="This valueset is a valueset created for the purposes of demonstrating, by example, the US Public Health Supplemental ValueSet profile."/>
     <useContext>
         <code>
-            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type"/>
+            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context-type"/>
             <code value="reporting"/>
             <display value="Reporting"/>
         </code>
         <valueCodeableConcept>
             <coding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context"/>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context"/>
                 <code value="supplemental"/>
                 <display value="Supplemental"/>
             </coding>
@@ -56,13 +56,13 @@
     </useContext>
     <useContext>
         <code>
-            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type"/>
+            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context-type"/>
             <code value="priority"/>
             <display value="Priority"/>
         </code>
         <valueCodeableConcept>
             <coding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context"/>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context"/>
                 <code value="routine"/>
                 <display value="Routine"/>
             </coding>
@@ -82,7 +82,7 @@
             <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
         </include>
         <include>
-            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-endpoint-connection-type-example"/>
+            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-endpoint-connection-type-example"/>
         </include>
     </compose>
 </ValueSet>

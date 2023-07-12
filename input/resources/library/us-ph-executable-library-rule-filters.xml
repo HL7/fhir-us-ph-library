@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-executable-library-rule-filters"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T06:05:34.608Z"/>
+        <versionId value="2"/>
+        <lastUpdated value="2023-07-12T08:36:42.483Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-library"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-library"/>
     </meta>
@@ -129,7 +129,7 @@ using FHIR version '4.0.1'
 include FHIRHelpers version '4.0.1'
 
 codesystem "LOINC": 'http://loinc.org'
-codesystem "UsageContext": 'http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type'
+codesystem "UsageContext": 'http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context-type'
 codesystem "JurisdictionsList": 'http://example.org/fhir/CodeSystem/ersd-jurisdictions-example'
 
 // Overall triggering value sets, groupings of all condition-specific value sets, grouped by representation in the information model
@@ -392,7 +392,7 @@ define "Is Suspected Disorder?":
     <relatedArtifact>
         <type value="depends-on"/>
         <display value="Code system UsageContext"/>
-        <resource value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type"/>
+        <resource value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context-type"/>
     </relatedArtifact>
     <relatedArtifact>
         <type value="depends-on"/>

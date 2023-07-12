@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem
     xmlns="http://hl7.org/fhir">
-    <id value="us-ph-endpoint-connection-type-example"/>
+    <id value="us-ph-codesystem-endpoint-connection-type-example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2023-02-18T08:26:51.786Z"/>
+        <versionId value="3"/>
+        <lastUpdated value="2023-07-12T06:49:10.967Z"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-endpoint-connection-type-example"/>
-    <name value="USPublicHealthEndpointConnectionTypeExample"/>
-    <title value="US Public Health Endpoint Connection Type Example"/>
+    <url value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-endpoint-connection-type-example"/>
+    <name value="USPublicHealthCodeSystemEndpointConnectionTypeExample"/>
+    <title value="US Public Health CodeSystem - Endpoint Connection Type Example"/>
     <status value="active"/>
     <experimental value="false"/>
     <publisher value="HL7 Public Health Work Group"/>

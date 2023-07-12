@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem
     xmlns="http://hl7.org/fhir">
-    <id value="us-ph-usage-context"/>
+    <id value="us-ph-codesystem-usage-context"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2023-02-18T08:26:51.787Z"/>
+        <versionId value="3"/>
+        <lastUpdated value="2023-07-12T06:52:18.222Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context"/>
+    <url value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context"/>
     <version value="1.0.0"/>
-    <name value="USPublicHealthUsageContext"/>
-    <title value="US Public Health Usage Context"/>
+    <name value="USPublicHealthCodeSystemUsageContext"/>
+    <title value="US Public Health CodeSystem - Usage Context"/>
     <status value="active"/>
     <experimental value="false"/>
     <publisher value="HL7 Public Health Work Group"/>

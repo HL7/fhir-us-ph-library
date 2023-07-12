@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-executable-valueset"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2023-02-17T12:28:03.964Z"/>
+        <versionId value="8"/>
+        <lastUpdated value="2023-07-12T03:28:02.242Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-valueset"/>
     <version value="1.0.0"/>
@@ -12,7 +12,7 @@
     <title value="US Public Health Executable ValueSet"/>
     <status value="active"/>
     <experimental value="false"/>
-    <publisher value="HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
     <contact>
         <name value="HL7 Public Health Work Group"/>
         <telecom>
@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="Defines an executable value set as one that SHALL have an expansion included, as well as a usage warning indicating the expansion is a point-in-time snapshot and must be maintained over time for production usage."/>
+    <description value="This ValueSet profile describes the requirements for a value set containing a point-in-time expansion enumerating the codes that meet the value set intent. As new versions of the code systems used by the value set are released, the contents of this expansion will need to be updated to incorporate newly defined codes that meet the value set intent."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition
+    xmlns="http://hl7.org/fhir">
+    <id value="us-ph-report-initiation-type-extension"/>
+    <meta>
+        <versionId value="4"/>
+        <lastUpdated value="2023-07-12T08:05:11.357Z"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-report-initiation-type-extension"/>
+    <name value="USPublicHealthInitiationTypeExtension"/>
+    <title value="US Public Health Initiation Type Extension"/>
+    <status value="active"/>
+    <experimental value="false"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
+    <contact>
+        <name value="HL7 Public Health Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
+    <description value="This Extension profile represents that the report was either manually initiated or alternately initiated by the provider."/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+        </coding>
+    </jurisdiction>
+    <fhirVersion value="4.0.1"/>
+    <kind value="complex-type"/>
+    <abstract value="false"/>
+    <context>
+        <type value="element"/>
+        <expression value="MessageHeader"/>
+    </context>
+    <type value="Extension"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Extension">
+            <path value="Extension"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Extension.url">
+            <path value="Extension.url"/>
+            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-report-initiation-type-extension"/>
+        </element>
+        <element id="Extension.value[x]">
+            <path value="Extension.value[x]"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
+            <binding>
+                <strength value="extensible"/>
+                <description value="Initiation Types"/>
+                <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-report-initiation-type"/>
+            </binding>
+        </element>
+    </differential>
+</StructureDefinition>

@@ -3,15 +3,15 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-valueset"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-03-09T09:11:18.770Z"/>
+        <versionId value="14"/>
+        <lastUpdated value="2023-07-12T10:17:27.324Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset"/>
     <version value="1.0.0"/>
     <name value="USPublicHealthValueSet"/>
     <title value="US Public Health ValueSet"/>
     <status value="active"/>
-    <publisher value="HL7 Public Health Work Group"/>
+    <publisher value="{site.data.fhir.ig.publisher}"/>
     <contact>
         <name value="HL7 Public Health Work Group"/>
         <telecom>
@@ -19,7 +19,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This ValueSet profile describes US Public Health value sets."/>
+    <description value="This ValueSet profile describes the minimum requirements for US Public Health value sets."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -79,41 +79,15 @@
         </element>
         <element id="ValueSet.identifier">
             <path value="ValueSet.identifier"/>
-            <short value="Value set identifier used by public health (e.g. RCTC OID)"/>
+            <short value="Value set identifier used by public health"/>
             <definition value="The identifier of the value set."/>
             <min value="0"/>
-            <mustSupport value="true"/>
-        </element>
-        <element id="ValueSet.name">
-            <path value="ValueSet.name"/>
-            <short value="Value set name"/>
-            <definition value="The name of the value set."/>
-            <min value="1"/>
             <mustSupport value="true"/>
         </element>
         <element id="ValueSet.title">
             <path value="ValueSet.title"/>
             <short value="Value set title"/>
             <definition value="The title of the value set."/>
-            <min value="1"/>
-            <mustSupport value="true"/>
-        </element>
-        <element id="ValueSet.status">
-            <path value="ValueSet.status"/>
-            <short value="Value set definition version"/>
-            <definition value="The value set definition version."/>
-            <min value="1"/>
-            <mustSupport value="true"/>
-        </element>
-        <element id="ValueSet.publisher">
-            <path value="ValueSet.publisher"/>
-            <short value="The entity that is responsible for the content of the Value Set Definition"/>
-            <mustSupport value="true"/>
-        </element>
-        <element id="ValueSet.description">
-            <path value="ValueSet.description"/>
-            <short value="Value set description"/>
-            <definition value="The value set definition (depending on source, could be a concatenation of the value set fields Clinical Focus, Data Element Scope, Inclusion Criteria, Exclusion Criteria, and Note)."/>
             <min value="1"/>
             <mustSupport value="true"/>
         </element>
@@ -142,7 +116,7 @@
             <min value="1"/>
             <max value="1"/>
             <patternCoding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type"/>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context-type"/>
                 <code value="priority"/>
             </patternCoding>
             <mustSupport value="true"/>

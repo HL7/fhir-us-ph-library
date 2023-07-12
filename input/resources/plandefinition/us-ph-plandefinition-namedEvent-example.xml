@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-plandefinition-namedEvent-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-01-31T06:05:34.608Z"/>
+        <versionId value="2"/>
+        <lastUpdated value="2023-07-12T08:46:30.149Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-plandefinition"/>
     </meta>
     <url value="http://example.org/fhir/PlanDefinition/us-ph-plandefinition-namedEvent-example"/>
@@ -39,7 +39,7 @@
         <textEquivalent value="Start the reporting workflow in response to an encounter-start event"/>
         <code>
             <coding>
-                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-plandefinition-actions"/>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-plandefinition-actions"/>
                 <code value="initiate-reporting-workflow"/>
                 <display value="Initiate a reporting workflow"/>
             </coding>
@@ -48,7 +48,7 @@
             <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-named-eventtype-extension">
                 <valueCodeableConcept>
                     <coding>
-                        <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-triggerdefinition-namedevents"/>
+                        <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-triggerdefinition-namedevents"/>
                         <code value="encounter-start"/>
                         <display value="Indicates the start of an encounter"/>
                     </coding>

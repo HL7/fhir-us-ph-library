@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem
     xmlns="http://hl7.org/fhir">
-    <id value="us-ph-message-types-codesystem"/>
+    <id value="us-ph-codesystem-message-types"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2023-02-18T08:26:51.794Z"/>
+        <versionId value="6"/>
+        <lastUpdated value="2023-07-12T08:05:15.593Z"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-message-types-codesystem"/>
+    <url value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-message-types"/>
     <version value="0.1.0"/>
-    <name value="USPublicHealthMessageTypesCodeSystem"/>
-    <title value="US Public Health Message Types CodeSystem"/>
+    <name value="USPublicHealthCodeSystemMessageTypes"/>
+    <title value="US Public Health CodeSystem - Message Types"/>
     <status value="active"/>
     <experimental value="false"/>
     <publisher value="HL7 Public Health Work Group"/>
@@ -27,7 +27,7 @@
         </coding>
     </jurisdiction>
     <caseSensitive value="true"/>
-    <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-message-types-valueset"/>
+    <valueSet value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-message-types"/>
     <hierarchyMeaning value="is-a"/>
     <content value="complete"/>
     <count value="11"/>
