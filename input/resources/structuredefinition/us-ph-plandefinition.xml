@@ -81,7 +81,7 @@
             <max value="1"/>
             <type>
                 <code value="Extension"/>
-                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-receiver-jwks-url"/>
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-receiver-jwks-url-extension"/>
             </type>
             <mustSupport value="true"/>
         </element>
