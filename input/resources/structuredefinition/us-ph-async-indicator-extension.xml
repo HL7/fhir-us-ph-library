@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-async-indicator-extension"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2023-07-12T07:15:11.056Z"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-07-12T18:55:30.744Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-async-indicator-extension"/>
     <version value="1.0.0"/>
@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This extension profile represents the expectation of whether messages resulting from the PlanDefinition are expected to be processed asynchronously."/>
+    <description value="This Extension profile represents the expectation of whether messages resulting from the PlanDefinition are expected to be processed asynchronously."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

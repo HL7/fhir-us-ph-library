@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-executable-library"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2023-07-10T22:57:45.421Z"/>
+        <versionId value="7"/>
+        <lastUpdated value="2023-07-12T23:28:35.044Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-library"/>
     <version value="1.0.0"/>
@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Library profile sets the minimum expectations for an executable CQL library. Specifically, the profile requires that the library contain one of ELM XML or JSON content, the compiled representation of the CQL logic."/>
+    <description value="This Library profile sets the minimum expectations for an executable CQL library. Specifically, the profile requires that the library contain one of ELM, XML, or JSON content, the compiled representation of the CQL logic."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

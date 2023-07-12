@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-response-bundle"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-07-12T04:45:06.644Z"/>
+        <versionId value="2"/>
+        <lastUpdated value="2023-07-12T18:55:30.688Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-response-bundle"/>
     <version value="1.0.0"/>
@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This profile represents a Bundle used for exchanging a public health response."/>
+    <description value="This Bundle profile represents the packaging construct used for exchanging a public health response."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

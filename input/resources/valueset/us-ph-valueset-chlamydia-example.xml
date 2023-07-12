@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-valueset-chlamydia-example"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2023-07-12T10:18:52.439Z"/>
+        <versionId value="7"/>
+        <lastUpdated value="2023-07-12T23:18:46.839Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset"/>
     </meta>
     <extension url="http://hl7.org/fhir/StructureDefinition/valueset-steward">
@@ -16,9 +16,6 @@
         <valueContactDetail>
             <name value="Example Author"/>
         </valueContactDetail>
-    </extension>
-    <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/usphpl-us-ph-usagewarning-extension">
-        <valueString value="This value set contains a point-in-time expansion enumerating the codes that meet the value set intent. As new versions of the code systems used by the value set are released, the contents of this expansion will need to be updated to incorporate newly defined codes that meet the value set intent. Before, and periodically during production use, the value set expansion contents SHOULD be updated. The value set expansion specifies the timestamp when the expansion was produced, SHOULD contain the parameters used for the expansion, and SHALL contain the codes that are obtained by evaluating the value set definition. If this is ONLY an executable value set, a distributable definition of the value set must be obtained to compute the updated expansion."/>
     </extension>
     <url value="http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-chlamydia-example"/>
     <identifier>

@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-report-initiation-type-extension"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2023-07-12T08:05:11.357Z"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-07-12T18:55:30.826Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-report-initiation-type-extension"/>
     <name value="USPublicHealthInitiationTypeExtension"/>
@@ -19,7 +19,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Extension profile represents that the report was either manually initiated or alternately initiated by the provider."/>
+    <description value="This Extension profile represents whether the report was either manually initiated or alternately initiated by the provider."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

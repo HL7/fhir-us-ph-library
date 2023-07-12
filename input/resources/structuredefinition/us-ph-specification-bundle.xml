@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-specification-bundle"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-07-12T04:42:47.418Z"/>
+        <versionId value="2"/>
+        <lastUpdated value="2023-07-12T18:55:30.658Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-specification-bundle"/>
     <version value="1.0.0"/>
@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This profile represents a Bundle used for exchanging a Knowledge Artifact."/>
+    <description value="This Bundle profile represent the packaging construct used for exchanging a knowledge artifact."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

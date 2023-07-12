@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-valueset-executable-chlamydia-example"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2023-07-12T10:18:51.815Z"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-07-12T23:15:25.237Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-valueset"/>
     </meta>
     <extension url="http://hl7.org/fhir/StructureDefinition/valueset-steward">
@@ -49,7 +49,7 @@
     </useContext>
     <useContext>
         <code>
-            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-usage-context-type"/>
+            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context-type"/>
             <code value="priority"/>
             <display value="Priority"/>
         </code>

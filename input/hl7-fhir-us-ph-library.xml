@@ -147,7 +147,7 @@
                 <display value="US Public Health Async Indicator Extension"/>
             </reference>
             <name value="US Public Health Async Indicator Extension"/>
-            <description value="This extension profile represents the expectation of whether messages resulting from the PlanDefinition are expected to be processed asynchronously."/>
+            <description value="This Extension profile represents the expectation of whether messages resulting from the PlanDefinition are expected to be processed asynchronously."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-extensions"/>
         </resource>
@@ -335,7 +335,7 @@
                 <display value="US Public Health Data Encrypted Extension"/>
             </reference>
             <name value="US Public Health Data Encrypted Extension"/>
-            <description value="This exension indicates whether or not the data in the content bundle is encrypted."/>
+            <description value="This Exension profile indicates whether or not the data in the content bundle is encrypted."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-extensions"/>
         </resource>
@@ -345,7 +345,7 @@
                 <display value="US Public Health Data Encryption Algorithm Extension"/>
             </reference>
             <name value="US Public Health Data Encryption Algorithm"/>
-            <description value="This Extension profile represents the algorithms that would be acceptable for encryption of the data prior to submitting to the data receiver."/>
+            <description value="This Extension profile represents algorithms that would be acceptable for encryption of the data prior to submitting to the data receiver."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-extensions"/>
         </resource>
@@ -519,7 +519,7 @@
                 <display value="US Public Health Executable Library"/>
             </reference>
             <name value="US Public Health Executable Library"/>
-            <description value="This Library profile sets the minimum expectations for an executable CQL library. Specifically, the profile requires that the library contain one of ELM XML or JSON content, the compiled representation of the CQL logic."/>
+            <description value="This Library profile sets the minimum expectations for an executable CQL library. Specifically, the profile requires that the library contain one of ELM, XML, or JSON content, the compiled representation of the CQL logic."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-terminology"/>
         </resource>
@@ -640,7 +640,7 @@
                 <display value="US Public Health Initiation Type Extension"/>
             </reference>
             <name value="US Public Health Initiation Type Extension"/>
-            <description value="This Extension profile represents that the report was either manually initiated or alternately initiated by the provider."/>
+            <description value="This Extension profile represents whether the report was either manually initiated or alternately initiated by the provider."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-extensions"/>
         </resource>
@@ -948,7 +948,7 @@
                 <reference value="CodeSystem/us-ph-codesystem-plandefinition-actions"/>
                 <display value="US Public Health CodeSystem - PlanDefinition Actions"/>
             </reference>
-            <name value="US Public Health PlanDefinition Action"/>
+            <name value="US Public Health Codesystem - PlanDefinition Actions"/>
             <description value="The US Public Health PlanDefinition Actions CodeSystem contains codes for currently identified use cases for identifying actions in PlanDefinition."/>
             <exampleBoolean value="false"/>
             <groupingId value="code-systems"/>
@@ -958,7 +958,7 @@
                 <reference value="ValueSet/us-ph-valueset-plandefinition-action"/>
                 <display value="US Public Health VaueSet - PlanDefinition Action"/>
             </reference>
-            <name value="US Public Health PlanDefinition Action"/>
+            <name value="US Public Health ValueSet - PlanDefinition Action"/>
             <description value="The US Public Health PlanDefinition Action Value Set contains codes for currently identified use cases for uniquely identifying actions in PlanDefinition instances."/>
             <exampleBoolean value="false"/>
             <groupingId value="value-sets"/>
@@ -1046,7 +1046,7 @@
                 <display value="US Public Health Receiver JWKS Url Extension"/>
             </reference>
             <name value="US Public Health Receiver JWKS Url Extension"/>
-            <description value="This profile indicates the location of the public key that needs to be used for encryption when sending data to the receiver."/>
+            <description value="This Extension profile indicates the location of the public key that needs to be used for encryption when sending data to the receiver."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-extensions"/>
         </resource>
@@ -1093,7 +1093,7 @@
                 <display value="US Public Health Response Bundle"/>
             </reference>
             <name value="US Public Health Response Bundle"/>
-            <description value="This profile represents a Bundle used for exchanging a public health response."/>
+            <description value="This Bundle profile represents the packaging construct used for exchanging a public health response."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-group"/>
         </resource>
@@ -1111,7 +1111,7 @@
                 <display value="US Public Health Specification Bundle"/>
             </reference>
             <name value="US Public Health Specification Bundle"/>
-            <description value="This profile represents a Bundle used for exchanging a Knowledge Artifact."/>
+            <description value="This Bundle profile represent the packaging construct used for exchanging a knowledge artifact."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-group"/>
         </resource>
@@ -1160,7 +1160,7 @@
                 <display value="US Public Health Supplemental ValueSet"/>
             </reference>
             <name value="US Public Health Supplemental ValueSet"/>
-            <description value="This ValueSet profile describes the requirements for a value set which is to be used when determining whether an event is suspected to be reportable."/>
+            <description value="This ValueSet profile describes the requirements for a value set used when determining whether an event is suspected to be reportable."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-terminology"/>
         </resource>
@@ -1181,7 +1181,7 @@
                 <display value="US Public Health Supplemental Valueset Library"/>
             </reference>
             <name value="US Public Health Supplemental ValueSet Library"/>
-            <description value="This Library profile defines the library containing the US Public Health supplemental value sets."/>
+            <description value="This Library profile defines the library containing US Public Health supplemental value sets that are used when determining whether an event is suspected to be reportable."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-terminology"/>
         </resource>
@@ -1285,7 +1285,7 @@
                 <reference value="CodeSystem/us-ph-codesystem-triggerdefinition-namedevents"/>
                 <display value="US Public Health CodeSystem - Trigger Definition Named Events"/>
             </reference>
-            <name value="US Public Health TriggerDefinition NamedEvent"/>
+            <name value="US Public Health CodeSystem - TriggerDefinition NamedEvents"/>
             <description value="The US Public Health TriggerDefinition NamedEvents CodeSystem contains codes for currently identified use cases for identifying named events to subscribe to in clinical workflows."/>
             <exampleBoolean value="false"/>
             <groupingId value="code-systems"/>
@@ -1295,7 +1295,7 @@
                 <reference value="ValueSet/us-ph-valueset-triggerdefinition-namedevent"/>
                 <display value="US Public Health VaueSet - TriggerDefinition NamedEvent"/>
             </reference>
-            <name value="US Public Health TriggerDefinition NamedEvent"/>
+            <name value="US Public Health ValueSystem - TriggerDefinition NamedEvent"/>
             <description value="The US Public Health TriggerDefinition NamedEvent Value Set contains codes for currently identified use cases for identifying named events uniquely in TriggerDefinition instances contained within a PlanDefinition."/>
             <exampleBoolean value="false"/>
             <groupingId value="value-sets"/>
@@ -1306,7 +1306,7 @@
                 <display value="US Public Health Triggering ValueSet"/>
             </reference>
             <name value="US Public Health Triggering ValueSet"/>
-            <description value="This ValueSet profile describes the requiremes for a value set which is to be used when identifying a triggering event."/>
+            <description value="This ValueSet profile describes the requirements for a value set used when identifying a triggering event."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-terminology"/>
         </resource>
@@ -1315,7 +1315,7 @@
                 <reference value="ValueSet/us-ph-valueset-triggering-chlamydia-example"/>
                 <display value="US Public Health VaueSet - Triggering Chlamydia Example"/>
             </reference>
-            <name value="US Public Health Triggering ValueSet Chlamydia Example"/>
+            <name value="US Public Health Triggering ValueSet Chlamydia"/>
             <description value="This example value set demonstrates the US Public Health Triggering ValueSet profile with Chlamydia lab tests for routine triggering"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset"/>
@@ -1327,7 +1327,7 @@
                 <display value="US Public Health Triggering ValueSet Library"/>
             </reference>
             <name value="US Public Health Triggering ValueSet Library"/>
-            <description value="This Library profile defines the library containing the US Public Health triggering value sets."/>
+            <description value="This Library profile defines the library containing the US Public Health triggering value sets that are used when identifying a triggering event."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-terminology"/>
         </resource>
@@ -1336,7 +1336,7 @@
                 <reference value="Library/us-ph-triggering-valueset-library-example"/>
                 <display value="US Public Health Triggering ValueSet Library Example"/>
             </reference>
-            <name value="US Public Health Triggering ValueSet Library"/>
+            <name value="US Public Health Triggering ValueSet Library Example"/>
             <description value="US Public Health Triggering ValueSet Library: example"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset-library"/>
@@ -1348,7 +1348,7 @@
                 <display value="US Public Health Trust Service Endpoint"/>
             </reference>
             <name value="US Public Health Trust Service Endpoint"/>
-            <description value="This Extension profile represents the endpoint address which implements Trust Services and can be used by specific actions requiring trust services with appropriate authorities and policies."/>
+            <description value="This Extension profile represents the endpoint address which implements trust services and can be used by specific actions requiring trust services with appropriate authorities and policies."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-extensions"/>
         </resource>

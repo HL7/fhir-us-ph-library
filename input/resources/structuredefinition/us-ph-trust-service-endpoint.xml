@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-trust-service-endpoint"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-07-12T05:19:29.416Z"/>
+        <versionId value="2"/>
+        <lastUpdated value="2023-07-12T18:55:30.800Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-trust-service-endpoint"/>
     <name value="USPublicHealthTrustServiceEndpoint"/>
@@ -19,7 +19,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Extension profile represents the endpoint address which implements Trust Services and can be used by specific actions requiring trust services with appropriate authorities and policies."/>
+    <description value="This Extension profile represents the endpoint address which implements trust services and can be used by specific actions requiring trust services with appropriate authorities and policies."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

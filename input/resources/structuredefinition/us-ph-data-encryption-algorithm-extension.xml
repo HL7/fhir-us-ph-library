@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-data-encryption-algorithm-extension"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-07-12T07:12:05.082Z"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-07-12T18:55:30.772Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-data-encryption-algorithm-extension"/>
     <name value="USPublicHealthDataEncryptionAlgorithmExtension"/>
@@ -19,7 +19,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Extension profile represents the algorithms that would be acceptable for encryption of the data prior to submitting to the data receiver."/>
+    <description value="This Extension profile represents algorithms that would be acceptable for encryption of the data prior to submitting to the data receiver."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

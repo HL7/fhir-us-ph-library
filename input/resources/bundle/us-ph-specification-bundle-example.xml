@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-specification-bundle-example"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2023-07-12T09:59:33.878Z"/>
+        <versionId value="7"/>
+        <lastUpdated value="2023-07-12T10:53:24.946Z"/>
     </meta>
     <type value="collection"/>
     <timestamp value="2022-11-20T11:15:33-10:00"/>
