@@ -20,7 +20,7 @@
                 </meta>
                 <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-receiver-address-extension">
                     <valueReference>
-                        <reference value="Endpoint/example-ph-endpoint"/>
+                        <reference value="Endpoint/us-ph-endpoint-salem-medical-center"/>
                     </valueReference>
                 </extension>
                 <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-async-indicator-extension">
