@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-specification-bundle-example"/>
     <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2023-07-12T10:53:24.946Z"/>
+        <versionId value="8"/>
+        <lastUpdated value="2023-07-13T00:50:45.771Z"/>
     </meta>
     <type value="collection"/>
     <timestamp value="2022-11-20T11:15:33-10:00"/>
@@ -73,7 +73,7 @@
                                 <coding>
                                     <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-triggerdefinition-namedevents"/>
                                     <code value="encounter-close"/>
-                                    <display value="Indicates the end of an encounter"/>
+                                    <display value="Indicates the close of an encounter"/>
                                 </coding>
                             </valueCodeableConcept>
                         </extension>
@@ -174,7 +174,7 @@
                         <code value="program"/></code>
                     <valueCodeableConcept>
                         <coding>
-                            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-valueset-usecontext-codes"/>
+                            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-valueset-usecontext"/>
                             <code value="ph-reporting"/>
                             <display value="ValueSet is to be used in the context of public health reporting use cases."/>
                         </coding>

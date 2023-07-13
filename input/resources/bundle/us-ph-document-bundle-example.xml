@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-document-bundle-example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2023-07-12T09:06:40.403Z"/>
+        <versionId value="3"/>
+        <lastUpdated value="2023-07-13T00:57:44.356Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle"/>
     </meta>
     <identifier>
@@ -20,8 +20,7 @@
                 <id value="us-ph-composition-example"/>
                 <meta>
                     <versionId value="1"/>
-                    <lastUpdated value="2022-07-22T07:20:04.668+00:00"/>
-                    <source value="#c2UZnH7KyClv5nQp"/>
+                    <lastUpdated value="2023-01-31T06:05:34.608Z"/>
                     <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-composition"/>
                 </meta>
                 <extension url="http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber">
@@ -92,7 +91,9 @@
                                                 <ul style="list-style:none; padding-left:0; margin:0 0;">
                                                     <li>
                                                         <div title="display">History of Present illness Narrative</div> ( 
+                                                        
                                                         <div title="code">10164-2</div> ) 
+                                                    
                                                     </li>
                                                     <li>
                                                         <div title="system">
@@ -106,9 +107,13 @@
                                 </tr>
                                 <tr>
                                     <td colspan="2" lang="en-US" class="text-no-entries"> Persistent Cough REPORTED starting on 2018/03/05 
+                                        
                                         <br/> Whooping Respiration not reported 
+                                        
                                         <br/> Paroxysms Of Coughing REPORTED starting on 2018/03/06 
+                                        
                                         <br/> Post-tussive vomiting not reported 
+                                    
                                     </td>
                                 </tr>
                             </table>
@@ -143,7 +148,9 @@
                                                 <ul style="list-style:none; padding-left:0; margin:0 0;">
                                                     <li>
                                                         <div title="display">Reason for visit Narrative</div> ( 
+                                                        
                                                         <div title="code">29299-5</div> ) 
+                                                    
                                                     </li>
                                                     <li>
                                                         <div title="system">
@@ -192,7 +199,9 @@
                                                 <ul style="list-style:none; padding-left:0; margin:0 0;">
                                                     <li>
                                                         <div title="display">Chief complaint Narrative - Reported</div> ( 
+                                                        
                                                         <div title="code">10154-3</div> ) 
+                                                    
                                                     </li>
                                                     <li>
                                                         <div title="system">
@@ -223,8 +232,7 @@
                 <id value="us-ph-encounter-eve-everywoman-outpatient"/>
                 <meta>
                     <versionId value="2"/>
-                    <lastUpdated value="2022-07-21T20:27:26.107+00:00"/>
-                    <source value="#zSQSJ1jlVDTb627T"/>
+                    <lastUpdated value="2023-04-20T06:42:36.834Z"/>
                     <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-encounter"/>
                 </meta>
                 <identifier>
@@ -267,7 +275,7 @@
                 </period>
                 <diagnosis>
                     <condition>
-                        <reference value="Condition/us-ph-condition-eve-everywoman-diabetes"/>
+                        <reference value="Condition/us-ph-condition-encounter-diagnosis-diabetes"/>
                     </condition>
                 </diagnosis>
                 <location>
@@ -290,8 +298,7 @@
                 <id value="us-ph-practitionerrole-henry-seven"/>
                 <meta>
                     <versionId value="1"/>
-                    <lastUpdated value="2022-07-21T22:09:12.608+00:00"/>
-                    <source value="#44W69ow6bSfgKWQf"/>
+                    <lastUpdated value="2023-01-31T06:05:34.608Z"/>
                     <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-practitionerrole"/>
                 </meta>
                 <identifier>
@@ -337,9 +344,8 @@
             <Patient>
                 <id value="us-ph-patient-eve-everywoman"/>
                 <meta>
-                    <versionId value="1"/>
-                    <lastUpdated value="2022-07-21T05:30:14.826+00:00"/>
-                    <source value="#AW0TSMc7z5FaiAIX"/>
+                    <versionId value="4"/>
+                    <lastUpdated value="2023-07-12T09:08:31.640Z"/>
                     <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
                 </meta>
                 <text>
@@ -347,6 +353,8 @@
                     <div
                         xmlns="http://www.w3.org/1999/xhtml">
                         <div class="hapiHeaderText">Eve L 
+                            
+                            
                             <b>EVERYWOMAN </b>
                         </div>
                         <table class="hapiPropertyTable">
@@ -419,7 +427,7 @@
                         <valueCoding>
                             <system value="http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS"/>
                             <code value="91"/>
-                            <display value="Fort Mojave Indian Tribe of Arizona, California"/>
+                            <display value="Fort Mojave Indian Tribe of Arizona, California &amp; Nevada"/>
                         </valueCoding>
                     </extension>
                     <extension url="EnrolledTribeMember">
@@ -482,8 +490,7 @@
                 <id value="us-ph-location-salem-medical-center"/>
                 <meta>
                     <versionId value="1"/>
-                    <lastUpdated value="2022-07-21T05:31:48.050+00:00"/>
-                    <source value="#OYMJHBNVVi6huTUM"/>
+                    <lastUpdated value="2023-01-31T06:05:34.608Z"/>
                     <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-location"/>
                 </meta>
                 <identifier>
@@ -531,8 +538,7 @@
                 <id value="us-core-practitioner-henry-seven"/>
                 <meta>
                     <versionId value="1"/>
-                    <lastUpdated value="2022-07-21T05:30:27.155+00:00"/>
-                    <source value="#gM676jWmSLAl87ym"/>
+                    <lastUpdated value="2022-07-21T09:30:27.155Z"/>
                     <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
                 </meta>
                 <identifier>
@@ -563,12 +569,11 @@
         <fullUrl value="http://example.org/fhir/Condition/us-ph-condition-eve-everywoman-diabetes"/>
         <resource>
             <Condition>
-                <id value="us-ph-condition-eve-everywoman-diabetes"/>
+                <id value="us-ph-condition-encounter-diagnosis-diabetes"/>
                 <meta>
                     <versionId value="1"/>
-                    <lastUpdated value="2022-07-21T05:30:58.342+00:00"/>
-                    <source value="#7xC7qz28JWzGbonC"/>
-                    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition"/>
+                    <lastUpdated value="2023-04-20T06:15:23.356Z"/>
+                    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition-encounter-diagnosis"/>
                 </meta>
                 <category>
                     <coding>
@@ -603,9 +608,7 @@
                 <id value="us-ph-organization-salem-medical-center"/>
                 <meta>
                     <versionId value="1"/>
-                    <lastUpdated value="2022-07-21T05:32:37.495+00:00"/>
-                    <source value="#8vwurqsw71JKEt7S"/>
-                    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-organization"/>
+                    <lastUpdated value="2023-01-31T06:05:34.608Z"/>
                 </meta>
                 <identifier>
                     <system value="http://hl7.org.fhir/sid/us-npi"/>

@@ -42,29 +42,50 @@ Disclaimer: All proprietary documents, guides, guidance, standards, codes, and v
     </thead>
     <tbody>
         <tr>
-            <td>Primary Editor</rd>
+            <td>Primary Editor</td>
             <td>Sarah Gaunt</td>
             <td><a href="mailto:sarah.gaunt@lantanagroup.com">sarah.gaunt@lantanagroup.com</a></td>
         </tr>
         <tr>
-            <td>Primary Editor</rd>
+            <td>Primary Editor</td>
             <td>John Loonsk</td>
             <td><a href="mailto:john.loonsk@jhu.edu">john.loonsk@jhu.edu</a></td>
         </tr>
         <tr>
-            <td>Contributor</rd>
+            <td>Contributor</td>
             <td>Nagesh Bashyam</td>
             <td><a href="nagesh.bashyam@drajer.com">nagesh.bashyam@drajer.com</a></td>
         </tr>
         <tr>
-            <td>Contributor</rd>
+            <td>Contributor</td>
             <td>Bryn Rhodes</td>
             <td><a href="bryn@smilecdr.com">bryn@smilecdr.com</a></td>
         </tr>
         <tr>
-            <td>Contributor</rd>
+            <td>Contributor</td>
             <td>Adam Stevenson</td>
             <td><a href="adam.stevenson@smilecdr.com">adam.stevenson@smilecdr.com</a></td>
         </tr>
     </tbody>
 </table>
+
+
+
+### Authors
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Email/URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HL7 International - Public Health</td>
+<td><a href="http://www.hl7.org/Special/committees/pher" target="_new">http://www.hl7.org/Special/committees/pher</a></td>
+</tr>
+</tbody>
+</table>
+
+

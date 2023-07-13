@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-response-bundle-example"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-07-12T09:57:57.066Z"/>
+        <versionId value="4"/>
+        <lastUpdated value="2023-07-13T00:53:55.772Z"/>
     </meta>
     <type value="message"/>
     <timestamp value="2022-11-20T11:15:33-10:00"/>
@@ -32,7 +32,7 @@
                     </valueCodeableConcept>
                 </extension>
                 <eventCoding>
-                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-messageheader-message-types"/>
+                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-message-types"/>
                     <code value="cancer-report-message"/>
                 </eventCoding>
                 <destination>
@@ -107,8 +107,8 @@
                             </name>
                             <gender value="male"/>
                             <managingOrganization>
-                                <reference value="Organization/example-healthcare-org"/>
-                                <display value="Example Healthcare org"/>
+                                <reference value="Organization/us-ph-organization-salem-medical-center"/>
+                                <display value="Salem Medical Center"/>
                             </managingOrganization>
                         </Patient>
                     </resource>

@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-content-bundle-example"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2023-07-12T09:06:13.938Z"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-07-13T00:59:27.254Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-content-bundle"/>
     </meta>
     <type value="collection"/>
@@ -20,40 +20,6 @@
                     <source value="#zjFlzHDvZIYVyMAB"/>
                     <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
                 </meta>
-                <text>
-                    <status value="generated"/>
-                    <div
-                        xmlns="http://www.w3.org/1999/xhtml">
-                        <div class="hapiHeaderText">Eve L 
-                            
-                            <b>EVERYWOMAN </b>
-                        </div>
-                        <table class="hapiPropertyTable">
-                            <tbody>
-                                <tr>
-                                    <td>Identifier</td>
-                                    <td>1032702</td>
-                                </tr>
-                                <tr>
-                                    <td>Address</td>
-                                    <td>
-                                        <span>5101 Peachtree St NE </span>
-                                        <br/>
-                                        <span>Atlanta </span>
-                                        <span>GA </span>
-                                        <span>US </span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Date of birth</td>
-                                    <td>
-                                        <span>24 November 1974</span>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </text>
                 <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
                     <extension url="ombCategory">
                         <valueCoding>
