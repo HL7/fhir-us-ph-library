@@ -54,17 +54,17 @@ Disclaimer: All proprietary documents, guides, guidance, standards, codes, and v
         <tr>
             <td>Contributor</td>
             <td>Nagesh Bashyam</td>
-            <td><a href="nagesh.bashyam@drajer.com">nagesh.bashyam@drajer.com</a></td>
+            <td><a href="mailto:nagesh.bashyam@drajer.com">nagesh.bashyam@drajer.com</a></td>
         </tr>
         <tr>
             <td>Contributor</td>
             <td>Bryn Rhodes</td>
-            <td><a href="bryn@smilecdr.com">bryn@smilecdr.com</a></td>
+            <td><a href="mailto:bryn@smilecdr.com">bryn@smilecdr.com</a></td>
         </tr>
         <tr>
             <td>Contributor</td>
             <td>Adam Stevenson</td>
-            <td><a href="adam.stevenson@smilecdr.com">adam.stevenson@smilecdr.com</a></td>
+            <td><a href="mailto:adam.stevenson@smilecdr.com">adam.stevenson@smilecdr.com</a></td>
         </tr>
     </tbody>
 </table>

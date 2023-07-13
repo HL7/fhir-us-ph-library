@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="427"/>
-        <lastUpdated value="2023-07-13T00:35:36.153Z"/>
+        <versionId value="433"/>
+        <lastUpdated value="2023-07-13T06:19:17.564Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="1.0.0"/>
@@ -19,7 +19,7 @@
             <value value="http://www.hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="The US Public Health Profiles Library (USPHPL) is a collection of reusable architecture and content profiles representing common public health concepts and patterns. It is intended as a complement to the [US Core Implementation Guide (US Core)]({{site.data.fhir.ver.hl7fhiruscore}}) to ease implementation burden of healthcare organizations, electronic health record companies, public health agencies, and others involved in the US public health endeavor.&#xA;&#xA;The US Public Health Profiles Library is instituted in close conjunction with US Core and has an analogous process for implementation, moderation, review, and approval. US Core profiles will be re-used wherever possible and profiles will only be added to the library that are required for common public health needs. The library will evolve over time and may be supported by an adjunct profiles registry that includes developing and informational profiles for public health use.&#xA;&#xA;### Background&#xA;&#xA;After evaluation and harmonization analysis of two large multi-condition and multi-use case public health projects, [Electronic Case Reporting (eCR)](http://hl7.org/fhir/us/ecr/) and [Making Electronic Data More available for Research and Public Health (MedMorph)](http://hl7.org/fhir/us/medmorph/), it was determined that there are many common elements between the two implementation guides (IGs). &#xA;&#xA;To avoid defining the same profiles multiple times, we have created the US Public Health Profiles Library for use by Public Health and other FHIR standards development efforts to define appropriate FHIR profiles, value sets, etc., once, and allow them to be referenced by any implementation guides. This USPHPL provides a starting point and framework for inclusion in multiple implementation guides focused on the exchange of Public Health information to support interoperability among public health systems and reduce provider and implementer burden.&#xA;&#xA;The short-term scope of this library includes elements common to the above-mentioned FHIR IGs and defines a US Realm specific framework that defines common elements for the IGs. The longer-term scope includes analysis and inclusion of data elements from other Public Health use cases.&#xA;&#xA;### How to Read This Guide&#xA;&#xA;This Guide is divided into several pages which are listed at the top of each page in the menu bar.&#xA;&#xA;* Home: Introduction and background for HL7 FHIR® US Public Health Profiles Library&#xA;* [Guidance](guidance.html): Information on the library's relation to US Core, conformance, principles and criteria of library profiles inclusion and use of the included profiles&#xA;* [Downloads](downloads.html): Links to downloadable artifacts&#xA;* [Artifact Index](artifacts.html): A list of the FHIR artifacts (profiles, examples, value sets, and code systems) defined as part of this guide&#xA;&#xA;### Other Information&#xA;&#xA;This guide is compliant with FHIR Release 4.&#xA;&#xA;For Clinical Safety Information please refer to the [FHIR Implementer’s Safety Checklist](http://hl7.org/fhir/safety.html).&#xA;&#xA;Disclaimer: All proprietary documents, guides, guidance, standards, codes, and values contained herein remain the property of their respective Standards Developing Organization (SDO). HL7 does not make any claim to ownership herein.&#xA;&#xA;&#xA;### Authors and Contributors&#xA;&#xA;&lt;table&gt;&#xA;    &lt;thead&gt;&#xA;        &lt;tr&gt;&#xA;            &lt;th&gt;Role&lt;/th&gt;&#xA;            &lt;th&gt;Name&lt;/th&gt;&#xA;            &lt;th&gt;Email&lt;/th&gt;&#xA;        &lt;/tr&gt;&#xA;    &lt;/thead&gt;&#xA;    &lt;tbody&gt;&#xA;        &lt;tr&gt;&#xA;            &lt;td&gt;Primary Editor&lt;/td&gt;&#xA;            &lt;td&gt;Sarah Gaunt&lt;/td&gt;&#xA;            &lt;td&gt;&lt;a href=&quot;mailto:sarah.gaunt@lantanagroup.com&quot;&gt;sarah.gaunt@lantanagroup.com&lt;/a&gt;&lt;/td&gt;&#xA;        &lt;/tr&gt;&#xA;        &lt;tr&gt;&#xA;            &lt;td&gt;Primary Editor&lt;/td&gt;&#xA;            &lt;td&gt;John Loonsk&lt;/td&gt;&#xA;            &lt;td&gt;&lt;a href=&quot;mailto:john.loonsk@jhu.edu&quot;&gt;john.loonsk@jhu.edu&lt;/a&gt;&lt;/td&gt;&#xA;        &lt;/tr&gt;&#xA;        &lt;tr&gt;&#xA;            &lt;td&gt;Contributor&lt;/td&gt;&#xA;            &lt;td&gt;Nagesh Bashyam&lt;/td&gt;&#xA;            &lt;td&gt;&lt;a href=&quot;nagesh.bashyam@drajer.com&quot;&gt;nagesh.bashyam@drajer.com&lt;/a&gt;&lt;/td&gt;&#xA;        &lt;/tr&gt;&#xA;        &lt;tr&gt;&#xA;            &lt;td&gt;Contributor&lt;/td&gt;&#xA;            &lt;td&gt;Bryn Rhodes&lt;/td&gt;&#xA;            &lt;td&gt;&lt;a href=&quot;bryn@smilecdr.com&quot;&gt;bryn@smilecdr.com&lt;/a&gt;&lt;/td&gt;&#xA;        &lt;/tr&gt;&#xA;        &lt;tr&gt;&#xA;            &lt;td&gt;Contributor&lt;/td&gt;&#xA;            &lt;td&gt;Adam Stevenson&lt;/td&gt;&#xA;            &lt;td&gt;&lt;a href=&quot;adam.stevenson@smilecdr.com&quot;&gt;adam.stevenson@smilecdr.com&lt;/a&gt;&lt;/td&gt;&#xA;        &lt;/tr&gt;&#xA;    &lt;/tbody&gt;&#xA;&lt;/table&gt;"/>
+    <description value="The US Public Health Profiles Library (USPHPL) is a collection of reusable architecture and content profiles representing common public health concepts and patterns. It is intended as a complement to the [US Core Implementation Guide (US Core)]({{site.data.fhir.ver.hl7fhiruscore}}) to ease implementation burden of healthcare organizations, electronic health record companies, public health agencies, and others involved in the US public health endeavor.&#xA;&#xA;The US Public Health Profiles Library is instituted in close conjunction with US Core and has an analogous process for implementation, moderation, review, and approval. US Core profiles will be re-used wherever possible and profiles will only be added to the library that are required for common public health needs. The library will evolve over time and may be supported by an adjunct profiles registry that includes developing and informational profiles for public health use.&#xA;&#xA;### Background&#xA;&#xA;After evaluation and harmonization analysis of two large multi-condition and multi-use case public health projects, [Electronic Case Reporting (eCR)](http://hl7.org/fhir/us/ecr/) and [Making Electronic Data More available for Research and Public Health (MedMorph)](http://hl7.org/fhir/us/medmorph/), it was determined that there are many common elements between the two implementation guides (IGs). &#xA;&#xA;To avoid defining the same profiles multiple times, we have created the US Public Health Profiles Library for use by Public Health and other FHIR standards development efforts to define appropriate FHIR profiles, value sets, etc., once, and allow them to be referenced by any implementation guides. This USPHPL provides a starting point and framework for inclusion in multiple implementation guides focused on the exchange of Public Health information to support interoperability among public health systems and reduce provider and implementer burden.&#xA;&#xA;The short-term scope of this library includes elements common to the above-mentioned FHIR IGs and defines a US Realm specific framework that defines common elements for the IGs. The longer-term scope includes analysis and inclusion of data elements from other Public Health use cases.&#xA;&#xA;### How to Read This Guide&#xA;&#xA;This Guide is divided into several pages which are listed at the top of each page in the menu bar.&#xA;&#xA;* Home: Introduction and background for HL7 FHIR® US Public Health Profiles Library&#xA;* [Guidance](guidance.html): Information on the library's relation to US Core, conformance, principles and criteria of library profiles inclusion and use of the included profiles&#xA;* [Downloads](downloads.html): Links to downloadable artifacts&#xA;* [Artifact Index](artifacts.html): A list of the FHIR artifacts (profiles, examples, value sets, and code systems) defined as part of this guide&#xA;&#xA;### Other Information&#xA;&#xA;This guide is compliant with FHIR Release 4.&#xA;&#xA;For Clinical Safety Information please refer to the [FHIR Implementer’s Safety Checklist](http://hl7.org/fhir/safety.html).&#xA;&#xA;Disclaimer: All proprietary documents, guides, guidance, standards, codes, and values contained herein remain the property of their respective Standards Developing Organization (SDO). HL7 does not make any claim to ownership herein.&#xA;&#xA;&#xA;### Authors and Contributors&#xA;&#xA;&lt;table&gt;&#xA;    &lt;thead&gt;&#xA;        &lt;tr&gt;&#xA;            &lt;th&gt;Role&lt;/th&gt;&#xA;            &lt;th&gt;Name&lt;/th&gt;&#xA;            &lt;th&gt;Email&lt;/th&gt;&#xA;        &lt;/tr&gt;&#xA;    &lt;/thead&gt;&#xA;    &lt;tbody&gt;&#xA;        &lt;tr&gt;&#xA;            &lt;td&gt;Primary Editor&lt;/td&gt;&#xA;            &lt;td&gt;Sarah Gaunt&lt;/td&gt;&#xA;            &lt;td&gt;&lt;a href=&quot;mailto:sarah.gaunt@lantanagroup.com&quot;&gt;sarah.gaunt@lantanagroup.com&lt;/a&gt;&lt;/td&gt;&#xA;        &lt;/tr&gt;&#xA;        &lt;tr&gt;&#xA;            &lt;td&gt;Primary Editor&lt;/td&gt;&#xA;            &lt;td&gt;John Loonsk&lt;/td&gt;&#xA;            &lt;td&gt;&lt;a href=&quot;mailto:john.loonsk@jhu.edu&quot;&gt;john.loonsk@jhu.edu&lt;/a&gt;&lt;/td&gt;&#xA;        &lt;/tr&gt;&#xA;        &lt;tr&gt;&#xA;            &lt;td&gt;Contributor&lt;/td&gt;&#xA;            &lt;td&gt;Nagesh Bashyam&lt;/td&gt;&#xA;            &lt;td&gt;&lt;a href=&quot;mailto:nagesh.bashyam@drajer.com&quot;&gt;nagesh.bashyam@drajer.com&lt;/a&gt;&lt;/td&gt;&#xA;        &lt;/tr&gt;&#xA;        &lt;tr&gt;&#xA;            &lt;td&gt;Contributor&lt;/td&gt;&#xA;            &lt;td&gt;Bryn Rhodes&lt;/td&gt;&#xA;            &lt;td&gt;&lt;a href=&quot;mailto:bryn@smilecdr.com&quot;&gt;bryn@smilecdr.com&lt;/a&gt;&lt;/td&gt;&#xA;        &lt;/tr&gt;&#xA;        &lt;tr&gt;&#xA;            &lt;td&gt;Contributor&lt;/td&gt;&#xA;            &lt;td&gt;Adam Stevenson&lt;/td&gt;&#xA;            &lt;td&gt;&lt;a href=&quot;mailto:adam.stevenson@smilecdr.com&quot;&gt;adam.stevenson@smilecdr.com&lt;/a&gt;&lt;/td&gt;&#xA;        &lt;/tr&gt;&#xA;    &lt;/tbody&gt;&#xA;&lt;/table&gt;"/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -43,7 +43,7 @@
     <dependsOn id="usnlmvsac">
         <uri value="http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac"/>
         <packageId value="us.nlm.vsac"/>
-        <version value="0.9.0"/>
+        <version value="0.11.0"/>
     </dependsOn>
     <definition>
         <grouping id="content-profiles">
@@ -196,8 +196,9 @@
                 <display value="US Public Health CodeSystem Jurisdictions Example"/>
             </reference>
             <name value="US Public Health CodeSystem Jurisdictions Example"/>
-            <description value="This example code system contains a set of possible jurisdictions."/>
+            <description value="US Public Health CodeSystem example containing a set of possible jurisdictions"/>
             <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"/>
             <groupingId value="examples-terminology"/>
         </resource>
         <resource>
@@ -267,7 +268,7 @@
                 <display value="US Public Health ValueSet - Computable Example"/>
             </reference>
             <name value="US Public Health Computable ValueSet Example"/>
-            <description value="This example value set demonstrates the US Public Health Computable ValueSet profile containing an expression-based definition of the value set"/>
+            <description value="US Public Health Computable ValueSet example containing an expression-based definition of the value set for acme-plasma"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-valueset"/>
             <groupingId value="examples-terminology"/>
@@ -509,8 +510,9 @@
                 <display value="US Public Health CodeSystem - Endpoint Connection Type Example"/>
             </reference>
             <name value="US Public Health Endpoint Connection Type Example"/>
-            <description value="This code system contains codes that identify the HL7 FHIR File type."/>
+            <description value="US Public Health CodeSystem example containing a set of endpoint connection types"/>
             <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"/>
             <groupingId value="examples-terminology"/>
         </resource>
         <resource>
@@ -529,7 +531,7 @@
                 <display value="Rule Filters"/>
             </reference>
             <name value="US Public Health Executable Library - Rule Filters - Chlamydia"/>
-            <description value="US Public Health Executable Library: Rule Filters - Chlamydia example"/>
+            <description value="US Public Health Executable Library example: Rule Filters - Chlamydia"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-library"/>
             <groupingId value="examples-terminology"/>
@@ -550,7 +552,7 @@
                 <display value="US Public Health ValueSet - Chlamydia Example"/>
             </reference>
             <name value="US Public Health Executable ValueSet - Chlamydia Example"/>
-            <description value="This example value set demonstrates the US Public Health Computable ValueSet profile and contains codes for Chlamydia"/>
+            <description value="US Public Health Computable ValueSet example containing codes for Chlamydia"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-valueset"/>
             <groupingId value="examples-terminology"/>
@@ -669,7 +671,7 @@
                 <display value="US Public Health CodeSystem - Jurisdiction Types Example"/>
             </reference>
             <name value="US Public Health Jurisdiction Types Example"/>
-            <description value="This example code system contains a set of the example types of jurisdictions that require public health reporting"/>
+            <description value="US Public Health CodeSystem example containing a examples of the types of jurisdictions that require public health reporting"/>
             <exampleBoolean value="true"/>
             <groupingId value="examples-terminology"/>
         </resource>
@@ -1149,7 +1151,7 @@
                 <display value="US Public Health Supplemental Library Example"/>
             </reference>
             <name value="US Public Health Supplemental Library - Demonstration"/>
-            <description value="US Public Health Supplemental Library: Demonstration example"/>
+            <description value="US Public Health Supplemental Library example"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-library"/>
             <groupingId value="examples-terminology"/>
@@ -1170,7 +1172,7 @@
                 <display value="US Public Health VaueSet - Supplemental Example"/>
             </reference>
             <name value="US Public Health Supplemental Valueset Example"/>
-            <description value="This example value set demonstrates the US Public Health Supplemental ValueSet profile with a clinical focus of Chlamydia"/>
+            <description value="US Public Health Supplemental ValueSet exmaple containing codes with a clinical focus of Chlamydia"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-valueset"/>
             <groupingId value="examples-terminology"/>
@@ -1316,7 +1318,7 @@
                 <display value="US Public Health VaueSet - Triggering Chlamydia Example"/>
             </reference>
             <name value="US Public Health Triggering ValueSet Chlamydia"/>
-            <description value="This example value set demonstrates the US Public Health Triggering ValueSet profile with Chlamydia lab tests for routine triggering"/>
+            <description value="US Public Health Triggering ValueSet example containing codes for Chlamydia lab tests for routine triggering"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset"/>
             <groupingId value="examples-terminology"/>
@@ -1337,7 +1339,7 @@
                 <display value="US Public Health Triggering ValueSet Library Example"/>
             </reference>
             <name value="US Public Health Triggering ValueSet Library Example"/>
-            <description value="US Public Health Triggering ValueSet Library: example"/>
+            <description value="US Public Health Triggering ValueSet Library example"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset-library"/>
             <groupingId value="examples-terminology"/>
@@ -1390,7 +1392,7 @@
             <name value="US Public Health ValueSet"/>
             <description value="This ValueSet profile describes the minimum requirements for US Public Health value sets."/>
             <exampleBoolean value="false"/>
-            <groupingId value="examples-terminology"/>
+            <groupingId value="architecture-profiles-terminology"/>
         </resource>
         <resource>
             <reference>
@@ -1418,7 +1420,7 @@
                 <display value="US Public Health ValueSet - Chlamydia Example"/>
             </reference>
             <name value="US Public Health ValueSet Chlamydia example"/>
-            <description value="This example value set demonstrates the US Public Health ValueSet profile and contains a set of laboratory observation test names that represent Chlamydia lab tests for routine public health reporting"/>
+            <description value="US Public Health ValueSet example containing a set of laboratory observation test names that represent Chlamydia lab tests for routine public health reporting"/>
             <exampleBoolean value="true"/>
             <groupingId value="examples-terminology"/>
         </resource>
@@ -1438,7 +1440,7 @@
                 <display value="US Public Health ValueSet Library Example"/>
             </reference>
             <name value="US Public Health ValueSet Library - Demonstration"/>
-            <description value="US Public Health ValueSet Library: Demonstration example"/>
+            <description value="US Public Health ValueSet Library example containing a Chlamydia value set"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset-library"/>
             <groupingId value="examples-terminology"/>
@@ -1449,7 +1451,7 @@
                 <display value="US Public Health ValueSet Library Expansion Parameters Example"/>
             </reference>
             <name value="US Public Health ValueSet Library Expansion Parameters - Chlamydia"/>
-            <description value="US Public Health ValueSet Library Expansion Parameters: Chlamydia example"/>
+            <description value="US Public Health ValueSet Library Expansion Parameters example containing a  Chlamydia value set and demonstrating expansion parameter"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset-library"/>
             <groupingId value="examples-terminology"/>
