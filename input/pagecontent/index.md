@@ -1,6 +1,6 @@
 ### Overview
 
-The US Public Health Profiles Library (USPHPL) is a collection of reusable architecture and content profiles representing common public health concepts and patterns. It is intended as a complement to the [US Core Implementation Guide (US Core)]({{site.data.fhir.ver.hl7fhiruscore}}) to ease implementation burden of healthcare organizations, electronic health record companies, public health agencies, and others involved in the US public health endeavor.
+The US Public Health Profiles Library (USPHPL) is a collection of reusable architecture and content profiles representing common public health concepts and patterns. It is intended as a complement to the [US Core Implementation Guide (US Core)](http://hl7.org/fhir/us/core/STU5.0.1/) to ease implementation burden of healthcare organizations, electronic health record companies, public health agencies, and others involved in the US public health endeavor.
 
 The US Public Health Profiles Library is instituted in close conjunction with US Core and has an analogous process for implementation, moderation, review, and approval. US Core profiles will be re-used wherever possible and profiles will only be added to the library that are required for common public health needs. The library will evolve over time and may be supported by an adjunct profiles registry that includes developing and informational profiles for public health use.
 
@@ -32,39 +32,10 @@ Disclaimer: All proprietary documents, guides, guidance, standards, codes, and v
 
 ### Authors and Contributors
 
-<table>
-    <thead>
-        <tr>
-            <th>Role</th>
-            <th>Name</th>
-            <th>Email</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Primary Editor</td>
-            <td>Sarah Gaunt</td>
-            <td><a href="mailto:sarah.gaunt@lantanagroup.com">sarah.gaunt@lantanagroup.com</a></td>
-        </tr>
-        <tr>
-            <td>Primary Editor</td>
-            <td>John Loonsk</td>
-            <td><a href="mailto:john.loonsk@jhu.edu">john.loonsk@jhu.edu</a></td>
-        </tr>
-        <tr>
-            <td>Contributor</td>
-            <td>Nagesh Bashyam</td>
-            <td><a href="mailto:nagesh.bashyam@drajer.com">nagesh.bashyam@drajer.com</a></td>
-        </tr>
-        <tr>
-            <td>Contributor</td>
-            <td>Bryn Rhodes</td>
-            <td><a href="mailto:bryn@smilecdr.com">bryn@smilecdr.com</a></td>
-        </tr>
-        <tr>
-            <td>Contributor</td>
-            <td>Adam Stevenson</td>
-            <td><a href="mailto:adam.stevenson@smilecdr.com">adam.stevenson@smilecdr.com</a></td>
-        </tr>
-    </tbody>
-</table>
+| **Role**       | **Name**       | **Email**                    |
+|----------------|----------------|------------------------------|
+| Primary Editor | Sarah Gaunt    | sarah.gaunt@lantanagroup.com |
+| Primary Editor | John Loonsk    | john.loonsk@jhu.edu          |
+| Contributor    | Nagesh Bashyam | nagesh.bashyam@drajer.com    |
+| Contributor    | Bryn Rhodes    | bryn@smilecdr.com            |
+| Contributor    | Adam Stevenson | adam.stevenson@smilecdr.com  |
