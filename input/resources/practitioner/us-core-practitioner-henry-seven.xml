@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-core-practitioner-henry-seven"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2022-07-21T09:30:27.155Z"/>
+        <versionId value="2"/>
+        <lastUpdated value="2023-07-13T10:23:02.101Z"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
     </meta>
     <identifier>
@@ -21,11 +21,10 @@
         <value value="henry.seven@example.com"/>
     </telecom>
     <address>
-        <line value="BMass Doctors"/>
-        <line value="2100 North Ave"/>
-        <city value="Burlington"/>
-        <state value="MA"/>
-        <postalCode value="02368"/>
+        <line value="1002 Healthcare Drive"/>
+        <city value="Ann Arbor"/>
+        <state value="MI"/>
+        <postalCode value="99999"/>
         <country value="US"/>
     </address>
 </Practitioner>

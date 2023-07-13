@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-specification-bundle-example"/>
     <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2023-07-13T07:04:44.709Z"/>
+        <versionId value="11"/>
+        <lastUpdated value="2023-07-13T10:36:33.963Z"/>
+        <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-specification-bundle"/>
     </meta>
     <type value="collection"/>
     <timestamp value="2022-11-20T11:15:33-10:00"/>
@@ -168,6 +169,20 @@
                     </telecom>
                 </contact>
                 <description value="This example set of values contains diagnoses or problems that represent that the patient may have a potentially reportable condition regardless of the clinical presentation of the condition"/>
+                <useContext>
+                    <code>
+                        <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context-type"/>
+                        <code value="priority"/>
+                        <display value="Priority"/>
+                    </code>
+                    <valueCodeableConcept>
+                        <coding>
+                            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context"/>
+                            <code value="routine"/>
+                            <display value="Routine"/>
+                        </coding>
+                    </valueCodeableConcept>
+                </useContext>
                 <useContext>
                     <code>
                         <system value="http://terminology.hl7.org/CodeSystem/usage-context-type"/>

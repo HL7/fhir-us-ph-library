@@ -1,7 +1,9 @@
 {
 	"package-id": "hl7.fhir.us.ph-library",
 	"version": "1.0.0",
-	"path": "http://hl7.org/fhir/us/ph-library",
+	"path": "http://hl7.org/fhir/us/ph-library/STU1",
+	"mode": "milestone",
 	"status": "trial-use",
-	"sequence": "STU 1"
+	"sequence": "STU 1",
+	"desc": "STU 1"
 }

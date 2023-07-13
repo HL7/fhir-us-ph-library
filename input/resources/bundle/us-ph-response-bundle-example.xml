@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-response-bundle-example"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2023-07-13T07:05:18.024Z"/>
+        <versionId value="7"/>
+        <lastUpdated value="2023-07-13T10:33:46.607Z"/>
+        <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-response-bundle"/>
     </meta>
     <type value="message"/>
     <timestamp value="2022-11-20T11:15:33-10:00"/>
@@ -40,7 +41,7 @@
                     <endpoint value="http://example.pha.org/fhir"/>
                 </destination>
                 <sender>
-                    <reference value="Organization/example-healthcare-org"/>
+                    <reference value="Organization/us-ph-organization-salem-medical-center"/>
                 </sender>
                 <source>
                     <name value="Healthcare Organization"/>

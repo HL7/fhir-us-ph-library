@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="436"/>
-        <lastUpdated value="2023-07-13T07:02:14.423Z"/>
+        <versionId value="440"/>
+        <lastUpdated value="2023-07-13T10:37:57.802Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="1.0.0"/>
@@ -229,7 +229,7 @@
             <name value="US Public Health Composition"/>
             <description value="This Composition profile represents a public health composition."/>
             <exampleBoolean value="false"/>
-            <groupingId value="architecture-profiles-group"/>
+            <groupingId value="content-profiles"/>
         </resource>
         <resource>
             <reference>

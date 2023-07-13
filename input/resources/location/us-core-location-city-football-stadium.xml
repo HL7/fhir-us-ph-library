@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-core-location-city-football-stadium"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2022-07-21T09:34:24.041Z"/>
+        <versionId value="2"/>
+        <lastUpdated value="2023-07-13T10:23:57.896Z"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"/>
     </meta>
     <status value="active"/>
@@ -19,8 +19,8 @@
     </type>
     <address>
         <line value="99 Football Stadium Road"/>
-        <city value="My City"/>
-        <state value="AZ"/>
-        <postalCode value="8562"/>
+        <city value="Ann Arbor"/>
+        <state value="MI"/>
+        <postalCode value="99999"/>
     </address>
 </Location>

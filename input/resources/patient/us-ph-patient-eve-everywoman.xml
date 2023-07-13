@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-patient-eve-everywoman"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2023-07-13T00:59:27.585Z"/>
+        <versionId value="6"/>
+        <lastUpdated value="2023-07-13T10:21:39.308Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
     </meta>
     <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
@@ -89,10 +89,10 @@
     <birthDate value="1974-11-24"/>
     <deceasedBoolean value="false"/>
     <address>
-        <line value="5101 Peachtree St NE"/>
-        <city value="Atlanta"/>
-        <state value="GA"/>
-        <postalCode value="30302"/>
+        <line value="2222 Home Street"/>
+        <city value="Ann Arbor"/>
+        <state value="MI"/>
+        <postalCode value="99999"/>
         <country value="US"/>
     </address>
     <communication>

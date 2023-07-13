@@ -5,11 +5,14 @@ US FHIR Usage rules require that all profiles on Observation derive from one of 
 # This profile derives from the US Core Condition in the version of US Core this IG is dependent on (4.0.0)
 US FHIR Usage rules require that all profiles on Condition derive from one of the base US profiles
 
-# Examples have optional slices that are not defined in the profile - not matching is expected behaviour
+# Examples have optional slices that are not defined in the profile - not matching is expected behavior
+This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle|1.0.0
+This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-composition|1.0.0
 This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-organization|1.0.0
 This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-library|1.0.0
 This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-library|1.0.0
 This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-library|1.0.0
+This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset|1.0.0
 
 # External value sets/code systems
 Code System URI 'http://www.ama-assn.org/go/cpt' is unknown so the code cannot be validated
