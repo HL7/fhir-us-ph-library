@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-supplemental-valueset-library"/>
     <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2023-07-12T23:30:09.473Z"/>
+        <versionId value="11"/>
+        <lastUpdated value="2023-07-14T22:00:27.717Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-valueset-library"/>
     <version value="1.0.0"/>
@@ -19,7 +19,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Library profile defines the library containing US Public Health supplemental value sets that are used when determining whether an event is suspected to be reportable."/>
+    <description value="This Library profile defines the library that is a computable supplement for a public health reporting program specification, including computable routing rules that can be evaluated to help facilitate reportability determination at reporting sites, typically consisting of [Clinical Quality Language](http://cql.hl7.org/) (CQL) Rule libraries and additional terminiology artifacts required to evaluate those rules."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

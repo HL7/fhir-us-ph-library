@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-computable-valueset"/>
     <meta>
-        <versionId value="11"/>
-        <lastUpdated value="2023-07-12T03:28:02.171Z"/>
+        <versionId value="12"/>
+        <lastUpdated value="2023-07-14T21:49:47.574Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-valueset"/>
     <version value="0.1.0"/>
@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This ValueSet profile describes the requirements for a value set having an expression-based definition (i.e. a value set defined intensionally using expressions of the code systems involved)."/>
+    <description value="This ValueSet profile describes the requirements for a value set that includes the computable definition of that value set, but not necessarily the full expansion. A computable value set is intended for use in environments that have access to a terminology server capable of expanding the value set."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

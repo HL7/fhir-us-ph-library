@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-computable-library"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2023-07-10T22:52:17.670Z"/>
+        <versionId value="9"/>
+        <lastUpdated value="2023-07-14T22:00:27.744Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-library"/>
     <version value="0.1.0"/>
@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Library profile sets the minimum expectations for a computable CQL library."/>
+    <description value="This Library profile defines the Library that contains [Clinical Quality Language](http://cql.hl7.org/) (CQL) text, but not necessarily the compiled [Expression Logical Model](https://cql.hl7.org/elm.html) (ELM) for that CQL. It is intended to be used in environments that are capable of translating CQL to the executable ELM."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

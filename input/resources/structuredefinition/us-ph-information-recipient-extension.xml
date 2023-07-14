@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-information-recipient-extension"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2023-07-10T22:58:01.425Z"/>
+        <versionId value="6"/>
+        <lastUpdated value="2023-07-14T22:16:58.659Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-information-recipient-extension"/>
     <version value="1.0.0"/>
@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Extension profile represents a US Public Health Information Recipient."/>
+    <description value="This Extension profile represents an intended recipient of a [US Public Health Composition](us-ph-composition.html)."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

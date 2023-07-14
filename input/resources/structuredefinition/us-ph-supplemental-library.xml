@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-supplemental-library"/>
     <meta>
-        <versionId value="10"/>
-        <lastUpdated value="2023-07-12T10:06:14.248Z"/>
+        <versionId value="11"/>
+        <lastUpdated value="2023-07-14T22:16:58.727Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-library"/>
     <version value="1.0.0"/>
@@ -19,7 +19,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Library profile defines the asset-collection library containing the US Public Health supplemental assets."/>
+    <description value="This Library profile defines the asset-collection library containing US public health supplemental assets."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

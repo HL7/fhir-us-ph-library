@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-condition-encounter-diagnosis"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2023-07-14T01:27:40.934Z"/>
+        <versionId value="9"/>
+        <lastUpdated value="2023-07-14T22:16:58.807Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition-encounter-diagnosis"/>
     <version value="1.0.0"/>
@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Condition Encounter Diagnosis profile represents the signs, symptoms, and diagnoses related to a public health event."/>
+    <description value="This Condition profile represents an encounter diagnosis for a public health event."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

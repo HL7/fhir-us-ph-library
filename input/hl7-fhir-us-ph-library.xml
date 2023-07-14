@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="457"/>
-        <lastUpdated value="2023-07-14T06:17:32.011Z"/>
+        <versionId value="479"/>
+        <lastUpdated value="2023-07-14T23:29:11.955Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="1.0.0"/>
@@ -19,7 +19,6 @@
             <value value="http://www.hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="### Overview&#xA;&#xA;The US Public Health Profiles Library (USPHPL) is a collection of reusable architecture and content profiles representing common public health concepts and patterns. It is intended as a complement to the [US Core Implementation Guide (US Core)](http://hl7.org/fhir/us/core/STU5.0.1/) to ease implementation burden of healthcare organizations, electronic health record companies, public health agencies, and others involved in the US public health endeavor.&#xA;&#xA;The US Public Health Profiles Library is instituted in close conjunction with US Core and has an analogous process for implementation, moderation, review, and approval. US Core profiles will be re-used wherever possible and profiles will only be added to the library that are required for common public health needs. The library will evolve over time and may be supported by an adjunct profiles registry that includes developing and informational profiles for public health use.&#xA;&#xA;### Background&#xA;&#xA;After evaluation and harmonization analysis of two large multi-condition and multi-use case public health projects, [Electronic Case Reporting (eCR)](http://hl7.org/fhir/us/ecr/) and [Making Electronic Data More available for Research and Public Health (MedMorph)](http://hl7.org/fhir/us/medmorph/), it was determined that there are many common elements between the two implementation guides (IGs). &#xA;&#xA;To avoid defining the same profiles multiple times, we have created the US Public Health Profiles Library for use by Public Health and other FHIR standards development efforts to define appropriate FHIR profiles, value sets, etc., once, and allow them to be referenced by any implementation guides. This USPHPL provides a starting point and framework for inclusion in multiple implementation guides focused on the exchange of Public Health information to support interoperability among public health systems and reduce provider and implementer burden.&#xA;&#xA;The short-term scope of this library includes elements common to the above-mentioned FHIR IGs and defines a US Realm specific framework that defines common elements for the IGs. The longer-term scope includes analysis and inclusion of data elements from other Public Health use cases.&#xA;&#xA;### How to Read This Guide&#xA;&#xA;This Guide is divided into several pages which are listed at the top of each page in the menu bar.&#xA;&#xA;* Home: Introduction and background for HL7 FHIR® US Public Health Profiles Library&#xA;* [Guidance](guidance.html): Information on the library's relation to US Core, conformance, principles and criteria of library profiles inclusion and use of the included profiles&#xA;* [Downloads](downloads.html): Links to downloadable artifacts&#xA;* [Artifact Index](artifacts.html): A list of the FHIR artifacts (profiles, examples, value sets, and code systems) defined as part of this guide&#xA;&#xA;### Other Information&#xA;&#xA;This guide is compliant with FHIR Release 4.&#xA;&#xA;For Clinical Safety Information please refer to the [FHIR Implementer’s Safety Checklist](http://hl7.org/fhir/safety.html).&#xA;&#xA;Disclaimer: All proprietary documents, guides, guidance, standards, codes, and values contained herein remain the property of their respective Standards Developing Organization (SDO). HL7 does not make any claim to ownership herein.&#xA;&#xA;&#xA;### Authors and Contributors&#xA;&#xA;| **Role**       | **Name**       | **Email**                    |&#xA;|----------------|----------------|------------------------------|&#xA;| Primary Editor | Sarah Gaunt    | sarah.gaunt@lantanagroup.com |&#xA;| Primary Editor | John Loonsk    | john.loonsk@jhu.edu          |&#xA;| Contributor    | Nagesh Bashyam | nagesh.bashyam@drajer.com    |&#xA;| Contributor    | Bryn Rhodes    | bryn@smilecdr.com            |&#xA;| Contributor    | Adam Stevenson | adam.stevenson@smilecdr.com  |&#xA;{: .grid }"/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -48,11 +47,11 @@
     <definition>
         <grouping id="content-profiles">
             <name value="Profiles: Content"/>
-            <description value="The set of Profiles: Content is composed of profiles defining what data is exchanged."/>
+            <description value="The set of Profiles: Content is composed of profiles defining what data is exchanged about health encounters, clinical findings, clinical history, and related concepts."/>
         </grouping>
         <grouping id="content-profiles-entities">
             <name value="Profiles: Content - Entities"/>
-            <description value="The set of Profiles: Content - Entities is composed of profiles defining what data about entities is exchanged."/>
+            <description value="The set of Profiles: Content - Entities is composed of profiles defining what data is exchanged about entities such as people, places, and organizations."/>
         </grouping>
         <grouping id="content-extensions">
             <name value="Profiles: Content - Extensions"/>
@@ -60,7 +59,7 @@
         </grouping>
         <grouping id="architecture-profiles-group">
             <name value="Profiles: Architecture"/>
-            <description value="The set of Profiles: Architecture is composed of profiles that are related to how data is defined and exchanged."/>
+            <description value="The set of Profiles: Architecture is composed of profiles that are related to how data is defined and exchanged. These profiles support representation and use of metadata to support consistent content lifecycle management."/>
         </grouping>
         <grouping id="architecture-extensions">
             <name value="Profiles: Architecture - Extensions"/>
@@ -68,7 +67,7 @@
         </grouping>
         <grouping id="architecture-profiles-terminology">
             <name value="Profiles: Architecture - Terminology"/>
-            <description value="The set of Profiles: Architecture -  Terminolgy is composed of terminology type profiles that are related to how data is defined and exchanged."/>
+            <description value="The set of Profiles: Architecture -  Terminolgy is composed of terminology profiles that are related to how data is defined and exchanged. These profiles support representation and use of metadata to address terminology concerns and support consistent content lifecycle management.&#xA;&#xA;#### ValueSet Profiles&#xA;&#xA;* The [US Public Health ValueSet](us-ph-valueset.html) defines minimum base conformance requirements for a ValueSet used in public health.&#xA;&#xA;* The [US Public Health Triggering ValueSet](us-ph-triggering-valueset.html) defines conformance requirements for a ValueSet that is part of determination of a potentially reportable event (i.e. a &quot;triggering&quot; event).&#xA;&#xA;* The [US Public Health Computable ValueSet](us-ph-computable-valueset.html) defines conformance requirements for a ValueSet that includes the computable definition of that value set, but not necessarily the full expansion. A computable value set is intended for use in environments that have access to a terminology server capable of expanding the value set.&#xA;&#xA;* The [US Public Health Executable ValueSet](us-ph-executable-valueset.html) defines conformance requirements for a ValueSet that includes the complete expansion of the ValueSet, but not necessarily the computable definition. An executable value set is intended for use in environments that are not expected to have access to a terminology server capable of expanding the value set, so the expansion is communicated as part of the ValueSet.&#xA;&#xA;Note that a given ValueSet may conform to both the computable and executable profiles at the same time.&#xA;&#xA;#### Library Profiles&#xA;&#xA;* The [US Public Health Specification Library](us-ph-specification-library.html) defines conformance requirements for a public health reporting program specification, typically consisting of a ValueSet library and other supporting specifications such as PlanDefinitions.&#xA;&#xA;* The [US Public Health Triggering ValueSet Library](us-ph-triggering-valueset-library.html) defines conformance requirements for a collection of ValueSets that are all used to facilitate determination of a potentially reportable event (i.e. a &quot;triggering&quot; event).&#xA;&#xA;* The [US Public Health Supplemental Library](us-ph-supplemental-library.html) defines conformance requirements for the computable supplement for a public health reporting program specification, including computable routing rules that can be evaluated to help facilitate reportability determination at reporting sites, typically consisting of [Clinical Quality Language](http://cql.hl7.org/) (CQL) Rule libraries and additional terminiology artifacts required to evaluate those rules.&#xA;&#xA;* The [US Public Health Computable Library](us-ph-computable-library.html) defines conformance requirements for a Library that contains CQL text, but not necessarily the compiled [Expression Logical Model](https://cql.hl7.org/elm.html) (ELM) for that CQL. It is intended to be used in environments that are capable of translating CQL to the executable ELM.&#xA;&#xA;* The [US Public Health Executable Library](us-ph-executable-library.html) defines conformance requirements for a Library that contains compiled ELM, but not necessarily the source CQL text for that ELM. It is intended to be used in environments that are capable of executing ELM, but not necessarily of translating the source CQL.&#xA;&#xA;Note that a given Library may conform to both the computable and executable profiles at the same time."/>
         </grouping>
         <grouping id="examples-content">
             <name value="Examples: Content"/>
@@ -176,7 +175,7 @@
                 <display value="US Public Health CodeSystem"/>
             </reference>
             <name value="US Public Health CodeSystem"/>
-            <description value="This CodeSystem profile describes the US Public Health CodeSystem."/>
+            <description value="This CodeSystem profile describes describes the minimum requirements for a US public health code system."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-terminology"/>
         </resource>
@@ -268,7 +267,7 @@
                 <display value="US Public Health Computable Library"/>
             </reference>
             <name value="US Public Health Computable Library"/>
-            <description value="This Library profile sets the minimum expectations for a computable CQL library."/>
+            <description value="This Library profile defines the Library that contains [Clinical Quality Language](http://cql.hl7.org/) (CQL) text, but not necessarily the compiled [Expression Logical Model](https://cql.hl7.org/elm.html) (ELM) for that CQL. It is intended to be used in environments that are capable of translating CQL to the executable ELM."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-terminology"/>
         </resource>
@@ -278,7 +277,7 @@
                 <display value="US Public Health Computable ValueSet"/>
             </reference>
             <name value="US Public Health Computable ValueSet"/>
-            <description value="This ValueSet profile describes the requirements for a value set having an expression-based definition (i.e. a value set defined intensionally using expressions of the code systems involved)."/>
+            <description value="This ValueSet profile describes the requirements for a value set that includes the computable definition of that value set, but not necessarily the full expansion. A computable value set is intended for use in environments that have access to a terminology server capable of expanding the value set."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-terminology"/>
         </resource>
@@ -299,7 +298,7 @@
                 <display value="US Public Health Condition Encounter Diagnosis"/>
             </reference>
             <name value="US Public Health Condition Encounter Diagnosis"/>
-            <description value="This Condition Encounter Diagnosis profile represents the signs, symptoms, and diagnoses related to a public health event."/>
+            <description value="This Condition profile represents an encounter diagnosis for a public health event."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles"/>
         </resource>
@@ -327,7 +326,7 @@
                 <display value="US Public Health Condition Problems and Health Concerns"/>
             </reference>
             <name value="US Public Health Condition Problems and Health Concerns"/>
-            <description value="This Condition Problems and Health Concerns profile represents the signs, symptoms, and diagnoses related to a public health event."/>
+            <description value="This Condition profile represents a sign, symptom, or diagnosis for a problem or health concern related to a public health event."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles"/>
         </resource>
@@ -337,7 +336,7 @@
                 <display value="USPH Content Bundle"/>
             </reference>
             <name value="US Public Health Content Bundle"/>
-            <description value="This Bundle profile organizes the content of the Public Health Message to be exchanged with a Public Health Agency."/>
+            <description value="This Bundle profile organizes the content of the public health message to be exchanged with a public health agency."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-group"/>
         </resource>
@@ -445,7 +444,7 @@
                 <display value="US Public Health Document Bundle"/>
             </reference>
             <name value="US Public Health Document Bundle"/>
-            <description value="This Bundle profile represents a Public Health Document Bundle. It contains a US Public Health Composition."/>
+            <description value="This Bundle profile represents a public health Document Bundle. It contains a [US Public Health Composition](us-public-health-composition.html)."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-group"/>
         </resource>
@@ -551,7 +550,7 @@
                 <display value="US Public Health Executable Library"/>
             </reference>
             <name value="US Public Health Executable Library"/>
-            <description value="This Library profile sets the minimum expectations for an executable CQL library. Specifically, the profile requires that the library contain one of ELM, XML, or JSON content, the compiled representation of the CQL logic."/>
+            <description value="This Library profile defines the Library that contains compiled [Expression Logical Model](https://cql.hl7.org/elm.html) (ELM), but not necessarily the source [Clinical Quality Language](http://cql.hl7.org/) (CQL) text for that ELM. It is intended to be used in environments that are capable of executing ELM, but not necessarily of translating the source CQL."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-terminology"/>
         </resource>
@@ -572,7 +571,7 @@
                 <display value="US Public Health Executable ValueSet"/>
             </reference>
             <name value="US Public Health Executable ValueSet"/>
-            <description value="This ValueSet profile describes the requirements for a value set containing a point-in-time expansion enumerating the codes that meet the value set intent. As new versions of the code systems used by the value set are released, the contents of this expansion will need to be updated to incorporate newly defined codes that meet the value set intent."/>
+            <description value="This ValueSet profile describes the requirements for a value set containing a point-in-time expansion enumerating the codes that meet the value set intent. As new versions of the code systems used by the value set are released, the contents of this expansion will need to be updated to incorporate newly defined codes that meet the value set intent. The complete expansion of the ValueSet is included, but not necessarily the computable definition. An executable value set is intended for use in environments that are not expected to have access to a terminology server capable of expanding the value set, so the expansion is communicated as part of the ValueSet."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-terminology"/>
         </resource>
@@ -652,7 +651,7 @@
                 <display value="US Public Health Information Recipient Extension"/>
             </reference>
             <name value="US Public Health Information Recipient Extension"/>
-            <description value="This Extension profile represents a US Public Health Information Recipient."/>
+            <description value="This Extension profile represents an intended recipient of a [US Public Health Composition](us-ph-composition.html)."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-extensions"/>
         </resource>
@@ -729,7 +728,7 @@
                 <display value="US Public Health Laboratory Result Observation Profile"/>
             </reference>
             <name value="US Public Health Laboratory Result Observation Profile"/>
-            <description value="This Observation profile represents Laboratory Result Observations related to a public health event."/>
+            <description value="This Observation profile represents laboratory result observations related to a public health event."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-profiles"/>
         </resource>
@@ -1095,7 +1094,7 @@
                 <display value="US Public Health Reporting Bundle"/>
             </reference>
             <name value="US Public Health Reporting Bundle"/>
-            <description value="This Bundle profile is used for exchanging a public health report to be submitted to a Public Health Agency."/>
+            <description value="This Bundle profile is used for exchanging a public health report to be submitted to a public health agency."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-group"/>
         </resource>
@@ -1150,7 +1149,7 @@
                 <display value="US Public Health Specification Library"/>
             </reference>
             <name value="US Public Health Specification Library"/>
-            <description value="This Library profile defines the asset-collection library containing the US Public Health specification assets."/>
+            <description value="This Library profile defines the asset-collection library for a public health reporting program specification, typically consisting of a ValueSet library and other supporting specifications such as PlanDefinitions."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-terminology"/>
         </resource>
@@ -1160,20 +1159,9 @@
                 <display value="US Public Health Supplemental Library"/>
             </reference>
             <name value="US Public Health Supplemental Library"/>
-            <description value="This Library profile defines the asset-collection library containing the US Public Health supplemental assets."/>
+            <description value="This Library profile defines the asset-collection library containing US public health supplemental assets."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-terminology"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Library/us-ph-supplemental-library-example"/>
-                <display value="US Public Health Supplemental Library Example"/>
-            </reference>
-            <name value="US Public Health Supplemental Library - Program Example"/>
-            <description value="US Public Health Supplemental Library: Program example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-library"/>
-            <groupingId value="examples-terminology"/>
         </resource>
         <resource>
             <reference>
@@ -1202,7 +1190,7 @@
                 <display value="US Public Health Supplemental Valueset Library"/>
             </reference>
             <name value="US Public Health Supplemental ValueSet Library"/>
-            <description value="This Library profile defines the library containing US Public Health supplemental value sets that are used when determining whether an event is suspected to be reportable."/>
+            <description value="This Library profile defines the library that is a computable supplement for a public health reporting program specification, including computable routing rules that can be evaluated to help facilitate reportability determination at reporting sites, typically consisting of [Clinical Quality Language](http://cql.hl7.org/) (CQL) Rule libraries and additional terminiology artifacts required to evaluate those rules."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-terminology"/>
         </resource>
@@ -1307,7 +1295,7 @@
                 <display value="US Public Health Triggering ValueSet"/>
             </reference>
             <name value="US Public Health Triggering ValueSet"/>
-            <description value="This ValueSet profile describes the requirements for a value set used when identifying a triggering event."/>
+            <description value="This ValueSet profile describes the requirements for a value set that is part of determination of a potentially reportable event (i.e. a &quot;triggering&quot; event)."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-terminology"/>
         </resource>
@@ -1328,7 +1316,7 @@
                 <display value="US Public Health Triggering ValueSet Library"/>
             </reference>
             <name value="US Public Health Triggering ValueSet Library"/>
-            <description value="This Library profile defines the library containing the US Public Health triggering value sets that are used when identifying a triggering event."/>
+            <description value="This Library profile defines the library containing a collection of ValueSets that are used to facilitate determination of a potentially reportable event (i.e. a &quot;triggering&quot; event)."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-terminology"/>
         </resource>
@@ -1389,7 +1377,7 @@
                 <display value="US Public Health ValueSet"/>
             </reference>
             <name value="US Public Health ValueSet"/>
-            <description value="This ValueSet profile describes the minimum requirements for US Public Health value sets."/>
+            <description value="This ValueSet profile describes the minimum requirements for US public health value sets."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-profiles-terminology"/>
         </resource>
@@ -1506,7 +1494,7 @@
         </parameter>
         <parameter>
             <code value="releaselabel"/>
-            <value value="STU 1"/>
+            <value value="STU1"/>
         </parameter>
         <parameter>
             <code value="copyrightyear"/>

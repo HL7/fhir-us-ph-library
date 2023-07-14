@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-triggering-valueset-library"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2023-07-12T23:28:34.940Z"/>
+        <versionId value="7"/>
+        <lastUpdated value="2023-07-14T21:54:17.851Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset-library"/>
     <version value="1.0.0"/>
@@ -19,7 +19,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Library profile defines the library containing the US Public Health triggering value sets that are used when identifying a triggering event."/>
+    <description value="This Library profile defines the library containing a collection of ValueSets that are used to facilitate determination of a potentially reportable event (i.e. a &quot;triggering&quot; event)."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

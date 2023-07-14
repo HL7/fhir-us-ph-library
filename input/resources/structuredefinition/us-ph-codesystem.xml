@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-codesystem"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2023-07-10T22:52:10.493Z"/>
+        <versionId value="7"/>
+        <lastUpdated value="2023-07-14T22:16:58.692Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"/>
     <version value="1.0.0"/>
@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This CodeSystem profile describes the US Public Health CodeSystem."/>
+    <description value="This CodeSystem profile describes describes the minimum requirements for a US public health code system."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>

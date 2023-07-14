@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-triggering-valueset"/>
     <meta>
-        <versionId value="11"/>
-        <lastUpdated value="2023-07-12T23:30:09.447Z"/>
+        <versionId value="12"/>
+        <lastUpdated value="2023-07-14T21:48:23.964Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset"/>
     <version value="1.0.0"/>
@@ -19,7 +19,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This ValueSet profile describes the requirements for a value set used when identifying a triggering event."/>
+    <description value="This ValueSet profile describes the requirements for a value set that is part of determination of a potentially reportable event (i.e. a &quot;triggering&quot; event)."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
