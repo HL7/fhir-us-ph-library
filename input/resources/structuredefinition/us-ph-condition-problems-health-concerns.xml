@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-condition-problems-health-concerns"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2023-07-14T00:58:13.723Z"/>
+        <versionId value="9"/>
+        <lastUpdated value="2023-07-14T01:27:54.653Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition-problems-health-concerns"/>
     <version value="1.0.0"/>
@@ -50,7 +50,6 @@
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
             </type>
-            <mustSupport value="false"/>
         </element>
     </differential>
 </StructureDefinition>

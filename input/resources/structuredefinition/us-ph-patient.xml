@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-patient"/>
     <meta>
-        <versionId value="15"/>
-        <lastUpdated value="2023-07-14T00:42:00.486Z"/>
+        <versionId value="16"/>
+        <lastUpdated value="2023-07-14T01:26:08.088Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
     <version value="1.0.0"/>
@@ -136,7 +136,6 @@
         </element>
         <element id="Patient.identifier">
             <path value="Patient.identifier"/>
-            <mustSupport value="false"/>
         </element>
         <element id="Patient.identifier.extension:dataAbsentReason">
             <path value="Patient.identifier.extension"/>
@@ -233,7 +232,6 @@
         </element>
         <element id="Patient.gender">
             <path value="Patient.gender"/>
-            <mustSupport value="false"/>
         </element>
         <element id="Patient.gender.extension:dataAbsentReason">
             <path value="Patient.gender.extension"/>
@@ -257,7 +255,6 @@
         <element id="Patient.birthDate">
             <path value="Patient.birthDate"/>
             <min value="1"/>
-            <mustSupport value="false"/>
         </element>
         <element id="Patient.birthDate.extension:dataAbsentReason">
             <path value="Patient.birthDate.extension"/>
@@ -288,7 +285,6 @@
             <path value="Patient.address"/>
             <definition value="If the patient is homeless, complete as much address information as possible (city, zip, county, etc.) and use the Characteristics of Home Environment profile in the Social History Section of the eICR Composition to indicate that the patient is homeless."/>
             <min value="1"/>
-            <mustSupport value="false"/>
         </element>
         <element id="Patient.address.extension:dataAbsentReason">
             <path value="Patient.address.extension"/>
@@ -406,7 +402,6 @@
         </element>
         <element id="Patient.communication.language">
             <path value="Patient.communication.language"/>
-            <mustSupport value="false"/>
         </element>
         <element id="Patient.communication.language.extension:dataAbsentReason">
             <path value="Patient.communication.language.extension"/>

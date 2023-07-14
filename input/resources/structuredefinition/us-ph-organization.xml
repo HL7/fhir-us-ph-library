@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-organization"/>
     <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2023-07-14T00:43:05.943Z"/>
+        <versionId value="10"/>
+        <lastUpdated value="2023-07-14T01:26:27.842Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-organization"/>
     <version value="1.0.0"/>
@@ -44,13 +44,11 @@
         <element id="Organization.telecom">
             <path value="Organization.telecom"/>
             <min value="1"/>
-            <mustSupport value="false"/>
         </element>
         <element id="Organization.address">
             <path value="Organization.address"/>
             <min value="1"/>
             <max value="1"/>
-            <mustSupport value="false"/>
         </element>
     </differential>
 </StructureDefinition>

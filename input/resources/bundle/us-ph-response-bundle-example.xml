@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-response-bundle-example"/>
     <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2023-07-14T01:01:51.442Z"/>
+        <versionId value="10"/>
+        <lastUpdated value="2023-07-14T01:31:37.937Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-response-bundle"/>
     </meta>
     <type value="message"/>
@@ -59,7 +59,7 @@
                     </coding>
                 </reason>
                 <focus>
-                    <reference value="us-ph-content-bundle-example"/>
+                    <reference value="Bundle/us-ph-content-bundle-example"/>
                 </focus>
             </MessageHeader>
         </resource>
