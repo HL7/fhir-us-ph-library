@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-condition-encounter-diagnosis"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2023-07-10T22:52:53.067Z"/>
+        <versionId value="7"/>
+        <lastUpdated value="2023-07-14T01:00:25.773Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition-encounter-diagnosis"/>
     <version value="1.0.0"/>
@@ -50,7 +50,7 @@
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
             </type>
-            <mustSupport value="true"/>
+            <mustSupport value="false"/>
         </element>
     </differential>
 </StructureDefinition>

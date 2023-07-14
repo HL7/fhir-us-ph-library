@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-messageheader-response"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2023-07-13T22:15:11.080Z"/>
+        <versionId value="3"/>
+        <lastUpdated value="2023-07-14T01:03:07.839Z"/>
         <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-messageheader"/>
     </meta>
     <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-data-encrypted-extension">
@@ -49,6 +49,6 @@
         </coding>
     </reason>
     <focus>
-        <reference value="Bundle/content-bundle-example"/>
+        <reference value="Bundle/us-ph-content-bundle-example"/>
     </focus>
 </MessageHeader>

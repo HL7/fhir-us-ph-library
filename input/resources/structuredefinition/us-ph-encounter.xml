@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-encounter"/>
     <meta>
-        <versionId value="11"/>
-        <lastUpdated value="2023-07-10T22:57:42.344Z"/>
+        <versionId value="13"/>
+        <lastUpdated value="2023-07-14T00:55:33.258Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-encounter"/>
     <version value="1.0.0"/>
@@ -43,12 +43,11 @@
         </element>
         <element id="Encounter.subject">
             <path value="Encounter.subject"/>
-            <min value="1"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
             </type>
-            <mustSupport value="true"/>
+            <mustSupport value="false"/>
         </element>
         <element id="Encounter.participant">
             <path value="Encounter.participant"/>
@@ -60,7 +59,7 @@
                 <rules value="open"/>
             </slicing>
             <definition value="The provider in charge of care and the facility in which care was provided during the encounter"/>
-            <mustSupport value="true"/>
+            <mustSupport value="false"/>
         </element>
         <element id="Encounter.participant:responsibleProvider">
             <path value="Encounter.participant"/>
@@ -80,10 +79,6 @@
                     <code value="ATND"/>
                 </coding>
             </patternCodeableConcept>
-            <mustSupport value="true"/>
-        </element>
-        <element id="Encounter.participant.period">
-            <path value="Encounter.participant.period"/>
             <mustSupport value="true"/>
         </element>
         <element id="Encounter.participant:responsibleProvider.individual">
@@ -120,7 +115,7 @@
             <short value="Public health encounter location"/>
             <definition value="Location of the facility in which the public health encounter took place"/>
             <min value="1"/>
-            <mustSupport value="true"/>
+            <mustSupport value="false"/>
             <isModifier value="false"/>
         </element>
         <element id="Encounter.location.location">
@@ -129,7 +124,7 @@
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-location"/>
             </type>
-            <mustSupport value="true"/>
+            <mustSupport value="false"/>
             <isModifier value="false"/>
         </element>
         <element id="Encounter.serviceProvider">
@@ -138,7 +133,7 @@
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-organization"/>
             </type>
-            <mustSupport value="true"/>
+            <mustSupport value="false"/>
         </element>
     </differential>
 </StructureDefinition>

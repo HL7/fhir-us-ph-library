@@ -1,1 +1,3 @@
-It is based on the [US Core Condition Problems and Health Concerns Profile]({{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-condition-problems-health-concerns.html) with further restrictions of a US Public Health Patient as the Condition.subject and guidance that in the case of a condition being mistakenly entered into the system and later corrected verificationStatus of 'entered-in-error' must be set.
+It is based on the [US Core Condition Problems and Health Concerns Profile]({{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-condition-problems-health-concerns.html) with further constraints:
+* US Public Health Patient as the Condition.subject
+* verificationStatus guidance: in the case of a condition being mistakenly entered into the system and later corrected, set to 'entered-in-error'
