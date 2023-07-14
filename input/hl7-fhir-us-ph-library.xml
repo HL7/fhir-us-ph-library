@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="453"/>
-        <lastUpdated value="2023-07-14T01:33:07.550Z"/>
+        <versionId value="455"/>
+        <lastUpdated value="2023-07-14T01:58:34.710Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="1.0.0"/>
@@ -215,7 +215,7 @@
                 <reference value="CodeSystem/us-ph-codesystem-jurisdictions-example"/>
                 <display value="US Public Health CodeSystem Jurisdictions Example"/>
             </reference>
-            <name value="US Public Health CodeSystem Jurisdictions Example"/>
+            <name value="US Public Health CodeSystem Jurisdictions - Possible Jurisdictions Example"/>
             <description value="US Public Health CodeSystem example containing a set of possible jurisdictions"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"/>
@@ -287,8 +287,8 @@
                 <reference value="ValueSet/us-ph-valueset-computable-example"/>
                 <display value="US Public Health ValueSet - Computable Example"/>
             </reference>
-            <name value="US Public Health Computable ValueSet Example"/>
-            <description value="US Public Health Computable ValueSet example containing an expression-based definition of the value set for acme-plasma"/>
+            <name value="US Public Health Computable ValueSet - Plasma Example"/>
+            <description value="US Public Health Computable ValueSet example containing an expression-based definition of the value set for plasma"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-valueset"/>
             <groupingId value="examples-terminology"/>
@@ -700,7 +700,7 @@
                 <reference value="CodeSystem/us-ph-codesystem-jurisdiction-types-example"/>
                 <display value="US Public Health CodeSystem - Jurisdiction Types Example"/>
             </reference>
-            <name value="US Public Health Jurisdiction Types Example"/>
+            <name value="US Public Health - Reporting Jurisdiction Types Example"/>
             <description value="US Public Health CodeSystem example containing a examples of the types of jurisdictions that require public health reporting"/>
             <exampleBoolean value="true"/>
             <groupingId value="examples-terminology"/>
@@ -1156,6 +1156,17 @@
         </resource>
         <resource>
             <reference>
+                <reference value="Library/us-ph-specification-library-example"/>
+                <display value="US Public Health Specification Library Example"/>
+            </reference>
+            <name value="US Public Health Specification Library - Program Example"/>
+            <description value="US Public Health Specification Library: Program example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-specification-library"/>
+            <groupingId value="examples-terminology"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="StructureDefinition/us-ph-supplemental-library"/>
                 <display value="US Public Health Supplemental Library"/>
             </reference>
@@ -1169,8 +1180,8 @@
                 <reference value="Library/us-ph-supplemental-library-example"/>
                 <display value="US Public Health Supplemental Library Example"/>
             </reference>
-            <name value="US Public Health Supplemental Library - Example"/>
-            <description value="US Public Health Supplemental Library example"/>
+            <name value="US Public Health Supplemental Library - Program Example"/>
+            <description value="US Public Health Supplemental Library: Program example"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-library"/>
             <groupingId value="examples-terminology"/>
@@ -1190,8 +1201,8 @@
                 <reference value="ValueSet/us-ph-valueset-supplemental-example"/>
                 <display value="US Public Health VaueSet - Supplemental Example"/>
             </reference>
-            <name value="US Public Health Supplemental Valueset Example"/>
-            <description value="US Public Health Supplemental ValueSet exmaple containing codes with a clinical focus of Chlamydia"/>
+            <name value="US Public Health Supplemental Valueset - Chlamydia Example"/>
+            <description value="US Public Health Supplemental ValueSet example containing codes with a clinical focus of Chlamydia"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-valueset"/>
             <groupingId value="examples-terminology"/>
@@ -1316,7 +1327,7 @@
                 <reference value="ValueSet/us-ph-valueset-triggering-chlamydia-example"/>
                 <display value="US Public Health VaueSet - Triggering Chlamydia Example"/>
             </reference>
-            <name value="US Public Health Triggering ValueSet Chlamydia Example"/>
+            <name value="US Public Health Triggering ValueSet - Chlamydia Lab Tests Example"/>
             <description value="US Public Health Triggering ValueSet example containing codes for Chlamydia lab tests for routine triggering"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset"/>
@@ -1428,7 +1439,7 @@
                 <reference value="ValueSet/us-ph-valueset-chlamydia-example"/>
                 <display value="US Public Health ValueSet - Chlamydia Example"/>
             </reference>
-            <name value="US Public Health ValueSet Chlamydia Example"/>
+            <name value="US Public Health ValueSet - Chlamydia Example"/>
             <description value="US Public Health ValueSet example containing a set of laboratory observation test names that represent Chlamydia lab tests for routine public health reporting"/>
             <exampleBoolean value="true"/>
             <groupingId value="examples-terminology"/>
