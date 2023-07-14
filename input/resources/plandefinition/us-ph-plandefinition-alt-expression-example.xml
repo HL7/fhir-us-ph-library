@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-plandefinition-alt-expression-example"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2023-07-12T08:45:35.026Z"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-07-13T22:49:33.652Z"/>
     </meta>
     <url value="http://example.org/fhir/PlanDefinition/us-ph-plandefinition-alt-expression-example"/>
     <version value="0.1"/>
@@ -502,6 +502,31 @@
             <actionId value="validate-eicr"/>
             <relationship value="before-start"/>
         </relatedAction>
+        <action id="anonymize-report">
+            <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-trust-service-endpoint-extension">
+                <valueReference>
+                    <reference value="Endpoint/us-ph-endpoint-pha"/>
+                </valueReference>
+            </extension>
+            <description value="This action is used to anonymize a identifiable report"/>
+            <textEquivalent value="Anonymize the report."/>
+            <code>
+                <coding>
+                    <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-plandefinition-actions"/>
+                    <code value="anonymize-report"/>
+                </coding>
+            </code>
+            <input id="report-to-be-anonymized">
+                <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-relateddata-extension">
+                    <valueString value="output-report"/>
+                </extension>
+                <type value="Bundle"/>
+            </input>
+            <output id="anonymized-report">
+                <type value="Bundle"/>
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-reporting-bundle"/>
+            </output>
+        </action>
     </action>
     <action id="validate-eicr">
         <description value="This action represents the validation of the eICR. It subsequently calls route-and-send."/>

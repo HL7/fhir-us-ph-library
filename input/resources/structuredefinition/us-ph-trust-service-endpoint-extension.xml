@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
-    <id value="us-ph-trust-service-endpoint"/>
+    <id value="us-ph-trust-service-endpoint-extension"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2023-07-12T18:55:30.800Z"/>
+        <versionId value="5"/>
+        <lastUpdated value="2023-07-13T22:49:10.744Z"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-trust-service-endpoint"/>
-    <name value="USPublicHealthTrustServiceEndpoint"/>
-    <title value="US Public Health Trust Service Endpoint"/>
+    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-trust-service-endpoint-extension"/>
+    <name value="USPublicHealthTrustServiceEndpointExtension"/>
+    <title value="US Public Health Trust Service Endpoint Extension"/>
     <status value="active"/>
     <experimental value="false"/>
     <publisher value="{site.data.fhir.ig.publisher}"/>
@@ -31,7 +31,7 @@
     <abstract value="false"/>
     <context>
         <type value="element"/>
-        <expression value="PlanDefinition"/>
+        <expression value="PlanDefinition.action"/>
     </context>
     <type value="Extension"/>
     <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
@@ -48,7 +48,7 @@
             <type>
                 <code value="uri"/>
             </type>
-            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-trust-service-endpoint"/>
+            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-trust-service-endpoint-extension"/>
         </element>
         <element id="Extension.value[x]">
             <path value="Extension.value[x]"/>

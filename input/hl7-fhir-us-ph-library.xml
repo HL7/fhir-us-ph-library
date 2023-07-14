@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ph-library"/>
     <meta>
-        <versionId value="440"/>
-        <lastUpdated value="2023-07-13T10:37:57.802Z"/>
+        <versionId value="451"/>
+        <lastUpdated value="2023-07-13T23:12:12.349Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/ImplementationGuide/hl7-fhir-us-ph-library"/>
     <version value="1.0.0"/>
@@ -19,7 +19,7 @@
             <value value="http://www.hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="The US Public Health Profiles Library (USPHPL) is a collection of reusable architecture and content profiles representing common public health concepts and patterns. It is intended as a complement to the [US Core Implementation Guide (US Core)](http://hl7.org/fhir/us/core/STU5.0.1/) to ease implementation burden of healthcare organizations, electronic health record companies, public health agencies, and others involved in the US public health endeavor.&#xA;&#xA;The US Public Health Profiles Library is instituted in close conjunction with US Core and has an analogous process for implementation, moderation, review, and approval. US Core profiles will be re-used wherever possible and profiles will only be added to the library that are required for common public health needs. The library will evolve over time and may be supported by an adjunct profiles registry that includes developing and informational profiles for public health use.&#xA;&#xA;### Background&#xA;&#xA;After evaluation and harmonization analysis of two large multi-condition and multi-use case public health projects, [Electronic Case Reporting (eCR)](http://hl7.org/fhir/us/ecr/) and [Making Electronic Data More available for Research and Public Health (MedMorph)](http://hl7.org/fhir/us/medmorph/), it was determined that there are many common elements between the two implementation guides (IGs). &#xA;&#xA;To avoid defining the same profiles multiple times, we have created the US Public Health Profiles Library for use by Public Health and other FHIR standards development efforts to define appropriate FHIR profiles, value sets, etc., once, and allow them to be referenced by any implementation guides. This USPHPL provides a starting point and framework for inclusion in multiple implementation guides focused on the exchange of Public Health information to support interoperability among public health systems and reduce provider and implementer burden.&#xA;&#xA;The short-term scope of this library includes elements common to the above-mentioned FHIR IGs and defines a US Realm specific framework that defines common elements for the IGs. The longer-term scope includes analysis and inclusion of data elements from other Public Health use cases.&#xA;&#xA;### How to Read This Guide&#xA;&#xA;This Guide is divided into several pages which are listed at the top of each page in the menu bar.&#xA;&#xA;* Home: Introduction and background for HL7 FHIR® US Public Health Profiles Library&#xA;* [Guidance](guidance.html): Information on the library's relation to US Core, conformance, principles and criteria of library profiles inclusion and use of the included profiles&#xA;* [Downloads](downloads.html): Links to downloadable artifacts&#xA;* [Artifact Index](artifacts.html): A list of the FHIR artifacts (profiles, examples, value sets, and code systems) defined as part of this guide&#xA;&#xA;### Other Information&#xA;&#xA;This guide is compliant with FHIR Release 4.&#xA;&#xA;For Clinical Safety Information please refer to the [FHIR Implementer’s Safety Checklist](http://hl7.org/fhir/safety.html).&#xA;&#xA;Disclaimer: All proprietary documents, guides, guidance, standards, codes, and values contained herein remain the property of their respective Standards Developing Organization (SDO). HL7 does not make any claim to ownership herein.&#xA;&#xA;&#xA;### Authors and Contributors&#xA;&#xA;| **Role**       | **Name**       | **Email**                    |&#xA;|----------------|----------------|------------------------------|&#xA;| Primary Editor | Sarah Gaunt    | sarah.gaunt@lantanagroup.com |&#xA;| Primary Editor | John Loonsk    | john.loonsk@jhu.edu          |&#xA;| Contributor    | Nagesh Bashyam | nagesh.bashyam@drajer.com    |&#xA;| Contributor    | Bryn Rhodes    | bryn@smilecdr.com            |&#xA;| Contributor    | Adam Stevenson | adam.stevenson@smilecdr.com  |"/>
+    <description value="### Overview&#xA;&#xA;The US Public Health Profiles Library (USPHPL) is a collection of reusable architecture and content profiles representing common public health concepts and patterns. It is intended as a complement to the [US Core Implementation Guide (US Core)](http://hl7.org/fhir/us/core/STU5.0.1/) to ease implementation burden of healthcare organizations, electronic health record companies, public health agencies, and others involved in the US public health endeavor.&#xA;&#xA;The US Public Health Profiles Library is instituted in close conjunction with US Core and has an analogous process for implementation, moderation, review, and approval. US Core profiles will be re-used wherever possible and profiles will only be added to the library that are required for common public health needs. The library will evolve over time and may be supported by an adjunct profiles registry that includes developing and informational profiles for public health use.&#xA;&#xA;### Background&#xA;&#xA;After evaluation and harmonization analysis of two large multi-condition and multi-use case public health projects, [Electronic Case Reporting (eCR)](http://hl7.org/fhir/us/ecr/) and [Making Electronic Data More available for Research and Public Health (MedMorph)](http://hl7.org/fhir/us/medmorph/), it was determined that there are many common elements between the two implementation guides (IGs). &#xA;&#xA;To avoid defining the same profiles multiple times, we have created the US Public Health Profiles Library for use by Public Health and other FHIR standards development efforts to define appropriate FHIR profiles, value sets, etc., once, and allow them to be referenced by any implementation guides. This USPHPL provides a starting point and framework for inclusion in multiple implementation guides focused on the exchange of Public Health information to support interoperability among public health systems and reduce provider and implementer burden.&#xA;&#xA;The short-term scope of this library includes elements common to the above-mentioned FHIR IGs and defines a US Realm specific framework that defines common elements for the IGs. The longer-term scope includes analysis and inclusion of data elements from other Public Health use cases.&#xA;&#xA;### How to Read This Guide&#xA;&#xA;This Guide is divided into several pages which are listed at the top of each page in the menu bar.&#xA;&#xA;* Home: Introduction and background for HL7 FHIR® US Public Health Profiles Library&#xA;* [Guidance](guidance.html): Information on the library's relation to US Core, conformance, principles and criteria of library profiles inclusion and use of the included profiles&#xA;* [Downloads](downloads.html): Links to downloadable artifacts&#xA;* [Artifact Index](artifacts.html): A list of the FHIR artifacts (profiles, examples, value sets, and code systems) defined as part of this guide&#xA;&#xA;### Other Information&#xA;&#xA;This guide is compliant with FHIR Release 4.&#xA;&#xA;For Clinical Safety Information please refer to the [FHIR Implementer’s Safety Checklist](http://hl7.org/fhir/safety.html).&#xA;&#xA;Disclaimer: All proprietary documents, guides, guidance, standards, codes, and values contained herein remain the property of their respective Standards Developing Organization (SDO). HL7 does not make any claim to ownership herein.&#xA;&#xA;&#xA;### Authors and Contributors&#xA;&#xA;| **Role**       | **Name**       | **Email**                    |&#xA;|----------------|----------------|------------------------------|&#xA;| Primary Editor | Sarah Gaunt    | sarah.gaunt@lantanagroup.com |&#xA;| Primary Editor | John Loonsk    | john.loonsk@jhu.edu          |&#xA;| Contributor    | Nagesh Bashyam | nagesh.bashyam@drajer.com    |&#xA;| Contributor    | Bryn Rhodes    | bryn@smilecdr.com            |&#xA;| Contributor    | Adam Stevenson | adam.stevenson@smilecdr.com  |&#xA;{: .grid }"/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -137,7 +137,7 @@
                 <display value="US Public Health Alternative Expression Extension"/>
             </reference>
             <name value="US Public Health Alternative Expression Extension"/>
-            <description value="This Extension profile represents an US Public Health Alternative Expression."/>
+            <description value="This Extension profile represents a US Public Health Alternative Expression."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-extensions"/>
         </resource>
@@ -182,11 +182,31 @@
         </resource>
         <resource>
             <reference>
+                <reference value="CodeSystem/us-ph-codesystem-plandefinition-actions"/>
+                <display value="US Public Health CodeSystem - PlanDefinition Actions"/>
+            </reference>
+            <name value="US Public Health Codesystem - PlanDefinition Actions"/>
+            <description value="The US Public Health PlanDefinition Actions CodeSystem contains codes for currently identified use cases for identifying actions in PlanDefinition."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="code-systems"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="CodeSystem/us-ph-codesystem-report-initiation-types"/>
                 <display value="US Public Health CodeSystem - Report Initiation Type Codes"/>
             </reference>
             <name value="US Public Health CodeSystem - Report Initiation Type Codes"/>
             <description value="Thsis CodeSystem contains codes for currently identified use cases for identifying how the message was initiated."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="code-systems"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/us-ph-codesystem-triggerdefinition-namedevents"/>
+                <display value="US Public Health CodeSystem - Trigger Definition Named Events"/>
+            </reference>
+            <name value="US Public Health CodeSystem - TriggerDefinition NamedEvents"/>
+            <description value="The US Public Health TriggerDefinition NamedEvents CodeSystem contains codes for currently identified use cases for identifying named events to subscribe to in clinical workflows."/>
             <exampleBoolean value="false"/>
             <groupingId value="code-systems"/>
         </resource>
@@ -345,7 +365,7 @@
                 <reference value="StructureDefinition/us-ph-data-encryption-algorithm-extension"/>
                 <display value="US Public Health Data Encryption Algorithm Extension"/>
             </reference>
-            <name value="US Public Health Data Encryption Algorithm"/>
+            <name value="US Public Health Data Encryption Algorithm Extension"/>
             <description value="This Extension profile represents algorithms that would be acceptable for encryption of the data prior to submitting to the data receiver."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-extensions"/>
@@ -488,6 +508,16 @@
         </resource>
         <resource>
             <reference>
+                <reference value="Endpoint/us-ph-endpoint-pha"/>
+                <display value="PHAReceiver"/>
+            </reference>
+            <name value="US Public Health Endpoint - Public Health Agency"/>
+            <description value="US Public Health Endpoint: Public Health Agency example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-endpoint"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="Endpoint/us-ph-endpoint-salem-medical-center"/></reference>
             <name value="US Public Health Endpoint - Salem Medical Center"/>
             <description value="US Public Health Endpoint: Salem Medical Center example"/>
@@ -530,7 +560,7 @@
                 <reference value="Library/us-ph-executable-library-rule-filters"/>
                 <display value="Rule Filters"/>
             </reference>
-            <name value="US Public Health Executable Library - Rule Filters - Chlamydia"/>
+            <name value="US Public Health Executable Library - Rule Filters - Chlamydia Example"/>
             <description value="US Public Health Executable Library example: Rule Filters - Chlamydia"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-library"/>
@@ -813,6 +843,15 @@
         </resource>
         <resource>
             <reference>
+                <reference value="MessageHeader/us-ph-messageheader-response"/></reference>
+            <name value="US Public Health MessageHeader - Cancer Report"/>
+            <description value="US Public Health MessageHeader: Cancer Report example"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-messageheader"/>
+            <groupingId value="examples-architecture"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="MessageHeader/us-ph-messageheader-case-report"/></reference>
             <name value="US Public Health MessageHeader - Case Report"/>
             <description value="US Public Health MessageHeader: Case Report example"/>
@@ -944,26 +983,6 @@
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-plandefinition"/>
             <groupingId value="examples-content"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="CodeSystem/us-ph-codesystem-plandefinition-actions"/>
-                <display value="US Public Health CodeSystem - PlanDefinition Actions"/>
-            </reference>
-            <name value="US Public Health Codesystem - PlanDefinition Actions"/>
-            <description value="The US Public Health PlanDefinition Actions CodeSystem contains codes for currently identified use cases for identifying actions in PlanDefinition."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="code-systems"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/us-ph-valueset-plandefinition-action"/>
-                <display value="US Public Health VaueSet - PlanDefinition Action"/>
-            </reference>
-            <name value="US Public Health ValueSet - PlanDefinition Action"/>
-            <description value="The US Public Health PlanDefinition Action Value Set contains codes for currently identified use cases for uniquely identifying actions in PlanDefinition instances."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="value-sets"/>
         </resource>
         <resource>
             <reference>
@@ -1102,8 +1121,8 @@
         <resource>
             <reference>
                 <reference value="Bundle/us-ph-response-bundle-example"/></reference>
-            <name value="US Public Health Response Bundle - Dominique Ledner"/>
-            <description value="US Public Health Response Bundle: Dominique Ledner example"/>
+            <name value="US Public Health Response Bundle - Eve Everywoman"/>
+            <description value="US Public Health Response Bundle: Eve Everywoman example"/>
             <exampleBoolean value="true"/>
             <groupingId value="examples-architecture"/>
         </resource>
@@ -1150,7 +1169,7 @@
                 <reference value="Library/us-ph-supplemental-library-example"/>
                 <display value="US Public Health Supplemental Library Example"/>
             </reference>
-            <name value="US Public Health Supplemental Library - Demonstration"/>
+            <name value="US Public Health Supplemental Library - Example"/>
             <description value="US Public Health Supplemental Library example"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-library"/>
@@ -1284,26 +1303,6 @@
         </resource>
         <resource>
             <reference>
-                <reference value="CodeSystem/us-ph-codesystem-triggerdefinition-namedevents"/>
-                <display value="US Public Health CodeSystem - Trigger Definition Named Events"/>
-            </reference>
-            <name value="US Public Health CodeSystem - TriggerDefinition NamedEvents"/>
-            <description value="The US Public Health TriggerDefinition NamedEvents CodeSystem contains codes for currently identified use cases for identifying named events to subscribe to in clinical workflows."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="code-systems"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/us-ph-valueset-triggerdefinition-namedevent"/>
-                <display value="US Public Health VaueSet - TriggerDefinition NamedEvent"/>
-            </reference>
-            <name value="US Public Health ValueSystem - TriggerDefinition NamedEvent"/>
-            <description value="The US Public Health TriggerDefinition NamedEvent Value Set contains codes for currently identified use cases for identifying named events uniquely in TriggerDefinition instances contained within a PlanDefinition."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="value-sets"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="StructureDefinition/us-ph-triggering-valueset"/>
                 <display value="US Public Health Triggering ValueSet"/>
             </reference>
@@ -1317,7 +1316,7 @@
                 <reference value="ValueSet/us-ph-valueset-triggering-chlamydia-example"/>
                 <display value="US Public Health VaueSet - Triggering Chlamydia Example"/>
             </reference>
-            <name value="US Public Health Triggering ValueSet Chlamydia"/>
+            <name value="US Public Health Triggering ValueSet Chlamydia Example"/>
             <description value="US Public Health Triggering ValueSet example containing codes for Chlamydia lab tests for routine triggering"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset"/>
@@ -1346,10 +1345,10 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-trust-service-endpoint"/>
+                <reference value="StructureDefinition/us-ph-trust-service-endpoint-extension"/>
                 <display value="US Public Health Trust Service Endpoint"/>
             </reference>
-            <name value="US Public Health Trust Service Endpoint"/>
+            <name value="US Public Health Trust Service Endpoint Extension"/>
             <description value="This Extension profile represents the endpoint address which implements trust services and can be used by specific actions requiring trust services with appropriate authorities and policies."/>
             <exampleBoolean value="false"/>
             <groupingId value="architecture-extensions"/>
@@ -1406,6 +1405,16 @@
         </resource>
         <resource>
             <reference>
+                <reference value="ValueSet/us-ph-valueset-plandefinition-action"/>
+                <display value="US Public Health VaueSet - PlanDefinition Action"/>
+            </reference>
+            <name value="US Public Health ValueSet - PlanDefinition Action"/>
+            <description value="The US Public Health PlanDefinition Action Value Set contains codes for currently identified use cases for uniquely identifying actions in PlanDefinition instances."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="value-sets"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="ValueSet/us-ph-valueset-report-initiation-type"/>
                 <display value="US Public Health ValueSet - Report Initiation Type"/>
             </reference>
@@ -1419,7 +1428,7 @@
                 <reference value="ValueSet/us-ph-valueset-chlamydia-example"/>
                 <display value="US Public Health ValueSet - Chlamydia Example"/>
             </reference>
-            <name value="US Public Health ValueSet Chlamydia example"/>
+            <name value="US Public Health ValueSet Chlamydia Example"/>
             <description value="US Public Health ValueSet example containing a set of laboratory observation test names that represent Chlamydia lab tests for routine public health reporting"/>
             <exampleBoolean value="true"/>
             <groupingId value="examples-terminology"/>
@@ -1439,7 +1448,7 @@
                 <reference value="Library/us-ph-valueset-library-example"/>
                 <display value="US Public Health ValueSet Library Example"/>
             </reference>
-            <name value="US Public Health ValueSet Library - Demonstration"/>
+            <name value="US Public Health ValueSet Library Example"/>
             <description value="US Public Health ValueSet Library example containing a Chlamydia value set"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset-library"/>
@@ -1450,7 +1459,7 @@
                 <reference value="Library/us-ph-valueset-library-expansion-parameters-example"/>
                 <display value="US Public Health ValueSet Library Expansion Parameters Example"/>
             </reference>
-            <name value="US Public Health ValueSet Library Expansion Parameters - Chlamydia"/>
+            <name value="US Public Health ValueSet Library Expansion Parameters - Chlamydia Example"/>
             <description value="US Public Health ValueSet Library Expansion Parameters example containing a  Chlamydia value set and demonstrating expansion parameter"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset-library"/>
@@ -1463,6 +1472,16 @@
             </reference>
             <name value="US Public Health ValueSet Priority"/>
             <description value="This value set contains codes representing release priority for ValueSets."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="value-sets"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/us-ph-valueset-triggerdefinition-namedevent"/>
+                <display value="US Public Health VaueSet - TriggerDefinition NamedEvent"/>
+            </reference>
+            <name value="US Public Health ValueSystem - TriggerDefinition NamedEvent"/>
+            <description value="The US Public Health TriggerDefinition NamedEvent Value Set contains codes for currently identified use cases for identifying named events uniquely in TriggerDefinition instances contained within a PlanDefinition."/>
             <exampleBoolean value="false"/>
             <groupingId value="value-sets"/>
         </resource>

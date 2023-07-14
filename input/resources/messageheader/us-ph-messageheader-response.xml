@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MessageHeader
+    xmlns="http://hl7.org/fhir">
+    <id value="us-ph-messageheader-response"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2023-07-13T22:15:11.080Z"/>
+        <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-messageheader"/>
+    </meta>
+    <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-data-encrypted-extension">
+        <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-report-initiation-type-extension">
+        <valueCodeableConcept>
+            <coding>
+                <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-report-initiation-types"/>
+                <code value="subscription-notification"/>
+            </coding>
+        </valueCodeableConcept>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-message-processing-category-extension">
+        <valueCode value="consequence"/>
+    </extension>
+    <eventCoding>
+        <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-message-types"/>
+        <code value="cancer-report-message"/>
+    </eventCoding>
+    <destination>
+        <name value="PHA endpoint"/>
+        <endpoint value="http://example.pha.org/fhir"/>
+    </destination>
+    <sender>
+        <reference value="Organization/us-ph-organization-salem-medical-center"/>
+    </sender>
+    <source>
+        <name value="Healthcare Organization"/>
+        <software value="Backend Service App"/>
+        <version value="3.1.45.AABB"/>
+        <contact>
+            <system value="phone"/>
+            <value value="+1 (917) 123 4567"/>
+        </contact>
+        <endpoint value="http://example.healthcare.org/fhir"/>
+    </source>
+    <reason>
+        <coding>
+            <system value="http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-triggerdefinition-namedevents"/>
+            <code value="encounter-close"/>
+        </coding>
+    </reason>
+    <focus>
+        <reference value="Bundle/content-bundle-example"/>
+    </focus>
+</MessageHeader>
