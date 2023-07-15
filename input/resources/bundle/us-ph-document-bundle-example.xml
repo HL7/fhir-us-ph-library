@@ -395,7 +395,7 @@
                 <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
                     <valueCode value="F"/>
                 </extension>
-                <extension url="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-gender-identity-extension">
+                <extension url="http://hl7.org/fhir/StructureDefinition/individual-genderIdentity">
                     <extension url="value">
                         <valueCodeableConcept>
                             <coding>
