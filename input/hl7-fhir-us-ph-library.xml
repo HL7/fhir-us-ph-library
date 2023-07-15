@@ -660,7 +660,7 @@
                 <display value="US Public Health Information Recipient Extension"/>
             </reference>
             <name value="US Public Health Information Recipient Extension"/>
-            <description value="This Extension profile represents an intended recipient of a [US Public Health Composition](us-ph-composition.html)."/>
+            <description value="This Extension profile represents an intended recipient of a [US Public Health Composition](StructureDefinition-us-ph-composition.html)."/>
             <exampleBoolean value="false"/>
             <groupingId value="content-extensions"/>
         </resource>
