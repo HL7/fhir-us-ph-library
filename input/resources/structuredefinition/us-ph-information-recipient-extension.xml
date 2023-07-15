@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Extension profile represents an intended recipient of a [US Public Health Composition](us-ph-composition.html)."/>
+    <description value="This Extension profile represents an intended recipient of a [US Public Health Composition](StructureDefinition-us-ph-composition.html)."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
