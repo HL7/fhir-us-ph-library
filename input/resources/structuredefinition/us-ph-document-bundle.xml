@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="us-ph-document-bundle"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2023-07-14T22:16:58.593Z"/>
+        <versionId value="9"/>
+        <lastUpdated value="2023-07-14T23:50:38.013Z"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle"/>
     <version value="1.0.0"/>
@@ -20,7 +20,7 @@
             <value value="http://hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="This Bundle profile represents a public health Document Bundle. It contains a [US Public Health Composition](us-public-health-composition.html)."/>
+    <description value="This Bundle profile represents a public health Document Bundle. It contains a [US Public Health Composition](StructureDefinition-us-ph-composition.html)."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
