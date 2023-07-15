@@ -109,9 +109,9 @@
             <mustSupport value="true"/>
             <isModifier value="false"/>
         </element>
-        <element id="Patient.extension:genderIdentity">
+        <element id="Patient.extension:individualGenderIdentity">
             <path value="Patient.extension"/>
-            <sliceName value="genderIdentity"/>
+            <sliceName value="individualGenderIdentity"/>
             <min value="0"/>
             <max value="*"/>
             <type>
