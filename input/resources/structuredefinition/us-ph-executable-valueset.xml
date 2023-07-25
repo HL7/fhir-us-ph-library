@@ -1,79 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StructureDefinition
-    xmlns="http://hl7.org/fhir">
-    <id value="us-ph-executable-valueset"/>
-    <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2023-07-14T21:51:36.007Z"/>
-    </meta>
-    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-valueset"/>
-    <version value="1.0.0"/>
-    <name value="USPublicHealthExecutableValueSet"/>
-    <title value="US Public Health Executable ValueSet"/>
-    <status value="active"/>
-    <experimental value="false"/>
-    <publisher value="{site.data.fhir.ig.publisher}"/>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="us-ph-executable-valueset" />
+    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-valueset" />
+    <name value="USPublicHealthExecutableValueSet" />
+    <title value="US Public Health Executable ValueSet" />
+    <status value="active" />
+    <experimental value="false" />
+    <publisher value="{site.data.fhir.ig.publisher}" />
     <contact>
-        <name value="HL7 Public Health Work Group"/>
+        <name value="HL7 Public Health Work Group" />
         <telecom>
-            <system value="url"/>
-            <value value="http://hl7.org/Special/committees/pher"/>
+            <system value="url" />
+            <value value="http://hl7.org/Special/committees/pher" />
         </telecom>
     </contact>
-    <description value="This ValueSet profile describes the requirements for a value set containing a point-in-time expansion enumerating the codes that meet the value set intent. As new versions of the code systems used by the value set are released, the contents of this expansion will need to be updated to incorporate newly defined codes that meet the value set intent. The complete expansion of the ValueSet is included, but not necessarily the computable definition. An executable value set is intended for use in environments that are not expected to have access to a terminology server capable of expanding the value set, so the expansion is communicated as part of the ValueSet."/>
+    <description
+        value="This ValueSet profile describes the requirements for a value set containing a point-in-time expansion enumerating the codes that meet the value set intent. As new versions of the code systems used by the value set are released, the contents of this expansion will need to be updated to incorporate newly defined codes that meet the value set intent. The complete expansion of the ValueSet is included, but not necessarily the computable definition. An executable value set is intended for use in environments that are not expected to have access to a terminology server capable of expanding the value set, so the expansion is communicated as part of the ValueSet." />
     <jurisdiction>
         <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="US"/>
-            <display value="United States of America"/>
+            <system value="urn:iso:std:iso:3166" />
+            <code value="US" />
+            <display value="United States of America" />
         </coding>
-        <text value="United States of America"/>
+        <text value="United States of America" />
     </jurisdiction>
-    <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
-    <abstract value="false"/>
-    <type value="ValueSet"/>
-    <baseDefinition value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset"/>
-    <derivation value="constraint"/>
+    <fhirVersion value="4.0.1" />
+    <kind value="resource" />
+    <abstract value="false" />
+    <type value="ValueSet" />
+    <baseDefinition value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset" />
+    <derivation value="constraint" />
     <differential>
         <element id="ValueSet">
-            <path value="ValueSet"/>
-            <short value="US Public Health Executable ValueSet"/>
+            <path value="ValueSet" />
+            <short value="US Public Health Executable ValueSet" />
         </element>
         <element id="ValueSet.extension:usageWarning">
-            <path value="ValueSet.extension"/>
-            <sliceName value="usageWarning"/>
-            <min value="1"/>
-            <max value="1"/>
+            <path value="ValueSet.extension" />
+            <sliceName value="usageWarning" />
+            <min value="1" />
+            <max value="1" />
             <type>
-                <code value="Extension"/>
-                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-usagewarning-extension"/>
+                <code value="Extension" />
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-usagewarning-extension" />
             </type>
-            <mustSupport value="true"/>
+            <mustSupport value="true" />
         </element>
         <element id="ValueSet.extension:usageWarning.value[x]">
-            <path value="ValueSet.extension.value[x]"/>
-            <min value="1"/>
-            <max value="1"/>
+            <path value="ValueSet.extension.value[x]" />
+            <min value="1" />
+            <max value="1" />
             <type>
-                <code value="string"/>
+                <code value="string" />
             </type>
-            <fixedString value="This value set contains a point-in-time expansion enumerating the codes that meet the value set intent. As new versions of the code systems used by the value set are released, the contents of this expansion will need to be updated to incorporate newly defined codes that meet the value set intent. Before, and periodically during production use, the value set expansion contents SHOULD be updated. The value set expansion specifies the timestamp when the expansion was produced, SHOULD contain the parameters used for the expansion, and SHALL contain the codes that are obtained by evaluating the value set definition. If this is ONLY an executable value set, a distributable definition of the value set must be obtained to compute the updated expansion."/>
-            <mustSupport value="true"/>
+            <fixedString
+                value="This value set contains a point-in-time expansion enumerating the codes that meet the value set intent. As new versions of the code systems used by the value set are released, the contents of this expansion will need to be updated to incorporate newly defined codes that meet the value set intent. Before, and periodically during production use, the value set expansion contents SHOULD be updated. The value set expansion specifies the timestamp when the expansion was produced, SHOULD contain the parameters used for the expansion, and SHALL contain the codes that are obtained by evaluating the value set definition. If this is ONLY an executable value set, a distributable definition of the value set must be obtained to compute the updated expansion." />
+            <mustSupport value="true" />
         </element>
         <element id="ValueSet.expansion">
-            <path value="ValueSet.expansion"/>
-            <min value="1"/>
-            <max value="1"/>
-            <mustSupport value="true"/>
+            <path value="ValueSet.expansion" />
+            <min value="1" />
+            <max value="1" />
+            <mustSupport value="true" />
         </element>
         <element id="ValueSet.expansion.parameter">
-            <path value="ValueSet.expansion.parameter"/>
-            <mustSupport value="true"/>
+            <path value="ValueSet.expansion.parameter" />
+            <mustSupport value="true" />
         </element>
         <element id="ValueSet.expansion.contains">
-            <path value="ValueSet.expansion.contains"/>
-            <mustSupport value="true"/>
+            <path value="ValueSet.expansion.contains" />
+            <mustSupport value="true" />
         </element>
     </differential>
 </StructureDefinition>

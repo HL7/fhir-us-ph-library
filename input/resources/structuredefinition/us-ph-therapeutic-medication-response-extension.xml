@@ -1,61 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StructureDefinition
-    xmlns="http://hl7.org/fhir">
-    <id value="us-ph-therapeutic-medication-response-extension"/>
-    <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2023-07-12T07:14:50.932Z"/>
-    </meta>
-    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-therapeutic-medication-response-extension"/>
-    <version value="1.0.0"/>
-    <name value="USPublicHealthTherapeuticMedicationResponseExtension"/>
-    <title value="US Public Health Therapeutic Medication Response Extension"/>
-    <status value="active"/>
-    <experimental value="false"/>
-    <publisher value="HL7 {site.data.fhir.ig.publisher}Health Work Group"/>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="us-ph-therapeutic-medication-response-extension" />
+    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-therapeutic-medication-response-extension" />
+    <name value="USPublicHealthTherapeuticMedicationResponseExtension" />
+    <title value="US Public Health Therapeutic Medication Response Extension" />
+    <status value="active" />
+    <experimental value="false" />
+    <publisher value="HL7 {site.data.fhir.ig.publisher}Health Work Group" />
     <contact>
-        <name value="HL7 Public Health Work Group"/>
+        <name value="HL7 Public Health Work Group" />
         <telecom>
-            <system value="url"/>
-            <value value="http://hl7.org/Special/committees/pher"/>
+            <system value="url" />
+            <value value="http://hl7.org/Special/committees/pher" />
         </telecom>
     </contact>
-    <description value="This Extension profile represents a therapeutic response (as opposed to an undesired reaction) to the administration of a medication."/>
+    <description value="This Extension profile represents a therapeutic response (as opposed to an undesired reaction) to the administration of a medication." />
     <jurisdiction>
         <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="US"/>
-            <display value="United States of America"/>
+            <system value="urn:iso:std:iso:3166" />
+            <code value="US" />
+            <display value="United States of America" />
         </coding>
-        <text value="United States of America"/>
+        <text value="United States of America" />
     </jurisdiction>
-    <fhirVersion value="4.0.1"/>
-    <kind value="complex-type"/>
-    <abstract value="false"/>
+    <fhirVersion value="4.0.1" />
+    <kind value="complex-type" />
+    <abstract value="false" />
     <context>
-        <type value="element"/>
-        <expression value="MedicationAdministration"/>
+        <type value="element" />
+        <expression value="MedicationAdministration" />
     </context>
-    <type value="Extension"/>
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
-    <derivation value="constraint"/>
+    <type value="Extension" />
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+    <derivation value="constraint" />
     <differential>
         <element id="Extension">
-            <path value="Extension"/>
+            <path value="Extension" />
         </element>
         <element id="Extension.url">
-            <path value="Extension.url"/>
-            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-therapeutic-medication-response-extension"/>
+            <path value="Extension.url" />
+            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-therapeutic-medication-response-extension" />
         </element>
         <element id="Extension.value[x]">
-            <path value="Extension.value[x]"/>
+            <path value="Extension.value[x]" />
             <type>
-                <code value="CodeableConcept"/>
+                <code value="CodeableConcept" />
             </type>
             <binding>
-                <strength value="extensible"/>
-                <description value="Therapeutic Response to Medication"/>
-                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.12"/>
+                <strength value="extensible" />
+                <description value="Therapeutic Response to Medication" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.12" />
             </binding>
         </element>
     </differential>

@@ -1,64 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StructureDefinition
-    xmlns="http://hl7.org/fhir">
-    <id value="us-ph-codesystem-property-required-binding-extension"/>
-    <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2023-07-10T22:52:13.511Z"/>
-    </meta>
-    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem-property-required-binding-extension"/>
-    <version value="1.0.0"/>
-    <name value="USPublicHealthCodeSystemPropertyRequiredBindingExtension"/>
-    <title value="US Public Health CodeSystem Property Required Binding Extension"/>
-    <status value="active"/>
-    <experimental value="false"/>
-    <publisher value="{site.data.fhir.ig.publisher}"/>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="us-ph-codesystem-property-required-binding-extension" />
+    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem-property-required-binding-extension" />
+    <name value="USPublicHealthCodeSystemPropertyRequiredBindingExtension" />
+    <title value="US Public Health CodeSystem Property Required Binding Extension" />
+    <status value="active" />
+    <experimental value="false" />
+    <publisher value="{site.data.fhir.ig.publisher}" />
     <contact>
-        <name value="HL7 Public Health Work Group"/>
+        <name value="HL7 Public Health Work Group" />
         <telecom>
-            <system value="url"/>
-            <value value="http://hl7.org/Special/committees/pher"/>
+            <system value="url" />
+            <value value="http://hl7.org/Special/committees/pher" />
         </telecom>
     </contact>
-    <description value="This Extension profile represents a reference to a ValueSet that establishes a required binding to the allowable values for a code system property."/>
+    <description value="This Extension profile represents a reference to a ValueSet that establishes a required binding to the allowable values for a code system property." />
     <jurisdiction>
         <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="US"/>
-            <display value="United States of America"/>
+            <system value="urn:iso:std:iso:3166" />
+            <code value="US" />
+            <display value="United States of America" />
         </coding>
-        <text value="United States of America"/>
+        <text value="United States of America" />
     </jurisdiction>
-    <fhirVersion value="4.0.1"/>
-    <kind value="complex-type"/>
-    <abstract value="false"/>
+    <fhirVersion value="4.0.1" />
+    <kind value="complex-type" />
+    <abstract value="false" />
     <context>
-        <type value="fhirpath"/>
-        <expression value="CodeSystem.property"/>
+        <type value="fhirpath" />
+        <expression value="CodeSystem.property" />
     </context>
-    <type value="Extension"/>
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
-    <derivation value="constraint"/>
+    <type value="Extension" />
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+    <derivation value="constraint" />
     <differential>
         <element id="Extension">
-            <path value="Extension"/>
-            <short value="US Public Health CodeSystem Property Binding Extension"/>
-            <definition value="This extension represents an US Public Health CodeSystem Property Binding"/>
+            <path value="Extension" />
+            <short value="US Public Health CodeSystem Property Binding Extension" />
+            <definition value="This extension represents an US Public Health CodeSystem Property Binding" />
         </element>
         <element id="Extension.extension">
-            <path value="Extension.extension"/>
-            <min value="0"/>
-            <max value="0"/>
+            <path value="Extension.extension" />
+            <min value="0" />
+            <max value="0" />
         </element>
         <element id="Extension.url">
-            <path value="Extension.url"/>
-            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem-property-required-binding-extension"/>
+            <path value="Extension.url" />
+            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem-property-required-binding-extension" />
         </element>
         <element id="Extension.value[x]">
-            <path value="Extension.value[x]"/>
-            <min value="1"/>
+            <path value="Extension.value[x]" />
+            <min value="1" />
             <type>
-                <code value="canonical"/>
+                <code value="canonical" />
             </type>
         </element>
     </differential>

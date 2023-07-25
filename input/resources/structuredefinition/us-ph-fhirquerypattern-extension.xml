@@ -1,63 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StructureDefinition
-    xmlns="http://hl7.org/fhir">
-    <id value="us-ph-fhirquerypattern-extension"/>
-    <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2023-07-10T22:57:58.362Z"/>
-    </meta>
-    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-fhirquerypattern-extension"/>
-    <version value="1.0.0"/>
-    <name value="USPublicHealthFHIRQueryPatternExtension"/>
-    <title value="US Public Health FHIR Query Pattern Extension"/>
-    <status value="active"/>
-    <experimental value="false"/>
-    <publisher value="{site.data.fhir.ig.publisher}"/>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="us-ph-fhirquerypattern-extension" />
+    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-fhirquerypattern-extension" />
+    <name value="USPublicHealthFHIRQueryPatternExtension" />
+    <title value="US Public Health FHIR Query Pattern Extension" />
+    <status value="active" />
+    <experimental value="false" />
+    <publisher value="{site.data.fhir.ig.publisher}" />
     <contact>
-        <name value="HL7 Public Health Work Group"/>
+        <name value="HL7 Public Health Work Group" />
         <telecom>
-            <system value="url"/>
-            <value value="http://hl7.org/Special/committees/pher"/>
+            <system value="url" />
+            <value value="http://hl7.org/Special/committees/pher" />
         </telecom>
     </contact>
-    <description value="This Exension profile supports communicating the FHIR query for a given data requirement."/>
+    <description value="This Exension profile supports communicating the FHIR query for a given data requirement." />
     <jurisdiction>
         <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="US"/>
-            <display value="United States of America"/>
+            <system value="urn:iso:std:iso:3166" />
+            <code value="US" />
+            <display value="United States of America" />
         </coding>
-        <text value="United States of America"/>
+        <text value="United States of America" />
     </jurisdiction>
-    <fhirVersion value="4.0.1"/>
-    <kind value="complex-type"/>
-    <abstract value="false"/>
+    <fhirVersion value="4.0.1" />
+    <kind value="complex-type" />
+    <abstract value="false" />
     <context>
-        <type value="fhirpath"/>
-        <expression value="PlanDefinition.repeat(action).input"/>
+        <type value="fhirpath" />
+        <expression value="PlanDefinition.repeat(action).input" />
     </context>
-    <type value="Extension"/>
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
-    <derivation value="constraint"/>
+    <type value="Extension" />
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+    <derivation value="constraint" />
     <differential>
         <element id="Extension">
-            <path value="Extension"/>
-            <short value="US Public Health FHIR Query Pattern Extension"/>
-            <definition value="What FHIR query pattern?"/>
-            <min value="0"/>
-            <max value="*"/>
+            <path value="Extension" />
+            <short value="US Public Health FHIR Query Pattern Extension" />
+            <definition value="What FHIR query pattern?" />
+            <min value="0" />
+            <max value="*" />
         </element>
         <element id="Extension.url">
-            <path value="Extension.url"/>
+            <path value="Extension.url" />
             <type>
-                <code value="uri"/>
+                <code value="uri" />
             </type>
-            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-fhirquerypattern-extension"/>
+            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-fhirquerypattern-extension" />
         </element>
         <element id="Extension.value[x]">
-            <path value="Extension.value[x]"/>
+            <path value="Extension.value[x]" />
             <type>
-                <code value="string"/>
+                <code value="string" />
             </type>
         </element>
     </differential>

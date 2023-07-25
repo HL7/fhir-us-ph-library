@@ -1,100 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StructureDefinition
-    xmlns="http://hl7.org/fhir">
-    <id value="us-ph-medicationadministration"/>
-    <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2023-07-10T22:59:14.913Z"/>
-    </meta>
-    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-medicationadministration"/>
-    <version value="1.0.0"/>
-    <name value="USPublicHealthMedicationAdministration"/>
-    <title value="US Public Health MedicationAdministration"/>
-    <status value="active"/>
-    <experimental value="false"/>
-    <publisher value="{site.data.fhir.ig.publisher}"/>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="us-ph-medicationadministration" />
+    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-medicationadministration" />
+    <name value="USPublicHealthMedicationAdministration" />
+    <title value="US Public Health MedicationAdministration" />
+    <status value="active" />
+    <experimental value="false" />
+    <publisher value="{site.data.fhir.ig.publisher}" />
     <contact>
-        <name value="HL7 Public Health Work Group"/>
+        <name value="HL7 Public Health Work Group" />
         <telecom>
-            <system value="url"/>
-            <value value="http://hl7.org/Special/committees/pher"/>
+            <system value="url" />
+            <value value="http://hl7.org/Special/committees/pher" />
         </telecom>
     </contact>
-    <description value="This MedicationAdministration profile represents the event of a patient consuming or otherwise being administered a medication."/>
+    <description value="This MedicationAdministration profile represents the event of a patient consuming or otherwise being administered a medication." />
     <jurisdiction>
         <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="US"/>
-            <display value="United States of America"/>
+            <system value="urn:iso:std:iso:3166" />
+            <code value="US" />
+            <display value="United States of America" />
         </coding>
-        <text value="United States of America"/>
+        <text value="United States of America" />
     </jurisdiction>
-    <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
-    <abstract value="false"/>
-    <type value="MedicationAdministration"/>
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/MedicationAdministration"/>
-    <derivation value="constraint"/>
+    <fhirVersion value="4.0.1" />
+    <kind value="resource" />
+    <abstract value="false" />
+    <type value="MedicationAdministration" />
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/MedicationAdministration" />
+    <derivation value="constraint" />
     <differential>
         <element id="MedicationAdministration">
-            <path value="MedicationAdministration"/>
+            <path value="MedicationAdministration" />
         </element>
         <element id="MedicationAdministration.extension">
-            <path value="MedicationAdministration.extension"/>
+            <path value="MedicationAdministration.extension" />
             <type>
-                <code value="Extension"/>
-                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-therapeutic-medication-response-extension"/>
+                <code value="Extension" />
+                <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-therapeutic-medication-response-extension" />
             </type>
-            <mustSupport value="true"/>
+            <mustSupport value="true" />
         </element>
         <element id="MedicationAdministration.identifier">
-            <path value="MedicationAdministration.identifier"/>
-            <mustSupport value="true"/>
+            <path value="MedicationAdministration.identifier" />
+            <mustSupport value="true" />
         </element>
         <element id="MedicationAdministration.status">
-            <path value="MedicationAdministration.status"/>
-            <mustSupport value="true"/>
+            <path value="MedicationAdministration.status" />
+            <mustSupport value="true" />
         </element>
         <element id="MedicationAdministration.medication[x]">
-            <path value="MedicationAdministration.medication[x]"/>
-            <min value="1"/>
-            <max value="1"/>
+            <path value="MedicationAdministration.medication[x]" />
+            <min value="1" />
+            <max value="1" />
             <type>
-                <code value="CodeableConcept"/>
+                <code value="CodeableConcept" />
             </type>
             <type>
-                <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication"/>
+                <code value="Reference" />
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication" />
             </type>
-            <mustSupport value="true"/>
+            <mustSupport value="true" />
             <binding>
-                <strength value="extensible"/>
-                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1010.4"/>
+                <strength value="extensible" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1010.4" />
             </binding>
         </element>
         <element id="MedicationAdministration.subject">
-            <path value="MedicationAdministration.subject"/>
+            <path value="MedicationAdministration.subject" />
             <type>
-                <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"/>
+                <code value="Reference" />
+                <targetProfile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient" />
             </type>
-            <mustSupport value="true"/>
+            <mustSupport value="true" />
         </element>
         <element id="MedicationAdministration.effective[x]">
-            <path value="MedicationAdministration.effective[x]"/>
-            <mustSupport value="true"/>
+            <path value="MedicationAdministration.effective[x]" />
+            <mustSupport value="true" />
         </element>
         <element id="MedicationAdministration.dosage">
-            <path value="MedicationAdministration.dosage"/>
-            <mustSupport value="true"/>
+            <path value="MedicationAdministration.dosage" />
+            <mustSupport value="true" />
         </element>
         <element id="MedicationAdministration.dosage.route">
-            <path value="MedicationAdministration.dosage.route"/>
-            <mustSupport value="true"/>
+            <path value="MedicationAdministration.dosage.route" />
+            <mustSupport value="true" />
         </element>
         <element id="MedicationAdministration.dosage.dose">
-            <path value="MedicationAdministration.dosage.dose"/>
-            <mustSupport value="true"/>
+            <path value="MedicationAdministration.dosage.dose" />
+            <mustSupport value="true" />
         </element>
     </differential>
 </StructureDefinition>

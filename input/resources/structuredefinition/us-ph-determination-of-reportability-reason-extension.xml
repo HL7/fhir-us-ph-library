@@ -1,62 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StructureDefinition
-    xmlns="http://hl7.org/fhir">
-    <id value="us-ph-determination-of-reportability-reason-extension"/>
-    <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2023-07-10T22:57:34.601Z"/>
-    </meta>
-    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-determination-of-reportability-reason-extension"/>
-    <version value="1.0.0"/>
-    <name value="USPublicHealthDeterminationOfReportabilityReasonExtension"/>
-    <title value="US Public Health Determination of Reportability Reason Extension"/>
-    <status value="active"/>
-    <experimental value="false"/>
-    <publisher value="{site.data.fhir.ig.publisher}"/>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="us-ph-determination-of-reportability-reason-extension" />
+    <url value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-determination-of-reportability-reason-extension" />
+    <name value="USPublicHealthDeterminationOfReportabilityReasonExtension" />
+    <title value="US Public Health Determination of Reportability Reason Extension" />
+    <status value="active" />
+    <experimental value="false" />
+    <publisher value="{site.data.fhir.ig.publisher}" />
     <contact>
-        <name value="HL7 Public Health Work Group"/>
+        <name value="HL7 Public Health Work Group" />
         <telecom>
-            <system value="url"/>
-            <value value="http://hl7.org/Special/committees/pher"/>
+            <system value="url" />
+            <value value="http://hl7.org/Special/committees/pher" />
         </telecom>
     </contact>
-    <description value="This Extension profile represents the reason for the determination of reportability."/>
+    <description value="This Extension profile represents the reason for the determination of reportability." />
     <jurisdiction>
         <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="US"/>
-            <display value="United States of America"/>
+            <system value="urn:iso:std:iso:3166" />
+            <code value="US" />
+            <display value="United States of America" />
         </coding>
-        <text value="United States of America"/>
+        <text value="United States of America" />
     </jurisdiction>
-    <fhirVersion value="4.0.1"/>
-    <kind value="complex-type"/>
-    <abstract value="false"/>
+    <fhirVersion value="4.0.1" />
+    <kind value="complex-type" />
+    <abstract value="false" />
     <context>
-        <type value="element"/>
-        <expression value="Observation"/>
+        <type value="element" />
+        <expression value="Observation" />
     </context>
-    <type value="Extension"/>
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
-    <derivation value="constraint"/>
+    <type value="Extension" />
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+    <derivation value="constraint" />
     <differential>
         <element id="Extension">
-            <path value="Extension"/>
-            <short value="US Public Health Determination of Reportability Reason"/>
-            <definition value="The reason for the determination of reportability."/>
+            <path value="Extension" />
+            <short value="US Public Health Determination of Reportability Reason" />
+            <definition value="The reason for the determination of reportability." />
         </element>
         <element id="Extension.url">
-            <path value="Extension.url"/>
-            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-determination-of-reportability-reason-extension"/>
+            <path value="Extension.url" />
+            <fixedUri value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-determination-of-reportability-reason-extension" />
         </element>
         <element id="Extension.value[x]">
-            <path value="Extension.value[x]"/>
-            <min value="1"/>
+            <path value="Extension.value[x]" />
+            <min value="1" />
             <type>
-                <code value="string"/>
+                <code value="string" />
             </type>
             <type>
-                <code value="CodeableConcept"/>
+                <code value="CodeableConcept" />
             </type>
         </element>
     </differential>
