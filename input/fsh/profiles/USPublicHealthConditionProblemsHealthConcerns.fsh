@@ -12,6 +12,5 @@ Description: "This Condition profile represents a sign, symptom, or diagnosis fo
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health Condition"
 * verificationStatus ^short = "If a condition is mistakenly entered into the system and later corrected verificationStatus of 'entered-in-error' must be set"
 * subject only Reference(USPublicHealthPatient)

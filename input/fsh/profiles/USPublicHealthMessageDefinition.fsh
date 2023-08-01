@@ -11,7 +11,6 @@ Description: "This MessageDefinition profile represents the characteristics of a
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US
-* . ^short = "US Public Health MessageDefinition"
 * event[x] 1..1 MS
 * event[x] only Coding
 * event[x] from USPublicHealthValueSetMessageTypes (extensible)

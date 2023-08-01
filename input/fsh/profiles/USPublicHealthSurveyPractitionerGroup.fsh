@@ -12,8 +12,6 @@ Description: "This Group profile represents survey participant groups, research 
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health Survey Practitioner Group"
-* . ^definition = "Sets expectations for supported capabilities for Groups containing a list of practitioners who are to be surveyed by public health agencies."
 * meta.lastUpdated 1..1 MS
 * active 0..1 MS
 * type 1..1 MS

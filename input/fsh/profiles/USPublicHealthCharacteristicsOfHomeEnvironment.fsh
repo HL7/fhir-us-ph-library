@@ -11,7 +11,6 @@ Description: "This Observation profile represents characteristics of the patient
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health Characteristics of Home Environment"
 * code = $loinc#75274-1 "Characteristics of residence"
 * code MS
 * subject 1.. MS

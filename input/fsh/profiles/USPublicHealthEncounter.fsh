@@ -12,8 +12,6 @@ Description: "This Encounter profile represents the encounter related to a publi
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health Encounter"
-* . ^definition = "The Public Health Encounter profile is based on the Encounter resource and establishes the core elements, extensions, vocabularies and value sets for representing the following encounters for public health reporting:\n\n- public health encounter related to the reported event."
 * subject only Reference(USPublicHealthPatient)
 * participant ^slicing.discriminator.type = #type
 * participant ^slicing.discriminator.path = "type"

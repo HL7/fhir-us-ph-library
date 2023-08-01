@@ -11,7 +11,6 @@ Description: "This Observation profile represents a result of the pregnancy such
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health Pregnancy Outcome Observation"
 * code = $loinc#63893-2 "Outcome of pregnancy"
 * code MS
 * subject 1.. MS

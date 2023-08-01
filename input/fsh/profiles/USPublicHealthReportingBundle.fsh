@@ -12,8 +12,6 @@ Description: "This Bundle profile is used for exchanging a public health report 
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health Reporting Bundle"
-* . ^definition = "Sets expectations for supported capabilities for Bundles used for reporting purposes in public health."
 * type 1..1 MS
 * type only code
 * type = #message (exactly)

@@ -12,8 +12,6 @@ Description: "This Bundle profile organizes the content of the public health mes
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health Content Bundle"
-* . ^definition = "Sets expectations for supported capabilities for Bundles used to package content in public health."
 * type 1..1 MS
 * type only code
 * type = #collection (exactly)

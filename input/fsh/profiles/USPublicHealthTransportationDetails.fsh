@@ -11,7 +11,6 @@ Description: "This Observation profile represents transportation details such as
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health Transportation Details"
 * category 1..1 MS
 * category = $v3-ActClass#TRNS
 * category ^short = "Transportation"

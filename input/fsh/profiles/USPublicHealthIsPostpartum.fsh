@@ -11,7 +11,6 @@ Description: "This Observation profile represents whether or not the patient is 
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health Postpartum Status"
 * code 1..1 MS
 * code = $sct#249197004 "Maternal condition during puerperium (observable entity)"
 * subject 1.. MS

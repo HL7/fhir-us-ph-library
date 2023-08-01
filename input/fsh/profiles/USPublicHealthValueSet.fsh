@@ -12,7 +12,6 @@ Description: "This ValueSet profile describes the minimum requirements for US pu
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health ValueSet"
 * extension MS
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"

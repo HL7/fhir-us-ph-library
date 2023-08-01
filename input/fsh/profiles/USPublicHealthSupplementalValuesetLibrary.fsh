@@ -10,7 +10,6 @@ Description: "This Library profile defines the library that is a computable supp
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health Supplemental ValueSet Library"
 * relatedArtifact ^slicing.discriminator.type = #profile
 * relatedArtifact ^slicing.discriminator.path = "resource.resolve()"
 * relatedArtifact ^slicing.rules = #open

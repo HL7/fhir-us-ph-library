@@ -11,7 +11,6 @@ Description: "This Observation profile represents a patient's travel history."
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health Travel History"
 * code = $sct#420008001
 * code MS
 * code ^example.label = "for Observation.code"

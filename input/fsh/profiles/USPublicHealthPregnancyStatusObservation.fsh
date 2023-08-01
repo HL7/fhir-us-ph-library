@@ -12,7 +12,6 @@ Description: "This Observation profile represents current and/or prior pregnancy
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health Pregnancy Status Observation"
 * extension MS
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"

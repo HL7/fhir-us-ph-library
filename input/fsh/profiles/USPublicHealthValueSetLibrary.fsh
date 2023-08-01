@@ -11,7 +11,6 @@ Description: "This Library profile defines the library containing US Public Heal
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health ValueSet Library"
 * extension only Extension
 * extension ^base.path = "DomainResource.extension"
 * extension ^base.min = 0

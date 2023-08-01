@@ -10,7 +10,6 @@ Description: "This ValueSet profile describes the requirements for a value set u
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health Supplemental ValueSet"
 * useContext 2..* MS
 * useContext ^slicing.discriminator.type = #pattern
 * useContext ^slicing.discriminator.path = "code"

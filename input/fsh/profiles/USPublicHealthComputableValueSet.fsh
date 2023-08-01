@@ -13,9 +13,6 @@ Description: "This ValueSet profile describes the requirements for a value set t
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
 * obeys cvs-1
-* . ^short = "US Public Health Computable ValueSet"
-* . ^definition = "A value set that includes instructions for construction of the value set using one and only one of human instructions, machine instructions, or the value set compose element."
-* . ^mustSupport = false
 * extension contains
     $valueset-rules-text named rulesText 0..1 MS and
     $valueset-expression named expression 0..1 MS

@@ -12,9 +12,6 @@ Description: "This MessageHeader profile represents the header for transmitting 
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health MessageHeader"
-* . ^definition = "Sets expectations for supported capabilities for MessageHeader resource for public health."
-* . ^mustSupport = false
 * extension contains
     USPublicHealthDataEncryptedExtension named dataEncrypted 0..1 MS and
     USPublicHealthMessageProcessingCategoryExtension named messageProcessingCategory 1..1 MS

@@ -12,7 +12,6 @@ Description: "This Patient profile represents a US Public Health Patient."
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health Patient"
 * extension[race] 1.. MS
 * extension[race].extension contains $data-absent-reason named dataAbsentReason 0..1 MS
 * extension[race].extension[dataAbsentReason] ^short = "For masking purposes, use the data-absent-reason extension and set the required us-core-race extension text to \"masked\""

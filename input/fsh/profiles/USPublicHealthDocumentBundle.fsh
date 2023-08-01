@@ -11,7 +11,6 @@ Description: "This Bundle profile represents a public health Document Bundle. It
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health Document Bundle"
 * identifier 1.. MS
 * identifier ^short = "Document Bundle identifier (equivalent to ClinicalDocument.id in CDA)"
 * identifier ^definition = "Document Bundle identifier. This is equivalent to ClinicalDocument.id in CDA. The identifier of the contained Composition is equivalent to ClinicalDocument.setID in CDA and Composition.extensionVersionNumber is equivalent to ClinicalDocument.versionNumber in CDA."

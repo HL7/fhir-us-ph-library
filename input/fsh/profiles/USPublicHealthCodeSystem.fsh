@@ -11,7 +11,6 @@ Description: "This CodeSystem profile describes describes the minimum requiremen
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health CodeSystem"
 * property MS
 * property.extension contains USPublicHealthCodeSystemPropertyRequiredBindingExtension named binding 0..1 MS
 * property.extension[binding] ^short = "What values are allowed"

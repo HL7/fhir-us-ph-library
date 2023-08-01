@@ -13,8 +13,6 @@ Description: "This PlanDefinition profile describes the US Public Health PlanDef
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health PlanDefinition"
-* . ^definition = "Defines a shareable US Public Health PlanDefinition."
 * extension contains
     USPublicHealthReceiverAddressExtension named receiverAddress 0..1 MS and
     USPublicHealthAsyncIndicatorExtension named asyncIndicator 0..1 MS and

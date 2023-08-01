@@ -11,8 +11,6 @@ Description: "This Observation profile represents information that is required d
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health Outbreak Information"
-* . ^definition = "This profile represents information that is required during a public health emergency/outbreak. This information will be recorded using a question/answer pattern with questions specific to the public health emergency/outbreak."
 * identifier ..1 MS
 * code 1..1 MS
 * subject 1..1 MS

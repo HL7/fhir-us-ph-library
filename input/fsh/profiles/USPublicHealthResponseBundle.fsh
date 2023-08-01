@@ -10,7 +10,6 @@ Description: "This Bundle profile represents the packaging construct used for ex
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US
-* . ^short = "US Public Health Response Bundle"
 * type 1..1 MS
 * type only code
 * type = #message (exactly)

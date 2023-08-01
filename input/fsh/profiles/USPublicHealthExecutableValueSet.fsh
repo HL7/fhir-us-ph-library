@@ -10,7 +10,6 @@ Description: "This ValueSet profile describes the requirements for a value set c
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health Executable ValueSet"
 * extension contains USPublicHealthUsageWarningExtension named usageWarning 1..1 MS
 * extension[usageWarning].value[x] 1..1 MS
 * extension[usageWarning].value[x] only string

@@ -11,8 +11,6 @@ Description: "This Observation profile represents potential patient exposure and
 * ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * ^jurisdiction.text = "United States of America"
-* . ^short = "US Public Health Exposure Contact Information"
-* . ^definition = "This profile represents patient exposure information."
 * extension only USPublicHealthAddressExtension
 * extension MS
 * extension ^short = "Exposure/contact address"
