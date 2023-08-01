@@ -1,0 +1,284 @@
+canonical: http://hl7.org/fhir/us/ph-library
+title: "US Public Health Profiles Library"
+releaseLabel: STU1
+fhirVersion: 4.0.1
+FSHOnly: false
+applyExtensionMetadataToRoot: false
+id: hl7.fhir.us.ph-library
+name: USPublicHealthProfilesLibrary
+status: active
+version: 1.0.0
+
+dependencies:
+  hl7.fhir.us.core:
+    version: 5.0.1
+    uri: http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core
+    id: hl7fhiruscore
+  us.cdc.phinvads:
+    version: 0.12.0
+    uri: http://fhir.org/packages/us.cdc.phinvads/ImplementationGuide/us.cdc.phinvads
+    id: uscdcphinvads
+  us.nlm.vsac:
+    version: 0.11.0
+    uri: http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac
+    id: usnlmvsac
+  hl7.fhir.uv.extensions:
+    version: 1.0.0
+    uri: http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions#1.0.0
+    id: hl7fhiruvextensionsr4
+
+pages:
+  index.md:
+    title: Home Page
+  guidance.md:
+    title: Guidance
+  downloads.md:
+    title: Downloads
+
+menu:
+  IG Home: index.html
+  Table of Contents: toc.html
+  Guidance: guidance.html
+  Downloads: downloads.html
+  Artifact Index: artifacts.html
+
+groups:
+  content-profiles:
+    name: "Profiles: Content"
+    description: "The set of Profiles: Content is composed of profiles defining what data is exchanged about health encounters, clinical findings, clinical history, and related concepts."
+    resources:
+    - StructureDefinition/us-ph-characteristics-of-home-environment
+    - StructureDefinition/us-ph-composition
+    - StructureDefinition/us-ph-condition-encounter-diagnosis
+    - StructureDefinition/us-ph-condition-problems-health-concerns
+    - StructureDefinition/us-ph-disability-status
+    - StructureDefinition/us-ph-emergency-outbreak-information
+    - StructureDefinition/us-ph-encounter
+    - StructureDefinition/us-ph-exposure-contact-information
+    - StructureDefinition/us-ph-is-postpartum
+    - StructureDefinition/us-ph-lab-result-observation
+    - StructureDefinition/us-ph-medicationadministration
+    - StructureDefinition/us-ph-plandefinition
+    - StructureDefinition/us-ph-pregnancy-outcome-observation
+    - StructureDefinition/us-ph-pregnancy-status-observation
+    - StructureDefinition/us-ph-transportation-details
+    - StructureDefinition/us-ph-travel-history
+
+  content-profiles-entities:
+    name: "Profiles: Content - Entities"
+    description: "The set of Profiles: Content - Entities is composed of profiles defining what data is exchanged about entities such as people, places, and organizations."
+    resources:
+    - StructureDefinition/us-ph-location
+    - StructureDefinition/us-ph-organization
+    - StructureDefinition/us-ph-patient
+    - StructureDefinition/us-ph-practitionerrole
+    - StructureDefinition/us-ph-survey-practitioner-group
+
+  content-extensions:
+    name: "Profiles: Content - Extensions"
+    description: "The set of Profiles: Content - Extension is composed of Extensions defining what data about entities is exchanged."
+    resources:
+    - StructureDefinition/us-ph-address-extension
+    - StructureDefinition/us-ph-date-determined-extension
+    - StructureDefinition/us-ph-date-recorded-extension
+    - StructureDefinition/us-ph-determination-of-reportability-extension
+    - StructureDefinition/us-ph-determination-of-reportability-reason-extension
+    - StructureDefinition/us-ph-determination-of-reportability-rule-extension
+    - StructureDefinition/us-ph-information-recipient-extension
+    - StructureDefinition/us-ph-initiation-reason-extension
+    - StructureDefinition/us-ph-receiver-address-extension
+    - StructureDefinition/us-ph-report-initiation-type-extension
+    - StructureDefinition/us-ph-therapeutic-medication-response-extension
+    - StructureDefinition/us-ph-tribal-affiliation-extension
+
+  architecture-profiles-group:
+    name: "Profiles: Architecture"
+    description: "The set of Profiles: Architecture is composed of profiles that are related to how data is defined and exchanged. These profiles support representation and use of metadata to support consistent content lifecycle management."
+    resources:
+    - Bundle/us-ph-content-bundle-example
+    - Endpoint/us-ph-endpoint-pha
+    - StructureDefinition/us-ph-content-bundle
+    - StructureDefinition/us-ph-document-bundle
+    - StructureDefinition/us-ph-endpoint
+    - StructureDefinition/us-ph-fhirquerypattern-extension
+    - StructureDefinition/us-ph-messagedefinition
+    - StructureDefinition/us-ph-messageheader
+    - StructureDefinition/us-ph-reporting-bundle
+    - StructureDefinition/us-ph-response-bundle
+    - StructureDefinition/us-ph-specification-bundle
+
+  architecture-extensions:
+    name: "Profiles: Architecture - Extensions"
+    description: "The set of Profiles: Architecture -  Extensions is composed of Extension profiles that are related to how data is defined and exchanged."
+    resources:
+    - StructureDefinition/us-ph-alternative-expression-extension
+    - StructureDefinition/us-ph-async-indicator-extension
+    - StructureDefinition/us-ph-data-encrypted-extension
+    - StructureDefinition/us-ph-data-encryption-algorithm-extension
+    - StructureDefinition/us-ph-expansion-parameters-extension
+    - StructureDefinition/us-ph-expected-response-time-extension
+    - StructureDefinition/us-ph-message-processing-category-extension
+    - StructureDefinition/us-ph-named-eventtype-extension
+    - StructureDefinition/us-ph-receiver-jwks-url-extension
+    - StructureDefinition/us-ph-relateddata-extension
+    - StructureDefinition/us-ph-trust-service-endpoint-extension
+    - StructureDefinition/us-ph-usagewarning-extension
+
+  architecture-profiles-terminology:
+    name: "Profiles: Architecture - Terminology"
+    description: "The set of Profiles: Architecture -  Terminolgy is composed of terminology profiles that are related to how data is defined and exchanged. These profiles support representation and use of metadata to address terminology concerns  and support consistent content lifecycle management.
+                  
+                  #### ValueSet Profiles
+                  
+                  * The [US Public Health ValueSet](StructureDefinition-us-ph-valueset.html) defines minimum base conformance requirements for a ValueSet used in public health.
+
+                  * The [US Public Health Triggering ValueSet](StructureDefinition-us-ph-triggering-valueset.html) defines conformance requirements for a ValueSet that is part of determination of a potentially reportable event (i.e. a &quot;triggering&quot; event).
+                  
+                  * The [US Public Health Computable ValueSet](StructureDefinition-us-ph-computable-valueset.html) defines conformance requirements for a ValueSet that includes the computable definition of that value set, but not necessarily the full expansion. A computable value set is intended for use in environments that have access to a terminology server capable of expanding the value set.
+                  
+                  * The [US Public Health Executable ValueSet](StructureDefinition-us-ph-executable-valueset.html) defines conformance requirements for a ValueSet that includes the complete expansion of the ValueSet, but not necessarily the computable definition. An executable value set is intended for use in environments that are not expected to have access to a terminology server capable of expanding the value set, so the expansion is communicated as part of the ValueSet.
+                  
+                  Note that a given ValueSet may conform to both the computable and executable profiles at the same time.
+
+                  #### Library Profiles
+
+                  * The [US Public Health Specification Library](StructureDefinition-us-ph-specification-library.html) defines conformance requirements for a public health reporting program specification, typically consisting of a ValueSet library and other supporting specifications such as PlanDefinitions.
+                  
+                  * The [US Public Health Triggering ValueSet Library](StructureDefinition-us-ph-triggering-valueset-library.html) defines conformance requirements for a collection of ValueSets that are all used to facilitate determination of a potentially reportable event (i.e. a &quot;triggering&quot; event).
+                  
+                  * The [US Public Health Supplemental Library](StructureDefinition-us-ph-supplemental-library.html) defines conformance requirements for the computable supplement for a public health reporting program specification, including computable routing rules that can be evaluated to help facilitate reportability determination at reporting sites, typically consisting of [Clinical Quality Language](http://cql.hl7.org/) (CQL) Rule libraries and additional terminiology artifacts required to evaluate those rules.
+                  
+                  * The [US Public Health Computable Library](StructureDefinition-us-ph-computable-library.html) defines conformance requirements for a Library that contains CQL text, but not necessarily the compiled [Expression Logical Model](https://cql.hl7.org/elm.html) (ELM) for that CQL. It is intended to be used in environments that are capable of translating CQL to the executable ELM.
+                  
+                  * The [US Public Health Executable Library](StructureDefinition-us-ph-executable-library.html) defines conformance requirements for a Library that contains compiled ELM, but not necessarily the source CQL text for that ELM. It is intended to be used in environments that are capable of executing ELM, but not necessarily of translating the source CQL.
+                  
+                  Note that a given Library may conform to both the computable and executable profiles at the same time."
+    resources:
+    - StructureDefinition/us-ph-codesystem
+    - StructureDefinition/us-ph-codesystem-property-required-binding-extension
+    - StructureDefinition/us-ph-computable-library
+    - StructureDefinition/us-ph-computable-valueset
+    - StructureDefinition/us-ph-executable-library
+    - StructureDefinition/us-ph-executable-valueset
+    - StructureDefinition/us-ph-specification-library
+    - StructureDefinition/us-ph-supplemental-library
+    - StructureDefinition/us-ph-supplemental-valueset
+    - StructureDefinition/us-ph-supplemental-valueset-library
+    - StructureDefinition/us-ph-triggering-valueset
+    - StructureDefinition/us-ph-triggering-valueset-library
+    - StructureDefinition/us-ph-valueset
+    - StructureDefinition/us-ph-valueset-library
+
+  examples-content:
+    name: "Examples: Content"
+    description: "These are example instances of the Content profiles that show what data produced and consumed by systems conforming with the profiles in this library might look like."
+    resources:
+    - Composition/us-ph-composition-example
+    - Condition/us-ph-condition-encounter-diagnosis-diabetes
+    - Condition/us-ph-condition-problem-health-concern-hypertension
+    - Encounter/us-ph-encounter-eve-everywoman-outpatient
+    - Endpoint/us-ph-endpoint-salem-medical-center
+    - Endpoint/us-ph-endpoint-ymca
+    - MedicationAdministration/us-ph-medadmin-eve-everywoman-azithromycin
+    - MedicationAdministration/us-ph-medadmin-eve-everywoman-naloxone-response
+    - Observation/us-ph-char-home-environment-eve-everywoman
+    - Observation/us-ph-disability-status-eve-everywoman
+    - Observation/us-ph-emergency-outbreak-info-eve-everywoman
+    - Observation/us-ph-exposure-contact-info-football-game
+    - Observation/us-ph-lab-result-eve-everywoman-lymphocytes
+    - Observation/us-ph-lab-result-eve-everywoman-pertussis
+    - Observation/us-ph-postpartum-status-eve-everywoman
+    - Observation/us-ph-pregnancy-outcome-eve-everywoman
+    - Observation/us-ph-pregnancy-status-eve-everywoman
+    - Observation/us-ph-reportability-information-observation
+    - Observation/us-ph-transportation-details-eve-everywoman
+    - Observation/us-ph-travel-history-eve-everywoman-1999
+    - Observation/us-ph-travel-history-eve-everywoman-201610
+    - Observation/us-ph-travel-history-eve-everywoman-201801
+    - PlanDefinition/us-ph-plandefinition-example
+    - PlanDefinition/us-ph-plandefinition-namedEvent-example
+
+  examples-content-entities:
+    name: "Examples: Content - Entities"
+    description: "These are example instances of the Content: Entities profiles that show what data produced and consumed by systems conforming with the profiles in this library might look like."
+    resources:
+    - Device/device-software-ymca
+    - Group/us-ph-survey-practitioner-group-example
+    - Location/us-core-location-city-football-stadium
+    - Location/us-ph-location-salem-medical-center
+    - Organization/us-ph-organization-acme-laboratory
+    - Organization/us-ph-organization-health-authority-west
+    - Organization/us-ph-organization-salem-medical-center
+    - Organization/us-ph-organization-ymca-center
+    - Patient/us-ph-patient-eve-everywoman
+    - Practitioner/us-core-practitioner-henry-seven
+    - PractitionerRole/us-ph-practitionerrole-henry-seven
+
+  examples-architecture:
+    name: "Examples: Architecture"
+    description: "These are example instances of the Architecture profiles that show what data produced and consumed by systems conforming with the profiles in this library might look like."
+    resources:
+    - Bundle/us-ph-document-bundle-example
+    - Bundle/us-ph-reporting-bundle-example
+    - Bundle/us-ph-response-bundle-example
+    - Bundle/us-ph-specification-bundle-example
+    - MessageDefinition/us-ph-messagedefinition-contentbundle-example
+    - MessageHeader/us-ph-messageheader-case-report
+    - MessageHeader/us-ph-messageheader-response
+    - PlanDefinition/us-ph-plandefinition-alt-expression-example
+
+  examples-terminology:
+    name: "Examples: Terminology"
+    description: "These are example instances of the Terminologies profiles that show what data produced and consumed by systems conforming with the profiles in this library might look like."
+    resources:
+    - CodeSystem/us-ph-codesystem-endpoint-connection-type-example
+    - CodeSystem/us-ph-codesystem-jurisdiction-types-example
+    - CodeSystem/us-ph-codesystem-jurisdictions-example
+    - Library/us-ph-executable-library-rule-filters
+    - Library/us-ph-supplemental-library-example
+    - Library/us-ph-triggering-valueset-library-example
+    - Library/us-ph-valueset-library-example
+    - Library/us-ph-valueset-library-expansion-parameters-example
+    - ValueSet/us-ph-valueset-chlamydia-example
+    - ValueSet/us-ph-valueset-computable-example
+    - ValueSet/us-ph-valueset-executable-chlamydia-example
+    - ValueSet/us-ph-valueset-supplemental-example
+    - ValueSet/us-ph-valueset-triggering-chlamydia-example
+
+  code-systems:
+    name: "Code Systems"
+    description: "These are CodeSystems defined in this profiles library."
+    resources:
+    - CodeSystem/us-ph-codesystem-message-types
+    - CodeSystem/us-ph-codesystem-plandefinition-actions
+    - CodeSystem/us-ph-codesystem-report-initiation-types
+    - CodeSystem/us-ph-codesystem-triggerdefinition-namedevents
+    - CodeSystem/us-ph-codesystem-usage-context
+    - CodeSystem/us-ph-codesystem-usage-context-type
+    - CodeSystem/us-ph-codesystem-valueset-use-context
+
+  value-sets:
+    name: "Value Sets"
+    description: "These are ValueSets defined in this profiles library."
+    resources:
+    - ValueSet/us-ph-valueset-message-significance-category
+    - ValueSet/us-ph-valueset-message-types
+    - ValueSet/us-ph-valueset-plandefinition-action
+    - ValueSet/us-ph-valueset-pregnancy-status
+    - ValueSet/us-ph-valueset-priority
+    - ValueSet/us-ph-valueset-report-initiation-type
+    - ValueSet/us-ph-valueset-triggerdefinition-namedevent
+
+copyrightYear: 2023+
+publisher:
+  name: HL7 Public Health Working Group
+  url: http://www.hl7.org/Special/committees/pher
+  email: pher@lists.HL7.org
+parameters:
+  show-inherited-invariants: false
+  path-expansion-params: 'Parameters-expansion-parameters-us-ph.json'  #path is relative to [base]/fsh-generated/resources
+
+jurisdiction: urn:iso:std:iso:3166#US
+license: CC0-1.0
+
+    
