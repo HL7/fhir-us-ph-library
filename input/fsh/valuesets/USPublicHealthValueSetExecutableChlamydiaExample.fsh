@@ -1,6 +1,6 @@
 ValueSet: USPublicHealthValueSetExecutableChlamydiaExample
 Id: us-ph-valueset-executable-chlamydia-example
-Title: "US Public Health ValueSet - Chlamydia Example"
+Title: "US Public Health ValueSet Executable - Chlamydia Example"
 Description: "This example set of values contains laboratory observations test names that represent that the patient may have the potentially reportable condition of Chlamydia regardless of the clinical presentation of the condition"
 * ^meta.versionId = "5"
 * ^meta.lastUpdated = "2023-07-12T23:15:25.237Z"
