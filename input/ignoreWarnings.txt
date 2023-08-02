@@ -36,6 +36,3 @@ Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code canno
 Code System URI 'urn:oid:2.16.840.1.114222.4.5.232' is unknown so the code cannot be validated
 The definition for the Code System with URI 'urn:oid:2.16.840.1.113883.6.238' doesnt provide any codes so the code cannot be validated
 Unable to check whether the code is in the value set http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type|5.0.1
-
-# Repeating element has a pattern
-INFORMATION: StructureDefinition/us-ph-encounter: StructureDefinition.snapshot.element[49].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)

@@ -20,7 +20,7 @@ Description: "This Encounter profile represents the encounter related to a publi
 * participant contains responsibleProvider 0..1 MS
 * participant[responsibleProvider] ^short = "Responsible provider"
 * participant[responsibleProvider] ^definition = "The provider in charge of care and the facility in which care was provided during the encounter"
-* participant[responsibleProvider].type 1.. MS
+* participant[responsibleProvider].type 1..1 MS
 * participant[responsibleProvider].type = $v3-ParticipationType#ATND
 * participant[responsibleProvider].type ^short = "Responsible provider"
 * participant[responsibleProvider].individual 1.. MS
