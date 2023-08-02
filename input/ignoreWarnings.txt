@@ -2,13 +2,31 @@
 # APPROVED by HL7 Cross Group Projects WG: Profiles do not derive from one of the base US profiles because they do not align with any of the US Core Observations (Minutes: https://confluence.hl7.org/pages/viewpage.action?pageId=97453270)
 US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 
-# Examples have optional slices that are not defined in the profile - not matching is expected behavior
-This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-messageheader|1.0.0
-This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle|1.0.0
-This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-composition|1.0.0
-This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-library|1.0.0
-This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-library|1.0.0
-This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset|1.0.0
+# US PH Composition doesn't define any specific slices - examples have optional slices that are not defined in the profile - not matching is expected behavior
+INFORMATION: Bundle/us-ph-document-bundle-example: Bundle.entry[0].resource.extension[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-composition|1.0.0
+INFORMATION: Composition/us-ph-composition-example: Composition.extension[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-composition|1.0.0
+
+# US PH Document Bundle only defines one slice (Composition) examples have optional slices that are not defined in the profile - not matching is expected behavior
+INFORMATION: Bundle/us-ph-document-bundle-example: Bundle.entry[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle|1.0.0
+INFORMATION: Bundle/us-ph-document-bundle-example: Bundle.entry[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle|1.0.0
+INFORMATION: Bundle/us-ph-document-bundle-example: Bundle.entry[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle|1.0.0
+INFORMATION: Bundle/us-ph-document-bundle-example: Bundle.entry[4]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle|1.0.0
+INFORMATION: Bundle/us-ph-document-bundle-example: Bundle.entry[5]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle|1.0.0
+INFORMATION: Bundle/us-ph-document-bundle-example: Bundle.entry[6]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle|1.0.0
+INFORMATION: Bundle/us-ph-document-bundle-example: Bundle.entry[7]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle|1.0.0
+
+# US PH Value Set defines two slices for useContext but examples have optional slices that are not defined in the profile - not matching is expected behavior
+INFORMATION: Bundle/us-ph-specification-bundle-example: Bundle.entry[1].resource.useContext[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset|1.0.0
+
+# US PH MessageHeader defines two extensions slices but examples have optional extension that are not defined in the profile - not matching is expected behavior
+INFORMATION: Bundle/us-ph-response-bundle-example: Bundle.entry[0].resource.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-messageheader|1.0.0
+INFORMATION: MessageHeader/us-ph-messageheader-response: MessageHeader.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-messageheader|1.0.0
+
+# US PH Computable Library defines one slice for content but examples have optional slices that are not defined in the profile - not matching is expected behavior
+INFORMATION: Library/us-ph-executable-library-rule-filters: Library.content[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-library|1.0.0
+
+# US PH Executable Library defines two slices for content but examples have optional slices that are not defined in the profile - not matching is expected behavior
+INFORMATION: Library/us-ph-executable-library-rule-filters: Library.content[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-library|1.0.0
 
 # External value sets/code systems - these codes have all been checked and are valid
 The definition for the Code System with URI 'http://www.ama-assn.org/go/cpt' doesnt provide any codes so the code cannot be validated
@@ -19,5 +37,5 @@ Code System URI 'urn:oid:2.16.840.1.114222.4.5.232' is unknown so the code canno
 The definition for the Code System with URI 'urn:oid:2.16.840.1.113883.6.238' doesnt provide any codes so the code cannot be validated
 Unable to check whether the code is in the value set http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type|5.0.1
 
-# Suppressed information messages
-The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+# Repeating element has a pattern
+INFORMATION: StructureDefinition/us-ph-encounter: StructureDefinition.snapshot.element[49].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
