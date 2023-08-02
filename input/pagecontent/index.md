@@ -1,6 +1,6 @@
 ### Overview
 
-The US Public Health Profiles Library (USPHPL) is a collection of reusable architecture and content profiles representing common public health concepts and patterns. It is intended as a complement to the [US Core Implementation Guide (US Core)](http://hl7.org/fhir/us/core/STU5.0.1/) to ease implementation burden of healthcare organizations, electronic health record companies, public health agencies, and others involved in the US public health endeavor.
+The US Public Health Profiles Library (USPHPL) is a collection of reusable architecture and content profiles representing common public health concepts and patterns. It is intended as a complement to the [US Core Implementation Guide (US Core)]({{site.data.fhir.ver.hl7fhiruscore}}) to ease implementation burden of healthcare organizations, electronic health record companies, public health agencies, and others involved in the US public health endeavor.
 
 The US Public Health Profiles Library is instituted in close conjunction with US Core and has an analogous process for implementation, moderation, review, and approval. US Core profiles will be re-used wherever possible and profiles will only be added to the library that are required for common public health needs. The library will evolve over time and may be supported by an adjunct profiles registry that includes developing and informational profiles for public health use.
 
@@ -25,7 +25,7 @@ This Guide is divided into several pages which are listed at the top of each pag
 
 This guide is compliant with FHIR Release 4.
 
-For Clinical Safety Information please refer to the [FHIR Implementer’s Safety Checklist](http://hl7.org/fhir/safety.html).
+For Clinical Safety Information please refer to the [FHIR Implementer’s Safety Checklist]({{site.data.fhir.path}}safety.html).
 
 Disclaimer: All proprietary documents, guides, guidance, standards, codes, and values contained herein remain the property of their respective Standards Developing Organization (SDO). HL7 does not make any claim to ownership herein.
 

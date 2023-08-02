@@ -1,8 +1,8 @@
 ### Relationship to US Core
 
-The US Public Health Profiles Library will be revised and published in close conjunction with US Core and have an analogous process for implementation, moderation, review, and approval. The US Public Health Profiles Library will defer as much as possible to US Core and only add constraints / profiles when necessary for public health use.
+The US Public Health Profiles Library will be revised and published in close conjunction with [US Core]({{site.data.fhir.ver.hl7fhiruscore}}) and have an analogous process for implementation, moderation, review, and approval. The US Public Health Profiles Library will defer as much as possible to US Core and only add constraints / profiles when necessary for public health use.
 
-If a US Core profile is added that duplicates the concepts represented in a US Public Health Profiles Library profile (e.g. due to USCDI promotion) then, as long as there are no additional constraints needed, the US Public Health Profiles Library profile would be retired in favor of the US Core profile.
+If a US Core profile is added that duplicates the concepts represented in a US Public Health Profiles Library profile (e.g. due to [United States Core Data Interoperability (USCDI)](https://www.healthit.gov/isa/united-states-core-data-interoperability-uscdi) promotion) then, as long as there are no additional constraints needed, the US Public Health Profiles Library profile would be retired in favor of the US Core profile.
 
 If constraints are added to a US Core profile that duplicate constraint(s) in a current USPHPL profile that is based on that US Core profile (e.g. US Public Health Patient profile which is based on the US Core Patient profile) then:
 * either (all US PH constraints duplicated in the US Core profile) the USPHPL profile would be retired in favor of the US Core profile
@@ -24,9 +24,9 @@ The conformance verbs - **SHALL**, **SHOULD**, **MAY** - used in this guide are 
 
 #### US Public Health Profiles Library Conformance Artifacts
 
-The [artifacts summary](artifacts.html) page lists the US Public Health Profiles. The [StructureDefinitions](http://hl7.org/fhir/structuredefinition.html) define the *minimum* elements, extensions, vocabularies and value sets which SHALL be present when using the profile.
+The [artifacts summary](artifacts.html) page lists the US Public Health Profiles. The [StructureDefinitions]({{site.data.fhir.path}}structuredefinition.html) define the *minimum* elements, extensions, vocabularies and value sets which SHALL be present when using the profile.
 
-The Profile elements consist of both *Mandatory* and *Must Support* elements.  *Mandatory* elements are elements with an minimum cardinality of 1 (min=1). The base [FHIR Must Support](http://hl7.org/fhir/profiling.html#mustsupport) guidance requires specifications to define exactly the support expected for profile elements labeled *Must Support*.  Many profiles in the US Public Health Library are based on US Core profiles and this library is dependent on, and will be instituted, in close conjunction with US Core. This IG will follow the guidance in [US Core Must Support Section](http://hl7.org/fhir/us/core/STU5.0.1/must-support.html#presentation-of-must-support-and-mandatory-elements-in-the-formal-profile-views) which illustrates how these elements are displayed and defines the rules for interpreting profile elements and subelements labeled *Mandatory* and *Must Support* for requesters and responders.  
+The Profile elements consist of both *Mandatory* and *Must Support* elements.  *Mandatory* elements are elements with an minimum cardinality of 1 (min=1). The base [FHIR Must Support]({{site.data.fhir.path}}profiling.html#mustsupport) guidance requires specifications to define exactly the support expected for profile elements labeled *Must Support*.  Many profiles in the US Public Health Library are based on US Core profiles and this library is dependent on, and will be instituted, in close conjunction with US Core. This IG will follow the guidance in [US Core Must Support Section]({{site.data.fhir.ver.hl7fhiruscore}}/must-support.html#presentation-of-must-support-and-mandatory-elements-in-the-formal-profile-views) which illustrates how these elements are displayed and defines the rules for interpreting profile elements and subelements labeled *Mandatory* and *Must Support* for requesters and responders.  
 
 ### Principles and Criteria of Library Inclusion and Use
 
