@@ -7,7 +7,7 @@ Usage: #example
 * identifier.value = "9937012"
 * status = #finished
 * class = $v3-ActCode#AMB "ambulatory"
-* type = $cpt#99201
+* type = $cpt#99202
 * type.text = "Office Visit"
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"
