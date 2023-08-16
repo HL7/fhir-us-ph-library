@@ -29,10 +29,8 @@ INFORMATION: Library/us-ph-executable-library-rule-filters: Library.content[1]: 
 INFORMATION: Library/us-ph-executable-library-rule-filters: Library.content[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-library|1.0.0
 
 # External value sets/code systems - these codes have all been checked and are valid
-The definition for the Code System with URI 'http://www.ama-assn.org/go/cpt' doesnt provide any codes so the code cannot be validated
 The definition for the Code System with URI 'http://terminology.hl7.org/CodeSystem/umls' doesnt provide any codes so the code cannot be validated
 Code System URI 'urn:oid:1.0.3166.1' is unknown so the code cannot be validated
 Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated
 Code System URI 'urn:oid:2.16.840.1.114222.4.5.232' is unknown so the code cannot be validated
 The definition for the Code System with URI 'urn:oid:2.16.840.1.113883.6.238' doesnt provide any codes so the code cannot be validated
-Unable to check whether the code is in the value set http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type|5.0.1
