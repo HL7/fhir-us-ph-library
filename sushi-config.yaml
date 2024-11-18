@@ -95,8 +95,6 @@ groups:
     name: "Profiles: Architecture"
     description: "The set of Profiles: Architecture is composed of profiles that are related to how data is defined and exchanged. These profiles support representation and use of metadata to support consistent content lifecycle management."
     resources:
-    - Bundle/us-ph-content-bundle-example
-    - Endpoint/us-ph-endpoint-pha
     - StructureDefinition/us-ph-content-bundle
     - StructureDefinition/us-ph-document-bundle
     - StructureDefinition/us-ph-endpoint
@@ -218,10 +216,12 @@ groups:
     name: "Examples: Architecture"
     description: "These are example instances of the Architecture profiles that show what data produced and consumed by systems conforming with the profiles in this library might look like."
     resources:
+    - Bundle/us-ph-content-bundle-example
     - Bundle/us-ph-document-bundle-example
     - Bundle/us-ph-reporting-bundle-example
     - Bundle/us-ph-response-bundle-example
     - Bundle/us-ph-specification-bundle-example
+    - Endpoint/us-ph-endpoint-pha
     - MessageDefinition/us-ph-messagedefinition-contentbundle-example
     - MessageHeader/us-ph-messageheader-case-report
     - MessageHeader/us-ph-messageheader-response
