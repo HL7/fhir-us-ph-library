@@ -68,7 +68,7 @@ Description: "This Patient profile represents a US Public Health Patient."
 * deceased[x] 1.. MS
 * deceased[x] ^short = "If patient is deceased, use type dateTime and set to deceased date."
 * address 1..
-* address ^definition = "If the patient is homeless, complete as much address information as possible (city, zip, county, etc.) and use the Characteristics of Home Environment profile in the Social History Section of the eICR Composition to indicate that the patient is homeless."
+* address ^definition = "If the patient is homeless, complete as much address information as possible (city, zip, county, etc.) and use the Characteristics of Home Environment profile to indicate that the patient is homeless."
 * address.extension contains $data-absent-reason named dataAbsentReason 0..1 MS
 * address.extension[dataAbsentReason].value[x] 1.. MS
 * address.extension[dataAbsentReason].value[x] only code
