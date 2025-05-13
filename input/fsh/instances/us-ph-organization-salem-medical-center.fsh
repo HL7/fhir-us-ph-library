@@ -4,7 +4,7 @@ Title: "US Public Health Organization - Salem Medical Center"
 Description: "US Public Health Organization: Salem Medical Center example"
 Usage: #example
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
-* identifier.value = "55555555"
+* identifier.value = "1407071236"
 * active = true
 * name = "Salem Medical Center"
 * telecom[0].system = #phone

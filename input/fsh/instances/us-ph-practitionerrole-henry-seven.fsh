@@ -4,7 +4,7 @@ Title: "US Public Health PractitionerRole - Henry Seven"
 Description: "US Public Health PractitionerRole: Henry Seven example"
 Usage: #example
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
-* identifier.value = "9941339108"
+* identifier.value = "9941339100"
 * practitioner.reference = "Practitioner/us-core-practitioner-henry-seven"
 * practitioner.display = "Henry Seven, MD"
 * organization.reference = "Organization/us-ph-organization-salem-medical-center"

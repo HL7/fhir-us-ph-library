@@ -6,9 +6,9 @@ Usage: #example
 * meta.versionId = "11"
 * type = #collection
 * timestamp = "2022-11-20T11:15:33-10:00"
-* entry[0].fullUrl = "PlanDefinition/plandefinition-cancer-example"
+* entry[0].fullUrl = "http://example.org/fhir/PlanDefinition/plandefinition-cancer-example"
 * entry[=].resource = plandefinition-cancer-example
-* entry[+].fullUrl = "ValueSet/valueset-cancer-trigger-codes-example"
+* entry[+].fullUrl = "http://example.org/fhir/ValueSet/valueset-cancer-trigger-codes-example"
 * entry[=].resource = valueset-cancer-trigger-codes-example
 
 

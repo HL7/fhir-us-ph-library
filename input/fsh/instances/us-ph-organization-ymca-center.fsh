@@ -4,7 +4,7 @@ Title: "US Public Health Organization - YMCA"
 Description: "US Public Health Organization: YMCA example"
 Usage: #example
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
-* identifier.value = "7777788"
+* identifier.value = "1234567893"
 * active = true
 * name = "YMCA"
 * telecom[0].system = #phone

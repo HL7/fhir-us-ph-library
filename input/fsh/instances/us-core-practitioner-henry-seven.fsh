@@ -4,7 +4,7 @@ Title: "US Core Practitioner - Henry Seven"
 Description: "US Core Practitioner: Henry Seven example"
 Usage: #example
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
-* identifier.value = "9941339108"
+* identifier.value = "9941339100"
 * name.family = "Henry"
 * name.given = "Seven"
 * name.suffix = "M.D."
