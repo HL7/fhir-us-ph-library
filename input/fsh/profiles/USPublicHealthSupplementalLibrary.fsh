@@ -3,15 +3,9 @@ Parent: $shareablelibrary
 Id: us-ph-supplemental-library
 Title: "US Public Health Supplemental Library"
 Description: "This Library profile defines the asset-collection library containing US public health supplemental assets."
-* ^meta.versionId = "11"
-* ^version = "1.0.0"
-* ^status = #active
-* ^publisher = "{site.data.fhir.ig.publisher}"
-* ^contact.name = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* ^jurisdiction.text = "United States of America"
+* ^experimental = false
+
+
 * type = $library-type#asset-collection
 * type MS
 * type ^short = "asset-collection"

@@ -2,9 +2,6 @@ Extension: USPublicHealthUsageWarningExtension
 Id: us-ph-usagewarning-extension
 Title: "US Public Health Usage Warning Extension"
 Description: "This Extension profile represents an extra warning about the correct use of the value set."
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2023-07-10T23:01:57.387Z"
-* ^version = "0.2.0"
 * ^status = #draft
 * ^experimental = false
 * ^publisher = "{site.data.fhir.ig.publisher}"

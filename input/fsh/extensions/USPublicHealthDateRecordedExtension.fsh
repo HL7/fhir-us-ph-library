@@ -2,9 +2,6 @@ Extension: USPublicHealthDateRecordedExtension
 Id: us-ph-date-recorded-extension
 Title: "US Public Health Date Recorded Extension"
 Description: "This Extension profile represents the date a status or observation was recorded (recorded date)."
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2023-07-10T22:57:31.356Z"
-* ^version = "1.0.0"
 * ^experimental = false
 * ^publisher = "{site.data.fhir.ig.publisher}"
 * ^contact.name = "HL7 Public Health Work Group"

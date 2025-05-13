@@ -3,14 +3,9 @@ Parent: Observation
 Id: us-ph-transportation-details
 Title: "US Public Health Transportation Details"
 Description: "This Observation profile represents transportation details such as the type of transport (plane, train, ship, etc.) along with any associated information (e.g. name of cruise ship, flight number, airport, seat number, cabin number, etc.)."
-* ^version = "1.0.0"
 * ^experimental = false
-* ^publisher = "{site.data.fhir.ig.publisher}"
-* ^contact.name = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* ^jurisdiction.text = "United States of America"
+
+
 * category 1..1 MS
 * category = $v3-ActClass#TRNS
 * category ^short = "Transportation"

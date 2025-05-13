@@ -3,15 +3,9 @@ Parent: Observation
 Id: us-ph-pregnancy-status-observation
 Title: "US Public Health Pregnancy Status Observation"
 Description: "This Observation profile represents current and/or prior pregnancy statuses and their date ranges, enabling investigators to determine if a patient was pregnant, possibly pregnant, not pregnant or whether the pregnancy status was unknown during a particular date range."
-* ^meta.versionId = "11"
-* ^version = "1.0.0"
 * ^experimental = false
-* ^publisher = "{site.data.fhir.ig.publisher}"
-* ^contact.name = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* ^jurisdiction.text = "United States of America"
+
+
 * extension MS
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"

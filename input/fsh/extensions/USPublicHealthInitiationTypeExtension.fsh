@@ -2,8 +2,6 @@ Extension: USPublicHealthInitiationTypeExtension
 Id: us-ph-report-initiation-type-extension
 Title: "US Public Health Initiation Type Extension"
 Description: "This Extension profile represents whether the report was either manually initiated or alternately initiated by the provider."
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2023-07-12T18:55:30.826Z"
 * ^experimental = false
 * ^publisher = "{site.data.fhir.ig.publisher}"
 * ^contact.name = "HL7 Public Health Work Group"

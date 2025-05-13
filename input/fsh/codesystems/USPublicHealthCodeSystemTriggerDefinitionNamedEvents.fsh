@@ -2,15 +2,12 @@ CodeSystem: USPublicHealthCodeSystemTriggerDefinitionNamedEvents
 Id: us-ph-codesystem-triggerdefinition-namedevents
 Title: "US Public Health CodeSystem - Trigger Definition Named Events"
 Description: "The US Public Health TriggerDefinition NamedEvents CodeSystem contains codes for currently identified use cases for identifying named events to subscribe to in clinical workflows."
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2023-07-13T06:14:17.229Z"
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"
-* ^version = "0.1.0"
+
 * ^status = #active
 * ^experimental = false
-* ^publisher = "HL7 Public Health Work Group"
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* ^jurisdiction.text = "United States of America"
+
+
 * ^caseSensitive = true
 * ^valueSet = "http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-triggerdefinition-namedevent"
 * ^hierarchyMeaning = #is-a

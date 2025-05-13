@@ -2,9 +2,6 @@ Extension: USPublicHealthInitiationReasonExtension
 Id: us-ph-initiation-reason-extension
 Title: "US Public Health Initiation Reason Extension"
 Description: "This Extension profile contains an explanation for the manual or alternate initiation of the public health report."
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2023-07-10T22:58:02.907Z"
-* ^version = "1.0.0"
 * ^experimental = false
 * ^publisher = "{site.data.fhir.ig.publisher}"
 * ^contact.name = "HL7 Public Health Work Group"

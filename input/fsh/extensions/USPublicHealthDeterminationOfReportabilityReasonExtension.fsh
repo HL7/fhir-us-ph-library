@@ -2,9 +2,6 @@ Extension: USPublicHealthDeterminationOfReportabilityReasonExtension
 Id: us-ph-determination-of-reportability-reason-extension
 Title: "US Public Health Determination of Reportability Reason Extension"
 Description: "This Extension profile represents the reason for the determination of reportability."
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2023-07-10T22:57:34.601Z"
-* ^version = "1.0.0"
 * ^experimental = false
 * ^publisher = "{site.data.fhir.ig.publisher}"
 * ^contact.name = "HL7 Public Health Work Group"

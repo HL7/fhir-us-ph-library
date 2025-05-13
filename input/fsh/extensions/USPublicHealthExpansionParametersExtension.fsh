@@ -2,9 +2,6 @@ Extension: USPublicHealthExpansionParametersExtension
 Id: us-ph-expansion-parameters-extension
 Title: "US Public Health Expansion Parameters Extension"
 Description: "Thes Extension profile supports the definition of expansion parameters for the ValueSet."
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2023-07-10T22:57:53.687Z"
-* ^version = "1.0.0"
 * ^experimental = false
 * ^publisher = "{site.data.fhir.ig.publisher}"
 * ^contact.name = "HL7 Public Health Work Group"

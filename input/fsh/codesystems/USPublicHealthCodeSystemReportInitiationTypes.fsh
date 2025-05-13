@@ -2,18 +2,11 @@ CodeSystem: USPublicHealthCodeSystemReportInitiationTypes
 Id: us-ph-codesystem-report-initiation-types
 Title: "US Public Health CodeSystem - Report Initiation Type Codes"
 Description: "Thsis CodeSystem contains codes for currently identified use cases for identifying how the message was initiated."
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2023-07-13T06:14:16.913Z"
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"
-* ^version = "1.0.0"
 * ^status = #active
 * ^experimental = false
-* ^date = "2022-09-06"
-* ^publisher = "{site.data.fhir.ig.publisher}"
-* ^contact.name = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US
+
+
 * ^caseSensitive = true
 * ^valueSet = "http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-report-initiation-type"
 * ^hierarchyMeaning = #grouped-by

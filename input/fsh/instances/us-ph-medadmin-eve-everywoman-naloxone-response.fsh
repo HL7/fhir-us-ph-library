@@ -6,7 +6,7 @@ Usage: #example
 * extension.url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-therapeutic-medication-response-extension"
 * extension.valueCodeableConcept = $sct#268910001 "Patient's condition improved (finding)"
 * status = #completed
-* medicationCodeableConcept = $rxnorm#1659929 "naloxone HCl 0.4 MG in 1 ML Injection"
+* medicationCodeableConcept = $rxnorm#1659929 "1 ML naloxone hydrochloride 0.4 MG/ML Injection"
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"
 * effectivePeriod.start = "2018-03-07"

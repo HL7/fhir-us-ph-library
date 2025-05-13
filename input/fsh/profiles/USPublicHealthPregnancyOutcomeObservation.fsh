@@ -3,14 +3,9 @@ Parent: Observation
 Id: us-ph-pregnancy-outcome-observation
 Title: "US Public Health Pregnancy Outcome Observation"
 Description: "This Observation profile represents a result of the pregnancy such as live birth, still birth, miscarriage, etc."
-* ^version = "1.0.0"
 * ^experimental = false
-* ^publisher = "{site.data.fhir.ig.publisher}"
-* ^contact.name = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* ^jurisdiction.text = "United States of America"
+
+
 * code = $loinc#63893-2 "Outcome of pregnancy"
 * code MS
 * subject 1.. MS

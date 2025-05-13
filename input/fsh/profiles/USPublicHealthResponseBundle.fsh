@@ -3,13 +3,9 @@ Parent: Bundle
 Id: us-ph-response-bundle
 Title: "US Public Health Response Bundle"
 Description: "This Bundle profile represents the packaging construct used for exchanging a public health response."
-* ^version = "1.0.0"
 * ^experimental = false
-* ^publisher = "{site.data.fhir.ig.publisher}"
-* ^contact.name = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US
+
+
 * type 1..1 MS
 * type only code
 * type = #message (exactly)

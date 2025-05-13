@@ -2,9 +2,6 @@ Extension: USPublicHealthInformationRecipientExtension
 Id: us-ph-information-recipient-extension
 Title: "US Public Health Information Recipient Extension"
 Description: "This Extension profile represents an intended recipient of a [US Public Health Composition](StructureDefinition-us-ph-composition.html)."
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2023-07-15T00:17:06.569Z"
-* ^version = "1.0.0"
 * ^experimental = false
 * ^publisher = "{site.data.fhir.ig.publisher}"
 * ^contact.name = "HL7 Public Health Work Group"

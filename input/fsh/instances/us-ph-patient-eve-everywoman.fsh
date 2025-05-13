@@ -19,11 +19,11 @@ Usage: #example
 * extension[individualGenderIdentity].extension.valueCodeableConcept = $v3-NullFlavor#ASKU "asked but unknown"
 * extension[individualGenderIdentity].extension.valueCodeableConcept.text = "asked but unknown"
 * extension[individualGenderIdentity].url = "http://hl7.org/fhir/StructureDefinition/individual-genderIdentity"
-* extension[tribalAffiliation].extension[TribeName].url = "TribeName"
-* extension[tribalAffiliation].extension[TribeName].valueCoding = $v3-TribalEntityUS#91 "Fort Mojave Indian Tribe of Arizona, California & Nevada"
-* extension[tribalAffiliation].extension[EnrolledTribeMember].url = "EnrolledTribeMember"
-* extension[tribalAffiliation].extension[EnrolledTribeMember].valueBoolean = true
-* extension[tribalAffiliation].url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-tribal-affiliation-extension"
+* extension[tribalAffiliation].extension[tribalAffiliation].url = "tribalAffiliation"
+* extension[tribalAffiliation].extension[tribalAffiliation].valueCodeableConcept = $v3-TribalEntityUS#91 "Fort Mojave Indian Tribe of Arizona, California & Nevada"
+* extension[tribalAffiliation].extension[isEnrolled].url = "isEnrolled"
+* extension[tribalAffiliation].extension[isEnrolled].valueBoolean = true
+* extension[tribalAffiliation].url = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-tribal-affiliation"
 * identifier.use = #usual
 * identifier.type = $v2-0203#MR "Medical Record Number"
 * identifier.system = "http://hospital.smarthealthit.org"

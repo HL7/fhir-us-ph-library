@@ -2,8 +2,6 @@ Extension: USPublicHealthTrustServiceEndpointExtension
 Id: us-ph-trust-service-endpoint-extension
 Title: "US Public Health Trust Service Endpoint Extension"
 Description: "This Extension profile represents the endpoint address which implements trust services and can be used by specific actions requiring trust services with appropriate authorities and policies."
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2023-07-13T22:49:10.744Z"
 * ^experimental = false
 * ^publisher = "{site.data.fhir.ig.publisher}"
 * ^contact.name = "HL7 Public Health Work Group"

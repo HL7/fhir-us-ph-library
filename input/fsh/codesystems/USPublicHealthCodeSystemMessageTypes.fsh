@@ -2,16 +2,13 @@ CodeSystem: USPublicHealthCodeSystemMessageTypes
 Id: us-ph-codesystem-message-types
 Title: "US Public Health CodeSystem - Message Types"
 Description: "The US Public Health Message Types CodeSystem contains codes for currently identified use cases for identifying types of messages being exchanged. As further use cases are identified, codes may be added to the code system."
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2023-07-13T06:14:16.293Z"
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"
-* ^version = "0.1.0"
+
 * ^status = #active
 * ^experimental = false
-* ^publisher = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US
+
+
+
 * ^caseSensitive = true
 * ^valueSet = "http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-message-types"
 * ^hierarchyMeaning = #is-a

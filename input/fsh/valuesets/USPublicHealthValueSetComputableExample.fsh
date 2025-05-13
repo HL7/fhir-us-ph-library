@@ -2,8 +2,6 @@ ValueSet: USPublicHealthValueSetComputableExample
 Id: us-ph-valueset-computable-example
 Title: "US Public Health ValueSet - Computable Example"
 Description: "ACME Codes for Cholesterol: Plasma only"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2023-07-13T01:09:12.262Z"
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-valueset"
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/valueset-steward"
 * ^extension[=].valueContactDetail.name = "Example Steward"
@@ -14,7 +12,8 @@ Description: "ACME Codes for Cholesterol: Plasma only"
 * ^url = "http://example.org/fhir/ValueSet/us-ph-valueset-computable-example"
 * ^status = #draft
 * ^experimental = true
-* ^date = "2022-07-01"
-* ^publisher = "{site.data.fhir.ig.publisher}"
+
+
+
 * ^useContext.code = $us-ph-codesystem-usage-context-type#priority "Priority"
 * ^useContext.valueCodeableConcept = $us-ph-codesystem-usage-context#routine "Routine"

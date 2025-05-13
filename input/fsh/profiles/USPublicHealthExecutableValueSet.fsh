@@ -4,12 +4,8 @@ Id: us-ph-executable-valueset
 Title: "US Public Health Executable ValueSet"
 Description: "This ValueSet profile describes the requirements for a value set containing a point-in-time expansion enumerating the codes that meet the value set intent. As new versions of the code systems used by the value set are released, the contents of this expansion will need to be updated to incorporate newly defined codes that meet the value set intent. The complete expansion of the ValueSet is included, but not necessarily the computable definition. An executable value set is intended for use in environments that are not expected to have access to a terminology server capable of expanding the value set, so the expansion is communicated as part of the ValueSet."
 * ^experimental = false
-* ^publisher = "{site.data.fhir.ig.publisher}"
-* ^contact.name = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* ^jurisdiction.text = "United States of America"
+
+
 * extension contains USPublicHealthUsageWarningExtension named usageWarning 1..1 MS
 * extension[usageWarning].value[x] 1..1 MS
 * extension[usageWarning].value[x] only string

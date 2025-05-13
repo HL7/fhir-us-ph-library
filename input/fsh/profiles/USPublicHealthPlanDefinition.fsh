@@ -3,16 +3,9 @@ Parent: $shareableplandefinition
 Id: us-ph-plandefinition
 Title: "US Public Health PlanDefinition"
 Description: "This PlanDefinition profile describes the US Public Health PlanDefinition."
-* ^meta.versionId = "17"
-* ^version = "1.0.0"
-* ^status = #active
 * ^experimental = false
-* ^publisher = "{site.data.fhir.ig.publisher}"
-* ^contact.name = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* ^jurisdiction.text = "United States of America"
+
+
 * extension contains
     USPublicHealthReceiverAddressExtension named receiverAddress 0..1 MS and
     USPublicHealthAsyncIndicatorExtension named asyncIndicator 0..1 MS and

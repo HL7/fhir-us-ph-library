@@ -3,15 +3,9 @@ Parent: MessageHeader
 Id: us-ph-messageheader
 Title: "US Public Health MessageHeader"
 Description: "This MessageHeader profile represents the header for transmitting content using FHIR messaging."
-* ^version = "1.0.0"
-* ^status = #active
 * ^experimental = false
-* ^publisher = "{site.data.fhir.ig.publisher}"
-* ^contact.name = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US
-* ^jurisdiction.text = "United States of America"
+
+
 * extension contains
     USPublicHealthDataEncryptedExtension named dataEncrypted 0..1 MS and
     USPublicHealthMessageProcessingCategoryExtension named messageProcessingCategory 1..1 MS

@@ -13,7 +13,7 @@ Usage: #example
 * subject.display = "Eve Everywoman"
 * effectivePeriod.start = "2017-08-26"
 * valueCodeableConcept = $sct#77386006 "Pregnancy (finding)"
-* method = $sct#16310003 "Diagnostic ultrasonography (procedure)"
+* method = $sct#16310003 "Ultrasonography (procedure)"
 * component[0].extension.url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-date-determined-extension"
 * component[=].extension.valueDateTime = "2017-10-01"
 * component[=].code = $loinc#53691-2 "Gestational age Estimated from patient reported estimated date of conception"

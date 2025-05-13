@@ -3,15 +3,9 @@ Parent: $shareablelibrary
 Id: us-ph-computable-library
 Title: "US Public Health Computable Library"
 Description: "This Library profile defines the Library that contains [Clinical Quality Language](http://cql.hl7.org/) (CQL) text, but not necessarily the compiled [Expression Logical Model](https://cql.hl7.org/elm.html) (ELM) for that CQL. It is intended to be used in environments that are capable of translating CQL to the executable ELM."
-* ^version = "0.1.0"
-* ^status = #active
 * ^experimental = false
-* ^publisher = "{site.data.fhir.ig.publisher}"
-* ^contact.name = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* ^jurisdiction.text = "United States of America"
+
+
 * subject[x] MS
 * relatedArtifact ..* MS
 * relatedArtifact ^slicing.discriminator.type = #value

@@ -3,13 +3,9 @@ Parent: Bundle
 Id: us-ph-specification-bundle
 Title: "US Public Health Specification Bundle"
 Description: "This Bundle profile represent the packaging construct used for exchanging a knowledge artifact."
-* ^version = "1.0.0"
 * ^experimental = false
-* ^publisher = "{site.data.fhir.ig.publisher}"
-* ^contact.name = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US
+
+
 * type 1..1 MS
 * type only code
 * type = #collection (exactly)

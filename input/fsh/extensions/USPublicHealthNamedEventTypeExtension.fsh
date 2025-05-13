@@ -2,9 +2,6 @@ Extension: USPublicHealthNamedEventTypeExtension
 Id: us-ph-named-eventtype-extension
 Title: "US Public Health Named Event Type Extension"
 Description: "This Extension profile indicates the types of named events to subscribe to from the EHR."
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2023-07-12T08:05:13.304Z"
-* ^version = "1.0.0"
 * ^experimental = false
 * ^publisher = "{site.data.fhir.ig.publisher}"
 * ^contact.name = "HL7 Public Health Work Group"

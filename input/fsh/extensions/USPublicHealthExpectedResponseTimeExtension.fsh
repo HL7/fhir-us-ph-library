@@ -2,9 +2,6 @@ Extension: USPublicHealthExpectedResponseTimeExtension
 Id: us-ph-expected-response-time-extension
 Title: "US Public Health Expected Response Time Extension"
 Description: "This Extension profile represents the maximum time the sender has to wait to get a response, beyond which the message is assumed to have failed to reach the destination."
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2023-07-12T07:12:38.544Z"
-* ^meta.source = "#2KA2LqwdU5yooUWP"
 * ^version = "1.0.0"
 * ^experimental = false
 * ^publisher = "{site.data.fhir.ig.publisher}"

@@ -1,17 +1,26 @@
 canonical: http://hl7.org/fhir/us/ph-library
 title: "US Public Health Profiles Library"
-releaseLabel: STU1
+releaseLabel: STU2
 fhirVersion: 4.0.1
 FSHOnly: false
 applyExtensionMetadataToRoot: false
 id: hl7.fhir.us.ph-library
 name: USPublicHealthProfilesLibrary
 status: active
-version: 1.0.0
+version: 2.0.0
+copyrightYear: 2025+
+publisher:
+  name: HL7 International / Public Health
+  url: http://www.hl7.org/Special/committees/pher
+  email: pher@lists.HL7.org
+extension:
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
+    valueCode: pher
+jurisdiction: urn:iso:std:iso:3166#US
 
 dependencies:
   hl7.fhir.us.core:
-    version: 5.0.1
+    version: 6.1.0
     uri: http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core
     id: hl7fhiruscore
   us.cdc.phinvads:
@@ -19,7 +28,7 @@ dependencies:
     uri: http://fhir.org/packages/us.cdc.phinvads/ImplementationGuide/us.cdc.phinvads
     id: uscdcphinvads
   us.nlm.vsac:
-    version: 0.11.0
+    version: 0.21.0
     uri: http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac
     id: usnlmvsac
   hl7.fhir.uv.extensions:
@@ -89,7 +98,6 @@ groups:
     - StructureDefinition/us-ph-receiver-address-extension
     - StructureDefinition/us-ph-report-initiation-type-extension
     - StructureDefinition/us-ph-therapeutic-medication-response-extension
-    - StructureDefinition/us-ph-tribal-affiliation-extension
 
   architecture-profiles-group:
     name: "Profiles: Architecture"
@@ -269,16 +277,9 @@ groups:
     - ValueSet/us-ph-valueset-report-initiation-type
     - ValueSet/us-ph-valueset-triggerdefinition-namedevent
 
-copyrightYear: 2023+
-publisher:
-  name: HL7 Public Health Work Group
-  url: http://www.hl7.org/Special/committees/pher
-  email: pher@lists.HL7.org
+
 parameters:
   show-inherited-invariants: false
   path-expansion-params: 'Parameters-expansion-parameters-us-ph.json'  #path is relative to [base]/fsh-generated/resources
 
-jurisdiction: urn:iso:std:iso:3166#US
 license: CC0-1.0
-
-    

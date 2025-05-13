@@ -3,13 +3,9 @@ Parent: USPublicHealthValueSet
 Id: us-ph-supplemental-valueset
 Title: "US Public Health Supplemental ValueSet"
 Description: "This ValueSet profile describes the requirements for a value set used when determining whether an event is suspected to be reportable."
-* ^meta.versionId = "10"
-* ^publisher = "{site.data.fhir.ig.publisher}"
-* ^contact.name = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* ^jurisdiction.text = "United States of America"
+* ^experimental = false
+
+
 * useContext 2..* MS
 * useContext ^slicing.discriminator.type = #pattern
 * useContext ^slicing.discriminator.path = "code"

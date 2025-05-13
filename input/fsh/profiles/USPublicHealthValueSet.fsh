@@ -3,15 +3,9 @@ Parent: $shareablevalueset
 Id: us-ph-valueset
 Title: "US Public Health ValueSet"
 Description: "This ValueSet profile describes the minimum requirements for US public health value sets."
-* ^meta.versionId = "18"
-* ^version = "1.0.0"
-* ^status = #active
-* ^publisher = "{site.data.fhir.ig.publisher}"
-* ^contact.name = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* ^jurisdiction.text = "United States of America"
+* ^experimental = false
+
+
 * extension MS
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"

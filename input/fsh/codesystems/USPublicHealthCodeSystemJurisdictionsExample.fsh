@@ -2,16 +2,14 @@ CodeSystem: USPublicHealthCodeSystemJurisdictionsExample
 Id: us-ph-codesystem-jurisdictions-example
 Title: "US Public Health CodeSystem Jurisdictions Example"
 Description: "This code system describes example jurisdictions."
-* ^meta.versionId = "14"
-* ^meta.lastUpdated = "2023-07-13T06:14:15.657Z"
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"
 * ^url = "http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdictions-example"
-* ^version = "0.1.0"
+
 * ^status = #active
 * ^experimental = false
-* ^publisher = "HL7 Public Health Work Group"
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* ^jurisdiction.text = "United States of America"
+
+
+
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].extension.url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem-property-required-binding-extension"

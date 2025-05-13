@@ -3,15 +3,9 @@ Parent: $shareablelibrary
 Id: us-ph-executable-library
 Title: "US Public Health Executable Library"
 Description: "This Library profile defines the Library that contains compiled [Expression Logical Model](https://cql.hl7.org/elm.html) (ELM), but not necessarily the source [Clinical Quality Language](http://cql.hl7.org/) (CQL) text for that ELM. It is intended to be used in environments that are capable of executing ELM, but not necessarily of translating the source CQL."
-* ^version = "1.0.0"
-* ^status = #active
 * ^experimental = false
-* ^publisher = "{site.data.fhir.ig.publisher}"
-* ^contact.name = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* ^jurisdiction.text = "United States of America"
+
+
 * relatedArtifact ..* MS
 * relatedArtifact ^slicing.discriminator.type = #value
 * relatedArtifact ^slicing.discriminator.path = "type"

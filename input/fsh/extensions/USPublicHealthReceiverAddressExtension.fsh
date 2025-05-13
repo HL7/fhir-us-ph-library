@@ -2,9 +2,6 @@ Extension: USPublicHealthReceiverAddressExtension
 Id: us-ph-receiver-address-extension
 Title: "US Public Health Receiver Address Extension"
 Description: "This Extension profile indicates the endpoint address where the report is to be sent."
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2023-07-10T23:00:59.198Z"
-* ^version = "1.0.0"
 * ^experimental = false
 * ^publisher = "{site.data.fhir.ig.publisher}"
 * ^contact.name = "HL7 Public Health Work Group"

@@ -3,15 +3,9 @@ Parent: USPublicHealthValueSet
 Id: us-ph-computable-valueset
 Title: "US Public Health Computable ValueSet"
 Description: "This ValueSet profile describes the requirements for a value set that includes the computable definition of that value set, but not necessarily the full expansion. A computable value set is intended for use in environments that have access to a terminology server capable of expanding the value set."
-* ^meta.versionId = "12"
-* ^version = "0.1.0"
 * ^experimental = false
-* ^publisher = "{site.data.fhir.ig.publisher}"
-* ^contact.name = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* ^jurisdiction.text = "United States of America"
+
+
 * obeys cvs-1
 * extension contains
     $valueset-rules-text named rulesText 0..1 MS and
