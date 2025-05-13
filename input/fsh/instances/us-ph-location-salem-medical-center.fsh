@@ -3,7 +3,7 @@ InstanceOf: USPublicHealthLocation
 Title: "US Public Health Location - Clinic Bldg A, Salem Medical Center"
 Description: "US Public Health Location: Clinic Bldg A, Salem Medical Center example"
 Usage: #example
-* identifier.system = "http://hl7.org.fhir/sid/us-npi"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "1063494177"
 * status = #active
 * name = "Clinic Bldg A, Salem Medical Center"

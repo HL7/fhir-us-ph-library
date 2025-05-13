@@ -26,7 +26,7 @@ Usage: #example
 * extension[tribalAffiliation].url = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-tribal-affiliation"
 * identifier.use = #usual
 * identifier.type = $v2-0203#MR "Medical Record Number"
-* identifier.system = "http://hospital.smarthealthit.org"
+* identifier.system = "http://example.org/hospital-smarthealthit"
 * identifier.value = "1032702"
 * active = true
 * name.family = "Everywoman"
