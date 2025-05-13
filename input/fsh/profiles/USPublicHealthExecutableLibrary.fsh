@@ -11,7 +11,6 @@ Description: "This Library profile defines the Library that contains compiled [E
 * relatedArtifact ^slicing.discriminator.path = "type"
 * relatedArtifact ^slicing.rules = #open
 * relatedArtifact contains dependency 0..*
-* relatedArtifact[dependency] ^mustSupport = false
 * relatedArtifact[dependency].type 1..1 MS
 * relatedArtifact[dependency].type only code
 * relatedArtifact[dependency].type = #depends-on (exactly)
@@ -34,17 +33,13 @@ Description: "This Library profile defines the Library that contains compiled [E
     elmJsonContent 0..*
 * content[elmXmlContent] ^short = "ELM XML Content"
 * content[elmXmlContent] ^definition = "The ELM XML translation of the CQL content represented as  base-64 encoded data."
-* content[elmXmlContent] ^mustSupport = false
 * content[elmXmlContent].contentType 0..1 MS
 * content[elmXmlContent].contentType only code
 * content[elmXmlContent].contentType = #application/elm+xml (exactly)
 * content[elmXmlContent].data 1..1
-* content[elmXmlContent].data ^mustSupport = false
 * content[elmJsonContent] ^short = "ELM JSON Content"
 * content[elmJsonContent] ^definition = "The ELM JSON translation of the CQL content represented as base-64 encoded data."
-* content[elmJsonContent] ^mustSupport = false
 * content[elmJsonContent].contentType 0..1 MS
 * content[elmJsonContent].contentType only code
 * content[elmJsonContent].contentType = #application/elm+json (exactly)
 * content[elmJsonContent].data 1..1
-* content[elmJsonContent].data ^mustSupport = false

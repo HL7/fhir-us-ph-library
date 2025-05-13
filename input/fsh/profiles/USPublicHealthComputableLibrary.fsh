@@ -12,7 +12,6 @@ Description: "This Library profile defines the Library that contains [Clinical Q
 * relatedArtifact ^slicing.discriminator.path = "type"
 * relatedArtifact ^slicing.rules = #open
 * relatedArtifact contains dependency 0..*
-* relatedArtifact[dependency] ^mustSupport = false
 * relatedArtifact[dependency].type 1..1 MS
 * relatedArtifact[dependency].type only code
 * relatedArtifact[dependency].type = #depends-on (exactly)
@@ -33,9 +32,7 @@ Description: "This Library profile defines the Library that contains [Clinical Q
 * content contains cqlContent 1..1
 * content[cqlContent] ^short = "CQL Content"
 * content[cqlContent] ^definition = "The CQL content represented as base-64 encoded data."
-* content[cqlContent] ^mustSupport = false
 * content[cqlContent].contentType 1..1 MS
 * content[cqlContent].contentType only code
 * content[cqlContent].contentType = #text/cql (exactly)
 * content[cqlContent].data 1..1
-* content[cqlContent].data ^mustSupport = false
