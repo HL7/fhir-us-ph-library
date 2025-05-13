@@ -3,7 +3,7 @@ InstanceOf: USPublicHealthEncounter
 Title: "US Public Health Encounter - Eve Everywoman"
 Description: "US Public Health Encounter: Eve Everywoman example"
 Usage: #example
-* identifier.system = "http://hospital.smarthealthit.org"
+* identifier.system = "http://example.org/hospital-smarthealthit"
 * identifier.value = "9937012"
 * status = #finished
 * class = $v3-ActCode#AMB "ambulatory"

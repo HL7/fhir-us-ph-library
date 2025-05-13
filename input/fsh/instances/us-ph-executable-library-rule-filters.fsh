@@ -18,10 +18,10 @@ Usage: #example
 * jurisdiction.text = "United States of America"
 * relatedArtifact[0].type = #depends-on
 * relatedArtifact[=].display = "FHIR model information"
-* relatedArtifact[=].resource = "http://fhir.org/guides/cqf/common/Library/FHIR-ModelInfo|4.0.1"
+* relatedArtifact[=].resource = "http://fhir.org/guides/cqf/common/Library/FHIR-ModelInfo"
 * relatedArtifact[+].type = #depends-on
 * relatedArtifact[=].display = "Library FHIRHelpers"
-* relatedArtifact[=].resource = "http://fhir.org/guides/cqf/common/Library/FHIRHelpers|4.0.1"
+* relatedArtifact[=].resource = "http://fhir.org/guides/cqf/common/Library/FHIRHelpers"
 * relatedArtifact[+].type = #depends-on
 * relatedArtifact[=].display = "Code system LOINC"
 * relatedArtifact[=].resource = "http://loinc.org"
