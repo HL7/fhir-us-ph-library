@@ -9,8 +9,6 @@ Usage: #example
 * entry.resource = us-ph-patient-eve-everywoman
 * entry[+].fullUrl = "http://example.org/fhir/PractitionerRole/us-ph-practitionerrole-henry-seven"
 * entry[=].resource = us-ph-practitionerrole-henry-seven
-* entry[+].fullUrl = "http://example.org/fhir/Patient/us-ph-patient-eve-everywoman"
-* entry[=].resource = us-ph-patient-eve-everywoman
 * entry[+].fullUrl = "http://example.org/fhir/Location/us-ph-location-salem-medical-center"
 * entry[=].resource = us-ph-location-salem-medical-center
 * entry[+].fullUrl = "http://example.org/fhir/Practitioner/us-core-practitioner-henry-seven"
