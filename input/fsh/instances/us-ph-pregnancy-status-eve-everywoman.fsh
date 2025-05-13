@@ -12,6 +12,7 @@ Usage: #example
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"
 * effectivePeriod.start = "2017-08-26"
+* performer.reference = "PractitionerRole/us-ph-practitionerrole-henry-seven"
 * valueCodeableConcept = $sct#77386006 "Pregnancy (finding)"
 * method = $sct#16310003 "Ultrasonography (procedure)"
 * component[0].extension.url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-date-determined-extension"

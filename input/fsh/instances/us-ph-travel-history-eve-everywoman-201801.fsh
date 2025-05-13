@@ -10,6 +10,7 @@ Usage: #example
 * subject.display = "Eve Everywoman"
 * effectivePeriod.start = "2018-01-15"
 * effectivePeriod.end = "2018-01-30"
+* performer.reference = "PractitionerRole/us-ph-practitionerrole-henry-seven"
 * component[0].code = $v3-ParticipationType#LOC "Location"
 * component[=].valueCodeableConcept = urn:iso:std:iso:3166#FJI "Fiji"
 * component[+].code = $v3-ParticipationType#LOC "Location"

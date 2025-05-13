@@ -14,6 +14,7 @@ Usage: #example
 * focus.display = "City Football Stadium"
 * effectivePeriod.start = "2020-01-11T18:00:00Z"
 * effectivePeriod.end = "2020-01-11T21:30:00Z"
+* performer.reference = "PractitionerRole/us-ph-practitionerrole-henry-seven"
 * valueCodeableConcept = $sct#264379009 "Sports stadium (environment)"
 * valueCodeableConcept.text = "City Football Stadium"
 * component.code = $v3-ParticipationType#EXPAGNT "ExposureAgent"

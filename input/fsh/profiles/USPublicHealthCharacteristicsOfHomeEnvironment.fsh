@@ -1,13 +1,12 @@
 Profile: USPublicHealthCharacteristicsOfHomeEnvironment
-Parent: Observation
+Parent: USCoreSimpleObservationProfile
 Id: us-ph-characteristics-of-home-environment
 Title: "US Public Health Characteristics of Home Environment"
-Description: "This Observation profile represents characteristics of the patient's home environment."
+Description: "This profile further constrains the US Core Simple Observation Profile and represents characteristics of the patient's home environment."
 * ^experimental = false
 
-
+* category = $us-core-category#sdoh 
 * code = $loinc#75274-1 "Characteristics of residence"
-* code MS
 * subject 1.. MS
 * subject only Reference(USPublicHealthPatient)
 * value[x] 1..1 MS

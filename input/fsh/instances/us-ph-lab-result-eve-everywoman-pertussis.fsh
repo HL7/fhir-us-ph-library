@@ -11,6 +11,7 @@ Usage: #example
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"
 * effectiveDateTime = "2016-11-07"
+* performer.reference = "Organization/us-ph-organization-acme-laboratory"
 * valueQuantity = 100 '[iU]/mL'
 * interpretation = $v3-ObservationInterpretation#H "High"
 * referenceRange.high = 45 '[iU]/mL'

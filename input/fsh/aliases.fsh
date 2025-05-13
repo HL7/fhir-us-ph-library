@@ -36,3 +36,4 @@ Alias: $valueset-rules-text = http://hl7.org/fhir/StructureDefinition/valueset-r
 Alias: $valueset-steward = http://hl7.org/fhir/StructureDefinition/valueset-steward
 Alias: $WG-extension = http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
 Alias: $yes-no-unknown-not-asked = http://terminology.hl7.org/ValueSet/yes-no-unknown-not-asked
+Alias: $us-core-category = http://hl7.org/fhir/us/core/CodeSystem/us-core-category

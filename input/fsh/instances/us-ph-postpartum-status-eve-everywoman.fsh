@@ -10,4 +10,5 @@ Usage: #example
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"
 * effectiveDateTime = "2018-01-05T10:15:00+10:00"
+* performer.reference = "PractitionerRole/us-ph-practitionerrole-henry-seven"
 * valueCodeableConcept = $v2-0532#Y "Yes"

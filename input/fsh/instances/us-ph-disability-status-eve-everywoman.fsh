@@ -8,4 +8,5 @@ Usage: #example
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"
 * effectiveDateTime = "2020-11-10T22:33:22Z"
+* performer.reference = "PractitionerRole/us-ph-practitionerrole-henry-seven"
 * valueBoolean = true

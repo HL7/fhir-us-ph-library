@@ -10,6 +10,7 @@ Usage: #example
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"
 * effectiveDateTime = "2018-03-07"
+* performer.reference = "Organization/us-ph-organization-acme-laboratory"
 * valueQuantity = 5.2 '10*3/uL'
 * interpretation = $v3-ObservationInterpretation#H "High"
 * referenceRange.low = 1 '10*3/uL'

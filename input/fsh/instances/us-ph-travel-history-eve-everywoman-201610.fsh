@@ -10,6 +10,7 @@ Usage: #example
 * subject.display = "Eve Everywoman"
 * effectivePeriod.start = "2016-10-22"
 * effectivePeriod.end = "2016-10-30"
+* performer.reference = "PractitionerRole/us-ph-practitionerrole-henry-seven"
 * component.extension.url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-address-extension"
 * component.extension.valueAddress.line = "1170 N Rancho Robles Rd"
 * component.extension.valueAddress.city = "Oracle"

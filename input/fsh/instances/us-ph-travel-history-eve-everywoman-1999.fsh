@@ -10,5 +10,6 @@ Usage: #example
 * subject.display = "Eve Everywoman"
 * effectivePeriod.start = "1999"
 * effectivePeriod.end = "2007"
+* performer.reference = "PractitionerRole/us-ph-practitionerrole-henry-seven"
 * component.code = $v3-ParticipationType#LOC "Location"
 * component.valueCodeableConcept.text = "Spent 8 years in the UK during the BSE outbreak"

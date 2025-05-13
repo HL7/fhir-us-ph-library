@@ -11,6 +11,7 @@ Usage: #example
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"
 * effectiveDateTime = "2020-11-18T22:33:22Z"
+* performer.reference = "PractitionerRole/us-ph-practitionerrole-henry-seven"
 * valueCodeableConcept = $sct#21812002 "Ocean liner, device (physical object)"
 * valueCodeableConcept.text = "Cruise Ship"
 * component[0].code.text = "Ship name"
