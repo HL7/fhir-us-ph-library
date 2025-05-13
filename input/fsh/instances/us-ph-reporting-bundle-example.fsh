@@ -22,7 +22,7 @@ Usage: #inline
 * extension[=].valueCode = #consequence
 * eventCoding = USPublicHealthCodeSystemMessageTypes#eicr-case-report-message "Indicates a message containing electronic case report healthcare data sent from clinical care."
 * destination.name = "YMCA Acme Message Gateway"
-* destination.target.reference = "http://example.org/fhir/Device/device-software-ymca"
+* destination.target.reference = "Device/device-software-ymca"
 * destination.endpoint = "http://example.org/ymca/fhir"
 * sender.reference = "Organization/us-ph-organization-salem-medical-center"
 * source.name = "Acme Central Patient Registry"
