@@ -11,6 +11,8 @@ Usage: #example
 * extension[=].valueString = "Description of rule used in reportability determination"
 * status = #final
 * code = urn:oid:2.16.840.1.114222.4.5.274#RRVS5 "Patient home address"
+* subject.reference = "Patient/us-ph-patient-eve-everywoman"
+* effectiveDateTime = "2020-11-18T22:33:22Z"
 * performer.reference = "PractitionerRole/us-ph-practitionerrole-henry-seven"
 * component.code = urn:oid:2.16.840.1.114222.4.5.232#RR4 "Timeframe to report (urgency)"
 * component.valueQuantity = 24 'H' "H"
