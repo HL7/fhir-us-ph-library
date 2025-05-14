@@ -5,7 +5,7 @@ Title: "US Public Health Characteristics of Home Environment"
 Description: "This profile further constrains the US Core Simple Observation Profile and represents characteristics of the patient's home environment."
 * ^experimental = false
 
-* category = $us-core-category#sdoh 
+* category = $system-us-core-category#sdoh 
 * code = $loinc#75274-1 "Characteristics of residence"
 * subject 1.. MS
 * subject only Reference(USPublicHealthPatient)

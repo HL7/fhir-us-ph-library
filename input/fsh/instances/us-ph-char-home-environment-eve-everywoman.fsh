@@ -4,7 +4,7 @@ Title: "US Public Health Characteristics of Home Environment - Eve Everywoman"
 Description: "US Public Health Characteristics of Home Environment: Eve Everywoman example"
 Usage: #example
 * status = #final
-* category = $us-core-category#sdoh
+* category = $system-us-core-category#sdoh
 * code = $loinc#75274-1 "Characteristics of residence"
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"

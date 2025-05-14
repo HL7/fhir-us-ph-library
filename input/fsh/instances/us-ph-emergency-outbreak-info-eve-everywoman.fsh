@@ -4,6 +4,7 @@ Title: "US Public Health Emergency Outbreak Information - Eve Everywoman"
 Description: "US Public Health Emergency Outbreak Information: Eve Everywoman example"
 Usage: #example
 * status = #final
+* category = $system-observation-category#social-history
 * code.text = "Employee desk distance from mail sorter"
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"
