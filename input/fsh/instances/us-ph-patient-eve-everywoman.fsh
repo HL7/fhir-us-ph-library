@@ -15,10 +15,6 @@ Usage: #example
 * extension[ethnicity].url = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
 * extension[birthsex].url = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
 * extension[birthsex].valueCode = #F
-* extension[individualGenderIdentity].extension.url = "value"
-* extension[individualGenderIdentity].extension.valueCodeableConcept = $v3-NullFlavor#ASKU "asked but unknown"
-* extension[individualGenderIdentity].extension.valueCodeableConcept.text = "asked but unknown"
-* extension[individualGenderIdentity].url = "http://hl7.org/fhir/StructureDefinition/individual-genderIdentity"
 * extension[tribalAffiliation].extension[tribalAffiliation].url = "tribalAffiliation"
 * extension[tribalAffiliation].extension[tribalAffiliation].valueCodeableConcept = $v3-TribalEntityUS#91 "Fort Mojave Indian Tribe of Arizona, California & Nevada"
 * extension[tribalAffiliation].extension[isEnrolled].url = "isEnrolled"
