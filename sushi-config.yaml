@@ -35,10 +35,6 @@ dependencies:
     version: 0.22.0
     uri: http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac
     id: usnlmvsac
-  hl7.fhir.uv.extensions:
-    version: 5.2.0
-    uri: http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions#5.2.0
-    id: hl7fhiruvextensionsr4
 
 pages:
   index.md:

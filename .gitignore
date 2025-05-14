@@ -37,3 +37,5 @@
 /fsh-generated
 /.vscode
 /_delete-folders.bat
+/_updatePublisher.bat
+/_updatePublisher.sh

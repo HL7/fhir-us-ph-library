@@ -24,11 +24,9 @@ Description: "This Patient profile represents a US Public Health Patient."
 * extension[tribalAffiliation] MS
 * extension[tribalAffiliation] ^short = "USCDI+ Tribal Affiliation (US Core Tribal Affiliation Extension) (also in USCDI)"
 * extension contains
-    $patient-birthPlace named birthPlace 0..1 MS and
-    PGenderIdentity named individualGenderIdentity 0..* MS
+    $patient-birthPlace named birthPlace 0..1 MS
 * extension[birthPlace] ^short = "USCDI+ Patient Birth Place (Patient Birth Place Extension)"    
 * extension[birthPlace] ^isModifier = false
-* extension[individualGenderIdentity] ^isModifier = false
 * identifier ^short = "USCDI+ Identifier/Medical Record Number/Medicare Patient Identifier (also in USCDI)"
 * identifier.extension contains $data-absent-reason named dataAbsentReason 0..1
 * identifier.extension[dataAbsentReason].value[x] 1.. MS

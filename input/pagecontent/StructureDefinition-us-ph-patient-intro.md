@@ -6,7 +6,6 @@ It is based on the [US Core Patient]({{site.data.fhir.ver.hl7fhiruscore}}/Struct
     * a race
     * an ethnicity
     * a birth sex
-* adds the US Public Health Gender Identity extension (this is different to the Gender Identity extension used in US Core due to the issue raised here: https://jira.hl7.org/browse/FHIR-37509)
 * adds the following extensions:
     * birthPlace
     * tribalAffiliation
