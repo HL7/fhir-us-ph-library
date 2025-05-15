@@ -12,7 +12,7 @@ Usage: #example
 * code = $loinc#82810-3 "Pregnancy status"
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"
-* effectivePeriod.start = "2017-08-26"
+* effectiveDateTime = "2017-08-26"
 * performer.reference = "PractitionerRole/us-ph-practitionerrole-henry-seven"
 * valueCodeableConcept = $sct#77386006 "Pregnancy (finding)"
 * method = $sct#16310003 "Ultrasonography (procedure)"
