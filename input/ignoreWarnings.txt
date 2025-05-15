@@ -54,6 +54,7 @@ Pinned the version of http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4
 Pinned the version of http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.49 to 20240823 from choices of 20201101 (us.nlm.vsac#0.11.0), 20240823 (us.nlm.vsac#0.22.0)
 Pinned the version of http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.50 to 20240823 from choices of 20201130 (us.nlm.vsac#0.11.0), 20240823 (us.nlm.vsac#0.22.0)
 Pinned the version of http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.12 to 20240827 from choices of 20190823 (us.nlm.vsac#0.11.0), 20240827 (us.nlm.vsac#0.22.0)
+Pinned the version of http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.49 to 20240606 from choices of 20210707 (us.nlm.vsac#0.11.0), 20240606 (us.nlm.vsac#0.22.0)
 Pinned the version of http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.80 to 20240607 from choices of 20190516 (us.nlm.vsac#0.11.0), 20240607 (us.nlm.vsac#0.22.0)
 Pinned the version of http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.81 to 20240608 from choices of 20190502 (us.nlm.vsac#0.11.0), 20240608 (us.nlm.vsac#0.22.0)
 Pinned the version of http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.82 to 20240608 from choices of 20190502 (us.nlm.vsac#0.11.0), 20240608 (us.nlm.vsac#0.22.0)
