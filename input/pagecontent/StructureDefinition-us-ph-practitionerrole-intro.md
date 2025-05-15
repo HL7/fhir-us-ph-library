@@ -34,6 +34,11 @@ It is based on the [US Core PractitionerRole]({{site.data.fhir.ver.hl7fhiruscore
         <tr>
             <td>Case Reporting</td>
             <td>Care Team Member(s)</td>
+            <td>Provider NPI</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Care Team Member(s)</td>
             <td>Provider Phone</td>
         </tr>
     </tbody>

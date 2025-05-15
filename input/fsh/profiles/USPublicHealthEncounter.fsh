@@ -2,10 +2,13 @@ Profile: USPublicHealthEncounter
 Parent: USCoreEncounterProfile
 Id: us-ph-encounter
 Title: "US Public Health Encounter"
-Description: "This Encounter profile represents the encounter related to a public health event"
+Description: "This profile is based on the US Core Encounter profile and further constrains it to represent the encounter related to a public health event."
 * ^experimental = false
 
-
+* identifier ^short = "(USCDI+) Encounter Identifier"
+* status ^short = "(USCDI+) Encounter Status"
+* class ^short = "Encounter Type"
+* type ^short = "(USCDI+) Encounter Type"
 * subject only Reference(USPublicHealthPatient)
 * participant ^slicing.discriminator.type = #type
 * participant ^slicing.discriminator.path = "type"
@@ -21,16 +24,19 @@ Description: "This Encounter profile represents the encounter related to a publi
 * participant[responsibleProvider].individual only Reference(USPublicHealthPractitionerRole)
 * participant[responsibleProvider].individual ^short = "Responsible Provider"
 * participant[responsibleProvider].individual ^definition = "The provider in charge of care and the facility in which care was provided during the encounter"
+* period.start ^short = "(USCDI+) Admission Date/Time (Visit Start Date/Time)"
+* period.end ^short = "Discharge Date/Time (Visit End Date/Time)"
 * diagnosis MS
-* diagnosis ^short = "Encounter diagnosis"
+* diagnosis ^short = "(USCDI+) Encounter Diagnosis"
 * diagnosis ^definition = "Encounter diagnosis"
 * diagnosis.condition only Reference(USPublicHealthConditionEncounterDiagnosis)
 * diagnosis.condition MS
 * diagnosis.use MS
+* hospitalization.dischargeDisposition ^short = "(USCDI+) Encounter Disposition"
+* location ^short = "(USCDI+) Encounter Location"
 * location 1..
 * location ^short = "Public health encounter location"
 * location ^definition = "Location of the facility in which the public health encounter took place"
-* location ^isModifier = false
 * location.location only Reference(USPublicHealthLocation)
 * location.location ^isModifier = false
 * serviceProvider only Reference(USPublicHealthOrganization)

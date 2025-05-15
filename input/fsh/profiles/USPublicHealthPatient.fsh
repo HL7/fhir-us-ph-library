@@ -7,14 +7,14 @@ Description: "This Patient profile represents a US Public Health Patient."
 
 
 * extension[race] 1.. MS
-* extension[race] ^short = "USCDI+ Race (US Core Race Extension) (also in USCDI)"
+* extension[race] ^short = "(USCDI+) Race (US Core Race Extension)"
 * extension[race].extension contains $data-absent-reason named dataAbsentReason 0..1 MS
 * extension[race].extension[dataAbsentReason] ^short = "For masking purposes, use the data-absent-reason extension and set the required us-core-race extension text to \"masked\""
 * extension[race].extension[dataAbsentReason].value[x] 1.. MS
 * extension[race].extension[dataAbsentReason].value[x] only code
 * extension[race].extension[dataAbsentReason].value[x] = #masked (exactly)
 * extension[ethnicity] 1.. MS
-* extension[ethnicity] ^short = "USCDI+ Ethnicity (US Core Ethnicity Extension) (also in USCDI)"
+* extension[ethnicity] ^short = "(USCDI+) Ethnicity (US Core Ethnicity Extension)"
 * extension[ethnicity].extension contains $data-absent-reason named dataAbsentReason 0..1 MS
 * extension[ethnicity].extension[dataAbsentReason] ^short = "For masking purposes, use the data-absent-reason extension and set the required us-core-ethnicity extension text to \"masked\""
 * extension[ethnicity].extension[dataAbsentReason].value[x] 1.. MS
@@ -22,17 +22,17 @@ Description: "This Patient profile represents a US Public Health Patient."
 * extension[ethnicity].extension[dataAbsentReason].value[x] = #masked (exactly)
 * extension[birthsex] MS
 * extension[tribalAffiliation] MS
-* extension[tribalAffiliation] ^short = "USCDI+ Tribal Affiliation (US Core Tribal Affiliation Extension) (also in USCDI)"
+* extension[tribalAffiliation] ^short = "(USCDI+) Tribal Affiliation (US Core Tribal Affiliation Extension)"
 * extension contains
     $patient-birthPlace named birthPlace 0..1 MS
-* extension[birthPlace] ^short = "USCDI+ Patient Birth Place (Patient Birth Place Extension)"    
+* extension[birthPlace] ^short = "(USCDI+) Patient Birth Place (Patient Birth Place Extension)"    
 * extension[birthPlace] ^isModifier = false
-* identifier ^short = "USCDI+ Identifier/Medical Record Number/Medicare Patient Identifier (also in USCDI)"
+* identifier ^short = "(USCDI+) Identifier/Medical Record Number/Medicare Patient Identifier"
 * identifier.extension contains $data-absent-reason named dataAbsentReason 0..1
 * identifier.extension[dataAbsentReason].value[x] 1.. MS
 * identifier.extension[dataAbsentReason].value[x] only code
 * identifier.extension[dataAbsentReason].value[x] = #masked (exactly)
-* name ^short = "USCDI+ Patient Name (also in USCDI)"
+* name ^short = "(USCDI+) Patient Name"
 * name.extension contains $data-absent-reason named dataAbsentReason 0..1 MS
 * name.extension[dataAbsentReason].value[x] 1.. MS
 * name.extension[dataAbsentReason].value[x] only code
@@ -58,16 +58,16 @@ Description: "This Patient profile represents a US Public Health Patient."
 * gender.extension[dataAbsentReason].value[x] 1.. MS
 * gender.extension[dataAbsentReason].value[x] only code
 * gender.extension[dataAbsentReason].value[x] = #masked (exactly)
-* birthDate ^short = "USCDI+ Date of Birth (also in USCDI)"
+* birthDate ^short = "(USCDI+) Date of Birth"
 * birthDate 1..
 * birthDate.extension contains $data-absent-reason named dataAbsentReason 0..1 MS
 * birthDate.extension[dataAbsentReason].value[x] 1.. MS
 * birthDate.extension[dataAbsentReason].value[x] only code
 * birthDate.extension[dataAbsentReason].value[x] = #masked (exactly)
-* deceased[x] ^short = "USCDI+ Patient Vital Status/Date of Death (also in USCDI)"
+* deceased[x] ^short = "(USCDI+) Patient Vital Status/Date of Death"
 * deceased[x] 1.. MS
 * deceased[x] ^short = "If patient is deceased, use type dateTime and set to deceased date."
-* address ^short = "USCDI+ Current Address (also in USCDI)"
+* address ^short = "(USCDI+) Current Address"
 * address 1..
 * address ^definition = "If the patient is homeless, complete as much address information as possible (city, zip, county, etc.) and use the Characteristics of Home Environment profile to indicate that the patient is homeless."
 * address.extension contains $data-absent-reason named dataAbsentReason 0..1 MS
@@ -82,7 +82,7 @@ Description: "This Patient profile represents a US Public Health Patient."
 * contact.relationship ^short = "Parent/Guardian Code"
 * contact.relationship 1..1 MS
 * contact.name 1.. MS
-* contact.name ^short = "USCDI+ Parent/Guardian Name"
+* contact.name ^short = "(USCDI+) Parent/Guardian Name"
 * contact.name.extension contains $data-absent-reason named dataAbsentReason 0..1 MS
 * contact.name.extension[dataAbsentReason].value[x] 1.. MS
 * contact.name.extension[dataAbsentReason].value[x] only code
@@ -100,7 +100,7 @@ Description: "This Patient profile represents a US Public Health Patient."
 * contact.address.extension[dataAbsentReason].value[x] only code
 * contact.address.extension[dataAbsentReason].value[x] = #masked (exactly)
 * communication 1.. MS
-* communication.language ^short = "USCDI+ Preferred Language (also in USCDI)"
+* communication.language ^short = "(USCDI+) Preferred Language"
 * communication.language.extension contains $data-absent-reason named dataAbsentReason 0..1 MS
 * communication.language.extension[dataAbsentReason].value[x] 1.. MS
 * communication.language.extension[dataAbsentReason].value[x] only code
