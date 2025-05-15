@@ -6,7 +6,7 @@ Use the effectiveDateTime to record the date that the pregnancy status was obser
 
 ### Represented USCDI+ Data Elements
 
-<table style="width:100%" border="1">
+<table border="1">
     <thead>
         <tr style="background-color:#DCDCDC">
             <th style="text-align: center; vertical-align: middle;">Use Case</th>
