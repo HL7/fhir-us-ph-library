@@ -4,6 +4,14 @@ This profile includes the determination method, determination date, and recorded
 
 Use the effectiveDateTime to record the date that the pregnancy status was observed and to record the date on which the pregnancy status determination was made, use the date-determined-extension.
 
+It is based on the [US Core Observation Pregnancy Status Profile]({{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-observation-pregnancystatus.html) profile and further constrains it as follows:
+* sets the Observation.subject to [US Public Health Patient](StructureDefinition-us-ph-patient.html)
+* adds the [US Public Health Date Determined Extension](StructureDefinition-us-ph-date-determined-extension.html) in several places to record different determination dates
+* constrains Observation.method
+* constrains Observation.component to record
+    * Estimated Gestataional Age and Method
+    * Estimated Date of Delivery and Method
+
 ### Represented USCDI+ Data Elements
 
 <table border="1">

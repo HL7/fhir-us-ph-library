@@ -2,7 +2,7 @@ Profile: USPublicHealthEmergencyOutbreakInformation
 Parent: USCoreSimpleObservationProfile
 Id: us-ph-emergency-outbreak-information
 Title: "US Public Health Emergency Outbreak Information"
-Description: "This profile further constrains the US Core Simple Observation Profile to represents information that is required during a public health emergency/outbreak. This information can be highly variable, so a generic structure has been chosen to represent it."
+Description: "This profile represents information that is required during a public health emergency/outbreak. This information can be highly variable, so a generic structure has been chosen to represent it."
 * ^experimental = false
 
 * code 1..1 MS

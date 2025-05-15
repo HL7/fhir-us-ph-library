@@ -2,7 +2,7 @@ Profile: USPublicHealthEncounter
 Parent: USCoreEncounterProfile
 Id: us-ph-encounter
 Title: "US Public Health Encounter"
-Description: "This profile is based on the US Core Encounter profile and further constrains it to represent the encounter related to a public health event."
+Description: "This profile represents the encounter related to a public health event."
 * ^experimental = false
 
 * identifier ^short = "(USCDI+) Encounter Identifier"

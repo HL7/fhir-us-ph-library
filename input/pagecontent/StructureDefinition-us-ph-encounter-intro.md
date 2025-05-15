@@ -1,11 +1,11 @@
 It is based on the [US Core Encounter]({{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-encounter.html) profile and further constrains it as follows:
-* sets the subject to US Public Health Patient
-* adds a ResponsibleProvider participant slice that sets:
-    * type to ATND
-    * individual to US Public Health PractitionerRole
-* sets diagnosis to must support
-* sets the location to US Public Health Location
-* sets the serviceProvider to US Public Health Organization
+* sets the Encounter.subject to [US Public Health Patient](StructureDefinition-us-ph-patient.html)
+* adds a ResponsibleProvider Encounter.participant slice that sets:
+    * Encounter.participant.type to ATND
+    * Encounter.participant.individual to [US Public Health PractitionerRole]({{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-practitionerrole.html)
+* sets Encounter.diagnosis to must support
+* sets Encounter.location to [US Public Health Location](StructureDefinition-us-ph-location.html)
+* sets Encounter.serviceProvider to [US Public Health Organization](StructureDefinition-us-ph-organization.html)
 
 ### Represented USCDI+ Data Elements
 

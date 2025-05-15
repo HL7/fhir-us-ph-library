@@ -20,12 +20,11 @@ Description: "This Patient profile represents a US Public Health Patient."
 * extension[ethnicity].extension[dataAbsentReason].value[x] 1.. MS
 * extension[ethnicity].extension[dataAbsentReason].value[x] only code
 * extension[ethnicity].extension[dataAbsentReason].value[x] = #masked (exactly)
-* extension[birthsex] MS
 * extension[tribalAffiliation] MS
 * extension[tribalAffiliation] ^short = "(USCDI+) Tribal Affiliation (US Core Tribal Affiliation Extension)"
 * extension contains
     $patient-birthPlace named birthPlace 0..1 MS
-* extension[birthPlace] ^short = "(USCDI+) Patient Birth Place (Patient Birth Place Extension)"    
+* extension[birthPlace] ^short = "(USCDI+) Patient Birth Place (FHIR Patient Birth Place Extension)"    
 * extension[birthPlace] ^isModifier = false
 * identifier ^short = "(USCDI+) Identifier/Medical Record Number/Medicare Patient Identifier"
 * identifier.extension contains $data-absent-reason named dataAbsentReason 0..1

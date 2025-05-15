@@ -2,7 +2,7 @@ Profile: USPublicHealthPregnancyStatusObservation
 Parent: USCoreObservationPregnancyStatusProfile
 Id: us-ph-pregnancy-status-observation
 Title: "US Public Health Pregnancy Status Observation"
-Description: "This Observation is based on the US Core Observation Pregnancy Status Profile and represents current and/or prior pregnancy statuses and their date ranges, enabling investigators to determine if a patient was pregnant, possibly pregnant, not pregnant or whether the pregnancy status was unknown at a given point in time."
+Description: "This profile represents pregnancy status, enabling investigators to determine if a patient was pregnant, possibly pregnant, not pregnant or whether the pregnancy status was unknown at a given point in time."
 * ^experimental = false
 
 * extension MS
@@ -10,7 +10,7 @@ Description: "This Observation is based on the US Core Observation Pregnancy Sta
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains USPublicHealthDateDeterminedExtension named extensionPregnancyStatusDeterminationDate 0..1 MS
-    // USPublicHealthDateRecordedExtension named extensionPregnancyStatusRecordedDate 0..1 MS and
+// USPublicHealthDateRecordedExtension named extensionPregnancyStatusRecordedDate 0..1 MS and
 // * extension[extensionPregnancyStatusRecordedDate] ^short = "(USCDI+) Pregnancy Status Recorded Date"
 // * extension[extensionPregnancyStatusRecordedDate] ^definition = "The date the pregnancy status was recorded."
 * extension[extensionPregnancyStatusDeterminationDate] ^short = "Pregnancy Status Determination Date"
