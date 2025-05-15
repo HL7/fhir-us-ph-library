@@ -1,5 +1,5 @@
 Instance: us-ph-lab-result-eve-everywoman-pertussis
-InstanceOf: USPublicHealthLaboratoryResultObservationProfile
+InstanceOf: USPublicHealthLaboratoryResultObservation
 Title: "US Public Health Laboratory Result - Eve Everywoman - Pertussis"
 Description: "US Public Health Laboratory Result: Eve Everywoman - Pertussis example"
 Usage: #example
