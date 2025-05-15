@@ -2,4 +2,58 @@ The subject of this profile is the mother.
 
 This profile includes the determination method, determination date, and recorded date of the pregnancy status.
 
-Use the effectivePeriod to indicate the date range over which the patient was pregnant/possibly pregnant/not pregnant/unknown. To record the date that the pregnancy status was recorded, use the date-recorded-extension and to record the date on which the pregnancy status determination was made, use the date-determined-extension. If the effectivePeriod.end is not present it is assumed that the date range over which the pregnancy status is asserted is from effectivePeriod.start to the date in the date-recorded-extension. For example, if the effectivePeriod.start has been recorded as two months prior to the date contained in the date-recorded-extension, and there is no effectivePeriod.end recorded, no assumptions can be made about the pregnancy status after the date contained in the date-recorded-extension.
+Use the effectiveDateTime to record the date that the pregnancy status was observed and to record the date on which the pregnancy status determination was made, use the date-determined-extension.
+
+### Represented USCDI+ Data Elements
+
+<table style="width:100%" border="1">
+    <thead>
+        <tr style="background-color:#DCDCDC">
+            <th style="text-align: center; vertical-align: middle;">Use Case</th>
+            <th style="text-align: center; vertical-align: middle;">Data Class</th>
+            <th style="text-align: center; vertical-align: middle;">Data Element Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Health Status Assessments/Pregnancy Information</td>
+            <td>Pregnancy Status</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Pregnancy Information</td>
+            <td>Estimated Date of Delivery</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Pregnancy Information</td>
+            <td>Estimated Date of Delivery Determination Methhod</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Pregnancy Information</td>
+            <td>Gestational Age</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Pregnancy Information</td>
+            <td>Gestational Age Determination Date</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Pregnancy Information</td>
+            <td>Gestational Age Determination Method</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Pregnancy Information</td>
+            <td>Pregnancy Status Determination Method</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Pregnancy Information</td>
+            <td>Pregnancy Status Recorded Date</td>
+        </tr>
+    </tbody>
+</table>

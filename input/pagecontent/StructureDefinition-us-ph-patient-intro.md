@@ -11,7 +11,7 @@ It is based on the [US Core Patient]({{site.data.fhir.ver.hl7fhiruscore}}/Struct
     * tribalAffiliation
 * adds contact
 
-### USCDI+ Mapping
+### Represented USCDI+ Data Elements
 
 <table style="width:100%" border="1">
     <thead>

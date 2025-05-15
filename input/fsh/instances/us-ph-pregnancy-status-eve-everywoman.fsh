@@ -8,6 +8,7 @@ Usage: #example
 * extension[+].url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-date-determined-extension"
 * extension[=].valueDateTime = "2017-10-01"
 * status = #final
+* category = $system-observation-category#social-history
 * code = $loinc#82810-3 "Pregnancy status"
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"

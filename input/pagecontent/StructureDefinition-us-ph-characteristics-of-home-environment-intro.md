@@ -1,6 +1,6 @@
 Such characteristics include, but are not limited to, type of residence (trailer, single family home, assisted living), living arrangement (e.g., alone, with parents), and housing status (e.g., evicted, homeless, home owner). Congregate living situations would be represented in this profile - such shared housing includes a broad range of settings, such as apartments, condominiums, student or faculty housing, national and state park staff housing, transitional housing, and domestic violence and abuse shelters.
 
-### USCDI+ Mapping
+### Represented USCDI+ Data Elements
 
 <table style="width:100%" border="1">
     <thead>
