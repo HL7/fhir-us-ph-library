@@ -10,8 +10,6 @@ Description: "This valueset is a valueset created for the purposes of demonstrat
 * ^status = #active
 * ^experimental = false
 
-
-
 * ^useContext[0].code = $us-ph-codesystem-usage-context-type#reporting "Reporting"
 * ^useContext[=].valueCodeableConcept = $us-ph-codesystem-usage-context#supplemental "Supplemental"
 * ^useContext[+].code = $usage-context-type#focus "Clinical Focus"

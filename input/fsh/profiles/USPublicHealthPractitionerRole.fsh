@@ -5,9 +5,9 @@ Title: "US Public Health PractitionerRole"
 Description: "This PractitionerRole profile represents the roles and organizations of the practitioner."
 * ^experimental = false
 
-
 * identifier 1..1 MS
 * practitioner 1..
+* practitioner ^short = "USCDI+ Provider Address, Provider Email, Provider Fax, Provider Name, Provider Phone (contained in referenced US Core Practitioner)"
 * organization only Reference(USPublicHealthOrganization)
 * location only Reference(USPublicHealthLocation)
 * location MS
