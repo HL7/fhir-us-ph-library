@@ -11,20 +11,81 @@ It is based on the [US Core Patient]({{site.data.fhir.ver.hl7fhiruscore}}/Struct
     * tribalAffiliation
 * adds contact
 
-#### USCDI+ Mapping
+### USCDI+ Mapping
 
-| Use Case       | Data Class           | Data Element Name |
-| -------------- | -------------------- | ----------------- |
-| Case Reporting | Patient Demographics | Current Address |
-| Case Reporting | Patient Demographics | Date of Birth |
-| Case Reporting | Patient Demographics | Date of Death |
-| Case Reporting | Patient Demographics | Ethnicity |
-| Case Reporting | Patient Demographics | Identifier |
-| Case Reporting | Patient Demographics | Medical Record Number |
-| Case Reporting | Patient Demographics | Medicare Patient Identifier |
-| Case Reporting | Patient Demographics | Parent/Guardian Name |
-| Case Reporting | Patient Demographics | Patient Name |
-| Case Reporting | Patient Demographics | Patient Vital Status |
-| Case Reporting | Patient Demographics | Preferred Language |
-| Case Reporting | Patient Demographics | Race |
-| Case Reporting | Patient Demographics | Tribal Enrollment |
+<table style="width:100%" border="1">
+    <thead>
+        <tr style="background-color:#DCDCDC">
+            <th style="text-align: center; vertical-align: middle;">Use Case</th>
+            <th style="text-align: center; vertical-align: middle;">Data Class</th>
+            <th style="text-align: center; vertical-align: middle;">Data Element Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Current Address</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Date of Birth</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Date of Death</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Ethnicity</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Identifier</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Medical Record Number</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Medicare Patient Identifier</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Parent/Guardian Name</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Patient Name</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Patient Vital Status</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Preferred Language</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Race</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Tribal Enrollment</td>
+        </tr>
+    </tbody>
+</table>
