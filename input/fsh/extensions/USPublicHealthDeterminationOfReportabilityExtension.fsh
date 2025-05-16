@@ -3,12 +3,7 @@ Id: us-ph-determination-of-reportability-extension
 Title: "US Public Health Determination of Reportability Extension"
 Description: "This Extension profile represents the determination of reportability. Reportability is \"the quality or state of being reportable or not\". Reportability does not equate to the patient having a condition or meeting a case definition (definitively being a case)."
 * ^experimental = false
-* ^publisher = "{site.data.fhir.ig.publisher}"
-* ^contact.name = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* ^jurisdiction.text = "United States of America"
+
 * ^context.type = #element
 * ^context.expression = "Observation"
 * . 1..1

@@ -3,12 +3,7 @@ Id: us-ph-initiation-reason-extension
 Title: "US Public Health Initiation Reason Extension"
 Description: "This Extension profile contains an explanation for the manual or alternate initiation of the public health report."
 * ^experimental = false
-* ^publisher = "{site.data.fhir.ig.publisher}"
-* ^contact.name = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* ^jurisdiction.text = "United States of America"
+
 * ^context.type = #element
 * ^context.expression = "Composition"
 * . ..*

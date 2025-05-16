@@ -3,11 +3,7 @@ Id: us-ph-message-processing-category-extension
 Title: "US Public Health Message Processing Category Extension"
 Description: "This Extension profile indicates how systems have to deal with messages in terms of duplicates, lack of responses."
 * ^experimental = false
-* ^publisher = "{site.data.fhir.ig.publisher}"
-* ^contact.name = "HL7 Public Health Work Group"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/Special/committees/pher"
-* ^jurisdiction = urn:iso:std:iso:3166#US
+
 * ^context.type = #element
 * ^context.expression = "MessageHeader"
 * . 1..1

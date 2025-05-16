@@ -4,8 +4,6 @@ Title: "US Public Health Address Extension"
 Description: "This Extension profile represents where the patient traveled to or visited as an address e.g.: country, state, city, street address (if applicable)."
 * ^experimental = false
 
-
-
 * ^context[0].type = #element
 * ^context[=].expression = "Observation.component"
 * ^context[+].type = #element
