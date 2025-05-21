@@ -3,8 +3,8 @@ InstanceOf: USPublicHealthPregnancyStatusObservation
 Title: "US Public Health Pregnancy Status - Eve Everywoman"
 Description: "US Public Health Pregnancy Status: Eve Everywoman example"
 Usage: #example
-* extension[0].url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-date-recorded-extension"
-* extension[=].valueDateTime = "2017-10-01"
+// * extension[0].url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-date-recorded-extension"
+// * extension[=].valueDateTime = "2017-10-01"
 * extension[+].url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-date-determined-extension"
 * extension[=].valueDateTime = "2017-10-01"
 * status = #final

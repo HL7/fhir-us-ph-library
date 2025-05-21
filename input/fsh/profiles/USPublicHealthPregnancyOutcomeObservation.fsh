@@ -5,7 +5,7 @@ Title: "US Public Health Pregnancy Outcome Observation"
 Description: "This Observation profile represents a result of the pregnancy such as live birth, still birth, miscarriage, etc."
 * ^experimental = false
 
-* category = $system-us-core-category#social-history 
+* category = $system-observation-category#social-history 
 * code = $loinc#63893-2 "Outcome of pregnancy"
 * subject only Reference(USPublicHealthPatient)
 * focus 1..1 MS
