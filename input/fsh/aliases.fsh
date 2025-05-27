@@ -38,3 +38,5 @@ Alias: $WG-extension = http://hl7.org/fhir/StructureDefinition/structuredefiniti
 Alias: $yes-no-unknown-not-asked = http://terminology.hl7.org/ValueSet/yes-no-unknown-not-asked
 Alias: $system-us-core-category = http://hl7.org/fhir/us/core/CodeSystem/us-core-category
 Alias: $system-observation-category = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: $v2-0532 = http://terminology.hl7.org/CodeSystem/v2-0532
+Alias: $valueset-yes-no-unknown-not-asked = http://terminology.hl7.org/ValueSet/yes-no-unknown-not-asked

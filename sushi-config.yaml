@@ -73,6 +73,7 @@ groups:
     - StructureDefinition/us-ph-specimen
     - StructureDefinition/us-ph-transportation-details
     - StructureDefinition/us-ph-travel-history
+    - StructureDefinition/us-ph-vaccine-credential-patient-assertion
 
   content-profiles-entities:
     name: "Profiles: Content - Entities"
@@ -90,7 +91,6 @@ groups:
     resources:
     - StructureDefinition/us-ph-address-extension
     - StructureDefinition/us-ph-date-determined-extension
-    - StructureDefinition/us-ph-date-recorded-extension
     - StructureDefinition/us-ph-determination-of-reportability-extension
     - StructureDefinition/us-ph-determination-of-reportability-reason-extension
     - StructureDefinition/us-ph-determination-of-reportability-rule-extension
