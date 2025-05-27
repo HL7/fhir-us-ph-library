@@ -19,5 +19,5 @@ Description: "This Observation profile represents whether or not the patient has
 * value[x] only CodeableConcept
 * value[x] from $valueset-yes-no-unknown-not-asked (required)
 * value[x] ^short = "(USCDI+) Patient Assertion of Vaccine Credentials"
-* value[x] ^description = "Patient assertion (yes, no, unknown, not asked) as to whether or not they have verifiable vaccine credentials"
+* value[x] ^definition = "Patient assertion (yes, no, unknown, not asked) as to whether or not they have verifiable vaccine credentials"
 * value[x] ^binding.description = "Yes No Unknown Not Asked"
