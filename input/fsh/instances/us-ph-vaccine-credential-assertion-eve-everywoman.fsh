@@ -5,7 +5,7 @@ Description: "Example of US Public Health Vaccine Credential Patient Assertion O
 Usage: #example
 * status = #final
 * code = $loinc#11370-4 "Immunization status - Reported"
-* subject.reference = "Patient/patient-ecr-eve-everywoman"
+* subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"
 * effectiveDateTime = "2020-11-10T22:33:22Z"
 * valueCodeableConcept = $v2-0532#Y "Yes"
