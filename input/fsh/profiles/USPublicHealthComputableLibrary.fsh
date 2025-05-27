@@ -4,7 +4,7 @@ Id: us-ph-computable-library
 Title: "US Public Health Computable Library"
 Description: "This Library profile defines the Library that contains [Clinical Quality Language](http://cql.hl7.org/) (CQL) text, but not necessarily the compiled [Expression Logical Model](https://cql.hl7.org/elm.html) (ELM) for that CQL. It is intended to be used in environments that are capable of translating CQL to the executable ELM."
 * ^experimental = false
-
+* . ^short = "US Public Health Computable Library"
 
 * subject[x] MS
 * relatedArtifact ..* MS

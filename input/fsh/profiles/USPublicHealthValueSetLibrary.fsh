@@ -4,7 +4,7 @@ Id: us-ph-valueset-library
 Title: "US Public Health ValueSet Library"
 Description: "This Library profile defines the library containing US Public Health value sets."
 * ^experimental = false
-
+* . ^short = "US Public Health ValueSet Library"
 
 * extension only Extension
 * extension ^base.path = "DomainResource.extension"

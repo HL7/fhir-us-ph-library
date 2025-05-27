@@ -4,7 +4,7 @@ Id: us-ph-patient
 Title: "US Public Health Patient"
 Description: "This Patient profile represents a US Public Health Patient."
 * ^experimental = false
-
+* . ^short = "US Public Health Patient"
 
 * extension[race] 1.. MS
 * extension[race] ^short = "(USCDI+) Race (US Core Race Extension)"

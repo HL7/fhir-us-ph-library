@@ -4,7 +4,7 @@ Id: us-ph-medicationadministration
 Title: "US Public Health MedicationAdministration"
 Description: "This MedicationAdministration profile represents the event of a patient consuming or otherwise being administered a medication."
 * ^experimental = false
-
+* . ^short = ""
 
 * extension only USPublicHealthTherapeuticMedicationResponseExtension
 * extension MS

@@ -4,7 +4,7 @@ Id: us-ph-exposure-contact-information
 Title: "US Public Health Exposure Contact Information"
 Description: "This Observation profile represents potential patient exposure and contact information."
 * ^experimental = false
-
+* . ^short = "US Public Health Exposure Contact Information"
 
 * extension only USPublicHealthAddressExtension
 * extension MS

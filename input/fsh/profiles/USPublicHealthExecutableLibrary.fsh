@@ -4,7 +4,7 @@ Id: us-ph-executable-library
 Title: "US Public Health Executable Library"
 Description: "This Library profile defines the Library that contains compiled [Expression Logical Model](https://cql.hl7.org/elm.html) (ELM), but not necessarily the source [Clinical Quality Language](http://cql.hl7.org/) (CQL) text for that ELM. It is intended to be used in environments that are capable of executing ELM, but not necessarily of translating the source CQL."
 * ^experimental = false
-
+* . ^short = "US Public Health Executable Library"
 
 * relatedArtifact ..* MS
 * relatedArtifact ^slicing.discriminator.type = #value

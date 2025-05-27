@@ -4,7 +4,7 @@ Id: us-ph-travel-history
 Title: "US Public Health Travel History"
 Description: "This Observation profile represents a patient's travel history."
 * ^experimental = false
-
+* . ^short = "US Public Health Travel History"
 
 * code = $sct#420008001
 * code MS

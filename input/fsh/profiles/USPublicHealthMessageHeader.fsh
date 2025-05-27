@@ -4,7 +4,7 @@ Id: us-ph-messageheader
 Title: "US Public Health MessageHeader"
 Description: "This MessageHeader profile represents the header for transmitting content using FHIR messaging."
 * ^experimental = false
-
+* . ^short = "US Public Health MessageHeader"
 
 * extension contains
     USPublicHealthDataEncryptedExtension named dataEncrypted 0..1 MS and

@@ -4,7 +4,7 @@ Id: us-ph-supplemental-valueset-library
 Title: "US Public Health Supplemental ValueSet Library"
 Description: "This Library profile defines the library that is a computable supplement for a public health reporting program specification, including computable routing rules that can be evaluated to help facilitate reportability determination at reporting sites, typically consisting of [Clinical Quality Language](http://cql.hl7.org/) (CQL) Rule libraries and additional terminiology artifacts required to evaluate those rules."
 * ^experimental = false
-
+* . ^short = "US Public Health Supplemental ValueSet Library"
 
 * relatedArtifact ^slicing.discriminator.type = #profile
 * relatedArtifact ^slicing.discriminator.path = "resource.resolve()"

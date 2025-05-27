@@ -4,7 +4,7 @@ Id: us-ph-messagedefinition
 Title: "US Public Health MessageDefinition"
 Description: "This MessageDefinition profile represents the characteristics of a message that can be shared in public health."
 * ^experimental = false
-
+* . ^short = "US Public Health MessageDefinition"
 
 * event[x] 1..1 MS
 * event[x] only Coding

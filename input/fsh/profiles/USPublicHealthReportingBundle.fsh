@@ -4,7 +4,7 @@ Id: us-ph-reporting-bundle
 Title: "US Public Health Reporting Bundle"
 Description: "This Bundle profile is used for exchanging a public health report to be submitted to a public health agency."
 * ^experimental = false
-
+* . ^short = "US Public Health Reporting Bundle"
 
 * type 1..1 MS
 * type only code

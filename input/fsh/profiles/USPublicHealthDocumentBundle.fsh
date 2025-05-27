@@ -4,7 +4,7 @@ Id: us-ph-document-bundle
 Title: "US Public Health Document Bundle"
 Description: "This Bundle profile represents a public health Document Bundle. It contains a [US Public Health Composition](StructureDefinition-us-ph-composition.html)."
 * ^experimental = false
-
+* . ^short = "US Public Health Document Bundle"
 
 * identifier 1.. MS
 * identifier ^short = "Document Bundle identifier (equivalent to ClinicalDocument.id in CDA)"

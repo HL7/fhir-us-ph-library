@@ -40,3 +40,4 @@ Alias: $system-us-core-category = http://hl7.org/fhir/us/core/CodeSystem/us-core
 Alias: $system-observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $v2-0532 = http://terminology.hl7.org/CodeSystem/v2-0532
 Alias: $valueset-yes-no-unknown-not-asked = http://terminology.hl7.org/ValueSet/yes-no-unknown-not-asked
+Alias: $iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2

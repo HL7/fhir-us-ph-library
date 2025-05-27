@@ -4,7 +4,7 @@ Id: us-ph-survey-practitioner-group
 Title: "US Public Health Survey Practitioner Group"
 Description: "This Group profile represents survey participant groups, research groups, etc."
 * ^experimental = false
-
+* . ^short = "US Public Health Survey Practitioner Group"
 
 * meta.lastUpdated 1..1 MS
 * active 0..1 MS

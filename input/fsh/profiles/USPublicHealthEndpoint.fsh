@@ -4,7 +4,7 @@ Id: us-ph-endpoint
 Title: "US Public Health Endpoint"
 Description: "This Endpoint profile indicates where the report is to be sent."
 * ^experimental = false
-
+* . ^short = "US Public Health Endpoint"
 
 * status 1..1 MS
 * connectionType 1..1 MS

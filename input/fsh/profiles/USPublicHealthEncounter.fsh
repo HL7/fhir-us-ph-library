@@ -4,6 +4,7 @@ Id: us-ph-encounter
 Title: "US Public Health Encounter"
 Description: "This profile represents the encounter related to a public health event."
 * ^experimental = false
+* . ^short = "US Public Health Encounter"
 
 * identifier ^short = "(USCDI+) Encounter Identifier"
 * status ^short = "(USCDI+) Encounter Status"

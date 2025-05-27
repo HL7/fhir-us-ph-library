@@ -4,6 +4,7 @@ Id: us-ph-location
 Title: "US Public Health Location"
 Description: "This Location profile represents the location/facility in which care was provided."
 * ^experimental = false
+* . ^short = "US Public Health Location"
 
 * identifier MS
 * identifier ^short = "(USCDI+) Facility Identifier"

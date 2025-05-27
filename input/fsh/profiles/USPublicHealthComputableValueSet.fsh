@@ -4,7 +4,7 @@ Id: us-ph-computable-valueset
 Title: "US Public Health Computable ValueSet"
 Description: "This ValueSet profile describes the requirements for a value set that includes the computable definition of that value set, but not necessarily the full expansion. A computable value set is intended for use in environments that have access to a terminology server capable of expanding the value set."
 * ^experimental = false
-
+* . ^short = "US Public Health Computable ValueSet"
 
 * obeys cvs-1
 * extension contains

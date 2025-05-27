@@ -4,7 +4,7 @@ Id: us-ph-composition
 Title: "US Public Health Composition"
 Description: "This Composition profile represents a public health composition."
 * ^experimental = false
-
+* . ^short = "US Public Health Composition"
 
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"

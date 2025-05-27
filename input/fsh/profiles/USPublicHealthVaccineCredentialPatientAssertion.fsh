@@ -4,6 +4,7 @@ Id: us-ph-vaccine-credential-patient-assertion
 Title: "US PUblic Health Vaccine Credential Patient Assertion"
 Description: "This Observation profile represents whether or not the patient has asserted that they have verifiable vaccine credentials."
 * ^experimental = false
+* . ^short = "US PUblic Health Vaccine Credential Patient Assertion"
 
 * status = #final (exactly)
 * status MS

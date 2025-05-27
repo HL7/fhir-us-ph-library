@@ -4,6 +4,7 @@ Id: us-ph-emergency-outbreak-information
 Title: "US Public Health Emergency Outbreak Information"
 Description: "This profile represents information that is required during a public health emergency/outbreak. This information can be highly variable, so a generic structure has been chosen to represent it."
 * ^experimental = false
+* . ^short = "US Public Health Emergency Outbreak Information"
 
 * code 1..1 MS
 * subject 1..1 MS

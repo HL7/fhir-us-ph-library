@@ -4,6 +4,7 @@ Id: us-ph-characteristics-of-home-environment
 Title: "US Public Health Characteristics of Home Environment"
 Description: "This profile represents characteristics of the patient's home environment."
 * ^experimental = false
+* . ^short = "US Public Health Characteristics of Home Environment"
 
 * category = $system-us-core-category#sdoh 
 * code = $loinc#75274-1 "Characteristics of residence"

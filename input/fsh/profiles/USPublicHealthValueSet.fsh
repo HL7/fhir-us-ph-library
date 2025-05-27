@@ -4,7 +4,7 @@ Id: us-ph-valueset
 Title: "US Public Health ValueSet"
 Description: "This ValueSet profile describes the minimum requirements for US public health value sets."
 * ^experimental = false
-
+* . ^short = "US Public Health ValueSet"
 
 * extension MS
 * extension ^slicing.discriminator.type = #value

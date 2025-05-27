@@ -4,7 +4,7 @@ Id: us-ph-supplemental-valueset
 Title: "US Public Health Supplemental ValueSet"
 Description: "This ValueSet profile describes the requirements for a value set used when determining whether an event is suspected to be reportable."
 * ^experimental = false
-
+* . ^short = "US Public Health Supplemental ValueSet"
 
 * useContext 2..* MS
 * useContext ^slicing.discriminator.type = #pattern

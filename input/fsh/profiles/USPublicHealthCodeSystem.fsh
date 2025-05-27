@@ -4,7 +4,7 @@ Id: us-ph-codesystem
 Title: "US Public Health CodeSystem"
 Description: "This CodeSystem profile describes describes the minimum requirements for a US public health code system."
 * ^experimental = false
-
+* . ^short = "US Public Health CodeSystem"
 
 * property MS
 * property.extension contains USPublicHealthCodeSystemPropertyRequiredBindingExtension named binding 0..1 MS

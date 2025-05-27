@@ -4,7 +4,7 @@ Id: us-ph-response-bundle
 Title: "US Public Health Response Bundle"
 Description: "This Bundle profile represents the packaging construct used for exchanging a public health response."
 * ^experimental = false
-
+* . ^short = "US Public Health Response Bundle"
 
 * type 1..1 MS
 * type only code

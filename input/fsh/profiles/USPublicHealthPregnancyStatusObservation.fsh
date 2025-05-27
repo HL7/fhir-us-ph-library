@@ -4,6 +4,7 @@ Id: us-ph-pregnancy-status-observation
 Title: "US Public Health Pregnancy Status Observation"
 Description: "This profile represents pregnancy status, enabling investigators to determine if a patient was pregnant, possibly pregnant, not pregnant or whether the pregnancy status was unknown at a given point in time."
 * ^experimental = false
+* . ^short = "US Public Health Pregnancy Status Observation"
 
 * extension MS
 * extension ^slicing.discriminator.type = #value

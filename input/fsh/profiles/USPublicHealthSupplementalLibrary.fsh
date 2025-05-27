@@ -4,7 +4,7 @@ Id: us-ph-supplemental-library
 Title: "US Public Health Supplemental Library"
 Description: "This Library profile defines the asset-collection library containing US public health supplemental assets."
 * ^experimental = false
-
+* . ^short = "US Public Health Supplemental Library"
 
 * type = $library-type#asset-collection
 * type MS

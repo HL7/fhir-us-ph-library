@@ -4,7 +4,7 @@ Id: us-ph-is-postpartum
 Title: "US Public Health Is Postpartum"
 Description: "This Observation profile represents whether or not the patient is postpartum."
 * ^experimental = false
-
+* . ^short = "US Public Health Is Postpartum"
 
 * code 1..1 MS
 * code = $sct#249197004 "Maternal condition during puerperium (observable entity)"

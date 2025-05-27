@@ -4,7 +4,7 @@ Id: us-ph-content-bundle
 Title: "US Public Health Content Bundle"
 Description: "This Bundle profile organizes the content of the public health message to be exchanged with a public health agency."
 * ^experimental = false
-
+* . ^short = "US Public Health Content Bundle"
 
 * type 1..1 MS
 * type only code

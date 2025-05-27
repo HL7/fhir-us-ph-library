@@ -4,7 +4,7 @@ Id: us-ph-plandefinition
 Title: "US Public Health PlanDefinition"
 Description: "This PlanDefinition profile describes the US Public Health PlanDefinition."
 * ^experimental = false
-
+* . ^short = "US Public Health PlanDefinition"
 
 * extension contains
     USPublicHealthReceiverAddressExtension named receiverAddress 0..1 MS and

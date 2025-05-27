@@ -4,7 +4,7 @@ Id: us-ph-triggering-valueset-library
 Title: "US Public Health Triggering ValueSet Library"
 Description: "This Library profile defines the library containing a collection of ValueSets that are used to facilitate determination of a potentially reportable event (i.e. a \"triggering\" event).dd"
 * ^experimental = false
-
+* . ^short = "US Public Health Triggering ValueSet Library"
 
 * relatedArtifact ^slicing.discriminator.type = #profile
 * relatedArtifact ^slicing.discriminator.path = "resource.resolve()"
