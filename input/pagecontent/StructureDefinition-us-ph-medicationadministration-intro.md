@@ -24,16 +24,6 @@ This profile constrains the base MedicationAdministration resource and is differ
         <tr>
             <td>Case Reporting</td>
             <td>Medications</td>
-            <td>Medication Administered Performer</td>
-        </tr>
-        <tr>
-            <td>Case Reporting</td>
-            <td>Medications</td>
-            <td>Medication Administered Reason Reference</td>
-        </tr>
-        <tr>
-            <td>Case Reporting</td>
-            <td>Medications</td>
             <td>Medication Administration Dose</td>
         </tr>
         <tr>

@@ -19,10 +19,6 @@ Description: "This MedicationAdministration profile represents the event of a pa
 * subject MS
 * effective[x] ^short = "(USCDI+) Date Medication Administered"
 * effective[x] MS
-* performer.actor ^short = "(USCDI+) Medication Administered Performer"
-* performer.actor MS
-* reasonReference ^short = "(USCDI+) Medication Administered Reason Reference"
-* reasonReference MS
 * dosage MS
 * dosage.route MS
 * dosage.dose MS
