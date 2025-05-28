@@ -47,10 +47,10 @@ Description: "This Patient profile represents a US Public Health Patient."
 * telecom contains
     phone 0..* MS and
     email 0..* MS
-* telecom[phone] ^short = "Patient Contact (Phone)"
+* telecom[phone] ^short = "(USCDI+) Phone Number"
 * telecom[phone].system 1.. MS
 * telecom[phone].system = #phone (exactly)
-* telecom[email] ^short = "Patient Contact (email)"
+* telecom[email] ^short = "(USCDI+) Email Address"
 * telecom[email].system 1.. MS
 * telecom[email].system = #email (exactly)
 * gender.extension contains $data-absent-reason named dataAbsentReason 0..1 MS
