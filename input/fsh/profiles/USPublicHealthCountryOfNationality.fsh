@@ -11,8 +11,7 @@ Description: "This Observation profile represents the patient's country of natio
 * code ^short = "Ethnicity / related nationality data (observable entity)"
 * subject only Reference(USPublicHealthPatient)
 * effective[x] only dateTime
-* effective[x] MS
-* value[x] 1.. MS
+* value[x] 1..
 * value[x] only CodeableConcept
 * value[x] from $iso3166-1-2 (required)
 * value[x] ^short = "(USCDI+) Country of Nationality"

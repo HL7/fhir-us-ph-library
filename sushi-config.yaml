@@ -75,6 +75,7 @@ groups:
     - StructureDefinition/us-ph-travel-history
     - StructureDefinition/us-ph-vaccine-credential-patient-assertion
     - StructureDefinition/us-ph-country-of-nationality
+    - StructureDefinition/us-ph-country-of-residence
 
   content-profiles-entities:
     name: "Profiles: Content - Entities"
@@ -191,6 +192,7 @@ groups:
     - MedicationAdministration/us-ph-medadmin-eve-everywoman-naloxone-response
     - Observation/us-ph-char-home-environment-eve-everywoman
     - Observation/us-ph-country-of-nationality-eve-everywoman
+    - Observation/us-ph-country-of-residence-eve-everywoman
     - Observation/us-ph-disability-status-eve-everywoman
     - Observation/us-ph-emergency-outbreak-info-eve-everywoman
     - Observation/us-ph-exposure-contact-info-football-game
