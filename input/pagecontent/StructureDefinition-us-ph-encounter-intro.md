@@ -21,11 +21,6 @@ It is based on the [US Core Encounter]({{site.data.fhir.ver.hl7fhiruscore}}/Stru
         <tr>
             <td>Case Reporting</td>
             <td>Encounter Information</td>
-            <td>Admission Date/Time</td>
-        </tr>
-        <tr>
-            <td>Case Reporting</td>
-            <td>Encounter Information</td>
             <td>Encounter Diagnosis</td>
         </tr>
         <tr>

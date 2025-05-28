@@ -25,7 +25,7 @@ Description: "This profile represents the encounter related to a public health e
 * participant[responsibleProvider].individual only Reference(USPublicHealthPractitionerRole)
 * participant[responsibleProvider].individual ^short = "Responsible Provider"
 * participant[responsibleProvider].individual ^definition = "The provider in charge of care and the facility in which care was provided during the encounter"
-* period.start ^short = "(USCDI+) Admission Date/Time (Visit Start Date/Time)"
+* period.start ^short = "Admission Date/Time (Visit Start Date/Time)"
 * period.end ^short = "Discharge Date/Time (Visit End Date/Time)"
 * diagnosis MS
 * diagnosis ^short = "(USCDI+) Encounter Diagnosis"
