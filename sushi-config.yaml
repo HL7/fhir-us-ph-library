@@ -43,13 +43,17 @@ pages:
     title: Guidance
   downloads.md:
     title: Downloads
+  mapping.md:
+    title: Mappings
 
 menu:
   IG Home: index.html
   Table of Contents: toc.html
   Guidance: guidance.html
+  Mapping: mapping.html
   Downloads: downloads.html
   Artifact Index: artifacts.html
+
 
 groups:
   content-profiles:
