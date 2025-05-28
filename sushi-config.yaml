@@ -74,6 +74,7 @@ groups:
     - StructureDefinition/us-ph-transportation-details
     - StructureDefinition/us-ph-travel-history
     - StructureDefinition/us-ph-vaccine-credential-patient-assertion
+    - StructureDefinition/us-ph-country-of-nationality
 
   content-profiles-entities:
     name: "Profiles: Content - Entities"
@@ -189,6 +190,7 @@ groups:
     - MedicationAdministration/us-ph-medadmin-eve-everywoman-azithromycin
     - MedicationAdministration/us-ph-medadmin-eve-everywoman-naloxone-response
     - Observation/us-ph-char-home-environment-eve-everywoman
+    - Observation/us-ph-country-of-nationality-eve-everywoman
     - Observation/us-ph-disability-status-eve-everywoman
     - Observation/us-ph-emergency-outbreak-info-eve-everywoman
     - Observation/us-ph-exposure-contact-info-football-game
@@ -202,6 +204,7 @@ groups:
     - Observation/us-ph-travel-history-eve-everywoman-1999
     - Observation/us-ph-travel-history-eve-everywoman-201610
     - Observation/us-ph-travel-history-eve-everywoman-201801
+    - Observation/us-ph-vaccine-credential-assertion-eve-everywoman
     - PlanDefinition/us-ph-plandefinition-example
     - PlanDefinition/us-ph-plandefinition-namedEvent-example
 

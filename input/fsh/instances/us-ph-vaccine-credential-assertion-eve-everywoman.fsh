@@ -1,4 +1,4 @@
-Instance: observation-vaccine-credential-assertion-eve-everywoman
+Instance: us-ph-vaccine-credential-assertion-eve-everywoman
 InstanceOf: USPublicHealthVaccineCredentialPatientAssertion
 Title: "US Public Health Vaccine Credential Patient Assertion Observation Example: Eve Everywoman"
 Description: "Example of US Public Health Vaccine Credential Patient Assertion Observation"

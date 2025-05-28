@@ -6,11 +6,8 @@ Description: "This Observation profile represents whether or not the patient has
 * ^experimental = false
 * . ^short = "US PUblic Health Vaccine Credential Patient Assertion"
 
-* status = #final (exactly)
-* status MS
 * category = $system-observation-category#social-history
 * code = $loinc#11370-4
-* code MS
 * code ^short = "Immunization status - Reported"
 * subject only Reference(USPublicHealthPatient)
 * effective[x] only dateTime
