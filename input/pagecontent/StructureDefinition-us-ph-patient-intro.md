@@ -49,11 +49,6 @@ It is based on the [US Core Patient]({{site.data.fhir.ver.hl7fhiruscore}}/Struct
         <tr>
             <td>Case Reporting</td>
             <td>Patient Demographics</td>
-            <td>Identifier</td>
-        </tr>
-        <tr>
-            <td>Case Reporting</td>
-            <td>Patient Demographics</td>
             <td>Medical Record Number</td>
         </tr>
         <tr>
@@ -65,11 +60,21 @@ It is based on the [US Core Patient]({{site.data.fhir.ver.hl7fhiruscore}}/Struct
             <td>Case Reporting</td>
             <td>Patient Demographics</td>
             <td>Parent/Guardian Name</td>
+        </tr> 
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Patient Birth Place</td>
         </tr>
         <tr>
             <td>Case Reporting</td>
             <td>Patient Demographics</td>
             <td>Patient Name</td>
+        </tr>
+         <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Patient Identifier</td>
         </tr>
         <tr>
             <td>Case Reporting</td>
