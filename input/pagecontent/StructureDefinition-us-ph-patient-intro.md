@@ -99,6 +99,11 @@ It is based on the [US Core Patient]({{site.data.fhir.ver.hl7fhiruscore}}/Struct
         <tr>
             <td>Case Reporting</td>
             <td>Patient Demographics</td>
+            <td>Tribal Affiliation</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
             <td>Tribal Enrollment</td>
         </tr>
     </tbody>
