@@ -8,3 +8,5 @@ Description: "This Condition profile represents a sign, symptom, or diagnosis fo
 
 * verificationStatus ^short = "If a condition is mistakenly entered into the system and later corrected verificationStatus of 'entered-in-error' must be set"
 * subject only Reference(USPublicHealthPatient)
+* onsetDateTime ^short = "(USCDI+) Date of Onset"
+* recordedDate ^short = "(USCDI+) Date of Diagnosis"
