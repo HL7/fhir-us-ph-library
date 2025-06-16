@@ -6,6 +6,6 @@ Description: "This Organization profile represents an organization involved in p
 * ^experimental = false
 * . ^short = "US Public Health Organization"
 
-* identifer ^short = "(USCDI+) Facility Managing Organization Identifier"
+* identifier ^short = "(USCDI+) Facility Managing Organization Identifier"
 * telecom 1..
 * address 1..
