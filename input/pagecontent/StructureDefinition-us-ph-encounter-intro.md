@@ -48,5 +48,10 @@ It is based on the [US Core Encounter]({{site.data.fhir.ver.hl7fhiruscore}}/Stru
             <td>Encounter Information</td>
             <td>Encounter Type</td>
         </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Reason for the Encounter</td>
+        </tr>
     </tbody>
 </table>
