@@ -20,7 +20,7 @@ Description: "This profile represents the encounter related to a public health e
 * participant[responsibleProvider].type = $v3-ParticipationType#ATND
 * participant[responsibleProvider].individual 1.. MS
 * participant[responsibleProvider].individual only Reference(USPublicHealthPractitionerRole)
-* period.start ^short = "Admission Date/Time (Visit Start Date/Time)"
+* period.start ^short = "(USCDI+) Admission Date/Time (Visit Start Date/Time)"
 * period.end ^short = "Discharge Date/Time (Visit End Date/Time)"
 * reasonCode ^short = "(USCDI+) Reason for the Encounter"
 * reasonReference ^short = "(USCDI+) Reason for the Encounter"
