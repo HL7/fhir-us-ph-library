@@ -24,5 +24,10 @@ It is based on the [US Core Condition Encounter Diagnosis Profile]({{site.data.f
             <td>Problems</td>
             <td>Date of Onset</td>
         </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Problems</td>
+            <td>Date of Resolution</td>
+        </tr>
     </tbody>
 </table>

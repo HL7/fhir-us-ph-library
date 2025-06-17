@@ -8,5 +8,6 @@ Description: "This Condition profile represents an encounter diagnosis for a pub
 
 * verificationStatus ^short = "If a condition is mistakenly entered into the system and later corrected verificationStatus of 'entered-in-error' must be set"
 * subject only Reference(USPublicHealthPatient)
-* onsetDateTime ^short = "(USCDI+) Date of Onset"
-* recordedDate ^short = "(USCDI+) Date of Diagnosis"
+* onset[x] ^short = "(USCDI+) Date of Onset"
+* recorded[x] ^short = "(USCDI+) Date of Diagnosis"
+* abatement[x] ^short = "(USCDI+) Date of Resolution"
