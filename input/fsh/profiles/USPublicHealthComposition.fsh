@@ -31,6 +31,7 @@ Description: "This Composition profile represents a public health composition."
 * encounter ^short = "Encounter related to the public health event"
 * encounter ^definition = "This Encounter profile represents the encounter related to the public health event."
 * encounter ^isModifier = false
+* date ^short = "(USCDI+) Date of the Report"
 * date MS
 * date ^isModifier = false
 * author ..* MS

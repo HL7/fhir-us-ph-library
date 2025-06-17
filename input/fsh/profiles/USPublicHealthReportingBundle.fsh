@@ -10,6 +10,7 @@ Description: "This Bundle profile is used for exchanging a public health report 
 * type only code
 * type = #message (exactly)
 * timestamp 0..1 MS
+* timestamp ^short = "(USCDI+) Report Submission Date/Time"
 * entry 2.. MS
 * entry ^slicing.discriminator.type = #profile
 * entry ^slicing.discriminator.path = "$this.resource"
@@ -18,4 +19,4 @@ Description: "This Bundle profile is used for exchanging a public health report 
     messageHeader 1..1 MS and
     contentBundle 0..1 MS
 * entry[messageHeader].resource only USPublicHealthMessageHeader
-* entry[contentBundle].resource only USPublicHealthContentBundle
+* entry[contentBundle].resource only USPublicHealthContentBundle or USPublicHealthDocumentBundle
