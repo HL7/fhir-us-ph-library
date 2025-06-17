@@ -340,7 +340,7 @@ This table serves as a crosswalk between USCDI+ PH data elements and their corre
         <tr>
             <td>Patient Demographics</td>
             <td>Current Address</td>
-            <td><a href="{site.data.fhir.ver.hl7fhiruscore}/StructureDefinition-us-core-patient.html">US Core Patient Profile</a></td>
+            <td><a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-patient.html">US Core Patient Profile</a></td>
             <td>Patient.address</td>
         </tr>
         <tr>
