@@ -160,7 +160,7 @@ This table serves as a crosswalk between USCDI+ PH data elements and their corre
         <tr>
             <td>Immunizations</td>
             <td>Patient Assertion of Vaccine Credentials</td>
-            <td>&lt;a href=&quot;StructureDefinition-us-ph-vaccine-credential-patient-assertion.html&quot;&gt;US Public Health Vaccine Credential Patient Assertion&lt;/a&gt;</td>
+            <td><a href="StructureDefinition-us-ph-vaccine-credential-patient-assertion.html">US Public Health Vaccine Credential Patient Assertion</a></td>
             <td>Observation.value[x]</td>
         </tr>
         <tr>
