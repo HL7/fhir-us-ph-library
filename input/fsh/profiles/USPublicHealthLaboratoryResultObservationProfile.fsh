@@ -7,6 +7,6 @@ Description: "This Observation profile represents laboratory result observations
 * . ^short = "US Public Health Laboratory Result Observation Profile"
 
 * status ^short = "(USCDI+) Result Status"
-* code ^short = "(USCDI+) Laboratory Result Test Name, Laboratory Test/Panel Code"
+* code ^short = "(USCDI+) Laboratory Result Test Name, (USCDI+) Laboratory Test/Panel Code"
 * value[x] ^short = "(USCDI+) Values/Results"
 * specimen only Reference(USPublicHealthSpecimen)
