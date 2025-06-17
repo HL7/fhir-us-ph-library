@@ -10,4 +10,3 @@ Description: "This Condition profile represents a sign, symptom, or diagnosis fo
 * subject only Reference(USPublicHealthPatient)
 * onset[x] ^short = "(USCDI+) Date of Onset"
 * recorded[x] ^short = "(USCDI+) Date of Diagnosis"
-* abatement[x] ^short = "(USCDI+) Date of Resolution"

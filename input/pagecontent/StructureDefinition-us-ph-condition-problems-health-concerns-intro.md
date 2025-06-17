@@ -24,10 +24,5 @@ It is based on the [US Core Condition Problems and Health Concerns Profile]({{si
             <td>Problems</td>
             <td>Date of Onset</td>
         </tr>
-        <tr>
-            <td>Case Reporting</td>
-            <td>Problems</td>
-            <td>Date of Resolution</td>
-        </tr>
     </tbody>
 </table>
