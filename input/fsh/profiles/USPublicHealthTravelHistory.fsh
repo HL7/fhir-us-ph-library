@@ -15,7 +15,7 @@ Description: "This Observation profile represents a patient's travel history."
 * subject 1.. MS
 * subject only Reference(USPublicHealthPatient)
 * effective[x] 1.. MS
-* effective[x] ^short = "Date or period of time spent in the location"
+* effective[x] ^short = "(USCDI+) Travel History Dates"
 * effective[x] ^definition = "It is important to accurately capture the most accurate dates possible. The focus should be on date of arrival and date of departure."
 * effective[x] ^isModifier = false
 * hasMember only Reference(USPublicHealthTransportationDetails or USPublicHealthExposureContactInformation)
@@ -27,8 +27,7 @@ Description: "This Observation profile represents a patient's travel history."
 * component contains
     travelLocation 1..* MS and
     travelPurpose 0..* MS
-* component[travelLocation] ^short = "Travel location"
-* component[travelLocation] ^definition = "Location of travel"
+* component[travelLocation] ^short = "(USCDI+) Travel History Location"
 * component[travelLocation].extension MS
 * component[travelLocation].extension ^slicing.discriminator.type = #value
 * component[travelLocation].extension ^slicing.discriminator.path = "url"

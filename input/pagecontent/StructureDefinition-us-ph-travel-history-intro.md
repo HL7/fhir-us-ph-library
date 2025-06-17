@@ -11,3 +11,28 @@ The following data for a patient can be recorded:
 * use Observation.component.codeableConcept to record a coded location
 * use Observationcomponent.extension to record a specific address
 * where a more granular address than state is known (e.g. city, street) it is appropriate to use the extension to record an address rather than using the coded location
+
+
+### Represented USCDI+ Data Elements
+
+<table border="1">
+    <thead>
+        <tr style="background-color:#DCDCDC">
+            <th style="text-align: center; vertical-align: middle;">Use Case</th>
+            <th style="text-align: center; vertical-align: middle;">Data Class</th>
+            <th style="text-align: center; vertical-align: middle;">Data Element Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Travel Information</td>
+            <td>Travel History Dates</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Travel Information</td>
+            <td>Travel History Location</td>
+        </tr>
+    </tbody>
+</table>
