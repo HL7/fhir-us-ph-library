@@ -305,8 +305,7 @@ This table serves as a crosswalk between USCDI+ PH data elements and their corre
             <td>Medications</td>
             <td>Medications</td>
             <td>US Core Medication Profile</td>
-            <td></td>
-            <td>medication.code&quot;</td>
+            <td>Medication.code</td>
         </tr>
         <tr>
             <td>Medications</td>
@@ -321,13 +320,13 @@ This table serves as a crosswalk between USCDI+ PH data elements and their corre
             <td>MedicationAdministration.extension</td>
         </tr>
         <tr>
-            <td>Newborn&#39;s Delivery Information</td>
+            <td>Newborn's Delivery Information</td>
             <td>Pregnancy Outcome</td>
             <td>US Public Health Pregnancy Outcome Observation</td>
             <td>Observation.value[x]</td>
         </tr>
         <tr>
-            <td>Newborn&#39;s Delivery Information</td>
+            <td>Newborn's Delivery Information</td>
             <td>Pregnancy Outcome Date</td>
             <td>US Public Health Pregnancy Outcome Observation</td>
             <td>Observation.effective[x]</td>
@@ -341,7 +340,7 @@ This table serves as a crosswalk between USCDI+ PH data elements and their corre
         <tr>
             <td>Patient Demographics</td>
             <td>Current Address</td>
-            <td>US Core Patient Profile</td>
+            <td><a href="{site.data.fhir.ver.hl7fhiruscore}/StructureDefinition-us-core-patient.html">US Core Patient Profile</a></td>
             <td>Patient.address</td>
         </tr>
         <tr>
@@ -371,97 +370,96 @@ This table serves as a crosswalk between USCDI+ PH data elements and their corre
         <tr>
             <td>Patient Demographics</td>
             <td>Date of Birth</td>
-            <td>US Core Patient Profile</td>
+            <td><a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-patient.html">US Core Patient Profile</a></td>
             <td>Patient.birthDate</td>
         </tr>
         <tr>
             <td>Patient Demographics</td>
             <td>Date of Death</td>
-            <td>US Core Patient Profile</td>
+            <td><a href="StructureDefinition-us-ph-patient.html">US Public Health Patient</a></td>
             <td>Patient.deceasedBoolean</td>
         </tr>
         <tr>
             <td>Patient Demographics</td>
             <td>Email Address</td>
-            <td>US Core Patient</td>
+            <td><a href="StructureDefinition-us-ph-patient.html">US Public Health Patient</a></td>
             <td>patient.telecom</td>
         </tr>
         <tr>
             <td>Patient Demographics</td>
             <td>Ethnicity</td>
-            <td>US Core Patient Profile</td>
+            <td><a href="StructureDefinition-us-ph-patient.html">US Public Health Patient</a></td>
             <td>Patient.ethnicity</td>
         </tr>
         <tr>
             <td>Patient Demographics</td>
             <td>Medical Record Number</td>
-            <td>US Public Health Patient<br></td>
+            <td><a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-patient.html">US Core Patient Profile</a></td>
             <td>Patient.identifier</td>
         </tr>
         <tr>
             <td>Patient Demographics</td>
             <td>Medicare Patient Identifier</td>
-            <td>US Public Health Patient<br></td>
+            <td><a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-patient.html">US Core Patient Profile</a></td>
             <td>Patient.identifier</td>
         </tr>
         <tr>
             <td>Patient Demographics</td>
             <td>Parent/Guardian Name</td>
-            <td>US Public Health Patient<br></td>
+            <td><a href="StructureDefinition-us-ph-patient.html">US Public Health Patient</a></td>
             <td>Patient.contact.name</td>
         </tr>
         <tr>
             <td>Patient Demographics</td>
             <td>Patient Birth Place</td>
-            <td>US Public Health Patient<br></td>
+            <td><a href="StructureDefinition-us-ph-patient.html">US Public Health Patient</a></td>
             <td>Patient.extension:birthPlace</td>
         </tr>
         <tr>
             <td>Patient Demographics</td>
             <td>Patient Identifier</td>
-            <td>US Public Health Patient<br></td>
+            <td><a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-patient.html">US Core Patient Profile</a></td>
             <td>Patient.identifier</td>
         </tr>
         <tr>
             <td>Patient Demographics</td>
             <td>Patient Name</td>
-            <td>US Public Health Patient<br></td>
+            <td><a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-patient.html">US Core Patient Profile</a></td>
             <td>Patient.name</td>
         </tr>
         <tr>
             <td>Patient Demographics</td>
             <td>Patient Vital Status</td>
-            <td>US Public Health Patient<br></td>
+            <td><a href="StructureDefinition-us-ph-patient.html">US Public Health Patient</a></td>
             <td>Patient.deceasedBoolean</td>
         </tr>
         <tr>
             <td>Patient Demographics</td>
             <td>Phone Number</td>
-            <td></td>
-            <td>US Core Patient&quot;</td>
+            <td><a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-patient.html">US Core Patient Profile</a></td>
             <td>patient.telecom</td>
         </tr>
         <tr>
             <td>Patient Demographics</td>
             <td>Preferred Language</td>
-            <td>US Core Patient Profile</td>
+            <td><a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-patient.html">US Core Patient Profile</a></td>
             <td>Patient.communication.language</td>
         </tr>
         <tr>
             <td>Patient Demographics</td>
             <td>Race</td>
-            <td>US Core Patient Profile</td>
+            <td><a href="StructureDefinition-us-ph-patient.html">US Public Health Patient</a></td>
             <td>Patient.race</td>
         </tr>
         <tr>
             <td>Patient Demographics</td>
-            <td>Related Person&#39;s Email</td>
+            <td>Related Person's Email</td>
             <td>US Core Related Person Profile</td>
             <td>RelatedPerson.telecom</td>
         </tr>
         <tr>
             <td>Patient Demographics</td>
-            <td>Related Person&#39;s Phone Number</td>
+            <td>Related Person's Phone Number</td>
             <td>US Core Related Person Profile</td>
             <td>RelatedPerson.telecom</td>
         </tr>
