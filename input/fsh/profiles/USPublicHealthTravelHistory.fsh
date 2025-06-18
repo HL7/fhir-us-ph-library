@@ -8,6 +8,7 @@ Description: "This Observation profile represents a patient's travel history."
 
 * category = $system-observation-category#social-history
 * code = $sct#420008001
+* code ^short = "Travel (event)"
 * subject only Reference(USPublicHealthPatient)
 * effective[x] 1..
 * effective[x] ^short = "(USCDI+) Travel History Dates"
