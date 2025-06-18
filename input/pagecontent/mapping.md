@@ -1,5 +1,7 @@
 ### USCDI+ PH to FHIR Profile
-This table serves as a crosswalk between USCDI+ PH data elements and their corresponding proposed FHIR profiles. The table maps the +PH data classes and elements to FHIR profiles, showing how each USCDI+ PH element aligns with FHIR's data standards. This alignment facilitates the standardized exchange of health information across different systems, ensuring consistency and interoperability in managing and sharing healthcare data.	
+This table provides a crosswalk between USCDI+ Public Health (USCDI+ PH) data elements and their associated FHIR profiles. It maps each USCDI+ PH data element to its corresponding FHIR profile and element. This alignment supports the standardized exchange of health information across systems, promoting consistency and interoperability in healthcare data management and sharing.
+
+Note: not all profiles and their data elements in this IG have corresponding USCDI+ data elements.
 
 <!-- <table border="1">
     <thead>

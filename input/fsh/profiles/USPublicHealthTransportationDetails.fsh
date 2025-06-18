@@ -1,21 +1,18 @@
 Profile: USPublicHealthTransportationDetails
-Parent: Observation
+Parent: us-core-simple-observation
 Id: us-ph-transportation-details
 Title: "US Public Health Transportation Details"
 Description: "This Observation profile represents transportation details such as the type of transport (plane, train, ship, etc.) along with any associated information (e.g. name of cruise ship, flight number, airport, seat number, cabin number, etc.)."
 * ^experimental = false
 * . ^short = "US Public Health Transportation Details"
 
-* category 1..1 MS
 * category = $v3-ActClass#TRNS
 * category ^short = "Transportation"
-* code 1..1 MS
 * code = $sct#424483007
-* code ^short = "Transportation details"
+* code ^short = "Transportation details (observable entity)"
 * effective[x] only dateTime or Period
-* effective[x] MS
 * effective[x] ^short = "Date or period of transportation"
-* value[x] 1.. MS
+* value[x] 1..
 * value[x] only CodeableConcept
 * value[x] from TransportVehicleType (required)
 * value[x] ^short = "Type of transport vehicle"

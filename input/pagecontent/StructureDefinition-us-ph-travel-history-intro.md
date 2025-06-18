@@ -2,7 +2,7 @@ It is based on the [US Core Simple Observation Profile]({{site.data.fhir.ver.hl7
 * sets Observation.category to "social-history"
 * sets Observation.code to "Travel (event)"
 * further constrains Observation.subject to the [US Public Health Patient](StructureDefinition-us-ph-patient.html)
-* adds hasMember references to [US Public Health Transportation Details](StructureDefinition-us-ph-transportation-details.html) and [US Public Health Exposure Contact Information](StructureDefinition-us-ph-exposure-contact-information.html)
+* adds Observation.hasMember references to [US Public Health Transportation Details](StructureDefinition-us-ph-transportation-details.html) and [US Public Health Exposure Contact Information](StructureDefinition-us-ph-exposure-contact-information.html)
 
 The following data for a patient can be recorded:
 
