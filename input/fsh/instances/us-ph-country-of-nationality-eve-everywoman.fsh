@@ -4,6 +4,7 @@ Title: "US Public Health Country of Nationality Example: Eve Everywoman"
 Description: "Example of US Public Health Country of Nationality Observation"
 Usage: #example
 * status = #final
+* category[us-core] = $system-observation-category#social-history "Social History"
 * code = $sct#186034007 "Ethnicity / related nationality data (observable entity)"
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"

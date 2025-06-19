@@ -6,7 +6,7 @@ Description: "This Observation profile represents the patient's country of natio
 * ^experimental = false
 * . ^short = "US Public Health Country of Nationality"
 
-* category = $system-observation-category#social-history
+* category[us-core] = $system-observation-category#social-history
 * code = $sct#186034007
 * code ^short = "Ethnicity / related nationality data (observable entity)"
 * subject only Reference(USPublicHealthPatient)

@@ -4,6 +4,8 @@ Title: "US Public Health Disability Status - Eve Everywoman"
 Description: "US Public Health Disability Status: Eve Everywoman example"
 Usage: #example
 * status = #final
+* category[us-core] = $system-observation-category#disability-status "Disability Status"
+* category[us-core].text = "Disability Status"
 * code = $loinc#69856-3 "Are you deaf, or do you have serious difficulty hearing"
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"
