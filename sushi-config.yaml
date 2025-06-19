@@ -19,7 +19,7 @@ extension:
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
     valueCode: trial-use
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
-    valueInteger: 3
+    valueInteger: 4
 jurisdiction: urn:iso:std:iso:3166#US
 
 dependencies:
@@ -75,6 +75,7 @@ groups:
     - StructureDefinition/us-ph-pregnancy-outcome-observation
     - StructureDefinition/us-ph-pregnancy-status-observation
     - StructureDefinition/us-ph-specimen
+    - StructureDefinition/us-ph-symptom-observation
     - StructureDefinition/us-ph-transportation-details
     - StructureDefinition/us-ph-travel-history
     - StructureDefinition/us-ph-vaccine-credential-patient-assertion
@@ -198,12 +199,14 @@ groups:
     - Observation/us-ph-disability-status-eve-everywoman
     - Observation/us-ph-emergency-outbreak-info-eve-everywoman
     - Observation/us-ph-exposure-contact-info-football-game
+    - Observation/us-ph-exposure-contact-info-redhill
     - Observation/us-ph-lab-result-eve-everywoman-lymphocytes
     - Observation/us-ph-lab-result-eve-everywoman-pertussis
     - Observation/us-ph-postpartum-status-eve-everywoman
     - Observation/us-ph-pregnancy-outcome-eve-everywoman
     - Observation/us-ph-pregnancy-status-eve-everywoman
     - Observation/us-ph-reportability-information-observation
+    - Observation/us-ph-symptom-observation-headache-eve-everywoman
     - Observation/us-ph-transportation-details-eve-everywoman
     - Observation/us-ph-travel-history-eve-everywoman-1999
     - Observation/us-ph-travel-history-eve-everywoman-201610
