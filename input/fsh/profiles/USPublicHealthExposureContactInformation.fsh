@@ -21,6 +21,7 @@ Description: "This Observation profile represents potential patient exposure and
 * code.coding ^slicing.discriminator.type = #value
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.rules = #open
+* code.coding ^short = "Each slice contains a suggested value set, but values are not restricted to these value sets."
 * code.coding contains 
     exposureSetting 0..1 MS and
     exposureLocation 0..1 MS and
