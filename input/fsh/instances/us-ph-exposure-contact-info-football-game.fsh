@@ -4,8 +4,8 @@ Title: "US Public Health Exposure Contact Information - Football Game"
 Description: "US Public Health Exposure Contact Information: Football Game example"
 Usage: #example
 * status = #final
-* category = $v3-ActClass#EXPOS "exposure"
-* category.text = "An interaction between entities that provides opportunity for transmission of a physical, chemical, or biological agent from an exposure source entity to an exposure target entity."
+// * category = $v3-ActClass#EXPOS "exposure"
+* category[exposure].text = "An interaction between entities that provides opportunity for transmission of a physical, chemical, or biological agent from an exposure source entity to an exposure target entity."
 * code = $umls#C3841750 "Mass gathering"
 * code.text = "Mass gathering (football game)"
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
