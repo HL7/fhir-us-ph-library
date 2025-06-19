@@ -4,8 +4,8 @@ Title: "US Public Health Laboratory Result - Eve Everywoman - Pertussis"
 Description: "US Public Health Laboratory Result: Eve Everywoman - Pertussis example"
 Usage: #example
 * status = #final
-* category = $observation-category#laboratory "Laboratory"
-* category.text = "Laboratory"
+* category[us-core] = $observation-category#laboratory "Laboratory"
+* category[us-core].text = "Laboratory"
 * code = $loinc#11585-7 "Bordetella pertussis Ab [Units/volume] in Serum"
 * code.text = "Bordetella pertussis Ab [Units/volume] in Serum"
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"

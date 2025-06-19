@@ -4,8 +4,8 @@ Title: "US Public Health Laboratory Result - Eve Everywoman - Lymphocytes"
 Description: "US Public Health Laboratory Result: Eve Everywoman - Lymphocytes example"
 Usage: #example
 * status = #final
-* category = $observation-category#laboratory "Laboratory"
-* category.text = "Laboratory"
+* category[us-core] = $observation-category#laboratory "Laboratory"
+* category[us-core].text = "Laboratory"
 * code = $loinc#731-0 "Lymphocytes [#/volume] in Blood by Automated count"
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"

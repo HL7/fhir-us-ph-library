@@ -12,5 +12,5 @@ Usage: #example
 * effectiveDateTime = "2018-01-05"
 * performer.reference = "PractitionerRole/us-ph-practitionerrole-henry-seven"
 * valueCodeableConcept = $sct#21243004 "Term birth of newborn (finding)"
-* component.code = $loinc#73771-8 "Birth order"
-* component.valueInteger = 1
+* component[birthOrder].code = $loinc#73771-8 "Birth order"
+* component[birthOrder].valueInteger = 1

@@ -38,7 +38,7 @@ A definition for CodeSystem 'urn:oid:2.16.840.1.114222.4.5.274' could not be fou
 URL value 'urn:oid:2.16.840.1.114222.4.5.232' does not resolve
 
 # 09 US Core 6.1.0 is the version that is cited in regulation for 2026, the next release of the US Public Health Profiles Library will move to the next cited release of US Core
-The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 7.0.0. This reference is getting old and the more recent version should be considered
+The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 8.0.0. This reference is getting old and the more recent version should be considered
 
 # 10 Use of the Extension: Max value set is inherited from the base FHIR v4.0.1 Observation resource on the Observation.language.binding.extension
 INFORMATION: StructureDefinition/us-ph-characteristics-of-home-environment: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated

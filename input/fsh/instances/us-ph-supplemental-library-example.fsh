@@ -12,15 +12,15 @@ Usage: #example
 * type = $library-type#asset-collection
 * publisher = "{site.data.fhir.ig.publisher}"
 * description = "Description of library"
-* useContext[0].code = $us-ph-codesystem-usage-context-type#reporting "Reporting"
-* useContext[=].valueCodeableConcept = $us-ph-codesystem-usage-context#supplemental "Supplemental"
-* useContext[+].code = $us-ph-codesystem-usage-context-type#specification-type "Specification Type"
-* useContext[=].valueCodeableConcept = $us-ph-codesystem-usage-context#program "Program"
+* useContext[reportingContext].code = $us-ph-codesystem-usage-context-type#reporting "Reporting"
+* useContext[reportingContext].valueCodeableConcept = $us-ph-codesystem-usage-context#supplemental "Supplemental"
+* useContext[specificationTypeContext].code = $us-ph-codesystem-usage-context-type#specification-type "Specification Type"
+* useContext[specificationTypeContext].valueCodeableConcept = $us-ph-codesystem-usage-context#program "Program"
 * jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * jurisdiction.text = "United States of America"
 * purpose = "Purpose of library"
 * effectivePeriod.start = "2020-11-01"
-* relatedArtifact[0].type = #composed-of
-* relatedArtifact[=].resource = "http://hl7.org/fhir/us/ph-library/Library/us-ph-executable-library-rule-filters"
-* relatedArtifact[+].type = #composed-of
-* relatedArtifact[=].resource = "http://hl7.org/fhir/us/ph-library/Library/us-ph-supplemental-valueset-library-example"
+* relatedArtifact[computableLibrary].type = #composed-of
+* relatedArtifact[computableLibrary].resource = "http://hl7.org/fhir/us/ph-library/Library/us-ph-executable-library-rule-filters"
+* relatedArtifact[supplementalValueSetLibrary].type = #composed-of
+* relatedArtifact[supplementalValueSetLibrary].resource = "http://hl7.org/fhir/us/ph-library/Library/us-ph-supplemental-valueset-library-example"

@@ -3,7 +3,7 @@ InstanceOf: USPublicHealthConditionEncounterDiagnosis
 Title: "US Public Health Condition Encounter Diagnosis - Eve Everywoman - Diabetes"
 Description: "US Public Health Condition Encounter Diagnosis: Eve Everywoman - Diabetes example"
 Usage: #example
-* category = $condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[us-core] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * code = $sct#73211009 "Diabetes mellitus (disorder)"
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"
