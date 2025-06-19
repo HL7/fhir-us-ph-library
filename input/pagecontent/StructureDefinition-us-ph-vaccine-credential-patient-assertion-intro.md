@@ -1,5 +1,5 @@
 It is based on the [US Core Simple Observation Profile]({{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation.html) profile and further constrains it:
-* sets Observation.category to "social-history"
+* sets Observation.category to "social-history | social history"
 * sets Observation.code to "Immunization status - Reported"
 * further constrains Observation.subject to the [US Public Health Patient](StructureDefinition-us-ph-patient.html)
 * binds Observation.value\[x\] to the Yes No Unknown NotAsked value set

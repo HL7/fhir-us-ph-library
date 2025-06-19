@@ -4,9 +4,7 @@ Title: "US Public Health Transportation Details - Eve Everywoman"
 Description: "US Public Health Transportation Details: Eve Everywoman example"
 Usage: #example
 * status = #final
-* category = $v3-ActClass#TRNS "Transportation"
-* category.text = "Transportation"
-* code = $sct#424483007 "Transportation details (observable entity)"
+* category[transportation].text = "Transportation"
 * code.text = "Transportation details (observable entity)"
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"
