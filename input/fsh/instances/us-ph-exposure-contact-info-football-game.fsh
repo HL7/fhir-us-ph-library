@@ -5,7 +5,7 @@ Description: "US Public Health Exposure Contact Information: Football Game examp
 Usage: #example
 * status = #final
 * category[us-core] = $system-observation-category#social-history
-* category = $v3-ActClass#EXPOS "exposure"
+* category[exposure] = $v3-ActClass#EXPOS "exposure"
 * category[exposure].text = "An interaction between entities that provides opportunity for transmission of a physical, chemical, or biological agent from an exposure source entity to an exposure target entity."
 * code.coding[exposureSetting].code = #C3841750
 * code.coding[exposureSetting].system = $umls
