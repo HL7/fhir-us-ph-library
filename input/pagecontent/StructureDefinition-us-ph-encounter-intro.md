@@ -20,6 +20,11 @@ It is based on the [US Core Encounter]({{site.data.fhir.ver.hl7fhiruscore}}/Stru
     <tbody>
         <tr>
             <td>Case Reporting</td>
+            <td>Intake Assessment</td>
+            <td>Chief Complaint</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
             <td>Encounter Information</td>
             <td>Admission Date/Time</td>
         </tr>

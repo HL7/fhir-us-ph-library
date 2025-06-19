@@ -24,8 +24,14 @@ Description: "This profile represents the encounter related to a public health e
 * period.end ^short = "Discharge Date/Time (Visit End Date/Time)"
 * reasonCode ^short = "(USCDI+) Reason for the Encounter"
 * reasonReference ^short = "(USCDI+) Reason for the Encounter"
+* reasonReference ^slicing.discriminator.type = #profile
+* reasonReference ^slicing.discriminator.path = "$this.resolve()"
+* reasonReference ^slicing.rules = #open
+* reasonReference contains chiefComplaint 0..1 MS
+* reasonReference[chiefComplaint] only Reference(USPublicHealthChiefComplaintObservation)
+* reasonReference[chiefComplaint] ^short = "(USCDI+) Chief Complaint"
 * diagnosis MS
-* diagnosis ^short = "(USCDI+) Encounter Diagnosis"
+* diagnosis ^short = "(USCDI+) Encounter Diagnosis, (USCDI+) Chief Complaint (when diagnosis.use='CC')"
 * diagnosis.condition only Reference(USPublicHealthConditionEncounterDiagnosis)
 * diagnosis.condition MS
 * diagnosis.use MS
