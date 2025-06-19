@@ -6,7 +6,7 @@ Description: "This Observation profile represents the Disability Element defined
 * ^experimental = false
 * . ^short = "US Public Health Disability Status"
 
-* category[us-core] = $system-observation-category#disability-status
+* category[us-core] = $system-us-core-category#disability-status
 * code from DisabilityStatusAssessment (required)
 * code ^short = "(USCDI+) Disability Status"
 * subject only Reference(USPublicHealthPatient)
