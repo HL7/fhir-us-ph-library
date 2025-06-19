@@ -6,8 +6,8 @@ It is based on the [US Core Simple Observation Profile]({{site.data.fhir.ver.hl7
 
 Profile Use Guidance: 
 * Observation.extension\[address\]: if known, an address where the exposure/contact took place
-* Observation.code: The type of exposure/contact (environmental, activity, event, location, person, animal, etc.). 
-* Observation.focus: A reference to a Patient, RelatedPerson, Location, Group, etc. when the exposure/contact is an entity (person, animal, location)
+* Observation.code: The type of exposure/contact \(environmental, activity, event, location, person, animal, etc.\). 
+* Observation.focus: A reference to a Patient, RelatedPerson, Location, Group, etc. when the exposure/contact is an entity \(person, animal, location\)
     * an animal would be represented by a RelatedPerson that contains the Extension Practitioner Animal Species. 
 * Observation.valueString: free text information about the exposure/contact
 * Observation.effective\[x\]: the date or period of exposure
