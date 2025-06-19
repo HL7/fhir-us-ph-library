@@ -18,16 +18,16 @@ Description: "This Observation profile represents potential patient exposure and
 * category[exposure] ^definition = "Use AEXPOS for aquisition exposure, use TEXPOS for transmission exposure, or use EXPOS if the type of exposure is unknown"
 
 * code ^short = "(USCDI+) Exposure/Contact Type"
-* code.coding ^slicing.discriminator.type = #pattern
+* code.coding ^slicing.discriminator.type = #value
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.rules = #open
 * code.coding contains 
     exposureSetting 0..1 MS and
     exposureLocation 0..1 MS and
     exposureSocial 0..1 MS
-* code.coding[exposureSetting] from $valueset-exposure-setting (example)
-* code.coding[exposureLocation] from $valueset-exposure-location (example)
-* code.coding[exposureSocial] from $valueset-social-history-type (example)
+* code.coding[exposureSetting] from $valueset-exposure-setting (required)
+* code.coding[exposureLocation] from $valueset-exposure-location (required)
+* code.coding[exposureSocial] from $valueset-social-history-type (required)
 * subject only Reference(USPublicHealthPatient)
 // add animal (i.e. don't use relatedperson)
 * focus only Reference(USPublicHealthPatient or RelatedPerson or Group or USPublicHealthLocation)

@@ -1,9 +1,10 @@
 It is based on the [US Core Simple Observation Profile]({{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation.html) profile and further constrains it:
-* sets Observation.category[us-core] to "social-history | social history"
-* sets Observation.category[exposure] to "TRNS | exposure"
-* suggests possible value sets for use in Observation.code
+* sets Observation.category\[us-core\] to "social-history | social history"
+* sets Observation.category\[exposure\] to "TRNS | exposure"
+* binds to example value sets for use in Observation.code
 * further constrains Observation.subject to the [US Public Health Patient](StructureDefinition-us-ph-patient.html)
 
+Profile Use Guidance: 
 * Observation.extension\[address\]: if known, an address where the exposure/contact took place
 * Observation.code: The type of exposure/contact (environmental, activity, event, location, person, animal, etc.). 
 * Observation.focus: A reference to a Patient, RelatedPerson, Location, Group, etc. when the exposure/contact is an entity (person, animal, location)
