@@ -6,8 +6,10 @@ Description: "This Observation profile represents transportation details such as
 * ^experimental = false
 * . ^short = "US Public Health Transportation Details"
 
-* category = $v3-ActClass#TRNS
-* category ^short = "Transportation"
+* category[us-core] = $system-observation-category#social-history
+* category contains transportation 1..1 MS
+* category[transportation] = $v3-ActClass#TRNS
+* category[transportation] ^short = "Transportation"
 * code = $sct#424483007
 * code ^short = "Transportation details (observable entity)"
 * effective[x] only dateTime or Period
