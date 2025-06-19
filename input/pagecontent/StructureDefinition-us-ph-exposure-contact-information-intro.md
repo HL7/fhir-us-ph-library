@@ -1,7 +1,7 @@
 It is based on the [US Core Simple Observation Profile]({{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation.html) profile and further constrains it:
 * sets Observation.category\[us-core\] to "social-history | social history"
 * sets Observation.category\[exposure\] to "TRNS | exposure"
-* binds to example value sets for use in Observation.code
+* binds to suggested value sets for use in Observation.code
 * further constrains Observation.subject to the [US Public Health Patient](StructureDefinition-us-ph-patient.html)
 
 Profile Use Guidance: 
