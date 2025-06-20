@@ -7,6 +7,7 @@ Description: "This Condition profile represents a sign, symptom, or diagnosis fo
 * . ^short = "US Public Health Condition Problems Health Concerns"
 
 * verificationStatus ^short = "If a condition is mistakenly entered into the system and later corrected verificationStatus of 'entered-in-error' must be set"
+* code ^short = "(USCDI+) Suspected Diagnosis"
 * subject only Reference(USPublicHealthPatient)
 * onset[x] ^short = "(USCDI+) Date of Onset"
 * recordedDate ^short = "(USCDI+) Date of Diagnosis"

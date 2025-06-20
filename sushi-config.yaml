@@ -189,6 +189,7 @@ groups:
     - Composition/us-ph-composition-example
     - Condition/us-ph-condition-encounter-diagnosis-diabetes
     - Condition/us-ph-condition-problem-health-concern-hypertension
+    - Condition/us-ph-condition-encounter-diagnosis-suspected-measles
     - Encounter/us-ph-encounter-eve-everywoman-outpatient
     - Endpoint/us-ph-endpoint-salem-medical-center
     - Endpoint/us-ph-endpoint-ymca
