@@ -40,6 +40,7 @@ Description: "This Composition profile represents a public health composition."
 * author ^definition = "It is possible to have multiple authors - especially in the case where the default author is the organization. For public health reporting this could contain the contact details for the Infection Control Professional (ICP) specific to the condition being reported on. If the main author of the document is not a person, it is recommended to have an additional person author contact who is specific for a disease for follow-up requirements. This person could be the ICP. Where a trigger occurs outside of an encounter the author will represent the Provider and Facility for reporting purposes."
 * author ^isModifier = false
 * title MS
+* custodian ^short = "Custodian Organization Address, Custodian Organization Id, Custodian Organization Name, Custodian Organization Telecom (contained in referenced US Public Health Organization)"
 * custodian only Reference(USPublicHealthOrganization)
 * custodian MS
 * relatesTo MS

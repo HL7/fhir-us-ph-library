@@ -12,8 +12,6 @@ Description: "This profile represents characteristics of the patient's home envi
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
 * value[x] from ResidenceAndAccommodationType (extensible)
-* value[x] ^short = "Characteristic of home environment"
+* value[x] ^short = "(USCDI+) Congregate Living, (USCDI+) Housing Instability, Homeless"
 * value[x] ^definition = "Characteristic of home environment"
-* value[x] ^example.label = "Example for \"homeless\""
-* value[x] ^example.valueCodeableConcept = $sct#32911000 "Homeless"
 * value[x] ^binding.description = "Residence and Accommodation Type"

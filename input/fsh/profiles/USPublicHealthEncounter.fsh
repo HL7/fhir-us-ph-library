@@ -36,9 +36,8 @@ Description: "This profile represents the encounter related to a public health e
 * diagnosis.condition MS
 * diagnosis.use MS
 * hospitalization.dischargeDisposition ^short = "(USCDI+) Encounter Disposition"
-* location ^short = "(USCDI+) Encounter Location"
-* location ^definition = "Location of the facility in which the public health encounter took place"
 * location 1..
 * location.location only Reference(USPublicHealthLocation)
-* location.location ^isModifier = false
+* location.location ^short = "(USCDI+) Encounter Location"
+* location.location ^definition = "Location of the facility in which the public health encounter took place"
 * serviceProvider only Reference(USPublicHealthOrganization)

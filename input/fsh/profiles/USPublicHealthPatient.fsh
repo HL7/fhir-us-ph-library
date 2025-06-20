@@ -78,7 +78,7 @@ Description: "This Patient profile represents a US Public Health Patient."
 * contact MS
 * contact ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name"
 * contact ^extension.valueString = "Contact"
-* contact.relationship ^short = "Parent/Guardian Code"
+* contact.relationship ^short = "(USCDI+) Relationship Type, Parent/Guardian Code"
 * contact.relationship 1..1 MS
 * contact.name 1.. MS
 * contact.name ^short = "(USCDI+) Parent/Guardian Name"

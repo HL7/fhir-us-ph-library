@@ -10,6 +10,8 @@ It is based on the [US Core Patient]({{site.data.fhir.ver.hl7fhiruscore}}/Struct
     * Patient.birthPlace (FHIR extension)
 * adds Patient.contact
 
+If the patient is homeless, complete as much Patient.address information as possible (city, zip, county, etc.) and use the Characteristics of Home Environment profile to indicate that the patient is homeless.
+
 ### Represented USCDI+ Data Elements
 
 <table border="1">
@@ -95,6 +97,21 @@ It is based on the [US Core Patient]({{site.data.fhir.ver.hl7fhiruscore}}/Struct
             <td>Case Reporting</td>
             <td>Patient Demographics</td>
             <td>Race</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Related Person's Email</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Related Person's Phone Number</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Patient Demographics</td>
+            <td>Relationship Type</td>
         </tr>
         <tr>
             <td>Case Reporting</td>

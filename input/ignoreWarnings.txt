@@ -31,11 +31,11 @@ INFORMATION: Library/us-ph-executable-library-rule-filters: Library.content[0]: 
 # 08 External value sets/code systems - these codes have all been checked and are valid
 A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/umls' could not be found, so the code cannot be validated
 A definition for CodeSystem 'urn:oid:1.0.3166.1' could not be found, so the code cannot be validated
-A definition for CodeSystem 'urn:oid:2.16.840.1.114222.4.5.274' could not be found, so the code cannot be validated
 A definition for CodeSystem 'urn:oid:2.16.840.1.114222.4.5.232' could not be found, so the code cannot be validated
-Unable to check whether the code is in the value set 'http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.3|1' because the code system urn:oid:2.16.840.1.114222.4.5.274 was not found
+A definition for CodeSystem 'urn:oid:2.16.840.1.114222.4.5.274' could not be found, so the code cannot be validated
 A definition for CodeSystem 'urn:oid:2.16.840.1.114222.4.5.274' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.3|1' because the code system urn:oid:2.16.840.1.114222.4.5.274 was not found
-URL value 'urn:oid:2.16.840.1.114222.4.5.232' does not resolve
+No definition could be found for URL value 'urn:oid:2.16.840.1.114222.4.5.232'
+Unable to check whether the code is in the value set 'http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.3|1' because the code system urn:oid:2.16.840.1.114222.4.5.274 was not found
 
 # 09 US Core 6.1.0 is the version that is cited in regulation for 2026, the next release of the US Public Health Profiles Library will move to the next cited release of US Core
 The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 8.0.0. This reference is getting old and the more recent version should be considered
