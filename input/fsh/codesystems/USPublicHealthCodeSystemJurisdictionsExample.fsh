@@ -11,47 +11,51 @@ Description: "This code system describes example jurisdictions."
 
 * ^caseSensitive = false
 * ^content = #complete
+
 * ^property[0].extension.url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem-property-required-binding-extension"
 * ^property[=].extension.valueCanonical = "http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-jurisdiction-types-example"
 * ^property[=].code = #type
 * ^property[=].description = "Type of public health jurisdiction."
 * ^property[=].type = #code
+
 * ^property[+].extension.url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem-property-required-binding-extension"
 * ^property[=].extension.valueCanonical = "http://hl7.org/fhir/us/core/ValueSet/us-core-usps-state"
 * ^property[=].code = #state
 * ^property[=].description = "USPS Two Letter Alphabetic Codes."
 * ^property[=].type = #code
+
 * ^property[+].code = #postalcode
 * ^property[=].description = "Postal code within the public health jurisdiction."
 * ^property[=].type = #string
+
 * #AK "ALASKA" "Alaska Department of Health and Social Services"
 * #AK ^property[0].code = #type
-* #AK ^property[=].valueCode = #STATE
+* #AK ^property[=].valueCode = #state-pha
 * #AK ^property[+].code = #state
 * #AK ^property[=].valueCode = #AK
 * #AL "ALABAMA" "Alabama Department of Public Health"
 * #AL ^property[0].code = #type
-* #AL ^property[=].valueCode = #STATE
+* #AL ^property[=].valueCode = #state-pha
 * #AL ^property[+].code = #state
 * #AL ^property[=].valueCode = #AL
 * #AR "ARKANSAS" "Arkansas Department of Health"
 * #AR ^property[0].code = #type
-* #AR ^property[=].valueCode = #STATE
+* #AR ^property[=].valueCode = #state-pha
 * #AR ^property[+].code = #state
 * #AR ^property[=].valueCode = #AR
 * #AS "AMERICAN_SAMOA" "American Samoa"
 * #AS ^property[0].code = #type
-* #AS ^property[=].valueCode = #STATE
+* #AS ^property[=].valueCode = #state-pha
 * #AS ^property[+].code = #state
 * #AS ^property[=].valueCode = #AS
 * #AZ "ARIZONA" "Arizona Department of Health Services"
 * #AZ ^property[0].code = #type
-* #AZ ^property[=].valueCode = #STATE
+* #AZ ^property[=].valueCode = #state-pha
 * #AZ ^property[+].code = #state
 * #AZ ^property[=].valueCode = #AZ
 * #CA "CALIFORNIA" "California Department of Public Health"
 * #CA ^property[0].code = #type
-* #CA ^property[=].valueCode = #STATE
+* #CA ^property[=].valueCode = #state-pha
 * #CA ^property[+].code = #state
 * #CA ^property[=].valueCode = #CA
 * #CA ^property[+].code = #postalcode
@@ -516,55 +520,55 @@ Description: "This code system describes example jurisdictions."
 * #CA ^property[=].valueString = #92199
 * #CHI "ILLINOIS" "Chicago Department of Public Health"
 * #CHI ^property[0].code = #type
-* #CHI ^property[=].valueCode = #CITY
+* #CHI ^property[=].valueCode = #city-pha
 * #CHI ^property[+].code = #state
 * #CHI ^property[=].valueCode = #IL
 * #CHI ^property[+].code = #postalcode
 * #CHI ^property[=].valueString = #60007
 * #CHR "VIRGIN_ISLANDS" "Christiansted (Test)"
 * #CHR ^property[0].code = #type
-* #CHR ^property[=].valueCode = #CITY
+* #CHR ^property[=].valueCode = #city-pha
 * #CHR ^property[+].code = #state
 * #CHR ^property[=].valueCode = #VI
 * #CHR ^property[+].code = #postalcode
 * #CHR ^property[=].valueString = #00820
 * #CO "COLORADO" "Colorado Department of Public Health and Environment"
 * #CO ^property[0].code = #type
-* #CO ^property[=].valueCode = #STATE
+* #CO ^property[=].valueCode = #state-pha
 * #CO ^property[+].code = #state
 * #CO ^property[=].valueCode = #CO
 * #CT "CONNECTICUT" "Connecticut Department of Public Health"
 * #CT ^property[0].code = #type
-* #CT ^property[=].valueCode = #STATE
+* #CT ^property[=].valueCode = #state-pha
 * #CT ^property[+].code = #state
 * #CT ^property[=].valueCode = #CT
 * #DC "DISTRICT_OF_COLUMBIA" "District of Columbia Department of Health"
 * #DC ^property[0].code = #type
-* #DC ^property[=].valueCode = #STATE
+* #DC ^property[=].valueCode = #state-pha
 * #DC ^property[+].code = #state
 * #DC ^property[=].valueCode = #DC
 * #DC ^property[+].code = #postalcode
 * #DC ^property[=].valueString = #20002
 * #DE "DELAWARE" "Delaware Health and Social Services"
 * #DE ^property[0].code = #type
-* #DE ^property[=].valueCode = #STATE
+* #DE ^property[=].valueCode = #state-pha
 * #DE ^property[+].code = #state
 * #DE ^property[=].valueCode = #DE
 * #DED "GUAM" "Dededo"
 * #DED ^property[0].code = #type
-* #DED ^property[=].valueCode = #COUNTY
+* #DED ^property[=].valueCode = #county-pha
 * #DED ^property[+].code = #state
 * #DED ^property[=].valueCode = #GU
 * #DED ^property[+].code = #postalcode
 * #DED ^property[=].valueString = #96912
 * #FL "FLORIDA" "Florida Department of Health"
 * #FL ^property[0].code = #type
-* #FL ^property[=].valueCode = #STATE
+* #FL ^property[=].valueCode = #state-pha
 * #FL ^property[+].code = #state
 * #FL ^property[=].valueCode = #FL
 * #GA "GEORGIA" "Georgia Department of Public Health"
 * #GA ^property[0].code = #type
-* #GA ^property[=].valueCode = #STATE
+* #GA ^property[=].valueCode = #state-pha
 * #GA ^property[+].code = #state
 * #GA ^property[=].valueCode = #GA
 * #GA ^property[+].code = #postalcode
@@ -573,17 +577,17 @@ Description: "This code system describes example jurisdictions."
 * #GA ^property[=].valueString = #30066
 * #GU "GUAM" "Guam Department of Public Health and Social Services"
 * #GU ^property[0].code = #type
-* #GU ^property[=].valueCode = #STATE
+* #GU ^property[=].valueCode = #state-pha
 * #GU ^property[+].code = #state
 * #GU ^property[=].valueCode = #GU
 * #HI "HAWAII" "Hawaii Department of Health"
 * #HI ^property[0].code = #type
-* #HI ^property[=].valueCode = #STATE
+* #HI ^property[=].valueCode = #state-pha
 * #HI ^property[+].code = #state
 * #HI ^property[=].valueCode = #HI
 * #HT "TEXAS" "Houston Health Department"
 * #HT ^property[0].code = #type
-* #HT ^property[=].valueCode = #CITY
+* #HT ^property[=].valueCode = #city-pha
 * #HT ^property[+].code = #state
 * #HT ^property[=].valueCode = #TX
 * #HT ^property[+].code = #postalcode
@@ -1076,42 +1080,42 @@ Description: "This code system describes example jurisdictions."
 * #HT ^property[=].valueString = #77598
 * #IA "IOWA" "Iowa Department of Public Health"
 * #IA ^property[0].code = #type
-* #IA ^property[=].valueCode = #STATE
+* #IA ^property[=].valueCode = #state-pha
 * #IA ^property[+].code = #state
 * #IA ^property[=].valueCode = #IA
 * #ID "IDAHO" "Idaho Department of Health and Welfare"
 * #ID ^property[0].code = #type
-* #ID ^property[=].valueCode = #STATE
+* #ID ^property[=].valueCode = #state-pha
 * #ID ^property[+].code = #state
 * #ID ^property[=].valueCode = #ID
 * #IL "ILLINOIS" "Illinois Department of Public Health"
 * #IL ^property[0].code = #type
-* #IL ^property[=].valueCode = #STATE
+* #IL ^property[=].valueCode = #state-pha
 * #IL ^property[+].code = #state
 * #IL ^property[=].valueCode = #IL
 * #IN "INDIANA" "Indiana State Department of Health"
 * #IN ^property[0].code = #type
-* #IN ^property[=].valueCode = #STATE
+* #IN ^property[=].valueCode = #state-pha
 * #IN ^property[+].code = #state
 * #IN ^property[=].valueCode = #IN
 * #KS "KANSAS" "Kansas Department of Health and Environment"
 * #KS ^property[0].code = #type
-* #KS ^property[=].valueCode = #STATE
+* #KS ^property[=].valueCode = #state-pha
 * #KS ^property[+].code = #state
 * #KS ^property[=].valueCode = #KS
 * #KY "KENTUCKY" "Kentucky Cabinet for Health and Family Services"
 * #KY ^property[0].code = #type
-* #KY ^property[=].valueCode = #STATE
+* #KY ^property[=].valueCode = #state-pha
 * #KY ^property[+].code = #state
 * #KY ^property[=].valueCode = #KY
 * #LA "LOUISIANA" "Louisiana Department of Health and Hospitals"
 * #LA ^property[0].code = #type
-* #LA ^property[=].valueCode = #STATE
+* #LA ^property[=].valueCode = #state-pha
 * #LA ^property[+].code = #state
 * #LA ^property[=].valueCode = #LA
 * #LAC "CALIFORNIA" "Los Angeles County Department of Public Health"
 * #LAC ^property[0].code = #type
-* #LAC ^property[=].valueCode = #COUNTY
+* #LAC ^property[=].valueCode = #county-pha
 * #LAC ^property[+].code = #state
 * #LAC ^property[=].valueCode = #CA
 * #LAC ^property[+].code = #postalcode
@@ -2078,82 +2082,82 @@ Description: "This code system describes example jurisdictions."
 * #LAC ^property[=].valueString = #93599
 * #MA "MASSACHUSETTS" "Massachusetts Department of Health and Human Services"
 * #MA ^property[0].code = #type
-* #MA ^property[=].valueCode = #STATE
+* #MA ^property[=].valueCode = #state-pha
 * #MA ^property[+].code = #state
 * #MA ^property[=].valueCode = #MA
 * #MD "MARYLAND" "Maryland Department of Health and Mental Hygiene"
 * #MD ^property[0].code = #type
-* #MD ^property[=].valueCode = #STATE
+* #MD ^property[=].valueCode = #state-pha
 * #MD ^property[+].code = #state
 * #MD ^property[=].valueCode = #MD
 * #ME "MAINE" "Maine Department of Health and Human Services"
 * #ME ^property[0].code = #type
-* #ME ^property[=].valueCode = #STATE
+* #ME ^property[=].valueCode = #state-pha
 * #ME ^property[+].code = #state
 * #ME ^property[=].valueCode = #ME
 * #MI "MICHIGAN" "Michigan Department of Community Health"
 * #MI ^property[0].code = #type
-* #MI ^property[=].valueCode = #STATE
+* #MI ^property[=].valueCode = #state-pha
 * #MI ^property[+].code = #state
 * #MI ^property[=].valueCode = #MI
 * #MN "MINNESOTA" "Minnesota Department of Health"
 * #MN ^property[0].code = #type
-* #MN ^property[=].valueCode = #STATE
+* #MN ^property[=].valueCode = #state-pha
 * #MN ^property[+].code = #state
 * #MN ^property[=].valueCode = #MN
 * #MO "MISSOURI" "Missouri State Department of Health and Senior Services"
 * #MO ^property[0].code = #type
-* #MO ^property[=].valueCode = #STATE
+* #MO ^property[=].valueCode = #state-pha
 * #MO ^property[+].code = #state
 * #MO ^property[=].valueCode = #MO
 * #MS "MISSISSIPPI" "Mississippi State Department of Health"
 * #MS ^property[0].code = #type
-* #MS ^property[=].valueCode = #STATE
+* #MS ^property[=].valueCode = #state-pha
 * #MS ^property[+].code = #state
 * #MS ^property[=].valueCode = #MS
 * #MT "MONTANA" "Montana Department of Public Health and Human Services"
 * #MT ^property[0].code = #type
-* #MT ^property[=].valueCode = #STATE
+* #MT ^property[=].valueCode = #state-pha
 * #MT ^property[+].code = #state
 * #MT ^property[=].valueCode = #MT
 * #NC "NORTH_CAROLINA" "North Carolina Department of Health and Human Services"
 * #NC ^property[0].code = #type
-* #NC ^property[=].valueCode = #STATE
+* #NC ^property[=].valueCode = #state-pha
 * #NC ^property[+].code = #state
 * #NC ^property[=].valueCode = #NC
 * #ND "NORTH_DAKOTA" "North Dakota Department of Health"
 * #ND ^property[0].code = #type
-* #ND ^property[=].valueCode = #STATE
+* #ND ^property[=].valueCode = #state-pha
 * #ND ^property[+].code = #state
 * #ND ^property[=].valueCode = #ND
 * #NE "NEBRASKA" "Nebraska Department of Health and Human Services"
 * #NE ^property[0].code = #type
-* #NE ^property[=].valueCode = #STATE
+* #NE ^property[=].valueCode = #state-pha
 * #NE ^property[+].code = #state
 * #NE ^property[=].valueCode = #NE
 * #NH "NEW_HAMPSHIRE" "New Hampshire Department of Health and Human Services"
 * #NH ^property[0].code = #type
-* #NH ^property[=].valueCode = #STATE
+* #NH ^property[=].valueCode = #state-pha
 * #NH ^property[+].code = #state
 * #NH ^property[=].valueCode = #NH
 * #NJ "NEW_JERSEY" "New Jersey Department of Health and Senior Services"
 * #NJ ^property[0].code = #type
-* #NJ ^property[=].valueCode = #STATE
+* #NJ ^property[=].valueCode = #state-pha
 * #NJ ^property[+].code = #state
 * #NJ ^property[=].valueCode = #NJ
 * #NM "NEW_MEXICO" "New Mexico Department of Health"
 * #NM ^property[0].code = #type
-* #NM ^property[=].valueCode = #STATE
+* #NM ^property[=].valueCode = #state-pha
 * #NM ^property[+].code = #state
 * #NM ^property[=].valueCode = #NM
 * #NV "NEVADA" "Nevada State Health Division"
 * #NV ^property[0].code = #type
-* #NV ^property[=].valueCode = #STATE
+* #NV ^property[=].valueCode = #state-pha
 * #NV ^property[+].code = #state
 * #NV ^property[=].valueCode = #NV
 * #NY "NEW_YORK" "New York State Department of Health"
 * #NY ^property[0].code = #type
-* #NY ^property[=].valueCode = #STATE
+* #NY ^property[=].valueCode = #state-pha
 * #NY ^property[+].code = #state
 * #NY ^property[=].valueCode = #NY
 * #NY ^property[+].code = #postalcode
@@ -2166,7 +2170,7 @@ Description: "This code system describes example jurisdictions."
 * #NY ^property[=].valueString = #11416
 * #NYC "NEW_YORK" "New York City Department of Health and Mental Hygiene"
 * #NYC ^property[0].code = #type
-* #NYC ^property[=].valueCode = #CITY
+* #NYC ^property[=].valueCode = #city-pha
 * #NYC ^property[+].code = #state
 * #NYC ^property[=].valueCode = #NY
 * #NYC ^property[+].code = #postalcode
@@ -2795,17 +2799,17 @@ Description: "This code system describes example jurisdictions."
 * #NYC ^property[=].valueString = #11697
 * #OH "OHIO" "Ohio Department of Health"
 * #OH ^property[0].code = #type
-* #OH ^property[=].valueCode = #STATE
+* #OH ^property[=].valueCode = #state-pha
 * #OH ^property[+].code = #state
 * #OH ^property[=].valueCode = #OH
 * #OK "OKLAHOMA" "Oklahoma State Department of Health"
 * #OK ^property[0].code = #type
-* #OK ^property[=].valueCode = #STATE
+* #OK ^property[=].valueCode = #state-pha
 * #OK ^property[+].code = #state
 * #OK ^property[=].valueCode = #OK
 * #OR "OREGON" "Oregon Health Authority"
 * #OR ^property[0].code = #type
-* #OR ^property[=].valueCode = #STATE
+* #OR ^property[=].valueCode = #state-pha
 * #OR ^property[+].code = #state
 * #OR ^property[=].valueCode = #OR
 * #OR ^property[+].code = #postalcode
@@ -2860,37 +2864,37 @@ Description: "This code system describes example jurisdictions."
 * #OR ^property[=].valueString = #97028
 * #PA "PENNSYLVANIA" "Pennsylvania Department of Health"
 * #PA ^property[0].code = #type
-* #PA ^property[=].valueCode = #STATE
+* #PA ^property[=].valueCode = #state-pha
 * #PA ^property[+].code = #state
 * #PA ^property[=].valueCode = #PA
 * #PHL "PENNSYLVANIA" "City of Philadelphia Department of Public Health"
 * #PHL ^property[0].code = #type
-* #PHL ^property[=].valueCode = #CITY
+* #PHL ^property[=].valueCode = #city-pha
 * #PHL ^property[+].code = #state
 * #PHL ^property[=].valueCode = #PA
 * #PR "PUERTO_RICO" "Puerto Rico"
 * #PR ^property[0].code = #type
-* #PR ^property[=].valueCode = #STATE
+* #PR ^property[=].valueCode = #state-pha
 * #PR ^property[+].code = #state
 * #PR ^property[=].valueCode = #PR
 * #RI "RHODE_ISLAND" "Rhode Island Department of Health"
 * #RI ^property[0].code = #type
-* #RI ^property[=].valueCode = #STATE
+* #RI ^property[=].valueCode = #state-pha
 * #RI ^property[+].code = #state
 * #RI ^property[=].valueCode = #RI
 * #SC "SOUTH_CAROLINA" "South Carolina Department of Health and Environmental Control"
 * #SC ^property[0].code = #type
-* #SC ^property[=].valueCode = #STATE
+* #SC ^property[=].valueCode = #state-pha
 * #SC ^property[+].code = #state
 * #SC ^property[=].valueCode = #SC
 * #SD "SOUTH_DAKOTA" "South Dakota Department of Health"
 * #SD ^property[0].code = #type
-* #SD ^property[=].valueCode = #STATE
+* #SD ^property[=].valueCode = #state-pha
 * #SD ^property[+].code = #state
 * #SD ^property[=].valueCode = #SD
 * #SDC "CALIFORNIA" "San Diego County Public Health Services"
 * #SDC ^property[0].code = #type
-* #SDC ^property[=].valueCode = #COUNTY
+* #SDC ^property[=].valueCode = #county-pha
 * #SDC ^property[+].code = #state
 * #SDC ^property[=].valueCode = #CA
 * #SDC ^property[+].code = #postalcode
@@ -3275,58 +3279,58 @@ Description: "This code system describes example jurisdictions."
 * #SDC ^property[=].valueString = #92199
 * #SF "CALIFORNIA" "San Francisco"
 * #SF ^property[0].code = #type
-* #SF ^property[=].valueCode = #CITY
+* #SF ^property[=].valueCode = #city-pha
 * #SF ^property[+].code = #state
 * #SF ^property[=].valueCode = #CA
 * #SN "NEVADA" "Southern Nevada Health District (SNHD)"
 * #SN ^property[0].code = #type
-* #SN ^property[=].valueCode = #DISTRICT
+* #SN ^property[=].valueCode = #district-pha
 * #SN ^property[+].code = #state
 * #SN ^property[=].valueCode = #NV
 * #STC "VIRGIN_ISLANDS" "Saint Croix (Test)"
 * #STC ^property[0].code = #type
-* #STC ^property[=].valueCode = #COUNTY
+* #STC ^property[=].valueCode = #county-pha
 * #STC ^property[+].code = #state
 * #STC ^property[=].valueCode = #VI
 * #STC ^property[+].code = #postalcode
 * #STC ^property[=].valueString = #00850
 * #STJ "VIRGIN_ISLANDS" "Saint John (Test)"
 * #STJ ^property[0].code = #type
-* #STJ ^property[=].valueCode = #COUNTY
+* #STJ ^property[=].valueCode = #county-pha
 * #STJ ^property[+].code = #state
 * #STJ ^property[=].valueCode = #VI
 * #STJ ^property[+].code = #postalcode
 * #STJ ^property[=].valueString = #00830
 * #TN "TENNESSEE" "Tennessee Department of Health"
 * #TN ^property[0].code = #type
-* #TN ^property[=].valueCode = #STATE
+* #TN ^property[=].valueCode = #state-pha
 * #TN ^property[+].code = #state
 * #TN ^property[=].valueCode = #TN
 * #TX "TEXAS" "Texas Department of State Health Services"
 * #TX ^property[0].code = #type
-* #TX ^property[=].valueCode = #STATE
+* #TX ^property[=].valueCode = #state-pha
 * #TX ^property[+].code = #state
 * #TX ^property[=].valueCode = #TX
 * #UT "UTAH" "Utah Department of Health"
 * #UT ^property[0].code = #type
-* #UT ^property[=].valueCode = #STATE
+* #UT ^property[=].valueCode = #state-pha
 * #UT ^property[+].code = #state
 * #UT ^property[=].valueCode = #UT
 * #VA "VIRGINIA" "Virginia Department of Health"
 * #VA ^property[0].code = #type
-* #VA ^property[=].valueCode = #STATE
+* #VA ^property[=].valueCode = #state-pha
 * #VA ^property[+].code = #state
 * #VA ^property[=].valueCode = #VA
 * #VI "VIRGIN_ISLANDS" "Virgin Islands Department of Health (Test)"
 * #VI ^property[0].code = #type
-* #VI ^property[=].valueCode = #STATE
+* #VI ^property[=].valueCode = #state-pha
 * #VI ^property[+].code = #state
 * #VI ^property[=].valueCode = #VI
 * #VI ^property[+].code = #postalcode
 * #VI ^property[=].valueString = #00830
 * #VT "VERMONT" "Vermont Department of Health"
 * #VT ^property[0].code = #type
-* #VT ^property[=].valueCode = #STATE
+* #VT ^property[=].valueCode = #state-pha
 * #VT ^property[+].code = #state
 * #VT ^property[=].valueCode = #VT
 * #VT ^property[+].code = #postalcode
@@ -3385,21 +3389,21 @@ Description: "This code system describes example jurisdictions."
 * #VT ^property[=].valueString = #05401
 * #WA "WASHINGTON" "Washington State Department of Health"
 * #WA ^property[0].code = #type
-* #WA ^property[=].valueCode = #STATE
+* #WA ^property[=].valueCode = #state-pha
 * #WA ^property[+].code = #state
 * #WA ^property[=].valueCode = #WA
 * #WI "WISCONSIN" "Wisconsin Department of Health Services"
 * #WI ^property[0].code = #type
-* #WI ^property[=].valueCode = #STATE
+* #WI ^property[=].valueCode = #state-pha
 * #WI ^property[+].code = #state
 * #WI ^property[=].valueCode = #WI
 * #WV "WEST_VIRGINIA" "West Virginia Department of Health and Human Resources, Bureau for Public Health"
 * #WV ^property[0].code = #type
-* #WV ^property[=].valueCode = #STATE
+* #WV ^property[=].valueCode = #state-pha
 * #WV ^property[+].code = #state
 * #WV ^property[=].valueCode = #WV
 * #WY "WYOMING" "Wyoming Department of Health"
 * #WY ^property[0].code = #type
-* #WY ^property[=].valueCode = #STATE
+* #WY ^property[=].valueCode = #state-pha
 * #WY ^property[+].code = #state
 * #WY ^property[=].valueCode = #WY
