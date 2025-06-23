@@ -13,6 +13,6 @@ Description: "This Observation profile represents whether or not the patient is 
 * effective[x] 1..
 * effective[x] only dateTime
 * value[x] 1..
+* value[x] ^short = "(USCDI+) Postpartum Status"
 * value[x] only CodeableConcept
 * value[x] from $yes-no-unknown-not-asked (required)
-* value[x] ^short = "Postpartum status: the point within the postpartum period for which a postpartum status is observed."

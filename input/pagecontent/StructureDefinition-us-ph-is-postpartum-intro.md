@@ -6,3 +6,22 @@ It is based on the [US Core Simple Observation Profile]({{site.data.fhir.ver.hl7
 
 
 The postpartum period, also known as the puerperium, refers to the time after delivery when maternal physiological changes related to pregnancy return to the nonpregnant state. There is consensus that the postpartum period begins upon delivery of the infant. The end is less well defined but is often considered the six to eight weeks after delivery because the effects of pregnancy on many systems have largely returned to the pre-pregnancy state.
+
+### Represented USCDI+ Data Elements
+
+<table border="1">
+    <thead>
+        <tr style="background-color:#DCDCDC">
+            <th style="text-align: center; vertical-align: middle;">Use Case</th>
+            <th style="text-align: center; vertical-align: middle;">Data Class</th>
+            <th style="text-align: center; vertical-align: middle;">Data Element Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Pregnancy Information</td>
+            <td>Postpartum Status</td>
+        </tr>
+    </tbody>
+</table>
