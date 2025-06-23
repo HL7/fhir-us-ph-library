@@ -105,3 +105,6 @@ Pinned the version of http://terminology.hl7.org/ValueSet/v3-ActCode to 3.0.0 fr
 Pinned the version of http://terminology.hl7.org/ValueSet/v3-ActEncounterCode to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.4.0)
 Pinned the version of http://terminology.hl7.org/ValueSet/v3-ActPriority to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.4.0)
 Pinned the version of http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.4.0)
+
+#14 Example code systems, TSMG exemption is not required
+INFORMATION: CodeSystem/us-ph-codesystem-endpoint-connection-type-example: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
