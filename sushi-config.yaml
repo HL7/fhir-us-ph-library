@@ -36,6 +36,15 @@ dependencies:
     uri: http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac
     id: usnlmvsac
 
+parameters:
+  show-inherited-invariants: false
+  path-expansion-params: 'Parameters-expansion-parameters-us-ph.json'  #path is relative to [base]/fsh-generated/resources
+  auto-oid-root: 2.16.840.1.113883.4.642.40.58
+  pin-canonicals: pin-multiples
+  special-url: http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdictions-example
+
+license: CC0-1.0
+
 pages:
   index.md:
     title: Home Page
@@ -287,11 +296,3 @@ groups:
     - ValueSet/us-ph-valueset-priority
     - ValueSet/us-ph-valueset-report-initiation-type
     - ValueSet/us-ph-valueset-triggerdefinition-namedevent
-
-parameters:
-  show-inherited-invariants: false
-  path-expansion-params: 'Parameters-expansion-parameters-us-ph.json'  #path is relative to [base]/fsh-generated/resources
-  auto-oid-root: 2.16.840.1.113883.4.642.40.58
-  pin-canonicals: pin-multiples
-
-license: CC0-1.0

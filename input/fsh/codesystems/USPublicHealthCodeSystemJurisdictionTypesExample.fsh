@@ -4,11 +4,8 @@ Title: "US Public Health CodeSystem - Jurisdiction Types Example"
 Description: "This example code system describes the possible types of jurisdictions that require public health reporting."
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"
 
-
 * ^status = #active
 * ^experimental = false
-
-
 
 * ^caseSensitive = false
 * ^content = #complete
