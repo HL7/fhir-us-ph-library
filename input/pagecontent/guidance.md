@@ -1,20 +1,20 @@
 ### Relationship to US Core
 
-The US Public Health Profiles Library will be revised and published in close conjunction with [US Core]({{site.data.fhir.ver.hl7fhiruscore}}) and have an analogous process for implementation, moderation, review, and approval. The US Public Health Profiles Library will defer as much as possible to US Core and only add constraints / profiles when necessary for public health use.
+The US Public Health Profiles Library is revised and published in close conjunction with [US Core]({{site.data.fhir.ver.hl7fhiruscore}}) and has an analogous process for implementation, moderation, review, and approval. The US Public Health Profiles Library defers as much as possible to US Core and only adds constraints / profiles when necessary for public health use.
 
-If a US Core profile is added that duplicates the concepts represented in a US Public Health Profiles Library profile (e.g. due to [United States Core Data Interoperability (USCDI)](https://www.healthit.gov/isa/united-states-core-data-interoperability-uscdi) promotion) then, as long as there are no additional constraints needed, the US Public Health Profiles Library profile would be retired in favor of the US Core profile.
+If a US Core profile is added that duplicates the concepts represented in a US Public Health Profiles Library profile (e.g. due to [United States Core Data Interoperability (USCDI)](https://www.healthit.gov/isa/united-states-core-data-interoperability-uscdi) promotion) then, as long as there are no additional constraints needed, the US Public Health Profiles Library profile will be retired in favor of the US Core profile.
 
 If constraints are added to a US Core profile that duplicate constraint(s) in a current USPHPL profile that is based on that US Core profile (e.g. US Public Health Patient profile which is based on the US Core Patient profile) then:
-* either (all US PH constraints duplicated in the US Core profile) the USPHPL profile would be retired in favor of the US Core profile
-* or (some US PH constraints duplicated in the US Core profile) the USPHPL profile would be updated to remove any duplicate constraints.
+* either (all US PH constraints duplicated in the US Core profile) the USPHPL profile will be retired in favor of the US Core profile
+* or (some US PH constraints duplicated in the US Core profile) the USPHPL profile will be updated to remove any duplicate constraints.
 		
-The US Public Health Profiles Library will strive to update to/synchronize with new releases of US Core.
+The US Public Health Profiles Library will update to/synchronize with new releases of US Core.
 
 The US Public Health Profiles Library will evolve over time and may be supported by an adjunct profiles registry that includes developing and informational profiles for public health use.
 
 ### Work Information
 
-This library does not include profiles to implement support for Occupational Data for Health (ODH). Use the profiles defined in the [Occupational Data for Health (ODH)](http://hl7.org/fhir/us/odh/) to describe structured work information primarily designed to facilitate clinical care, including population health and value-based care. ODH also can be used to support public health reporting.
+This library does not include profiles to implement support for Occupational Data for Health (ODH). Use the profiles defined in [US Core]({{site.data.fhir.ver.hl7fhiruscore}}) and [Occupational Data for Health (ODH)](http://hl7.org/fhir/us/odh/) to describe structured work information primarily designed to facilitate clinical care, including population health and value-based care. ODH also can be used to support public health reporting.
 
 ### Conformance
 
@@ -44,7 +44,7 @@ A Proposed Content or Architecture Profile Must Meet One or More of the Followin
 2. The profile concept is captured and is in production use in at least one EHR or public health system
 3. The profile supports a nationally accepted approach based on proposed US regulations or multiple local, tribal, territorial, and states' laws, policies, rulemaking, or well-established practices.
 
-A variance process modeled after the [US Core Variance process](https://confluence.hl7.org/display/CGP/US+Core+Variance+Request+Process) will be instituted. The process will strive for the automated identification of non-USCore, non-US Public Health Profiles Library profiles and their processing with the Public Health Work Group. The Public Health Work Group will review, discuss, and approve/deny variance requests at regularly scheduled work group calls/meetings.
+A variance process modeled after the [US Core Variance process](https://confluence.hl7.org/display/CGP/US+Core+Variance+Request+Process) is instituted. The process strives for the automated identification of non-USCore, non-US Public Health Profiles Library profiles and their processing with the Public Health Work Group. The Public Health Work Group will review, discuss, and approve/deny variance requests at regularly scheduled work group calls/meetings.
 
 #### Related Responsibilities of the Public Health Working Group
 
