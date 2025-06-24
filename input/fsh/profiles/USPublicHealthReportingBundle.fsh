@@ -20,3 +20,4 @@ Description: "This Bundle profile is used for exchanging a public health report 
     contentBundle 0..1 MS
 * entry[messageHeader].resource only USPublicHealthMessageHeader
 * entry[contentBundle].resource only USPublicHealthContentBundle or USPublicHealthDocumentBundle
+* entry[contentBundle] ^short = "US Public Health Content Bundle or US Public Health Document Bundle"
