@@ -229,6 +229,7 @@ groups:
     - Observation/us-ph-vaccine-credential-assertion-eve-everywoman
     - PlanDefinition/us-ph-plandefinition-example
     - PlanDefinition/us-ph-plandefinition-namedEvent-example
+    - Specimen/us-ph-specimen-serum
 
   examples-content-entities:
     name: "Examples: Content - Entities"

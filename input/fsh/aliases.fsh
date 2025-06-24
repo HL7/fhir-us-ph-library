@@ -46,3 +46,4 @@ Alias: $valueset-exposure-setting = http://phinvads.cdc.gov/fhir/ValueSet/2.16.8
 Alias: $valueset-exposure-location = http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.114222.4.11.3209
 Alias: $valueset-social-history-type = http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.88.12.80.60
 Alias: $valueset-us-core-condition = http://hl7.org/fhir/us/core/ValueSet/us-core-condition-code
+Alias: $system-v2-0487 = http://terminology.hl7.org/CodeSystem/v2-0487
