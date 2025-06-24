@@ -45,6 +45,8 @@ parameters:
      - http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdictions-example
      - http://example.org/fhir/CodeSystem/us-ph-codesystem-endpoint-connection-type-example
      - http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdiction-types-example
+     - http://example.org/fhir/ValueSet/us-ph-valueset-computable-example
+     - http://example.org/fhir/ValueSet/us-ph-valueset-executable-chlamydia-example
 
 license: CC0-1.0
 
@@ -233,7 +235,7 @@ groups:
 
   examples-content-entities:
     name: "Examples: Content - Entities"
-    description: "These are example instances of the Content: Entities profiles that show what data produced and consumed by systems conforming with the profiles in this library might look like."
+    description: "These are sample instances of Content: Entities profiles, illustrating the types of data that systems adhering to the profiles in this library might produce and consume."
     resources:
     - Device/device-software-ymca
     - Group/us-ph-survey-practitioner-group-example
@@ -249,7 +251,7 @@ groups:
 
   examples-architecture:
     name: "Examples: Architecture"
-    description: "These are example instances of the Architecture profiles that show what data produced and consumed by systems conforming with the profiles in this library might look like."
+    description: "These are sample instances of the Architecture profiles, demonstrating the types of data that systems conforming to the profiles in this library might produce and consume."
     resources:
     - Bundle/us-ph-content-bundle-example
     - Bundle/us-ph-document-bundle-example

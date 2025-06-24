@@ -25,7 +25,7 @@ Description: "This ValueSet profile describes the minimum requirements for US pu
 * title ^short = "Value set title"
 * title ^definition = "The title of the value set."
 * useContext 1..* MS
-* useContext ^slicing.discriminator.type = #pattern
+* useContext ^slicing.discriminator.type = #value
 * useContext ^slicing.discriminator.path = "code"
 * useContext ^slicing.rules = #open
 * useContext contains

@@ -1,4 +1,4 @@
-Instance: us-ph-messageheader-content-bundle
+Instance: us-ph-messageheader-content-bundle-example
 InstanceOf: USPublicHealthMessageHeader
 Title: "US Public Health MessageHeader - Content Bundle"
 Description: "US Public Health MessageHeader: Content Bundle example"

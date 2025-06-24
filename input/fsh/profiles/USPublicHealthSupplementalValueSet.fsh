@@ -7,7 +7,7 @@ Description: "This ValueSet profile describes the requirements for a value set u
 * . ^short = "US Public Health Supplemental ValueSet"
 
 * useContext 2..* MS
-* useContext ^slicing.discriminator.type = #pattern
+* useContext ^slicing.discriminator.type = #value
 * useContext ^slicing.discriminator.path = "code"
 * useContext ^slicing.rules = #closed
 * useContext contains reportingContext 1..1 MS
