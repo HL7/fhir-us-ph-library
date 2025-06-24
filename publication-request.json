@@ -4,5 +4,7 @@
 	"path": "http://hl7.org/fhir/us/ph-library/2025Sep",
 	"mode": "working",
 	"status": "ballot",
-	"sequence": "STU 2"
+	"sequence": "STU 2",
+	"desc": "STU 2 for Public Health Library, align with USCDI+ Public Health Case Reporting Use Case data elements and update to US Core 6.1.0",
+	"first": false
 }
