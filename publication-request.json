@@ -1,8 +1,8 @@
 {
 	"package-id": "hl7.fhir.us.ph-library",
-	"version": "1.0.0",
-	"path": "http://hl7.org/fhir/us/ph-library/STU1",
-	"mode": "milestone",
-	"status": "trial-use",
-	"sequence": "STU 1",
+	"version": "2.0.0-ballot",
+	"path": "http://hl7.org/fhir/us/ph-library/2025Sep",
+	"mode": "working",
+	"status": "ballot",
+	"sequence": "STU 2"
 }
