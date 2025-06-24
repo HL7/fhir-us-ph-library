@@ -11,7 +11,7 @@ Description: "This Bundle profile is used for exchanging a public health report 
 * type = #message (exactly)
 * timestamp 0..1 MS
 * timestamp ^short = "(USCDI+) Report Submission Date/Time"
-* entry 2.. MS
+* entry 1.. MS
 * entry ^slicing.discriminator.type = #profile
 * entry ^slicing.discriminator.path = "$this.resource"
 * entry ^slicing.rules = #open
