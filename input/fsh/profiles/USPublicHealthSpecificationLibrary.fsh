@@ -11,7 +11,7 @@ Description: "This Library profile defines the asset-collection library for a pu
 * type ^short = "asset-collection"
 * type ^definition = "Constrains the Library's Type to asset-collection."
 * useContext ..*
-* useContext ^slicing.discriminator.type = #pattern
+* useContext ^slicing.discriminator.type = #value
 * useContext ^slicing.discriminator.path = "code"
 * useContext ^slicing.rules = #open
 * useContext contains

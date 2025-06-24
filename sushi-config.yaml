@@ -38,7 +38,7 @@ dependencies:
 
 parameters:
   show-inherited-invariants: false
-  path-expansion-params: 'Parameters-expansion-parameters-us-ph.json'  #path is relative to [base]/fsh-generated/resources
+  path-expansion-params: '../../input/expansion-parameters-us-ph.json'  #path is relative to [base]/fsh-generated/resources
   auto-oid-root: 2.16.840.1.113883.4.642.40.58
   pin-canonicals: pin-multiples
   special-url: 
@@ -76,6 +76,7 @@ groups:
     - StructureDefinition/us-ph-composition
     - StructureDefinition/us-ph-condition-encounter-diagnosis
     - StructureDefinition/us-ph-condition-problems-health-concerns
+    - StructureDefinition/us-ph-country-of-nationality
     - StructureDefinition/us-ph-disability-status
     - StructureDefinition/us-ph-emergency-outbreak-information
     - StructureDefinition/us-ph-encounter
@@ -91,7 +92,6 @@ groups:
     - StructureDefinition/us-ph-transportation-details
     - StructureDefinition/us-ph-travel-history
     - StructureDefinition/us-ph-vaccine-credential-patient-assertion
-    - StructureDefinition/us-ph-country-of-nationality
 
   content-profiles-entities:
     name: "Profiles: Content - Entities"
@@ -200,6 +200,7 @@ groups:
     resources:
     - Composition/us-ph-composition-example
     - Condition/us-ph-condition-encounter-diagnosis-diabetes
+    - Condition/us-ph-condition-encounter-diagnosis-hazy-vision
     - Condition/us-ph-condition-problem-health-concern-hypertension
     - Condition/us-ph-condition-encounter-diagnosis-suspected-measles
     - Encounter/us-ph-encounter-eve-everywoman-outpatient
@@ -208,6 +209,7 @@ groups:
     - MedicationAdministration/us-ph-medadmin-eve-everywoman-azithromycin
     - MedicationAdministration/us-ph-medadmin-eve-everywoman-naloxone-response
     - Observation/us-ph-char-home-environment-eve-everywoman
+    - Observation/us-ph-chief-complaint-observation-eve-everywoman
     - Observation/us-ph-country-of-nationality-eve-everywoman
     - Observation/us-ph-disability-status-eve-everywoman
     - Observation/us-ph-emergency-outbreak-info-eve-everywoman
@@ -267,7 +269,9 @@ groups:
     - CodeSystem/us-ph-codesystem-jurisdiction-types-example
     - CodeSystem/us-ph-codesystem-jurisdictions-example
     - Library/us-ph-executable-library-rule-filters
+    - Library/us-ph-specification-library-example
     - Library/us-ph-supplemental-library-example
+    - Library/us-ph-supplemental-valueset-library-example
     - Library/us-ph-triggering-valueset-library-example
     - Library/us-ph-valueset-library-example
     - Library/us-ph-valueset-library-expansion-parameters-example
