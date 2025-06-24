@@ -19,7 +19,7 @@ extension:
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
     valueCode: trial-use
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
-    valueInteger: 4
+    valueInteger: 3
 jurisdiction: urn:iso:std:iso:3166#US
 
 dependencies:
@@ -44,6 +44,7 @@ parameters:
   special-url: 
      - http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdictions-example
      - http://example.org/fhir/CodeSystem/us-ph-codesystem-endpoint-connection-type-example
+     - http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdiction-types-example
 
 license: CC0-1.0
 
