@@ -13,5 +13,4 @@ Usage: #example
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"
 * collection.collectedDateTime = "2022-09-27T18:07:12Z"
-* collection.container.type.text = "Serum Separator Tube"
 * collection.bodySite = $sct#1630006 "Supraorbital vein"
