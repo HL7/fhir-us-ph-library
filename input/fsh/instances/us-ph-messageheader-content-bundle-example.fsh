@@ -9,9 +9,10 @@ Usage: #example
 * extension[=].valueCode = #consequence
 * eventCoding = USPublicHealthCodeSystemMessageTypes#eicr-case-report-message "Indicates a message containing electronic case report healthcare data sent from clinical care."
 * destination.name = "YMCA Acme Message Gateway"
-* destination.target.reference = "Device/device-software-ymca"
+// * destination.target.reference = "Device/device-software-ymca"
+* destination.target.reference = "http://example.org/fhir/Device/device-software-ymca"
 * destination.endpoint = "http://example.org/ymca/fhir"
-* sender.reference = "Organization/us-ph-organization-salem-medical-center"
+* sender.reference = "http://example.org/fhir/Organization/us-ph-organization-salem-medical-center"
 * source.name = "Acme Central Patient Registry"
 * source.software = "FooBar Patient Manager"
 * source.version = "3.1.45.AABB"
