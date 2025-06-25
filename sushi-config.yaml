@@ -33,7 +33,7 @@ dependencies:
     uri: https://phinvads.cdc.gov/vads/fhir/ImplementationGuide/us.cdc.phinvads
     id: uscdcphinvads
   us.nlm.vsac:
-    version: 0.22.0
+    version: 0.23.0
     uri: http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac
     id: usnlmvsac
 
