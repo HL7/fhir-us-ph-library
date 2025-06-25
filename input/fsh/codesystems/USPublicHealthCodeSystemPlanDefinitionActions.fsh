@@ -3,7 +3,6 @@ Id: us-ph-codesystem-plandefinition-actions
 Title: "US Public Health CodeSystem - PlanDefinition Actions"
 Description: "The US Public Health PlanDefinition Actions CodeSystem contains codes for currently identified use cases for identifying actions in PlanDefinition."
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"
-* ^status = #active
 * ^experimental = false
 * ^caseSensitive = true
 * ^valueSet = "http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-plandefinition-action"

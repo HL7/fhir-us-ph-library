@@ -11,10 +11,10 @@ Description: "This ValueSet profile describes the minimum requirements for US pu
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains
-    $valueset-steward named extensionValueSetSteward 1..1 MS and
-    $valueset-author named extensionValueSetAuthor 1..1 MS
-* extension[extensionValueSetSteward] ^short = "Value set steward"
-* extension[extensionValueSetSteward] ^definition = "The entity or set of entities that create and may modify the Value Set Definition content. The name of a group or an individual, along with contact details."
+    // $valueset-steward named extensionValueSetSteward 1..1 MS and
+    $artifact-author named extensionValueSetAuthor 1..1 MS
+// * extension[extensionValueSetSteward] ^short = "Value set steward"
+// * extension[extensionValueSetSteward] ^definition = "The entity or set of entities that create and may modify the Value Set Definition content. The name of a group or an individual, along with contact details."
 * extension[extensionValueSetAuthor] ^short = "Value set author"
 * extension[extensionValueSetAuthor] ^definition = "The entity or set of entities that create and may modify the Value Set Definition content. The name of a group or an individual, along with contact details."
 * identifier MS
@@ -24,7 +24,8 @@ Description: "This ValueSet profile describes the minimum requirements for US pu
 * title 1.. MS
 * title ^short = "Value set title"
 * title ^definition = "The title of the value set."
-* useContext 1..* MS
+* publisher MS
+* useContext MS
 * useContext ^slicing.discriminator.type = #value
 * useContext ^slicing.discriminator.path = "code"
 * useContext ^slicing.rules = #open

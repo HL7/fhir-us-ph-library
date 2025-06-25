@@ -6,7 +6,6 @@ Description: "This example code system describes the possible types of jurisdict
 
 * ^url = "http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdiction-types-example"
 
-* ^status = #active
 * ^experimental = false
 
 * ^caseSensitive = false

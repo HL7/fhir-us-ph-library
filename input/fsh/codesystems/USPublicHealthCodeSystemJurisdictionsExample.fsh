@@ -6,7 +6,6 @@ Description: "This code system describes example jurisdictions."
 
 * ^url = "http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdictions-example"
 
-* ^status = #active
 * ^experimental = false
 
 * ^caseSensitive = false

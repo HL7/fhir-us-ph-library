@@ -10,3 +10,5 @@ Usage: #example
 * entry[=].resource = us-ph-messageheader-response
 * entry[+].fullUrl = "http://example.org/fhir/Bundle/us-ph-content-bundle-example"
 * entry[=].resource = us-ph-content-bundle-example
+* entry[+].fullUrl = "http://example.org/fhir/Organization/us-ph-organization-salem-medical-center"
+* entry[=].resource = us-ph-organization-salem-medical-center

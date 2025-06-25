@@ -3,9 +3,10 @@ title: "US Public Health Profiles Library"
 releaseLabel: STU 2.0.0 - Ballot
 fhirVersion: 4.0.1
 FSHOnly: false
-applyExtensionMetadataToRoot: false
+applyExtensionMetadataToRoot: true
 id: hl7.fhir.us.ph-library
 name: USPublicHealthProfilesLibrary
+description: "The US Public Health Profiles Library (USPHPL) is a collection of reusable architecture and content profiles representing common public health concepts and patterns."
 status: active
 version: 2.0.0-ballot
 copyrightYear: 2025+

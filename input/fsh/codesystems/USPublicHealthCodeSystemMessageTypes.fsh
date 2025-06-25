@@ -4,10 +4,7 @@ Title: "US Public Health CodeSystem - Message Types"
 Description: "The US Public Health Message Types CodeSystem contains codes for currently identified use cases for identifying types of messages being exchanged. As further use cases are identified, codes may be added to the code system."
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"
 
-* ^status = #active
 * ^experimental = false
-
-
 
 * ^caseSensitive = true
 * ^valueSet = "http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-message-types"

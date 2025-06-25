@@ -6,7 +6,6 @@ Description: "This code system contains codes that identify the HL7 FHIR File ty
 
 * ^url = "http://example.org/fhir/CodeSystem/us-ph-codesystem-endpoint-connection-type-example"
 
-* ^status = #active
 * ^experimental = false
 
 * ^caseSensitive = true

@@ -3,17 +3,15 @@ Id: us-ph-valueset-triggering-chlamydia-example
 Title: "US Public Health VaueSet - Triggering Chlamydia Example"
 Description: "This example set of values contains laboratory observations test names that represent that the patient may have the potentially reportable condition of Chlamydia regardless of the clinical presentation of the condition."
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset"
-* ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/valueset-steward"
-* ^extension[=].valueContactDetail.name = "Example Steward"
-* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/valueset-author"
+
+* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-author"
 * ^extension[=].valueContactDetail.name = "Example Author"
+
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.840.1.113762.1.4.1146.1057.2"
-* ^version = "1.0.0"
-* ^status = #draft
+
 * ^experimental = true
-
-
+* ^publisher = "Example Steward"
 
 * ^useContext[0].code = $us-ph-codesystem-usage-context-type#reporting "Reporting"
 * ^useContext[=].valueCodeableConcept = $us-ph-codesystem-usage-context#triggering "Triggering"

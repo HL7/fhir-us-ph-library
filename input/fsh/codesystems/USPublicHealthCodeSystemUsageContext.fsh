@@ -3,10 +3,7 @@ Id: us-ph-codesystem-usage-context
 Title: "US Public Health CodeSystem - Usage Context"
 Description: "This code system contains codes that identify the use context of a ValueSet or Library."
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"
-* ^status = #active
 * ^experimental = false
-
-
 
 * ^caseSensitive = true
 * ^content = #complete

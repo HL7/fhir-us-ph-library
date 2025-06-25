@@ -15,9 +15,7 @@ Usage: #example
 Instance: valueset-cancer-trigger-codes-example
 InstanceOf: USPublicHealthValueSet
 Usage: #inline
-* extension[0].url = "http://hl7.org/fhir/StructureDefinition/valueset-steward"
-* extension[=].valueContactDetail.name = "CSTE Steward"
-* extension[+].url = "http://hl7.org/fhir/StructureDefinition/valueset-author"
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-author"
 * extension[=].valueContactDetail.name = "CSTE Author"
 * url = "http://hl7.org/fhir/us/ph-library/ValueSet/valueset-cancer-trigger-codes-example"
 * version = "3.0.0"
@@ -26,7 +24,7 @@ Usage: #inline
 * status = #draft
 * experimental = true
 * date = "2018-08-01"
-* publisher = "HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)"
+* publisher = "CSTE Steward"
 * contact.name = "HL7 International - Public Health"
 * contact.telecom.system = #url
 * contact.telecom.value = "http://www.hl7.org/Special/committees/pher"
