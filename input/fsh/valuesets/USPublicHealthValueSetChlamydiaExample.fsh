@@ -7,6 +7,8 @@ Description: "This example set of values contains laboratory observation test na
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-author"
 * ^extension[=].valueContactDetail.name = "Example Author"
 
+* ^url = "http://example.org/fhir/ValueSet/us-ph-valueset-chlamydia-example"
+
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.840.1.113762.1.4.1146.1057.3"
 

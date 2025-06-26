@@ -7,6 +7,7 @@ Description: "This code system contains codes that identify the use context of a
 
 * ^caseSensitive = true
 * ^content = #complete
+
 * #emergent "Emergent" "The artifact is an emergent reporting specification program release."
 * #program "Program" "The artifact is a reporting specification program."
 * #routine "Routine" "The artifact is a routine reporting specification program release."

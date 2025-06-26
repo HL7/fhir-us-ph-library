@@ -3,13 +3,13 @@ Id: us-ph-codesystem-triggerdefinition-namedevents
 Title: "US Public Health CodeSystem - Trigger Definition Named Events"
 Description: "The US Public Health TriggerDefinition NamedEvents CodeSystem contains codes for currently identified use cases for identifying named events to subscribe to in clinical workflows."
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"
-
 * ^experimental = false
 
 * ^caseSensitive = true
 * ^valueSet = "http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-triggerdefinition-namedevent"
 * ^hierarchyMeaning = #is-a
 * ^content = #complete
+
 * #encounter-change "Indicates a change in the patient's encounter records" "Indicates a change in the patient's encounter records which includes starting an encounter, closing an encounter, modifying data elements of an encounter. Encounter change events would be triggered by monitoring the Encounter resource."
 * #encounter-change #encounter-start "Indicates the start of an encounter" "Indicates the start of an encounter, where in encounter.period.low is populated with the start time."
 * #encounter-change #encounter-close "Indicates the close of an encounter" "Indicates the closure of an encounter, where in encounter.period.high is populated with the end time."

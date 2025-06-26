@@ -7,7 +7,9 @@ Description: "This valueset is a valueset created for the purposes of demonstrat
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-author"
 * ^extension[=].valueContactDetail.name = "Example Author"
 
-* ^experimental = false
+* ^url = "http://example.org/fhir/ValueSet/us-ph-valueset-supplemental-example"
+
+* ^experimental = true
 * ^publisher = "Example Steward"
 
 * ^useContext[0].code = $us-ph-codesystem-usage-context-type#reporting "Reporting"

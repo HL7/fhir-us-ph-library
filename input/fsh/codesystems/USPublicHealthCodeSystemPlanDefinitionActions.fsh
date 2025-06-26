@@ -4,10 +4,12 @@ Title: "US Public Health CodeSystem - PlanDefinition Actions"
 Description: "The US Public Health PlanDefinition Actions CodeSystem contains codes for currently identified use cases for identifying actions in PlanDefinition."
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"
 * ^experimental = false
+
 * ^caseSensitive = true
 * ^valueSet = "http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-plandefinition-action"
 * ^hierarchyMeaning = #is-a
 * ^content = #complete
+
 * #initiate-reporting-workflow "Initiate a reporting workflow" "Request the initiation of a reporting workflow for a patient for a specific context (e.g., encounter)."
 * #execute-reporting-workflow "Execute a series of actions to accomplish reporting" "This is top level action that uses other defined actions to accomplish reporting for a specific context (e.g., encounter)."
 * #execute-reporting-workflow #check-trigger-codes "Evaluate candidate patient's data against trigger codes to determine reportability" "Evaluate candidate patient's data against trigger codes to determine reportability."

@@ -48,6 +48,9 @@ parameters:
      - http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdiction-types-example
      - http://example.org/fhir/ValueSet/us-ph-valueset-computable-example
      - http://example.org/fhir/ValueSet/us-ph-valueset-executable-chlamydia-example
+     - http://example.org/fhir/ValueSet/us-ph-valueset-chlamydia-example
+     - http://example.org/fhir/ValueSet/us-ph-valueset-supplemental-example
+     - http://example.org/fhir/ValueSet/us-ph-valueset-triggering-chlamydia-example
 
 license: CC0-1.0
 

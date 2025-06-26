@@ -9,6 +9,7 @@ Description: "Thsis CodeSystem contains codes for currently identified use cases
 * ^valueSet = "http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-report-initiation-type"
 * ^hierarchyMeaning = #grouped-by
 * ^content = #complete
+
 * #subscription-notification "Indicates a report was initiation based on a Subscription Notification." "Indicates that a report creation was initiated based on a notification to a subscription topic."
 * #timer-notification "Indicates a report was initiation based on a Subscription Notification." "Indicates that a report creation was initiated based on a timer expiration. The timer can be absolute or a relative timer."
 * #manually-initiated "Indicates a report was initiated to a manual action by the provider." "Indicates that a report creation was initiated manually by a provider."
