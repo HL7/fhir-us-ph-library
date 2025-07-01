@@ -2,7 +2,9 @@ It is based on the [US Core Condition Problems and Health Concerns Profile]({{si
 * US Public Health Patient as the Condition.subject
 * verificationStatus guidance: in the case of a condition being mistakenly entered into the system and later corrected, set to 'entered-in-error'
 
-Note: A suspected diagnosis is identified by the code used, e.g. 772152006 | Measles suspected | SNOMED CT
+Notes: 
+ * A suspected diagnosis is identified by the code used, e.g. 772152006 | Measles suspected | SNOMED CT
+ * See {{site.data.fhir.ver.hl7fhiruscore}}StructureDefinition-us-core-condition-problems-health-concerns.html#mandatory-and-must-support-data-elements for details about Date of Diagnosis
 
 ### Represented USCDI+ Data Elements
 
@@ -24,6 +26,11 @@ Note: A suspected diagnosis is identified by the code used, e.g. 772152006 | Mea
             <td>Case Reporting</td>
             <td>Problems</td>
             <td>Date of Onset</td>
+        </tr>
+        <tr>
+            <td>Case Reporting</td>
+            <td>Problems</td>
+            <td>Date of Resolution</td>
         </tr>
         <tr>
             <td>Case Reporting</td>
