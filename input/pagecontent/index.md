@@ -28,15 +28,3 @@ This guide is compliant with FHIR Release 4.
 For Clinical Safety Information please refer to the [FHIR Implementer’s Safety Checklist]({{site.data.fhir.path}}safety.html).
 
 Disclaimer: All proprietary documents, guides, guidance, standards, codes, and values contained herein remain the property of their respective Standards Developing Organization (SDO). HL7 does not make any claim to ownership herein.
-
-
-### Authors and Contributors
-
-| **Role**       | **Name**       | **Email**                    |
-|----------------|----------------|------------------------------|
-| Primary Editor | Sarah Gaunt    | sarah.gaunt@lantanagroup.com |
-| Primary Editor | John Loonsk    | john.loonsk@jhu.edu          |
-| Contributor    | Nagesh Bashyam | nagesh.bashyam@drajer.com    |
-| Contributor    | Bryn Rhodes    | bryn@smilecdr.com            |
-| Contributor    | Adam Stevenson | adam.stevenson@smilecdr.com  |
-{: .grid }
