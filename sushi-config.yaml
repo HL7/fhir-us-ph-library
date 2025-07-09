@@ -64,6 +64,8 @@ pages:
     title: Downloads
   mapping.md:
     title: Mappings
+  change-log.md:
+    title: Change Log
 
 menu:
   IG Home: index.html
