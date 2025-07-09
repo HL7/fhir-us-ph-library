@@ -83,6 +83,7 @@ groups:
     description: "The set of Profiles: Content is composed of profiles defining what data is exchanged about health encounters, clinical findings, clinical history, and related concepts."
     resources:
     - StructureDefinition/us-ph-characteristics-of-home-environment
+    - StructureDefinition/us-ph-chief-complaint-observation
     - StructureDefinition/us-ph-composition
     - StructureDefinition/us-ph-condition-encounter-diagnosis
     - StructureDefinition/us-ph-condition-problems-health-concerns
@@ -263,6 +264,7 @@ groups:
     resources:
     - Bundle/us-ph-content-bundle-example
     - Bundle/us-ph-document-bundle-example
+    - Bundle/us-ph-messageheader-content-bundle-example
     - Bundle/us-ph-reporting-bundle-example
     - Bundle/us-ph-response-bundle-example
     - Bundle/us-ph-specification-bundle-example
@@ -279,6 +281,7 @@ groups:
     - CodeSystem/us-ph-codesystem-endpoint-connection-type-example
     - CodeSystem/us-ph-codesystem-jurisdiction-types-example
     - CodeSystem/us-ph-codesystem-jurisdictions-example
+    - CodeSystem/us-ph-codesystem-properties-example
     - Library/us-ph-executable-library-rule-filters
     - Library/us-ph-specification-library-example
     - Library/us-ph-supplemental-library-example
