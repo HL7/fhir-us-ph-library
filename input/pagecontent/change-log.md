@@ -12,3 +12,11 @@
 | [FHIR-50337](https://jira.hl7.org/browse/FHIR-50337) | Add new profiles/extensions for USCDI+ data elements that are not currently represented in PHPL (or US Core) |
 | [FHIR-50338](https://jira.hl7.org/browse/FHIR-50338) | Update existing PHPL profiles based on latest USCDI+ data requirements |
 | [FHIR-50339](https://jira.hl7.org/browse/FHIR-50339) | Update guidance page |
+
+Detailed Description of Changes
+
+|Artifact| Description of Changes |
+|---------|----------|
+| [US Public Health Patient](StructureDefinition-us-ph-patient.html) | replace reference US PH Tribal Affiliation Extenension with reference to US Core Tribal Affiliation Extension (same as in US Core Patient but made MS) |
+| [US Public Health Patient](StructureDefinition-us-ph-patient.html) | remove reference to Gender Identity extension |
+| [US Public Health Patient](StructureDefinition-us-ph-patient.html) | add USCDI+ mappings |
