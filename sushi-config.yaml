@@ -264,7 +264,6 @@ groups:
     resources:
     - Bundle/us-ph-content-bundle-example
     - Bundle/us-ph-document-bundle-example
-    - Bundle/us-ph-messageheader-content-bundle-example
     - Bundle/us-ph-reporting-bundle-example
     - Bundle/us-ph-response-bundle-example
     - Bundle/us-ph-specification-bundle-example
