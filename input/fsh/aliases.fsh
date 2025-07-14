@@ -50,3 +50,4 @@ Alias: $system-v2-0487 = http://terminology.hl7.org/CodeSystem/v2-0487
 Alias: $system-jurisdiction-types = http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdiction-types-example
 Alias: $system-properties = http://example.org/fhir/CodeSystem/us-ph-codesystem-properties-example
 Alias: $system-usps = https://www.usps.com/
+Alias: $system-diagnosis-role = http://terminology.hl7.org/CodeSystem/diagnosis-role

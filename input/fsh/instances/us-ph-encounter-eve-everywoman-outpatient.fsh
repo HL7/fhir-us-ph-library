@@ -16,7 +16,7 @@ Usage: #example
 * participant.individual.display = "Henry Seven, MD"
 * period.start = "2018-04-01T10:00:00-05:00"
 * period.end = "2018-04-02T10:15:00-05:00"
-* diagnosis.use = #CC
+* diagnosis.use = $system-diagnosis-role#CC
 * diagnosis.condition.reference = "Condition/us-ph-condition-encounter-diagnosis-diabetes"
 * location.location.reference = "Location/us-ph-location-salem-medical-center"
 * location.location.display = "Clinic Bldg A, Salem Medical Center, 4444 Healthcare Drive, Ann Arbor MI, 99999"
