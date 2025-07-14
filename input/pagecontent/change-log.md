@@ -32,151 +32,151 @@ Detailed Description of Changes
     </thead>
     <tbody>
         <tr>
-            <th>Whole IG</th>
+            <td>Whole IG</td>
             <td>Update dependency on US Core to <a href="https://hl7.org/fhir/us/core/STU6.1/index.html">US Core 6.1.0</a></td>
         </tr>
         <tr>
-            <th><a href="guidance.html">Guidance</a></th>
+            <td><a href="guidance.html">Guidance</a></td>
             <td>Update guidance</td>
         </tr>
         <tr>
-            <th><a href="mapping.html">Mapping</a></th>
+            <td><a href="mapping.html">Mapping</a></td>
             <td>Add USCDI+ mapping table</td>
         </tr>
         <tr>
-            <th><a href="change-log.html">Change Log</a></th>
+            <td><a href="change-log.html">Change Log</a></td>
             <td>Add Change Log</td>
         </tr>
         <tr>
-            <th>All relevant profiles</th>
+            <td>All relevant profiles</td>
             <td>Update descriptions, update examples, add USCDI+ mappings to descriptions</td>
         </tr>
         <tr>
-            <th>Observation profile examples</th>
+            <td>Observation profile examples</td>
             <td>Add Observation.performer to all Observation profile examples</td>
         </tr>
         <tr>
-            <th>All examples</th>
+            <td>All examples</td>
             <td>Update examples to support changes</td>
         </tr>
         <tr>
-            <th>US PH Tribal Affiliation Extension</th>
+            <td>US PH Tribal Affiliation Extension</td>
             <td>Remove extension (now exists in US Core: <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-tribal-affiliation.html">US Core Tribal Affiliation Extension</a>)</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-patient.html">US Public Health Patient</a></th>
-            <td>Replace reference to US PH Tribal Affiliation Extension with reference to <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-tribal-affiliation.html">US Core Tribal Affiliation Extension</a> and set reference to MS</td>
+            <td><a href="StructureDefinition-us-ph-patient.html">US Public Health Patient</a></td>
+            <td>Replace reference to US PH Tribal Affiliation Extension witd reference to <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-tribal-affiliation.html">US Core Tribal Affiliation Extension</a> and set reference to MS</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-patient.html">US Public Health Patient</a></th>
+            <td><a href="StructureDefinition-us-ph-patient.html">US Public Health Patient</a></td>
             <td>Remove reference to Gender Identity extension</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-characteristics-of-home-environment.html">US Public Health Characteristics of Home Environment</a></th>
-            <td>Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation">US Core Simple Observation Profile</a> as parent</td>
+            <td><a href="StructureDefinition-us-ph-characteristics-of-home-environment.html">US Public Health Characteristics of Home Environment</a></td>
+            <td>Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation.html">US Core Simple Observation Profile</a> as parent</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-characteristics-of-home-environment.html">US Public Health Characteristics of Home Environment</a></th>
+            <td><a href="StructureDefinition-us-ph-characteristics-of-home-environment.html">US Public Health Characteristics of Home Environment</a></td>
             <td>Set Observation.category to 'SDOH'</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-characteristics-of-home-environment.html">US Public Health Characteristics of Home Environment</a></th>
+            <td><a href="StructureDefinition-us-ph-characteristics-of-home-environment.html">US Public Health Characteristics of Home Environment</a></td>
             <td>Remove Observation.code and Observation.value MS (already set in US Core)</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-emergency-outbreak-information.html">US Public Health Emergency Outbreak Information</a></th>
-            <td>Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation">US Core Simple Observation Profile</a> as parent</td>
+            <td><a href="StructureDefinition-us-ph-emergency-outbreak-information.html">US Public Health Emergency Outbreak Information</a></td>
+            <td>Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation.html">US Core Simple Observation Profile</a> as parent</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-emergency-outbreak-information.html">US Public Health Emergency Outbreak Information</a></th>
+            <td><a href="StructureDefinition-us-ph-emergency-outbreak-information.html">US Public Health Emergency Outbreak Information</a></td>
             <td>Remove Observation.code constraints and Observation.value MS (already set in US Core)</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-pregnancy-status-observation.html">US Public Health Pregnancy Status Observation</a></th>
+            <td><a href="StructureDefinition-us-ph-pregnancy-status-observation.html">US Public Health Pregnancy Status Observation</a></td>
             <td>Add Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-observation-pregnancystatus">US Core Observation Pregnancy Status Profile</a> as parent as parent</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-pregnancy-status-observation.html">US Public Health Pregnancy Status Observation</a></th>
+            <td><a href="StructureDefinition-us-ph-pregnancy-status-observation.html">US Public Health Pregnancy Status Observation</a></td>
             <td>Remove Observation.code, Observation.effective[x], and Observation.value[x] constraints (already set in US Core)</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-pregnancy-status-observation.html">US Public Health Pregnancy Status Observation</a></th>
+            <td><a href="StructureDefinition-us-ph-pregnancy-status-observation.html">US Public Health Pregnancy Status Observation</a></td>
             <td>Remove Pregnancy Status value set (exists in US Core)</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-specimen.html">US Public Health Specimen</a></th>
+            <td><a href="StructureDefinition-us-ph-specimen.html">US Public Health Specimen</a></td>
             <td>New Profile</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-lab-result-observation.html">US Public Health Laboratory Result Observation</a></th>
+            <td><a href="StructureDefinition-us-ph-lab-result-observation.html">US Public Health Laboratory Result Observation</a></td>
             <td>Update reference to specimen to new US PH Specimen profile</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-medicationadministration.html">US Public Health MedicationAdministration</a></th>
+            <td><a href="StructureDefinition-us-ph-medicationadministration.html">US Public Health MedicationAdministration</a></td>
             <td>Add Medication.administration.dosage.dose.code and dosage.dose.units MS constraints</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-pregnancy-outcome-observation.htmll">US Public Health Pregnancy Outcome Observation</a></th>
-            <td>Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation">US Core Simple Observation Profile</a> as parent</td>
+            <td><a href="StructureDefinition-us-ph-pregnancy-outcome-observation.htmll">US Public Health Pregnancy Outcome Observation</a></td>
+            <td>Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation.html">US Core Simple Observation Profile</a> as parent</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-pregnancy-outcome-observation.htmll">US Public Health Pregnancy Outcome Observation</a></th>
+            <td><a href="StructureDefinition-us-ph-pregnancy-outcome-observation.htmll">US Public Health Pregnancy Outcome Observation</a></td>
             <td>Set Observation.category to 'social-history'</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-pregnancy-outcome-observation.htmll">US Public Health Pregnancy Outcome Observation</a></th>
+            <td><a href="StructureDefinition-us-ph-pregnancy-outcome-observation.htmll">US Public Health Pregnancy Outcome Observation</a></td>
             <td>Remove Observation.code MS constraint (already set in US Core)</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-vaccine-credential-patient-assertion.html">US Public Health Vaccine Credential Patient Assertion</a></th>
+            <td><a href="StructureDefinition-us-ph-vaccine-credential-patient-assertion.html">US Public Health Vaccine Credential Patient Assertion</a></td>
             <td>New Profile</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-country-of-nationality.html">US Public Health Country of Nationality</a></th>
+            <td><a href="StructureDefinition-us-ph-country-of-nationality.html">US Public Health Country of Nationality</a></td>
             <td>New Profile</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-travel-history.html">US Public Health Travel History</a></th>
-            <td>Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation">US Core Simple Observation Profile</a> as parent</td>
+            <td><a href="StructureDefinition-us-ph-travel-history.html">US Public Health Travel History</a></td>
+            <td>Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation.html">US Core Simple Observation Profile</a> as parent</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-transportation-details.html">US Public Health Transportation Details</a></th>
-            <td>Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation">US Core Simple Observation Profile</a> as parent</td>
+            <td><a href="StructureDefinition-us-ph-transportation-details.html">US Public Health Transportation Details</a></td>
+            <td>Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation.html">US Core Simple Observation Profile</a> as parent</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-is-postpartum.html">US Public Health Is Postpartum</a></th>
-            <td>Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation">US Core Simple Observation Profile</a> as parent</td>
+            <td><a href="StructureDefinition-us-ph-is-postpartum.html">US Public Health Is Postpartum</a></td>
+            <td>Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation.html">US Core Simple Observation Profile</a> as parent</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-disability-status.html">US Public Health Disability Status</a></th>
-            <td>Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation">US Core Simple Observation Profile</a> as parent</td>
+            <td><a href="StructureDefinition-us-ph-disability-status.html">US Public Health Disability Status</a></td>
+            <td>Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation.html">US Core Simple Observation Profile</a> as parent</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-exposure-contact-information.html">US Public Health Exposure Contact Information</a></th>
-            <td>Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation">US Core Simple Observation Profile</a> as parent</td>
+            <td><a href="StructureDefinition-us-ph-exposure-contact-information.html">US Public Health Exposure Contact Information</a></td>
+            <td>Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation.html">US Core Simple Observation Profile</a> as parent</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-exposure-contact-information.html">US Public Health Exposure Contact Information</a></th>
+            <td><a href="StructureDefinition-us-ph-exposure-contact-information.html">US Public Health Exposure Contact Information</a></td>
             <td>Add Observation.component</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-chief-complaint-observation.html">US Public Health Chief Complaint Observation</a></th>
+            <td><a href="StructureDefinition-us-ph-chief-complaint-observation.html">US Public Health Chief Complaint Observation</a></td>
             <td>New Profile</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-symptom-observation.html">StructureDefinition-us-ph-symptom-observation.html</a></th>
+            <td><a href="StructureDefinition-us-ph-symptom-observation.html">StructureDefinition-us-ph-symptom-observation.html</a></td>
             <td>New Profile</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-condition-encounter-diagnosis.html">US Public Health Encounter Diagnosis</a></th>
+            <td><a href="StructureDefinition-us-ph-condition-encounter-diagnosis.html">US Public Health Encounter Diagnosis</a></td>
             <td>Add guidance and example to support Suspected Diagnosis</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-condition-problems-health-concerns.html">US Public Health Condition Problems and Health Concerns</a></th>
+            <td><a href="StructureDefinition-us-ph-condition-problems-health-concerns.html">US Public Health Condition Problems and Health Concerns</a></td>
             <td>Add guidance and example to support Suspected Diagnosis</td>
         </tr>
         <tr>
-            <th><a href="StructureDefinition-us-ph-encounter.html">US Public Health Encounter</a></th>
+            <td><a href="StructureDefinition-us-ph-encounter.html">US Public Health Encounter</a></td>
             <td>Add guidance and update example to support Chief Complaint</td>
         </tr>
     </tbody>
