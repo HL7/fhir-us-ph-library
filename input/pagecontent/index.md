@@ -6,7 +6,7 @@ The US Public Health Profiles Library is instituted in close conjunction with US
 
 ### Background
 
-After evaluation and harmonization analysis of two large multi-condition and multi-use case public health projects, [Electronic Case Reporting (eCR)](http://hl7.org/fhir/us/ecr/) and [Making Electronic Data More available for Research and Public Health (MedMorph)](http://hl7.org/fhir/us/medmorph/), it was determined that there are many common elements between the two implementation guides (IGs). 
+After evaluation and harmonization analysis of large multi-condition and multi-use case public health projects including the [Electronic Case Reporting (eCR)](http://hl7.org/fhir/us/ecr/), it was determined that there are many common elements shared across implementation guides (IGs). 
 
 To avoid defining the same profiles multiple times, we have created the US Public Health Profiles Library for use by Public Health and other FHIR standards development efforts to define appropriate FHIR profiles, value sets, etc., once, and allow them to be referenced by any implementation guides. This USPHPL provides a starting point and framework for inclusion in multiple implementation guides focused on the exchange of Public Health information to support interoperability among public health systems and reduce provider and implementer burden.
 
@@ -18,6 +18,7 @@ This Guide is divided into several pages which are listed at the top of each pag
 
 * Home: Introduction and background for HL7 FHIR® US Public Health Profiles Library
 * [Guidance](guidance.html): Information on the library's relation to US Core, conformance, principles and criteria of library profiles inclusion and use of the included profiles
+* [Mappings](mapping.html): Mapping tables showing how each FHIR profile in the library corresponds to applicable USCDI+ Public Health data elements
 * [Downloads](downloads.html): Links to downloadable artifacts
 * [Artifact Index](artifacts.html): A list of the FHIR artifacts (profiles, examples, value sets, and code systems) defined as part of this guide
 
