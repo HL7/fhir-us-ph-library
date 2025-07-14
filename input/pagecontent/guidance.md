@@ -1,6 +1,6 @@
-### Relationship to US Core
+### Relationship to US Core and Alignment with USCDI+ Public Health
 
-The US Public Health Profiles Library is revised and published in close conjunction with [US Core]({{site.data.fhir.ver.hl7fhiruscore}}) and has an analogous process for implementation, moderation, review, and approval. The US Public Health Profiles Library defers as much as possible to US Core and only adds constraints / profiles when necessary for public health use.
+The US Public Health Profiles Library is revised and published in close conjunction with [US Core]({{site.data.fhir.ver.hl7fhiruscore}}) and has an analogous process for implementation, moderation, review, and approval. It aligns with the [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp) initiative by supporting priority public health use cases and advancing consisten, standards-based data exchange across public health systems. The US Public Health Profiles Library defers as much as possible to US Core and only adds constraints / profiles when necessary for public health use.
 
 If a US Core profile is added that duplicates the concepts represented in a US Public Health Profiles Library profile (e.g. due to [United States Core Data Interoperability (USCDI)](https://www.healthit.gov/isa/united-states-core-data-interoperability-uscdi) promotion) then, as long as there are no additional constraints needed, the US Public Health Profiles Library profile will be retired in favor of the US Core profile.
 
@@ -10,7 +10,7 @@ If constraints are added to a US Core profile that duplicate constraint(s) in a 
 		
 The US Public Health Profiles Library will update to/synchronize with new releases of US Core.
 
-The US Public Health Profiles Library will evolve over time and may be supported by an adjunct profiles registry that includes developing and informational profiles for public health use.
+The US Public Health Profiles Library will evolve over time and may be supported by an adjunct profiles registry that includes developing and informational profiles that serve evolving USCDI+ Public Health use cases. 
 
 ### Work Information
 
