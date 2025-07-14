@@ -270,6 +270,7 @@ groups:
     - Endpoint/us-ph-endpoint-pha
     - MessageDefinition/us-ph-messagedefinition-contentbundle-example
     - MessageHeader/us-ph-messageheader-case-report
+    - MessageHeader/us-ph-messageheader-content-bundle-example
     - MessageHeader/us-ph-messageheader-response
     - PlanDefinition/us-ph-plandefinition-alt-expression-example
 
