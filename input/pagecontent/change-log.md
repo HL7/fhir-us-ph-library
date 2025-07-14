@@ -116,15 +116,15 @@ Detailed Description of Changes
             <td>Add Medication.administration.dosage.dose.code and dosage.dose.units MS constraints</td>
         </tr>
         <tr>
-            <td><a href="StructureDefinition-us-ph-pregnancy-outcome-observation.htmll">US Public Health Pregnancy Outcome Observation</a></td>
+            <td><a href="StructureDefinition-us-ph-pregnancy-outcome-observation.html">US Public Health Pregnancy Outcome Observation</a></td>
             <td>Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation.html">US Core Simple Observation Profile</a> as parent</td>
         </tr>
         <tr>
-            <td><a href="StructureDefinition-us-ph-pregnancy-outcome-observation.htmll">US Public Health Pregnancy Outcome Observation</a></td>
+            <td><a href="StructureDefinition-us-ph-pregnancy-outcome-observation.html">US Public Health Pregnancy Outcome Observation</a></td>
             <td>Set Observation.category to 'social-history'</td>
         </tr>
         <tr>
-            <td><a href="StructureDefinition-us-ph-pregnancy-outcome-observation.htmll">US Public Health Pregnancy Outcome Observation</a></td>
+            <td><a href="StructureDefinition-us-ph-pregnancy-outcome-observation.html">US Public Health Pregnancy Outcome Observation</a></td>
             <td>Remove Observation.code MS constraint (already set in US Core)</td>
         </tr>
         <tr>
