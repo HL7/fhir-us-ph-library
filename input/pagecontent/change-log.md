@@ -1,6 +1,6 @@
-### Change Log
-### Changes in STU 2 - Ballot
+### STU 2 - Ballot
 
+#### Jira Tickets
 
 |JIRA Ticket|Ticket Description|
 |---------|----------|
@@ -21,7 +21,7 @@
         </tr>
     </thead> -->
 
-Detailed Description of Changes
+#### Detailed Description of Changes
 
 <table border="1">
     <thead>

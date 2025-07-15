@@ -21,6 +21,7 @@ This Guide is divided into several pages which are listed at the top of each pag
 * [Mappings](mapping.html): Mapping tables showing how each FHIR profile in the library corresponds to applicable USCDI+ Public Health data elements
 * [Downloads](downloads.html): Links to downloadable artifacts
 * [Artifact Index](artifacts.html): A list of the FHIR artifacts (profiles, examples, value sets, and code systems) defined as part of this guide
+* [Change Log](change-log.html): Changes between releases
 
 ### Other Information
 
