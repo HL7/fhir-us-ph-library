@@ -8,7 +8,6 @@ A definition for CodeSystem 'urn:oid:1.0.3166.1' could not be found, so the code
 A definition for CodeSystem 'urn:oid:2.16.840.1.114222.4.5.232' could not be found, so the code cannot be validated
 A definition for CodeSystem 'urn:oid:2.16.840.1.114222.4.5.274' could not be found, so the code cannot be validated
 A definition for CodeSystem 'urn:oid:2.16.840.1.114222.4.5.274' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.3|1' because the code system urn:oid:2.16.840.1.114222.4.5.274 was not found
-No definition could be found for URL value 'urn:oid:2.16.840.1.114222.4.5.232'
 Unable to check whether the code is in the value set 'http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.3|1' because the code system urn:oid:2.16.840.1.114222.4.5.274 was not found
 
 # 03 US Core 6.1.0 is the version that is cited in regulation for 2026, the next release of the US Public Health Profiles Library will move to the next cited release of US Core
@@ -74,15 +73,8 @@ Pinned the version of http://hl7.org/fhir/StructureDefinition/composition-clinic
 Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
 Pinned the version of http://hl7.org/fhir/StructureDefinition/data-absent-reason to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
 Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-birthPlace to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
-Pinned the version of http://hl7.org/fhir/StructureDefinition/valueset-author to 5.2.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
 Pinned the version of http://hl7.org/fhir/StructureDefinition/valueset-expression to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
 Pinned the version of http://hl7.org/fhir/StructureDefinition/valueset-rules-text to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
-Pinned the version of http://hl7.org/fhir/StructureDefinition/valueset-steward to 5.2.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
-Pinned the version of http://terminology.hl7.org/ValueSet/v3-ActClassExposure to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.4.0)
-Pinned the version of http://terminology.hl7.org/ValueSet/v3-ActCode to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.4.0)
-Pinned the version of http://terminology.hl7.org/ValueSet/v3-ActEncounterCode to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.4.0)
-Pinned the version of http://terminology.hl7.org/ValueSet/v3-ActPriority to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.4.0)
-Pinned the version of http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.4.0)
 Pinned the version of http://terminology.hl7.org/ValueSet/v3-ActCode to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
 Pinned the version of http://terminology.hl7.org/ValueSet/v3-ActEncounterCode to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
 Pinned the version of http://terminology.hl7.org/ValueSet/v3-ActPriority to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
