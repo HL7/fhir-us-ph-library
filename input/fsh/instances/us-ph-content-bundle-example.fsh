@@ -167,7 +167,6 @@ Usage: #inline
 * version.value = "10.23-23423"
 * contact.system = #url
 * contact.value = "http://example.org"
-* url = "http://example.org/ymca/software/"
 
 Instance: us-ph-condition-encounter-diagnosis-diabetes-inline
 InstanceOf: USPublicHealthConditionEncounterDiagnosis

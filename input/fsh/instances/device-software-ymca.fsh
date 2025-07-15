@@ -10,4 +10,3 @@ Usage: #example
 * version.value = "10.23-23423"
 * contact.system = #url
 * contact.value = "http://example.org"
-* url = "http://example.org/ymca/software/"
