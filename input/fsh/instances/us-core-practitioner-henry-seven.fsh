@@ -9,7 +9,7 @@ Usage: #example
 * name.given = "Seven"
 * name.suffix = "M.D."
 * telecom.system = #email
-* telecom.value = "henry.seven@example.com"
+* telecom.value = "henry.seven@example.org"
 * address.line = "1002 Healthcare Drive"
 * address.city = "Ann Arbor"
 * address.state = "MI"

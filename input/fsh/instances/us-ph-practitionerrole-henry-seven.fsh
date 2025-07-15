@@ -14,4 +14,4 @@ Usage: #example
 * location.reference = "Location/us-ph-location-salem-medical-center"
 * location.display = "Salem Medical Center"
 * telecom.system = #email
-* telecom.value = "henry.seven@example.com"
+* telecom.value = "henry.seven@example.org"

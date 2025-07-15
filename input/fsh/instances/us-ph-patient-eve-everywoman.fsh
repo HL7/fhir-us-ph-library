@@ -32,7 +32,7 @@ Usage: #example
 * telecom[=].value = "1-(404)555-1212"
 * telecom[=].use = #home
 * telecom[+].system = #email
-* telecom[=].value = "eve.everywoman@example.com"
+* telecom[=].value = "eve.everywoman@example.org"
 * gender = #female
 * birthDate = "1974-11-24"
 * deceasedBoolean = false
