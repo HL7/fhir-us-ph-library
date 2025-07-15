@@ -159,15 +159,15 @@ Title: "Device - Software YMCA"
 Description: "Device: Software YMCA example"
 Usage: #inline
 * text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Device device-software-ymca</b></p><a name=\"device-software-ymca\"> </a><a name=\"hcdevice-software-ymca\"> </a><p><b>identifier</b>: <code>http://acme.com/software/client-ids</code>/goodhealth_id</p><p><b>manufacturer</b>: Acme Devices, Inc</p><p><b>type</b>: <span title=\"Codes:\">EHR</span></p><h3>Versions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Value</b></td></tr><tr><td style=\"display: none\">*</td><td>10.23-23423</td></tr></table><p><b>contact</b>: <a href=\"http://acme.com\">http://acme.com</a></p><p><b>url</b>: <a href=\"http://acme.com/ymca/software/\">http://acme.com/ymca/software/</a></p></div>"
-* identifier.system = "http://acme.com/software/client-ids"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Device device-software-ymca</b></p><a name=\"device-software-ymca\"> </a><a name=\"hcdevice-software-ymca\"> </a><p><b>identifier</b>: <code>http://example.com/software/client-ids</code>/goodhealth_id</p><p><b>manufacturer</b>: Acme Devices, Inc</p><p><b>type</b>: <span title=\"Codes:\">EHR</span></p><h3>Versions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Value</b></td></tr><tr><td style=\"display: none\">*</td><td>10.23-23423</td></tr></table><p><b>contact</b>: <a href=\"http://example.com\">http://example.com</a></p><p><b>url</b>: <a href=\"http://example.com/ymca/software/\">http://example.com/ymca/software/</a></p></div>"
+* identifier.system = "http://example.com/software/client-ids"
 * identifier.value = "goodhealth_id"
 * manufacturer = "Acme Devices, Inc"
 * type.text = "EHR"
 * version.value = "10.23-23423"
 * contact.system = #url
-* contact.value = "http://acme.com"
-* url = "http://acme.com/ymca/software/"
+* contact.value = "http://example.com"
+* url = "http://example.com/ymca/software/"
 
 Instance: us-ph-condition-encounter-diagnosis-diabetes-inline
 InstanceOf: USPublicHealthConditionEncounterDiagnosis

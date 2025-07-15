@@ -4,9 +4,9 @@ Title: "US Public Health SpecimenExample: Serum"
 Description: "Example of US Public Health Specimen"
 Usage: #example
 
-* identifier.system = "http://acme.com/labs/ids"
+* identifier.system = "http://example.com/labs/ids"
 * identifier.value = "20220927-00124"
-* accessionIdentifier.system = "http://acme.com/labs/accession-ids"
+* accessionIdentifier.system = "http://example.com/labs/accession-ids"
 * accessionIdentifier.value = "20220927-00124"
 * type.coding = $sct#119364003 "Serum sample"
 * type.coding = $system-v2-0487#SER "Serum"
