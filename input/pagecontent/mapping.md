@@ -198,7 +198,7 @@ Note: not all profiles and their data elements in this IG have corresponding USC
         <tr>
             <td>Laboratory</td>
             <td>Result Status</td>
-            <td><a href="StructureDefinition-us-ph-lab-result-observation">US Public Health Laboratory Result Observation</a></td>
+            <td><a href="StructureDefinition-us-ph-lab-result-observation.html">US Public Health Laboratory Result Observation</a></td>
             <td>Observation.status</td>
         </tr>
         <tr>
@@ -228,7 +228,7 @@ Note: not all profiles and their data elements in this IG have corresponding USC
         <tr>
             <td>Laboratory</td>
             <td>Values/Results</td>
-            <td><a href="StructureDefinition-us-ph-lab-result-observation">US Public Health Laboratory Result Observation</a></td>
+            <td><a href="StructureDefinition-us-ph-lab-result-observation.html">US Public Health Laboratory Result Observation</a></td>
             <td>Observation.value[x]</td>
         </tr>
         <tr>
@@ -330,8 +330,8 @@ Note: not all profiles and their data elements in this IG have corresponding USC
         <tr>
             <td>Patient Demographics</td>
             <td>Current Employer Phone</td>
-            <td><a href="StructureDefinition-odh-OccupationalDataForHealth.html">Occupational Data For Health</a></td>
-            <td>Extension.value[x]</td>
+            <td><a href="https://hl7.org/fhir/us/odh/StructureDefinition-odh-PastOrPresentJob.html">Past Or Present Job (ODH)</a></td>
+            <td>Employer Extension</td>
         </tr>
         <tr>
             <td>Patient Demographics</td>
@@ -492,7 +492,7 @@ Note: not all profiles and their data elements in this IG have corresponding USC
         <tr>
             <td>Pregnancy Information</td>
             <td>Last Menstrual Period (LMP)</td>
-            <td><a href="StructureDefinition-Observation-last-menstrual-period.html">Observation - Last Menstrual Period</a></td>
+            <td><a href="https://hl7.org/fhir/us/bfdr/StructureDefinition-Observation-last-menstrual-period.html">Observation - Last Menstrual Period (BFDR)</a></td>
             <td>Observation.code</td>
         </tr>
         <tr>
@@ -624,19 +624,19 @@ Note: not all profiles and their data elements in this IG have corresponding USC
         <tr>
             <td>Work Information</td>
             <td>Employment Status</td>
-            <td><a href="StructureDefinition-odh-EmploymentStatus.html">Employment Status</a></td>
+            <td><a href="https://hl7.org/fhir/us/odh/StructureDefinition-odh-EmploymentStatus.html">Employment Status (ODH)</a></td>
             <td>Observation.value[x]:valueCodeableConcept</td>
         </tr>
         <tr>
             <td>Work Information</td>
             <td>Job Employer Address</td>
-            <td><a href="StructureDefinition-odh-OccupationalDataForHealth.html">Occupational Data For Health</a></td>
+            <td><a href="https://hl7.org/fhir/us/odh/StructureDefinition-odh-PastOrPresentJob.html">Past Or Present Job (ODH)</a></td>
             <td>Employer Extension</td>
         </tr>
         <tr>
             <td>Work Information</td>
             <td>Job Employer Name</td>
-            <td><a href="StructureDefinition-odh-OccupationalDataForHealth.html">Occupational Data For Health</a></td>
+            <td><a href="https://hl7.org/fhir/us/odh/StructureDefinition-odh-PastOrPresentJob.html">Past Or Present Job (ODH)</a></td>
             <td>Employer Extension</td>
         </tr>
         <tr>
