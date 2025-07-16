@@ -34,6 +34,39 @@ This Guide is divided into several pages which are listed at the top of each pag
 * [Artifact Index](artifacts.html): A list of the FHIR artifacts (profiles, examples, value sets, and code systems) defined as part of this guide
 * [Change Log](change-log.html): Changes between releases
 
+### Dependencies on Other IGs
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-xf3r{background-color:#BFBFBF;font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-zzem{color:#467886;text-align:left;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-xf3r">Implementation Guide</th>
+    <th class="tg-xf3r">Version</th>
+    <th class="tg-xf3r">Dependency</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-zzem"><a href="https://hl7.org/fhir/us/core/STU6.1/">US Core 6.1.0</a></td>
+    <td class="tg-cly1">6.1.0</td>
+    <td class="tg-cly1">Where possible, all profiles in this IG are derived from US Core 6.1.0. U.S. Core also sets expectations for a variety of referenced resources and establishes baseline conformance expectations.</td>
+  </tr>
+  <tr>
+    <td class="tg-zzem"><a href="http://hl7.org/fhir/R4/index.html">HL7 FHIR R4</a></td>
+    <td class="tg-cly1">R4</td>
+    <td class="tg-cly1">In some cases, where profiles cannot be derived from US Core, base FHIR resources are used.</td>
+  </tr>
+</tbody>
+</table>
+
 ### Other Information
 
 This guide is compliant with FHIR Release 4.
