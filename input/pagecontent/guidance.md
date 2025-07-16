@@ -21,13 +21,13 @@ The [Mappings](mapping.html) page contains a table that defines the relationship
 
 #### US Core
 
-If a US Core profile is added that duplicates the concepts represented in a US Public Health Profiles Library profile (e.g. due to [United States Core Data Interoperability (USCDI)](https://www.healthit.gov/isa/united-states-core-data-interoperability-uscdi) promotion) then, as long as there are no additional constraints needed, the US Public Health Profiles Library profile will be retired in favor of the US Core profile.
+If, in a US Core update, a US Core profile is added that duplicates the concepts represented in a US Public Health Profiles Library profile (e.g. due to [United States Core Data Interoperability (USCDI)](https://www.healthit.gov/isa/united-states-core-data-interoperability-uscdi) promotion) then, as long as there are no additional constraints needed, the US Public Health Profiles Library profile will be retired in favor of the US Core profile.
 
-If constraints are added to a US Core profile that duplicate constraint(s) in a current USPHPL profile that is based on that US Core profile (e.g. US Public Health Patient profile which is based on the US Core Patient profile) then:
-* either (all US PH constraints duplicated in the US Core profile) the USPHPL profile will be retired in favor of the US Core profile
-* or (some US PH constraints duplicated in the US Core profile) the USPHPL profile will be updated to remove any duplicate constraints.
+If a US Core update introduces new constraints to a US Core profile that duplicate constraints already present in a corresponding USPHPL profile (for example, the US Public Health Patient profile, which is based on the US Core Patient profile), then:
+ * If all of the USPHPL-specific constraints are now fully represented in the updated US Core profile: the USPHPL profile will be retired in favor of the US Core profile.
+ * If only some of the USPHPL-specific constraints are duplicated in the updated US Core profile: the USPHPL profile will be updated to remove any duplicated constraints, retaining only those that are still unique to public health use cases.
 		
-The US Public Health Profiles Library will align with and incorporate updates from new releases of US Core. The library will follow an update schedule to allow the use of US Core releases.
+The US Public Health Profiles Library will align with and incorporate updates from new releases of US Core. USPHPL will follow an update schedule to allow the use of US Core releases.
 
 The US Public Health Profiles Library will evolve over time to serve evolving USCDI+ Public Health use cases. 
 
