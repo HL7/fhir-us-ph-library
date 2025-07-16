@@ -64,7 +64,7 @@ A Proposed Content or Architecture Profile Must Meet One or More of the Followin
 2. The profile concept is captured and is in production use in at least one EHR or public health system
 3. The profile supports a nationally accepted approach based on proposed US regulations or multiple local, tribal, territorial, and states' laws, policies, rulemaking, or well-established practices.
 
-A (US Public Health Profiles Library Variance Request Process)[https://confluence.hl7.org/spaces/PHWG/pages/184923975/US+Public+Health+Profiles+Library+Variance+Request+Process] modeled after the [US Core Variance process](https://confluence.hl7.org/display/CGP/US+Core+Variance+Request+Process) is instituted. The process strives for the automated identification of non-US Public Health Profiles Library profiles and their processing with the Public Health Work Group. The Public Health Work Group will review, discuss, and approve/deny variance requests at regularly scheduled work group calls/meetings.
+A [US Public Health Profiles Library Variance Request Process](https://confluence.hl7.org/spaces/PHWG/pages/184923975/US+Public+Health+Profiles+Library+Variance+Request+Process) modeled after the [US Core Variance process](https://confluence.hl7.org/display/CGP/US+Core+Variance+Request+Process) is instituted. The process strives for the automated identification of non-US Public Health Profiles Library profiles and their processing with the Public Health Work Group. The Public Health Work Group will review, discuss, and approve/deny variance requests at regularly scheduled work group calls/meetings.
 
 #### Related Responsibilities of the Public Health Working Group
 
