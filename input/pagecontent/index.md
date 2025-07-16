@@ -1,4 +1,4 @@
-This STU 2 update to the US Public Health Profiles Library aligns with [US Core Implementation Guide 6.1.0 (US Core)]({{site.data.fhir.ver.hl7fhiruscore}}) and [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp). For a complete list of changes in this version, please refer to the [Change Log](change-log.html).
+This STU 2 update to the US Public Health Profiles Library aligns with [US Core Implementation Guide 6.1.0 (US Core)]({{site.data.fhir.ver.hl7fhiruscore}}) and [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp) Case Reporting use case. For a complete list of changes in this version, please refer to the [Change Log](change-log.html).
 {:.stu-note}
 
 ### Overview
@@ -15,7 +15,7 @@ To avoid defining the same profiles multiple times, we have created the US Publi
 
 ### Scope
 
-The short-term scope of this library includes elements common to the above-mentioned FHIR IGs and those contained in [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp). The longer-term scope includes analysis and inclusion of data elements from other Public Health use cases.
+The short-term scope of this library includes elements common to the above-mentioned FHIR IGs and those contained in [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp) Case Reporting use case. The longer-term scope includes analysis and inclusion of data elements from other Public Health use cases.
 
 The USPHPL provides requirements and guidance for using FHIR for public health use cases. The profiles in this implementation guide will be used to meet objectives of:
  * Encouraging consistent access and use of data for public health applications across organizations and between healthcare systems

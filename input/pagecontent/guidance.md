@@ -1,6 +1,25 @@
-### Relationship to US Core and Alignment with USCDI+ Public Health
+### Alignment with USCDI+ Public Health and Relationship to US Core
 
 The US Public Health Profiles Library is revised and published in close conjunction with [US Core]({{site.data.fhir.ver.hl7fhiruscore}}) and has an analogous process for implementation, moderation, review, and approval. It aligns with the [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp) initiative by supporting priority public health use cases and advancing consistent, standards-based data exchange across public health systems. The US Public Health Profiles Library defers as much as possible to US Core and only adds constraints / profiles when necessary for public health use.
+
+#### USCDI+
+
+ASTP’s [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp) use case and FHIR USPHPL are complementary initiatives. USCDI+ defines the high-level data requirements, while USPHPL provides the detailed FHIR-based profiles needed to implement those requirements in practice. Mapping between the two is essential to support interoperability and consistent public health data exchange across the United States.
+
+Because FHIR requires structured implementation guidance, USCDI+ must be interpreted and translated into specific FHIR profiles and transactions.
+
+Keep in mind:
+ * USCDI+ data classes and element names may not directly match FHIR USPHPL resource and element names.
+ * Not every USCDI+ data class or element maps one-to-one to a USPHPL profile.
+ * Many USPHPL profile elements extend beyond USCDI+ because USPHPL was created prior to the alignment with USCDI+
+
+The evolution of USPHPL depends on community feedback. We encourage you to submit questions, suggestions, or proposed changes to the USPHPL specifications via the Propose a change link in the footer of each page.
+
+We also welcome requests for USCDI+ clarifications through the USCDI+ ONDEC process, as these insights will help inform future updates to FHIR USPHPL.
+
+The [Mappings](mapping.html) page contains a table that defines the relationship between the USCDI+ Data Classes and Elements and USPHPL profiles.
+
+#### US Core
 
 If a US Core profile is added that duplicates the concepts represented in a US Public Health Profiles Library profile (e.g. due to [United States Core Data Interoperability (USCDI)](https://www.healthit.gov/isa/united-states-core-data-interoperability-uscdi) promotion) then, as long as there are no additional constraints needed, the US Public Health Profiles Library profile will be retired in favor of the US Core profile.
 
@@ -32,19 +51,20 @@ The Profile elements consist of both *Mandatory* and *Must Support* elements.  *
 
 #### Profile Reuse and Determination Principles
 
-1. New profiles, that are not based on US Core, will only be included in the US Public Health Profiles Library when there is a clear public health need (see [Profile Inclusion Criteria](guidance.html#profile-inclusion-criteria) below). As things now stand, all non-US Core profiles are approved by the Cross-Group Projects
-2. Similarly, new public health FHIR US Realm implementation guides will not create new profiles that are not based on either the US Public Health Library or US Core without the approval of the Public Health Working Group and notification of US Realm Steering Committee
+1. New profiles, that are not based on US Core, will only be included in the US Public Health Profiles Library when there is a clear public health need (see [Profile Inclusion Criteria](guidance.html#profile-inclusion-criteria) below)
+2. Similarly, new public health FHIR US Realm implementation guides will not create new profiles that are not based on the US Public Health Library without the approval of the Public Health Working Group and notification of US Realm Steering Committee
 3. The Public Health Work Group, the FHIR Management Group, and FHIR QA Tooling (TBD) will enforce the principles above and criteria below
 
 #### Profile Inclusion Criteria 
 
 A Proposed Content or Architecture Profile Must Meet One or More of the Following Criteria for Inclusion in US Public Health Library
 
+1. The profile concept is contained in an in-scope [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp) use case
 1. The profile concept is live in production and operations for three or more public health conditions/use cases and has been tested in at least one Connectathon
 2. The profile concept is captured and is in production use in at least one EHR or public health system
 3. The profile supports a nationally accepted approach based on proposed US regulations or multiple local, tribal, territorial, and states' laws, policies, rulemaking, or well-established practices.
 
-A variance process modeled after the [US Core Variance process](https://confluence.hl7.org/display/CGP/US+Core+Variance+Request+Process) is instituted. The process strives for the automated identification of non-USCore, non-US Public Health Profiles Library profiles and their processing with the Public Health Work Group. The Public Health Work Group will review, discuss, and approve/deny variance requests at regularly scheduled work group calls/meetings.
+A (US Public Health Profiles Library Variance Request Process)[https://confluence.hl7.org/spaces/PHWG/pages/184923975/US+Public+Health+Profiles+Library+Variance+Request+Process] modeled after the [US Core Variance process](https://confluence.hl7.org/display/CGP/US+Core+Variance+Request+Process) is instituted. The process strives for the automated identification of non-US Public Health Profiles Library profiles and their processing with the Public Health Work Group. The Public Health Work Group will review, discuss, and approve/deny variance requests at regularly scheduled work group calls/meetings.
 
 #### Related Responsibilities of the Public Health Working Group
 
