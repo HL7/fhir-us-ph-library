@@ -1,6 +1,6 @@
 ### Relationship to US Core and Alignment with USCDI+ Public Health
 
-The US Public Health Profiles Library is revised and published in close conjunction with [US Core]({{site.data.fhir.ver.hl7fhiruscore}}) and has an analogous process for implementation, moderation, review, and approval. It aligns with the [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp) initiative by supporting priority public health use cases and advancing consisten, standards-based data exchange across public health systems. The US Public Health Profiles Library defers as much as possible to US Core and only adds constraints / profiles when necessary for public health use.
+The US Public Health Profiles Library is revised and published in close conjunction with [US Core]({{site.data.fhir.ver.hl7fhiruscore}}) and has an analogous process for implementation, moderation, review, and approval. It aligns with the [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp) initiative by supporting priority public health use cases and advancing consistent, standards-based data exchange across public health systems. The US Public Health Profiles Library defers as much as possible to US Core and only adds constraints / profiles when necessary for public health use.
 
 If a US Core profile is added that duplicates the concepts represented in a US Public Health Profiles Library profile (e.g. due to [United States Core Data Interoperability (USCDI)](https://www.healthit.gov/isa/united-states-core-data-interoperability-uscdi) promotion) then, as long as there are no additional constraints needed, the US Public Health Profiles Library profile will be retired in favor of the US Core profile.
 
@@ -10,17 +10,17 @@ If constraints are added to a US Core profile that duplicate constraint(s) in a 
 		
 The US Public Health Profiles Library will update to/synchronize with new releases of US Core.
 
-The US Public Health Profiles Library will evolve over time and may be supported by an adjunct profiles registry that includes developing and informational profiles that serve evolving USCDI+ Public Health use cases. 
+The US Public Health Profiles Library will evolve over time to serve evolving USCDI+ Public Health use cases. 
 
 ### Work Information
 
-This library does not include profiles to implement support for Occupational Data for Health (ODH). Use the profiles defined in [US Core]({{site.data.fhir.ver.hl7fhiruscore}}) and [Occupational Data for Health (ODH)](http://hl7.org/fhir/us/odh/) to describe structured work information primarily designed to facilitate clinical care, including population health and value-based care. ODH also can be used to support public health reporting.
+This library does not include profiles to implement support for Occupational Data for Health (ODH). Use the profiles defined in [US Core]({{site.data.fhir.ver.hl7fhiruscore}}) and [Occupational Data for Health (ODH)](http://hl7.org/fhir/us/odh/) to describe structured work information primarily designed to facilitate clinical care, including population health and value-based care. ODH also can be used to support public health reporting. See also: * [Mappings](mapping.html)
 
 ### Conformance
 
 #### Conformance Verbs
 
-The conformance verbs - **SHALL**, **SHOULD**, **MAY** - used in this guide are defined in [FHIR Conformance Rules].
+The conformance verbs - **SHALL**, **SHOULD**, **MAY** - used in this guide are defined in ({{site.data.fhir.path}}conformance-rules.html)[FHIR Conformance Rules].
 
 #### US Public Health Profiles Library Conformance Artifacts
 
@@ -59,3 +59,10 @@ Implementation Guides may support (reuse) one or more US Public Health Profiles 
 The US Public Health Profile Library profiles have been developed and tested using logical FHIR ids. Therefore a reference to a US Public Health Profiles Library profile **SHOULD** include a logical id (Reference.reference), not an identifier (Reference.identifier).
 
 Implementation Guides that currently contain copies of the US Public Health Profiles are expected to replace those profiles with references to the analogous US Public Health Profiles Library profile during their next ballot/update cycle.
+
+### Naming Conventions
+
+USPHPL profiles are indicated by the prefix "US Public Health" in the Resource Profile name, by the prefix "USPublicHealth" in the Computable Name, and the prefix "us-ph" in the official url. For example, the USPHPL profile of patient:
+ * Resource Profile Name: US Public Health Patient
+ * Computable Name: USPublicHealthPatient
+ * Official URL: http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient

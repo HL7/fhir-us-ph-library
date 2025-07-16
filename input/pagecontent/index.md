@@ -1,5 +1,5 @@
+This STU 2 update to the US Public Health Profiles Library aligns with [US Core Implementation Guide 6.1.0 (US Core)]({{site.data.fhir.ver.hl7fhiruscore}}) and [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp). For a complete list of changes in this version, please refer to the [Change Log](change-log.html).
 {:.stu-note}
-> This STU 2 update to the US Public Health Profiles Library aligns with [US Core Implementation Guide 6.1.0 (US Core)]({{site.data.fhir.ver.hl7fhiruscore}}) and [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp). For a complete list of changes in this version, please refer to the [Change Log](change-log.html).
 
 ### Overview
 
@@ -9,17 +9,25 @@ The US Public Health Profiles Library is instituted in close conjunction with US
 
 ### Background
 
-After evaluation and harmonization analysis of large multi-condition and multi-use case public health projects including the [Electronic Case Reporting (eCR)](http://hl7.org/fhir/us/ecr/), it was determined that there are many common elements shared across implementation guides (IGs). 
+After evaluation and harmonization analysis of large multi-condition and multi-use case public health projects including [Electronic Case Reporting (eCR)](http://hl7.org/fhir/us/ecr/), it was determined that there are many common elements shared across implementation guides (IGs). 
 
 To avoid defining the same profiles multiple times, we have created the US Public Health Profiles Library for use by Public Health and other FHIR standards development efforts to define appropriate FHIR profiles, value sets, etc., once, and allow them to be referenced by any implementation guides. This USPHPL provides a starting point and framework for inclusion in multiple implementation guides focused on the exchange of Public Health information to support interoperability among public health systems and reduce provider and implementer burden.
 
-The short-term scope of this library includes elements common to the above-mentioned FHIR IGs and defines a US Realm specific framework that defines common elements for the IGs. The longer-term scope includes analysis and inclusion of data elements from other Public Health use cases.
+### Scope
+
+The short-term scope of this library includes elements common to the above-mentioned FHIR IGs and those contained in [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp). The longer-term scope includes analysis and inclusion of data elements from other Public Health use cases.
+
+The USPHPL provides requirements and guidance for using FHIR for public health use cases. The profiles in this implementation guide will be used to meet objectives of:
+ * Encouraging consistent access and use of data for public health applications across organizations and between healthcare systems
+ * Providing guidance for consistent use of vocabularies and value sets
+
+See also [Principles and Criteria of Library Inclsion and Use](guidance.html#principles-and-criteria-of-library-inclusion-and-use).
 
 ### How to Read This Guide
 
 This Guide is divided into several pages which are listed at the top of each page in the menu bar.
 
-* Home: Introduction and background for HL7 FHIR® US Public Health Profiles Library
+* [Home](index.html): Introduction and background for HL7 FHIR® US Public Health Profiles Library
 * [Guidance](guidance.html): Information on the library's relation to US Core, conformance, principles and criteria of library profiles inclusion and use of the included profiles
 * [Mappings](mapping.html): Mapping tables showing how each FHIR profile in the library corresponds to applicable USCDI+ Public Health data elements
 * [Downloads](downloads.html): Links to downloadable artifacts
