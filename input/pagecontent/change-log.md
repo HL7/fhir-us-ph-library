@@ -65,7 +65,7 @@
         </tr>
         <tr>
             <td><a href="StructureDefinition-us-ph-patient.html">US Public Health Patient</a></td>
-            <td>Replace reference to US PH Tribal Affiliation Extension witd reference to <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-tribal-affiliation.html">US Core Tribal Affiliation Extension</a> and set reference to MS</td>
+            <td>Replace reference to US PH Tribal Affiliation Extension with reference to <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-tribal-affiliation.html">US Core Tribal Affiliation Extension</a> and set reference to MS</td>
         </tr>
         <tr>
             <td><a href="StructureDefinition-us-ph-patient.html">US Public Health Patient</a></td>
