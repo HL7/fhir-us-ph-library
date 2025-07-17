@@ -93,7 +93,7 @@
         </tr>
         <tr>
             <td><a href="StructureDefinition-us-ph-pregnancy-status-observation.html">US Public Health Pregnancy Status Observation</a></td>
-            <td>Add Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-observation-pregnancystatus.html">US Core Observation Pregnancy Status Profile</a> as parent as parent</td>
+            <td>Add Add <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-observation-pregnancystatus.html">US Core Observation Pregnancy Status Profile</a> as parent</td>
         </tr>
         <tr>
             <td><a href="StructureDefinition-us-ph-pregnancy-status-observation.html">US Public Health Pregnancy Status Observation</a></td>
