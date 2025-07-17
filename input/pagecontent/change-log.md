@@ -60,6 +60,26 @@
             <td>Update examples to support changes</td>
         </tr>
         <tr>
+            <td><a href="StructureDefinition-us-ph-chief-complaint-observation.html">US Public Health Chief Complaint Observation</a></td>
+            <td>New Profile</td>
+        </tr>
+        <tr>
+            <td><a href="StructureDefinition-us-ph-country-of-nationality.html">US Public Health Country of Nationality</a></td>
+            <td>New Profile</td>
+        </tr>
+        <tr>
+            <td><a href="StructureDefinition-us-ph-specimen.html">US Public Health Specimen</a></td>
+            <td>New Profile</td>
+        </tr>
+        <tr>
+            <td><a href="StructureDefinition-us-ph-symptom-observation.html">US Public Health Symptom Observation</a></td>
+            <td>New Profile</td>
+        </tr>
+        <tr>
+            <td><a href="StructureDefinition-us-ph-vaccine-credential-patient-assertion.html">US Public Health Vaccine Credential Patient Assertion</a></td>
+            <td>New Profile</td>
+        </tr>
+        <tr>
             <td>US PH Tribal Affiliation Extension</td>
             <td>Remove extension (now exists in US Core: <a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-tribal-affiliation.html">US Core Tribal Affiliation Extension</a>)</td>
         </tr>
@@ -104,10 +124,6 @@
             <td>Remove Pregnancy Status value set (exists in US Core)</td>
         </tr>
         <tr>
-            <td><a href="StructureDefinition-us-ph-specimen.html">US Public Health Specimen</a></td>
-            <td>New Profile</td>
-        </tr>
-        <tr>
             <td><a href="StructureDefinition-us-ph-lab-result-observation.html">US Public Health Laboratory Result Observation</a></td>
             <td>Update reference to specimen to new US PH Specimen profile</td>
         </tr>
@@ -126,14 +142,6 @@
         <tr>
             <td><a href="StructureDefinition-us-ph-pregnancy-outcome-observation.html">US Public Health Pregnancy Outcome Observation</a></td>
             <td>Remove Observation.code MS constraint (already set in US Core)</td>
-        </tr>
-        <tr>
-            <td><a href="StructureDefinition-us-ph-vaccine-credential-patient-assertion.html">US Public Health Vaccine Credential Patient Assertion</a></td>
-            <td>New Profile</td>
-        </tr>
-        <tr>
-            <td><a href="StructureDefinition-us-ph-country-of-nationality.html">US Public Health Country of Nationality</a></td>
-            <td>New Profile</td>
         </tr>
         <tr>
             <td><a href="StructureDefinition-us-ph-travel-history.html">US Public Health Travel History</a></td>
@@ -158,14 +166,6 @@
         <tr>
             <td><a href="StructureDefinition-us-ph-exposure-contact-information.html">US Public Health Exposure Contact Information</a></td>
             <td>Add Observation.component</td>
-        </tr>
-        <tr>
-            <td><a href="StructureDefinition-us-ph-chief-complaint-observation.html">US Public Health Chief Complaint Observation</a></td>
-            <td>New Profile</td>
-        </tr>
-        <tr>
-            <td><a href="StructureDefinition-us-ph-symptom-observation.html">StructureDefinition-us-ph-symptom-observation.html</a></td>
-            <td>New Profile</td>
         </tr>
         <tr>
             <td><a href="StructureDefinition-us-ph-condition-encounter-diagnosis.html">US Public Health Encounter Diagnosis</a></td>
