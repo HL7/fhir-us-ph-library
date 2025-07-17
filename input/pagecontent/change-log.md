@@ -125,7 +125,7 @@
         </tr>
         <tr>
             <td><a href="StructureDefinition-us-ph-lab-result-observation.html">US Public Health Laboratory Result Observation</a></td>
-            <td>Update reference to specimen to new US PH Specimen profile</td>
+            <td>Update reference to specimen to new <a href="StructureDefinition-us-ph-specimen.html">US Public Health Specimen</a> profile</td>
         </tr>
         <tr>
             <td><a href="StructureDefinition-us-ph-medicationadministration.html">US Public Health MedicationAdministration</a></td>
