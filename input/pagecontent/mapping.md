@@ -1,5 +1,5 @@
-### USCDI+ PH to FHIR Profile
-This table provides a crosswalk between USCDI+ Public Health (USCDI+ PH) data elements and their associated FHIR profiles. It maps each USCDI+ PH data element to its corresponding FHIR profile and element. This alignment supports the standardized exchange of health information across systems, promoting consistency and interoperability in healthcare data management and sharing.
+### [https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_sub_domain&sys_id=d66045628745b95098e5edb90cbb350a&view=sp](USCDI+ Public Health Case Reporting) to FHIR Profiles
+This table provides a crosswalk between USCDI+ Public Health Case Reporting (PHCR) use case data elements and their associated FHIR profiles. It maps each USCDI+ PHCR data element to its corresponding FHIR profile. This alignment supports the standardized exchange of health information across systems, promoting consistency and interoperability in healthcare data management and sharing.
 
 Note: not all profiles and their data elements in this IG have corresponding USCDI+ data elements.
 
