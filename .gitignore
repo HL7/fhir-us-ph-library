@@ -39,5 +39,10 @@
 /_delete-folders.bat
 /_updatePublisher.bat
 /_updatePublisher.sh
-/test-data
 /_build.bat
+/test-data/fhir_validator.bat
+/test-data/skylight-data/Re Introductions with Skylight.msg
+/test-data/skylight-data/Synthetic Data_FHIR_KS_NU_0806_v3 (Updated) - Copy.xlsx
+/test-data/skylight-data/fhir-bundles-xml
+/test-data/validation.html
+/test-data/skylight-data/fhir-bundles.zip

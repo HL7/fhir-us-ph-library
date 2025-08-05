@@ -1,0 +1,715 @@
+{
+	"resourceType": "Bundle",
+	"id": "2dcc12cd-e4de-4d22-b1ad-fd4bf693322d",
+	"meta": {
+		"profile": [
+			"http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-content-bundle"
+		]
+	},
+	"type": "collection",
+	"entry": [
+		{
+			"fullUrl": "http://example.org/Patient/f1cc3a2d-71d6-44f7-bfaa-c7e3e2e3d2d1",
+			"resource": {
+				"resourceType": "Patient",
+				"id": "f1cc3a2d-71d6-44f7-bfaa-c7e3e2e3d2d1",
+				"meta": {
+					"profile": [
+						"http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+				},
+				"extension": [
+					{
+						"extension": [
+							{
+								"url": "ombCategory",
+								"valueCoding": {
+									"system": "urn:oid:2.16.840.1.113883.6.238",
+									"code": "2106-3",
+									"display": "White"
+								}
+							},
+							{
+								"url": "text",
+								"valueString": "White"
+							}
+						],
+						"url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+					},
+					{
+						"extension": [
+							{
+								"url": "ombCategory",
+								"valueCoding": {
+									"system": "urn:oid:2.16.840.1.113883.6.238",
+									"code": "2135-2",
+									"display": "Hispanic or Latino"
+								}
+							},
+							{
+								"url": "text",
+								"valueString": "Hispanic or Latino"
+							}
+						],
+						"url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+					}
+				],
+				"identifier": [
+					{
+						"use": "usual",
+						"type": {
+							"coding": [
+								{
+									"system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+									"code": "MR",
+									"display": "Medical Record Number"
+								}
+							],
+							"text": "Medical Record Number"
+						},
+						"system": "http://hospital.smarthealthit.org",
+						"value": "214475"
+					}
+				],
+				"name": [
+					{
+						"use": "official",
+						"family": "Griffin",
+						"given": [
+							"Calvin",
+							"N"
+						]
+					}
+				],
+				"telecom": [
+					{
+						"system": "phone",
+						"value": "517-425-1399",
+						"use": "home"
+					}
+				],
+				"gender": "female",
+				"birthDate": "1965-10-25",
+				"deceasedBoolean": false,
+				"address": [
+					{
+						"use": "home",
+						"line": [
+							"902 Hernandez Inlet"
+						],
+						"city": "West Jacobmouth",
+						"state": "GA",
+						"country": "US"
+					}
+				],
+				"communication": [
+					{
+						"language": {
+							"coding": [
+								{
+									"system": "urn:ietf:bcp:47",
+									"code": "en",
+									"display": "English"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "http://example.org/Observation/d3bc3648-fcae-480c-b782-c6b81d700d19",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "d3bc3648-fcae-480c-b782-c6b81d700d19",
+				"meta": {
+					"profile": [
+						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://terminology.hl7.org/CodeSystem/observation-category",
+								"code": "social-history",
+								"display": "Social History"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "72166-2",
+							"display": "Tobacco smoking status"
+						}
+					],
+					"text": "Tobacco smoking status"
+				},
+				"subject": {
+					"reference": "Patient/f1cc3a2d-71d6-44f7-bfaa-c7e3e2e3d2d1"
+				},
+				"effectiveDateTime": "2024-09-03T03:55:23.075708+00:00",
+				"performer": [
+					{
+						"reference": "PractitionerRole/283e2d59-76cf-476d-bd3c-19d3dc33fccd",
+						"display": "PractitionerRole"
+					}
+				],
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "8392000",
+							"display": "Non-smoker (finding)"
+						}
+					],
+					"text": "Non-smoker (finding)"
+				}
+			}
+		},
+		{
+			"fullUrl": "http://example.org/Practitioner/d93f2d7a-3913-4d37-a603-b93d4d580492",
+			"resource": {
+				"resourceType": "Practitioner",
+				"id": "d93f2d7a-3913-4d37-a603-b93d4d580492",
+				"meta": {
+					"profile": [
+						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+				},
+				"identifier": [
+					{
+						"system": "http://hl7.org/fhir/sid/us-npi",
+						"value": "5901232525"
+					}
+				],
+				"name": [
+					{
+						"use": "official",
+						"family": "Paul",
+						"given": [
+							"Sheila"
+						]
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "http://example.org/Organization/2daec863-4fc6-43b7-8acd-f1972c0f7837",
+			"resource": {
+				"resourceType": "Organization",
+				"id": "2daec863-4fc6-43b7-8acd-f1972c0f7837",
+				"meta": {
+					"profile": [
+						"http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-organization"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+				},
+				"active": true,
+				"name": "Hospital X",
+				"telecom": [
+					{
+						"system": "phone",
+						"value": "(+1) 734-677-7777"
+					}
+				],
+				"address": [
+					{
+						"use": "work",
+						"line": [
+							"999 Maria Streets"
+						],
+						"state": "GA",
+						"country": "US"
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "http://example.org/Encounter/7e4f3983-ff21-42d6-98a7-0a215e1bc2fe",
+			"resource": {
+				"resourceType": "Encounter",
+				"id": "7e4f3983-ff21-42d6-98a7-0a215e1bc2fe",
+				"meta": {
+					"profile": [
+						"http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-encounter"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+				},
+				"status": "finished",
+				"class": {
+					"system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+					"code": "AMB",
+					"display": "ambulatory"
+				},
+				"type": [
+					{
+						"coding": [
+							{
+								"system": "http://www.ama-assn.org/go/cpt",
+								"code": "99213",
+								"display": "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and low level of medical decision making. When using time for code selection, 20-29 minutes of total time is spent on the date of the encounter."
+							}
+						],
+						"text": "Office Visit"
+					}
+				],
+				"subject": {
+					"reference": "Patient/f1cc3a2d-71d6-44f7-bfaa-c7e3e2e3d2d1"
+				},
+				"participant": [
+					{
+						"individual": {
+							"reference": "Practitioner/d93f2d7a-3913-4d37-a603-b93d4d580492"
+						}
+					}
+				],
+				"period": {
+					"start": "2024-02-05T12:30:35-04:00",
+					"end": "2024-04-16T03:42:16-04:00"
+				},
+				"location": [
+					{
+						"location": {
+							"reference": "Location/d1636409-8269-4758-9130-20daf48d02f6",
+							"display": "Clinic Bldg A, Salem Medical Center, 4444 Healthcare Drive, Ann Arbor MI, 99999"
+						}
+					}
+				],
+				"serviceProvider": {
+					"reference": "Organization/2daec863-4fc6-43b7-8acd-f1972c0f7837"
+				}
+			}
+		},
+		{
+			"fullUrl": "http://example.org/Location/d1636409-8269-4758-9130-20daf48d02f1",
+			"resource": {
+				"resourceType": "Location",
+				"id": "d1636409-8269-4758-9130-20daf48d02f1",
+				"meta": {
+					"profile": [
+						"http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-location"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+				},
+				"identifier": [
+					{
+						"system": "http://hl7.org/fhir/sid/us-npi",
+						"value": "1063494177"
+					}
+				],
+				"status": "active",
+				"name": "Clinic Bldg A, Salem Medical Center",
+				"type": [
+					{
+						"coding": [
+							{
+								"system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+								"code": "HOSP",
+								"display": "Hospital"
+							}
+						]
+					}
+				],
+				"telecom": [
+					{
+						"system": "phone",
+						"value": "(+1) (555)555-3001"
+					},
+					{
+						"system": "fax",
+						"value": "(+1) (555)555-3002"
+					},
+					{
+						"system": "email",
+						"value": "mail@smc.org"
+					}
+				],
+				"address": {
+					"line": [
+						"Clinic Bldg A",
+						"4444 Healthcare Drive"
+					],
+					"city": "Ann Arbor",
+					"state": "MI",
+					"postalCode": "99999"
+				},
+				"managingOrganization": {
+					"reference": "Organization/2daec863-4fc6-43b7-8acd-f1972c0f7837"
+				}
+			}
+		},
+		{
+			"fullUrl": "http://example.org/Condition/c6e688eb-0f45-4a5b-80b5-128ee6ae9709",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "c6e688eb-0f45-4a5b-80b5-128ee6ae9709",
+				"meta": {
+					"profile": [
+						"http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition-encounter-diagnosis"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active",
+							"display": "Active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "confirmed",
+							"display": "Confirmed"
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://terminology.hl7.org/CodeSystem/condition-category",
+								"code": "encounter-diagnosis",
+								"display": "Encounter Diagnosis"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://hl7.org/fhir/sid/icd-10-cm",
+							"code": "A54.02",
+							"display": "Gonococcal vulvovaginitis, unspecified"
+						}
+					],
+					"text": "Gonococcal vulvovaginitis, unspecified"
+				},
+				"subject": {
+					"reference": "Patient/f1cc3a2d-71d6-44f7-bfaa-c7e3e2e3d2d1"
+				},
+				"encounter": {
+					"reference": "Encounter/7e4f3983-ff21-42d6-98a7-0a215e1bc2fe"
+				},
+				"recordedDate": "2024-04-14T19:20:08-04:00"
+			}
+		},
+		{
+			"fullUrl": "http://example.org/MedicationRequest/7781f475-8b1b-4dce-8633-e33b2d1e4276",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"id": "7781f475-8b1b-4dce-8633-e33b2d1e4276",
+				"meta": {
+					"profile": [
+						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+				},
+				"status": "completed",
+				"intent": "order",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+							"code": "309090",
+							"display": "ceftriaxone 100 MG/ML Injectable Solution"
+						}
+					],
+					"text": "ceftriaxone 100 MG/ML Injectable Solution"
+				},
+				"subject": {
+					"reference": "Patient/f1cc3a2d-71d6-44f7-bfaa-c7e3e2e3d2d1"
+				},
+				"encounter": {
+					"reference": "Encounter/7e4f3983-ff21-42d6-98a7-0a215e1bc2fe"
+				},
+				"authoredOn": "2024-01-25T01:38:37-04:00",
+				"requester": {
+					"reference": "Practitioner/d93f2d7a-3913-4d37-a603-b93d4d580492"
+				},
+				"reasonCode": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/sid/icd-10-cm",
+								"code": "A54.02",
+								"display": "Gonococcal vulvovaginitis, unspecified"
+							}
+						],
+						"text": "Gonococcal vulvovaginitis, unspecified"
+					},
+					{
+						"coding": [
+							{
+								"system": "http://snomed.info/sct",
+								"code": "237083000",
+								"display": "Gonococcal cervicitis"
+							}
+						],
+						"text": "Gonococcal cervicitis"
+					}
+				],
+				"reasonReference": [
+					{
+						"reference": "Condition/c6e688eb-0f45-4a5b-80b5-128ee6ae9709"
+					}
+				],
+				"dosageInstruction": [
+					{
+						"text": "IM 500mg/single dose"
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "http://example.org/Specimen/b64013e9-a1ce-4183-97da-19f2d73c07b1",
+			"resource": {
+				"resourceType": "Specimen",
+				"id": "b64013e9-a1ce-4183-97da-19f2d73c07b1",
+				"meta": {
+					"profile": [
+						"http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-specimen"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+				},
+				"type": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+							"code": "GENV",
+							"display": "Genital vaginal"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/f1cc3a2d-71d6-44f7-bfaa-c7e3e2e3d2d1"
+				}
+			}
+		},
+		{
+			"fullUrl": "http://example.org/Observation/bccb4853-eebe-4673-ae5a-d2ceb8ebd7d6",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "bccb4853-eebe-4673-ae5a-d2ceb8ebd7d6",
+				"meta": {
+					"profile": [
+						"http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-lab-result-observation"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://terminology.hl7.org/CodeSystem/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "21414-8",
+							"display": "Neisseria gonorrhoeae DNA [Presence] in Cervical mucus by NAA with probe detection"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/f1cc3a2d-71d6-44f7-bfaa-c7e3e2e3d2d1"
+				},
+				"encounter": {
+					"reference": "Encounter/7e4f3983-ff21-42d6-98a7-0a215e1bc2fe"
+				},
+				"effectiveDateTime": "2024-07-13",
+				"performer": [
+					{
+						"reference": "Practitioner/d93f2d7a-3913-4d37-a603-b93d4d580492",
+						"display": "Practitioner"
+					}
+				],
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "260373001",
+							"display": "Detected"
+						}
+					]
+				},
+				"interpretation": [
+					{
+						"coding": [
+							{
+								"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+								"code": "POS",
+								"display": "Positive"
+							}
+						]
+					}
+				],
+				"specimen": {
+					"reference": "Specimen/b64013e9-a1ce-4183-97da-19f2d73c07b1"
+				}
+			}
+		},
+		{
+			"fullUrl": "http://example.org/Observation/d7f31d39-6474-4b08-a0ca-79c9229772cd",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "d7f31d39-6474-4b08-a0ca-79c9229772cd",
+				"meta": {
+					"profile": [
+						"http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-pregnancy-status-observation"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://terminology.hl7.org/CodeSystem/observation-category",
+								"code": "social-history",
+								"display": "Social History"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "82810-3",
+							"display": "Pregnancy status"
+						}
+					],
+					"text": "Pregnancy status"
+				},
+				"subject": {
+					"reference": "Patient/f1cc3a2d-71d6-44f7-bfaa-c7e3e2e3d2d1"
+				},
+				"effectiveDateTime": "2024-09-03T03:55:23.076739+00:00",
+				"performer": [
+					{
+						"reference": "Practitioner/d93f2d7a-3913-4d37-a603-b93d4d580492",
+						"display": "Practitioner"
+					}
+				],
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "60001007",
+							"display": "Not pregnant (finding)"
+						}
+					],
+					"text": "Not pregnant (finding)"
+				}
+			}
+		},
+		{
+			"fullUrl": "http://example.org/fhir/PractitionerRole/283e2d59-76cf-476d-bd3c-19d3dc33fccd",
+			"resource": {
+				"resourceType": "PractitionerRole",
+				"id": "283e2d59-76cf-476d-bd3c-19d3dc33fccd",
+				"meta": {
+					"profile": [
+						"http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-practitionerrole"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+				},
+				"practitioner": {
+					"reference": "Practitioner/d93f2d7a-3913-4d37-a603-b93d4d580492"
+				},
+				"organization": {
+					"reference": "Organization/2daec863-4fc6-43b7-8acd-f1972c0f7837"
+				},
+				"code": [
+					{
+						"coding": [
+							{
+								"system": "http://nucc.org/provider-taxonomy",
+								"code": "261QP2300X",
+								"display": "Primary Care Clinic/Center"
+							}
+						]
+					}
+				],
+				"specialty": [
+					{
+						"coding": [
+							{
+								"system": "http://snomed.info/sct",
+								"code": "419772000",
+								"display": "Family practice"
+							}
+						]
+					}
+				],
+				"location": [
+					{
+						"reference": "Location/",
+						"display": "Location"
+					}
+				],
+				"telecom": [
+					{
+						"system": "email",
+						"value": "practitionerRole@example.org"
+					}
+				]
+			}
+		}
+	]
+}

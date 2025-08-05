@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bundle xmlns="http://hl7.org/fhir">
+    <id value="836b4ef1-e3ca-4df8-89a0-e7920791ad9b" />
+    <meta>
+        <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-content-bundle" />
+    </meta>
+    <type value="collection" />
+    <entry>
+        <fullUrl value="http://example.org/Patient/241e727b-9aff-45a2-b49f-c569b5cd6bb0" />
+        <resource>
+            <Patient>
+                <id value="241e727b-9aff-45a2-b49f-c569b5cd6bb0" />
+                <meta>
+                    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient" />
+                </meta>
+                <text>
+                    <status value="generated" />
+                    <div xmlns="http://www.w3.org/1999/xhtml">This is a simple narrative with only plain text</div>
+                </text>
+                <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
+                    <extension url="ombCategory">
+                        <valueCoding>
+                            <system value="urn:oid:2.16.840.1.113883.6.238" />
+                            <code value="2054-5" />
+                            <display value="Black or African American" />
+                        </valueCoding>
+                    </extension>
+                    <extension url="text">
+                        <valueString value="Black or African American" />
+                    </extension>
+                </extension>
+                <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity">
+                    <extension url="ombCategory">
+                        <valueCoding>
+                            <system value="urn:oid:2.16.840.1.113883.6.238" />
+                            <code value="2186-5" />
+                            <display value="Not Hispanic or Latino" />
+                        </valueCoding>
+                    </extension>
+                    <extension url="text">
+                        <valueString value="Not Hispanic or Latino" />
+                    </extension>
+                </extension>
+                <identifier>
+                    <use value="usual" />
+                    <type>
+                        <coding>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+                            <code value="MR" />
+                            <display value="Medical Record Number" />
+                        </coding>
+                        <text value="Medical Record Number" />
+                    </type>
+                    <system value="http://hospital.smarthealthit.org" />
+                    <value value="686308" />
+                </identifier>
+                <name>
+                    <use value="official" />
+                    <family value="Sexton" />
+                    <given value="Richard" />
+                    <given value="H" />
+                </name>
+                <telecom>
+                    <system value="phone" />
+                    <value value="517-425-1399" />
+                    <use value="home" />
+                </telecom>
+                <gender value="male" />
+                <birthDate value="1949-03-24" />
+                <deceasedBoolean value="false" />
+                <address>
+                    <use value="home" />
+                    <line value="479 Young Lock Suite 371" />
+                    <city value="Edwardshire" />
+                    <state value="TN" />
+                    <country value="US" />
+                </address>
+                <communication>
+                    <language>
+                        <coding>
+                            <system value="urn:ietf:bcp:47" />
+                            <code value="en" />
+                            <display value="English" />
+                        </coding>
+                    </language>
+                </communication>
+            </Patient>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://example.org/Observation/fb2fa62d-69d4-4740-8552-98153e1e586e" />
+        <resource>
+            <Observation>
+                <id value="fb2fa62d-69d4-4740-8552-98153e1e586e" />
+                <meta>
+                    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation" />
+                </meta>
+                <text>
+                    <status value="generated" />
+                    <div xmlns="http://www.w3.org/1999/xhtml">This is a simple narrative with only plain text</div>
+                </text>
+                <status value="final" />
+                <category>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/observation-category" />
+                        <code value="social-history" />
+                        <display value="Social History" />
+                    </coding>
+                </category>
+                <code>
+                    <coding>
+                        <system value="http://loinc.org" />
+                        <code value="69721-9" />
+                        <display value="Do you ever drink alcohol - including beer or wine [Reported.PHQ]" />
+                    </coding>
+                    <text value="Do you ever drink alcohol - including beer or wine [Reported.PHQ]" />
+                </code>
+                <subject>
+                    <reference value="Patient/241e727b-9aff-45a2-b49f-c569b5cd6bb0" />
+                </subject>
+                <effectiveDateTime value="2024-09-03T03:55:16.380733+00:00" />
+                <performer>
+                    <reference value="Practitioner/f51ff39e-b0e3-4f4f-8a2c-0910f04149ea" />
+                    <display value="Practitioner" />
+                </performer>
+                <valueCodeableConcept>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="228319007" />
+                        <display value="Drinks alcohol daily (finding)" />
+                    </coding>
+                    <text value="Drinks alcohol daily (finding)" />
+                </valueCodeableConcept>
+            </Observation>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://example.org/Practitioner/f51ff39e-b0e3-4f4f-8a2c-0910f04149ea" />
+        <resource>
+            <Practitioner>
+                <id value="f51ff39e-b0e3-4f4f-8a2c-0910f04149ea" />
+                <meta>
+                    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner" />
+                </meta>
+                <text>
+                    <status value="generated" />
+                    <div xmlns="http://www.w3.org/1999/xhtml">This is a simple narrative with only plain text</div>
+                </text>
+                <identifier>
+                    <system value="http://hl7.org/fhir/sid/us-npi" />
+                    <value value="5823922609" />
+                </identifier>
+                <name>
+                    <use value="official" />
+                    <family value="Garcia" />
+                    <given value="Charles" />
+                </name>
+            </Practitioner>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://example.org/Organization/29e97b6f-a73a-4b4b-881a-ffc33b2f8d95" />
+        <resource>
+            <Organization>
+                <id value="29e97b6f-a73a-4b4b-881a-ffc33b2f8d95" />
+                <meta>
+                    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-organization" />
+                </meta>
+                <text>
+                    <status value="generated" />
+                    <div xmlns="http://www.w3.org/1999/xhtml">This is a simple narrative with only plain text</div>
+                </text>
+                <active value="true" />
+                <name value="Hospital H" />
+                <telecom>
+                    <system value="phone" />
+                    <value value="(+1) 734-677-7777" />
+                </telecom>
+                <address>
+                    <use value="work" />
+                    <line value="65798 Diaz Fields" />
+                    <state value="TN" />
+                    <country value="US" />
+                </address>
+            </Organization>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://example.org/Encounter/c2e7e1a6-4df2-4150-af5c-f0ce28164a5e" />
+        <resource>
+            <Encounter>
+                <id value="c2e7e1a6-4df2-4150-af5c-f0ce28164a5e" />
+                <meta>
+                    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-encounter" />
+                </meta>
+                <text>
+                    <status value="generated" />
+                    <div xmlns="http://www.w3.org/1999/xhtml">This is a simple narrative with only plain text</div>
+                </text>
+                <status value="finished" />
+                <class>
+                    <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
+                    <code value="AMB" />
+                    <display value="ambulatory" />
+                </class>
+                <type>
+                    <coding>
+                        <system value="http://www.ama-assn.org/go/cpt" />
+                        <code value="99213" />
+                        <display
+                            value="Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and low level of medical decision making. When using time for code selection, 20-29 minutes of total time is spent on the date of the encounter."
+                         />
+                    </coding>
+                    <text value="Office Visit" />
+                </type>
+                <subject>
+                    <reference value="Patient/241e727b-9aff-45a2-b49f-c569b5cd6bb0" />
+                </subject>
+                <participant>
+                    <individual>
+                        <reference value="Practitioner/f51ff39e-b0e3-4f4f-8a2c-0910f04149ea" />
+                    </individual>
+                </participant>
+                <period>
+                    <start value="2024-01-25T00:22:25-04:00" />
+                    <end value="2024-05-31T08:24:15-04:00" />
+                </period>
+                <location>
+                    <location>
+                        <reference value="Location/d1636409-8269-4758-9130-20daf48d02f6" />
+                        <display value="Clinic Bldg A, Salem Medical Center, 4444 Healthcare Drive, Ann Arbor MI, 99999" />
+                    </location>
+                </location>
+                <serviceProvider>
+                    <reference value="Organization/29e97b6f-a73a-4b4b-881a-ffc33b2f8d95" />
+                </serviceProvider>
+            </Encounter>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://example.org/Location/d1636409-8269-4758-9130-20daf48d02f1" />
+        <resource>
+            <Location>
+                <id value="d1636409-8269-4758-9130-20daf48d02f1" />
+                <meta>
+                    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-location" />
+                </meta>
+                <text>
+                    <status value="generated" />
+                    <div xmlns="http://www.w3.org/1999/xhtml">This is a simple narrative with only plain text</div>
+                </text>
+                <identifier>
+                    <system value="http://hl7.org/fhir/sid/us-npi" />
+                    <value value="1063494177" />
+                </identifier>
+                <status value="active" />
+                <name value="Clinic Bldg A, Salem Medical Center" />
+                <type>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode" />
+                        <code value="HOSP" />
+                        <display value="Hospital" />
+                    </coding>
+                </type>
+                <telecom>
+                    <system value="phone" />
+                    <value value="(+1) (555)555-3001" />
+                </telecom>
+                <telecom>
+                    <system value="fax" />
+                    <value value="(+1) (555)555-3002" />
+                </telecom>
+                <telecom>
+                    <system value="email" />
+                    <value value="mail@smc.org" />
+                </telecom>
+                <address>
+                    <line value="Clinic Bldg A" />
+                    <line value="4444 Healthcare Drive" />
+                    <city value="Ann Arbor" />
+                    <state value="MI" />
+                    <postalCode value="99999" />
+                </address>
+                <managingOrganization>
+                    <reference value="Organization/29e97b6f-a73a-4b4b-881a-ffc33b2f8d95" />
+                </managingOrganization>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://example.org/Condition/fa374dc2-f5b9-4ea0-9359-dbccbb99fd33" />
+        <resource>
+            <Condition>
+                <id value="fa374dc2-f5b9-4ea0-9359-dbccbb99fd33" />
+                <meta>
+                    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-condition-encounter-diagnosis" />
+                </meta>
+                <text>
+                    <status value="generated" />
+                    <div xmlns="http://www.w3.org/1999/xhtml">This is a simple narrative with only plain text</div>
+                </text>
+                <clinicalStatus>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/condition-clinical" />
+                        <code value="active" />
+                        <display value="Active" />
+                    </coding>
+                </clinicalStatus>
+                <verificationStatus>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status" />
+                        <code value="confirmed" />
+                        <display value="Confirmed" />
+                    </coding>
+                </verificationStatus>
+                <category>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/condition-category" />
+                        <code value="encounter-diagnosis" />
+                        <display value="Encounter Diagnosis" />
+                    </coding>
+                </category>
+                <code>
+                    <coding>
+                        <system value="http://hl7.org/fhir/sid/icd-10-cm" />
+                        <code value="A54.00" />
+                        <display value="Gonococcal infection of lower genitourinary tract, unspecified" />
+                    </coding>
+                    <text value="Gonococcal infection of lower genitourinary tract, unspecified" />
+                </code>
+                <subject>
+                    <reference value="Patient/241e727b-9aff-45a2-b49f-c569b5cd6bb0" />
+                </subject>
+                <encounter>
+                    <reference value="Encounter/c2e7e1a6-4df2-4150-af5c-f0ce28164a5e" />
+                </encounter>
+                <recordedDate value="2024-01-05T05:13:32-04:00" />
+            </Condition>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://example.org/MedicationRequest/f28bc774-dacb-4149-b110-bbd1b73fea04" />
+        <resource>
+            <MedicationRequest>
+                <id value="f28bc774-dacb-4149-b110-bbd1b73fea04" />
+                <meta>
+                    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest" />
+                </meta>
+                <text>
+                    <status value="generated" />
+                    <div xmlns="http://www.w3.org/1999/xhtml">This is a simple narrative with only plain text</div>
+                </text>
+                <status value="completed" />
+                <intent value="order" />
+                <medicationCodeableConcept>
+                    <coding>
+                        <system value="http://www.nlm.nih.gov/research/umls/rxnorm" />
+                        <code value="309090" />
+                        <display value="ceftriaxone 100 MG/ML Injectable Solution" />
+                    </coding>
+                    <text value="ceftriaxone 100 MG/ML Injectable Solution" />
+                </medicationCodeableConcept>
+                <subject>
+                    <reference value="Patient/241e727b-9aff-45a2-b49f-c569b5cd6bb0" />
+                </subject>
+                <encounter>
+                    <reference value="Encounter/c2e7e1a6-4df2-4150-af5c-f0ce28164a5e" />
+                </encounter>
+                <authoredOn value="2024-05-18T07:45:33-04:00" />
+                <requester>
+                    <reference value="Practitioner/f51ff39e-b0e3-4f4f-8a2c-0910f04149ea" />
+                </requester>
+                <reasonCode>
+                    <coding>
+                        <system value="http://hl7.org/fhir/sid/icd-10-cm" />
+                        <code value="A54.00" />
+                        <display value="Gonococcal infection of lower genitourinary tract, unspecified" />
+                    </coding>
+                    <text value="Gonococcal infection of lower genitourinary tract, unspecified" />
+                </reasonCode>
+                <reasonCode>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="788961008" />
+                        <display value="Infection of the penile urethra caused by Neisseria gonorrhoeae (disorder)" />
+                    </coding>
+                    <text value="Infection of the penile urethra caused by Neisseria gonorrhoeae (disorder)" />
+                </reasonCode>
+                <reasonReference>
+                    <reference value="Condition/fa374dc2-f5b9-4ea0-9359-dbccbb99fd33" />
+                </reasonReference>
+                <dosageInstruction>
+                    <text value="IM 500mg/single dose" />
+                </dosageInstruction>
+            </MedicationRequest>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://example.org/Specimen/4c85c36a-418e-4805-b534-649fc220b159" />
+        <resource>
+            <Specimen>
+                <id value="4c85c36a-418e-4805-b534-649fc220b159" />
+                <meta>
+                    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-specimen" />
+                </meta>
+                <text>
+                    <status value="generated" />
+                    <div xmlns="http://www.w3.org/1999/xhtml">This is a simple narrative with only plain text</div>
+                </text>
+                <type>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/v2-0487" />
+                        <code value="SMN" />
+                        <display value="Seminal fluid" />
+                    </coding>
+                </type>
+                <subject>
+                    <reference value="Patient/241e727b-9aff-45a2-b49f-c569b5cd6bb0" />
+                </subject>
+            </Specimen>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://example.org/Observation/de44d3f5-0e38-4376-a92b-6a2554a7ca55" />
+        <resource>
+            <Observation>
+                <id value="de44d3f5-0e38-4376-a92b-6a2554a7ca55" />
+                <meta>
+                    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-lab-result-observation" />
+                </meta>
+                <text>
+                    <status value="generated" />
+                    <div xmlns="http://www.w3.org/1999/xhtml">This is a simple narrative with only plain text</div>
+                </text>
+                <status value="final" />
+                <category>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/observation-category" />
+                        <code value="laboratory" />
+                        <display value="Laboratory" />
+                    </coding>
+                </category>
+                <code>
+                    <coding>
+                        <system value="http://loinc.org" />
+                        <code value="47387-6" />
+                        <display value="Neisseria gonorrhoeae DNA [Presence] in Genital specimen by NAA with probe detection" />
+                    </coding>
+                </code>
+                <subject>
+                    <reference value="Patient/241e727b-9aff-45a2-b49f-c569b5cd6bb0" />
+                </subject>
+                <encounter>
+                    <reference value="Encounter/c2e7e1a6-4df2-4150-af5c-f0ce28164a5e" />
+                </encounter>
+                <effectiveDateTime value="2024-07-07" />
+                <performer>
+                    <reference value="Practitioner/f51ff39e-b0e3-4f4f-8a2c-0910f04149ea" />
+                    <display value="Practitioner" />
+                </performer>
+                <valueCodeableConcept>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="260373001" />
+                        <display value="Detected" />
+                    </coding>
+                </valueCodeableConcept>
+                <interpretation>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation" />
+                        <code value="POS" />
+                        <display value="Positive" />
+                    </coding>
+                </interpretation>
+                <specimen>
+                    <reference value="Specimen/4c85c36a-418e-4805-b534-649fc220b159" />
+                </specimen>
+            </Observation>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://example.org/Observation/13b4e231-447d-4a6e-bd49-3bf336ac2cf7" />
+        <resource>
+            <Observation>
+                <id value="13b4e231-447d-4a6e-bd49-3bf336ac2cf7" />
+                <meta>
+                    <profile value="http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-pregnancy-status-observation" />
+                </meta>
+                <text>
+                    <status value="generated" />
+                    <div xmlns="http://www.w3.org/1999/xhtml">This is a simple narrative with only plain text</div>
+                </text>
+                <status value="final" />
+                <category>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/observation-category" />
+                        <code value="social-history" />
+                        <display value="Social History" />
+                    </coding>
+                </category>
+                <code>
+                    <coding>
+                        <system value="http://loinc.org" />
+                        <code value="82810-3" />
+                        <display value="Pregnancy status" />
+                    </coding>
+                    <text value="Pregnancy status" />
+                </code>
+                <subject>
+                    <reference value="Patient/241e727b-9aff-45a2-b49f-c569b5cd6bb0" />
+                </subject>
+                <effectiveDateTime value="2024-09-03T03:55:16.382181+00:00" />
+                <performer>
+                    <reference value="Practitioner/f51ff39e-b0e3-4f4f-8a2c-0910f04149ea" />
+                    <display value="Practitioner" />
+                </performer>
+                <valueCodeableConcept>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="60001007" />
+                        <display value="Not pregnant (finding)" />
+                    </coding>
+                    <text value="Not pregnant (finding)" />
+                </valueCodeableConcept>
+            </Observation>
+        </resource>
+    </entry>
+</Bundle>
