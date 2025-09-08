@@ -1,6 +1,6 @@
 ValueSet: USPublicHealthValueSetSupplementalExample
 Id: us-ph-valueset-supplemental-example
-Title: "US Public Health VaueSet - Supplemental Example"
+Title: "US Public Health ValueSet - Supplemental Example"
 Description: "This valueset is a valueset created for the purposes of demonstrating, by example, the US Public Health Supplemental ValueSet profile."
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-valueset"
 

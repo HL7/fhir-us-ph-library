@@ -1,7 +1,7 @@
 Extension: USPublicHealthDataEncryptedExtension
 Id: us-ph-data-encrypted-extension
 Title: "US Public Health Data Encrypted Extension"
-Description: "This Exension profile indicates whether or not the data in the content bundle is encrypted."
+Description: "This Extension profile indicates whether or not the data in the content bundle is encrypted."
 * ^experimental = false
 
 

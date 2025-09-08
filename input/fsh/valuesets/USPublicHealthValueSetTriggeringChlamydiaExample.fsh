@@ -1,6 +1,6 @@
 ValueSet: USPublicHealthValueSetTriggeringChlamydiaExample
 Id: us-ph-valueset-triggering-chlamydia-example
-Title: "US Public Health VaueSet - Triggering Chlamydia Example"
+Title: "US Public Health ValueSet - Triggering Chlamydia Example"
 Description: "This example set of values contains laboratory observations test names that represent that the patient may have the potentially reportable condition of Chlamydia regardless of the clinical presentation of the condition."
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset"
 

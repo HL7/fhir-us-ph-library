@@ -2,7 +2,7 @@ Profile: USPublicHealthCodeSystem
 Parent: CodeSystem
 Id: us-ph-codesystem
 Title: "US Public Health CodeSystem"
-Description: "This CodeSystem profile describes describes the minimum requirements for a US public health code system."
+Description: "This CodeSystem profile describes the minimum requirements for a US public health code system."
 * ^experimental = false
 * . ^short = "US Public Health CodeSystem"
 

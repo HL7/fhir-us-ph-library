@@ -162,7 +162,7 @@ groups:
 
   architecture-profiles-terminology:
     name: "Profiles: Architecture - Terminology"
-    description: "The set of Profiles: Architecture -  Terminolgy is composed of terminology profiles that are related to how data is defined and exchanged. These profiles support representation and use of metadata to address terminology concerns  and support consistent content lifecycle management.
+    description: "The set of Profiles: Architecture -  terminology is composed of terminology profiles that are related to how data is defined and exchanged. These profiles support representation and use of metadata to address terminology concerns  and support consistent content lifecycle management.
                   
                   #### ValueSet Profiles
                   

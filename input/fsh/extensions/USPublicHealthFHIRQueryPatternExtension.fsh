@@ -1,7 +1,7 @@
 Extension: USPublicHealthFHIRQueryPatternExtension
 Id: us-ph-fhirquerypattern-extension
 Title: "US Public Health FHIR Query Pattern Extension"
-Description: "This Exension profile supports communicating the FHIR query for a given data requirement."
+Description: "This Extension profile supports communicating the FHIR query for a given data requirement."
 * ^experimental = false
 
 * ^context.type = #fhirpath
