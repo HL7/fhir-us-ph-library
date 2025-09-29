@@ -10,5 +10,6 @@ Description: "This Observation profile represents a patient's primary complaint 
 * code = $loinc#10154-3
 * code ^short = "Chief complaint Narrative - Reported"
 * subject only Reference(USPublicHealthPatient)
+* value[x] only string
 * value[x] 1..1 MS
 * value[x] ^short = "(USCDI+) Chief Complaint"

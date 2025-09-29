@@ -2,7 +2,7 @@ It is based on the [US Core Simple Observation Profile]({{site.data.fhir.ver.hl7
 * sets Observation.category to "exam | Exam"
 * sets Observation.code to "Chief complaint Narrative - Reported"
 * further constrains Observation.subject to the [US Public Health Patient](StructureDefinition-us-ph-patient.html)
-* further constrains Observation.code\[x\] to the string data type
+* further constrains Observation.value\[x\] to the string data type
 
 ### Represented USCDI+ Data Elements
 
