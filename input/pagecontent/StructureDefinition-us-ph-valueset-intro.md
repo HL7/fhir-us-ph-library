@@ -5,4 +5,4 @@ It is based on the [CRMI Shareable ValueSet]({{site.data.fhir.ver.hl7fhiruvcrmi}
 	* required slice for priority (emergent, routine)
 	* optional slice for the clinical condition that is the focus of the codes in the value set
 
-Published value sets should conform to the [CRMIPublishedValueSet]({{site.data.fhir.ver.hl7fhiruvcrmi}}/StructureDefinition-crmi-publishablevalueset.html) profile.
+Published value sets should conform to the [CRMI Publishable ValueSet]({{site.data.fhir.ver.hl7fhiruvcrmi}}/StructureDefinition-crmi-publishablevalueset.html) profile.

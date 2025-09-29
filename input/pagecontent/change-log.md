@@ -16,6 +16,7 @@
 | [FHIR-52766](https://jira.hl7.org/browse/FHIR-52766) | Derive the US Public Health Value Set profile from CRMIShareableValueSet, rather than the base Shareable; State that published value sets should conform to the 
 CRMIPublishableValueSet profile; Remove Public Health Computable and referring instead to the CRMIComputableValueSet profile; Remove Public Health Executable and referring instead to the CRMIExpandedValueSet profile. |
 | [FHIR-52767](https://jira.hl7.org/browse/FHIR-52767) | Derive the US Public Health Specification Library from the CRMIShareableLibrary, rather than the ShareableLibrary; Require that published libraries conform to the CRMIPublishableLibrary profile; Remove the Public Health Computable Library and instead require conformance with the Using CQL CQL Library profile; Remove the Public Health Executable Library and instead require conformance with the Using CQL ELM Library profile |
+| [FHIR-52769](https://jira.hl7.org/browse/FHIR-52769) | Derive the US Public Health PlanDefinition profile from CRMIShareablePlanDefinition; Require that published PlanDefinitions conform to the CRMIPublishablePlanDefinition profile. |
 
 
 

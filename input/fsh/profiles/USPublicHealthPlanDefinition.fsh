@@ -1,5 +1,5 @@
 Profile: USPublicHealthPlanDefinition
-Parent: $shareableplandefinition
+Parent: http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableplandefinition
 Id: us-ph-plandefinition
 Title: "US Public Health PlanDefinition"
 Description: "This PlanDefinition profile describes the US Public Health PlanDefinition."
@@ -13,15 +13,7 @@ Description: "This PlanDefinition profile describes the US Public Health PlanDef
     USPublicHealthReceiverJwksUrlExtension named jwksForContentEncryption 0..1 MS and
     USPublicHealthDataEncryptionAlgorithmExtension named contentEncryptionAlgorithm 0..1 MS and
     USPublicHealthExpectedResponseTimeExtension named expectedResponseDuration 0..1 MS
-* version 1.. MS
-* version ^short = "Business version of the PlanDefinition"
-* version ^definition = "Business version of the PlanDefinition"
 * name 1.. MS
-* name ^short = "Name for this PlanDefinition (computer friendly)"
-* name ^definition = "Name for this PlanDefinition (computer friendly)"
-* title 1.. MS
-* title ^short = "Title for this PlanDefinition"
-* title ^definition = "Title for this PlanDefinition"
 * type 1.. MS
 * type = $plan-definition-type#workflow-definition "Workflow Definition"
 * type ^short = "Type of this PlanDefinition"
@@ -30,9 +22,6 @@ Description: "This PlanDefinition profile describes the US Public Health PlanDef
 * date 1.. MS
 * date ^short = "Date the PlanDefinition was last changed"
 * date ^definition = "Date the PlanDefinition was last changed"
-* publisher MS
-* publisher ^short = "Name of the agency that published this PlanDefinition"
-* publisher ^definition = "Name of the agency that published this PlanDefinition"
 * effectivePeriod MS
 * effectivePeriod ^short = "When the PlanDefinition is valid"
 * effectivePeriod ^definition = "The period during which the PlanDefinition is valid"
