@@ -147,7 +147,6 @@ groups:
     name: "Profiles: Architecture - Extensions"
     description: "The set of Profiles: Architecture -  Extensions is composed of Extension profiles that are related to how data is defined and exchanged."
     resources:
-    - StructureDefinition/us-ph-alternative-expression-extension
     - StructureDefinition/us-ph-async-indicator-extension
     - StructureDefinition/us-ph-data-encrypted-extension
     - StructureDefinition/us-ph-data-encryption-algorithm-extension

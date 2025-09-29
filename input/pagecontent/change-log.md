@@ -1,3 +1,14 @@
+### STU 2
+
+#### Jira Tickets
+
+|JIRA Ticket|Ticket Description|
+|---------|----------|
+| [FHIR-52228](https://jira.hl7.org/browse/FHIR-52228) | Fix typos |
+| [FHIR-52469](https://jira.hl7.org/browse/FHIR-52228) | Fix typo |
+
+
+
 ### STU 2 - Ballot
 
 #### Jira Tickets
