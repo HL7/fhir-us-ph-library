@@ -156,7 +156,6 @@ groups:
     - StructureDefinition/us-ph-receiver-jwks-url-extension
     - StructureDefinition/us-ph-relateddata-extension
     - StructureDefinition/us-ph-trust-service-endpoint-extension
-    - StructureDefinition/us-ph-usagewarning-extension
 
   architecture-profiles-terminology:
     name: "Profiles: Architecture - Terminology"
