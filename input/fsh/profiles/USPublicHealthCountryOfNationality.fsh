@@ -9,7 +9,7 @@ Description: "This Observation profile represents the patient's country of natio
 * category[us-core] = $system-observation-category#social-history
 * code = $sct#186034007
 * code ^short = "Ethnicity / related nationality data (observable entity)"
-* subject only Reference(USPublicHealthPatient)
+* subject only Reference(USPublicHealthPatient or USCorePatientProfile)
 * effective[x] only dateTime
 * value[x] 1..
 * value[x] only CodeableConcept

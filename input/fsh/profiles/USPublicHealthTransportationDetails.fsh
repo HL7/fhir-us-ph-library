@@ -12,6 +12,7 @@ Description: "This Observation profile represents transportation details such as
 * category[transportation] ^short = "Transportation"
 * code = $sct#424483007
 * code ^short = "Transportation details (observable entity)"
+* subject only Reference(USPublicHealthPatient or USCorePatientProfile)
 * effective[x] only dateTime or Period
 * effective[x] ^short = "Date or period of transportation"
 * value[x] 1..

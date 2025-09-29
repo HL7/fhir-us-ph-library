@@ -9,7 +9,7 @@ Description: "This Observation profile represents a patient's symptom."
 * category[us-core] = $system-observation-category#exam
 * code = $loinc#75325-1
 * code ^short = "Symptom"
-* subject only Reference(USPublicHealthPatient)
+* subject only Reference(USPublicHealthPatient or USCorePatientProfile)
 * value[x] 1..1 MS
 * value[x] ^short = "(USCDI+) Symptom"
 * value[x] only CodeableConcept

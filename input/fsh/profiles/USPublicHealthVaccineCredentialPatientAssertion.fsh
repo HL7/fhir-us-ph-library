@@ -9,7 +9,7 @@ Description: "This Observation profile represents whether or not the patient has
 * category = $system-observation-category#social-history
 * code = $loinc#11370-4
 * code ^short = "Immunization status - Reported"
-* subject only Reference(USPublicHealthPatient)
+* subject only Reference(USPublicHealthPatient or USCorePatientProfile)
 * effective[x] only dateTime
 * effective[x] MS
 * effective[x] ^short = "The date of assertion"

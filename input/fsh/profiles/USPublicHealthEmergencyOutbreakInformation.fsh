@@ -8,7 +8,7 @@ Description: "This profile represents information that is required during a publ
 
 * code 1..1 MS
 * subject 1..1 MS
-* subject only Reference(USPublicHealthPatient)
+* subject only Reference(USPublicHealthPatient or USCorePatientProfile)
 * value[x] 1..
 * value[x] only Quantity or CodeableConcept or string or boolean or integer or dateTime or Period
 * hasMember only Reference(USPublicHealthEmergencyOutbreakInformation)

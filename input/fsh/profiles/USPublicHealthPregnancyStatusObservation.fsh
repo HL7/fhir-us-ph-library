@@ -16,7 +16,7 @@ Description: "This profile represents pregnancy status, enabling investigators t
 // * extension[extensionPregnancyStatusRecordedDate] ^definition = "The date the pregnancy status was recorded."
 * extension[extensionPregnancyStatusDeterminationDate] ^short = "Pregnancy Status Determination Date"
 * extension[extensionPregnancyStatusDeterminationDate] ^definition = "The date the pregnancy status was determined."
-* subject only Reference(USPublicHealthPatient)
+* subject only Reference(USPublicHealthPatient or USCorePatientProfile)
 * effective[x] ^short = "(USCDI+) Pregnancy Status Recorded Date"
 * value[x] ^short = "(USCDI+) Pregnancy Status"
 * method MS

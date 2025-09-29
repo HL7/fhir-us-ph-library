@@ -29,7 +29,7 @@ Description: "This Observation profile represents potential patient exposure and
 * code.coding[exposureSetting] from $valueset-exposure-setting (required)
 * code.coding[exposureLocation] from $valueset-exposure-location (required)
 * code.coding[exposureSocial] from $valueset-social-history-type (required)
-* subject only Reference(USPublicHealthPatient)
+* subject only Reference(USPublicHealthPatient or USCorePatientProfile)
 // add animal (i.e. don't use relatedperson)
 * focus only Reference(USPublicHealthPatient or RelatedPerson or Group or USPublicHealthLocation)
 * focus MS

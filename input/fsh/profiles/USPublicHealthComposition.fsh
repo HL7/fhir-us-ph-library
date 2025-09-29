@@ -22,7 +22,7 @@ Description: "This Composition profile represents a public health composition."
 * type MS
 * type ^short = "Type of this public health report"
 * subject 1.. MS
-* subject only Reference(USPublicHealthPatient)
+* subject only Reference(USPublicHealthPatient or USCorePatientProfile)
 * subject ^short = "Patient"
 * subject ^definition = "The subject of this Composition is the patient."
 * subject ^isModifier = false

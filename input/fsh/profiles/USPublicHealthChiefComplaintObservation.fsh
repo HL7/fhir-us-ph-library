@@ -9,7 +9,7 @@ Description: "This Observation profile represents a patient's primary complaint 
 * category[us-core] = $system-observation-category#exam
 * code = $loinc#10154-3
 * code ^short = "Chief complaint Narrative - Reported"
-* subject only Reference(USPublicHealthPatient)
+* subject only Reference(USPublicHealthPatient or USCorePatientProfile)
 * value[x] only string
 * value[x] 1..1 MS
 * value[x] ^short = "(USCDI+) Chief Complaint"

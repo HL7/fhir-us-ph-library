@@ -12,6 +12,7 @@
 | [FHIR-52768](https://jira.hl7.org/browse/FHIR-52768) | Use the FHIR codesystem-property-valueset extension and remove the US Public Health CodeSystem Property Required Binding Extension |
 | [FHIR-51948](https://jira.hl7.org/browse/FHIR-51948) | Remove constraint on US PH PractitionerRole.identifier |
 | [FHIR-51789](https://jira.hl7.org/browse/FHIR-51789) | Chief Complaint Observation: constrain Observation.value to string data type, update the text to: "further constrains Observation.value\[x\] to the string data type" |
+| [FHIR-51947](https://jira.hl7.org/browse/FHIR-51947) | Relax constraint on profiles that require only a US PH Patient to also allow US Core Patient |
 
 
 

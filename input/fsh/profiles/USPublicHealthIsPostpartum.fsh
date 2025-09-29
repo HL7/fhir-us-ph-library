@@ -9,7 +9,7 @@ Description: "This Observation profile represents whether or not the patient is 
 * category = $system-observation-category#social-history
 * code = $sct#249197004
 * code ^short = "Maternal condition during puerperium (observable entity)"
-* subject only Reference(USPublicHealthPatient)
+* subject only Reference(USPublicHealthPatient or USCorePatientProfile)
 * effective[x] 1..
 * effective[x] only dateTime
 * value[x] 1..

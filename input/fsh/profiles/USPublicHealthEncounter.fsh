@@ -9,7 +9,7 @@ Description: "This profile represents the encounter related to a public health e
 * identifier ^short = "(USCDI+) Encounter Identifier"
 * status ^short = "(USCDI+) Encounter Status"
 * type ^short = "(USCDI+) Encounter Type"
-* subject only Reference(USPublicHealthPatient)
+* subject only Reference(USPublicHealthPatient or USCorePatientProfile)
 * participant ^slicing.discriminator.type = #type
 * participant ^slicing.discriminator.path = "type"
 * participant ^slicing.rules = #open

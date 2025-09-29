@@ -9,7 +9,7 @@ Description: "This Observation profile represents a patient's travel history."
 * category = $system-observation-category#social-history
 * code = $sct#420008001
 * code ^short = "Travel (event)"
-* subject only Reference(USPublicHealthPatient)
+* subject only Reference(USPublicHealthPatient or USCorePatientProfile)
 * effective[x] 1..
 * effective[x] ^short = "(USCDI+) Travel History Dates"
 * effective[x] ^definition = "It is important to accurately capture the most accurate dates possible. The focus should be on date of arrival and date of departure."

@@ -9,7 +9,7 @@ Description: "This Observation profile represents the Disability Element defined
 * category[us-core] = $system-us-core-category#disability-status
 * code from DisabilityStatusAssessment (required)
 * code ^short = "(USCDI+) Disability Status"
-* subject only Reference(USPublicHealthPatient)
+* subject only Reference(USPublicHealthPatient or USCorePatientProfile)
 * value[x] 1..
 * value[x] only CodeableConcept
 * value[x] from $yes-no-unknown-not-asked (required)

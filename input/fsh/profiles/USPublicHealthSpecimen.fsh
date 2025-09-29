@@ -11,7 +11,7 @@ Description: "This Specimen profile represents “substances being sampled or te
 * accessionIdentifier ^short = "(USCDI+) Specimen Identifier"
 * accessionIdentifier MS
 * type ^short = "(USCDI+) Specimen Type"
-* subject only Reference(USPublicHealthPatient)
+* subject only Reference(USPublicHealthPatient or USCorePatientProfile)
 * collection.collected[x] ^short = "(USCDI+) Specimen Collection Date/Time"
 * collection.collected[x] MS
 * collection.bodySite ^short = "(USCDI+) Specimen Source Site"

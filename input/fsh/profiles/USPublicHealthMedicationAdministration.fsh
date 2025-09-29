@@ -15,7 +15,7 @@ Description: "This MedicationAdministration profile represents the event of a pa
 * medication[x] 1..1 MS
 * medication[x] only CodeableConcept or Reference(USCoreMedicationProfile)
 * medication[x] from MedicationClinicalDrug (extensible)
-* subject only Reference(USPublicHealthPatient)
+* subject only Reference(USPublicHealthPatient or USCorePatientProfile)
 * subject MS
 * effective[x] ^short = "(USCDI+) Date Medication Administered"
 * effective[x] MS

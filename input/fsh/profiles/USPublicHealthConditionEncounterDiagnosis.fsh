@@ -9,7 +9,7 @@ Description: "This Condition profile represents an encounter diagnosis for a pub
 * extension[assertedDate] ^short = "(USCDI+) Date of Diagnosis"
 * verificationStatus ^short = "If a condition is mistakenly entered into the system and later corrected verificationStatus of 'entered-in-error' must be set"
 * code ^short = "(USCDI+) Suspected Diagnosis"
-* subject only Reference(USPublicHealthPatient)
+* subject only Reference(USPublicHealthPatient or USCorePatientProfile)
 * onset[x] ^short = "(USCDI+) Date of Onset, (USCDI+) Date of Diagnosis"
 * abatement[x] ^short = "(USCDI+) Date of Resolution"
 * recordedDate ^short = "(USCDI+) Date of Diagnosis"
