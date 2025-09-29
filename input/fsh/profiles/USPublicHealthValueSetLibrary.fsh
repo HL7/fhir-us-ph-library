@@ -12,7 +12,7 @@ Description: "This Library profile defines the library containing US Public Heal
 * extension ^base.max = "*"
 * extension ^isModifier = false
 * extension ^isSummary = false
-* extension contains USPublicHealthExpansionParametersExtension named expansionParameters 0..1 MS
+* extension contains http://hl7.org/fhir/StructureDefinition/cqf-expansionParameters named expansionParameters 0..1 MS
 * extension[expansionParameters] ^short = "Expansion Parameters for the ValueSet."
 * extension[expansionParameters] ^definition = "Supports the definition of expansion parameters for the ValueSet."
 * extension[expansionParameters] ^base.path = "DomainResource.extension"

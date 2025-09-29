@@ -150,7 +150,6 @@ groups:
     - StructureDefinition/us-ph-async-indicator-extension
     - StructureDefinition/us-ph-data-encrypted-extension
     - StructureDefinition/us-ph-data-encryption-algorithm-extension
-    - StructureDefinition/us-ph-expansion-parameters-extension
     - StructureDefinition/us-ph-expected-response-time-extension
     - StructureDefinition/us-ph-message-processing-category-extension
     - StructureDefinition/us-ph-named-eventtype-extension

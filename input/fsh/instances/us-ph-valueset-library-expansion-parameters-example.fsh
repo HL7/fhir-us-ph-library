@@ -4,7 +4,7 @@ Title: "US Public Health ValueSet Library Expansion Parameters - Chlamydia Examp
 Description: "US Public Health ValueSet Library Expansion Parameters example containing a  Chlamydia value set and demonstrating expansion parameter"
 Usage: #example
 * contained = expansion-parameters-ph-library
-* extension.url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-expansion-parameters-extension"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/cqf-expansionParameters"
 * extension.valueReference.reference = "#expansion-parameters-ph-library"
 * url = "http://hl7.org/fhir/us/ph-library/fhir/Library/us-ph-valueset-library-expansion-parameters-example"
 * identifier.system = "urn:ietf:rfc:3986"
