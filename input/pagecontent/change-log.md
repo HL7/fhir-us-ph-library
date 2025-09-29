@@ -6,6 +6,7 @@
 |---------|----------|
 | [FHIR-52228](https://jira.hl7.org/browse/FHIR-52228) | Fix typos |
 | [FHIR-52469](https://jira.hl7.org/browse/FHIR-52228) | Fix typo |
+| [FHIR-52763](https://jira.hl7.org/browse/FHIR-52763) | Use the cqf-alternativeExpression extension and remove the US Public Health Alternative Expression Extension |
 
 
 
