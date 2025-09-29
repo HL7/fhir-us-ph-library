@@ -1,5 +1,5 @@
 Profile: USPublicHealthSpecificationLibrary
-Parent: $shareablelibrary
+Parent: http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablelibrary
 Id: us-ph-specification-library
 Title: "US Public Health Specification Library"
 Description: "This Library profile defines the asset-collection library for a public health reporting program specification, typically consisting of a ValueSet library and other supporting specifications such as PlanDefinitions."

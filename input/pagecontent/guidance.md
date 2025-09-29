@@ -31,6 +31,10 @@ The US Public Health Profiles Library will align with and incorporate updates fr
 
 The US Public Health Profiles Library will evolve over time to serve evolving USCDI+ Public Health use cases. 
 
+### CRMI
+
+**TODO** Add guidance on using CRMI - require comformance to CQL Library Profile, CQL ELM Library Profile, CRMIPublishableLibrary profile. CRMIComputableValueSet profile, CRMIExpandedValueSet profile, CRMIPublishableValueSet etc.
+
 ### Work Information
 
 This library does not include profiles to implement support for Occupational Data for Health (ODH). Use the profiles defined in [US Core]({{site.data.fhir.ver.hl7fhiruscore}}) and [Occupational Data for Health (ODH)](http://hl7.org/fhir/us/odh/) to describe structured work information primarily designed to facilitate clinical care, including population health and value-based care. ODH also can be used to support public health reporting. See also: * [Mappings](mapping.html)

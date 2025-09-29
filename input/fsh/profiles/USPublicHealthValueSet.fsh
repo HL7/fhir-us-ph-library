@@ -1,5 +1,5 @@
 Profile: USPublicHealthValueSet
-Parent: $shareablevalueset
+Parent: http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset
 Id: us-ph-valueset
 Title: "US Public Health ValueSet"
 Description: "This ValueSet profile describes the minimum requirements for US public health value sets."
@@ -11,20 +11,17 @@ Description: "This ValueSet profile describes the minimum requirements for US pu
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains
-    // $valueset-steward named extensionValueSetSteward 1..1 MS and
     $artifact-author named extensionValueSetAuthor 1..1 MS
-// * extension[extensionValueSetSteward] ^short = "Value set steward"
-// * extension[extensionValueSetSteward] ^definition = "The entity or set of entities that create and may modify the Value Set Definition content. The name of a group or an individual, along with contact details."
 * extension[extensionValueSetAuthor] ^short = "Value set author"
 * extension[extensionValueSetAuthor] ^definition = "The entity or set of entities that create and may modify the Value Set Definition content. The name of a group or an individual, along with contact details."
 * identifier MS
 * identifier ^short = "Value set identifier used by public health"
 * identifier ^definition = "The identifier of the value set."
 * identifier ^min = 0
-* title 1.. MS
-* title ^short = "Value set title"
-* title ^definition = "The title of the value set."
-* publisher MS
+// * title 1.. MS
+// * title ^short = "Value set title"
+// * title ^definition = "The title of the value set."
+// * publisher MS
 * useContext MS
 * useContext ^slicing.discriminator.type = #value
 * useContext ^slicing.discriminator.path = "code"

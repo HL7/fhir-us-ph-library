@@ -36,6 +36,10 @@ dependencies:
     version: 0.23.0
     uri: http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac
     id: usnlmvsac
+  hl7.fhir.uv.crmi:
+    version: 1.0.0
+    uri: https://hl7.org/fhir/uv/crmi/ImplementationGuide/hl7.fhir.uv.crmi
+    id: hl7fhiruvcrmi
 
 parameters:
   show-inherited-invariants: false
@@ -46,8 +50,6 @@ parameters:
      - http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdictions-example
      - http://example.org/fhir/CodeSystem/us-ph-codesystem-endpoint-connection-type-example
      - http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdiction-types-example
-     - http://example.org/fhir/ValueSet/us-ph-valueset-computable-example
-     - http://example.org/fhir/ValueSet/us-ph-valueset-executable-chlamydia-example
      - http://example.org/fhir/ValueSet/us-ph-valueset-chlamydia-example
      - http://example.org/fhir/ValueSet/us-ph-valueset-supplemental-example
      - http://example.org/fhir/ValueSet/us-ph-valueset-triggering-chlamydia-example
@@ -159,19 +161,13 @@ groups:
 
   architecture-profiles-terminology:
     name: "Profiles: Architecture - Terminology"
-    description: "The set of Profiles: Architecture -  terminology is composed of terminology profiles that are related to how data is defined and exchanged. These profiles support representation and use of metadata to address terminology concerns  and support consistent content lifecycle management.
+    description: "The set of Profiles: Architecture - terminology is composed of terminology profiles that are related to how data is defined and exchanged. These profiles support representation and use of metadata to address terminology concerns and support consistent content lifecycle management.
                   
                   #### ValueSet Profiles
                   
                   * The [US Public Health ValueSet](StructureDefinition-us-ph-valueset.html) defines minimum base conformance requirements for a ValueSet used in public health.
 
                   * The [US Public Health Triggering ValueSet](StructureDefinition-us-ph-triggering-valueset.html) defines conformance requirements for a ValueSet that is part of determination of a potentially reportable event (i.e. a &quot;triggering&quot; event).
-                  
-                  * The [US Public Health Computable ValueSet](StructureDefinition-us-ph-computable-valueset.html) defines conformance requirements for a ValueSet that includes the computable definition of that value set, but not necessarily the full expansion. A computable value set is intended for use in environments that have access to a terminology server capable of expanding the value set.
-                  
-                  * The [US Public Health Executable ValueSet](StructureDefinition-us-ph-executable-valueset.html) defines conformance requirements for a ValueSet that includes the complete expansion of the ValueSet, but not necessarily the computable definition. An executable value set is intended for use in environments that are not expected to have access to a terminology server capable of expanding the value set, so the expansion is communicated as part of the ValueSet.
-                  
-                  Note that a given ValueSet may conform to both the computable and executable profiles at the same time.
 
                   #### Library Profiles
 
@@ -179,19 +175,9 @@ groups:
                   
                   * The [US Public Health Triggering ValueSet Library](StructureDefinition-us-ph-triggering-valueset-library.html) defines conformance requirements for a collection of ValueSets that are all used to facilitate determination of a potentially reportable event (i.e. a &quot;triggering&quot; event).
                   
-                  * The [US Public Health Supplemental Library](StructureDefinition-us-ph-supplemental-library.html) defines conformance requirements for the computable supplement for a public health reporting program specification, including computable routing rules that can be evaluated to help facilitate reportability determination at reporting sites, typically consisting of [Clinical Quality Language](http://cql.hl7.org/) (CQL) Rule libraries and additional terminiology artifacts required to evaluate those rules.
-                  
-                  * The [US Public Health Computable Library](StructureDefinition-us-ph-computable-library.html) defines conformance requirements for a Library that contains CQL text, but not necessarily the compiled [Expression Logical Model](https://cql.hl7.org/elm.html) (ELM) for that CQL. It is intended to be used in environments that are capable of translating CQL to the executable ELM.
-                  
-                  * The [US Public Health Executable Library](StructureDefinition-us-ph-executable-library.html) defines conformance requirements for a Library that contains compiled ELM, but not necessarily the source CQL text for that ELM. It is intended to be used in environments that are capable of executing ELM, but not necessarily of translating the source CQL.
-                  
-                  Note that a given Library may conform to both the computable and executable profiles at the same time."
+                  * The [US Public Health Supplemental Library](StructureDefinition-us-ph-supplemental-library.html) defines conformance requirements for the computable supplement for a public health reporting program specification, including computable routing rules that can be evaluated to help facilitate reportability determination at reporting sites, typically consisting of [Clinical Quality Language](http://cql.hl7.org/) (CQL) Rule libraries and additional terminiology artifacts required to evaluate those rules."
     resources:
     - StructureDefinition/us-ph-codesystem
-    - StructureDefinition/us-ph-computable-library
-    - StructureDefinition/us-ph-computable-valueset
-    - StructureDefinition/us-ph-executable-library
-    - StructureDefinition/us-ph-executable-valueset
     - StructureDefinition/us-ph-specification-library
     - StructureDefinition/us-ph-supplemental-library
     - StructureDefinition/us-ph-supplemental-valueset
@@ -205,38 +191,38 @@ groups:
     name: "Examples: Content"
     description: "These are example instances of the Content profiles that show what data produced and consumed by systems conforming with the profiles in this library might look like."
     resources:
-    - Composition/us-ph-composition-example
-    - Condition/us-ph-condition-encounter-diagnosis-diabetes
-    - Condition/us-ph-condition-encounter-diagnosis-hazy-vision
-    - Condition/us-ph-condition-problem-health-concern-hypertension
-    - Condition/us-ph-condition-encounter-diagnosis-suspected-measles
-    - Encounter/us-ph-encounter-eve-everywoman-outpatient
-    - Endpoint/us-ph-endpoint-salem-medical-center
-    - Endpoint/us-ph-endpoint-ymca
-    - MedicationAdministration/us-ph-medadmin-eve-everywoman-azithromycin
-    - MedicationAdministration/us-ph-medadmin-eve-everywoman-naloxone-response
-    - Observation/us-ph-char-home-environment-eve-everywoman
-    - Observation/us-ph-chief-complaint-observation-eve-everywoman
-    - Observation/us-ph-country-of-nationality-eve-everywoman
-    - Observation/us-ph-disability-status-eve-everywoman
-    - Observation/us-ph-emergency-outbreak-info-eve-everywoman
-    - Observation/us-ph-exposure-contact-info-football-game
-    - Observation/us-ph-exposure-contact-info-redhill
-    - Observation/us-ph-lab-result-eve-everywoman-lymphocytes
-    - Observation/us-ph-lab-result-eve-everywoman-pertussis
-    - Observation/us-ph-postpartum-status-eve-everywoman
-    - Observation/us-ph-pregnancy-outcome-eve-everywoman
-    - Observation/us-ph-pregnancy-status-eve-everywoman
-    - Observation/us-ph-reportability-information-observation
-    - Observation/us-ph-symptom-observation-headache-eve-everywoman
-    - Observation/us-ph-transportation-details-eve-everywoman
-    - Observation/us-ph-travel-history-eve-everywoman-1999
-    - Observation/us-ph-travel-history-eve-everywoman-201610
-    - Observation/us-ph-travel-history-eve-everywoman-201801
-    - Observation/us-ph-vaccine-credential-assertion-eve-everywoman
-    - PlanDefinition/us-ph-plandefinition-example
-    - PlanDefinition/us-ph-plandefinition-namedEvent-example
-    - Specimen/us-ph-specimen-serum
+      - Composition/us-ph-composition-example
+      - Condition/us-ph-condition-encounter-diagnosis-diabetes
+      - Condition/us-ph-condition-encounter-diagnosis-hazy-vision
+      - Condition/us-ph-condition-problem-health-concern-hypertension
+      - Condition/us-ph-condition-encounter-diagnosis-suspected-measles
+      - Encounter/us-ph-encounter-eve-everywoman-outpatient
+      - Endpoint/us-ph-endpoint-salem-medical-center
+      - Endpoint/us-ph-endpoint-ymca
+      - MedicationAdministration/us-ph-medadmin-eve-everywoman-azithromycin
+      - MedicationAdministration/us-ph-medadmin-eve-everywoman-naloxone-response
+      - Observation/us-ph-char-home-environment-eve-everywoman
+      - Observation/us-ph-chief-complaint-observation-eve-everywoman
+      - Observation/us-ph-country-of-nationality-eve-everywoman
+      - Observation/us-ph-disability-status-eve-everywoman
+      - Observation/us-ph-emergency-outbreak-info-eve-everywoman
+      - Observation/us-ph-exposure-contact-info-football-game
+      - Observation/us-ph-exposure-contact-info-redhill
+      - Observation/us-ph-lab-result-eve-everywoman-lymphocytes
+      - Observation/us-ph-lab-result-eve-everywoman-pertussis
+      - Observation/us-ph-postpartum-status-eve-everywoman
+      - Observation/us-ph-pregnancy-outcome-eve-everywoman
+      - Observation/us-ph-pregnancy-status-eve-everywoman
+      - Observation/us-ph-reportability-information-observation
+      - Observation/us-ph-symptom-observation-headache-eve-everywoman
+      - Observation/us-ph-transportation-details-eve-everywoman
+      - Observation/us-ph-travel-history-eve-everywoman-1999
+      - Observation/us-ph-travel-history-eve-everywoman-201610
+      - Observation/us-ph-travel-history-eve-everywoman-201801
+      - Observation/us-ph-vaccine-credential-assertion-eve-everywoman
+      - PlanDefinition/us-ph-plandefinition-example
+      - PlanDefinition/us-ph-plandefinition-namedEvent-example
+      - Specimen/us-ph-specimen-serum
 
   examples-content-entities:
     name: "Examples: Content - Entities"
@@ -286,8 +272,6 @@ groups:
     - Library/us-ph-valueset-library-example
     - Library/us-ph-valueset-library-expansion-parameters-example
     - ValueSet/us-ph-valueset-chlamydia-example
-    - ValueSet/us-ph-valueset-computable-example
-    - ValueSet/us-ph-valueset-executable-chlamydia-example
     - ValueSet/us-ph-valueset-supplemental-example
     - ValueSet/us-ph-valueset-triggering-chlamydia-example
 
