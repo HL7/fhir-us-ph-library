@@ -8,7 +8,8 @@
 | [FHIR-52469](https://jira.hl7.org/browse/FHIR-52228) | Fix typo |
 | [FHIR-52763](https://jira.hl7.org/browse/FHIR-52763) | Use the FHIR cqf-alternativeExpression extension and remove the US Public Health Alternative Expression Extension |
 | [FHIR-52764](https://jira.hl7.org/browse/FHIR-52764) | Use the FHIR cqf-expansionParameters extension and remove the US Public Health Expansion Parameters Extension |
-| [FHIR-52765](https://jira.hl7.org/browse/FHIR-52765) | Use FHIR valueset-warning extension and remove the US Public Health Usage Warning extension |
+| [FHIR-52765](https://jira.hl7.org/browse/FHIR-52765) | Use FHIR valueset-warning extension and remove the US Public Health Usage Warning Extension |
+| [FHIR-52768](https://jira.hl7.org/browse/FHIR-52768) | Use the FHIR codesystem-property-valueset extension and remove the US Public Health CodeSystem Property Required Binding Extension |
 
 
 

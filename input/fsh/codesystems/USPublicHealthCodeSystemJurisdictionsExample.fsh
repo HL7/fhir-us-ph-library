@@ -10,14 +10,14 @@ Description: "This code system describes example jurisdictions."
 * ^caseSensitive = false
 * ^content = #complete
 
-* ^property[0].extension.url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem-property-required-binding-extension"
+* ^property[0].extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset"
 * ^property[=].extension.valueCanonical = "http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdiction-types-example"
 * ^property[=].code = #type
 * ^property[=].uri = "http://example.org/fhir/CodeSystem/us-ph-codesystem-properties-example#type"
 * ^property[=].description = "Type of public health jurisdiction."
 * ^property[=].type = #Coding
 
-* ^property[+].extension.url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem-property-required-binding-extension"
+* ^property[+].extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset"
 * ^property[=].extension.valueCanonical = "http://hl7.org/fhir/us/core/ValueSet/us-core-usps-state"
 * ^property[=].code = #state
 * ^property[=].uri = "http://example.org/fhir/CodeSystem/us-ph-codesystem-properties-example#state"

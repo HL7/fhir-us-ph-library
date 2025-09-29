@@ -188,7 +188,6 @@ groups:
                   Note that a given Library may conform to both the computable and executable profiles at the same time."
     resources:
     - StructureDefinition/us-ph-codesystem
-    - StructureDefinition/us-ph-codesystem-property-required-binding-extension
     - StructureDefinition/us-ph-computable-library
     - StructureDefinition/us-ph-computable-valueset
     - StructureDefinition/us-ph-executable-library

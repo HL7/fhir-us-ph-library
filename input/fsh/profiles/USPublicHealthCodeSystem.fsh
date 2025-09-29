@@ -7,6 +7,6 @@ Description: "This CodeSystem profile describes the minimum requirements for a U
 * . ^short = "US Public Health CodeSystem"
 
 * property MS
-* property.extension contains USPublicHealthCodeSystemPropertyRequiredBindingExtension named binding 0..1 MS
+* property.extension contains http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset named binding 0..1 MS
 * property.extension[binding] ^short = "What values are allowed"
 * property.extension[binding] ^definition = "A reference to a CodeSystem or ValueSet that establishes the allowable values for a code system property."
