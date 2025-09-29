@@ -6,7 +6,6 @@ Description: "This PractitionerRole profile represents the roles and organizatio
 * ^experimental = false
 * . ^short = "US Public Health PractitionerRole"
 
-* identifier 1..1 MS
 * practitioner 1..
 * practitioner ^short = "(USCDI+) Provider Address, (USCDI+) Provider Email, (USCDI+) Provider Fax, (USCDI+) Provider Name, (USCDI+) Provider NPI, (USCDI+) Provider Phone (contained in referenced US Core Practitioner)"
 * organization only Reference(USPublicHealthOrganization)

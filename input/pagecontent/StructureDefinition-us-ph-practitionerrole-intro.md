@@ -1,4 +1,4 @@
-It is based on the [US Core PractitionerRole]({{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-practitionerrole.html) profile with a further restriction of mandatory practitioner, identifier, and telecom data elements and US Public Health Location and US Public Health Organization references.
+It is based on the [US Core PractitionerRole]({{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-practitionerrole.html) profile with a further restriction of mandatory practitioner and telecom data elements and US Public Health Location and US Public Health Organization references.
 
 ### Represented USCDI+ Data Elements (in referenced US Core Practitioner)
 
