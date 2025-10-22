@@ -49,7 +49,7 @@ parameters:
   show-inherited-invariants: false
   path-expansion-params: '../../input/Parameters-expansion-parameters-us-ph.json'  #path is relative to [base]/fsh-generated/resources
   auto-oid-root: 2.16.840.1.113883.4.642.40.58
-  pin-canonicals: pin-multiples
+  pin-canonicals: pin-all
   special-url: 
      - http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdictions-example
      - http://example.org/fhir/CodeSystem/us-ph-codesystem-endpoint-connection-type-example
