@@ -38,7 +38,7 @@ dependencies:
     id: usnlmvsac
   hl7.fhir.uv.crmi:
     version: 1.0.0
-    uri: https://hl7.org/fhir/uv/crmi/ImplementationGuide/hl7.fhir.uv.crmi
+    uri: http://hl7.org/fhir/uv/crmi/ImplementationGuide/hl7.fhir.uv.crmi
     id: hl7fhiruvcrmi
   hl7.fhir.uv.cql:
     version: 2.0.0
