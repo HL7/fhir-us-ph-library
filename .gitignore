@@ -46,3 +46,7 @@
 /test-data/skylight-data/fhir-bundles-xml
 /test-data/validation.html
 /test-data/skylight-data/fhir-bundles.zip
+/_gencontinuous.bat
+/_gencontinuous.sh
+/_genonce.bat
+/_genonce.sh
