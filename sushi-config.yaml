@@ -40,6 +40,10 @@ dependencies:
     version: 1.0.0
     uri: https://hl7.org/fhir/uv/crmi/ImplementationGuide/hl7.fhir.uv.crmi
     id: hl7fhiruvcrmi
+  hl7.fhir.uv.cql:
+    version: 2.0.0
+    uri: http://hl7.org/fhir/uv/cql/ImplementationGuide/hl7.fhir.uv.cql
+    id: hl7fhiruvcql
 
 parameters:
   show-inherited-invariants: false

@@ -45,7 +45,7 @@ Description: "This Library profile defines the asset-collection library containi
 * relatedArtifact[computableLibrary].type ^definition = "The type of relationship to the related artifact. Fixed to composed-of."
 * relatedArtifact[computableLibrary].resource 1.. MS
 * relatedArtifact[computableLibrary].resource only canonical
-* relatedArtifact[computableLibrary].resource ^type.targetProfile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-library"
+* relatedArtifact[computableLibrary].resource ^type.targetProfile = "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library"
 * relatedArtifact[supplementalValueSetLibrary] ^short = "US Public Health Triggering ValueSet Library"
 * relatedArtifact[supplementalValueSetLibrary] ^definition = "Reference to a US Public Health Triggering ValueSet Library"
 * relatedArtifact[supplementalValueSetLibrary].type = #composed-of
