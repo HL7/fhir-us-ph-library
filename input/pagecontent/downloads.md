@@ -18,16 +18,16 @@ All the examples that are used in this Implementation Guide available for downlo
 
 ### Cross Version Analysis
 
-{% include cross-version-analysis.xhtml %}
+{% lang-fragment cross-version-analysis.xhtml %}
 
 ### Dependency Table
 
-{% include dependency-table.xhtml %}
+{% lang-fragment dependency-table.xhtml %}
 
 ### Global Profiles Table
 
-{% include globals-table.xhtml %}
+{% lang-fragment globals-table.xhtml %}
 
 ### IP Statements
 
-{% include ip-statements.xhtml %}
+{% lang-fragment ip-statements.xhtml %}
