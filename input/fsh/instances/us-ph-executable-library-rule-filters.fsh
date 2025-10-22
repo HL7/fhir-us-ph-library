@@ -3,10 +3,10 @@ InstanceOf: Library
 Title: "US Public Health Executable Library - Rule Filters - Chlamydia Example"
 Description: "US Public Health Executable Library example: Rule Filters - Chlamydia"
 Usage: #example
-* meta.profile[0] = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-library"
+* meta.profile[0] = "http://hl7.org/fhir/uv/cql/StructureDefinition/elm-json-library"
+* meta.profile[+] = "http://hl7.org/fhir/uv/cql/StructureDefinition/elm-xml-library"
 * meta.profile[+] = "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library"
 * url = "http://hl7.org/fhir/us/ph-library/Library/us-ph-executable-library-rule-filters"
-* version = "1.0.0"
 * name = "RuleFilters"
 * title = "Rule Filters"
 * status = #active
