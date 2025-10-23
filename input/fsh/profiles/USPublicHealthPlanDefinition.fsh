@@ -30,12 +30,6 @@ Description: "This PlanDefinition profile describes the US Public Health PlanDef
 * effectivePeriod.start ^definition = "The start of the time period when this PlanDefinition goes into effect"
 * library MS
 * action 0..* MS
-
-* action ^slicing.discriminator.type = #value
-* action ^slicing.discriminator.path = "id"
-* action ^slicing.ordered = true
-* action ^slicing.rules = #open
-
 * action ^short = "All constraints on action are intended to apply to any nested constraints."
 * action.description 0..1 MS
 * action.code 0..1 MS
