@@ -58,6 +58,7 @@ parameters:
      - http://example.org/fhir/ValueSet/us-ph-valueset-supplemental-example
      - http://example.org/fhir/ValueSet/us-ph-valueset-triggering-chlamydia-example
      - http://example.org/fhir/CodeSystem/us-ph-codesystem-properties-example
+     - http://example.org/fhir/ValueSet/us-ph-valueset-jurisdiction-types-example
 
 license: CC0-1.0
 
