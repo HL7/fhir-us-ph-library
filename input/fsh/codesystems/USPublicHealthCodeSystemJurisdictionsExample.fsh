@@ -11,7 +11,7 @@ Description: "This code system describes example jurisdictions."
 * ^content = #complete
 
 * ^property[0].extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset"
-* ^property[=].extension.valueCanonical = "http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdiction-types-example"
+* ^property[=].extension.valueCanonical = "http://example.org/fhir/ValueSet/us-ph-valueset-jurisdiction-types-example"
 * ^property[=].code = #type
 * ^property[=].uri = "http://example.org/fhir/CodeSystem/us-ph-codesystem-properties-example#type"
 * ^property[=].description = "Type of public health jurisdiction."
