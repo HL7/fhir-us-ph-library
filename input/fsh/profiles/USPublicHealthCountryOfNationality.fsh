@@ -13,6 +13,6 @@ Description: "This Observation profile represents the patient's country of natio
 * effective[x] only dateTime
 * value[x] 1..
 * value[x] only CodeableConcept
-* value[x] from $iso3166-1-2 (required)
+* value[x] from $iso3166-1-2 (extensible)
 * value[x] ^short = "(USCDI+) Country of Nationality"
 * value[x] ^binding.description = "Iso 3166 Part 1: 2 Letter Codes"
