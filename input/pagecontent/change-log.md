@@ -12,7 +12,7 @@
 | [FHIR-52765](https://jira.hl7.org/browse/FHIR-52765) | Use FHIR valueset-warning extension and remove the US Public Health Usage Warning Extension |
 | [FHIR-52768](https://jira.hl7.org/browse/FHIR-52768) | Use the FHIR codesystem-property-valueset extension and remove the US Public Health CodeSystem Property Required Binding Extension |
 | [FHIR-51948](https://jira.hl7.org/browse/FHIR-51948) | Remove constraint on US PH PractitionerRole.identifier |
-| [FHIR-51789](https://jira.hl7.org/browse/FHIR-51789) | Chief Complaint Observation: constrain Observation.value to string data type, update the text to: "further constrains Observation.value\[x\] to the string data type" |
+| [FHIR-51789](https://jira.hl7.org/browse/FHIR-51789) | Chief Complaint Observation: constrain Observation.value to string data type, update the text to: \"further constrains Observation.value\[x\] to the string data type\" |
 | [FHIR-51947](https://jira.hl7.org/browse/FHIR-51947) | Relax constraint on profiles that require only a US PH Patient to also allow US Core Patient |
 | [FHIR-52766](https://jira.hl7.org/browse/FHIR-52766) | Derive the US Public Health Value Set profile from CRMIShareableValueSet, rather than the base Shareable; State that published value sets should conform to the 
 CRMIPublishableValueSet profile; Remove Public Health Computable and referring instead to the CRMIComputableValueSet profile; Remove Public Health Executable and referring instead to the CRMIExpandedValueSet profile. |
