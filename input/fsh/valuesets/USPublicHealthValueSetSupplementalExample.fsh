@@ -20,5 +20,5 @@ Description: "This valueset is a valueset created for the purposes of demonstrat
 * ^useContext[=].valueCodeableConcept = $us-ph-codesystem-usage-context#routine "Routine"
 * ^purpose = "Define the set of supported endpoint connection types."
 
-* include codes from system EndpointConnectionType
+* include codes from system $endpoint-connection-type
 * include codes from system USPublicHealthCodeSystemEndpointConnectionTypeExample

@@ -381,3 +381,6 @@ INFORMATION: CodeSystem/us-ph-codesystem-valueset-use-context: CodeSystem: Most 
 
 # 22 This error is coming from the URL checking but is in inherited content. The link is valid, but is to published content in the currently published CRMI spec
 ERROR: PlanDefinition.extension: The reference http://hl7.org/fhir/ValueSet/version-algorithm could not be resolved
+
+# 23 us-ph-patient is based on and further constrains us-core-patient so multiple matches are expected
+Found multiple matching profiles for Patient/us-ph-patient-eve-everywoman among choices: http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|6.1.0, http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient|2.0.0
