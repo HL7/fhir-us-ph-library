@@ -5,7 +5,7 @@ The order born in the delivery, live born or fetal death (1st, 2nd, 3rd, 4th, 5t
 There will be one Pregnancy Outcome Observation for each fetus delivered live or dead at any time in the pregnancy, regardless of gestational age or if the fetuses were delivered at different dates in the pregnancy. All live births and fetal losses are included. The order born in the delivery, live born or fetal death is contained in Observation.component.
 
 It is based on the [US Core Simple Observation Profile]({{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation.html) profile and further constrains it:
-* sets Observation.category to "social-history | social history"
+* sets Observation.category to "social-history \| social history"
 * sets Observation.code to "Outcome of pregnancy"
 * further constrains Observation.subject to the [US Public Health Patient](StructureDefinition-us-ph-patient.html)
 * binds Observation.value\[x\] to the Pregnancy Outcome value set

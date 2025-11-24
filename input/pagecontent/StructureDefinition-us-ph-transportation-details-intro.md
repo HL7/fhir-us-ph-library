@@ -1,6 +1,6 @@
 It is based on the [US Core Simple Observation Profile]({{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation.html) profile and further constrains it:
-* sets Observation.category[us-core] to "social-history | social history"
-* sets Observation.category[transportation] to "TRNS | transportation"
+* sets Observation.category[us-core] to "social-history \| social history"
+* sets Observation.category[transportation] to "TRNS \| transportation"
 * sets Observation.code to "Transportation details (observable entity)"
 * further constrains Observation.subject to the [US Public Health Patient](StructureDefinition-us-ph-patient.html)
 * binds Observation.value\[x\] to the Transport Vehicle Type value set

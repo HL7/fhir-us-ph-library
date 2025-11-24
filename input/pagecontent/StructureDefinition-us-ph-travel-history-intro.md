@@ -1,5 +1,5 @@
 It is based on the [US Core Simple Observation Profile]({{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation.html) profile and further constrains it:
-* sets Observation.category to "social-history | social history"
+* sets Observation.category to "social-history \| social history"
 * sets Observation.code to "Travel (event)"
 * further constrains Observation.subject to the [US Public Health Patient](StructureDefinition-us-ph-patient.html)
 * adds Observation.hasMember references to [US Public Health Transportation Details](StructureDefinition-us-ph-transportation-details.html) and [US Public Health Exposure Contact Information](StructureDefinition-us-ph-exposure-contact-information.html)

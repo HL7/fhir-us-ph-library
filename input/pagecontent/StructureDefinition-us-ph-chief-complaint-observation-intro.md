@@ -1,5 +1,5 @@
 It is based on the [US Core Simple Observation Profile]({{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-simple-observation.html) profile and further constrains it:
-* sets Observation.category to "exam | Exam"
+* sets Observation.category to "exam \| Exam"
 * sets Observation.code to "Chief complaint Narrative - Reported"
 * further constrains Observation.subject to the [US Public Health Patient](StructureDefinition-us-ph-patient.html)
 * further constrains Observation.value\[x\] to the string data type
