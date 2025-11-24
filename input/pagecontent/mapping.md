@@ -22,6 +22,42 @@ Note: not all profiles and their data elements in this IG have corresponding USC
     </thead>
     <tbody>
         <tr>
+            <td>Care Team Member(s)</td>
+            <td>Provider Address</td>
+            <td><a href="StructureDefinition-us-ph-practitionerrole.html">US Public Health PractitionerRole</a></td>
+            <td>PractitionerRole.practitioner</td>
+        </tr>
+        <tr>
+            <td>Care Team Member(s)</td>
+            <td>Provider Email</td>
+            <td><a href="StructureDefinition-us-ph-practitionerrole.html">US Public Health PractitionerRole</a></td>
+            <td>PractitionerRole.practitioner</td>
+        </tr>
+        <tr>
+            <td>Care Team Member(s)</td>
+            <td>Provider Fax</td>
+            <td><a href="StructureDefinition-us-ph-practitionerrole.html">US Public Health PractitionerRole</a></td>
+            <td>PractitionerRole.practitioner</td>
+        </tr>
+        <tr>
+            <td>Care Team Member(s)</td>
+            <td>Provider Name</td>
+            <td><a href="StructureDefinition-us-ph-practitionerrole.html">US Public Health PractitionerRole</a></td>
+            <td>PractitionerRole.practitioner</td>
+        </tr>
+        <tr>
+            <td>Care Team Member(s)</td>
+            <td>Provider NPI</td>
+            <td><a href="StructureDefinition-us-ph-practitionerrole.html">US Public Health PractitionerRole</a></td>
+            <td>PractitionerRole.practitioner</td>
+        </tr>
+        <tr>
+            <td>Care Team Member(s)</td>
+            <td>Provider Phone</td>
+            <td><a href="StructureDefinition-us-ph-practitionerrole.html">US Public Health PractitionerRole</a></td>
+            <td>PractitionerRole.practitioner</td>
+        </tr>
+        <tr>
             <td>Encounter Information</td>
             <td>Encounter Diagnosis</td>
             <td><a href="StructureDefinition-us-ph-condition-encounter-diagnosis.html">US Public Health Encounter Diagnosis</a></td>
@@ -570,7 +606,7 @@ Note: not all profiles and their data elements in this IG have corresponding USC
         <tr>
             <td>Problems</td>
             <td>Symptoms (list)</td>
-            <td><a href="StructureDefinition-us-ph-symptom-observation.html">StructureDefinition-us-ph-symptom-observation.html</a></td>
+            <td><a href="StructureDefinition-us-ph-symptom-observation.html">US Public Health Symptom Observation</a></td>
             <td>Observation.value[x]</td>
         </tr>
         <tr>
