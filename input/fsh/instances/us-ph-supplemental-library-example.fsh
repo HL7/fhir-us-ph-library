@@ -20,7 +20,7 @@ Usage: #example
 * jurisdiction.text = "United States of America"
 * purpose = "Purpose of library"
 * effectivePeriod.start = "2020-11-01"
-* relatedArtifact[computableLibrary].type = #composed-of
-* relatedArtifact[computableLibrary].resource = "http://hl7.org/fhir/us/ph-library/Library/us-ph-executable-library-rule-filters"
-* relatedArtifact[supplementalValueSetLibrary].type = #composed-of
-* relatedArtifact[supplementalValueSetLibrary].resource = "http://hl7.org/fhir/us/ph-library/Library/us-ph-supplemental-valueset-library-example"
+* relatedArtifact[0].type = #composed-of
+* relatedArtifact[=].resource = "http://hl7.org/fhir/us/ph-library/Library/us-ph-executable-library-rule-filters"
+* relatedArtifact[+].type = #composed-of
+* relatedArtifact[=].resource = "http://hl7.org/fhir/us/ph-library/Library/us-ph-supplemental-valueset-library-example"

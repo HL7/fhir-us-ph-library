@@ -1,5 +1,5 @@
 Instance: us-ph-executable-library-rule-filters
-InstanceOf: CQLLibrary
+InstanceOf: http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library
 Title: "US Public Health Executable Library - Rule Filters - Chlamydia Example"
 Description: "US Public Health Executable Library example: Rule Filters - Chlamydia"
 Usage: #example
