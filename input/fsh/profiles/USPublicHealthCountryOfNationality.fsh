@@ -3,7 +3,6 @@ Parent: USCoreSimpleObservationProfile
 Id: us-ph-country-of-nationality
 Title: "US Public Health Country of Nationality"
 Description: "This Observation profile represents the patient's country of nationality."
-* ^experimental = false
 * . ^short = "US Public Health Country of Nationality"
 
 * category[us-core] = $system-observation-category#social-history
