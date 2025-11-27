@@ -15,5 +15,6 @@ Description: "This ValueSet profile describes the requirements for a value set t
 // * useContext[reportingContext].code = $us-ph-codesystem-usage-context-type#reporting
 // * useContext[reportingContext].value[x] 1..1 MS
 // * useContext[reportingContext].value[x] only CodeableConcept
+* useContext[reportingContext] 1..
 * useContext[reportingContext].value[x] = $us-ph-codesystem-usage-context#triggering
 * useContext[reportingContext].value[x] ^short = "Triggering value set useContext"
