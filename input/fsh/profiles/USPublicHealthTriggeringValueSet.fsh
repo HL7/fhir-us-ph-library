@@ -6,10 +6,10 @@ Description: "This ValueSet profile describes the requirements for a value set t
 * ^experimental = false
 * . ^short = "US Public Health Triggering ValueSet"
 
-* useContext 2..*
-* useContext ^slicing.discriminator.type = #value
-* useContext ^slicing.discriminator.path = "code"
-* useContext ^slicing.rules = #open
+// * useContext ..*
+// * useContext ^slicing.discriminator.type = #value
+// * useContext ^slicing.discriminator.path = "code"
+// * useContext ^slicing.rules = #open
 * useContext contains reportingContext 1..1
 * useContext[reportingContext].code 1..1
 * useContext[reportingContext].code = $us-ph-codesystem-usage-context-type#reporting
