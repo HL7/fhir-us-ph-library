@@ -28,7 +28,8 @@ Description: "This ValueSet profile describes the minimum requirements for US pu
 * useContext ^slicing.rules = #open
 * useContext contains
     priorityContext 0..* MS and
-    focusConditionContext 0..* MS
+    focusConditionContext 0..* MS and
+    reportingContext 0..1 MS
 * useContext[priorityContext].code 1..1 MS
 * useContext[priorityContext].code = $us-ph-codesystem-usage-context-type#priority
 * useContext[priorityContext].value[x] 1..1 MS
@@ -46,3 +47,9 @@ Description: "This ValueSet profile describes the minimum requirements for US pu
 * useContext[focusConditionContext].value[x] ^short = "Clinical condition that is the focus of the codes in this value set"
 * useContext[focusConditionContext].value[x] ^definition = "The clinical condition that is the focus of the codes in this value set."
 * useContext[focusConditionContext].value[x] ^binding.description = "Condition/Problem/Diagnosis Codes."
+* useContext[reportingContext].code 1..1 MS
+* useContext[reportingContext].code = $us-ph-codesystem-usage-context-type#reporting
+* useContext[reportingContext].value[x] 1..1 MS
+* useContext[reportingContext].value[x] only CodeableConcept
+* useContext[reportingContext].value[x] ^short = "value set useContext"
+* useContext[reportingContext].value[x] ^definition = "The US Public Health use context of the value set."
