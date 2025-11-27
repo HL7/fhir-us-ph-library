@@ -12,7 +12,7 @@ Description: "This ValueSet profile describes the requirements for a value set t
 // * useContext ^slicing.rules = #open
 // * useContext contains reportingContext 1..1 MS
 // * useContext[reportingContext].code 1..1 MS
-// * useContext[reportingContext].code = $us-ph-codesystem-usage-context-type#reporting
+* useContext[reportingContext].code = $us-ph-codesystem-usage-context-type#reporting
 // * useContext[reportingContext].value[x] 1..1 MS
 // * useContext[reportingContext].value[x] only CodeableConcept
 * useContext[reportingContext] 1..
