@@ -27,7 +27,7 @@ Description: "This ValueSet profile describes the minimum requirements for US pu
 * useContext ^slicing.discriminator.path = "code"
 * useContext ^slicing.rules = #open
 * useContext contains
-    priorityContext 0..* MS and
+    priorityContext 1..1 MS and
     focusConditionContext 0..* MS and
     reportingContext 0..1 MS
 * useContext[priorityContext].code 1..1 MS
