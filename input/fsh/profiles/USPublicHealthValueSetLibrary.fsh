@@ -1,17 +1,17 @@
 Profile: USPublicHealthValueSetLibrary
-Parent: $shareablelibrary
+Parent: CRMIShareableLibrary
 Id: us-ph-valueset-library
 Title: "US Public Health ValueSet Library"
 Description: "This Library profile defines the library containing US Public Health value sets."
 * ^experimental = false
 * . ^short = "US Public Health ValueSet Library"
 
-* extension only Extension
-* extension ^base.path = "DomainResource.extension"
-* extension ^base.min = 0
-* extension ^base.max = "*"
-* extension ^isModifier = false
-* extension ^isSummary = false
+// * extension only Extension
+// * extension ^base.path = "DomainResource.extension"
+// * extension ^base.min = 0
+// * extension ^base.max = "*"
+// * extension ^isModifier = false
+// * extension ^isSummary = false
 * extension contains http://hl7.org/fhir/StructureDefinition/cqf-expansionParameters named expansionParameters 0..1 MS
 * extension[expansionParameters] ^short = "Expansion Parameters for the ValueSet."
 * extension[expansionParameters] ^definition = "Supports the definition of expansion parameters for the ValueSet."

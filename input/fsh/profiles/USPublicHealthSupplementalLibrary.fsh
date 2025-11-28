@@ -1,5 +1,5 @@
 Profile: USPublicHealthSupplementalLibrary
-Parent: $shareablelibrary
+Parent: CRMIShareableLibrary
 Id: us-ph-supplemental-library
 Title: "US Public Health Supplemental Library"
 Description: "This Library profile defines the asset-collection library containing US public health supplemental assets."

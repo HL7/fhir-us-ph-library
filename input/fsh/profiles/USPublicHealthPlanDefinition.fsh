@@ -1,5 +1,5 @@
 Profile: USPublicHealthPlanDefinition
-Parent: http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableplandefinition
+Parent: CRMIShareablePlanDefinition
 Id: us-ph-plandefinition
 Title: "US Public Health PlanDefinition"
 Description: "This PlanDefinition profile describes the US Public Health PlanDefinition."

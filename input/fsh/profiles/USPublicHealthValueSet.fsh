@@ -1,5 +1,5 @@
 Profile: USPublicHealthValueSet
-Parent: http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset
+Parent: CRMIShareableValueSet
 Id: us-ph-valueset
 Title: "US Public Health ValueSet"
 Description: "This ValueSet profile describes the minimum requirements for US public health value sets."
