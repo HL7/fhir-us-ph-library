@@ -4,7 +4,7 @@ Title: "US Public Health CodeSystem - Endpoint Connection Type Example"
 Description: "This code system contains codes that identify the HL7 FHIR File type."
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"
 
-* ^url = "http://example.org/fhir/CodeSystem/us-ph-codesystem-endpoint-connection-type-example"
+* ^url = "http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-endpoint-connection-type-example"
 * ^experimental = false
 
 * ^caseSensitive = true

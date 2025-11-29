@@ -1,7 +1,7 @@
 Instance: us-ph-supplemental-library-example
 InstanceOf: USPublicHealthSupplementalLibrary
 Usage: #example
-* url = "http://example.org/fhir/Library/us-ph-supplemental-library-example"
+* url = "http://hl7.org/fhir/us/ph-library/Library/us-ph-supplemental-library-example"
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:oid:2.16.840.1.114222.4.11.11112"
 * version = "2022-06-01"

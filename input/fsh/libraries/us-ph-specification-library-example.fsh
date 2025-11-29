@@ -1,7 +1,7 @@
 Instance: us-ph-specification-library-example
 InstanceOf: USPublicHealthSpecificationLibrary
 Usage: #example
-* url = "http://example.org/fhir/Library/us-ph-specification-library-example"
+* url = "http://hl7.org/fhir/us/ph-library/Library/us-ph-specification-library-example"
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:oid:2.16.840.1.114222.4.11.11111"
 * version = "2020-11-01"

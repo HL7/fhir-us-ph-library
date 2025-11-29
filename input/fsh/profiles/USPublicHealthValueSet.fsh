@@ -6,10 +6,10 @@ Description: "This ValueSet profile describes the minimum requirements for US pu
 * ^experimental = false
 * . ^short = "US Public Health ValueSet"
 
-* extension MS
-* extension ^slicing.discriminator.type = #value
-* extension ^slicing.discriminator.path = "url"
-* extension ^slicing.rules = #open
+// * extension MS
+// * extension ^slicing.discriminator.type = #value
+// * extension ^slicing.discriminator.path = "url"
+// * extension ^slicing.rules = #open
 * extension contains
     $artifact-author named extensionValueSetAuthor 1..1 MS
 * extension[extensionValueSetAuthor] ^short = "Value set author"
@@ -17,7 +17,7 @@ Description: "This ValueSet profile describes the minimum requirements for US pu
 * identifier MS
 * identifier ^short = "Value set identifier used by public health"
 * identifier ^definition = "The identifier of the value set."
-* identifier ^min = 0
+// * identifier ^min = 0
 // * title 1.. MS
 // * title ^short = "Value set title"
 // * title ^definition = "The title of the value set."

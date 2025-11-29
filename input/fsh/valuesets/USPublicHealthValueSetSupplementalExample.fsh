@@ -3,11 +3,10 @@ Id: us-ph-valueset-supplemental-example
 Title: "US Public Health ValueSet - Supplemental Example"
 Description: "This valueset is a valueset created for the purposes of demonstrating, by example, the US Public Health Supplemental ValueSet profile."
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-valueset"
-* ^url = "http://example.org/fhir/ValueSet/us-ph-valueset-supplemental-example"
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-author"
 * ^extension[=].valueContactDetail.name = "Example Author"
 
-* ^url = "http://example.org/fhir/ValueSet/us-ph-valueset-supplemental-example"
+* ^url = "http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-supplemental-example"
 
 * ^experimental = true
 * ^publisher = "Example Steward"

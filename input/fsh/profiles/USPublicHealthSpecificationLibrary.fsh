@@ -10,13 +10,13 @@ Description: "This Library profile defines the asset-collection library for a pu
 * type MS
 * type ^short = "asset-collection"
 * type ^definition = "Constrains the Library's Type to asset-collection."
-* useContext ..*
+* useContext MS
 * useContext ^slicing.discriminator.type = #value
 * useContext ^slicing.discriminator.path = "code"
 * useContext ^slicing.rules = #open
 * useContext contains
-    reportingContext 1..1 and
-    specificationTypeContext 1..1
+    reportingContext 1..1 MS and
+    specificationTypeContext 1..1 MS
 * useContext[reportingContext].code 1..1
 * useContext[reportingContext].code = $us-ph-codesystem-usage-context-type#reporting
 * useContext[reportingContext].value[x] 1..1

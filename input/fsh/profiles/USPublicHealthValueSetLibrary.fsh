@@ -15,28 +15,28 @@ Description: "This Library profile defines the library containing US Public Heal
 * extension contains http://hl7.org/fhir/StructureDefinition/cqf-expansionParameters named expansionParameters 0..1 MS
 * extension[expansionParameters] ^short = "Expansion Parameters for the ValueSet."
 * extension[expansionParameters] ^definition = "Supports the definition of expansion parameters for the ValueSet."
-* extension[expansionParameters] ^base.path = "DomainResource.extension"
-* extension[expansionParameters] ^base.min = 0
-* extension[expansionParameters] ^base.max = "*"
-* extension[expansionParameters] ^isModifier = false
+// * extension[expansionParameters] ^base.path = "DomainResource.extension"
+// * extension[expansionParameters] ^base.min = 0
+// * extension[expansionParameters] ^base.max = "*"
+// * extension[expansionParameters] ^isModifier = false
 * identifier MS
 * identifier.system 1.. MS
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.system ^short = "The namespace for Object Identifiers"
 * identifier.system ^definition = "Fixed to the namespace: urn:ietf:rfc:3986 for OIDs"
 * identifier.value 1.. MS
-* version 1.. MS
-* version ^short = "Value Sets Definition Version"
-* title 1.. MS
-* title ^short = "Value Sets Name"
-* title ^definition = "Value Sets Name"
+// * version 1.. MS
+// * version ^short = "Value Sets Definition Version"
+// * title 1.. MS
+// * title ^short = "Value Sets Name"
+// * title ^definition = "Value Sets Name"
 * type = $library-type#asset-collection
 * type MS
 * type ^short = "asset-collection"
 * type ^definition = "Identifies the type of library. Constrained to a pattern that includes asset-collection."
 * description 1.. MS
-* description ^short = "The description should succinctly and lucidly state the scope of the value sets included (the domains covered with as much specificity as to make the collection unique) and the intended use of the collection (a sense of what guides can use the collection)."
-* description ^definition = "The description should succinctly and lucidly state the scope of the value sets included (the domains covered with as much specificity as to make the collection unique) and the intended use of the collection (a sense of what guides can use the collection)."
+// * description ^short = "The description should succinctly and lucidly state the scope of the value sets included (the domains covered with as much specificity as to make the collection unique) and the intended use of the collection (a sense of what guides can use the collection)."
+// * description ^definition = "The description should succinctly and lucidly state the scope of the value sets included (the domains covered with as much specificity as to make the collection unique) and the intended use of the collection (a sense of what guides can use the collection)."
 * purpose 1.. MS
 * purpose ^short = "Value Sets Purpose"
 * purpose ^definition = "Value Sets Purpose"

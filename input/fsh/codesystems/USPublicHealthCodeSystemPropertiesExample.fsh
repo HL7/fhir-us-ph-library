@@ -6,6 +6,7 @@ Description: "This code system is an example of a codesystem that contains the p
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"
 * ^url = "http://example.org/fhir/CodeSystem/us-ph-codesystem-properties-example"
 
+
 * ^experimental = true
 
 * ^caseSensitive = false

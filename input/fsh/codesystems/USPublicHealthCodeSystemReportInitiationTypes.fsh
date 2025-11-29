@@ -3,6 +3,7 @@ Id: us-ph-codesystem-report-initiation-types
 Title: "US Public Health CodeSystem - Report Initiation Type Codes"
 Description: "This CodeSystem contains codes for currently identified use cases for identifying how the message was initiated."
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"
+* ^url = "http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-report-initiation-types"
 * ^experimental = false
 
 * ^caseSensitive = true

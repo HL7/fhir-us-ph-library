@@ -3,7 +3,7 @@ InstanceOf: USPublicHealthPlanDefinition
 Title: "US Public Health PlanDefinition - NamedEvent"
 Description: "US Public Health PlanDefinition: NamedEvent example"
 Usage: #example
-* url = "http://example.org/fhir/PlanDefinition/us-ph-plandefinition-namedEvent-example"
+* url = "http://hl7.org/fhir/us/ph-library/PlanDefinition/us-ph-plandefinition-namedEvent-example"
 * version = "0.1"
 * name = "USPublicHealthPlanDefinitionNamedEventExample"
 * title = "US Public Health PlanDefinition NamedEvent Example"
