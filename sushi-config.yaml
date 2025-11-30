@@ -1,6 +1,6 @@
 canonical: http://hl7.org/fhir/us/ph-library
 title: "US Public Health Profiles Library"
-releaseLabel: STU 2 - snapshot
+releaseLabel: STU 2 Snapshot
 fhirVersion: 4.0.1
 FSHOnly: false
 applyExtensionMetadataToRoot: true
