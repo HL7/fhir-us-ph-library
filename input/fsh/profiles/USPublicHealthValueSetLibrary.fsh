@@ -1,5 +1,5 @@
 Profile: USPublicHealthValueSetLibrary
-Parent: CRMIShareableLibrary
+Parent: $shareable-library
 Id: us-ph-valueset-library
 Title: "US Public Health ValueSet Library"
 Description: "This Library profile defines the library containing US Public Health value sets."

@@ -5,7 +5,7 @@ Description: "US Public Health Executable Library example: Rule Filters - Chlamy
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/uv/cql/StructureDefinition/elm-json-library"
 // * meta.profile[+] = "http://hl7.org/fhir/uv/cql/StructureDefinition/elm-xml-library"
-* meta.profile[+] = "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library"
+// * meta.profile[+] = "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library"
 * url = "http://hl7.org/fhir/us/ph-library/Library/us-ph-executable-library-rule-filters"
 * name = "RuleFilters"
 * title = "Rule Filters"
@@ -30,7 +30,7 @@ Usage: #example
 * relatedArtifact[=].resource = "http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context-type"
 * relatedArtifact[+].type = #depends-on
 * relatedArtifact[=].display = "Code system JurisdictionsList"
-* relatedArtifact[=].resource = "http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-jurisdictions-example"
+* relatedArtifact[=].resource = "http://example.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-jurisdictions-example"
 * relatedArtifact[+].type = #depends-on
 * relatedArtifact[=].display = "Value set Chlamydia Laboratory Result Trigger Codes"
 * relatedArtifact[=].resource = "http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-triggering-chlamydia-example"

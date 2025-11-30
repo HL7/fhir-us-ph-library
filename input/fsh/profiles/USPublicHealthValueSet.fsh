@@ -1,5 +1,5 @@
 Profile: USPublicHealthValueSet
-Parent: CRMIShareableValueSet
+Parent: $shareable-valueset
 Id: us-ph-valueset
 Title: "US Public Health ValueSet"
 Description: "This ValueSet profile describes the minimum requirements for US public health value sets."

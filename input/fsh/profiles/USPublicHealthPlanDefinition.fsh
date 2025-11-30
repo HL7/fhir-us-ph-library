@@ -1,5 +1,5 @@
 Profile: USPublicHealthPlanDefinition
-Parent: CRMIShareablePlanDefinition
+Parent: $shareable-plandefinition
 Id: us-ph-plandefinition
 Title: "US Public Health PlanDefinition"
 Description: "This PlanDefinition profile describes the US Public Health PlanDefinition."

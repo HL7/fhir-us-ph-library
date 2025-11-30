@@ -3,7 +3,7 @@ Id: us-ph-codesystem-jurisdictions-example
 Title: "US Public Health CodeSystem Jurisdictions Example"
 Description: "This code system describes example jurisdictions."
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"
-* ^url = "http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-jurisdictions-example"
+* ^url = "http://example.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-jurisdictions-example"
 
 * ^experimental = false
 
@@ -13,19 +13,19 @@ Description: "This code system describes example jurisdictions."
 * ^property[0].extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset"
 * ^property[=].extension.valueCanonical = "http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-jurisdiction-types-example"
 * ^property[=].code = #type
-// * ^property[=].uri = "http://example.org/fhir/CodeSystem/us-ph-codesystem-properties-example#type"
+* ^property[=].uri = "http://example.org/fhir/CodeSystem/us-ph-codesystem-properties-example#type"
 * ^property[=].description = "Type of public health jurisdiction."
 * ^property[=].type = #Coding
 
 * ^property[+].extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset"
 * ^property[=].extension.valueCanonical = "http://hl7.org/fhir/us/core/ValueSet/us-core-usps-state"
 * ^property[=].code = #state
-// * ^property[=].uri = "http://example.org/fhir/CodeSystem/us-ph-codesystem-properties-example#state"
+* ^property[=].uri = "http://example.org/fhir/CodeSystem/us-ph-codesystem-properties-example#state"
 * ^property[=].description = "USPS Two Letter Alphabetic Codes."
 * ^property[=].type = #Coding
 
 * ^property[+].code = #postalcode
-// * ^property[=].uri = "http://example.org/fhir/CodeSystem/us-ph-codesystem-properties-example#postalcode"
+* ^property[=].uri = "http://example.org/fhir/CodeSystem/us-ph-codesystem-properties-example#postalcode"
 * ^property[=].description = "Postal code within the public health jurisdiction."
 * ^property[=].type = #string
 

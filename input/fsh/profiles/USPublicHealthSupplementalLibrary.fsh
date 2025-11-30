@@ -1,5 +1,5 @@
 Profile: USPublicHealthSupplementalLibrary
-Parent: CRMIShareableLibrary
+Parent: $shareable-library
 Id: us-ph-supplemental-library
 Title: "US Public Health Supplemental Library"
 Description: "This Library profile defines the asset-collection library containing US public health supplemental assets."
@@ -15,8 +15,8 @@ Description: "This Library profile defines the asset-collection library containi
 * useContext ^slicing.discriminator.path = "code"
 * useContext ^slicing.rules = #open
 * useContext contains
-    reportingContext 1..1 and
-    specificationTypeContext 1..1
+    reportingContext 1..1 MS and
+    specificationTypeContext 1..1 MS
 * useContext[reportingContext].code 1..1
 * useContext[reportingContext].code = $us-ph-codesystem-usage-context-type#reporting
 * useContext[reportingContext].value[x] 1..1
@@ -31,6 +31,7 @@ Description: "This Library profile defines the asset-collection library containi
 * useContext[specificationTypeContext].value[x] = $us-ph-codesystem-usage-context#program
 * useContext[specificationTypeContext].value[x] ^short = "Library useContext"
 * useContext[specificationTypeContext].value[x] ^definition = "The US Public Health use context of the Library."
+
 * relatedArtifact MS
 * relatedArtifact ^slicing.discriminator.type = #profile
 * relatedArtifact ^slicing.discriminator.path = "resource.resolve()"
@@ -38,6 +39,7 @@ Description: "This Library profile defines the asset-collection library containi
 * relatedArtifact contains
     computableLibrary 1..1 MS and
     supplementalValueSetLibrary 1..* MS
+
 * relatedArtifact[computableLibrary] ^short = "US Public Health Computable Library"
 * relatedArtifact[computableLibrary] ^definition = "Reference to a US Public Health Computable Library"
 * relatedArtifact[computableLibrary].type = #composed-of
@@ -46,6 +48,8 @@ Description: "This Library profile defines the asset-collection library containi
 * relatedArtifact[computableLibrary].resource 1.. MS
 * relatedArtifact[computableLibrary].resource only canonical
 * relatedArtifact[computableLibrary].resource ^type.targetProfile = "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library"
+// * relatedArtifact[computableLibrary].resource ^type.targetProfile = "http://hl7.org/fhir/StructureDefinition/Library"
+
 * relatedArtifact[supplementalValueSetLibrary] ^short = "US Public Health Triggering ValueSet Library"
 * relatedArtifact[supplementalValueSetLibrary] ^definition = "Reference to a US Public Health Triggering ValueSet Library"
 * relatedArtifact[supplementalValueSetLibrary].type = #composed-of
