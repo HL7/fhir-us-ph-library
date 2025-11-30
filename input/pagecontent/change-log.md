@@ -14,10 +14,10 @@
 | [FHIR-51948](https://jira.hl7.org/browse/FHIR-51948) | Remove constraint on US PH PractitionerRole.identifier |
 | [FHIR-51789](https://jira.hl7.org/browse/FHIR-51789) | Chief Complaint Observation: constrain Observation.value to string data type, update the text to: \"further constrains Observation.value\[x\] to the string data type\" |
 | [FHIR-51947](https://jira.hl7.org/browse/FHIR-51947) | Relax constraint on profiles that require only a US PH Patient to also allow US Core Patient |
-| [FHIR-52766](https://jira.hl7.org/browse/FHIR-52766) | Derive the US Public Health Value Set profile from CRMIShareableValueSet, rather than the base Shareable; State that published value sets should conform to the 
-CRMIPublishableValueSet profile; Remove Public Health Computable and referring instead to the CRMIComputableValueSet profile; Remove Public Health Executable and referring instead to the CRMIExpandedValueSet profile. |
+| [FHIR-52766](https://jira.hl7.org/browse/FHIR-52766) | Derive the US Public Health Value Set profile from CRMIShareableValueSet, rather than the base Shareable; State that published value sets should conform to the CRMIPublishableValueSet profile; Remove Public Health Computable and refer instead to the CRMIComputableValueSet profile; Remove Public Health Executable and refer instead to the CRMIExpandedValueSet profile. |
 | [FHIR-52767](https://jira.hl7.org/browse/FHIR-52767) | Derive the US Public Health Specification Library from the CRMIShareableLibrary, rather than the ShareableLibrary; Require that published libraries conform to the CRMIPublishableLibrary profile; Remove the Public Health Computable Library and instead require conformance with the Using CQL CQL Library profile; Remove the Public Health Executable Library and instead require conformance with the Using CQL ELM Library profile |
 | [FHIR-52769](https://jira.hl7.org/browse/FHIR-52769) | Derive the US Public Health PlanDefinition profile from CRMIShareablePlanDefinition; Require that published PlanDefinitions conform to the CRMIPublishablePlanDefinition profile. |
+| [FHIR-51951](https://jira.hl7.org/browse/FHIR-51951) | Update specimen identifier mapping. |
 
 
 

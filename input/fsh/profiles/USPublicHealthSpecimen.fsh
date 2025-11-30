@@ -6,8 +6,6 @@ Description: "This Specimen profile represents “substances being sampled or te
 * ^experimental = false
 * . ^short = "US Public Health Specimen Profile"
 
-* identifier ^short = "(USCDI+) Specimen Identifier"
-* identifier MS
 * accessionIdentifier ^short = "(USCDI+) Specimen Identifier"
 * accessionIdentifier MS
 * type ^short = "(USCDI+) Specimen Type"
