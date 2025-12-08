@@ -2,23 +2,107 @@
 
 #### Jira Tickets
 
-|JIRA Ticket|Ticket Description|
-|---------|----------|
-| [FHIR-52228](https://jira.hl7.org/browse/FHIR-52228) | Fix typos |
-| [FHIR-52469](https://jira.hl7.org/browse/FHIR-52228) | Fix typo |
-| [FHIR-52763](https://jira.hl7.org/browse/FHIR-52763) | Use the FHIR cqf-alternativeExpression extension and remove the US Public Health Alternative Expression Extension |
-| [FHIR-52760](https://jira.hl7.org/browse/FHIR-52760) | Use the FHIR cqf-fhirQueryPattern extension and remove the US Public Health FHIR Query Pattern Extension |
-| [FHIR-52764](https://jira.hl7.org/browse/FHIR-52764) | Use the FHIR cqf-expansionParameters extension and remove the US Public Health Expansion Parameters Extension |
-| [FHIR-52765](https://jira.hl7.org/browse/FHIR-52765) | Use FHIR valueset-warning extension and remove the US Public Health Usage Warning Extension |
-| [FHIR-52768](https://jira.hl7.org/browse/FHIR-52768) | Use the FHIR codesystem-property-valueset extension and remove the US Public Health CodeSystem Property Required Binding Extension |
-| [FHIR-51948](https://jira.hl7.org/browse/FHIR-51948) | Remove constraint on US PH PractitionerRole.identifier |
-| [FHIR-51789](https://jira.hl7.org/browse/FHIR-51789) | Chief Complaint Observation: constrain Observation.value to string data type, update the text to: \"further constrains Observation.value\[x\] to the string data type\" |
-| [FHIR-51946](https://jira.hl7.org/browse/FHIR-51946) | Update US PH Symptom Observation modelling |
-| [FHIR-51947](https://jira.hl7.org/browse/FHIR-51947) | Relax constraint on profiles that require only a US PH Patient to also allow US Core Patient |
-| [FHIR-52766](https://jira.hl7.org/browse/FHIR-52766) | Derive the US Public Health Value Set profile from CRMIShareableValueSet, rather than the base Shareable; State that published value sets should conform to the CRMIPublishableValueSet profile; Remove Public Health Computable and refer instead to the CRMIComputableValueSet profile; Remove Public Health Executable and refer instead to the CRMIExpandedValueSet profile. |
-| [FHIR-52767](https://jira.hl7.org/browse/FHIR-52767) | Derive the US Public Health Specification Library from the CRMIShareableLibrary, rather than the ShareableLibrary; Require that published libraries conform to the CRMIPublishableLibrary profile; Remove the Public Health Computable Library and instead require conformance with the Using CQL CQL Library profile; Remove the Public Health Executable Library and instead require conformance with the Using CQL ELM Library profile |
-| [FHIR-52769](https://jira.hl7.org/browse/FHIR-52769) | Derive the US Public Health PlanDefinition profile from CRMIShareablePlanDefinition; Require that published PlanDefinitions conform to the CRMIPublishablePlanDefinition profile. |
-| [FHIR-51951](https://jira.hl7.org/browse/FHIR-51951) | Update specimen identifier mapping. |
+<table border="1">
+  <thead>
+    <tr style="background-color:#DCDCDC">
+      <th style="text-align: center; vertical-align: middle;">Jira Ticket</th>
+      <th style="text-align: center; vertical-align: middle;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://jira.hl7.org/browse/FHIR-52228">FHIR-52228</a>
+      </td>
+      <td>Fix typos</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://jira.hl7.org/browse/FHIR-52228">FHIR-52469</a>
+      </td>
+      <td>Fix typo</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://jira.hl7.org/browse/FHIR-52763">FHIR-52763</a>
+      </td>
+      <td>Use the FHIR cqf-alternativeExpression extension and remove the US Public Health Alternative Expression Extension</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://jira.hl7.org/browse/FHIR-52760">FHIR-52760</a>
+      </td>
+      <td>Use the FHIR cqf-fhirQueryPattern extension and remove the US Public Health FHIR Query Pattern Extension</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://jira.hl7.org/browse/FHIR-52764">FHIR-52764</a>
+      </td>
+      <td>Use the FHIR cqf-expansionParameters extension and remove the US Public Health Expansion Parameters Extension</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://jira.hl7.org/browse/FHIR-52765">FHIR-52765</a>
+      </td>
+      <td>Use FHIR valueset-warning extension and remove the US Public Health Usage Warning Extension</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://jira.hl7.org/browse/FHIR-52768">FHIR-52768</a>
+      </td>
+      <td>Use the FHIR codesystem-property-valueset extension and remove the US Public Health CodeSystem Property Required Binding Extension</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://jira.hl7.org/browse/FHIR-51948">FHIR-51948</a>
+      </td>
+      <td>Remove constraint on US PH PractitionerRole.identifier</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://jira.hl7.org/browse/FHIR-51789">FHIR-51789</a>
+      </td>
+      <td>Chief Complaint Observation: constrain Observation.value to string data type, update the text to: \&quot;further constrains Observation.value[x] to the string data type\&quot;</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://jira.hl7.org/browse/FHIR-51946">FHIR-51946</a>
+      </td>
+      <td>Update US PH Symptom Observation modelling</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://jira.hl7.org/browse/FHIR-51947">FHIR-51947</a>
+      </td>
+      <td>Relax constraint on profiles that require only a US PH Patient to also allow US Core Patient</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://jira.hl7.org/browse/FHIR-52766">FHIR-52766</a>
+      </td>
+      <td>Derive the US Public Health Value Set profile from CRMIShareableValueSet, rather than the base Shareable; State that published value sets should conform to the CRMIPublishableValueSet profile; Remove Public Health Computable and refer instead to the CRMIComputableValueSet profile; Remove Public Health Executable and refer instead to the CRMIExpandedValueSet profile.</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://jira.hl7.org/browse/FHIR-52767">FHIR-52767</a>
+      </td>
+      <td>Derive the US Public Health Specification Library from the CRMIShareableLibrary, rather than the ShareableLibrary; Require that published libraries conform to the CRMIPublishableLibrary profile; Remove the Public Health Computable Library and instead require conformance with the Using CQL CQL Library profile; Remove the Public Health Executable Library and instead require conformance with the Using CQL ELM Library profile</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://jira.hl7.org/browse/FHIR-52769">FHIR-52769</a>
+      </td>
+      <td>Derive the US Public Health PlanDefinition profile from CRMIShareablePlanDefinition; Require that published PlanDefinitions conform to the CRMIPublishablePlanDefinition profile.</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://jira.hl7.org/browse/FHIR-51951">FHIR-51951</a>
+      </td>
+      <td>Update specimen identifier mapping.</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 
@@ -26,16 +110,49 @@
 
 #### Jira Tickets
 
-|JIRA Ticket|Ticket Description|
-|---------|----------|
-| [FHIR-50332](https://jira.hl7.org/browse/FHIR-50332) | Update US Core version to 6.1.0 |
-| [FHIR-50333](https://jira.hl7.org/browse/FHIR-50333) | Where necessary, update PHPL profiles that are dependent on US Core profiles.  |
-| [FHIR-50334](https://jira.hl7.org/browse/FHIR-50334) | Remove any profiles/extensions from PHPL that now exist in US Core 6.1.0 |
-| [FHIR-50335](https://jira.hl7.org/browse/FHIR-50335) | Add USCDI+ mapping table(s) |
-| [FHIR-50336](https://jira.hl7.org/browse/FHIR-50336) | Add change log |
-| [FHIR-50337](https://jira.hl7.org/browse/FHIR-50337) | Add new profiles/extensions for USCDI+ data elements that are not currently represented in PHPL (or US Core) |
-| [FHIR-50338](https://jira.hl7.org/browse/FHIR-50338) | Update existing PHPL profiles based on latest USCDI+ data requirements |
-| [FHIR-50339](https://jira.hl7.org/browse/FHIR-50339) | Update guidance page |
+<table border="1">
+  <thead>
+    <tr style="background-color:#DCDCDC">
+      <th style="text-align: center; vertical-align: middle;">Jira Ticket</th>
+      <th style="text-align: center; vertical-align: middle;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://jira.hl7.org/browse/FHIR-50332">FHIR-50332</a></td>
+      <td>Update US Core version to 6.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jira.hl7.org/browse/FHIR-50333">FHIR-50333</a></td>
+      <td>Where necessary, update PHPL profiles that are dependent on US Core profiles.</td>
+    </tr>
+    <tr>
+      <td><a href="https://jira.hl7.org/browse/FHIR-50334">FHIR-50334</a></td>
+      <td>Remove any profiles/extensions from PHPL that now exist in US Core 6.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jira.hl7.org/browse/FHIR-50335">FHIR-50335</a></td>
+      <td>Add USCDI+ mapping table(s)</td>
+    </tr>
+    <tr>
+      <td><a href="https://jira.hl7.org/browse/FHIR-50336">FHIR-50336</a></td>
+      <td>Add change log</td>
+    </tr>
+    <tr>
+      <td><a href="https://jira.hl7.org/browse/FHIR-50337">FHIR-50337</a></td>
+      <td>Add new profiles/extensions for USCDI+ data elements that are not currently represented in PHPL (or US Core)</td>
+    </tr>
+    <tr>
+      <td><a href="https://jira.hl7.org/browse/FHIR-50338">FHIR-50338</a></td>
+      <td>Update existing PHPL profiles based on latest USCDI+ data requirements</td>
+    </tr>
+    <tr>
+      <td><a href="https://jira.hl7.org/browse/FHIR-50339">FHIR-50339</a></td>
+      <td>Update guidance page</td>
+    </tr>
+  </tbody>
+</table>
+
 
 <!-- <table border="1">
     <thead>
@@ -45,7 +162,7 @@
         </tr>
     </thead> -->
 
-#### Detailed Description of Changes
+#### Description of Changes
 
 <table border="1">
     <thead>
