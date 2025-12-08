@@ -44,6 +44,10 @@ dependencies:
     version: 2.0.0
     uri: http://hl7.org/fhir/uv/cql/ImplementationGuide/hl7.fhir.uv.cql
     id: hl7fhiruvcql
+  hl7.fhir.uv.fhir-clinical-document:
+    version: 1.0.0
+    uri: http://hl7.org/fhir/uv/fhir-clinical-document/ImplementationGuide/hl7.fhir.uv.fhir-clinical-document
+    id: hl7fhiruvfhirclinicaldocument
 
 parameters:
   show-inherited-invariants: false
@@ -63,20 +67,19 @@ pages:
     title: Home Page
   guidance.md:
     title: Guidance
-  downloads.md:
-    title: Downloads
   mapping.md:
     title: Mappings
+  downloads.md:
+    title: Downloads
   change-log.md:
     title: Change Log
 
 menu:
   IG Home: index.html
-  Table of Contents: toc.html
   Guidance: guidance.html
   Mapping: mapping.html
-  Downloads: downloads.html
   Artifact Index: artifacts.html
+  Downloads: downloads.html
   Change Log: change-log.html
 
 # groups:
