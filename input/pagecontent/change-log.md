@@ -6,7 +6,7 @@
   <thead>
     <tr style="background-color:#DCDCDC">
       <th style="text-align: center; vertical-align: middle;">Jira Ticket</th>
-      <th style="text-align: center; vertical-align: middle;">Description</th>
+      <th style="text-align: center; vertical-align: middle;">Change Description</th>
     </tr>
   </thead>
   <tbody>
@@ -62,7 +62,7 @@
       <td>
         <a href="https://jira.hl7.org/browse/FHIR-51789">FHIR-51789</a>
       </td>
-      <td>Chief Complaint Observation: constrain Observation.value to string data type, update the text to: \&quot;further constrains Observation.value[x] to the string data type\&quot;</td>
+      <td>Chief Complaint Observation: constrain Observation.value to string data type, update the text to: &quot;further constrains Observation.value[x] to the string data type&quot;</td>
     </tr>
     <tr>
       <td>
@@ -114,7 +114,7 @@
   <thead>
     <tr style="background-color:#DCDCDC">
       <th style="text-align: center; vertical-align: middle;">Jira Ticket</th>
-      <th style="text-align: center; vertical-align: middle;">Description</th>
+      <th style="text-align: center; vertical-align: middle;">Change Description</th>
     </tr>
   </thead>
   <tbody>

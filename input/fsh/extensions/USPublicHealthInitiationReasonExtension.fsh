@@ -9,7 +9,6 @@ Description: "This Extension profile contains an explanation for the manual or a
 * . ..*
 * . ^short = "Initial Case Report Initiation Reason"
 * . ^definition = "Reason for manual or alternate initiation of the public health report."
-* . ^isModifier = false
 * value[x] 1..1 MS
 * value[x] only string or CodeableConcept
 * value[x] ^example[0].label = "valueString"
