@@ -6,12 +6,13 @@
 * [Extensions]({{site.data.fhir.path}}extensibility.html) define additional data elements that can be conveyed as part of a resource
 * [Code Systems]({{site.data.fhir.path}}codesystem.html) define guide-specific terminologies to be used in one or more of the profiles
 * [Value Sets]({{site.data.fhir.path}}valueset.html) define the specific subsets of code systems that can be (or are recommended to be) used within one or more profile elements
+* Examples (instances) of the profiles defined in this guide
 
 ### Profiles
 
 #### Profiles: Content
 
-The set of Profiles: Content is composed of profiles defining what data is exchanged about health encounters, clinical findings, clinical history, and related concepts.
+Profiles defining what data is exchanged about health encounters, clinical findings, clinical history, and related concepts.
 
   * [US Public Health Characteristics of Home Environment](StructureDefinition-us-ph-characteristics-of-home-environment.html)
   * [US Public Health Chief Complaint Observation](StructureDefinition-us-ph-chief-complaint-observation.html)
@@ -37,7 +38,7 @@ The set of Profiles: Content is composed of profiles defining what data is excha
 
 #### Profiles: Content - Entities
 
-The set of Profiles: Content - Entities is composed of profiles defining what data is exchanged about entities such as people, places, and organizations.
+Profiles defining what data is exchanged about entities such as people, places, and organizations.
 
   * [US Public Health Location](StructureDefinition-us-ph-location.html)
   * [US Public Health Organization](StructureDefinition-us-ph-organization.html)
@@ -47,7 +48,7 @@ The set of Profiles: Content - Entities is composed of profiles defining what da
 
 #### Profiles: Content - Extensions
 
-The set of Profiles: Content - Extension is composed of Extensions defining what data about entities is exchanged.
+Extensions defining what data about entities is exchanged.
 
   * [US Public Health Address Extension](StructureDefinition-us-ph-address-extension.html)
   * [US Public Health Date Determined Extension](StructureDefinition-us-ph-date-determined-extension.html)
@@ -62,7 +63,7 @@ The set of Profiles: Content - Extension is composed of Extensions defining what
 
 #### Profiles: Architecture
 
-The set of Profiles: Architecture is composed of profiles that are related to how data is defined and exchanged. These profiles support representation and use of metadata to support consistent content lifecycle management.
+Profiles that are related to how data is defined and exchanged. These profiles support representation and use of metadata to support consistent content lifecycle management.
      
   * [US Public Health Content Bundle](StructureDefinition-us-ph-content-bundle.html)
   * [US Public Health Document Bundle](StructureDefinition-us-ph-document-bundle.html)
@@ -75,7 +76,7 @@ The set of Profiles: Architecture is composed of profiles that are related to ho
 
 #### Profiles: Architecture - Extensions
 
-The set of Profiles: Architecture -  Extensions is composed of Extension profiles that are related to how data is defined and exchanged.
+Extension profiles that are related to how data is defined and exchanged.
      
   * [US Public Health Async Indicator Extension](StructureDefinition-us-ph-async-indicator-extension.html)
   * [US Public Health Data Encrypted Extension](StructureDefinition-us-ph-data-encrypted-extension.html)
@@ -87,9 +88,9 @@ The set of Profiles: Architecture -  Extensions is composed of Extension profile
   * [US Public Health Related Data Extension](StructureDefinition-us-ph-relateddata-extension.html)
   * [US Public Health Trust Service Endpoint Extension](StructureDefinition-us-ph-trust-service-endpoint-extension.html)
 
- #### Profiles: Architecture - Terminology
+#### Profiles: Architecture - Terminology
 
-The set of Profiles: Architecture - terminology is composed of terminology profiles that are related to how data is defined and exchanged. These profiles support representation and use of metadata to address terminology concerns and support consistent content lifecycle management.
+Terminology profiles that are related to how data is defined and exchanged. These profiles support representation and use of metadata to address terminology concerns and support consistent content lifecycle management.
                   
 ##### ValueSet Profiles
 
@@ -119,7 +120,7 @@ The set of Profiles: Architecture - terminology is composed of terminology profi
 
 #### Examples: Content
 
-These are example instances of the Content profiles that show what data produced and consumed by systems conforming with the profiles in this library might look like.
+Example instances of the Content profiles that show what data produced and consumed by systems conforming with the profiles in this library might look like.
 
   * [US Public Health Composition - Eve Everywoman](Composition-us-ph-composition-example.html)
   * [US Public Health Condition Encounter Diagnosis - Eve Everywoman - Diabetes](Condition-us-ph-condition-encounter-diagnosis-diabetes.html)
@@ -144,7 +145,7 @@ These are example instances of the Content profiles that show what data produced
   * [US Public Health Pregnancy Outcome - Eve Everywoman](Observation-us-ph-pregnancy-outcome-eve-everywoman.html)
   * [US Public Health Pregnancy Status - Eve Everywoman](Observation-us-ph-pregnancy-status-eve-everywoman.html)
   * [US Public Health Reportability Information Observation - Condition Reportable](Observation-us-ph-reportability-information-observation.html)
-  * [US Public Health Symptom Observation Example: Eve Everywoman](Observation-us-ph-symptom-observation-headache-eve-everywoman.html)
+  * [US Public Health Symptom Observation Example: Eve Everywoman](Observation-us-ph-symptom-observation-dizzyness-eve-everywoman.html)
   * [US Public Health Transportation Details - Eve Everywoman](Observation-us-ph-transportation-details-eve-everywoman.html)
   * [US Public Health Travel History - Eve Everywoman 1999](Observation-us-ph-travel-history-eve-everywoman-1999.html)
   * [US Public Health Travel History - Eve Everywoman 201610](Observation-us-ph-travel-history-eve-everywoman-201610.html)
@@ -156,7 +157,7 @@ These are example instances of the Content profiles that show what data produced
 
 #### Examples: Content - Entities
 
-These are sample instances of Content: Entities profiles, illustrating the types of data that systems adhering to the profiles in this library might produce and consume.
+Sample instances of Content: Entities profiles, illustrating the types of data that systems adhering to the profiles in this library might produce and consume.
      
   * [Device - Software YMCA](Device-device-software-ymca.html)
   * [US Public Health Survey Practitioner Group - Practitioner in Survey](Group-us-ph-survey-practitioner-group-example.html)
@@ -172,7 +173,7 @@ These are sample instances of Content: Entities profiles, illustrating the types
 
 #### Examples: Architecture
 
-These are sample instances of the Architecture profiles, demonstrating the types of data that systems conforming to the profiles in this library might produce and consume.
+Sample instances of the Architecture profiles, demonstrating the types of data that systems conforming to the profiles in this library might produce and consume.
 
   * [US Public Health Content Bundle - Eve Everywoman](Bundle-us-ph-content-bundle-example.html)
   * [US Public Health Document Bundle - Eve Everywoman](Bundle-us-ph-document-bundle-example.html)
@@ -188,13 +189,13 @@ These are sample instances of the Architecture profiles, demonstrating the types
 
 #### Examples: Terminology
 
-These are example instances of the Terminologies profiles that show what data produced and consumed by systems conforming with the profiles in this library might look like.
+Examples of the Terminologies profiles that show what data produced and consumed by systems conforming with the profiles in this library might look like.
 
   * [US Public Health CodeSystem - Endpoint Connection Type Example](CodeSystem-us-ph-codesystem-endpoint-connection-type-example.html)
   * [US Public Health CodeSystem - Jurisdiction Types Example](CodeSystem-us-ph-codesystem-jurisdiction-types-example.html)
-  * [US Public Health CodeSystem Jurisdictions Example](CodeSystem-us-ph-codesystem-jurisdictions-example.html)
-  * [US Public Health CodeSystem Properties Example](CodeSystem-us-ph-codesystem-properties-example.html)
-  * [US Public Health Executable Library - Rule Filters - Chlamydia Example](Library-us-ph-executable-library-rule-filters.html)
+  * [US Public Health CodeSystem - Jurisdictions Example](CodeSystem-us-ph-codesystem-jurisdictions-example.html)
+  * [US Public Health CodeSystem - Properties Example](CodeSystem-us-ph-codesystem-properties-example.html)
+  * [CQL Library - Rule Filters Example](Library-cql-library-rule-filters.html)
   * [US Public Health Specification Library Example](Library-us-ph-specification-library-example.html)
   * [US Public Health Supplemental Library Example](Library-us-ph-supplemental-library-example.html)
   * [US Public Health Supplemental ValueSet Library Example](Library-us-ph-supplemental-valueset-library-example.html)
@@ -210,23 +211,23 @@ These are example instances of the Terminologies profiles that show what data pr
 
 #### Code Systems
 
-These are CodeSystems defined in this profiles library.
+CodeSystems defined in this profiles library.
 
   * [US Public Health CodeSystem - Message Types](CodeSystem-us-ph-codesystem-message-types.html)
   * [US Public Health CodeSystem - PlanDefinition Actions](CodeSystem-us-ph-codesystem-plandefinition-actions.html)
-  * [US Public Health CodeSystem - Report Initiation Type Codes](CodeSystem-us-ph-codesystem-report-initiation-types.html)
+  * [US Public Health CodeSystem - Report Initiation Types](CodeSystem-us-ph-codesystem-report-initiation-types.html)
   * [US Public Health CodeSystem - Trigger Definition Named Events](CodeSystem-us-ph-codesystem-triggerdefinition-namedevents.html)
-  * [US Public Health CodeSystem - Usage Context](CodeSystem-us-ph-codesystem-usage-context.html)
   * [US Public Health CodeSystem - Usage Context Type](CodeSystem-us-ph-codesystem-usage-context-type.html)
-  * [US Public Health CodeSystem for ValueSet Use Context](CodeSystem-us-ph-codesystem-valueset-use-context.html)
+  * [US Public Health CodeSystem - Usage Context](CodeSystem-us-ph-codesystem-usage-context.html)
+  * [US Public Health CodeSystem - ValueSet Use Context](CodeSystem-us-ph-codesystem-valueset-use-context.html)
 
 #### Value Sets
 
-These are ValueSets defined in this profiles library.
+ValueSets defined in this profiles library.
 
   * [US Public Health ValueSet - Message Significance Category](ValueSet-us-ph-valueset-message-significance-category.html)
   * [US Public Health ValueSet - Message Types](ValueSet-us-ph-valueset-message-types.html)
   * [US Public Health ValueSet - PlanDefinition Action](ValueSet-us-ph-valueset-plandefinition-action.html)
-  * [US Public Health ValueSet Priority](ValueSet-us-ph-valueset-priority.html)
+  * [US Public Health ValueSet - Priority](ValueSet-us-ph-valueset-priority.html)
   * [US Public Health ValueSet - Report Initiation Type](ValueSet-us-ph-valueset-report-initiation-type.html)
   * [US Public Health ValueSet - TriggerDefinition NamedEvent](ValueSet-us-ph-valueset-triggerdefinition-namedevent.html)

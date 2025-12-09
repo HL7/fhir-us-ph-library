@@ -32,7 +32,7 @@ Usage: #inline
 * useContext[0].code = $us-ph-codesystem-usage-context-type#priority "Priority"
 * useContext[=].valueCodeableConcept = $us-ph-codesystem-usage-context#routine "Routine"
 * useContext[+].code = $usage-context-type#program
-* useContext[=].valueCodeableConcept = USPublicHealthCodeSystemForValueSetUseContext#ph-reporting "ValueSet is to be used in the context of public health reporting use cases."
+* useContext[=].valueCodeableConcept = USPublicHealthCodeSystemValueSetUseContext#ph-reporting "ValueSet is to be used in the context of public health reporting use cases."
 * jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * jurisdiction.text = "United States of America"
 * copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"

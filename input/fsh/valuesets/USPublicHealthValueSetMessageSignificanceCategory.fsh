@@ -2,7 +2,7 @@ ValueSet: USPublicHealthValueSetMessageSignificanceCategory
 Id: us-ph-valueset-message-significance-category
 Title: "US Public Health ValueSet - Message Significance Category"
 Description: "The impact of the content of a message."
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.profile = $shareable-valueset
 
 * ^url = "http://hl7.org/fhir/us/ph-library/ValueSet/us-ph-valueset-message-significance-category"
 

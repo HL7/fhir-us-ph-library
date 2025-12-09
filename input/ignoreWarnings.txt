@@ -113,10 +113,10 @@ INFORMATION: Bundle/us-ph-response-bundle-example: Bundle.entry[0].resource.exte
 INFORMATION: MessageHeader/us-ph-messageheader-response: MessageHeader.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-messageheader|2.0.0-snapshot (this may not be a problem, but you should check that it's not intended to match a slice)
 
 # 13 US PH Computable Library defines specific content slices - examples show slices that are not defined in the profile - not matching is expected behavior
-INFORMATION: Library/us-ph-executable-library-rule-filters: Library.content[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-library|2.0.0-snapshot (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Library/cql-library-rule-filters: Library.content[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-library|2.0.0-snapshot (this may not be a problem, but you should check that it's not intended to match a slice)
 
 # 14 US PH Executable Library defines specific content slices - examples show slices that are not defined in the profile - not matching is expected behavior
-INFORMATION: Library/us-ph-executable-library-rule-filters: Library.content[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-library|2.0.0-snapshot (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Library/cql-library-rule-filters: Library.content[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-library|2.0.0-snapshot (this may not be a problem, but you should check that it's not intended to match a slice)
 
 # 15 US PH Response Bundle defines specific entry slices - examples show slices that are not defined in the profile - not matching is expected behavior
 INFORMATION: Bundle/us-ph-response-bundle-example: Bundle.entry[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-response-bundle|2.0.0-snapshot (this may not be a problem, but you should check that it's not intended to match a slice)

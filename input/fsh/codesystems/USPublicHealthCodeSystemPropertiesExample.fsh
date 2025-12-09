@@ -1,6 +1,6 @@
 CodeSystem: USPublicHealthCodeSystemPropertiesExample
 Id: us-ph-codesystem-properties-example
-Title: "US Public Health CodeSystem Properties Example"
+Title: "US Public Health CodeSystem - Properties Example"
 Description: "This code system is an example of a codesystem that contains the property codes used in the US Public Health terminology."
 
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"

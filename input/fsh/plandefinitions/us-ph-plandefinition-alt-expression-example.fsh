@@ -51,7 +51,7 @@ Usage: #example
 * action[=].action[=].condition.expression.extension.url = "http://hl7.org/fhir/StructureDefinition/cqf-alternativeExpression"
 * action[=].action[=].condition.expression.extension.valueExpression.language = #text/cql-identifier
 * action[=].action[=].condition.expression.extension.valueExpression.expression = "Is Suspected Disorder?"
-* action[=].action[=].condition.expression.extension.valueExpression.reference = "http://hl7.org/fhir/us/ph-library/Library/us-ph-executable-library-rule-filters"
+* action[=].action[=].condition.expression.extension.valueExpression.reference = "http://hl7.org/fhir/us/ph-library/Library/cql-library-rule-filters"
 * action[=].action[=].condition.expression.language = #text/fhirpath
 * action[=].action[=].condition.expression.expression = "%modifiedConditions.exists() or %modifiedLabResults.exists() or %modifiedMedicationOrders.exists()"
 * action[=].action[=].input[0].id = "modifiedConditions"
@@ -80,7 +80,7 @@ Usage: #example
 * action[=].action[=].condition.expression.extension.url = "http://hl7.org/fhir/StructureDefinition/cqf-alternativeExpression"
 * action[=].action[=].condition.expression.extension.valueExpression.language = #text/cql-identifier
 * action[=].action[=].condition.expression.extension.valueExpression.expression = "Is Encounter In Progress and Within Normal Reporting Duration or 72h or less after end of encounter?"
-* action[=].action[=].condition.expression.extension.valueExpression.reference = "http://hl7.org/fhir/us/ph-library/Library/us-ph-executable-library-rule-filters"
+* action[=].action[=].condition.expression.extension.valueExpression.reference = "http://hl7.org/fhir/us/ph-library/Library/cql-library-rule-filters"
 * action[=].action[=].condition.expression.language = #text/fhirpath
 * action[=].action[=].condition.expression.expression = "%encounter.where((status = 'in-progress' and period.start + 1 day * %normalReportingDuration >= now()) or (status = 'finished' and period.end + 72 hours >= now())).select(true)"
 * action[=].action[=].relatedAction.actionId = "check-reportable"
@@ -98,7 +98,7 @@ Usage: #example
 * action[=].action[=].condition.expression.extension.url = "http://hl7.org/fhir/StructureDefinition/cqf-alternativeExpression"
 * action[=].action[=].condition.expression.extension.valueExpression.language = #text/cql-identifier
 * action[=].action[=].condition.expression.extension.valueExpression.expression = "Is Encounter Reportable and Within Normal Reporting Duration?"
-* action[=].action[=].condition.expression.extension.valueExpression.reference = "http://hl7.org/fhir/us/ph-library/Library/us-ph-executable-library-rule-filters"
+* action[=].action[=].condition.expression.extension.valueExpression.reference = "http://hl7.org/fhir/us/ph-library/Library/cql-library-rule-filters"
 * action[=].action[=].condition.expression.language = #text/fhirpath
 * action[=].action[=].condition.expression.expression = "%encounter.where(period.start + 1 day * %normalReportingDuration >= now()).select(true) and (%conditions.exists() or %encounters.exists() or %immunizations.exists() or %procedures.exists() or %procedureOrders.exists() or %labOrders.exists() or %labTests.exists() or %labResults.exists() or %medicationAdministrations.exists() or %medicationOrders.exists() or %medicationDispenses.exists())"
 * action[=].action[=].input[0].id = "conditions"
@@ -187,7 +187,7 @@ Usage: #example
 * action[=].action[=].condition.expression.extension.url = "http://hl7.org/fhir/StructureDefinition/cqf-alternativeExpression"
 * action[=].action[=].condition.expression.extension.valueExpression.language = #text/cql-identifier
 * action[=].action[=].condition.expression.extension.valueExpression.expression = "Most recent eICR sent over 72 hours ago?"
-* action[=].action[=].condition.expression.extension.valueExpression.reference = "http://hl7.org/fhir/us/ph-library/Library/us-ph-executable-library-rule-filters"
+* action[=].action[=].condition.expression.extension.valueExpression.reference = "http://hl7.org/fhir/us/ph-library/Library/cql-library-rule-filters"
 * action[=].action[=].condition.expression.language = #text/fhirpath
 * action[=].action[=].condition.expression.expression = "((%lasteicr.last().entry[2].resource as Bundle).entry.first().resource as Composition).date < now() - 72 hours"
 * action[=].action[=].input.id = "lasteicr"
@@ -203,7 +203,7 @@ Usage: #example
 * action[=].action[=].condition.expression.extension.url = "http://hl7.org/fhir/StructureDefinition/cqf-alternativeExpression"
 * action[=].action[=].condition.expression.extension.valueExpression.language = #text/cql-identifier
 * action[=].action[=].condition.expression.extension.valueExpression.expression = "Is Encounter In Progress and Within Normal Reporting Duration or 72h or less after end of encounter?"
-* action[=].action[=].condition.expression.extension.valueExpression.reference = "http://hl7.org/fhir/us/ph-library/Library/us-ph-executable-library-rule-filters"
+* action[=].action[=].condition.expression.extension.valueExpression.reference = "http://hl7.org/fhir/us/ph-library/Library/cql-library-rule-filters"
 * action[=].action[=].condition.expression.language = #text/fhirpath
 * action[=].action[=].condition.expression.expression = "%inprogressencounter.where(status = 'in-progress' and period.start + 1 day * %normalReportingDuration >= now() or (status = 'finished' and period.end + 72 hours >= now())).exists()"
 * action[=].action[=].input.id = "inprogressencounter"
@@ -324,7 +324,7 @@ Usage: #example
 * action[=].condition.expression.extension.url = "http://hl7.org/fhir/StructureDefinition/cqf-alternativeExpression"
 * action[=].condition.expression.extension.valueExpression.language = #text/cql-identifier
 * action[=].condition.expression.extension.valueExpression.expression = "Is Encounter Longer Than Normal Reporting Duration?"
-* action[=].condition.expression.extension.valueExpression.reference = "http://hl7.org/fhir/us/ph-library/Library/us-ph-executable-library-rule-filters"
+* action[=].condition.expression.extension.valueExpression.reference = "http://hl7.org/fhir/us/ph-library/Library/cql-library-rule-filters"
 * action[=].condition.expression.language = #text/fhirpath
 * action[=].condition.expression.expression = "%encounter.where(period.start + 1 day * %normalReportingDuration < now()).select(true)"
 * action[=].relatedAction.actionId = "create-eicr"

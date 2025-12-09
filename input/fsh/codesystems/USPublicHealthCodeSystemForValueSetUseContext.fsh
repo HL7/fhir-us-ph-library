@@ -1,6 +1,6 @@
-CodeSystem: USPublicHealthCodeSystemForValueSetUseContext
+CodeSystem: USPublicHealthCodeSystemValueSetUseContext
 Id: us-ph-codesystem-valueset-use-context
-Title: "US Public Health CodeSystem for ValueSet Use Context"
+Title: "US Public Health CodeSystem - ValueSet Use Context"
 Description: "The US Public Health UseContext CodeSystem contains codes for currently identified use cases for representing the use context of a ValueSet."
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"
 * ^experimental = false

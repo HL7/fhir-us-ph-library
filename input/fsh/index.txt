@@ -14,7 +14,7 @@ USPublicHealthAsyncIndicatorExtension                      Extension   extension
 USPublicHealthCharacteristicsOfHomeEnvironment             Profile     profiles\USPublicHealthCharacteristicsOfHomeEnvironment.fsh
 USPublicHealthCodeSystem                                   Profile     profiles\USPublicHealthCodeSystem.fsh
 USPublicHealthCodeSystemEndpointConnectionTypeExample      CodeSystem  codesystems\USPublicHealthCodeSystemEndpointConnectionTypeExample.fsh
-USPublicHealthCodeSystemForValueSetUseContext              CodeSystem  codesystems\USPublicHealthCodeSystemForValueSetUseContext.fsh
+USPublicHealthCodeSystemValueSetUseContext              CodeSystem  codesystems\USPublicHealthCodeSystemValueSetUseContext.fsh
 USPublicHealthCodeSystemJurisdictionTypesExample           CodeSystem  codesystems\USPublicHealthCodeSystemJurisdictionTypesExample.fsh
 USPublicHealthCodeSystemJurisdictionsExample               CodeSystem  codesystems\USPublicHealthCodeSystemJurisdictionsExample.fsh
 USPublicHealthCodeSystemMessageTypes                       CodeSystem  codesystems\USPublicHealthCodeSystemMessageTypes.fsh
@@ -118,7 +118,7 @@ us-ph-encounter-eve-everywoman-outpatient                  Instance    instances
 us-ph-endpoint-pha                                         Instance    instances\us-ph-endpoint-pha.fsh
 us-ph-endpoint-salem-medical-center                        Instance    instances\us-ph-endpoint-salem-medical-center.fsh
 us-ph-endpoint-ymca                                        Instance    instances\us-ph-endpoint-ymca.fsh
-us-ph-executable-library-rule-filters                      Instance    instances\us-ph-executable-library-rule-filters.fsh
+cql-library-rule-filters                      Instance    instances\cql-library-rule-filters.fsh
 us-ph-exposure-contact-info-football-game                  Instance    instances\us-ph-exposure-contact-info-football-game.fsh
 us-ph-lab-result-eve-everywoman-lymphocytes                Instance    instances\us-ph-lab-result-eve-everywoman-lymphocytes.fsh
 us-ph-lab-result-eve-everywoman-pertussis                  Instance    instances\us-ph-lab-result-eve-everywoman-pertussis.fsh
