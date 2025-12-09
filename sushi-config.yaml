@@ -81,8 +81,8 @@ menu:
   Guidance: guidance.html
   Mapping: mapping.html
   Artifacts:
-    Overview: artifact-overview.html
-    Artifacts: artifacts.html
+    Artifacts Overview: artifact-overview.html
+    Artifacts Summary: artifacts.html
   Downloads: downloads.html
   Change Log: change-log.html
 

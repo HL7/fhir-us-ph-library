@@ -104,7 +104,7 @@ Terminology profiles that are related to how data is defined and exchanged. Thes
 
 * The [US Public Health Triggering ValueSet Library](StructureDefinition-us-ph-triggering-valueset-library.html) defines conformance requirements for a collection of ValueSets that are all used to facilitate determination of a potentially reportable event (i.e. a &quot;triggering&quot; event).
 
-* The [US Public Health Supplemental Library](StructureDefinition-us-ph-supplemental-library.html) defines conformance requirements for the computable supplement for a public health reporting program specification, including computable routing rules that can be evaluated to help facilitate reportability determination at reporting sites, typically consisting of [Clinical Quality Language](http://cql.hl7.org/) (CQL) Rule libraries and additional terminiology artifacts required to evaluate those rules.
+* The [US Public Health Supplemental Library](StructureDefinition-us-ph-supplemental-library.html) defines conformance requirements for the computable supplement for a public health reporting program specification, including computable routing rules that can be evaluated to help facilitate reportability determination at reporting sites, typically consisting of [Clinical Quality Language](http://cql.hl7.org/) (CQL) Rule libraries and additional terminology artifacts required to evaluate those rules.
      
   * [US Public Health CodeSystem](StructureDefinition-us-ph-codesystem.html)
   * [US Public Health Specification Library](StructureDefinition-us-ph-specification-library.html)

@@ -2,7 +2,7 @@ Profile: USPublicHealthTriggeringValueSet
 Parent: USPublicHealthValueSet
 Id: us-ph-triggering-valueset
 Title: "US Public Health Triggering ValueSet"
-Description: "This ValueSet profile describes the requirements for a value set that is part of determination of a potentially reportable event (i.e. a \"triggering\" event)."
+Description: "This ValueSet profile describes the requirements for a value set that is part of determination of a potentially reportable event (i.e., a \"triggering\" event)."
 * ^experimental = false
 * . ^short = "US Public Health Triggering ValueSet"
 

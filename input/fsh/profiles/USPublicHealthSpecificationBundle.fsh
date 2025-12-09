@@ -2,7 +2,7 @@ Profile: USPublicHealthSpecificationBundle
 Parent: Bundle
 Id: us-ph-specification-bundle
 Title: "US Public Health Specification Bundle"
-Description: "This Bundle profile represent the packaging construct used for exchanging a knowledge artifact."
+Description: "This Bundle profile represents the packaging construct used for exchanging a knowledge artifact."
 * ^experimental = false
 * . ^short = "US Public Health Specification Bundle"
 
