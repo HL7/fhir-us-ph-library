@@ -145,7 +145,7 @@ Example instances of the Content profiles that show what data produced and consu
   * [US Public Health Pregnancy Outcome - Eve Everywoman](Observation-us-ph-pregnancy-outcome-eve-everywoman.html)
   * [US Public Health Pregnancy Status - Eve Everywoman](Observation-us-ph-pregnancy-status-eve-everywoman.html)
   * [US Public Health Reportability Information Observation - Condition Reportable](Observation-us-ph-reportability-information-observation.html)
-  * [US Public Health Symptom Observation Example: Eve Everywoman](Observation-us-ph-symptom-observation-dizzyness-eve-everywoman.html)
+  * [US Public Health Symptom Observation Example: Eve Everywoman](Observation-us-ph-symptom-observation-dizziness-eve-everywoman.html)
   * [US Public Health Transportation Details - Eve Everywoman](Observation-us-ph-transportation-details-eve-everywoman.html)
   * [US Public Health Travel History - Eve Everywoman 1999](Observation-us-ph-travel-history-eve-everywoman-1999.html)
   * [US Public Health Travel History - Eve Everywoman 201610](Observation-us-ph-travel-history-eve-everywoman-201610.html)
