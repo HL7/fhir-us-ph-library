@@ -7,8 +7,8 @@ Usage: #example
 * extension[=].valueString = "1"
 * extension[+].url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-initiation-reason-extension"
 * extension[=].valueString = "Suspicion of Zika"
-* extension[InformationRecipientExtension].extension[type].valueCodeableConcept = $participantTypes#PRCP "primary information recipient"
-* extension[InformationRecipientExtension].extension[party].valueReference = Reference(PractitionerRole/us-ph-practitionerrole-henry-seven)
+* extension[information-recipient].extension[type].valueCodeableConcept = $participantTypes#PRCP "primary information recipient"
+* extension[information-recipient].extension[party].valueReference = Reference(PractitionerRole/us-ph-practitionerrole-henry-seven)
 // * extension[+].url = "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/information-recipient-extension"
 // * extension[=].valueReference.reference = "PractitionerRole/us-ph-practitionerrole-henry-seven"
 * identifier.value = "c03eab8c-11e8-4d0c-ad2a-b385395e27db"
