@@ -1,11 +1,11 @@
 {
 	"package-id": "hl7.fhir.us.ph-library",
-	"version": "2.0.0-snapshot",
-	"path": "http://hl7.org/fhir/us/ph-library/2.0.0-snapshot",
-	"mode": "working",
+	"version": "2.0.0",
+	"path": "http://hl7.org/fhir/us/ph-library/2.0.0",
+	"mode": "milestone",
 	"status": "trial-use",
 	"sequence": "STU 2",
-	"desc": "Pre-publication snapshot of STU 2 for Public Health Library, align with USCDI+ Public Health Case Reporting Use Case data elements and update to US Core 6.1.0",
+	"desc": "STU 2 of the Public Health Profiles Library, aligns with USCDI+ Public Health Case Reporting Use Case data elements and updates to US Core 6.1.0",
 	"first": false,
 	"changes": "change-log.html"
 }
