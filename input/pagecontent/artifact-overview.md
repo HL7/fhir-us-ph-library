@@ -55,7 +55,6 @@ Extensions defining what data about entities is exchanged.
 * [US Public Health Determination of Reportability Extension](StructureDefinition-us-ph-determination-of-reportability-extension.html)
 * [US Public Health Determination of Reportability Reason Extension](StructureDefinition-us-ph-determination-of-reportability-reason-extension.html)
 * [US Public Health Determination of Reportability Rule Extension](StructureDefinition-us-ph-determination-of-reportability-rule-extension.html)
-* [US Public Health Information Recipient Extension](StructureDefinition-us-ph-information-recipient-extension.html)
 * [US Public Health Initiation Reason Extension](StructureDefinition-us-ph-initiation-reason-extension.html)
 * [US Public Health Receiver Address Extension](StructureDefinition-us-ph-receiver-address-extension.html)
 * [US Public Health Initiation Type Extension](StructureDefinition-us-ph-report-initiation-type-extension.html)

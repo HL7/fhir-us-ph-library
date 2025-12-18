@@ -5,7 +5,7 @@ Description: "US Public Health Composition: Eve Everywoman example"
 Usage: #example
 * extension[0].url = "http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber"
 * extension[=].valueString = "1"
-* extension[+].url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-information-recipient-extension"
+* extension[+].url = "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/information-recipient-extension"
 * extension[=].valueReference.reference = "PractitionerRole/us-ph-practitionerrole-henry-seven"
 * extension[+].url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-initiation-reason-extension"
 * extension[=].valueString = "Suspicion of Zika"

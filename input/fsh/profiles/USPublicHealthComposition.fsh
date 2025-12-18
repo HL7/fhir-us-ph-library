@@ -9,8 +9,8 @@ Description: "This Composition profile represents a public health composition."
 // * extension ^slicing.discriminator.type = #value
 // * extension ^slicing.discriminator.path = "url"
 // * extension ^slicing.rules = #open
-* extension contains
-    USPublicHealthInformationRecipientExtension named extensionInformationRecipient 0..* MS
+// * extension contains
+//     USPublicHealthInformationRecipientExtension named extensionInformationRecipient 0..* MS
 * extension[R5-Composition-version] 1..1
 * extension[R5-Composition-version] ^short = "Public Health Composition versionNumber"
 * extension[R5-Composition-version] ^definition = "Public Health Composition versionNumber. This is equivalent to ClinicalDocument.versionNumber in CDA. The identifier of the containing Bundle is equivalent to ClinicalDocument.id in CDA and Composition.identifier is equivalent to ClinicalDocument.setId in CDA. This is a version specific identifier for the composition, assigned when each version is created/updated.\n\nWhile each resource, including the composition itself, has its own version identifier, this is a formal identifier for the logical version of the composition as a whole. It would remain constant if the resources were moved to a new server, and all got new individual resource versions, for example."
