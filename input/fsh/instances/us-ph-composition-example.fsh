@@ -13,6 +13,7 @@ Usage: #example
 * status = #final
 * type = $loinc#55751-2 "Public Health Case Report"
 * category = $loinc#107903-7 "Clinical note"
+* category.text = "Clinical note"
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"
 * encounter.reference = "Encounter/us-ph-encounter-eve-everywoman-outpatient"
