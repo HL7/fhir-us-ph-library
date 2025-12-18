@@ -39,14 +39,23 @@ Description: "This Composition profile represents a public health composition."
 // * title MS
 * custodian ^short = "Custodian Organization Address, Custodian Organization Id, Custodian Organization Name, Custodian Organization Telecom (contained in referenced US Public Health Organization)"
 * custodian only Reference(USPublicHealthOrganization)
-* custodian MS
-* relatesTo MS
-* relatesTo ^slicing.discriminator.type = #value
-* relatesTo ^slicing.discriminator.path = "code"
-* relatesTo ^slicing.rules = #open
+// * custodian MS
+// * relatesTo MS
+// * relatesTo ^slicing.discriminator.type = #value
+// * relatesTo ^slicing.discriminator.path = "code"
+// * relatesTo ^slicing.rules = #open
+// * relatesTo contains
+//     transformed 0..1 MS and
+//     replaced 0..1 MS
 * relatesTo contains
-    transformed 0..1 MS and
-    replaced 0..1 MS
+    transformed 0..1 MS
+* relatesTo[replaced_document] ^short = "Document or Composition that this Composition replaces"
+* relatesTo[replaced_document] ^definition = "Document or Composition that this Composition replaces"
+// * relatesTo[replaced].code = #replaces (exactly)
+// * relatesTo[replaced].code MS
+// * relatesTo[replaced].target[x] MS
+* relatesTo[replaced_document].target[x] ^short = "Identifier/Reference to the Document or Composition replaced"
+* relatesTo[replaced_document].target[x] ^definition = "Identifier/Reference to the Document or Composition replaced"
 * relatesTo[transformed] ^short = "Document or Composition that this Composition is transformed from"
 * relatesTo[transformed] ^definition = "Document of Composition that this Composition is transformed from"
 * relatesTo[transformed].code = #transforms (exactly)
@@ -55,10 +64,3 @@ Description: "This Composition profile represents a public health composition."
 // * relatesTo[transformed].target[x] MS
 * relatesTo[transformed].target[x] ^short = "Identifier of the Document or Composition transformed"
 * relatesTo[transformed].target[x] ^definition = "Identifier of the Document or Composition transformed"
-* relatesTo[replaced_document] ^short = "Document or Composition that this Composition replaces"
-* relatesTo[replaced_document] ^definition = "Document or Composition that this Composition replaces"
-// * relatesTo[replaced].code = #replaces (exactly)
-// * relatesTo[replaced].code MS
-// * relatesTo[replaced].target[x] MS
-* relatesTo[replaced_document].target[x] ^short = "Identifier/Reference to the Document or Composition replaced"
-* relatesTo[replaced_document].target[x] ^definition = "Identifier/Reference to the Document or Composition replaced"
