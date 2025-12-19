@@ -3,12 +3,13 @@ InstanceOf: USPublicHealthComposition
 Title: "US Public Health Composition - Eve Everywoman"
 Description: "US Public Health Composition: Eve Everywoman example"
 Usage: #example
-* extension[0].url = "http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber"
-* extension[=].valueString = "1"
-* extension[+].url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-initiation-reason-extension"
+
+* extension[0].url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-initiation-reason-extension"
 * extension[=].valueString = "Suspicion of Zika"
-* extension[information-recipient].extension[type].valueCodeableConcept = http://terminology.hl7.org/CodeSystem/v3-ParticipationType#PRCP "primary information recipient"
-* extension[information-recipient].extension[party].valueReference = Reference(PractitionerRole/us-ph-practitionerrole-henry-seven)
+* extension[+].extension[type].valueCodeableConcept = http://terminology.hl7.org/CodeSystem/v3-ParticipationType#PRCP "primary information recipient"
+* extension[=].extension[party].valueReference = Reference(PractitionerRole/us-ph-practitionerrole-henry-seven)
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber"
+* extension[=].valueString = "1"
 // * extension[+].url = "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/information-recipient-extension"
 // * extension[=].valueReference.reference = "PractitionerRole/us-ph-practitionerrole-henry-seven"
 * identifier.value = "c03eab8c-11e8-4d0c-ad2a-b385395e27db"
