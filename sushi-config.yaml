@@ -24,6 +24,7 @@ extension:
 jurisdiction: urn:iso:std:iso:3166#US
 
 dependencies:
+  hl7.fhir.extensions.r5: 4.0.1
   hl7.fhir.us.core:
     version: 6.1.0
     uri: http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core
