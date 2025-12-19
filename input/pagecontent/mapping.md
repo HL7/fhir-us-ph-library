@@ -1,7 +1,11 @@
 ### [USCDI+ Public Health Case Reporting](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_sub_domain&sys_id=d66045628745b95098e5edb90cbb350a&view=sp) to FHIR Profiles
-This table provides a crosswalk between USCDI+ Public Health Case Reporting (PHCR) use case data elements and their associated FHIR profiles. It maps each USCDI+ PHCR data element to its corresponding FHIR profile. This alignment supports the standardized exchange of health information across systems, promoting consistency and interoperability in healthcare data management and sharing.
+This table describes the relationship between the USCDI+ Public Health Case Reporting (PHCR) data elements and their corresponding representations in this implementation guide. Each USCDI+ element is mapped either to a specific data element within a US Public Health Profiles Library (USPHPL) profile or, where appropriate, to elements defined in related implementation guides, including [US Core](https://hl7.org/fhir/us/core/STU6.1/), [Occupational Data for Health (ODH)](https://hl7.org/fhir/us/odh/), and [Birth and Fetal Death Reporting (BFDR)](https://hl7.org/fhir/us/bfdr/). 
 
-Note: not all profiles and their data elements in this IG have corresponding USCDI+ data elements.
+Because public health data requirements span multiple domains and implementation guides, not all USCDI+ PH elements map solely to USPHPL profiles. In many cases, existing IGs already define authoritative structures that USPHPL reuses or references. The mappings shown here indicate where implementers should look to find the appropriate FHIR representation of each USCDI+ Public Health data element. 
+
+These mappings are informational and are intended to support consistent interpretation of USCDI+ requirements across implementation guides. They do not confer additional conformance requirements beyond those defined in the referenced profiles and IGs. 
+
+Note: Not all profiles and their data elements in this IG have corresponding USCDI+ data elements.
 
 <!-- <table border="1">
     <thead>

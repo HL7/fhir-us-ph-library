@@ -4,7 +4,7 @@ The US Public Health Profiles Library is revised and published in close conjunct
 
 #### USCDI+
 
-ASTP’s [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp) use case and FHIR USPHPL are complementary initiatives. USCDI+ defines the high-level data requirements, while USPHPL provides the detailed FHIR-based profiles needed to implement those requirements in practice. Mapping between the two is essential to support interoperability and consistent public health data exchange across the United States.
+The Assistant Secretary for Technology Policy's (ASTP) [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp) use case and FHIR USPHPL are complementary initiatives. USCDI+ defines the high-level data requirements, while USPHPL provides the detailed FHIR-based profiles needed to implement those requirements in practice. Mapping between the two is essential to support interoperability and consistent public health data exchange across the United States.
 
 Because FHIR requires structured implementation guidance, USCDI+ must be interpreted and translated into specific FHIR profiles and transactions.
 
@@ -15,7 +15,7 @@ Keep in mind:
 
 The evolution of USPHPL depends on community feedback. We encourage you to submit questions, suggestions, or proposed changes to the USPHPL specifications via the Propose a change link in the footer of each page.
 
-We also welcome requests for USCDI+ clarifications through the USCDI+ ONDEC process, as these insights will help inform future updates to FHIR USPHPL.
+We also welcome requests for USCDI+ clarifications through the USCDI+ public comment process, as these insights will help inform future updates to FHIR USPHPL.
 
 The [Mappings](mapping.html) page contains a table that defines the relationship between the USCDI+ Data Classes and Elements and USPHPL profiles.
 
@@ -49,7 +49,7 @@ The conformance verbs - **SHALL**, **SHOULD**, **MAY** - used in this guide are 
 
 The [artifacts summary](artifacts.html) page lists the US Public Health Profiles. The [StructureDefinitions]({{site.data.fhir.path}}structuredefinition.html) define the *minimum* elements, extensions, vocabularies and value sets which SHALL be present when using the profile.
 
-The Profile elements consist of both *Mandatory* and *Must Support* elements.  *Mandatory* elements are elements with an minimum cardinality of 1 (min=1). The base [FHIR Must Support]({{site.data.fhir.path}}profiling.html#mustsupport) guidance requires specifications to define exactly the support expected for profile elements labeled *Must Support*.  Many profiles in the US Public Health Library are based on US Core profiles and this library is dependent on, and will be instituted, in close conjunction with US Core. This IG will follow the guidance in [US Core Must Support Section]({{site.data.fhir.ver.hl7fhiruscore}}/must-support.html#presentation-of-must-support-and-mandatory-elements-in-the-formal-profile-views) which illustrates how these elements are displayed and defines the rules for interpreting profile elements and subelements labeled *Mandatory* and *Must Support* for requesters and responders.  
+The Profile elements consist of both *Mandatory* and *Must Support* elements.  *Mandatory* elements are elements with a minimum cardinality of 1 (min=1). The base [FHIR Must Support]({{site.data.fhir.path}}profiling.html#mustsupport) guidance requires specifications to define exactly the support expected for profile elements labeled *Must Support*.  Many profiles in the US Public Health Library are based on US Core profiles, and this library is dependent on, and will be instituted, in close conjunction with US Core. This IG will follow the guidance in [US Core Must Support Section]({{site.data.fhir.ver.hl7fhiruscore}}/must-support.html#presentation-of-must-support-and-mandatory-elements-in-the-formal-profile-views) which illustrates how these elements are displayed and defines the rules for interpreting profile elements and sub-elements labeled *Mandatory* and *Must Support* for requesters and responders.  
 
 ### Principles and Criteria of Library Inclusion and Use
 
@@ -80,7 +80,7 @@ A [US Public Health Profiles Library Variance Request Process](https://confluenc
 
 Implementation Guides may support (reuse) one or more US Public Health Profiles Library profiles to represent public health architecture and clinical information needs.
 
-The US Public Health Profile Library profiles have been developed and tested using logical FHIR ids. Therefore a reference to a US Public Health Profiles Library profile **SHOULD** include a logical id (Reference.reference), not an identifier (Reference.identifier).
+The US Public Health Profile Library profiles have been developed and tested using logical FHIR ids. Therefore, a reference to a US Public Health Profiles Library profile **SHOULD** include a logical id (Reference.reference), not an identifier (Reference.identifier).
 
 Implementation Guides that currently contain copies of the US Public Health Profiles are expected to replace those profiles with references to the analogous US Public Health Profiles Library profile during their next ballot/update cycle.
 
