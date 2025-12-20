@@ -209,7 +209,7 @@ Note: Not all profiles and their data elements in this IG have corresponding USC
             <td>Immunizations</td>
             <td>Vaccination Administration Date</td>
             <td><a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-immunization.html">US Core Immunization Profile</a></td>
-            <td>Immunization.occurence[x]</td>
+            <td>Immunization.occurrence[x]</td>
         </tr>
         <tr>
             <td>Intake Assessment</td>
@@ -401,7 +401,7 @@ Note: Not all profiles and their data elements in this IG have corresponding USC
             <td>Patient Demographics</td>
             <td>Email Address</td>
             <td><a href="StructureDefinition-us-ph-patient.html">US Public Health Patient</a></td>
-            <td>patient.telecom</td>
+            <td>Patient.telecom</td>
         </tr>
         <tr>
             <td>Patient Demographics</td>

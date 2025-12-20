@@ -95,7 +95,7 @@ This implementation guide (IG) builds on and aligns with several related FHIR im
    <tr>
     <td class="tg-zzem"><a href="https://hl7.org/fhir/uv/fhir-clinical-document/">FHIR Clinical Documents</a></td>
     <td class="tg-cly1">1.0.0</td>
-    <td class="tg-cly1">This FHIR IG is a starting point for a specification for a composition of a FHIR Clinical Document.</td>
+    <td class="tg-cly1">This FHIR IG is a starting point for a specification or a composition of a FHIR Clinical Document.</td>
   </tr>
 </tbody>
 </table>
