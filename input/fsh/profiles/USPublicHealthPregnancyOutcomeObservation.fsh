@@ -7,7 +7,8 @@ Description: "This Observation profile represents a result of the pregnancy such
 * . ^short = "US Public Health Pregnancy Outcome Observation"
 
 * category = $system-observation-category#social-history 
-* code = $loinc#63893-2 "Outcome of pregnancy"
+* code = $loinc#63893-2
+* code ^short = "Outcome of pregnancy"
 * subject only Reference(USPublicHealthPatient or USCorePatientProfile)
 * focus 1..1 MS
 * focus only Reference(USPublicHealthPregnancyStatusObservation)

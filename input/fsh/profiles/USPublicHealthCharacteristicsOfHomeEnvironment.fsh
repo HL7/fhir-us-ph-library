@@ -8,6 +8,7 @@ Description: "This profile represents characteristics of the patient's home envi
 
 * category = $system-us-core-category#sdoh 
 * code = $loinc#75274-1 "Characteristics of residence"
+* code ^short = "Characteristics of residence"
 * subject only Reference(USPublicHealthPatient or USCorePatientProfile)
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
