@@ -11,7 +11,7 @@ Usage: #example
 * extension[information-recipient].extension[type].valueCodeableConcept = http://terminology.hl7.org/CodeSystem/v3-ParticipationType#PRCP "primary information recipient"
 * extension[information-recipient].extension[party].valueReference = Reference(PractitionerRole/us-ph-practitionerrole-henry-seven)
 
-// * extension[R5-Composition-version].url = "http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber"
+* extension[R5-Composition-version].url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.version"
 * extension[R5-Composition-version].valueString = "1"
 // * extension[+].url = "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/information-recipient-extension"
 // * extension[=].valueReference.reference = "PractitionerRole/us-ph-practitionerrole-henry-seven"
