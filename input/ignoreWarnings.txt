@@ -158,3 +158,9 @@ Found multiple matching profiles for Patient/us-ph-patient-eve-everywoman among 
 
 # 25: This will be fixed in a later version of the IG Publisher (see: https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/Publisher.20v2.2E0.2E24.20-.20error.20in.20local.20build)
 No definition could be found for URL value 'http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters'
+
+# 26: This is generated IP Statement text 
+INFORMATION: en/downloads.html: The html source contains the word 'SHALL' but it is not in a text phrase marked as a conformance clause
+
+# 27: These are not conformance clauses, they are statements explaining what SHALL, SHOULD, and MAY mean
+INFORMATION: en/guidance.html: The html source contains the word 'SHALL' but it is not in a text phrase marked as a conformance clause

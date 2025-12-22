@@ -1,1 +1,1 @@
-It is based on the [US Public Health ValueSet](StructureDefinition-us-ph-valueset.html) and **SHALL** have a useContext type of triggering.
+It is based on the [US Public Health ValueSet](StructureDefinition-us-ph-valueset.html) and has a useContext type of triggering.
