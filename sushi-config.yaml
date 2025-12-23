@@ -46,7 +46,7 @@ dependencies:
     uri: http://hl7.org/fhir/uv/cql/ImplementationGuide/hl7.fhir.uv.cql
     id: hl7fhiruvcql
   hl7.fhir.uv.fhir-clinical-document:
-    version: 1.0.0
+    version: current
     uri: http://hl7.org/fhir/uv/fhir-clinical-document/ImplementationGuide/hl7.fhir.uv.fhir-clinical-document
     id: hl7fhiruvfhirclinicaldocument
 

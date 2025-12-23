@@ -1,4 +1,4 @@
-It adds extensions defined in the [FHIR Clinical Document Composition Profile]({{site.data.fhir.ver.hl7fhiruvfhirclinicaldocument}}/StructureDefinition-clinical-document-composition.html).
+It is based on the [FHIR Clinical Document Composition Profile]({{site.data.fhir.ver.hl7fhiruvfhirclinicaldocument}}/StructureDefinition-clinical-document-composition.html) and further constrains it.
 
 ### Represented USCDI+ Data Elements
 
