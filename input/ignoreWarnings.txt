@@ -1,24 +1,20 @@
 == Suppressed Messages ==
-# 01: This extension is deprecated because R5 Composition has a version element which should be used instead, but this is an R4 IG so the new element is not available
-The extension http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber|5.2.0 is deprecated
 
-# 02: External value sets/code systems - these codes have all been checked and are valid
+# 01: External value sets/code systems - these codes have all been checked and are valid
 A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/umls' could not be found, so the code cannot be validated
 A definition for CodeSystem 'urn:oid:1.0.3166.1' could not be found, so the code cannot be validated
 A definition for CodeSystem 'urn:oid:2.16.840.1.114222.4.5.232' could not be found, so the code cannot be validated
 A definition for CodeSystem 'urn:oid:2.16.840.1.114222.4.5.274' could not be found, so the code cannot be validated
-A definition for CodeSystem 'urn:oid:2.16.840.1.114222.4.5.274' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.3|1' because the code system urn:oid:2.16.840.1.114222.4.5.274 was not found
-Unable to check whether the code is in the value set 'http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.3|1' because the code system urn:oid:2.16.840.1.114222.4.5.274 was not found
 Resolved system http://terminology.hl7.org/CodeSystem/umls (v2.0.1), but the definition doesn't include any codes, so the code has not been validated
 The definition for the Code System with URI 'urn:oid:2.16.840.1.113883.6.238' doesn't provide any codes so the code cannot be validated
 
-# 03: US Core 6.1.0 is the version that is cited in regulation for 2026, the next release of the US Public Health Profiles Library will move to the next cited release of US Core
+# 02: US Core 6.1.0 is the version that is cited in regulation for 2026, the next release of the US Public Health Profiles Library will move to the next cited release of US Core
 The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 8.0.1. This reference is getting old and the more recent version should be considered
 
-# 04: Use of the Extension: Max value set is inherited from the base FHIR v4.0.1 Observation resource on the Observation.language.binding.extension
+# 03: Use of the Extension: Max value set is inherited from the base FHIR v4.0.1 Observation resource on the Observation.language.binding.extension
 INFORMATION: StructureDefinition/us-ph-characteristics-of-home-environment: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 
-# 05: Inherited from US Core Slicing
+# 04: Inherited from US Core Slicing
 INFORMATION: StructureDefinition/us-ph-characteristics-of-home-environment: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
 INFORMATION: StructureDefinition/us-ph-characteristics-of-home-environment: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/us-ph-chief-complaint-observation: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
@@ -53,10 +49,10 @@ INFORMATION: StructureDefinition/us-ph-organization: StructureDefinition.snapsho
 WARNING: StructureDefinition/us-ph-organization: StructureDefinition.snapshot: The slice 'CLIA' on path 'Organization.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
 WARNING: StructureDefinition/us-ph-organization: StructureDefinition.snapshot: The slice 'NAIC' on path 'Organization.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
 
-# 06: Inherited from US Core
+# 05: Inherited from US Core
 INFORMATION: StructureDefinition/us-ph-patient: StructureDefinition.snapshot.element[141].type[0].extension[1]: The extension http://hl7.org/fhir/StructureDefinition/regex|5.2.0 is deprecated with the note: 'This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex'
 
-# 07: These are the correct pinned versions
+# 06: These are the correct pinned versions
 Pinned the version of http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1010.4 to 20240606 from choices of 20170601 (us.nlm.vsac#0.11.0), 20240606 (us.nlm.vsac#0.23.0)
 Pinned the version of http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.30 to 20240605 from choices of 20190418 (us.nlm.vsac#0.11.0), 20240605 (us.nlm.vsac#0.23.0)
 Pinned the version of http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.49 to 20240823 from choices of 20201101 (us.nlm.vsac#0.11.0), 20240823 (us.nlm.vsac#0.23.0)
@@ -73,7 +69,6 @@ Pinned the version of http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.1
 Pinned the version of http://hl7.org/fhir/StructureDefinition/artifact-author to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 5.1.0 (hl7.fhir.uv.extensions.r4#5.1.0), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
 Pinned the version of http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 5.1.0 (hl7.fhir.uv.extensions.r4#5.1.0), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
 Pinned the version of http://hl7.org/fhir/StructureDefinition/artifact-versionPolicy to 5.2.0 from choices of 5.1.0 (hl7.fhir.uv.extensions.r4#5.1.0), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
-Pinned the version of http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.1.0 (hl7.fhir.uv.extensions.r4#5.1.0), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
 Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.1.0 (hl7.fhir.uv.extensions.r4#5.1.0), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
 Pinned the version of http://hl7.org/fhir/StructureDefinition/cqf-artifactComment to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 5.1.0 (hl7.fhir.uv.extensions.r4#5.1.0), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
 Pinned the version of http://hl7.org/fhir/StructureDefinition/cqf-expansionParameters to 5.2.0 from choices of 5.1.0 (hl7.fhir.uv.extensions.r4#5.1.0), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
@@ -87,11 +82,11 @@ Pinned the version of http://terminology.hl7.org/ValueSet/v3-ActEncounterCode to
 Pinned the version of http://terminology.hl7.org/ValueSet/v3-ActPriority to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
 Pinned the version of http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
 
-# 08: US PH Composition does not define any specific slices - examples show slices that are not defined in the profile - not matching is expected behavior
+# 07: US PH Composition does not define any specific slices - examples show slices that are not defined in the profile - not matching is expected behavior
 INFORMATION: Bundle/us-ph-document-bundle-example: Bundle.entry[0].resource.extension[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-composition|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Composition/us-ph-composition-example: Composition.extension[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-composition|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
-# 09: US PH Document Bundle defines a specific entry slice - examples show slices that are not defined in the profile - not matching is expected behavior
+# 08: US PH Document Bundle defines a specific entry slice - examples show slices that are not defined in the profile - not matching is expected behavior
 INFORMATION: Bundle/us-ph-document-bundle-example: Bundle.entry[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Bundle/us-ph-document-bundle-example: Bundle.entry[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Bundle/us-ph-document-bundle-example: Bundle.entry[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
@@ -100,47 +95,34 @@ INFORMATION: Bundle/us-ph-document-bundle-example: Bundle.entry[5]: This element
 INFORMATION: Bundle/us-ph-document-bundle-example: Bundle.entry[6]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Bundle/us-ph-document-bundle-example: Bundle.entry[7]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-document-bundle|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
-# 10: US PH Reporting Bundle defines specific entry slices - examples show slices that are not defined in the profile - not matching is expected behavior
+# 09: US PH Reporting Bundle defines specific entry slices - examples show slices that are not defined in the profile - not matching is expected behavior
 INFORMATION: Bundle/us-ph-reporting-bundle-example: Bundle.entry[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-reporting-bundle|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Bundle/us-ph-reporting-bundle-example: Bundle.entry[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-reporting-bundle|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
-# 11: US PH Value Set defines specific useContext slices - examples show slices that are not defined in the profile - not matching is expected behavior
+# 10: US PH Value Set defines specific useContext slices - examples show slices that are not defined in the profile - not matching is expected behavior
 INFORMATION: Bundle/us-ph-specification-bundle-example: Bundle.entry[1].resource.useContext[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset|2.0.0
 INFORMATION: ValueSet/us-ph-valueset-chlamydia-example: ValueSet.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-valueset|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
-# 12: US PH MessageHeader defines specific extension slices - examples show extension that are not defined in the profile - not matching is expected behavior
+# 11: US PH MessageHeader defines specific extension slices - examples show extension that are not defined in the profile - not matching is expected behavior
 INFORMATION: Bundle/us-ph-response-bundle-example: Bundle.entry[0].resource.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-messageheader|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: MessageHeader/us-ph-messageheader-response: MessageHeader.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-messageheader|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
-# 13: US PH Computable Library defines specific content slices - examples show slices that are not defined in the profile - not matching is expected behavior
-INFORMATION: Library/cql-library-rule-filters: Library.content[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-library|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-
-# 14: US PH Executable Library defines specific content slices - examples show slices that are not defined in the profile - not matching is expected behavior
-INFORMATION: Library/cql-library-rule-filters: Library.content[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-library|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-
-# 15: US PH Response Bundle defines specific entry slices - examples show slices that are not defined in the profile - not matching is expected behavior
+# 12: US PH Response Bundle defines specific entry slices - examples show slices that are not defined in the profile - not matching is expected behavior
 INFORMATION: Bundle/us-ph-response-bundle-example: Bundle.entry[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-response-bundle|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
-# 16: US PH Computable ValueSet defines specific extension slices - examples show slices that are not defined in the profile - not matching is expected behavior
-INFORMATION: ValueSet/us-ph-valueset-computable-example: ValueSet.extension[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-computable-valueset|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-
-# 17: US PH Executable ValueSet defines specific extension slices - examples show slices that are not defined in the profile - not matching is expected behavior
-INFORMATION: ValueSet/us-ph-valueset-executable-chlamydia-example: ValueSet.extension[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-executable-valueset|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-
-# 18: US PH Supplemental ValueSet defines specific extension slices - examples show slices that are not defined in the profile - not matching is expected behavior
+# 13: US PH Supplemental ValueSet defines specific extension slices - examples show slices that are not defined in the profile - not matching is expected behavior
 INFORMATION: ValueSet/us-ph-valueset-supplemental-example: ValueSet.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-supplemental-valueset|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
-# 19: US PH Triggering ValueSet defines specific extension slices - examples show slices that are not defined in the profile - not matching is expected behavior
+# 14: US PH Triggering ValueSet defines specific extension slices - examples show slices that are not defined in the profile - not matching is expected behavior
 INFORMATION: ValueSet/us-ph-valueset-triggering-chlamydia-example: ValueSet.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-triggering-valueset|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
-# 20: US Public Health Exposure Contact Information defines specific (optional) code slices - examples have slices that are not defined in the profile
-INFORMATION: Observation/us-ph-exposure-contact-info-football-game: Observation.code.coding[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-exposure-contact-information|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+# 15: US Public Health Exposure Contact Information defines specific (optional) code slices - examples have slices that are not defined in the profile
 INFORMATION: Observation/us-ph-exposure-contact-info-redhill: Observation.code.coding[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-exposure-contact-information|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
-# 21: These extensions are the structuredefinition-wg and the structuredefiniton-standards-status extensions - they are not defined in the crmi-shareablevalueset profile but hae been intentionally added
+# 16: These extensions are the structuredefinition-wg and the structuredefiniton-standards-status extensions - they are not defined in the crmi-shareablevalueset profile but hae been intentionally added
 This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
-# 22: TSMG granted exceptions for these code systems - see minutes: https://confluence.hl7.org/spaces/TSMG/pages/358879370/2025-06-30+TSMG+Agenda+and+Minutes
+# 17: TSMG granted exceptions for these code systems - see minutes: https://confluence.hl7.org/spaces/TSMG/pages/358879370/2025-06-30+TSMG+Agenda+and+Minutes
 INFORMATION: CodeSystem/us-ph-codesystem-message-types: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 INFORMATION: CodeSystem/us-ph-codesystem-plandefinition-actions: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 INFORMATION: CodeSystem/us-ph-codesystem-report-initiation-types: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
@@ -149,18 +131,15 @@ INFORMATION: CodeSystem/us-ph-codesystem-usage-context: CodeSystem: Most code sy
 INFORMATION: CodeSystem/us-ph-codesystem-usage-context-type: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 INFORMATION: CodeSystem/us-ph-codesystem-valueset-use-context: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 
-# 23: This error is coming from the URL checking but is in inherited content. The link is valid, but is to published content in the currently published CRMI spec
-ERROR: PlanDefinition.extension: The reference http://hl7.org/fhir/ValueSet/version-algorithm could not be resolved
-
-# 24: us-ph-patient is based on and further constrains us-core-patient so multiple matches are expected
+# 18: us-ph-patient is based on and further constrains us-core-patient so multiple matches are expected
 Found multiple matching profiles for Patient/us-ph-patient-eve-everywoman-inline among choices: http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|6.1.0, http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient|2.0.0
 Found multiple matching profiles for Patient/us-ph-patient-eve-everywoman among choices: http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|6.1.0, http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient|2.0.0
 
-# 25: This will be fixed in a later version of the IG Publisher (see: https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/Publisher.20v2.2E0.2E24.20-.20error.20in.20local.20build)
+# 19: This will be fixed in a later version of the IG Publisher (see: https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/Publisher.20v2.2E0.2E24.20-.20error.20in.20local.20build)
 No definition could be found for URL value 'http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters'
 
-# 26: This is generated IP Statement text 
+# 20: This is generated IP Statement text 
 INFORMATION: en/downloads.html: The html source contains the word 'SHALL' but it is not in a text phrase marked as a conformance clause
 
-# 27: These are not conformance clauses, they are statements explaining what SHALL, SHOULD, and MAY mean
+# 21: These are not conformance clauses, they are statements explaining what SHALL, SHOULD, and MAY mean
 INFORMATION: en/guidance.html: The html source contains the word 'SHALL' but it is not in a text phrase marked as a conformance clause
