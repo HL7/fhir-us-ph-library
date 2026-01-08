@@ -82,8 +82,6 @@ Implementation Guides may support (reuse) one or more US Public Health Profiles 
 
 The US Public Health Profile Library profiles have been developed and tested using logical FHIR ids. Therefore, a reference to a US Public Health Profiles Library profile **SHOULD** include a logical id (Reference.reference), not an identifier (Reference.identifier).
 
-Implementation Guides that currently contain copies of the US Public Health Profiles are expected to replace those profiles with references to the analogous US Public Health Profiles Library profile during their next ballot/update cycle.
-
 ### Naming Conventions
 
 USPHPL profiles are indicated by the prefix "US Public Health" in the Resource Profile name, by the prefix "USPublicHealth" in the Computable Name, and the prefix "us-ph" in the official url. For example, the USPHPL profile of patient:
