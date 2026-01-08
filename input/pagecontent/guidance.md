@@ -37,13 +37,13 @@ Several of the terminology profiles in this guide are based on [Canonical Resour
 
 ### Work Information
 
-This library does not include profiles to implement support for Occupational Data for Health (ODH). Use the profiles defined in [US Core]({{site.data.fhir.ver.hl7fhiruscore}}) and [Occupational Data for Health (ODH)](http://hl7.org/fhir/us/odh/) to describe structured work information primarily designed to facilitate clinical care, including population health and value-based care. ODH also can be used to support public health reporting. See also: * [Mappings](mapping.html)
+This library does not include profiles to implement support for Occupational Data for Health (ODH). Use the profiles defined in [US Core]({{site.data.fhir.ver.hl7fhiruscore}}) and [Occupational Data for Health (ODH)](http://hl7.org/fhir/us/odh/) to describe structured work information primarily designed to facilitate clinical care, including population health and value-based care. ODH also can be used to support public health reporting. See also: [Mappings](mapping.html)
 
 ### Conformance
 
 #### Conformance Verbs
 
-The conformance verbs - **SHALL**, **SHOULD**, **MAY** - used in this guide are defined in ({{site.data.fhir.path}}conformance-rules.html)[FHIR Conformance Rules].
+The conformance verbs - **SHALL**, **SHOULD**, **MAY** - used in this guide are defined in [{{site.data.fhir.path}}conformance-rules.html](FHIR Conformance Rules).
 
 #### US Public Health Profiles Library Conformance Artifacts
 
@@ -57,7 +57,7 @@ The Profile elements consist of both *Mandatory* and *Must Support* elements.  *
 
 1. New profiles, that are not based on US Core, will only be included in the US Public Health Profiles Library when there is a clear public health need (see [Profile Inclusion Criteria](guidance.html#profile-inclusion-criteria) below)
 2. Similarly, new public health FHIR US Realm implementation guides (i.e. FHIR implementation guides sponsored by the HL7 Public Health Work Group) will not create new profiles that are not based on the US Public Health Profiles Library without the approval of the HL7 Public Health Work Group
-3. The HL7 Public Health Work Group, the HL7 FHIR Management Group, and FHIR QA Tooling will enforce the principles above and criteria below
+3. The HL7 Public Health Work Group, the HL7 FHIR Management Group, and the FHIR IG Publisher tool will enforce the principles above and criteria below
 
 #### Profile Inclusion Criteria 
 

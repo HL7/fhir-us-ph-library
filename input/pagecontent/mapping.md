@@ -328,7 +328,7 @@ Note: Not all profiles and their data elements in this IG have corresponding USC
         <tr>
             <td>Medications</td>
             <td>Medications</td>
-            <td><a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-medication.html">US Core MedicationRequest</a></td>
+            <td><a href="{{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-medicationrequest.html">US Core MedicationRequest</a></td>
             <td>MedicationRequest.medication[x]</td>
         </tr>
         <tr>
@@ -682,19 +682,19 @@ Note: Not all profiles and their data elements in this IG have corresponding USC
         <tr>
             <td>Work Information</td>
             <td>Occupational Exposure/Hazard</td>
-            <td><a href="http://hl7.org/fhir/us/odh/StructureDefinition/odh-PastOrPresentJob.html">Past or Present Job</a></td>
+            <td><a href="https://hl7.org/fhir/us/odh/StructureDefinition-odh-PastOrPresentJob.html">Past or Present Job (ODH)</a></td>
             <td>Observation.component:odh-OccupationalHazard</td>
         </tr>
         <tr>
             <td>Work Information</td>
             <td>Usual Industry</td>
-            <td><a href="https://hl7.org/fhir/us/odh/StructureDefinition-odh-UsualWork.html">Usual Work</a></td>
+            <td><a href="https://hl7.org/fhir/us/odh/StructureDefinition-odh-UsualWork.html">Usual Work (ODH)</a></td>
             <td>Observation.component:odh-UsualIndustry</td>
         </tr>
         <tr>
             <td>Work Information</td>
             <td>Usual Occupation</td>
-            <td><a href="https://hl7.org/fhir/us/odh/StructureDefinition-odh-UsualWork.html">Occupational Data For Health</a></td>
+            <td><a href="https://hl7.org/fhir/us/odh/StructureDefinition-odh-UsualWork.html">Usual Work (ODH)</a></td>
             <td>Observation.valueCodeableConcept</td>
         </tr>
     </tbody>
