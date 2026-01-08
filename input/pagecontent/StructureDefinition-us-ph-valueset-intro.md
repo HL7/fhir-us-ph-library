@@ -1,4 +1,4 @@
-It is based on the [CRMI Shareable ValueSet]({{site.data.fhir.ver.hl7fhiruvcrmi}}StructureDefinition-crmi-shareablevalueset.html) profile and futher constrains it as follows:
+It is based on the [CRMI Shareable ValueSet]({{site.data.fhir.ver.hl7fhiruvcrmi}}/StructureDefinition-crmi-shareablevalueset.html) profile and futher constrains it as follows:
 * adds the base FHIR extension for for the ValueSet author
 * adds must support identifier
 * adds slices for useContext

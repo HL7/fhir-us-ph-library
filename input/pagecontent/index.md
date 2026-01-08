@@ -3,30 +3,21 @@ This STU 2 update to the US Public Health Profiles Library aligns with [US Core 
 
 ### Overview
 
-The US Public Health Profiles Library (USPHPL) is a collection of reusable architecture and content profiles representing common public health concepts and patterns. It aligns with the [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp) Public Health initiative and is intended as a complement to the [US Core Implementation Guide 6.1.0 (US Core)](https://hl7.org/fhir/us/core/STU6.1/) to ease implementation burden of healthcare organizations, electronic health record companies, public health agencies, and others involved in the US public health endeavor. 
+The US Public Health Profiles Library (USPHPL) is a collection of reusable architecture and content profiles representing common public health concepts and patterns. It aligns with the [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp) initiative and is intended as a complement to the [US Core Implementation Guide 6.1.0 (US Core)](https://hl7.org/fhir/us/core/STU6.1/) to ease implementation burden of healthcare organizations, electronic health record developers, public health agencies, and others involved in the US public health endeavor. 
 
-The [USCDI+](https://uscdiplus.healthit.gov/uscdiplus) Public Health use case dataset is designed to address core data and interoperability for public health needs in the United States, beyond the scope of [USCDI](https://www.healthit.gov/isp/united-states-core-data-interoperability-uscdi). USCDI+ for public health intends to establish a list of data elements that support public health transactions, use cases and related implementation guides for public health authorities across jurisdictions. The USCDI+ Public Health Case Reporting use case extends the USCDI standard to address the specific data needs of public health case reporting. It focuses on enabling the exchange of critical information from clinical providers to public health agencies to support case investigation and patient follow-up. 
+The [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp) use case dataset is designed to address core data and interoperability for public health needs in the United States, beyond the scope of [USCDI](https://www.healthit.gov/isp/united-states-core-data-interoperability-uscdi). USCDI+ for public health intends to establish a list of data elements that support public health transactions, use cases and related implementation guides for public health authorities across jurisdictions. The USCDI+ Public Health Case Reporting use case extends the USCDI standard to address the specific data needs of public health case reporting. It focuses on enabling the exchange of critical information from clinical providers to public health agencies to support case investigation and patient follow-up. 
 
 The US Public Health Profiles Library is instituted in close conjunction with US Core and has an analogous process for implementation, moderation, review, and approval. US Core profiles will be re-used wherever possible and profiles will only be added to the library that are required for common public health needs. The library will evolve over time including developing and informational profiles for public health use. 
 
-
-<!--
-The [USCDI+](https://uscdiplus.healthit.gov/uscdiplus) Public Health use case dataset is designed to address core data and interoperability for public health needs in the United States, beyond the scope of [USCDI](https://www.healthit.gov/isp/united-states-core-data-interoperability-uscdi). USCDI+ for public health intends to establish a list of data elements that support public health transactions, use cases and related implementation guides for public health authorities across jurisdictions. The USCDI+ Public Health Case Reporting use case extends the USCDI standard to address the specific data needs of public health case reporting. It focuses on enabling the exchange of critical information from clinical providers to public health agencies to support case investigation and patient follow-up.
-
-The US Public Health Profiles Library (USPHPL) is a collection of reusable architecture and content profiles representing common public health concepts and patterns. It aligns with the [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp) initiative and is intended as a complement to the [US Core Implementation Guide 6.1.0 (US Core)]({{site.data.fhir.ver.hl7fhiruscore}}) to ease implementation burden of healthcare organizations, electronic health record companies, public health agencies, and others involved in the US public health endeavor.
-
-The US Public Health Profiles Library is instituted in close conjunction with US Core and has an analogous process for implementation, moderation, review, and approval. US Core profiles will be re-used wherever possible, and profiles will only be added to the library that are required for common public health needs. The library will evolve over time including developing and informational profiles for public health use.
-
---> 
 ### Background
 
 After evaluation and harmonization analysis of large multi-condition and multi-use case public health projects including [Electronic Case Reporting (eCR)](http://hl7.org/fhir/us/ecr/), it was determined that there are many common elements shared across implementation guides (IGs). 
 
-To avoid defining the same profiles multiple times, we have created the US Public Health Profiles Library for use by Public Health and other FHIR standards development efforts to define appropriate FHIR profiles, value sets, etc., once, and allow them to be referenced by any implementation guides. This USPHPL provides a starting point and framework for inclusion in multiple implementation guides focused on the exchange of Public Health information to support interoperability among public health systems and reduce provider and implementer burden.
+To avoid defining the same profiles multiple times, we have created the US Public Health Profiles Library for use by Public Health and other FHIR standards development efforts to define appropriate FHIR profiles, value sets, etc., once, and allow them to be referenced by any implementation guides. This USPHPL provides a starting point and framework for inclusion in multiple implementation guides focused on the exchange of public health information to support interoperability among public health systems and reduce provider and implementer burden.
 
 ### Scope
 
-The short-term scope of this library includes elements common to the above-mentioned FHIR IGs and those contained in the [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp) Case Reporting use case. The longer-term scope includes analysis and inclusion of data elements from other Public Health use cases.
+The short-term scope of this library includes elements common to the above-mentioned FHIR IGs and those contained in the [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp) Case Reporting use case. The longer-term scope includes analysis and inclusion of data elements from other public pealth use cases.
 
 The USPHPL provides requirements and guidance for using FHIR for public health use cases. The profiles in this implementation guide will be used to meet the following objectives:
  * Encouraging consistent access and use of data for public health applications across organizations and between healthcare systems
@@ -43,7 +34,7 @@ This Guide is divided into several pages which are listed at the top of each pag
 * [Mappings](mapping.html): Mapping tables showing how each FHIR profile in the library corresponds to applicable USCDI+ Public Health data elements
 * [Downloads](downloads.html): Links to downloadable artifacts
 * [Artifact Index](artifacts.html): A list of the FHIR artifacts (profiles, examples, value sets, and code systems) defined as part of this guide
-* [Change Log](change-log.html): Changes between releases
+* [Change Log](change-log.html): A list of the changes made to this IG between releases
 
 ### Relationship to Other IGs
 

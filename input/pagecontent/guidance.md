@@ -21,7 +21,7 @@ The [Mappings](mapping.html) page contains a table that defines the relationship
 
 #### US Core
 
-If, in a US Core update, a US Core profile is added that duplicates the concepts represented in a US Public Health Profiles Library profile (e.g. due to [United States Core Data Interoperability (USCDI)](https://www.healthit.gov/isa/united-states-core-data-interoperability-uscdi) promotion) then, as long as there are no additional constraints needed, the US Public Health Profiles Library profile will be retired in favor of the US Core profile.
+If, in a US Core update, a US Core profile is added that duplicates the concepts represented in a US Public Health Profiles Library profile (e.g. due to [United States Core Data for Interoperability (USCDI)](https://www.healthit.gov/isa/united-states-core-data-interoperability-uscdi) promotion) then, as long as there are no additional constraints needed, the US Public Health Profiles Library profile will be retired in favor of the US Core profile.
 
 If a US Core update introduces new constraints to a US Core profile that duplicate constraints already present in a corresponding USPHPL profile (for example, the US Public Health Patient profile, which is based on the US Core Patient profile), then:
  * If all of the USPHPL-specific constraints are now fully represented in the updated US Core profile: the USPHPL profile will be retired in favor of the US Core profile.
@@ -31,9 +31,9 @@ The US Public Health Profiles Library will align with and incorporate updates fr
 
 The US Public Health Profiles Library will evolve over time to serve evolving USCDI+ Public Health use cases. 
 
-### CRMI
+### Canonical Resource Management Infrastructure (CRMI) Implementation Guide
 
-**TODO** Add guidance on using CRMI - require comformance to CQL Library Profile, CQL ELM Library Profile, CRMIPublishableLibrary profile. CRMIComputableValueSet profile, CRMIExpandedValueSet profile, CRMIPublishableValueSet etc.
+Several of the terminology profiles in this guide are based on [Canonical Resource Management Infrastructure (CRMI)]({{site.data.fhir.ver.hl7fhiruvcrmi}}) profiles.
 
 ### Work Information
 
@@ -49,28 +49,28 @@ The conformance verbs - **SHALL**, **SHOULD**, **MAY** - used in this guide are 
 
 The [artifacts summary](artifacts.html) page lists the US Public Health Profiles. The [StructureDefinitions]({{site.data.fhir.path}}structuredefinition.html) define the *minimum* elements, extensions, vocabularies and value sets which SHALL be present when using the profile.
 
-The Profile elements consist of both *Mandatory* and *Must Support* elements.  *Mandatory* elements are elements with a minimum cardinality of 1 (min=1). The base [FHIR Must Support]({{site.data.fhir.path}}profiling.html#mustsupport) guidance requires specifications to define exactly the support expected for profile elements labeled *Must Support*.  Many profiles in the US Public Health Library are based on US Core profiles, and this library is dependent on, and will be instituted, in close conjunction with US Core. This IG will follow the guidance in [US Core Must Support Section]({{site.data.fhir.ver.hl7fhiruscore}}/must-support.html#presentation-of-must-support-and-mandatory-elements-in-the-formal-profile-views) which illustrates how these elements are displayed and defines the rules for interpreting profile elements and sub-elements labeled *Mandatory* and *Must Support* for requesters and responders.  
+The Profile elements consist of both *Mandatory* and *Must Support* elements.  *Mandatory* elements are elements with a minimum cardinality of 1 (min=1). The base [FHIR Must Support]({{site.data.fhir.path}}profiling.html#mustsupport) guidance requires specifications to define exactly the support expected for profile elements labeled *Must Support*.  Many profiles in the US Public Health Profiles Library are based on US Core profiles, and this library is dependent on, and will be instituted, in close conjunction with US Core. This IG will follow the guidance in [US Core Must Support Section]({{site.data.fhir.ver.hl7fhiruscore}}/must-support.html#presentation-of-must-support-and-mandatory-elements-in-the-formal-profile-views) which illustrates how these elements are displayed and defines the rules for interpreting profile elements and sub-elements labeled *Mandatory* and *Must Support* for requesters and responders.  
 
 ### Principles and Criteria of Library Inclusion and Use
 
 #### Profile Reuse and Determination Principles
 
 1. New profiles, that are not based on US Core, will only be included in the US Public Health Profiles Library when there is a clear public health need (see [Profile Inclusion Criteria](guidance.html#profile-inclusion-criteria) below)
-2. Similarly, new public health FHIR US Realm implementation guides will not create new profiles that are not based on the US Public Health Library without the approval of the Public Health Working Group and notification of US Realm Steering Committee
-3. The Public Health Work Group, the FHIR Management Group, and FHIR QA Tooling (TBD) will enforce the principles above and criteria below
+2. Similarly, new public health FHIR US Realm implementation guides (i.e. FHIR implementation guides sponsored by the HL7 Public Health Work Group) will not create new profiles that are not based on the US Public Health Profiles Library without the approval of the HL7 Public Health Work Group
+3. The HL7 Public Health Work Group, the HL7 FHIR Management Group, and FHIR QA Tooling will enforce the principles above and criteria below
 
 #### Profile Inclusion Criteria 
 
-A Proposed Content or Architecture Profile Must Meet One or More of the Following Criteria for Inclusion in US Public Health Library
+A Proposed Content or Architecture Profile Must Meet One or More of the Following Criteria for Inclusion in US Public Health Profiles Library
 
 1. The profile concept is contained in an in-scope [USCDI+ Public Health](https://uscdiplus.healthit.gov/uscdiplus?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=bddf78228745b95098e5edb90cbb351f&view=sp) use case
 1. The profile concept is live in production and operations for three or more public health conditions/use cases and has been tested in at least one Connectathon
 2. The profile concept is captured and is in production use in at least one EHR or public health system
 3. The profile supports a nationally accepted approach based on proposed US regulations or multiple local, tribal, territorial, and states' laws, policies, rulemaking, or well-established practices.
 
-A [US Public Health Profiles Library Variance Request Process](https://confluence.hl7.org/spaces/PHWG/pages/184923975/US+Public+Health+Profiles+Library+Variance+Request+Process) modeled after the [US Core Variance process](https://confluence.hl7.org/display/CGP/US+Core+Variance+Request+Process) is instituted. The process strives for the automated identification of non-US Public Health Profiles Library profiles and their processing with the Public Health Work Group. The Public Health Work Group will review, discuss, and approve/deny variance requests at regularly scheduled work group calls/meetings.
+A [US Public Health Profiles Library Variance Request Process](https://confluence.hl7.org/spaces/PHWG/pages/184923975/US+Public+Health+Profiles+Library+Variance+Request+Process) modeled after the [US Core Variance process](https://confluence.hl7.org/display/CGP/US+Core+Variance+Request+Process) is instituted. The process strives for the automated identification of non-US Public Health Profiles Library profiles and their processing with the HL7 Public Health Work Group. The HL7 Public Health Work Group will review, discuss, and approve/deny variance requests at regularly scheduled work group calls/meetings.
 
-#### Related Responsibilities of the Public Health Working Group
+#### Related Responsibilities of the HL7 Public Health Work Group
 
 * Determine initial and subsequent population of profiles in the US Public Health Profiles Library
 * Review and approve variant profiles

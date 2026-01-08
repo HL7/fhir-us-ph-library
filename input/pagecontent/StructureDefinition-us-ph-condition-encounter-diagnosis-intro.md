@@ -4,7 +4,7 @@ It is based on the [US Core Condition Encounter Diagnosis Profile]({{site.data.f
 
 Notes: 
 * A suspected diagnosis is identified by the code used, e.g. 772152006 \| Measles suspected \| SNOMED CT
-* See {{site.data.fhir.ver.hl7fhiruscore}}StructureDefinition-us-core-condition-encounter-diagnosis.html#mandatory-and-must-support-data-elements for details about Date of Diagnosis
+* See {{site.data.fhir.ver.hl7fhiruscore}}/StructureDefinition-us-core-condition-encounter-diagnosis.html#mandatory-and-must-support-data-elements for details about Date of Diagnosis
 
 ### Represented USCDI+ Data Elements
 
