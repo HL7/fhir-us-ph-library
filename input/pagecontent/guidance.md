@@ -43,7 +43,7 @@ This library does not include profiles to implement support for Occupational Dat
 
 #### Conformance Verbs
 
-The conformance verbs - **SHALL**, **SHOULD**, **MAY** - used in this guide are defined in [{{site.data.fhir.path}}conformance-rules.html](FHIR Conformance Rules).
+The conformance verbs - **SHALL**, **SHOULD**, **MAY** - used in this guide are defined in [FHIR Conformance Rules]({{site.data.fhir.path}}conformance-rules.html).
 
 #### US Public Health Profiles Library Conformance Artifacts
 
