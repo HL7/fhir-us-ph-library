@@ -52,6 +52,7 @@ dependencies:
 
 parameters:
   show-inherited-invariants: false
+  path-binary: 'input/cql'
   path-expansion-params: '../../input/Parameters-expansion-parameters-us-ph.json'  #path is relative to [base]/fsh-generated/resources
   auto-oid-root: 2.16.840.1.113883.4.642.40.58
   pin-canonicals: pin-multiples

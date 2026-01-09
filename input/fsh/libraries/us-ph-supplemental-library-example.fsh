@@ -21,6 +21,6 @@ Usage: #example
 * purpose = "Purpose of library"
 * effectivePeriod.start = "2020-11-01"
 * relatedArtifact[0].type = #composed-of
-* relatedArtifact[=].resource = "http://hl7.org/fhir/us/ph-library/Library/cql-library-rule-filters"
+* relatedArtifact[=].resource = "http://hl7.org/fhir/us/ph-library/Library/RuleFilters"
 * relatedArtifact[+].type = #composed-of
 * relatedArtifact[=].resource = "http://hl7.org/fhir/us/ph-library/Library/us-ph-supplemental-valueset-library-example"
