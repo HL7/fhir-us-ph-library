@@ -194,7 +194,7 @@ Examples of the Terminologies profiles that show what data produced and consumed
 * [US Public Health CodeSystem - Jurisdiction Types Example](CodeSystem-us-ph-codesystem-jurisdiction-types-example.html)
 * [US Public Health CodeSystem - Jurisdictions Example](CodeSystem-us-ph-codesystem-jurisdictions-example.html)
 * [US Public Health CodeSystem - Properties Example](CodeSystem-us-ph-codesystem-properties-example.html)
-* [CQL Library - Rule Filters Example](Library-cql-library-rule-filters.html)
+* [CQL Library - Rule Filters Example](Library-RuleFilters.html)
 * [US Public Health Specification Library Example](Library-us-ph-specification-library-example.html)
 * [US Public Health Supplemental Library Example](Library-us-ph-supplemental-library-example.html)
 * [US Public Health Supplemental ValueSet Library Example](Library-us-ph-supplemental-valueset-library-example.html)
