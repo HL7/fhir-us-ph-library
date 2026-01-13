@@ -58,9 +58,9 @@ parameters:
   pin-canonicals: pin-multiples
   special-url:
     - http://example.org/fhir/CodeSystem/us-ph-codesystem-properties-example
-    - http://example.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-endpoint-connection-type-example
-    - http://example.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-jurisdictions-example
-    - http://example.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-jurisdiction-types-example
+    - http://example.org/fhir/CodeSystem/us-ph-codesystem-endpoint-connection-type-example
+    - http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdictions-example
+    - http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdiction-types-example
 
 license: CC0-1.0
 

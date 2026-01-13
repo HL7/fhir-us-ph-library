@@ -6,7 +6,7 @@ include FHIRHelpers version '4.0.1'
 
 codesystem "LOINC": 'http://loinc.org'
 codesystem "UsageContext": 'http://hl7.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-usage-context'
-codesystem "JurisdictionsList": 'http://example.org/fhir/CodeSystem/ersd-jurisdictions-example'
+codesystem "JurisdictionsList": 'http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdictions-example'
 
 // Overall triggering value sets, groupings of all condition-specific value sets, grouped by representation in the information model
 valueset "Diagnosis Trigger Codes": 'http://example.org/fhir/ValueSet/valueset-dxtc-example'

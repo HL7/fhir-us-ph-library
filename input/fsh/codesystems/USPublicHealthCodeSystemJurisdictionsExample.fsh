@@ -3,7 +3,7 @@ Id: us-ph-codesystem-jurisdictions-example
 Title: "US Public Health CodeSystem - Jurisdictions Example"
 Description: "This code system describes example jurisdictions."
 * ^meta.profile = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-codesystem"
-* ^url = "http://example.org/fhir/us/ph-library/CodeSystem/us-ph-codesystem-jurisdictions-example"
+* ^url = "http://example.org/fhir/CodeSystem/us-ph-codesystem-jurisdictions-example"
 
 * ^experimental = false
 

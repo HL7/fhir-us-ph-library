@@ -11,8 +11,8 @@ Usage: #example
 * extension[=].valueCode = #RSA384
 * url = "http://hl7.org/fhir/us/ph-library/PlanDefinition/us-ph-plandefinition-example"
 * version = "0.1"
-* name = "PlanDefinitionUSPublicHealthExample"
-* title = "PlanDefinition US Public Health Example"
+* name = "USPublicHealthPlanDefinitionExample"
+* title = "US Public Health PlanDefinition Example"
 * type = $plan-definition-type#workflow-definition "Workflow Definition"
 * status = #active
 * experimental = true

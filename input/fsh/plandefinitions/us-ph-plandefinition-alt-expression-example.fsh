@@ -106,13 +106,13 @@ Usage: #example
 * action[=].action[=].input[=].extension.valueString = "Condition?patient=Patient/{{context.patientId}}"
 * action[=].action[=].input[=].type = #Condition
 * action[=].action[=].input[=].codeFilter.path = "code"
-* action[=].action[=].input[=].codeFilter.valueSet = "http://example.org/fhir/us/ph-library/ValueSet/valueset-dxtc-example"
+* action[=].action[=].input[=].codeFilter.valueSet = "http://example.org/fhir/ValueSet/valueset-dxtc-example"
 * action[=].action[=].input[+].id = "encounters"
 * action[=].action[=].input[=].extension.url = "http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-relateddata-extension"
 * action[=].action[=].input[=].extension.valueString = "encounter"
 * action[=].action[=].input[=].type = #Encounter
 * action[=].action[=].input[=].codeFilter.path = "reasonCode"
-* action[=].action[=].input[=].codeFilter.valueSet = "http://example.org/fhir/us/ph-library/ValueSet/valueset-dxtc-example"
+* action[=].action[=].input[=].codeFilter.valueSet = "http://example.org/fhir/ValueSet/valueset-dxtc-example"
 * action[=].action[=].input[+].id = "immunizations"
 * action[=].action[=].input[=].extension.url = "http://hl7.org/fhir/StructureDefinition/cqf-fhirQueryPattern"
 * action[=].action[=].input[=].extension.valueString = "Immunization?patient=Patient/{{context.patientId}}"
