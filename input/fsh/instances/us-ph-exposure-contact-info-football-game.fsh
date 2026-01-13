@@ -8,7 +8,7 @@ Usage: #example
 * category[exposure] = $v3-ActClass#EXPOS "exposure"
 * category[exposure].text = "An interaction between entities that provides opportunity for transmission of a physical, chemical, or biological agent from an exposure source entity to an exposure target entity."
 * code.coding[exposureLocation].code = #285202004
-* code.coding[exposureLocation].system = $valueset-exposure-location
+* code.coding[exposureLocation].system = $sct
 * code.coding[exposureLocation].display = "Community environment (environment)"
 * code.text = "Mass gathering (football game)"
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
