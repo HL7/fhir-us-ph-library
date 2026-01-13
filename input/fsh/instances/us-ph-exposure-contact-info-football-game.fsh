@@ -7,9 +7,9 @@ Usage: #example
 * category[us-core] = $system-observation-category#social-history
 * category[exposure] = $v3-ActClass#EXPOS "exposure"
 * category[exposure].text = "An interaction between entities that provides opportunity for transmission of a physical, chemical, or biological agent from an exposure source entity to an exposure target entity."
-* code.coding[exposureSetting].code = #C3841750
-* code.coding[exposureSetting].system = $umls
-* code.coding[exposureSetting].display = "Mass gathering"
+* code.coding[exposureLocation].code = #285202004
+* code.coding[exposureLocation].system = $valueset-exposure-location
+* code.coding[exposureLocation].display = "Community environment (environment)"
 * code.text = "Mass gathering (football game)"
 * subject.reference = "Patient/us-ph-patient-eve-everywoman"
 * subject.display = "Eve Everywoman"

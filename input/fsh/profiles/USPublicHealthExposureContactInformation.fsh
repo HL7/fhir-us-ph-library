@@ -23,10 +23,8 @@ Description: "This Observation profile represents potential patient exposure and
 * code.coding ^slicing.rules = #open
 * code.coding ^short = "Each slice contains a suggested value set, but values are not restricted to these value sets."
 * code.coding contains 
-    exposureSetting 0..1 MS and
     exposureLocation 0..1 MS and
     exposureSocial 0..1 MS
-* code.coding[exposureSetting] from $valueset-exposure-setting (required)
 * code.coding[exposureLocation] from $valueset-exposure-location (required)
 * code.coding[exposureSocial] from $valueset-social-history-type (required)
 * subject only Reference(USPublicHealthPatient or USCorePatientProfile)
