@@ -162,3 +162,6 @@ WARNING: /scratch/repo/input/cql/RuleFilters.cql: Result type List of tuple of j
 WARNING: /scratch/repo/input/cql/RuleFilters.cql: Result type List of tuple of jurisdictionCode: code, definition: string, jurisdictionType: List of string, stateCode: List of code, postalCode: List of code of definition Jurisdiction Codes Relevant to Encounter Addresses is not supported; implementations may not be able to use the result of this expression
 WARNING: /scratch/repo/input/cql/RuleFilters.cql: Result type List of tuple of jurisdictionCode: code, definition: string, jurisdictionType: List of string, stateCode: List of code, postalCode: List of code of definition Jurisdiction Codes Relevant to Patient Addresses is not supported; implementations may not be able to use the result of this expression
 WARNING: /scratch/repo/input/cql/RuleFilters.cql: Result type List of choice<FHIR.MedicationRequest,FHIR.Observation,FHIR.Condition> of definition Suspected Disorders is not supported; implementations may not be able to use the result of this expression
+
+# 25: Acknowledged dependency update
+INFORMATION: /scratch/repo/fsh-generated/resources/PlanDefinition-us-ph-plandefinition-example.json: Artifact is using Using CQL 2.0+ package, but the implicitly loaded FHIR-ModelInfo. The artifact dependencies have been updated to use the Using CQL 2.0+ dependency.
