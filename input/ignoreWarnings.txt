@@ -139,11 +139,11 @@ Found multiple matching profiles for Patient/us-ph-patient-eve-everywoman among 
 # 20: This will be fixed in a later version of the IG Publisher (see: https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/Publisher.20v2.2E0.2E24.20-.20error.20in.20local.20build)
 No definition could be found for URL value 'http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters'
 
-# 21: This is generated IP Statement text 
-INFORMATION: en/downloads.html: The html source contains the word 'SHALL' but it is not in a text phrase marked as a conformance clause
+# 21: This is generated IP Statement text (Note: the PHIN VADS value set "Exposure Location" uses some Healthcare Provider Taxonomy (HIPAA) codes)
+The html source contains the word 'SHALL' but it is not in a text phrase marked as a conformance clause: 'This HL7 specification contains and references intellectual property owned by third parties ("Third Party IP"). Implementers and testers of this specification SHALL abide by the license requirements for each terminology content artifact utilized within a functioning implementation. Terminology licenses SHALL be obtained from the Third Party IP owner for each code system and/or other specified artifact used. It is the sole responsibility of each organization deploying or testing this specification to ensure their implementations comply with licensing requirements of each Third Party IP. Note this code system stub has been retired; there is incomplete and incorrect content, and possible IP restriction violation; it has been superceded. Show Usage Healthcare Provider Taxonomy HIPAA: USPublicHealthExposureContactInformation '
 
-# 22: These are not conformance clauses, they are statements explaining what SHALL, SHOULD, and MAY mean
-INFORMATION: en/guidance.html: The html source contains the word 'SHALL' but it is not in a text phrase marked as a conformance clause
+# 22: These are not conformance clauses, they are statements explaining what SHALL, SHOULD, and MAY mean (includes link to FHIR Conformance Rules)
+The html source contains the word 'SHALL' but it is not in a text phrase marked as a conformance clause: 'The conformance verbs - SHALL, SHOULD, MAY - used in this guide are defined in FHIR Conformance Rules.'
 
 # 23: Accepted warning regarding hiding an identifier, the benefit of using the same name outweighs the risk of scope confusion
 WARNING: /scratch/repo/input/cql/RuleFilters.cql: An operand identifier reference is hiding another identifier of the same name.
