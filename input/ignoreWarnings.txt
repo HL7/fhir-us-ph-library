@@ -120,7 +120,7 @@ INFORMATION: ValueSet/us-ph-valueset-triggering-chlamydia-example: ValueSet.exte
 # 16: US Public Health Exposure Contact Information defines specific (optional) code slices - examples have slices that are not defined in the profile
 INFORMATION: Observation/us-ph-exposure-contact-info-redhill: Observation.code.coding[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-exposure-contact-information|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
-# 17: These extensions are the structuredefinition-wg and the structuredefiniton-standards-status extensions - they are not defined in the crmi-shareablevalueset profile but hae been intentionally added
+# 17: These extensions are the structuredefinition-wg and the structuredefiniton-standards-status extensions - they are not defined in the crmi-shareablevalueset profile but have been intentionally added
 This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
 # 18: TSMG granted exceptions for these code systems - see minutes: https://confluence.hl7.org/spaces/TSMG/pages/358879370/2025-06-30+TSMG+Agenda+and+Minutes
@@ -136,7 +136,7 @@ INFORMATION: CodeSystem/us-ph-codesystem-valueset-use-context: CodeSystem: Most 
 Found multiple matching profiles for Patient/us-ph-patient-eve-everywoman-inline among choices: http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|6.1.0, http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient|2.0.0
 Found multiple matching profiles for Patient/us-ph-patient-eve-everywoman among choices: http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|6.1.0, http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-patient|2.0.0
 
-# 20: This will be fixed in a later version of the IG Publisher (see: https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/Publisher.20v2.2E0.2E24.20-.20error.20in.20local.20build)
+# 20: [ERROR] This will be fixed in a later version of the IG Publisher (see: https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/Publisher.20v2.2E0.2E24.20-.20error.20in.20local.20build)
 No definition could be found for URL value 'http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters'
 
 # 21: This is generated IP Statement text (Note: the PHIN VADS value set "Exposure Location" uses some Healthcare Provider Taxonomy (HIPAA) codes)
